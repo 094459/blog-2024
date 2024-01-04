@@ -2,7 +2,6 @@
 title: 'AWS open source newsletter #182'
 date: '2023-12-11'
 tags : [ oss-newsletter, aws open source,  Redis, Go, MLFlow, MySQL, PostgreSQL, MariaDB, dbt, OpenRewrite, Amazon Corretto, Amazon EMR, lakeFS, Apache Kafka, Memecached, Grafana, GraphQL, Code-OSS, Rust, Kotlin, FreeRTOS, Prometheus, Kubernetes, Amazon EKS, OpenZFS, OpenSearch, AWS Distro for OpenTelemetry, AWS CDK, Powertools for Lambda, Jupyter, cdk8s]
-canonicalUrl : "https://community.aws/"
 
 ---
 
