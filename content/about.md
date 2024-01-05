@@ -3,7 +3,6 @@ date: "2014-04-09"
 title: "About"
 ---
 
-![a picture of Ricardo Sueiras](https://assets.about.me/background/users/w/a/s/wasp_1630918562_691.jpg)
 
 ### About Me
 
