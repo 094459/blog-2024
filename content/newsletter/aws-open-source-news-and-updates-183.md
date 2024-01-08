@@ -213,9 +213,6 @@ Amazon MQ now provides support for RabbitMQ version 3.10.25, which includes seve
 Brian Granger's keynote at the Cassandra Summit explored our two fold strategy around open source software in AI/ML. First, AWS has built products that bring the innovation and value of open source software to customers, with a focus on making it easy for them to configure, deploy, operate and use open source software on AWS in a manner that is secure, reliable, and cost efficient. Second, AWS is participating in and contributing to open source software that customers care about, to ensure that software is sustainable, stable, and continually innovating. In this keynote, he shares three key open source projects in the AI/ML space and how we are working with them to make sure that our customers have the tools to accelerate their development with confidence.
 
 {{< youtube qKuqxM2O55s >}}
-{% youtube qKuqxM2O55s %}
-
-https://www.youtube.com/watch?v=qKuqxM2O55s
 
 **Deploy a SpringBoot 3 API on AWS Lambda in 10 minutes**
 
@@ -223,9 +220,6 @@ James Eastham is back with another video where he dives into deploying  a brand 
 
 
 {{< youtube HQQD4dndDpE >}}
-{% youtube HQQD4dndDpE %}
-
-https://www.youtube.com/watch?v=HQQD4dndDpE
 
 # Events for your diary
 
