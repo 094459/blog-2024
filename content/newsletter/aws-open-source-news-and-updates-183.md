@@ -11,7 +11,7 @@ Happy new year and welcome to the first edition of the AWS open source newslette
 
 As always, this week we start like other issues with a round up of some new projects for you to practice your four freedoms. We have a new message queuing library, an open source generative AI based developer chat tool, a serverless URL shortener, an Amazon S3 proxy, a nice tool that provides you with diff's when using AWS CDK, and more.
 
-As it has been a few weeks since our last edition, this week we have a bigger collection of content from you. It was hard to select these as there were so many great posts, but I have done my best and this week we feature content that includes Cedar, Project, Prometheus, Grafana, Kubernetes, Mage, OpenSearch, AWS CDK, eBPF, Istio, Kubecost, PostgreSQL, MySQL, MariaDB, ActiveMQ, Apache Airflow, Apache Spark, Ray, AWS Amplify, Spring Boot, Amazon EMR, AWS Neuron, Apache Cassandra, OpenTelemetry, Amazon Linux, AWS ParallelCluster, and RabbitMQ.
+As it has been a few weeks since our last edition, this week we have a bigger collection of content from you. It was hard to select these as there were so many great posts, but I have done my best and this week we feature content that includes Cedar, Projen, Prometheus, Grafana, Kubernetes, Mage, OpenSearch, AWS CDK, eBPF, Istio, Kubecost, PostgreSQL, MySQL, MariaDB, ActiveMQ, Apache Airflow, Apache Spark, Ray, AWS Amplify, Spring Boot, Amazon EMR, AWS Neuron, Apache Cassandra, OpenTelemetry, Amazon Linux, AWS ParallelCluster, and RabbitMQ.
 
 Before you dive into the newsletter, make sure you check out the important update next.
 
