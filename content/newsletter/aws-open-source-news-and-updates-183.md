@@ -1,7 +1,7 @@
 ---
 title: 'AWS open source newsletter #183'
 date: '2024-01-08'
-tags : [ oss-newsletter, aws open source,  Cedar, Project, Prometheus, Grafana, Kubernetes, Amazon EKS, Mage, OpenSearch, AWS CDK, eBPF, Istio, Kubecost, PostgreSQL, MySQL, MariaDB, ActiveMQ, Apache Airflow, MWAA, Apache Spark, Ray, AWS Amplify, Spring Boot, Amazon EMR, AWS Neuron, Apache Cassandra, OpenTelemetry, Amazon Linux, AWS ParallelCluster, RabbitMQ]
+tags : [ oss-newsletter, aws open source,  Cedar, Projen, Prometheus, Grafana, Kubernetes, Amazon EKS, Mage, OpenSearch, AWS CDK, eBPF, Istio, Kubecost, PostgreSQL, MySQL, MariaDB, ActiveMQ, Apache Airflow, MWAA, Apache Spark, Ray, AWS Amplify, Spring Boot, Amazon EMR, AWS Neuron, Apache Cassandra, OpenTelemetry, Amazon Linux, AWS ParallelCluster, RabbitMQ]
 canonicalUrl : "https://community.aws/content/2YwBFs7C8pmCo65sL0ViMeBUk1U/aws-open-source-newsletter-183?lang=en"
 ---
 
