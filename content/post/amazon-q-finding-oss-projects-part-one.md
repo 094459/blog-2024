@@ -2,7 +2,7 @@
 title: 'Writing simple Python scripts faster with Amazon Q'
 date: '2024-01-11'
 tags : [ Amazon Q]
-cannonicalurl : "https://community.aws/content/2aop9BhphR0eA8Y95CEuvrRXogq/writing-simple-python-scripts-faster-with-amazon-q"
+canonicalUrl : "https://community.aws/content/2aop9BhphR0eA8Y95CEuvrRXogq/writing-simple-python-scripts-faster-with-amazon-q"
 ---
 
 
