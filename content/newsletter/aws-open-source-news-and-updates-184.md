@@ -39,7 +39,7 @@ So thank you to the following open source heroes: Bervianto Leo Pratama, Rahul P
 
 [aws-pdk](https://aws-oss.beachgeek.co.uk/3jb) the AWS Project Development Kit (AWS PDK) is an open-source tool to help bootstrap and maintain cloud projects. It provides building blocks for common patterns together with development tools to manage and build your projects. The AWS PDK lets you define your projects programatically via the expressive power of type safe constructs available in one of 3 languages (typescript, python or java). Under the covers, AWS PDK is built on top of Projen. The AWS Bites Podcast provides an overview of the AWS Project Development Kit (PDK), and the hosts discuss what PDK is, how it can help generate boilerplate code and infrastructure, keep configuration consistent across projects, and some pros and cons of using a tool like this versus doing it manually.
 
-{{< youtube zcsKORL-nXc&t >}}
+{{< youtube zcsKORL-nXc >}}
 
 **aws-organizations-tag-inventory**
 
