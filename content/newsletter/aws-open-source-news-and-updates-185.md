@@ -2,7 +2,7 @@
 title: 'AWS open source newsletter #185'
 date: '2024-01-22'
 tags : [ oss-newsletter, aws open source, Redis, Backstage, AWS CDK, Kubernetes, Amazon EKS, Amazon Corretto, SnapStart, Dash, FluxCD, OpenSearch, Apache Airflow, MWAA, Apache Kafka, Apache Hudi, Amazon EMR, MySQL, OpenShift, Linux, ROSA, Seekable OCI, SOCI]
-canonicalUrl: ""
+canonicalUrl: "https://community.aws/content/2bJFKCPKPttVH0yPHPPt3XHoZJR/aws-open-source-newsletter-184?lang=en"
 ---
 
 ##  Edition #185
