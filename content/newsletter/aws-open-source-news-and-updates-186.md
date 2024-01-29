@@ -148,8 +148,6 @@ Samuel Baruffi provides a look at EKS Blueprints, and how these can help you lev
 
 {{< youtube 2qVAe8ypkUY >}}
 
-https://www.youtube.com/watch?v=2qVAe8ypkUY
-
 **Dissecting Serverless Java on AWS**
 
 Recorded at CodeEurope 2023, Adam Bien takes a deep dive on cloud native Java, including plenty of hands on examples and code that answer many of the questions you might have, and deploy the examples to the cloud in real-time using Infrastructure as (Java) Code (IaC). 
