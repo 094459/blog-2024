@@ -193,7 +193,46 @@ postgres-1     |performing post-bootstrap initialization ... ok
 
 I was then greeted with the familiar Airflow ascii graphics that showed me that I was good to go. Testing in a local browser confirmed that I was now running mwaa-local-runner using Finch.
 
-Open Source is awesome!
+**Fixing the bootstrap.sh**
+
+As is always the way, just when you think you have cracked it, a problem appears. As it turns out, when I went to test a simple DAG (one that calls the AWS cli, doing an aws sts get-caller-identity command) the task failed with the following error:
+
+```
+/lib64/ld-linux-x86-64.so.2: No such file or directory
+```
+
+Initially when I looked at this error, something was off - I am running on an aarch64 not an amd64 processor. Searching for possible answers took me down several rabbit holes and wasted a lot of time before I realised what it was. The current **bootstrap.sh** script that is used when building the Airflow container contained the following entry:
+
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o $zip_file
+```
+So it was always trying to install amd64 binaries, despite me building this on an aarch64. To fix this, I modified the script as follows:
+
+```
+if [[ $(uname -p) == "aarch64" ]]; then
+  curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o $zip_file
+else
+  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o $zip_file
+fi
+```
+
+So that whether I am using an intel based or arm based system, it will pick up the right AWS cli to install.
+
+**MySQL Provider**
+
+The next issue I bumped into was that when trying to run a task using the MySQL Operator, I encountered the following error:
+
+```
+No module named 'MySQLdb'
+```
+
+This time searching provided more helpful, sort of. In [this](https://github.com/apache/airflow/discussions/25831) I found out that using the MySQL Operator on my local aarch64 based mac was not going to work. There was probably some work I could do to work around this, but it seemed a better approach to switch to using PostgreSQL instead.
+
+**Accessing the local host**
+
+The final thing that I needed to figure out was how to access services that were running on my local machine. Docker surfaces up **host.docker.internal** which you can use within processes within your container to connect to external services running on the host (i.e. my mac). It took my a while to find this, but when using Finch, you can do the same thing by using **192.168.5.2**. 
+
+**Open Source is awesome!**
 
 I hope this post was useful, and that for those of you who are looking to use open source tools like Finch to manage your container development processes, you will get some ideas of how easy it can be. I have created a [GitHub repo](https://github.com/094459/finch-local-runner) that shares the configuration files I used to get mwaa-local-runner to work with Finch.
 
