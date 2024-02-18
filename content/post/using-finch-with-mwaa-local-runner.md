@@ -123,7 +123,7 @@ services:
             - POSTGRES_USER=airflow
             - POSTGRES_PASSWORD=airflow
             - POSTGRES_DB=airflow
-            - PGDATA=/var/lib/postgresql/db/pgdata
+            - PGDATA=/var/lib/postgresql/data
         logging:
             options:
                 max-size: 10m
