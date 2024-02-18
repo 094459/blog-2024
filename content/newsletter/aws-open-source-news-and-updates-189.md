@@ -1,6 +1,6 @@
 ---
 title: 'AWS open source newsletter #189'
-date: '2024-02-19'
+date: '2024-02-18'
 tags : [ oss-newsletter, aws open source, Redis, Odoo, git-sync, Apache Kafka, AWS CDK, AWS Chalice, Go, Testcontainers, Apache Airflow, Finch, Data Solutions Framework on AWS, DSF, AWS Amplify, Jupyter, mwaa-local-runner, MySQL, PostgreSQL, OpenSearch, OpenJD]
 canonicalUrl: "https://community.aws/content/2cXuki31b6cvPtkoOMdNNxfLKfr/aws-open-source-newsletter-189"
 ---
