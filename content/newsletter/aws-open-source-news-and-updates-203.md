@@ -75,7 +75,7 @@ As always, get in touch if you want me to feature your projects in this open sou
 
 [deploy-langfuse-on-ecs-with-fargate](https://aws-oss.beachgeek.co.uk/43j) This repository contains the AWS CDK Python code for deploying the Langfuse application using Amazon Elastic Container Registry (ECR) and Amazon Elastic Container Service (ECS). If you are not familiar with Langfuse, it is is an open-source LLM engineering platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications.
 
-![screenshot of langfuse running on ecs](https://github.com/aws-samples/deploy-langfuse-on-ecs-with-fargate/blob/main/assets/06-trace-detail.png)
+![screenshot of langfuse running on ecs](https://raw.githubusercontent.com/aws-samples/deploy-langfuse-on-ecs-with-fargate/main/assets/06-trace-detail.png)
 
 **webapp-form-builder**
 
