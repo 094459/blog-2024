@@ -1,6 +1,6 @@
 ---
 title: 'Amazon Q Developer Tips: No.2 IDE Layout'
-date: '2024-12-01'
+date: '2024-12-02'
 tags : [ Amazon Q Developer]
 canonicalUrl: ""
 ---
