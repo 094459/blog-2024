@@ -35,7 +35,7 @@ Only when I explicitly ask for code, follow this guidance:
 - I have a strong preference for Sqlite and PostgreSQL
 ```
 
-After saving the file, I can now invoke this personalisation by using " @workspace DBA ....." followed by the rest of the prompt.
+After saving the file, I can now invoke this personalisation by using "\@workspace DBA ....." followed by the rest of the prompt.
 
 Check out this short video of this in action.
 
