@@ -6,8 +6,36 @@
     <description>Recent content in Amazon Linux 2023 on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/amazon-linux-2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #204</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</guid>
+      <description>Edition #204 Welcome to issue #204 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Apologies for the long wait since the last edition, I will have to do better. Thanks for the lovely messages and feedback I have received over the past few weeks, this edition is for you!&#xA;As always, we have more great new projects to check out, which include projects that surface up your AWS costs in Home Assistant, a tool that you can use to ask questions about your code base that uses generative AI, a git large file storage (LFS) extension that lets you use Amazon S3, and a handy network cost calculator.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #202</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</guid>
+      <description>Edition #202 Welcome to the AWS open source newsletter, issue #202. In this edition, I share more new projects (thank you for those of you that have sent them through) which include a project to help you monitor your data pipelines, the open sourced AWS Secrets Manager agent, a really cool new framework for managing multi generative AI agents, a couple of interesting projects to help manage your AWS accounts, a repo that provides CloudFormation snippets, and a few demo applications including one I put together that shows how you can use the Amazon Bedrock Converse API to summarise Hacker News comments.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #195</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-195/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-195/</guid>
+      <description>Edition #195 Welcome to issue #195 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. This week I am heading out to Everything Open, and looking forward to meeting the community in Gladstone. I will be talking about Cedar, and showing why it is important and how it works (demo is working lovely now). I am now on the third week of my open source roadshow, which is why I have had to change the publishing of this newsletter to every other week - at least until I get back home.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #192</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</guid>
+      <description>Edition #192 Welcome to issue #192 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. A wide variety this week, and we have projects that help you create architecture diagrams from your YAML, visualise and create dashboards for compliance and reporting purposes, a new multi-cloud threat detection tool, a Go implementation of Cedar, an example of load testing your large language models, and more!</description>
+    </item>
     <item>
       <title>AWS open source newsletter #180</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-180/</link>

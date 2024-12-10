@@ -6,8 +6,29 @@
     <description>Recent content in Jupyter on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #199</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</guid>
+      <description>Edition #199 Welcome to issue #199 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. I cannot believe that we are one issue away from a pretty significant milestone. I would love to hear from some of the regular readers of this newsletter to find any highlights they have had, or perhaps things they have found that have been pretty significant.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #192</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</guid>
+      <description>Edition #192 Welcome to issue #192 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. A wide variety this week, and we have projects that help you create architecture diagrams from your YAML, visualise and create dashboards for compliance and reporting purposes, a new multi-cloud threat detection tool, a Go implementation of Cedar, an example of load testing your large language models, and more!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #189</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-189/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-189/</guid>
+      <description>Edition #189 Welcome to issue #189 of the AWS open source newsletter, the newsletter where we search high and low to provide you with the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that help you find your RDS instances, automate tasks from your online Chime calls, a very nice visual file browser for your Amazon S3 buckets, a tool to help you track and manage copying files from your S3 storage buckets, an active-active multi region cluster solution for Redis, and more!</description>
+    </item>
     <item>
       <title>AWS open source newsletter #182</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-182/</link>

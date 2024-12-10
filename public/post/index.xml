@@ -6,8 +6,92 @@
     <description>Recent content in Posts on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon Q Developer Tips: No.10 Personalise Amazon Qs output</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-10/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-10/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.9 Using import statements to direct suggestions</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-9/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-9/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.8 Understanding Context</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-8/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-8/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.7 Generating better prompts</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-7/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-7/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.6 Exploring Use Cases</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-6/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-6/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.5 Break down large problems</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-5/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-5/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.4 No AWS account needed </title>
+      <link>https://blog.beachgeek.co.uk/q-tips-4/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-4/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.3 Enable Amazon Q Developer Workspace Index </title>
+      <link>https://blog.beachgeek.co.uk/q-tips-3/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-3/</guid>
+      <description>In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips here.</description>
+    </item>
+    <item>
+      <title>Amazon Q Developer Tips: No.2 IDE Layout</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-2/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-2/</guid>
+      <description>In the previous post I shared the importance of forming daily habits to help you discover your own flow when working with AI coding assistants like Amazon Q Developer. I also shared the first tip - make sure you keep your Amazon Q Developer plugin auto updated.&#xA;In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey.</description>
+    </item>
+    <item>
+      <title>Daily Tips to supercharge your Amazon Q Developer experience</title>
+      <link>https://blog.beachgeek.co.uk/q-tips-1/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/q-tips-1/</guid>
+      <description>The importance of building muscle memory When I talk to developers about the use of AI coding assistants, one of the key takeaways is that daily habits are one of the most effective tools in helping to build muscle memory and explore new possibilities that these tools provide.&#xA;To help folk with this, over the next few weeks I am going to share daily hints and tips that I have found useful and made my use of Amazon Q Developer more effective.</description>
+    </item>
+    <item>
+      <title>Using Finch to run Apache Airflow using mwaa-local-runner</title>
+      <link>https://blog.beachgeek.co.uk/using-finch-with-mwaa-local-runner/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/using-finch-with-mwaa-local-runner/</guid>
+      <description>I show you how you can use the Finch to run Apache Airflow using the mwaa-local-runner tool, and how you can do this for your applications too&#xA;As some of you may know, I have been creating content on Apache Airflow for a few years now. One of the open source projects that AWS has produced to make it easier for developers to get started with Apache Airflow, is mwaa-local-runner.</description>
+    </item>
+    <item>
+      <title>Writing simple Python scripts faster with Amazon Q</title>
+      <link>https://blog.beachgeek.co.uk/amazon-q-finding-oss-projects-part-one/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/amazon-q-finding-oss-projects-part-one/</guid>
+      <description>The future is here folks! I share my experiences using Amazon Q in the IDE, and how I was able to write more quickly and with less friction.&#xA;Some of you might be familiar with the AWS open source newsletter, a weekly publication that features a curated set of content for open source developers on AWS. I rely on a number of folk to share with me interesting open source projects that I feature, but I wanted to see if I could create an automated script that I could run on a weekly schedule that would find new open source projects for me to review.</description>
+    </item>
     <item>
       <title>Adding Amazon Bedrock Llama2 as an assistant in Ragna</title>
       <link>https://blog.beachgeek.co.uk/adding-llama2-to-ragna/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Steampipe on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/steampipe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #203</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</guid>
+      <description>Welcome to the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, more great new projects are featured in this edition, #203. Projects to check out include: how you can proxy OpenAI requests through Amazon Bedrock, security tools that help you stay one step ahead of bad actors, a way of implementing CDK Pipelines in a less opinionated way, a tool that helps you validate your AWS IAM policies, a toolkit to help get you started with good practices when creating CloudFormation templates, some demo code that demonstrate how you can implement zero downtime updates to your applications, as well as some really cool demos and use cases of generative AI in action (too many to mention, so check them all out!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #188</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-188/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-188/</guid>
+      <description>Edition #188 Welcome to issue #188 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have freshly cut repos that help you migrate your DNS configurations, improve your prompts when working with large language models, a new lightweight Javascript runtime, some reference code that shows you how you can deploy modern Java applications a number of different ways, and sample repos that show you how you can do remote debugging in Amazon EMR, as well as the usual cool demos that showcase some of the ways you can use generative AI.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #174</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-174/</link>

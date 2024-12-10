@@ -6,8 +6,15 @@
     <description>Recent content in CDKTF on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/cdktf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #200</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-200/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-200/</guid>
+      <description>Edition #200 Welcome to a milestone edition of this newsletter, number #200!! Wow, it feels like quite an achievement. Before diving into this newsletter, a big thank you for sticking with me. Time has flown by so quickly, and am looking forward to the next 100. As I have done in a few of the previous milestone issues, I wanted to share a few interesting stats from sharing open source projects with you over the past few years.</description>
+    </item>
     <item>
       <title>AWS open source news and updates #123</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-123/</link>

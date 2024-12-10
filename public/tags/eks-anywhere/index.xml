@@ -6,8 +6,15 @@
     <description>Recent content in EKS Anywhere on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/eks-anywhere/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #193</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-193/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-193/</guid>
+      <description>Edition #193 Welcome to issue #193 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Sadly I will be missing the fun at KubeCon in Paris, but if you are attending, make sure to check out the AWS booth - I had a sneak peak at what you can expect, and there is going to be some great demos being shown, a lot of our open source folk will be there.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #143</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-143/</link>

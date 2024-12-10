@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devpod on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/devpod/</link>
+    <description>Recent content in devpod on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/devpod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #186</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-186/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-186/</guid>
+      <description>Edition #186 Welcome to issue #186 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have dashboards to help you cut through the noise when reviewing security information, a synthetic data generator that leverages generative AI, a tool to help you mask data from production so you can use it in development and testing, a solution to help you run VSCode on EC2, a tool to help you wipe your S3 Glacier data vaults, and an assortment of generative AI demos for you to try out.</description>
+    </item>
+  </channel>
+</rss>

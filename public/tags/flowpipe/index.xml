@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flowpipe on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/flowpipe/</link>
+    <description>Recent content in Flowpipe on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/flowpipe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #197</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-197/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-197/</guid>
+      <description>Edition #197 Welcome to issue #197 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;Like in previous editions of this newsletter, we feature new projects for you you practice your four freedoms. We have some great projects, including a sprinkling of repos that look to help you benchmark and assess your generative AI models and agents, a new fruity framework for building document understanding applications, a nice container command line tool that sysadmins will love, a tool to help you migrate your CodeCommit repositories, a really nice application of using generative AI to help automate CVE findings, and a neat generative AI newsletter generation demo.</description>
+    </item>
+  </channel>
+</rss>

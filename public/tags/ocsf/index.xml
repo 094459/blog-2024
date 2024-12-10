@@ -6,8 +6,29 @@
     <description>Recent content in OCSF on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/ocsf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #205</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</guid>
+      <description>Welcome to issue #205 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. This will be the last edition of 2024, but looking forward to coming back in 2025 with more great open source project and content. As always, we have more great new projects to check out, which include a project that simplifies how you manage complex Kubernetes resource configurations, a library to accelerate open source analytics using Amazon S3, a look at a GraphRAG project, a project that helps NodeJS developers make it easier to make use of some advanced Amazon Aurora capabilities, an ESLinting tool for AWS CDK, and more.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #203</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</guid>
+      <description>Welcome to the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, more great new projects are featured in this edition, #203. Projects to check out include: how you can proxy OpenAI requests through Amazon Bedrock, security tools that help you stay one step ahead of bad actors, a way of implementing CDK Pipelines in a less opinionated way, a tool that helps you validate your AWS IAM policies, a toolkit to help get you started with good practices when creating CloudFormation templates, some demo code that demonstrate how you can implement zero downtime updates to your applications, as well as some really cool demos and use cases of generative AI in action (too many to mention, so check them all out!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #190</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</guid>
+      <description>Edition #190 Welcome to issue #190 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that can help you keep on top of your cost optimisation, a tool to help you automate Well Architected reviews, a tool to help you map out your RDS instances, as well as sample projects and demos.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #169</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-169/</link>

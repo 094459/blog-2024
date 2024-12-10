@@ -6,8 +6,15 @@
     <description>Recent content in HBase on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/hbase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #205</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</guid>
+      <description>Welcome to issue #205 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. This will be the last edition of 2024, but looking forward to coming back in 2025 with more great open source project and content. As always, we have more great new projects to check out, which include a project that simplifies how you manage complex Kubernetes resource configurations, a library to accelerate open source analytics using Amazon S3, a look at a GraphRAG project, a project that helps NodeJS developers make it easier to make use of some advanced Amazon Aurora capabilities, an ESLinting tool for AWS CDK, and more.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #145</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-145/</link>

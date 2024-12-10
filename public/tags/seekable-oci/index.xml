@@ -6,8 +6,15 @@
     <description>Recent content in Seekable OCI on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/seekable-oci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #185</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-185/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-185/</guid>
+      <description>Edition #185 Welcome to issue #185 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that allow you to export your Partyrock applications, a tool to help you reduce hallucinations in your large language models, a new client for Redis, a tool to help you access the AWS Partner Network, as well as sample projects that look at how you can use large langue models to build a new reader and building pipelines using Cloudformation.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #169</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-169/</link>

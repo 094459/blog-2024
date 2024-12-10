@@ -6,8 +6,22 @@
     <description>Recent content in PyTorch on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #201</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</guid>
+      <description>Edition #201 Welcome to the AWS open source newsletter, issue #201, your trusted source for the very best open source on AWS content. This weeks new projects for you to practice your four freedoms include generative AI infused projects to help you generate your docs, streamline the setting up of your AWS resources, a new experimental framework for building document based workflows, and a cool demo that showcases how you can use generative AI to help translate American Sign Language.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #195</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-195/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-195/</guid>
+      <description>Edition #195 Welcome to issue #195 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. This week I am heading out to Everything Open, and looking forward to meeting the community in Gladstone. I will be talking about Cedar, and showing why it is important and how it works (demo is working lovely now). I am now on the third week of my open source roadshow, which is why I have had to change the publishing of this newsletter to every other week - at least until I get back home.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #181</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-181/</link>

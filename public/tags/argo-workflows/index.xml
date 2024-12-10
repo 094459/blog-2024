@@ -6,8 +6,22 @@
     <description>Recent content in Argo Workflows on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/argo-workflows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #203</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</guid>
+      <description>Welcome to the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, more great new projects are featured in this edition, #203. Projects to check out include: how you can proxy OpenAI requests through Amazon Bedrock, security tools that help you stay one step ahead of bad actors, a way of implementing CDK Pipelines in a less opinionated way, a tool that helps you validate your AWS IAM policies, a toolkit to help get you started with good practices when creating CloudFormation templates, some demo code that demonstrate how you can implement zero downtime updates to your applications, as well as some really cool demos and use cases of generative AI in action (too many to mention, so check them all out!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #199</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</guid>
+      <description>Edition #199 Welcome to issue #199 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. I cannot believe that we are one issue away from a pretty significant milestone. I would love to hear from some of the regular readers of this newsletter to find any highlights they have had, or perhaps things they have found that have been pretty significant.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #145</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-145/</link>

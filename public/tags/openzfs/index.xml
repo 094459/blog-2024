@@ -6,8 +6,36 @@
     <description>Recent content in OpenZFS on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/openzfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #204</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</guid>
+      <description>Edition #204 Welcome to issue #204 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Apologies for the long wait since the last edition, I will have to do better. Thanks for the lovely messages and feedback I have received over the past few weeks, this edition is for you!&#xA;As always, we have more great new projects to check out, which include projects that surface up your AWS costs in Home Assistant, a tool that you can use to ask questions about your code base that uses generative AI, a git large file storage (LFS) extension that lets you use Amazon S3, and a handy network cost calculator.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #201</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</guid>
+      <description>Edition #201 Welcome to the AWS open source newsletter, issue #201, your trusted source for the very best open source on AWS content. This weeks new projects for you to practice your four freedoms include generative AI infused projects to help you generate your docs, streamline the setting up of your AWS resources, a new experimental framework for building document based workflows, and a cool demo that showcases how you can use generative AI to help translate American Sign Language.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #188</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-188/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-188/</guid>
+      <description>Edition #188 Welcome to issue #188 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have freshly cut repos that help you migrate your DNS configurations, improve your prompts when working with large language models, a new lightweight Javascript runtime, some reference code that shows you how you can deploy modern Java applications a number of different ways, and sample repos that show you how you can do remote debugging in Amazon EMR, as well as the usual cool demos that showcase some of the ways you can use generative AI.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #187</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-187/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-187/</guid>
+      <description>Edition #187 Welcome to issue #187 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have new projects that help you optimise working with EBS volumes on EC2, a tool to help you document your architectures, a large language model benchmarking tool, a tool to help you optimise your S3 storage files, a data validation framework, and a really nice Java workshop.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #182</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-182/</link>

@@ -6,8 +6,99 @@
     <description>Recent content in Prometheus on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #204</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</guid>
+      <description>Edition #204 Welcome to issue #204 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Apologies for the long wait since the last edition, I will have to do better. Thanks for the lovely messages and feedback I have received over the past few weeks, this edition is for you!&#xA;As always, we have more great new projects to check out, which include projects that surface up your AWS costs in Home Assistant, a tool that you can use to ask questions about your code base that uses generative AI, a git large file storage (LFS) extension that lets you use Amazon S3, and a handy network cost calculator.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #202</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</guid>
+      <description>Edition #202 Welcome to the AWS open source newsletter, issue #202. In this edition, I share more new projects (thank you for those of you that have sent them through) which include a project to help you monitor your data pipelines, the open sourced AWS Secrets Manager agent, a really cool new framework for managing multi generative AI agents, a couple of interesting projects to help manage your AWS accounts, a repo that provides CloudFormation snippets, and a few demo applications including one I put together that shows how you can use the Amazon Bedrock Converse API to summarise Hacker News comments.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #201</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</guid>
+      <description>Edition #201 Welcome to the AWS open source newsletter, issue #201, your trusted source for the very best open source on AWS content. This weeks new projects for you to practice your four freedoms include generative AI infused projects to help you generate your docs, streamline the setting up of your AWS resources, a new experimental framework for building document based workflows, and a cool demo that showcases how you can use generative AI to help translate American Sign Language.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #198</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-198/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-198/</guid>
+      <description>Edition #198 Welcome to issue #198 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. In this issue we feature new projects that provide integration of .NET Aspire with AWS resources, an automated data discovery tool to find data in your AWS environments, a tool to help incorporate good practices when building SaaS solutions, a cost allocation dashboard for your Kubernetes workloads, a project that might help you mitigate costs around Internet Gateway, and a few generative AI demos around food, news, and social media which you should definitely check out.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #196</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-196/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-196/</guid>
+      <description>Edition #196 Welcome to issue #196 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, more great new projects are featured in this edition of the newsletter, including a link to the Valkey repo, a nice GUI based project to help you build orchestration workflows that uses Apache Airflow under the covers, a tool to help you find signals through the noise of your security logs, a project to help you run serverless tasks in a cron like fashion, a command line runner for Amazon CodeCatalyst, a tool to help you simplify the deployment of Cruise Control on Amazon MSK, a nice Mac client for experimenting with Amazon Bedrock, and some really cool demo apps, the pick of which (for me) is a nice way of surfacing up your Amazon Bedrock models in a way that existing applications that expect an API key can use.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #194</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-194/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-194/</guid>
+      <description>Edition #194 Welcome to issue #194 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Due to travelling and speaking commitments, regular readers will have noticed that I slipped up and missed a week. Normal service has been resumed, and as always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #193</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-193/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-193/</guid>
+      <description>Edition #193 Welcome to issue #193 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Sadly I will be missing the fun at KubeCon in Paris, but if you are attending, make sure to check out the AWS booth - I had a sneak peak at what you can expect, and there is going to be some great demos being shown, a lot of our open source folk will be there.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #192</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</guid>
+      <description>Edition #192 Welcome to issue #192 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. A wide variety this week, and we have projects that help you create architecture diagrams from your YAML, visualise and create dashboards for compliance and reporting purposes, a new multi-cloud threat detection tool, a Go implementation of Cedar, an example of load testing your large language models, and more!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #190</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</guid>
+      <description>Edition #190 Welcome to issue #190 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that can help you keep on top of your cost optimisation, a tool to help you automate Well Architected reviews, a tool to help you map out your RDS instances, as well as sample projects and demos.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #188</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-188/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-188/</guid>
+      <description>Edition #188 Welcome to issue #188 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have freshly cut repos that help you migrate your DNS configurations, improve your prompts when working with large language models, a new lightweight Javascript runtime, some reference code that shows you how you can deploy modern Java applications a number of different ways, and sample repos that show you how you can do remote debugging in Amazon EMR, as well as the usual cool demos that showcase some of the ways you can use generative AI.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #186</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-186/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-186/</guid>
+      <description>Edition #186 Welcome to issue #186 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have dashboards to help you cut through the noise when reviewing security information, a synthetic data generator that leverages generative AI, a tool to help you mask data from production so you can use it in development and testing, a solution to help you run VSCode on EC2, a tool to help you wipe your S3 Glacier data vaults, and an assortment of generative AI demos for you to try out.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #184</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-184/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-184/</guid>
+      <description>Edition #184 Welcome to issue #184 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have a rust based cli tools to help you accelerate your S3 searches, we take a look at a new framework to help simplify bootstrapping your projects, a tool to help you report on your AWS resource tags, a voice translator for Chime, a really nice sample project to help you get hands on with Cedar, a number of generative AI demos and sample projects that are a must, and many more projects.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #183</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</guid>
+      <description>January 8th, 2024 - Instalment #183 Happy new year and welcome to the first edition of the AWS open source newsletter of 2024, number #183. The big news for 2024 is the move from dev.to to community.aws as the &amp;ldquo;home&amp;rdquo; for the AWS open source newsletter, although it will still be posted on dev.to as well. Let me know what you think, community.aws has some top notch content that many readers might not be aware of.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #182</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-182/</link>

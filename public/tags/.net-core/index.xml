@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET Core on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/.net-core/</link>
+    <description>Recent content in .NET Core on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/.net-core/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #199</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</guid>
+      <description>Edition #199 Welcome to issue #199 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. I cannot believe that we are one issue away from a pretty significant milestone. I would love to hear from some of the regular readers of this newsletter to find any highlights they have had, or perhaps things they have found that have been pretty significant.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #190</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</guid>
+      <description>Edition #190 Welcome to issue #190 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that can help you keep on top of your cost optimisation, a tool to help you automate Well Architected reviews, a tool to help you map out your RDS instances, as well as sample projects and demos.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #184</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-184/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-184/</guid>
+      <description>Edition #184 Welcome to issue #184 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have a rust based cli tools to help you accelerate your S3 searches, we take a look at a new framework to help simplify bootstrapping your projects, a tool to help you report on your AWS resource tags, a voice translator for Chime, a really nice sample project to help you get hands on with Cedar, a number of generative AI demos and sample projects that are a must, and many more projects.</description>
+    </item>
+  </channel>
+</rss>

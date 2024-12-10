@@ -6,8 +6,36 @@
     <description>Recent content in Lustre on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/lustre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #205</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</guid>
+      <description>Welcome to issue #205 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. This will be the last edition of 2024, but looking forward to coming back in 2025 with more great open source project and content. As always, we have more great new projects to check out, which include a project that simplifies how you manage complex Kubernetes resource configurations, a library to accelerate open source analytics using Amazon S3, a look at a GraphRAG project, a project that helps NodeJS developers make it easier to make use of some advanced Amazon Aurora capabilities, an ESLinting tool for AWS CDK, and more.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #204</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</guid>
+      <description>Edition #204 Welcome to issue #204 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Apologies for the long wait since the last edition, I will have to do better. Thanks for the lovely messages and feedback I have received over the past few weeks, this edition is for you!&#xA;As always, we have more great new projects to check out, which include projects that surface up your AWS costs in Home Assistant, a tool that you can use to ask questions about your code base that uses generative AI, a git large file storage (LFS) extension that lets you use Amazon S3, and a handy network cost calculator.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #200</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-200/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-200/</guid>
+      <description>Edition #200 Welcome to a milestone edition of this newsletter, number #200!! Wow, it feels like quite an achievement. Before diving into this newsletter, a big thank you for sticking with me. Time has flown by so quickly, and am looking forward to the next 100. As I have done in a few of the previous milestone issues, I wanted to share a few interesting stats from sharing open source projects with you over the past few years.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #190</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</guid>
+      <description>Edition #190 Welcome to issue #190 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that can help you keep on top of your cost optimisation, a tool to help you automate Well Architected reviews, a tool to help you map out your RDS instances, as well as sample projects and demos.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #181</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-181/</link>

@@ -2,26 +2,716 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.beachgeek.co.uk/tags/amazon-corretto/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <loc>https://blog.beachgeek.co.uk/tags/amazon-q-developer/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-10/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/post/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-9/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-8/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-7/</loc>
+    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-6/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-5/</loc>
+    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-4/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-3/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-2/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/q-tips-1/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/amazon-eks/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/amazon-emr/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-airflow/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-cassandra/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-flink/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-iceberg/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/apache-kafka/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-xtable/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-amplify/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/aws-cdk/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/aws-distro-for-opentelemetry/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/aws-open-source/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/bottlerocket/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/comfyui/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/dapr/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/finch/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/hbase/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/kro/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/kubernetes/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/lustre/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mountpoint-for-amazon-s3/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mwaa/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mysql/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ocsf/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/open-cybersecurity-schema-framework/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/oss-newsletter/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/postgresql/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/projen/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/valkey/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/amazon-corretto/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/amazon-linux-2023/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/argocd/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-204/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-parallel-cluster/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/cedar/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/deequ/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/godot/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/grafana/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/home-assistant/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/influxdb/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/karpenter/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/keycloak/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/kubecost/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mariadb/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/openshift/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/openzfs/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/otel/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/prometheus/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/rosa/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/spring-boot/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ubuntu/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/activemq/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-pinot/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-spark/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/argo-workflows/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/flutter/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/graphstorm/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/langchain/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/langfuse/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/o3de/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/opencypher/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/opentelemetry/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/opentofu/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ray/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/red-hat-enterprise-linux/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/steampipe/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-solr/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/cilium/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/dask/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/flyway/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/graphrag/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/litellm/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mlflow/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/notation/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/opensearch/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/php/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/rabbitmq/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/trusted-language-extensions-for-postgresql/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/amazon-linux/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-httpd/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-parallelcluster/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/babelfish-for-aurora-postgresql/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/eksctl/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/freertos/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/itsio/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/llrt/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/node.js/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/open-container-initiative/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/project-lakechain/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/pytorch/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/sbt/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/smithy/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-200/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/cdktf/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/cfn-lint/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/gremlin/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/hive/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/locust/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/tinkerpop/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/.net-core/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-livy/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-tinkerpop/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/babelfish-for-postgresql/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/cnoe/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/dspy/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/graphql/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/jupyter/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/sustainability-scanner/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/yugabytedb/</loc>
+    <lastmod>2024-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-hudi/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-tomcat/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aspire/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-198/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/high-performance-software-foundation/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/kata/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/leapp/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/multus/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/wordpress/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/zingg/</loc>
+    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-ranger/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-197/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/flowpipe/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/istio/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/pgbench/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/rubygems/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-196/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-pdk/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/keda/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/lambda-web-adapter/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/nodestream/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/opa/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/open-jd/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/postfix/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/pyspark/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ragmap/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ragxplorer/</loc>
+    <lastmod>2024-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-griffin/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/argo/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-195/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/bref/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/langserve/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/lean/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/openebs/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/remix/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ruby/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/almalinux/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-194/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/konveyor/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/kyverno/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/next.js/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-193/</loc>
+    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/eks-anywhere/</loc>
+    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ngnix/</loc>
+    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/rust/</loc>
+    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/snapstart/</loc>
+    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/trino/</loc>
+    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/airbyte/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-distro-for-opentelemetry/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-sam/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/credentials-fetcher/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/dash/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/localstack/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/adot/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-191/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-lite/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ffmpeg/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/fluent-bit/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mountpoint-for-s3/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/open-job-description/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</loc>
+    <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/cloudquery/</loc>
+    <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/powertools-for-lambda/</loc>
+    <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-chalice/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-189/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/data-solutions-framework-on-aws/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/dsf/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/git-sync/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/go/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mwaa-local-runner/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/odoo/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/openjd/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/redis/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/testcontainers/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/apache-zeppelin/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-188/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/backstage/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/open-telemtry/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/quarkus/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ros/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/using-finch-with-mwaa-local-runner/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-copilot/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-187/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/blazor/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/event-ruler/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mqtt/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/neuronx-nemo-megatron/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/openjdk/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/tensorflow/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-186/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/delta-lake/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/devpod/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/pgvector/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/streamlit/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-185/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/fluxcd/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/linux/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/seekable-oci/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/soci/</loc>
+    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aperf/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-184/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/memcached/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/powertools-for-aws-lambda/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/amazon-q/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/amazon-q-finding-oss-projects-part-one/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/aws-neuron/</loc>
+    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</loc>
+    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/ebpf/</loc>
+    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.beachgeek.co.uk/tags/mage/</loc>
+    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-182/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
@@ -35,89 +725,17 @@
     <loc>https://blog.beachgeek.co.uk/tags/dbt/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/freertos/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/go/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/grafana/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/graphql/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/jupyter/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/kotlin/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/kubernetes/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/lakefs/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/mariadb/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/memecached/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/mlflow/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/mysql/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/newsletter/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/openrewrite/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/opensearch/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/openzfs/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/oss-newsletter/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/postgresql/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/powertools-for-lambda/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/prometheus/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/redis/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/rust/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-flink/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-hudi/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-spark/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/aws-amplify/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/aws-copilot/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-181/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
@@ -125,13 +743,7 @@
     <loc>https://blog.beachgeek.co.uk/tags/griptape/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/istio/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/kali/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/karpenter/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/kong/</loc>
@@ -140,46 +752,16 @@
     <loc>https://blog.beachgeek.co.uk/tags/lambda-powertuning/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/langchain/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/lustre/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/nextjs/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/openjdk/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/pinecone/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/pytorch/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/snapstart/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/wordpress/</loc>
-    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/amazon-linux-2023/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-airflow/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-cassandra/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/avro/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-180/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/eksctl/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/ezsmdeploy/</loc>
@@ -189,9 +771,6 @@
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/maplibre/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/mwaa/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/nodejs/</loc>
@@ -218,22 +797,10 @@
     <loc>https://blog.beachgeek.co.uk/tags/meta-llama2/</loc>
     <lastmod>2023-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/post/</loc>
-    <lastmod>2023-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-ranger/</loc>
-    <lastmod>2023-11-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-179/</loc>
     <lastmod>2023-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/fluxcd/</loc>
-    <lastmod>2023-11-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/kani/</loc>
-    <lastmod>2023-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/pyspark/</loc>
     <lastmod>2023-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/test-containers/</loc>
@@ -248,31 +815,13 @@
     <loc>https://blog.beachgeek.co.uk/getting-started-with-ragna/</loc>
     <lastmod>2023-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-iceberg/</loc>
-    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/aws-neuron/</loc>
-    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-178/</loc>
-    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/aws-sam/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/drupal/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/finch/</loc>
-    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/jupyterhub/</loc>
-    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/ruby/</loc>
-    <lastmod>2023-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/spring-boot/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/apache-hive/</loc>
@@ -281,19 +830,7 @@
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-177/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/babelfish-for-aurora-postgresql/</loc>
-    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/bottlerocket/</loc>
-    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/crossplane/</loc>
-    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/dask/</loc>
-    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/delta-lake/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/dremio/</loc>
@@ -308,9 +845,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/kubearmor/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/linux/</loc>
-    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/milvus/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -318,9 +852,6 @@
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/openclip/</loc>
-    <lastmod>2023-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/openshift/</loc>
     <lastmod>2023-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/amazon-emr-on-eks/</loc>
@@ -341,19 +872,7 @@
     <loc>https://blog.beachgeek.co.uk/tags/core-wcf/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/kubecost/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/pgvector/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/postgres/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/rabbitmq/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/ray/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/swift/</loc>
@@ -361,9 +880,6 @@
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/trivy/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/amazon-linux/</loc>
-    <lastmod>2023-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/and-postgresql/</loc>
     <lastmod>2023-10-16T00:00:00+00:00</lastmod>
@@ -380,19 +896,10 @@
     <loc>https://blog.beachgeek.co.uk/tags/cloud-native-operational-excellence/</loc>
     <lastmod>2023-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/cnoe/</loc>
-    <lastmod>2023-10-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/coredns/</loc>
     <lastmod>2023-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/etcd/</loc>
-    <lastmod>2023-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/powertools-for-aws-lambda/</loc>
-    <lastmod>2023-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/soci/</loc>
     <lastmod>2023-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/stable-diffusion/</loc>
@@ -413,16 +920,7 @@
     <loc>https://blog.beachgeek.co.uk/tags/dockle/</loc>
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/opentelemetry/</loc>
-    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/react/</loc>
-    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/steampipe/</loc>
-    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/trusted-language-extensions-for-postgresql/</loc>
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/amazon-ecs/</loc>
@@ -434,9 +932,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/aws-toolkit-for-visual-studio/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/ebpf/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/flux/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -444,9 +939,6 @@
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/openqaoa/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/smithy/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/amazon-sagemaker/</loc>
@@ -470,19 +962,7 @@
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-172/</loc>
     <lastmod>2023-09-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/aws-parallelcluster/</loc>
-    <lastmod>2023-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/cedar/</loc>
-    <lastmod>2023-09-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/cedarpy/</loc>
-    <lastmod>2023-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/kyverno/</loc>
-    <lastmod>2023-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/next.js/</loc>
     <lastmod>2023-09-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/python/</loc>
@@ -501,12 +981,6 @@
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/aws-iam-authenticator/</loc>
-    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/localstack/</loc>
-    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/memcached/</loc>
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/open-data-maps/</loc>
@@ -528,12 +1002,6 @@
     <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/collectd/</loc>
-    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/o3de/</loc>
-    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/ros/</loc>
     <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/sbom/</loc>
@@ -569,18 +1037,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/managed-workflows-for-apache-airflow/</loc>
     <lastmod>2023-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/mountpoint-for-amazon-s3/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/ocsf/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/open-cybersecurity-schema-framework/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/seekable-oci/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/apache-kakfa/</loc>
     <lastmod>2023-08-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -599,12 +1055,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/iam-roles-anywhere/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/keycloak/</loc>
-    <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/mqtt/</loc>
-    <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/oam/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -612,9 +1062,6 @@
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/pacu/</loc>
-    <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/streamlit/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/supabase/</loc>
@@ -665,9 +1112,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/vs-code-server/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/activemq/</loc>
-    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-163/</loc>
     <lastmod>2023-07-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -690,9 +1134,6 @@
     <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/and-delta-lake/</loc>
-    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/argocd/</loc>
     <lastmod>2023-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-161/</loc>
@@ -743,16 +1184,10 @@
     <loc>https://blog.beachgeek.co.uk/tags/cloudformation/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/deequ/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/hugging-face/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/keycloak-on-aws-part-two/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/notation/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/saml2.0/</loc>
@@ -800,9 +1235,6 @@
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-157/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/backstage/</loc>
-    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/cypress/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -842,16 +1274,7 @@
     <loc>https://blog.beachgeek.co.uk/tags/micropython/</loc>
     <lastmod>2023-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/rosa/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/tidb/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/trino/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/ubuntu/</loc>
     <lastmod>2023-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/apache-hive-metastore/</loc>
@@ -861,9 +1284,6 @@
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-154/</loc>
-    <lastmod>2023-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/flutter/</loc>
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/gmsa/</loc>
@@ -876,9 +1296,6 @@
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/marten/</loc>
-    <lastmod>2023-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/mwaa-local-runner/</loc>
     <lastmod>2023-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/opus/</loc>
@@ -926,9 +1343,6 @@
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-151/</loc>
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/aws-parallel-cluster/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/goldilocks/</loc>
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -936,9 +1350,6 @@
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-150/</loc>
-    <lastmod>2023-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/ffmpeg/</loc>
     <lastmod>2023-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/protobuf/</loc>
@@ -958,9 +1369,6 @@
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/nextcloud/</loc>
     <lastmod>2023-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-tinkerpop/</loc>
-    <lastmod>2023-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-148/</loc>
     <lastmod>2023-03-12T00:00:00+00:00</lastmod>
@@ -995,16 +1403,7 @@
     <loc>https://blog.beachgeek.co.uk/tags/porting-advisor-for-graviton/</loc>
     <lastmod>2023-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/argo-workflows/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-145/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/hbase/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/quarkus/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/vscode/</loc>
@@ -1023,9 +1422,6 @@
     <lastmod>2023-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/cosign/</loc>
-    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/fluent-bit/</loc>
     <lastmod>2023-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/sbomqs/</loc>
@@ -1068,9 +1464,6 @@
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/datahub/</loc>
-    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/eks-anywhere/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/pulumi/</loc>
@@ -1118,9 +1511,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/apache-nifi/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-pinot/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/apache-shardingsphere-proxy/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -1134,9 +1524,6 @@
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/log4shell/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/red-hat-enterprise-linux/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/mwaa-eks-multi-aws/</loc>
@@ -1238,9 +1625,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/fluentbit/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/hive/</loc>
-    <lastmod>2022-11-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/prestodb/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -1322,16 +1706,7 @@
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-129/</loc>
     <lastmod>2022-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/babelfish-for-postgresql/</loc>
-    <lastmod>2022-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/gremlin/</loc>
-    <lastmod>2022-09-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/kubeapps/</loc>
-    <lastmod>2022-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/php/</loc>
     <lastmod>2022-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-128/</loc>
@@ -1373,9 +1748,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/ecs-anywhere/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/event-ruler/</loc>
-    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/moodle/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -1389,9 +1761,6 @@
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/calico/</loc>
-    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/flyway/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/open-omics-acceleration-framework/</loc>
@@ -1421,9 +1790,6 @@
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-123/</loc>
     <lastmod>2022-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/cdktf/</loc>
-    <lastmod>2022-08-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/kyber/</loc>
     <lastmod>2022-08-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -1445,9 +1811,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/babelfish/</loc>
     <lastmod>2022-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/blazor/</loc>
-    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/blender/</loc>
     <lastmod>2022-07-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -1467,9 +1830,6 @@
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-118/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/cloudquery/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/postgraphile/</loc>
@@ -1529,9 +1889,6 @@
     <loc>https://blog.beachgeek.co.uk/tags/suse-linux/</loc>
     <lastmod>2022-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/tensorflow/</loc>
-    <lastmod>2022-06-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/amazon-linux-2/</loc>
     <lastmod>2022-05-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -1583,13 +1940,7 @@
     <loc>https://blog.beachgeek.co.uk/tags/pimoroni/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/apache-livy/</loc>
-    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-no-111/</loc>
-    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/locust/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/aws-cloudformation-guard/</loc>
@@ -1629,9 +1980,6 @@
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/medusa/</loc>
-    <lastmod>2022-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/projen/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/replibyte/</loc>
@@ -1731,9 +2079,6 @@
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-no-102/</loc>
-    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.beachgeek.co.uk/tags/leapp/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.beachgeek.co.uk/tags/nano/</loc>

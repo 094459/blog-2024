@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openCypher on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/opencypher/</link>
+    <description>Recent content in openCypher on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/opencypher/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #203</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</guid>
+      <description>Welcome to the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, more great new projects are featured in this edition, #203. Projects to check out include: how you can proxy OpenAI requests through Amazon Bedrock, security tools that help you stay one step ahead of bad actors, a way of implementing CDK Pipelines in a less opinionated way, a tool that helps you validate your AWS IAM policies, a toolkit to help get you started with good practices when creating CloudFormation templates, some demo code that demonstrate how you can implement zero downtime updates to your applications, as well as some really cool demos and use cases of generative AI in action (too many to mention, so check them all out!</description>
+    </item>
+  </channel>
+</rss>

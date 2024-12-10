@@ -6,8 +6,15 @@
     <description>Recent content in FreeRTOS on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/freertos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #201</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</guid>
+      <description>Edition #201 Welcome to the AWS open source newsletter, issue #201, your trusted source for the very best open source on AWS content. This weeks new projects for you to practice your four freedoms include generative AI infused projects to help you generate your docs, streamline the setting up of your AWS resources, a new experimental framework for building document based workflows, and a cool demo that showcases how you can use generative AI to help translate American Sign Language.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #182</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-182/</link>

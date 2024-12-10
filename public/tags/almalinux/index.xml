@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AlmaLinux on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/almalinux/</link>
+    <description>Recent content in AlmaLinux on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/almalinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #194</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-194/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-194/</guid>
+      <description>Edition #194 Welcome to issue #194 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Due to travelling and speaking commitments, regular readers will have noticed that I slipped up and missed a week. Normal service has been resumed, and as always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms.</description>
+    </item>
+  </channel>
+</rss>

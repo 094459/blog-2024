@@ -6,8 +6,50 @@
     <description>Recent content in RabbitMQ on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #202</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</guid>
+      <description>Edition #202 Welcome to the AWS open source newsletter, issue #202. In this edition, I share more new projects (thank you for those of you that have sent them through) which include a project to help you monitor your data pipelines, the open sourced AWS Secrets Manager agent, a really cool new framework for managing multi generative AI agents, a couple of interesting projects to help manage your AWS accounts, a repo that provides CloudFormation snippets, and a few demo applications including one I put together that shows how you can use the Amazon Bedrock Converse API to summarise Hacker News comments.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #201</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-201/</guid>
+      <description>Edition #201 Welcome to the AWS open source newsletter, issue #201, your trusted source for the very best open source on AWS content. This weeks new projects for you to practice your four freedoms include generative AI infused projects to help you generate your docs, streamline the setting up of your AWS resources, a new experimental framework for building document based workflows, and a cool demo that showcases how you can use generative AI to help translate American Sign Language.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #197</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-197/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-197/</guid>
+      <description>Edition #197 Welcome to issue #197 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;Like in previous editions of this newsletter, we feature new projects for you you practice your four freedoms. We have some great projects, including a sprinkling of repos that look to help you benchmark and assess your generative AI models and agents, a new fruity framework for building document understanding applications, a nice container command line tool that sysadmins will love, a tool to help you migrate your CodeCommit repositories, a really nice application of using generative AI to help automate CVE findings, and a neat generative AI newsletter generation demo.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #192</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-192/</guid>
+      <description>Edition #192 Welcome to issue #192 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. A wide variety this week, and we have projects that help you create architecture diagrams from your YAML, visualise and create dashboards for compliance and reporting purposes, a new multi-cloud threat detection tool, a Go implementation of Cedar, an example of load testing your large language models, and more!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #190</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-190/</guid>
+      <description>Edition #190 Welcome to issue #190 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that can help you keep on top of your cost optimisation, a tool to help you automate Well Architected reviews, a tool to help you map out your RDS instances, as well as sample projects and demos.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #183</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</guid>
+      <description>January 8th, 2024 - Instalment #183 Happy new year and welcome to the first edition of the AWS open source newsletter of 2024, number #183. The big news for 2024 is the move from dev.to to community.aws as the &amp;ldquo;home&amp;rdquo; for the AWS open source newsletter, although it will still be posted on dev.to as well. Let me know what you think, community.aws has some top notch content that many readers might not be aware of.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #176</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-176/</link>

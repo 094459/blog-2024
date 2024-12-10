@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GraphRAG on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/graphrag/</link>
+    <description>Recent content in GraphRAG on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/graphrag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #202</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-202/</guid>
+      <description>Edition #202 Welcome to the AWS open source newsletter, issue #202. In this edition, I share more new projects (thank you for those of you that have sent them through) which include a project to help you monitor your data pipelines, the open sourced AWS Secrets Manager agent, a really cool new framework for managing multi generative AI agents, a couple of interesting projects to help manage your AWS accounts, a repo that provides CloudFormation snippets, and a few demo applications including one I put together that shows how you can use the Amazon Bedrock Converse API to summarise Hacker News comments.</description>
+    </item>
+  </channel>
+</rss>

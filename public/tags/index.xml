@@ -6,55 +6,1399 @@
     <description>Recent content in Tags on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Amazon Corretto</title>
-      <link>https://blog.beachgeek.co.uk/tags/amazon-corretto/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/amazon-corretto/</guid>
+      <title>Amazon Q Developer</title>
+      <link>https://blog.beachgeek.co.uk/tags/amazon-q-developer/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/amazon-q-developer/</guid>
       <description></description>
     </item>
     <item>
       <title>Amazon EKS</title>
       <link>https://blog.beachgeek.co.uk/tags/amazon-eks/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/amazon-eks/</guid>
       <description></description>
     </item>
     <item>
       <title>Amazon EMR</title>
       <link>https://blog.beachgeek.co.uk/tags/amazon-emr/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/amazon-emr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Airflow</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-airflow/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-airflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Cassandra</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-cassandra/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-cassandra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Flink</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-flink/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-flink/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Iceberg</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-iceberg/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-iceberg/</guid>
       <description></description>
     </item>
     <item>
       <title>Apache Kafka</title>
       <link>https://blog.beachgeek.co.uk/tags/apache-kafka/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/apache-kafka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache XTable</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-xtable/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-xtable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS Amplify</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-amplify/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-amplify/</guid>
       <description></description>
     </item>
     <item>
       <title>AWS CDK</title>
       <link>https://blog.beachgeek.co.uk/tags/aws-cdk/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/aws-cdk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS Distro for OpenTelemetry</title>
-      <link>https://blog.beachgeek.co.uk/tags/aws-distro-for-opentelemetry/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/aws-distro-for-opentelemetry/</guid>
       <description></description>
     </item>
     <item>
       <title>aws open source</title>
       <link>https://blog.beachgeek.co.uk/tags/aws-open-source/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/aws-open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bottlerocket</title>
+      <link>https://blog.beachgeek.co.uk/tags/bottlerocket/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/bottlerocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ComfyUI</title>
+      <link>https://blog.beachgeek.co.uk/tags/comfyui/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/comfyui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dapr</title>
+      <link>https://blog.beachgeek.co.uk/tags/dapr/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/dapr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finch</title>
+      <link>https://blog.beachgeek.co.uk/tags/finch/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/finch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HBase</title>
+      <link>https://blog.beachgeek.co.uk/tags/hbase/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/hbase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kro</title>
+      <link>https://blog.beachgeek.co.uk/tags/kro/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/kro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://blog.beachgeek.co.uk/tags/kubernetes/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lustre</title>
+      <link>https://blog.beachgeek.co.uk/tags/lustre/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/lustre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mountpoint for Amazon S3</title>
+      <link>https://blog.beachgeek.co.uk/tags/mountpoint-for-amazon-s3/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mountpoint-for-amazon-s3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MWAA</title>
+      <link>https://blog.beachgeek.co.uk/tags/mwaa/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mwaa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MySQL</title>
+      <link>https://blog.beachgeek.co.uk/tags/mysql/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OCSF</title>
+      <link>https://blog.beachgeek.co.uk/tags/ocsf/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ocsf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Cybersecurity Schema Framework</title>
+      <link>https://blog.beachgeek.co.uk/tags/open-cybersecurity-schema-framework/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/open-cybersecurity-schema-framework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>oss-newsletter</title>
+      <link>https://blog.beachgeek.co.uk/tags/oss-newsletter/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/oss-newsletter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://blog.beachgeek.co.uk/tags/postgresql/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projen</title>
+      <link>https://blog.beachgeek.co.uk/tags/projen/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/projen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Valkey</title>
+      <link>https://blog.beachgeek.co.uk/tags/valkey/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/valkey/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Corretto</title>
+      <link>https://blog.beachgeek.co.uk/tags/amazon-corretto/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/amazon-corretto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Linux 2023</title>
+      <link>https://blog.beachgeek.co.uk/tags/amazon-linux-2023/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/amazon-linux-2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ArgoCD</title>
+      <link>https://blog.beachgeek.co.uk/tags/argocd/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/argocd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS Parallel Cluster</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-parallel-cluster/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-parallel-cluster/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cedar</title>
+      <link>https://blog.beachgeek.co.uk/tags/cedar/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/cedar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeeQu</title>
+      <link>https://blog.beachgeek.co.uk/tags/deequ/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/deequ/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Godot</title>
+      <link>https://blog.beachgeek.co.uk/tags/godot/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/godot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grafana</title>
+      <link>https://blog.beachgeek.co.uk/tags/grafana/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/grafana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home Assistant</title>
+      <link>https://blog.beachgeek.co.uk/tags/home-assistant/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/home-assistant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>InfluxDB</title>
+      <link>https://blog.beachgeek.co.uk/tags/influxdb/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/influxdb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Karpenter</title>
+      <link>https://blog.beachgeek.co.uk/tags/karpenter/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/karpenter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keycloak</title>
+      <link>https://blog.beachgeek.co.uk/tags/keycloak/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/keycloak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubecost</title>
+      <link>https://blog.beachgeek.co.uk/tags/kubecost/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/kubecost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MariaDB</title>
+      <link>https://blog.beachgeek.co.uk/tags/mariadb/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenShift</title>
+      <link>https://blog.beachgeek.co.uk/tags/openshift/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/openshift/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenZFS</title>
+      <link>https://blog.beachgeek.co.uk/tags/openzfs/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/openzfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OTEL</title>
+      <link>https://blog.beachgeek.co.uk/tags/otel/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/otel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prometheus</title>
+      <link>https://blog.beachgeek.co.uk/tags/prometheus/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/prometheus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ROSA</title>
+      <link>https://blog.beachgeek.co.uk/tags/rosa/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/rosa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Boot</title>
+      <link>https://blog.beachgeek.co.uk/tags/spring-boot/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://blog.beachgeek.co.uk/tags/ubuntu/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ActiveMQ</title>
+      <link>https://blog.beachgeek.co.uk/tags/activemq/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/activemq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Pinot</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-pinot/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-pinot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Spark</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-spark/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-spark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Argo Workflows</title>
+      <link>https://blog.beachgeek.co.uk/tags/argo-workflows/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/argo-workflows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>https://blog.beachgeek.co.uk/tags/flutter/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/flutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GraphStorm</title>
+      <link>https://blog.beachgeek.co.uk/tags/graphstorm/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/graphstorm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LangChain</title>
+      <link>https://blog.beachgeek.co.uk/tags/langchain/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/langchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Langfuse</title>
+      <link>https://blog.beachgeek.co.uk/tags/langfuse/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/langfuse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>O3DE</title>
+      <link>https://blog.beachgeek.co.uk/tags/o3de/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/o3de/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>openCypher</title>
+      <link>https://blog.beachgeek.co.uk/tags/opencypher/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/opencypher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenTelemetry</title>
+      <link>https://blog.beachgeek.co.uk/tags/opentelemetry/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/opentelemetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenTofu</title>
+      <link>https://blog.beachgeek.co.uk/tags/opentofu/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/opentofu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ray</title>
+      <link>https://blog.beachgeek.co.uk/tags/ray/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ray/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red Hat Enterprise Linux</title>
+      <link>https://blog.beachgeek.co.uk/tags/red-hat-enterprise-linux/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/red-hat-enterprise-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Steampipe</title>
+      <link>https://blog.beachgeek.co.uk/tags/steampipe/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/steampipe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Solr</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-solr/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-solr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cilium</title>
+      <link>https://blog.beachgeek.co.uk/tags/cilium/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/cilium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dask</title>
+      <link>https://blog.beachgeek.co.uk/tags/dask/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/dask/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flyway</title>
+      <link>https://blog.beachgeek.co.uk/tags/flyway/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/flyway/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GraphRAG</title>
+      <link>https://blog.beachgeek.co.uk/tags/graphrag/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/graphrag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LiteLLM</title>
+      <link>https://blog.beachgeek.co.uk/tags/litellm/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/litellm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MLFlow</title>
+      <link>https://blog.beachgeek.co.uk/tags/mlflow/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mlflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notation</title>
+      <link>https://blog.beachgeek.co.uk/tags/notation/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/notation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenSearch</title>
+      <link>https://blog.beachgeek.co.uk/tags/opensearch/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/opensearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://blog.beachgeek.co.uk/tags/php/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RabbitMQ</title>
+      <link>https://blog.beachgeek.co.uk/tags/rabbitmq/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trusted Language Extensions for PostgreSQL</title>
+      <link>https://blog.beachgeek.co.uk/tags/trusted-language-extensions-for-postgresql/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/trusted-language-extensions-for-postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Linux</title>
+      <link>https://blog.beachgeek.co.uk/tags/amazon-linux/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/amazon-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache httpd</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-httpd/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-httpd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS ParallelCluster</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-parallelcluster/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-parallelcluster/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Babelfish for Aurora PostgreSQL</title>
+      <link>https://blog.beachgeek.co.uk/tags/babelfish-for-aurora-postgresql/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/babelfish-for-aurora-postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>eksctl</title>
+      <link>https://blog.beachgeek.co.uk/tags/eksctl/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/eksctl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FreeRTOS</title>
+      <link>https://blog.beachgeek.co.uk/tags/freertos/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/freertos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Itsio</title>
+      <link>https://blog.beachgeek.co.uk/tags/itsio/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/itsio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>llrt</title>
+      <link>https://blog.beachgeek.co.uk/tags/llrt/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/llrt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node.js</title>
+      <link>https://blog.beachgeek.co.uk/tags/node.js/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/node.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Container Initiative</title>
+      <link>https://blog.beachgeek.co.uk/tags/open-container-initiative/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/open-container-initiative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project Lakechain</title>
+      <link>https://blog.beachgeek.co.uk/tags/project-lakechain/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/project-lakechain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PyTorch</title>
+      <link>https://blog.beachgeek.co.uk/tags/pytorch/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sbt</title>
+      <link>https://blog.beachgeek.co.uk/tags/sbt/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/sbt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smithy</title>
+      <link>https://blog.beachgeek.co.uk/tags/smithy/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/smithy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CDKTF</title>
+      <link>https://blog.beachgeek.co.uk/tags/cdktf/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/cdktf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cfn-lint</title>
+      <link>https://blog.beachgeek.co.uk/tags/cfn-lint/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/cfn-lint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gremlin</title>
+      <link>https://blog.beachgeek.co.uk/tags/gremlin/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/gremlin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hive</title>
+      <link>https://blog.beachgeek.co.uk/tags/hive/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/hive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Locust</title>
+      <link>https://blog.beachgeek.co.uk/tags/locust/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/locust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TinkerPop</title>
+      <link>https://blog.beachgeek.co.uk/tags/tinkerpop/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/tinkerpop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>.NET Core</title>
+      <link>https://blog.beachgeek.co.uk/tags/.net-core/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/.net-core/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Livy</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-livy/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-livy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache TinkerPop</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-tinkerpop/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-tinkerpop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Babelfish for PostgreSQL</title>
+      <link>https://blog.beachgeek.co.uk/tags/babelfish-for-postgresql/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/babelfish-for-postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CNOE</title>
+      <link>https://blog.beachgeek.co.uk/tags/cnoe/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/cnoe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DSPy</title>
+      <link>https://blog.beachgeek.co.uk/tags/dspy/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/dspy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GraphQL</title>
+      <link>https://blog.beachgeek.co.uk/tags/graphql/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/graphql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jupyter</title>
+      <link>https://blog.beachgeek.co.uk/tags/jupyter/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sustainability-scanner</title>
+      <link>https://blog.beachgeek.co.uk/tags/sustainability-scanner/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/sustainability-scanner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YugabyteDB</title>
+      <link>https://blog.beachgeek.co.uk/tags/yugabytedb/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/yugabytedb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Hudi</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-hudi/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-hudi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Tomcat</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-tomcat/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-tomcat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aspire</title>
+      <link>https://blog.beachgeek.co.uk/tags/aspire/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aspire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>High Performance Software Foundation</title>
+      <link>https://blog.beachgeek.co.uk/tags/high-performance-software-foundation/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/high-performance-software-foundation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kata</title>
+      <link>https://blog.beachgeek.co.uk/tags/kata/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/kata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leapp</title>
+      <link>https://blog.beachgeek.co.uk/tags/leapp/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/leapp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multus</title>
+      <link>https://blog.beachgeek.co.uk/tags/multus/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/multus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://blog.beachgeek.co.uk/tags/wordpress/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zingg</title>
+      <link>https://blog.beachgeek.co.uk/tags/zingg/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/zingg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Ranger</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-ranger/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-ranger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flowpipe</title>
+      <link>https://blog.beachgeek.co.uk/tags/flowpipe/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/flowpipe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Istio</title>
+      <link>https://blog.beachgeek.co.uk/tags/istio/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/istio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pgbench</title>
+      <link>https://blog.beachgeek.co.uk/tags/pgbench/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/pgbench/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RubyGems</title>
+      <link>https://blog.beachgeek.co.uk/tags/rubygems/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/rubygems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS PDK</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-pdk/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-pdk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KEDA</title>
+      <link>https://blog.beachgeek.co.uk/tags/keda/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/keda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lambda Web Adapter</title>
+      <link>https://blog.beachgeek.co.uk/tags/lambda-web-adapter/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/lambda-web-adapter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodestream</title>
+      <link>https://blog.beachgeek.co.uk/tags/nodestream/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/nodestream/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OPA</title>
+      <link>https://blog.beachgeek.co.uk/tags/opa/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/opa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open JD</title>
+      <link>https://blog.beachgeek.co.uk/tags/open-jd/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/open-jd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postfix</title>
+      <link>https://blog.beachgeek.co.uk/tags/postfix/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/postfix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PySpark</title>
+      <link>https://blog.beachgeek.co.uk/tags/pyspark/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/pyspark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAGmap</title>
+      <link>https://blog.beachgeek.co.uk/tags/ragmap/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ragmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAGxplorer</title>
+      <link>https://blog.beachgeek.co.uk/tags/ragxplorer/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ragxplorer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Griffin</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-griffin/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-griffin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Argo</title>
+      <link>https://blog.beachgeek.co.uk/tags/argo/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/argo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bref</title>
+      <link>https://blog.beachgeek.co.uk/tags/bref/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/bref/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LangServe</title>
+      <link>https://blog.beachgeek.co.uk/tags/langserve/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/langserve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lean</title>
+      <link>https://blog.beachgeek.co.uk/tags/lean/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/lean/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenEBS</title>
+      <link>https://blog.beachgeek.co.uk/tags/openebs/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/openebs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remix</title>
+      <link>https://blog.beachgeek.co.uk/tags/remix/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/remix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://blog.beachgeek.co.uk/tags/ruby/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AlmaLinux</title>
+      <link>https://blog.beachgeek.co.uk/tags/almalinux/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/almalinux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Konveyor</title>
+      <link>https://blog.beachgeek.co.uk/tags/konveyor/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/konveyor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kyverno</title>
+      <link>https://blog.beachgeek.co.uk/tags/kyverno/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/kyverno/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Next.js</title>
+      <link>https://blog.beachgeek.co.uk/tags/next.js/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/next.js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EKS Anywhere</title>
+      <link>https://blog.beachgeek.co.uk/tags/eks-anywhere/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/eks-anywhere/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NGNIX</title>
+      <link>https://blog.beachgeek.co.uk/tags/ngnix/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ngnix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://blog.beachgeek.co.uk/tags/rust/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SnapStart</title>
+      <link>https://blog.beachgeek.co.uk/tags/snapstart/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/snapstart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trino</title>
+      <link>https://blog.beachgeek.co.uk/tags/trino/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/trino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Airbyte</title>
+      <link>https://blog.beachgeek.co.uk/tags/airbyte/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/airbyte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS Distro for OpenTelemetry</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-distro-for-opentelemetry/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-distro-for-opentelemetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS SAM</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-sam/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-sam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credentials Fetcher</title>
+      <link>https://blog.beachgeek.co.uk/tags/credentials-fetcher/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/credentials-fetcher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dash</title>
+      <link>https://blog.beachgeek.co.uk/tags/dash/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/dash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Localstack</title>
+      <link>https://blog.beachgeek.co.uk/tags/localstack/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/localstack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ADOT</title>
+      <link>https://blog.beachgeek.co.uk/tags/adot/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/adot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>aws-lite</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-lite/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-lite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ffmpeg</title>
+      <link>https://blog.beachgeek.co.uk/tags/ffmpeg/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fluent Bit</title>
+      <link>https://blog.beachgeek.co.uk/tags/fluent-bit/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/fluent-bit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mountpoint for S3</title>
+      <link>https://blog.beachgeek.co.uk/tags/mountpoint-for-s3/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mountpoint-for-s3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Job Description</title>
+      <link>https://blog.beachgeek.co.uk/tags/open-job-description/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/open-job-description/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CloudQuery</title>
+      <link>https://blog.beachgeek.co.uk/tags/cloudquery/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/cloudquery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powertools for Lambda</title>
+      <link>https://blog.beachgeek.co.uk/tags/powertools-for-lambda/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/powertools-for-lambda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS Chalice</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-chalice/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-chalice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Solutions Framework on AWS</title>
+      <link>https://blog.beachgeek.co.uk/tags/data-solutions-framework-on-aws/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/data-solutions-framework-on-aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DSF</title>
+      <link>https://blog.beachgeek.co.uk/tags/dsf/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/dsf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>git-sync</title>
+      <link>https://blog.beachgeek.co.uk/tags/git-sync/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/git-sync/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blog.beachgeek.co.uk/tags/go/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mwaa-local-runner</title>
+      <link>https://blog.beachgeek.co.uk/tags/mwaa-local-runner/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mwaa-local-runner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Odoo</title>
+      <link>https://blog.beachgeek.co.uk/tags/odoo/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/odoo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenJD</title>
+      <link>https://blog.beachgeek.co.uk/tags/openjd/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/openjd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redis</title>
+      <link>https://blog.beachgeek.co.uk/tags/redis/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/redis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testcontainers</title>
+      <link>https://blog.beachgeek.co.uk/tags/testcontainers/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/testcontainers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache Zeppelin</title>
+      <link>https://blog.beachgeek.co.uk/tags/apache-zeppelin/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/apache-zeppelin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backstage</title>
+      <link>https://blog.beachgeek.co.uk/tags/backstage/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/backstage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Telemtry</title>
+      <link>https://blog.beachgeek.co.uk/tags/open-telemtry/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/open-telemtry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quarkus</title>
+      <link>https://blog.beachgeek.co.uk/tags/quarkus/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/quarkus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ROS</title>
+      <link>https://blog.beachgeek.co.uk/tags/ros/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS Copilot</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-copilot/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-copilot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blazor</title>
+      <link>https://blog.beachgeek.co.uk/tags/blazor/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/blazor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event Ruler</title>
+      <link>https://blog.beachgeek.co.uk/tags/event-ruler/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/event-ruler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mqtt</title>
+      <link>https://blog.beachgeek.co.uk/tags/mqtt/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mqtt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuronx-nemo-megatron</title>
+      <link>https://blog.beachgeek.co.uk/tags/neuronx-nemo-megatron/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/neuronx-nemo-megatron/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenJDK</title>
+      <link>https://blog.beachgeek.co.uk/tags/openjdk/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/openjdk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TensorFlow</title>
+      <link>https://blog.beachgeek.co.uk/tags/tensorflow/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delta Lake</title>
+      <link>https://blog.beachgeek.co.uk/tags/delta-lake/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/delta-lake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>devpod</title>
+      <link>https://blog.beachgeek.co.uk/tags/devpod/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/devpod/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pgVector</title>
+      <link>https://blog.beachgeek.co.uk/tags/pgvector/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/pgvector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streamlit</title>
+      <link>https://blog.beachgeek.co.uk/tags/streamlit/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/streamlit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FluxCD</title>
+      <link>https://blog.beachgeek.co.uk/tags/fluxcd/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/fluxcd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://blog.beachgeek.co.uk/tags/linux/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seekable OCI</title>
+      <link>https://blog.beachgeek.co.uk/tags/seekable-oci/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/seekable-oci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOCI</title>
+      <link>https://blog.beachgeek.co.uk/tags/soci/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/soci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aperf</title>
+      <link>https://blog.beachgeek.co.uk/tags/aperf/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aperf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memcached</title>
+      <link>https://blog.beachgeek.co.uk/tags/memcached/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/memcached/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powertools for AWS Lambda</title>
+      <link>https://blog.beachgeek.co.uk/tags/powertools-for-aws-lambda/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/powertools-for-aws-lambda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Q</title>
+      <link>https://blog.beachgeek.co.uk/tags/amazon-q/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/amazon-q/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS Neuron</title>
+      <link>https://blog.beachgeek.co.uk/tags/aws-neuron/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/aws-neuron/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ebpf</title>
+      <link>https://blog.beachgeek.co.uk/tags/ebpf/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/ebpf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mage</title>
+      <link>https://blog.beachgeek.co.uk/tags/mage/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/tags/mage/</guid>
       <description></description>
     </item>
     <item>
@@ -79,52 +1423,10 @@
       <description></description>
     </item>
     <item>
-      <title>FreeRTOS</title>
-      <link>https://blog.beachgeek.co.uk/tags/freertos/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/freertos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>https://blog.beachgeek.co.uk/tags/go/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/go/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Grafana</title>
-      <link>https://blog.beachgeek.co.uk/tags/grafana/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/grafana/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GraphQL</title>
-      <link>https://blog.beachgeek.co.uk/tags/graphql/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/graphql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jupyter</title>
-      <link>https://blog.beachgeek.co.uk/tags/jupyter/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/jupyter/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kotlin</title>
       <link>https://blog.beachgeek.co.uk/tags/kotlin/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/kotlin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://blog.beachgeek.co.uk/tags/kubernetes/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
@@ -135,31 +1437,10 @@
       <description></description>
     </item>
     <item>
-      <title>MariaDB</title>
-      <link>https://blog.beachgeek.co.uk/tags/mariadb/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/mariadb/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Memecached</title>
       <link>https://blog.beachgeek.co.uk/tags/memecached/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/memecached/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MLFlow</title>
-      <link>https://blog.beachgeek.co.uk/tags/mlflow/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/mlflow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MySQL</title>
-      <link>https://blog.beachgeek.co.uk/tags/mysql/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/mysql/</guid>
       <description></description>
     </item>
     <item>
@@ -170,97 +1451,6 @@
       <description></description>
     </item>
     <item>
-      <title>OpenSearch</title>
-      <link>https://blog.beachgeek.co.uk/tags/opensearch/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/opensearch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OpenZFS</title>
-      <link>https://blog.beachgeek.co.uk/tags/openzfs/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/openzfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>oss-newsletter</title>
-      <link>https://blog.beachgeek.co.uk/tags/oss-newsletter/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/oss-newsletter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PostgreSQL</title>
-      <link>https://blog.beachgeek.co.uk/tags/postgresql/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/postgresql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Powertools for Lambda</title>
-      <link>https://blog.beachgeek.co.uk/tags/powertools-for-lambda/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/powertools-for-lambda/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Prometheus</title>
-      <link>https://blog.beachgeek.co.uk/tags/prometheus/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/prometheus/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Redis</title>
-      <link>https://blog.beachgeek.co.uk/tags/redis/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/redis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://blog.beachgeek.co.uk/tags/rust/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/rust/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apache Flink</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-flink/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-flink/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apache Hudi</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-hudi/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-hudi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apache Spark</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-spark/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-spark/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS Amplify</title>
-      <link>https://blog.beachgeek.co.uk/tags/aws-amplify/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/aws-amplify/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS Copilot</title>
-      <link>https://blog.beachgeek.co.uk/tags/aws-copilot/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/aws-copilot/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Griptape</title>
       <link>https://blog.beachgeek.co.uk/tags/griptape/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
@@ -268,24 +1458,10 @@
       <description></description>
     </item>
     <item>
-      <title>Istio</title>
-      <link>https://blog.beachgeek.co.uk/tags/istio/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/istio/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kali</title>
       <link>https://blog.beachgeek.co.uk/tags/kali/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/kali/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Karpenter</title>
-      <link>https://blog.beachgeek.co.uk/tags/karpenter/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/karpenter/</guid>
       <description></description>
     </item>
     <item>
@@ -303,31 +1479,10 @@
       <description></description>
     </item>
     <item>
-      <title>LangChain</title>
-      <link>https://blog.beachgeek.co.uk/tags/langchain/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/langchain/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lustre</title>
-      <link>https://blog.beachgeek.co.uk/tags/lustre/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/lustre/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>NextJS</title>
       <link>https://blog.beachgeek.co.uk/tags/nextjs/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/nextjs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OpenJDK</title>
-      <link>https://blog.beachgeek.co.uk/tags/openjdk/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/openjdk/</guid>
       <description></description>
     </item>
     <item>
@@ -338,59 +1493,10 @@
       <description></description>
     </item>
     <item>
-      <title>PyTorch</title>
-      <link>https://blog.beachgeek.co.uk/tags/pytorch/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SnapStart</title>
-      <link>https://blog.beachgeek.co.uk/tags/snapstart/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/snapstart/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wordpress</title>
-      <link>https://blog.beachgeek.co.uk/tags/wordpress/</link>
-      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Amazon Linux 2023</title>
-      <link>https://blog.beachgeek.co.uk/tags/amazon-linux-2023/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/amazon-linux-2023/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apache Airflow</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-airflow/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-airflow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apache Cassandra</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-cassandra/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-cassandra/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Avro</title>
       <link>https://blog.beachgeek.co.uk/tags/avro/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/avro/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>eksctl</title>
-      <link>https://blog.beachgeek.co.uk/tags/eksctl/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/eksctl/</guid>
       <description></description>
     </item>
     <item>
@@ -412,13 +1518,6 @@
       <link>https://blog.beachgeek.co.uk/tags/maplibre/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/maplibre/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MWAA</title>
-      <link>https://blog.beachgeek.co.uk/tags/mwaa/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/mwaa/</guid>
       <description></description>
     </item>
     <item>
@@ -471,31 +1570,10 @@
       <description></description>
     </item>
     <item>
-      <title>Apache Ranger</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-ranger/</link>
-      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-ranger/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>FluxCD</title>
-      <link>https://blog.beachgeek.co.uk/tags/fluxcd/</link>
-      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/fluxcd/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kani</title>
       <link>https://blog.beachgeek.co.uk/tags/kani/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/kani/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PySpark</title>
-      <link>https://blog.beachgeek.co.uk/tags/pyspark/</link>
-      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/pyspark/</guid>
       <description></description>
     </item>
     <item>
@@ -520,38 +1598,10 @@
       <description></description>
     </item>
     <item>
-      <title>Apache Iceberg</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-iceberg/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-iceberg/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS Neuron</title>
-      <link>https://blog.beachgeek.co.uk/tags/aws-neuron/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/aws-neuron/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS SAM</title>
-      <link>https://blog.beachgeek.co.uk/tags/aws-sam/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/aws-sam/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Drupal</title>
       <link>https://blog.beachgeek.co.uk/tags/drupal/</link>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/drupal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Finch</title>
-      <link>https://blog.beachgeek.co.uk/tags/finch/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/finch/</guid>
       <description></description>
     </item>
     <item>
@@ -562,20 +1612,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ruby</title>
-      <link>https://blog.beachgeek.co.uk/tags/ruby/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spring Boot</title>
-      <link>https://blog.beachgeek.co.uk/tags/spring-boot/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/spring-boot/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Apache Hive</title>
       <link>https://blog.beachgeek.co.uk/tags/apache-hive/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
@@ -583,38 +1619,10 @@
       <description></description>
     </item>
     <item>
-      <title>Babelfish for Aurora PostgreSQL</title>
-      <link>https://blog.beachgeek.co.uk/tags/babelfish-for-aurora-postgresql/</link>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/babelfish-for-aurora-postgresql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bottlerocket</title>
-      <link>https://blog.beachgeek.co.uk/tags/bottlerocket/</link>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/bottlerocket/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Crossplane</title>
       <link>https://blog.beachgeek.co.uk/tags/crossplane/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/crossplane/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dask</title>
-      <link>https://blog.beachgeek.co.uk/tags/dask/</link>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/dask/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Delta Lake</title>
-      <link>https://blog.beachgeek.co.uk/tags/delta-lake/</link>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/delta-lake/</guid>
       <description></description>
     </item>
     <item>
@@ -646,13 +1654,6 @@
       <description></description>
     </item>
     <item>
-      <title>Linux</title>
-      <link>https://blog.beachgeek.co.uk/tags/linux/</link>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Milvus</title>
       <link>https://blog.beachgeek.co.uk/tags/milvus/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
@@ -671,13 +1672,6 @@
       <link>https://blog.beachgeek.co.uk/tags/openclip/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/openclip/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OpenShift</title>
-      <link>https://blog.beachgeek.co.uk/tags/openshift/</link>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/openshift/</guid>
       <description></description>
     </item>
     <item>
@@ -716,38 +1710,10 @@
       <description></description>
     </item>
     <item>
-      <title>Kubecost</title>
-      <link>https://blog.beachgeek.co.uk/tags/kubecost/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/kubecost/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>pgVector</title>
-      <link>https://blog.beachgeek.co.uk/tags/pgvector/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/pgvector/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Postgres</title>
       <link>https://blog.beachgeek.co.uk/tags/postgres/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/postgres/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RabbitMQ</title>
-      <link>https://blog.beachgeek.co.uk/tags/rabbitmq/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/rabbitmq/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ray</title>
-      <link>https://blog.beachgeek.co.uk/tags/ray/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/ray/</guid>
       <description></description>
     </item>
     <item>
@@ -762,13 +1728,6 @@
       <link>https://blog.beachgeek.co.uk/tags/trivy/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/trivy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Amazon Linux</title>
-      <link>https://blog.beachgeek.co.uk/tags/amazon-linux/</link>
-      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/amazon-linux/</guid>
       <description></description>
     </item>
     <item>
@@ -800,13 +1759,6 @@
       <description></description>
     </item>
     <item>
-      <title>CNOE</title>
-      <link>https://blog.beachgeek.co.uk/tags/cnoe/</link>
-      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/cnoe/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CoreDNS</title>
       <link>https://blog.beachgeek.co.uk/tags/coredns/</link>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
@@ -818,20 +1770,6 @@
       <link>https://blog.beachgeek.co.uk/tags/etcd/</link>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/etcd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Powertools for AWS Lambda</title>
-      <link>https://blog.beachgeek.co.uk/tags/powertools-for-aws-lambda/</link>
-      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/powertools-for-aws-lambda/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SOCI</title>
-      <link>https://blog.beachgeek.co.uk/tags/soci/</link>
-      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/soci/</guid>
       <description></description>
     </item>
     <item>
@@ -870,31 +1808,10 @@
       <description></description>
     </item>
     <item>
-      <title>OpenTelemetry</title>
-      <link>https://blog.beachgeek.co.uk/tags/opentelemetry/</link>
-      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/opentelemetry/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>React</title>
       <link>https://blog.beachgeek.co.uk/tags/react/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/react/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Steampipe</title>
-      <link>https://blog.beachgeek.co.uk/tags/steampipe/</link>
-      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/steampipe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trusted Language Extensions for PostgreSQL</title>
-      <link>https://blog.beachgeek.co.uk/tags/trusted-language-extensions-for-postgresql/</link>
-      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/trusted-language-extensions-for-postgresql/</guid>
       <description></description>
     </item>
     <item>
@@ -909,13 +1826,6 @@
       <link>https://blog.beachgeek.co.uk/tags/aws-toolkit-for-visual-studio/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/aws-toolkit-for-visual-studio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ebpf</title>
-      <link>https://blog.beachgeek.co.uk/tags/ebpf/</link>
-      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/ebpf/</guid>
       <description></description>
     </item>
     <item>
@@ -937,13 +1847,6 @@
       <link>https://blog.beachgeek.co.uk/tags/openqaoa/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/openqaoa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Smithy</title>
-      <link>https://blog.beachgeek.co.uk/tags/smithy/</link>
-      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/smithy/</guid>
       <description></description>
     </item>
     <item>
@@ -982,38 +1885,10 @@
       <description></description>
     </item>
     <item>
-      <title>AWS ParallelCluster</title>
-      <link>https://blog.beachgeek.co.uk/tags/aws-parallelcluster/</link>
-      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/aws-parallelcluster/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cedar</title>
-      <link>https://blog.beachgeek.co.uk/tags/cedar/</link>
-      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/cedar/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>cedarpy</title>
       <link>https://blog.beachgeek.co.uk/tags/cedarpy/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/cedarpy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kyverno</title>
-      <link>https://blog.beachgeek.co.uk/tags/kyverno/</link>
-      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/kyverno/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Next.js</title>
-      <link>https://blog.beachgeek.co.uk/tags/next.js/</link>
-      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/next.js/</guid>
       <description></description>
     </item>
     <item>
@@ -1042,20 +1917,6 @@
       <link>https://blog.beachgeek.co.uk/tags/aws-iam-authenticator/</link>
       <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/aws-iam-authenticator/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Localstack</title>
-      <link>https://blog.beachgeek.co.uk/tags/localstack/</link>
-      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/localstack/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Memcached</title>
-      <link>https://blog.beachgeek.co.uk/tags/memcached/</link>
-      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/memcached/</guid>
       <description></description>
     </item>
     <item>
@@ -1098,20 +1959,6 @@
       <link>https://blog.beachgeek.co.uk/tags/collectd/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/collectd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>O3DE</title>
-      <link>https://blog.beachgeek.co.uk/tags/o3de/</link>
-      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/o3de/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ROS</title>
-      <link>https://blog.beachgeek.co.uk/tags/ros/</link>
-      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/ros/</guid>
       <description></description>
     </item>
     <item>
@@ -1178,34 +2025,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mountpoint for Amazon S3</title>
-      <link>https://blog.beachgeek.co.uk/tags/mountpoint-for-amazon-s3/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/mountpoint-for-amazon-s3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OCSF</title>
-      <link>https://blog.beachgeek.co.uk/tags/ocsf/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/ocsf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open Cybersecurity Schema Framework</title>
-      <link>https://blog.beachgeek.co.uk/tags/open-cybersecurity-schema-framework/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/open-cybersecurity-schema-framework/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seekable OCI</title>
-      <link>https://blog.beachgeek.co.uk/tags/seekable-oci/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/seekable-oci/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Apache Kakfa</title>
       <link>https://blog.beachgeek.co.uk/tags/apache-kakfa/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
@@ -1234,20 +2053,6 @@
       <description></description>
     </item>
     <item>
-      <title>Keycloak</title>
-      <link>https://blog.beachgeek.co.uk/tags/keycloak/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/keycloak/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>mqtt</title>
-      <link>https://blog.beachgeek.co.uk/tags/mqtt/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/mqtt/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>OAM</title>
       <link>https://blog.beachgeek.co.uk/tags/oam/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
@@ -1266,13 +2071,6 @@
       <link>https://blog.beachgeek.co.uk/tags/pacu/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/pacu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Streamlit</title>
-      <link>https://blog.beachgeek.co.uk/tags/streamlit/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/streamlit/</guid>
       <description></description>
     </item>
     <item>
@@ -1367,13 +2165,6 @@
       <description></description>
     </item>
     <item>
-      <title>ActiveMQ</title>
-      <link>https://blog.beachgeek.co.uk/tags/activemq/</link>
-      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/activemq/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Spring</title>
       <link>https://blog.beachgeek.co.uk/tags/spring/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
@@ -1406,13 +2197,6 @@
       <link>https://blog.beachgeek.co.uk/tags/and-delta-lake/</link>
       <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/and-delta-lake/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ArgoCD</title>
-      <link>https://blog.beachgeek.co.uk/tags/argocd/</link>
-      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/argocd/</guid>
       <description></description>
     </item>
     <item>
@@ -1514,24 +2298,10 @@
       <description></description>
     </item>
     <item>
-      <title>DeeQu</title>
-      <link>https://blog.beachgeek.co.uk/tags/deequ/</link>
-      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/deequ/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hugging Face</title>
       <link>https://blog.beachgeek.co.uk/tags/hugging-face/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/hugging-face/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Notation</title>
-      <link>https://blog.beachgeek.co.uk/tags/notation/</link>
-      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/notation/</guid>
       <description></description>
     </item>
     <item>
@@ -1602,13 +2372,6 @@
       <link>https://blog.beachgeek.co.uk/tags/spinnaker/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/spinnaker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Backstage</title>
-      <link>https://blog.beachgeek.co.uk/tags/backstage/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/backstage/</guid>
       <description></description>
     </item>
     <item>
@@ -1689,31 +2452,10 @@
       <description></description>
     </item>
     <item>
-      <title>ROSA</title>
-      <link>https://blog.beachgeek.co.uk/tags/rosa/</link>
-      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/rosa/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>TiDB</title>
       <link>https://blog.beachgeek.co.uk/tags/tidb/</link>
       <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/tidb/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trino</title>
-      <link>https://blog.beachgeek.co.uk/tags/trino/</link>
-      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/trino/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ubuntu</title>
-      <link>https://blog.beachgeek.co.uk/tags/ubuntu/</link>
-      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/ubuntu/</guid>
       <description></description>
     </item>
     <item>
@@ -1728,13 +2470,6 @@
       <link>https://blog.beachgeek.co.uk/tags/apache-oozie/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/apache-oozie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Flutter</title>
-      <link>https://blog.beachgeek.co.uk/tags/flutter/</link>
-      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/flutter/</guid>
       <description></description>
     </item>
     <item>
@@ -1763,13 +2498,6 @@
       <link>https://blog.beachgeek.co.uk/tags/marten/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/marten/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>mwaa-local-runner</title>
-      <link>https://blog.beachgeek.co.uk/tags/mwaa-local-runner/</link>
-      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/mwaa-local-runner/</guid>
       <description></description>
     </item>
     <item>
@@ -1836,13 +2564,6 @@
       <description></description>
     </item>
     <item>
-      <title>AWS Parallel Cluster</title>
-      <link>https://blog.beachgeek.co.uk/tags/aws-parallel-cluster/</link>
-      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/aws-parallel-cluster/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Goldilocks</title>
       <link>https://blog.beachgeek.co.uk/tags/goldilocks/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
@@ -1854,13 +2575,6 @@
       <link>https://blog.beachgeek.co.uk/tags/lambda-powertools-for-.net/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/lambda-powertools-for-.net/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ffmpeg</title>
-      <link>https://blog.beachgeek.co.uk/tags/ffmpeg/</link>
-      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/ffmpeg/</guid>
       <description></description>
     </item>
     <item>
@@ -1889,13 +2603,6 @@
       <link>https://blog.beachgeek.co.uk/tags/nextcloud/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/nextcloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apache TinkerPop</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-tinkerpop/</link>
-      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-tinkerpop/</guid>
       <description></description>
     </item>
     <item>
@@ -1955,27 +2662,6 @@
       <description></description>
     </item>
     <item>
-      <title>Argo Workflows</title>
-      <link>https://blog.beachgeek.co.uk/tags/argo-workflows/</link>
-      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/argo-workflows/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HBase</title>
-      <link>https://blog.beachgeek.co.uk/tags/hbase/</link>
-      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/hbase/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Quarkus</title>
-      <link>https://blog.beachgeek.co.uk/tags/quarkus/</link>
-      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/quarkus/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>VSCode</title>
       <link>https://blog.beachgeek.co.uk/tags/vscode/</link>
       <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
@@ -2001,13 +2687,6 @@
       <link>https://blog.beachgeek.co.uk/tags/cosign/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/cosign/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fluent Bit</title>
-      <link>https://blog.beachgeek.co.uk/tags/fluent-bit/</link>
-      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/fluent-bit/</guid>
       <description></description>
     </item>
     <item>
@@ -2078,13 +2757,6 @@
       <link>https://blog.beachgeek.co.uk/tags/datahub/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/datahub/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>EKS Anywhere</title>
-      <link>https://blog.beachgeek.co.uk/tags/eks-anywhere/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/eks-anywhere/</guid>
       <description></description>
     </item>
     <item>
@@ -2172,13 +2844,6 @@
       <description></description>
     </item>
     <item>
-      <title>Apache Pinot</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-pinot/</link>
-      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-pinot/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Apache ShardingSphere-Proxy</title>
       <link>https://blog.beachgeek.co.uk/tags/apache-shardingsphere-proxy/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
@@ -2204,13 +2869,6 @@
       <link>https://blog.beachgeek.co.uk/tags/log4shell/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/log4shell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Red Hat Enterprise Linux</title>
-      <link>https://blog.beachgeek.co.uk/tags/red-hat-enterprise-linux/</link>
-      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/red-hat-enterprise-linux/</guid>
       <description></description>
     </item>
     <item>
@@ -2389,13 +3047,6 @@
       <description></description>
     </item>
     <item>
-      <title>Hive</title>
-      <link>https://blog.beachgeek.co.uk/tags/hive/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/hive/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>PrestoDB</title>
       <link>https://blog.beachgeek.co.uk/tags/prestodb/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
@@ -2550,31 +3201,10 @@
       <description></description>
     </item>
     <item>
-      <title>Babelfish for PostgreSQL</title>
-      <link>https://blog.beachgeek.co.uk/tags/babelfish-for-postgresql/</link>
-      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/babelfish-for-postgresql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gremlin</title>
-      <link>https://blog.beachgeek.co.uk/tags/gremlin/</link>
-      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/gremlin/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kubeapps</title>
       <link>https://blog.beachgeek.co.uk/tags/kubeapps/</link>
       <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/kubeapps/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PHP</title>
-      <link>https://blog.beachgeek.co.uk/tags/php/</link>
-      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/php/</guid>
       <description></description>
     </item>
     <item>
@@ -2648,13 +3278,6 @@
       <description></description>
     </item>
     <item>
-      <title>Event Ruler</title>
-      <link>https://blog.beachgeek.co.uk/tags/event-ruler/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/event-ruler/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Moodle</title>
       <link>https://blog.beachgeek.co.uk/tags/moodle/</link>
       <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
@@ -2680,13 +3303,6 @@
       <link>https://blog.beachgeek.co.uk/tags/calico/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/calico/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Flyway</title>
-      <link>https://blog.beachgeek.co.uk/tags/flyway/</link>
-      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/flyway/</guid>
       <description></description>
     </item>
     <item>
@@ -2739,13 +3355,6 @@
       <description></description>
     </item>
     <item>
-      <title>CDKTF</title>
-      <link>https://blog.beachgeek.co.uk/tags/cdktf/</link>
-      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/cdktf/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kyber</title>
       <link>https://blog.beachgeek.co.uk/tags/kyber/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
@@ -2771,13 +3380,6 @@
       <link>https://blog.beachgeek.co.uk/tags/babelfish/</link>
       <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/babelfish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blazor</title>
-      <link>https://blog.beachgeek.co.uk/tags/blazor/</link>
-      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/blazor/</guid>
       <description></description>
     </item>
     <item>
@@ -2813,13 +3415,6 @@
       <link>https://blog.beachgeek.co.uk/tags/syne-tune/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/syne-tune/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CloudQuery</title>
-      <link>https://blog.beachgeek.co.uk/tags/cloudquery/</link>
-      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/cloudquery/</guid>
       <description></description>
     </item>
     <item>
@@ -2935,13 +3530,6 @@
       <description></description>
     </item>
     <item>
-      <title>TensorFlow</title>
-      <link>https://blog.beachgeek.co.uk/tags/tensorflow/</link>
-      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/tensorflow/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Amazon Linux 2</title>
       <link>https://blog.beachgeek.co.uk/tags/amazon-linux-2/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
@@ -3033,20 +3621,6 @@
       <description></description>
     </item>
     <item>
-      <title>Apache Livy</title>
-      <link>https://blog.beachgeek.co.uk/tags/apache-livy/</link>
-      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/apache-livy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Locust</title>
-      <link>https://blog.beachgeek.co.uk/tags/locust/</link>
-      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/locust/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AWS CloudFormation Guard</title>
       <link>https://blog.beachgeek.co.uk/tags/aws-cloudformation-guard/</link>
       <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
@@ -3107,13 +3681,6 @@
       <link>https://blog.beachgeek.co.uk/tags/medusa/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/medusa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Projen</title>
-      <link>https://blog.beachgeek.co.uk/tags/projen/</link>
-      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/projen/</guid>
       <description></description>
     </item>
     <item>
@@ -3296,13 +3863,6 @@
       <link>https://blog.beachgeek.co.uk/tags/aws-graviton2/</link>
       <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.beachgeek.co.uk/tags/aws-graviton2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Leapp</title>
-      <link>https://blog.beachgeek.co.uk/tags/leapp/</link>
-      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.beachgeek.co.uk/tags/leapp/</guid>
       <description></description>
     </item>
     <item>

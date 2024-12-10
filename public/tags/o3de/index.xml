@@ -6,8 +6,22 @@
     <description>Recent content in O3DE on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/o3de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #203</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</guid>
+      <description>Welcome to the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, more great new projects are featured in this edition, #203. Projects to check out include: how you can proxy OpenAI requests through Amazon Bedrock, security tools that help you stay one step ahead of bad actors, a way of implementing CDK Pipelines in a less opinionated way, a tool that helps you validate your AWS IAM policies, a toolkit to help get you started with good practices when creating CloudFormation templates, some demo code that demonstrate how you can implement zero downtime updates to your applications, as well as some really cool demos and use cases of generative AI in action (too many to mention, so check them all out!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #200</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-200/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-200/</guid>
+      <description>Edition #200 Welcome to a milestone edition of this newsletter, number #200!! Wow, it feels like quite an achievement. Before diving into this newsletter, a big thank you for sticking with me. Time has flown by so quickly, and am looking forward to the next 100. As I have done in a few of the previous milestone issues, I wanted to share a few interesting stats from sharing open source projects with you over the past few years.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #170</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-170/</link>

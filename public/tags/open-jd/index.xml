@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open JD on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/open-jd/</link>
+    <description>Recent content in Open JD on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/open-jd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #196</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-196/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-196/</guid>
+      <description>Edition #196 Welcome to issue #196 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, more great new projects are featured in this edition of the newsletter, including a link to the Valkey repo, a nice GUI based project to help you build orchestration workflows that uses Apache Airflow under the covers, a tool to help you find signals through the noise of your security logs, a project to help you run serverless tasks in a cron like fashion, a command line runner for Amazon CodeCatalyst, a tool to help you simplify the deployment of Cruise Control on Amazon MSK, a nice Mac client for experimenting with Amazon Bedrock, and some really cool demo apps, the pick of which (for me) is a nice way of surfacing up your Amazon Bedrock models in a way that existing applications that expect an API key can use.</description>
+    </item>
+  </channel>
+</rss>

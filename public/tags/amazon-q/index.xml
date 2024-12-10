@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazon Q on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/amazon-q/</link>
+    <description>Recent content in Amazon Q on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/amazon-q/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing simple Python scripts faster with Amazon Q</title>
+      <link>https://blog.beachgeek.co.uk/amazon-q-finding-oss-projects-part-one/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/amazon-q-finding-oss-projects-part-one/</guid>
+      <description>The future is here folks! I share my experiences using Amazon Q in the IDE, and how I was able to write more quickly and with less friction.&#xA;Some of you might be familiar with the AWS open source newsletter, a weekly publication that features a curated set of content for open source developers on AWS. I rely on a number of folk to share with me interesting open source projects that I feature, but I wanted to see if I could create an automated script that I could run on a weekly schedule that would find new open source projects for me to review.</description>
+    </item>
+  </channel>
+</rss>

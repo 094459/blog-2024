@@ -6,8 +6,36 @@
     <description>Recent content in Projen on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/projen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #205</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-205/</guid>
+      <description>Welcome to issue #205 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. This will be the last edition of 2024, but looking forward to coming back in 2025 with more great open source project and content. As always, we have more great new projects to check out, which include a project that simplifies how you manage complex Kubernetes resource configurations, a library to accelerate open source analytics using Amazon S3, a look at a GraphRAG project, a project that helps NodeJS developers make it easier to make use of some advanced Amazon Aurora capabilities, an ESLinting tool for AWS CDK, and more.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #199</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-199/</guid>
+      <description>Edition #199 Welcome to issue #199 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. I cannot believe that we are one issue away from a pretty significant milestone. I would love to hear from some of the regular readers of this newsletter to find any highlights they have had, or perhaps things they have found that have been pretty significant.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #187</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-187/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-187/</guid>
+      <description>Edition #187 Welcome to issue #187 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have new projects that help you optimise working with EBS volumes on EC2, a tool to help you document your architectures, a large language model benchmarking tool, a tool to help you optimise your S3 storage files, a data validation framework, and a really nice Java workshop.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #183</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</guid>
+      <description>January 8th, 2024 - Instalment #183 Happy new year and welcome to the first edition of the AWS open source newsletter of 2024, number #183. The big news for 2024 is the move from dev.to to community.aws as the &amp;ldquo;home&amp;rdquo; for the AWS open source newsletter, although it will still be posted on dev.to as well. Let me know what you think, community.aws has some top notch content that many readers might not be aware of.</description>
+    </item>
     <item>
       <title>AWS open source news and updates #107</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-no-107/</link>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LangServe on Beachgeek blog - a refuge for pineapple on pizza lovers</title>
+    <link>https://blog.beachgeek.co.uk/tags/langserve/</link>
+    <description>Recent content in LangServe on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beachgeek.co.uk/tags/langserve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #195</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-195/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-195/</guid>
+      <description>Edition #195 Welcome to issue #195 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. This week I am heading out to Everything Open, and looking forward to meeting the community in Gladstone. I will be talking about Cedar, and showing why it is important and how it works (demo is working lovely now). I am now on the third week of my open source roadshow, which is why I have had to change the publishing of this newsletter to every other week - at least until I get back home.</description>
+    </item>
+  </channel>
+</rss>

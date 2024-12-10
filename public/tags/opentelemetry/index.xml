@@ -6,8 +6,43 @@
     <description>Recent content in OpenTelemetry on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/opentelemetry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #203</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-203/</guid>
+      <description>Welcome to the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, more great new projects are featured in this edition, #203. Projects to check out include: how you can proxy OpenAI requests through Amazon Bedrock, security tools that help you stay one step ahead of bad actors, a way of implementing CDK Pipelines in a less opinionated way, a tool that helps you validate your AWS IAM policies, a toolkit to help get you started with good practices when creating CloudFormation templates, some demo code that demonstrate how you can implement zero downtime updates to your applications, as well as some really cool demos and use cases of generative AI in action (too many to mention, so check them all out!</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #198</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-198/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-198/</guid>
+      <description>Edition #198 Welcome to issue #198 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. In this issue we feature new projects that provide integration of .NET Aspire with AWS resources, an automated data discovery tool to find data in your AWS environments, a tool to help incorporate good practices when building SaaS solutions, a cost allocation dashboard for your Kubernetes workloads, a project that might help you mitigate costs around Internet Gateway, and a few generative AI demos around food, news, and social media which you should definitely check out.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #193</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-193/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-193/</guid>
+      <description>Edition #193 Welcome to issue #193 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. Sadly I will be missing the fun at KubeCon in Paris, but if you are attending, make sure to check out the AWS booth - I had a sneak peak at what you can expect, and there is going to be some great demos being shown, a lot of our open source folk will be there.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #191</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-191/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-191/</guid>
+      <description>Edition #191 Welcome to issue #191 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content. As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that cover AWS Nitro Enclaves, open source mapping libraries, how to grab secrets into your application configuration files, database performance benchmarking and analysis, improving the logging your applications generate, and a number of very handy tools to help you manage security data from the command line.</description>
+    </item>
+    <item>
+      <title>AWS open source newsletter #183</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-183/</guid>
+      <description>January 8th, 2024 - Instalment #183 Happy new year and welcome to the first edition of the AWS open source newsletter of 2024, number #183. The big news for 2024 is the move from dev.to to community.aws as the &amp;ldquo;home&amp;rdquo; for the AWS open source newsletter, although it will still be posted on dev.to as well. Let me know what you think, community.aws has some top notch content that many readers might not be aware of.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #174</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-174/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in TensorFlow on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #187</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-187/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-187/</guid>
+      <description>Edition #187 Welcome to issue #187 of the AWS open source newsletter, the newsletter where we try and provide you the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have new projects that help you optimise working with EBS volumes on EC2, a tool to help you document your architectures, a large language model benchmarking tool, a tool to help you optimise your S3 storage files, a data validation framework, and a really nice Java workshop.</description>
+    </item>
     <item>
       <title>AWS open source news and updates #115</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-no-115/</link>

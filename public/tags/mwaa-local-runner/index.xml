@@ -6,8 +6,22 @@
     <description>Recent content in mwaa-local-runner on Beachgeek blog - a refuge for pineapple on pizza lovers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.beachgeek.co.uk/tags/mwaa-local-runner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS open source newsletter #189</title>
+      <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-189/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-189/</guid>
+      <description>Edition #189 Welcome to issue #189 of the AWS open source newsletter, the newsletter where we search high and low to provide you with the best open source on AWS content.&#xA;As always, this week we start with a round up of some freshly baked new projects for you to practice your four freedoms. This week we have projects that help you find your RDS instances, automate tasks from your online Chime calls, a very nice visual file browser for your Amazon S3 buckets, a tool to help you track and manage copying files from your S3 storage buckets, an active-active multi region cluster solution for Redis, and more!</description>
+    </item>
+    <item>
+      <title>Using Finch to run Apache Airflow using mwaa-local-runner</title>
+      <link>https://blog.beachgeek.co.uk/using-finch-with-mwaa-local-runner/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.beachgeek.co.uk/using-finch-with-mwaa-local-runner/</guid>
+      <description>I show you how you can use the Finch to run Apache Airflow using the mwaa-local-runner tool, and how you can do this for your applications too&#xA;As some of you may know, I have been creating content on Apache Airflow for a few years now. One of the open source projects that AWS has produced to make it easier for developers to get started with Apache Airflow, is mwaa-local-runner.</description>
+    </item>
     <item>
       <title>AWS open source newsletter #154</title>
       <link>https://blog.beachgeek.co.uk/newsletter/aws-open-source-news-and-updates-154/</link>
