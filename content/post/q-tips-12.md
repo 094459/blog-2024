@@ -46,7 +46,7 @@ You get better code suggestions if you define your function names more descripti
 Amazon Q Developer can understand your intent and provides suggestions based on single line comments. For example, in the IDE when I type the following:
 
 ```
-# function to get the average of a set of numbersp
+# function to get the average of a set of numbers
 ```
 
 When you hit return, you will see Amazon Q provide some code suggestions.
