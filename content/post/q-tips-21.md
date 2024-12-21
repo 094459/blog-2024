@@ -5,7 +5,7 @@ tags : [ Amazon Q Developer]
 canonicalUrl: "https://dev.to/aws/amazon-q-developer-tips-no21-amazon-q-developer-agents-test-37o5"
 ---
 
-In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips [here](https://dev.to/aws/amazon-q-developer-tips-no20-amazon-q-developer-agents-review-2b6l).
+In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey with Amazon Q Developer. Each day I will share a new tip, categorised against a few themes and topics. If you have your own tips or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips [here](https://dev.to/aws/amazon-q-developer-tips-no20-amazon-q-developer-agents-review-2b6l).
 
 Ok, time for today's tip....
 

@@ -7,7 +7,7 @@ canonicalUrl: ""
 
 In the [previous post](https://dev.to/aws/daily-tips-to-supercharge-your-amazon-q-developer-experience-1jg8) I shared the importance of forming daily habits to help you discover your own flow when working with AI coding assistants like Amazon Q Developer.  I also shared the first tip - make sure you keep your Amazon Q Developer plugin auto updated.
 
-In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly.
+In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey with Amazon Q Developer. Each day I will share a new tip, categorised against a few themes and topics. If you have your own tips or your own experiences with tips I share, please use the comment feature or feel free to contact me directly.
 
 Ok enough, lets get on with todays tip.
 

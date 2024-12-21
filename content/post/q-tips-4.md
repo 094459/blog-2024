@@ -5,7 +5,7 @@ tags : [ Amazon Q Developer]
 canonicalUrl: "https://dev.to/aws/amazon-q-developer-tips-no4-no-aws-account-needed-12lm"
 ---
 
-In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey. Each day I will share something new tip, categorised against a few themes and topics. If you have your own tips, or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips [here](https://dev.to/094459/amazon-q-developer-tips-no3-enable-amazon-q-developer-workspace-index-1jkb).
+In this series I will be sharing daily hints and tips to help you get ahead and start to accelerate you on your own journey with Amazon Q Developer. Each day I will share a new tip, categorised against a few themes and topics. If you have your own tips or your own experiences with tips I share, please use the comment feature or feel free to contact me directly. Check out the previous tips [here](https://dev.to/094459/amazon-q-developer-tips-no3-enable-amazon-q-developer-workspace-index-1jkb).
 
 Ok, time for today's tip....
 
