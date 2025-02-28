@@ -236,13 +236,13 @@ Following that is news that AWS Elastic Beanstalk now enables customers to build
 
 Those Containers from the Couch folks are back to mischief, this time looking at how you you can deploy DeepSeek-R1 on Kubernetes. In this video, Sai is joined by AWS Solutions Architects Lucas and Tiago to talk about why DeepSeek is different and show you a demo of deploying it on Amazon EKS Auto Mode. We use Amazon EKS Auto Mode for flexibility and scalability on the underlying compute, removing the need for you to manage infrastructure tasks.
 
-{% youtube -YeNNOZ0y84 %}
+{{< youtube -YeNNOZ0y84 >}}
 
 **Build Software with Amazon Bedrock AI and Aider Open Source**
 
 [Aider](https://aws-oss.beachgeek.co.uk/47z) is a super nice open source generative AI pair programming tool that I have been using on/off for a while. It provides a great tool for those of us who prefer text and command line environments. In this video, AWS Ambassador Trevor Sullivan from StratusGrid, takes you through the setup process of a containerized development environment with Aider, using Amazon Bedrock to provide access to Large Language Models (LLM) 
 
-{% youtube CTzX1qB_S1k %}
+{{< youtube CTzX1qB_S1k >}}
 
 ### Celebrating open source contributors
 
