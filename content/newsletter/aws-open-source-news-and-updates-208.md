@@ -17,7 +17,6 @@ As always, get in touch if you want me to feature your projects in this open sou
 
 On May 30th, 2025, the AWS Cloud Development Kit (CDK) will no longer support Node.js 14.x and 16.x, which reached end of life on 4/30/2023 (14.x) and 9/11/2023 (16.x). This change applies to all AWS CDK components that depend on Node.js, including the AWS CDK CLI, the Construct Library, and broader CDK ecosystem projects such as JSII, Projen, and CDK8s. Check out the blog post from Adam Keller for more details, [Announcing the end of support for Node.js 14.x and 16.x in AWS CDK](https://aws-oss.beachgeek.co.uk/49r).
 
-
 ### Latest open source projects
 
 *The great thing about open source projects is that you can review the source code. If you like the look of these projects, make sure you that take a look at the code, and if it is useful to you, get in touch with the maintainer to provide feedback, suggestions or even submit a contribution. The projects mentioned here do not represent any formal recommendation or endorsement, I am just sharing for greater awareness as I think they look useful and interesting!*
@@ -62,7 +61,7 @@ The README provide a nice example of how this works, and also covers installatio
 
 Nice detailed README will get you going, but you can also check out the demo video before hand to see if this is something you want to try out yourself
 
-{% video WuVOmYLRFmI %}
+{{< youtube WuVOmYLRFmI >}}
 
 **aws-mcp**
 
