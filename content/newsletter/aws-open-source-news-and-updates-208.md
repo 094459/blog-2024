@@ -1,6 +1,6 @@
 ---
 title: 'AWS open source newsletter #208'
-date: '2025-03-30'
+date: '2025-03-28'
 tags : [ oss-newsletter, aws open source, Kubernetes, Amazon EKS, Karpenter, Valkey, Amazon Linux, MySQL, Next.js, Swift, PySpark, Apache Iceberg, Amazon Corretto, LangGraph, HBase, Amazon EMR, DuckDB, Starburst, Apache Kafka, PostgreSQL, Wordpress, AWS Lambda Profiler Extension for Java, .NET Aspire ]
 canonicalUrl: "https://dev.to/aws/aws-open-source-newsletter-208-43ii"
 ---
