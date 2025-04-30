@@ -1,7 +1,7 @@
 ---
 title: 'AWS open source newsletter #209'
-date: '2025-04-30'
-tags : [ oss-newsletter, aws open source, Ruby, Apache Airflow, MWAA, Amazon EKS, Kubernetes, Bottlerocket, Karpenter, PostgreSQL, Apache Iceberg, Apache OFBiz, Apache Flink, Prometheus, Grafana, AWS Amplify, Spring Boot, LangChain, Valkey, LangGraph, MLFlow, AuthZen, Amazon Corretto, AWS CDK, Apache Kafka, memecachd, AWS ParallelCluster, Amazon Linux, Swift,  ]
+date: '2025-04-29'
+tags : [ oss-newsletter, aws open source, Ruby, Apache Airflow, MWAA, Amazon EKS, Kubernetes, Bottlerocket, Karpenter, PostgreSQL, Apache Iceberg, Apache OFBiz, Apache Flink, Prometheus, Grafana, AWS Amplify, Spring Boot, LangChain, Valkey, LangGraph, MLFlow, AuthZen, Amazon Corretto, AWS CDK, Apache Kafka, memecachd, AWS ParallelCluster, Amazon Linux, Swift  ]
 canonicalUrl: "https://dev.to/aws/aws-open-source-newsletter-209-39mo"
 ---
 
