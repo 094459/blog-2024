@@ -21,9 +21,9 @@ Check out the list of contributors at the end of the newsletter, and as always, 
 
 ### Tools
 
-**RunnaVault**
+**RunaVault**
 
-[RunnaVault](https://aws-oss.beachgeek.co.uk/4eq) is a secure, serverless password management application built using AWS free-tier services and a React frontend. It enables users to create, manage, and share encrypted secrets (e.g., passwords) with individuals or groups, leveraging AWS Cognito for authentication, DynamoDB for storage, and KMS for encryption. Check out the repo for screenshots of what the app looks like as well as more technical implementation details (which you can deploy via OpenTofu/Terraform). I wish more READMEs would do this, but they also include some estimated costs of what it might cost to run this project in your AWS Account. Go check it out.
+[RunaVault](https://aws-oss.beachgeek.co.uk/4eq) is a secure, serverless password management application built using AWS free-tier services and a React frontend. It enables users to create, manage, and share encrypted secrets (e.g., passwords) with individuals or groups, leveraging AWS Cognito for authentication, DynamoDB for storage, and KMS for encryption. Check out the repo for screenshots of what the app looks like as well as more technical implementation details (which you can deploy via OpenTofu/Terraform). I wish more READMEs would do this, but they also include some estimated costs of what it might cost to run this project in your AWS Account. Go check it out.
 
 **yes3-scanner**
 
