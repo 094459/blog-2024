@@ -13,7 +13,7 @@ In this post I am going to show you how you can enable an experimental / beta fe
 
 **Introducing /knowledge**
 
-If you have been using tools like Amazon Q Developer in the IDE, you will know that you can use a feature called **"@workspace"** to provide additional information with your prompt. It works by indexing the files in your local workspace.  [**/knowledge**](https://github.com/aws/amazon-q-developer-cli-autocomplete/pull/101) is a new beta/experimental feature that you can now test with the [latest update](https://github.com/aws/amazon-q-developer-cli-autocomplete/releases/tag/v1.12.2). This introduces a new tool within Amazon Q CLI, that allows you to create semantic indexes of directories and files, that are used to search and use information without consuming tokens in your context window.  Those indexes are called **"knowledge bases"**.
+If you have been using tools like Amazon Q Developer in the IDE, you will know that you can use a feature called **@workspace** to provide additional information with your prompt. It works by indexing the files in your local workspace. [**/knowledge**](https://github.com/aws/amazon-q-developer-cli-autocomplete/pull/101) is a new beta/experimental feature that you can now test with the [latest update](https://github.com/aws/amazon-q-developer-cli-autocomplete/releases/tag/v1.12.2). This introduces a new tool within Amazon Q CLI, that allows you to create semantic indexes of directories and files, that are used to search and use information without consuming tokens in your context window.  Those indexes are called **"knowledge bases"**.
 
 Lets take a look at how you get access to this so you can experiment yourself. If you have not already done so, we need to enable experimental mode within Amazon Q CLI.
 
