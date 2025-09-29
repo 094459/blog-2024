@@ -1,6 +1,6 @@
 ---
 title: 'AWS open source newsletter #214'
-date: '2025-09-31'
+date: '2025-09-29'
 tags : [ oss-newsletter, aws open source,  Firecracker, Kubernetes, Amazon EKS, Strands Agents, FreeBSD, aws-nuke, CrewAI, LangGraph, Karpenter,  Prometheus, Grafana, Kubecost, MLflow, Apache Flink, Apache. Airflow, MWAA, Apache Iceberg, Apache Spark, MySQL, PostgreSQL, Amazon EMR,  Apache YuniKorn, AWS CDK, Valkey, InfluxDB, Amazon Linux, Amazon Corretto, LocalStack, OpenSearch, RabbitMQ, AWS Neuron SDK]
 canonicalUrl: "https://dev.to/aws/aws-open-source-newsletter-214-ekm"
 ---
