@@ -11,11 +11,11 @@ This week we have the latest update on the Elasticsearch/Kibana fork, events for
 
 **Elasticsearch fork updates**
 
-Kyle Davis has been sharing progress on the Elasticsearch and Kibana forks. In [Feb 10th update](https://aws-oss.beachgeek.co.uk/6f) and [Feb 12th update](https://aws-oss.beachgeek.co.uk/6g), shares some great data points with the community including news that the the group is about 93% done with the work. Exciting times and getting closer to a fully open source Elasticsearch and Kibana fork.
+Kyle Davis has been sharing progress on the Elasticsearch and Kibana forks. In [Feb 10th update](https://discuss.opendistrocommunity.dev/t/feb-10-fork-update/4944) and [Feb 12th update](https://discuss.opendistrocommunity.dev/t/feb-12-fork-update/4972), shares some great data points with the community including news that the the group is about 93% done with the work. Exciting times and getting closer to a fully open source Elasticsearch and Kibana fork.
 
 **Contributing to open source**
 
-Not related to AWS, this post from Piotr Gaczkowski, [The Definitive Guide to Contributing to Open Source](https://aws-oss.beachgeek.co.uk/6j) provides some solid guidance and well worth reading if you are both just starting out or a seasoned contributor.
+Not related to AWS, this post from Piotr Gaczkowski, [The Definitive Guide to Contributing to Open Source](https://medium.com/free-code-camp/the-definitive-guide-to-contributing-to-open-source-900d5f9f2282) provides some solid guidance and well worth reading if you are both just starting out or a seasoned contributor.
 
 
 ### Events for your diary
@@ -28,19 +28,19 @@ Last week I shared that I have been putting together some blog posts to support 
 **Apache Kafka**
 **Feb 25th**
 
-[Building ML-driven streaming applications with Apache Kafka](https://aws-oss.beachgeek.co.uk/4y) join Joseph Morais from Confluent and Kanchan Waikar from AWS in this webinar to learn how to build Apache Kafka®-based streaming applications backed by machine learning models. The event is across three time zones so whether you are in Asia, Europe or the Americas, there will be a time you can attend.
+[Building ML-driven streaming applications with Apache Kafka](https://pages.awscloud.com/awsmp-h2-dev-Confluent-ML-driven-streaming-applications.html) join Joseph Morais from Confluent and Kanchan Waikar from AWS in this webinar to learn how to build Apache Kafka®-based streaming applications backed by machine learning models. The event is across three time zones so whether you are in Asia, Europe or the Americas, there will be a time you can attend.
 
 **CDK Day**
 **April 30th**
 
-Announced this week was the second [CDK Day](https://sessionize.com/cdkday/), which will be on April 30th. Check out [the web page](https://sessionize.com/cdkday/) to find out more about the first CDK Day, which was incredible. This second event promises to be even better. The CFP is open until the 19th of March. Check out this supporting blog post, [CDK Day CFP Is Open!!!!](https://aws-oss.beachgeek.co.uk/4v) from Matt as to what to expect and what they are looking for when it comes to sessions.
+Announced this week was the second [CDK Day](https://sessionize.com/cdkday/), which will be on April 30th. Check out [the web page](https://sessionize.com/cdkday/) to find out more about the first CDK Day, which was incredible. This second event promises to be even better. The CFP is open until the 19th of March. Check out this supporting blog post, [CDK Day CFP Is Open!!!!](https://dev.to/nideveloper/cdk-day-cfp-is-open-4jcm) from Matt as to what to expect and what they are looking for when it comes to sessions.
 
 **Cloud Native Rust Day**
 **May 3rd**
 
 Rust is a language empowering everyone to build secure, reliable, and efficient software. Rust is becoming more widely used in cloud native, powering everything from lightning-fast service meshes and powerful developer tools to internet-scale distributed databases.
 
-Come explore what makes Rust a fantastic choice for new cloud native development, and learn about how the community uses Rust today. Find out [more and register here](https://aws-oss.beachgeek.co.uk/5y).
+Come explore what makes Rust a fantastic choice for new cloud native development, and learn about how the community uses Rust today. Find out [more and register here](https://events.linuxfoundation.org/cloud-native-rust-day/).
 
 ### Celebrating open source contributors
 
@@ -54,113 +54,113 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **lambda-cobol**
 
-[lambda-cobol](https://aws-oss.beachgeek.co.uk/5u) this is a very interesting project from Didier Durand, that you will be interested in if you have any legacy Mainframes or Cobol applications you still need to keep running. Find out how you can modernise those applications using GnuCobol, AWS SAM and Serverless computing. Didier has also put together a comprehensive README.md and this [short blog post on LinkedIn](https://aws-oss.beachgeek.co.uk/5v).
+[lambda-cobol](https://github.com/didier-durand/lambda-cobol) this is a very interesting project from Didier Durand, that you will be interested in if you have any legacy Mainframes or Cobol applications you still need to keep running. Find out how you can modernise those applications using GnuCobol, AWS SAM and Serverless computing. Didier has also put together a comprehensive README.md and this [short blog post on LinkedIn](https://www.linkedin.com/pulse/lambdas-cobol-yes-we-can-didier-durand/?trackingId=TSoon%2BcFQey2Gf5bvQWeNg%3D%3D).
 
 **aws-allowlister**
 
-[aws-allowlister](https://aws-oss.beachgeek.co.uk/63) this is a new project from Salesforce, that will automatically compile an AWS Service Control Policy that ONLY allows AWS services that are compliant with your preferred compliance frameworks. AWS Service Control Policies (SCPs) allow you to control which AWS Service APIs are allowed at the AWS Account level - so local administrators (not even the account's root user) can perform prohibited actions in a child account.
+[aws-allowlister](https://github.com/salesforce/aws-allowlister) this is a new project from Salesforce, that will automatically compile an AWS Service Control Policy that ONLY allows AWS services that are compliant with your preferred compliance frameworks. AWS Service Control Policies (SCPs) allow you to control which AWS Service APIs are allowed at the AWS Account level - so local administrators (not even the account's root user) can perform prohibited actions in a child account.
 
 ![demo](https://raw.githubusercontent.com/salesforce/aws-allowlister/main/examples/media/aws-allowlister.gif)
 
 **react-p2p-messaging**
 
-[react-p2p-messaging](https://aws-oss.beachgeek.co.uk/64) is a new open source project and walkthrough from Nader Dabit showing you how to build a peer to peer demo application using Gun.js & React. If you are unfamiliar with Gun.js, it is a effecient data sync and storage system that runs in Javascript. Check out the walk through in his post, [How to Build a Decentralized Peer-to-peer Network in JavaScript](https://aws-oss.beachgeek.co.uk/65)
+[react-p2p-messaging](https://github.com/dabit3/react-p2p-messaging) is a new open source project and walkthrough from Nader Dabit showing you how to build a peer to peer demo application using Gun.js & React. If you are unfamiliar with Gun.js, it is a effecient data sync and storage system that runs in Javascript. Check out the walk through in his post, [How to Build a Decentralized Peer-to-peer Network in JavaScript](https://dabit3.hashnode.dev/how-to-build-a-decentralized-peer-to-peer-network-in-javascript-ckkwl6jnk00ysxps10o94gyzg)
 
 **amazon-ivs-feed-web-demo**
 
-[amazon-ivs-feed-web-demo](https://aws-oss.beachgeek.co.uk/6a) is a demo web application intended as an educational tool for demonstrating how you can build a very simple scrolling feed app, load and auto-play Amazon IVS live streams as users scroll down the page. In this new blog post, [How to: Build an engaging feed app with React and Amazon IVS](https://aws-oss.beachgeek.co.uk/6b) Leah Siddall and Maxime Boulin show you how to use this project and walk you through building that demo.
+[amazon-ivs-feed-web-demo](https://github.com/aws-samples/amazon-ivs-feed-web-demo) is a demo web application intended as an educational tool for demonstrating how you can build a very simple scrolling feed app, load and auto-play Amazon IVS live streams as users scroll down the page. In this new blog post, [How to: Build an engaging feed app with React and Amazon IVS](https://aws.amazon.com/blogs/media/how-to-build-an-engaging-feed-app-with-react-and-amazon-ivs/) Leah Siddall and Maxime Boulin show you how to use this project and walk you through building that demo.
 
 **AWS SAM Gist**
 
-Not a full blown repo but Eric Johnson shared [this Github Gist](https://aws-oss.beachgeek.co.uk/6h) to show you how you can now use standard Linux package commands to install AWS SAM. This is certainly going to make my life easier and I suspect others too.
+Not a full blown repo but Eric Johnson shared [this Github Gist](https://gist.github.com/singledigit/5f00ef69393b3b6f5dbfcf6cfada345e) to show you how you can now use standard Linux package commands to install AWS SAM. This is certainly going to make my life easier and I suspect others too.
 
 ### Community open source posts
 
 **kube-bench**
 
-[AWS EKS and kube-bench](https://aws-oss.beachgeek.co.uk/5x) Marcin Cuber shows you the simplest way to run kube-bench tests against EKS worker nodes. I have talked about Kube-bench before, which is an open source project from the lovely folks at Aqua Security.
+[AWS EKS and kube-bench](https://itnext.io/aws-eks-and-kube-bench-a7ae840f0f1) Marcin Cuber shows you the simplest way to run kube-bench tests against EKS worker nodes. I have talked about Kube-bench before, which is an open source project from the lovely folks at Aqua Security.
 
 **Amazon Corretto**
 
-[Are you seriously not using Java 15 yet?](https://aws-oss.beachgeek.co.uk/6m) Alessandro Aiezza takes a frank and detailed look at Java 15, a look at some of the things to watch out for as you think about the migration. Great post.
+[Are you seriously not using Java 15 yet?](https://dev.to/aaiezza/are-you-seriously-not-using-java-15-yet-5c86) Alessandro Aiezza takes a frank and detailed look at Java 15, a look at some of the things to watch out for as you think about the migration. Great post.
 
 **Apache Kakfa**
 
-[How to setup Kafka cluster for 15K events per second on AWS using Docker](https://aws-oss.beachgeek.co.uk/6n) Abhinav Dhasmana with a detailed post and supporting code on how to setup and run your own Apache Kafka and Zookeeper setup on AWS. 
+[How to setup Kafka cluster for 15K events per second on AWS using Docker](https://itnext.io/how-to-setup-kafka-cluster-for-15k-events-per-second-on-aws-using-docker-d34539873589) Abhinav Dhasmana with a detailed post and supporting code on how to setup and run your own Apache Kafka and Zookeeper setup on AWS. 
 
 ![arch](https://miro.medium.com/max/1202/1*dqJRHZSM9ORxS1sVow_7bQ.png)
 
 **Former2**
 
-[A tale of an CloudFormation import](https://aws-oss.beachgeek.co.uk/6r) Jimmy Dahlqvist shares an approach you can take to automate the provisioning of AWS resources that you might have created manually, using the open source tool Former2. I recently had need to use this tool as part of some recent posts on Amazon Managed Workflows for Apache Airflow, and found it super simple to use. This is a post you should read if you are doing any kind of automation.
+[A tale of an CloudFormation import](https://dev.to/jimmydqv/a-tale-of-an-cloudformation-import-28nc) Jimmy Dahlqvist shares an approach you can take to automate the provisioning of AWS resources that you might have created manually, using the open source tool Former2. I recently had need to use this tool as part of some recent posts on Amazon Managed Workflows for Apache Airflow, and found it super simple to use. This is a post you should read if you are doing any kind of automation.
 
 ### AWS open source posts
 
 **Rust**
 
-[Congratulations, Rustaceans, on the creation of the Rust Foundation!](https://aws-oss.beachgeek.co.uk/6e) Shane Miller shares a short post on the announcement last week of the creation of the Rust Foundation, which helps creates a neutral place for the diverse Rust community to innovate together. Read the post to find out more details, including the formal announcement on the Rust Foundation website.
+[Congratulations, Rustaceans, on the creation of the Rust Foundation!](https://aws.amazon.com/blogs/opensource/congratulations-rustaceans-on-the-creation-of-the-rust-foundation/) Shane Miller shares a short post on the announcement last week of the creation of the Rust Foundation, which helps creates a neutral place for the diverse Rust community to innovate together. Read the post to find out more details, including the formal announcement on the Rust Foundation website.
 
 **Prometheus**
 
-[Building a Prometheus Remote Write Exporter for the OpenTelemetry Python SDK](https://aws-oss.beachgeek.co.uk/69) Azfaar Qureshi and Shovnik Bhattacharya talk about their experience building the OpenTelemetry Prometheus Remote Write Exporter for Python. They share their experiences in tackling challenges they faced while building this tool, which is used for sending metrics to Prometheus protocol-based service endpoints.
+[Building a Prometheus Remote Write Exporter for the OpenTelemetry Python SDK](https://aws.amazon.com/blogs/opensource/building-a-prometheus-remote-write-exporter-for-the-opentelemetry-python-sdk/) Azfaar Qureshi and Shovnik Bhattacharya talk about their experience building the OpenTelemetry Prometheus Remote Write Exporter for Python. They share their experiences in tackling challenges they faced while building this tool, which is used for sending metrics to Prometheus protocol-based service endpoints.
 
 **Apache Airflow**
 
-[Monitoring and logging with Amazon Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/5r) this is the latest instalment of a series of posts I have been putting together on Apache Airflow. In this post I look at logging, monitoring, dashboards and alerting within Amazon Managed Workflows for Apache Airflow. I show you how you can  set these up and configure metrics in CloudWatch as well as how you can use these within other services such as Grafana Cloud.
+[Monitoring and logging with Amazon Managed Workflows for Apache Airflow](https://dev.to/aws/monitoring-and-logging-with-amazon-managed-workflows-for-apache-airflow-4530) this is the latest instalment of a series of posts I have been putting together on Apache Airflow. In this post I look at logging, monitoring, dashboards and alerting within Amazon Managed Workflows for Apache Airflow. I show you how you can  set these up and configure metrics in CloudWatch as well as how you can use these within other services such as Grafana Cloud.
 
 **AWS Amplify**
 
-A couple of posts this weeks to satisfy AWS Amplify aficionados. First up we have [Super Easy Automated Scraping with AWS Amplify](https://aws-oss.beachgeek.co.uk/66) AWS DA Shawn Wang Yue Xian (swyx) with a new post/tutorial on data scraping with AWS Amplify. In this demo, Shawn will show you how this demo project is going to be scraping Twitter follower counts on a periodic basis and storing it in a database for later analysis.
+A couple of posts this weeks to satisfy AWS Amplify aficionados. First up we have [Super Easy Automated Scraping with AWS Amplify](https://www.swyx.io/aws-amplify-scraping/) AWS DA Shawn Wang Yue Xian (swyx) with a new post/tutorial on data scraping with AWS Amplify. In this demo, Shawn will show you how this demo project is going to be scraping Twitter follower counts on a periodic basis and storing it in a database for later analysis.
 
 ![arch](https://dev-to-uploads.s3.amazonaws.com/i/bb0tj9h29rrs2iw25g8j.png)
 
-To follow that, we have [Real-time live sports updates with AWS AppSync](https://aws-oss.beachgeek.co.uk/6d) from Stefano Sandrini, who provides a detailed walk through of a sample reference architecture on how to leverage AWS AppSync real-time capabilities to address delivering real-time live updates (in this case, using a specific example from  the Media and Entertainment industry, but you could adapt for your own needs).
+To follow that, we have [Real-time live sports updates with AWS AppSync](https://aws.amazon.com/blogs/mobile/appsync-real-time-live-sports/) from Stefano Sandrini, who provides a detailed walk through of a sample reference architecture on how to leverage AWS AppSync real-time capabilities to address delivering real-time live updates (in this case, using a specific example from  the Media and Entertainment industry, but you could adapt for your own needs).
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2019/11/06/image-1.png)
 
 **AWS CDK**
 
-[Manage Amazon CloudWatch agent deployment at scale using the AWS Cloud Development Kit to optimize AWS usage](https://aws-oss.beachgeek.co.uk/68) Neel Sendas, Christopher Spruell, and Jeff Strickland talk about how to programmatically deploy the Amazon CloudWatch agent using the AWS Cloud Development Kit (AWS CDK) as you create your Amazon Elastic Compute Cloud (Amazon EC2) instances. These are two open source projects from AWS, and this is a hands on tutorial/walkthrough on how to setup, deploy and then clean up your CloudWatch agents programatically.
+[Manage Amazon CloudWatch agent deployment at scale using the AWS Cloud Development Kit to optimize AWS usage](https://aws.amazon.com/blogs/mt/manage-amazon-cloudwatch-agent-deployment-at-scale-using-the-aws-cloud-development-kit-to-optimize-aws-usage/) Neel Sendas, Christopher Spruell, and Jeff Strickland talk about how to programmatically deploy the Amazon CloudWatch agent using the AWS Cloud Development Kit (AWS CDK) as you create your Amazon Elastic Compute Cloud (Amazon EC2) instances. These are two open source projects from AWS, and this is a hands on tutorial/walkthrough on how to setup, deploy and then clean up your CloudWatch agents programatically.
 
 **PyTorch**
 
-[Using container images to run PyTorch models in AWS Lambda](https://aws-oss.beachgeek.co.uk/6q) Jan Bauer shows you how to use any PyTorch model with Lambda for scalable inferences in production with up to 10 GB of memory. This allows us to use ML models in Lambda functions up to a few gigabytes, and in this particular walkthrough Jan uses the Huggingface Transformers, open-source library to build a question-answering endpoint.
+[Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/) Jan Bauer shows you how to use any PyTorch model with Lambda for scalable inferences in production with up to 10 GB of memory. This allows us to use ML models in Lambda functions up to a few gigabytes, and in this particular walkthrough Jan uses the Huggingface Transformers, open-source library to build a question-answering endpoint.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/02/03/ML-2181-PyTorch-1-WHITE.png)
 
 **TensorFlow**
 
-[Training and deploying models using TensorFlow 2 with the Object Detection API on Amazon SageMaker](https://aws-oss.beachgeek.co.uk/6c) Sofian Hamiti and Othmane Hamzaoui have put together this post to show you how you can build, train, and deploy an EfficientDet model using the TensorFlow Object Detection API. It’s built on top of TensorFlow 2, which makes it easy to construct, train, and deploy object detection models.
+[Training and deploying models using TensorFlow 2 with the Object Detection API on Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/training-and-deploying-models-using-tensorflow-2-with-the-object-detection-api-on-amazon-sagemaker/) Sofian Hamiti and Othmane Hamzaoui have put together this post to show you how you can build, train, and deploy an EfficientDet model using the TensorFlow Object Detection API. It’s built on top of TensorFlow 2, which makes it easy to construct, train, and deploy object detection models.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/01/14/ML-1262-7.jpg)
 
 **ElastiCache**
 
-[Amazon ElastiCache at AWS re:Invent 2020](https://aws-oss.beachgeek.co.uk/67) if you wanted a single place to go to for all the ElastiCache content from re:Invent, then this is the post for you. Covering four different sessions that ran over the three weeks of re:Invent, check this out if you if want the latest news.
+[Amazon ElastiCache at AWS re:Invent 2020](https://aws.amazon.com/blogs/database/amazon-elasticache-at-aws-reinvent-2020/) if you wanted a single place to go to for all the ElastiCache content from re:Invent, then this is the post for you. Covering four different sessions that ran over the three weeks of re:Invent, check this out if you if want the latest news.
 
 **Kubernetes**
 
-[Introducing OIDC identity provider authentication for Amazon EKS](https://aws-oss.beachgeek.co.uk/6o)  Rashmi Dwaraka, Mike Stefaniak, and Paavan Mistry have come together to walk you through how you can now enable authentication for Amazon EKS clusters from an OpenID Connect (OIDC) Identity Provider. This has been a long requested feature as you can see from this [project issue #166](https://aws-oss.beachgeek.co.uk/6p) raised a while back, and this post walks you through setting this up using Amazon Cognito as the OIDC identity provider, but you could use another. 
+[Introducing OIDC identity provider authentication for Amazon EKS](https://aws.amazon.com/blogs/containers/introducing-oidc-identity-provider-authentication-amazon-eks/)  Rashmi Dwaraka, Mike Stefaniak, and Paavan Mistry have come together to walk you through how you can now enable authentication for Amazon EKS clusters from an OpenID Connect (OIDC) Identity Provider. This has been a long requested feature as you can see from this [project issue #166](https://github.com/aws/containers-roadmap/issues/166) raised a while back, and this post walks you through setting this up using Amazon Cognito as the OIDC identity provider, but you could use another. 
 
 ### WhitePapers
 
-A couple of white papers this week. First up we have this [new white paper on AWS Amplify DataStore](https://aws-oss.beachgeek.co.uk/5z), covering the architecture, use cases and implementation.
+A couple of white papers this week. First up we have this [new white paper on AWS Amplify DataStore](https://docs.aws.amazon.com/whitepapers/latest/amplify-datastore-implementation/amplify-datastore-implementation.pdf), covering the architecture, use cases and implementation.
 
-Following that we have this paper from the Amazon Alexa team, [Optimal Subarchitecture Extraction For BERT](https://aws-oss.beachgeek.co.uk/60) and this blog post [A version of the BERT language model that’s 20 times as fast](https://aws-oss.beachgeek.co.uk/61) that takes a look at a new open source project, Bort, a highly optimised language model (LM) extracted from the BERT architecture.
+Following that we have this paper from the Amazon Alexa team, [Optimal Subarchitecture Extraction For BERT](https://arxiv.org/pdf/2010.10499.pdf) and this blog post [A version of the BERT language model that’s 20 times as fast](https://www.amazon.science/blog/a-version-of-the-bert-language-model-thats-20-times-as-fast) that takes a look at a new open source project, Bort, a highly optimised language model (LM) extracted from the BERT architecture.
 
 ![arch](https://assets.amazon.science/dims4/default/9898d05/2147483647/strip/true/crop/951x534+0+0/resize/1200x674!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F4a%2Fa5%2Fdd99dd5b4b5599ec3ab958a979bb%2Fbort-models.png)
 
-One final piece of news on this, [Hugging Face Transformers release v4.3.0](https://aws-oss.beachgeek.co.uk/62) shared the news that Bort had been incorporated in this release.
+One final piece of news on this, [Hugging Face Transformers release v4.3.0](https://github.com/huggingface/transformers/releases/tag/v4.3.0) shared the news that Bort had been incorporated in this release.
 
 ### Workshops
 
-[Build an Authenticated GraphQL API on AWS with CDK](https://aws-oss.beachgeek.co.uk/6k) another new workshop from Nader Dabit, building an authenticated GraphQL API using AWS CDK. To go with this workshop Nader has put together this supporting video, and you can find the [source code here](https://aws-oss.beachgeek.co.uk/6l).
+[Build an Authenticated GraphQL API on AWS with CDK](https://github.com/dabit3/build-an-authenticated-api-with-cdk) another new workshop from Nader Dabit, building an authenticated GraphQL API using AWS CDK. To go with this workshop Nader has put together this supporting video, and you can find the [source code here](https://github.com/dabit3/build-an-authenticated-api-with-cdk/tree/main/cdk-products).
 
 {% youtube DOGadkjV7Hs %}
 
 ### Case Studies
 
-[How Vendia leverages the AWS CDK to dynamically provision cloud infrastructure](https://aws-oss.beachgeek.co.uk/5w) Ryan Green from Vendia explains how they use the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers. Vendia enables organisations to securely share data and code across regions, accounts, and clouds at scale. Ryan shares how AWS CDK is instrumental in helping Vendia move fast, maintain high operational standards, and support modern cloud-native architectures.
+[How Vendia leverages the AWS CDK to dynamically provision cloud infrastructure](https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure/) Ryan Green from Vendia explains how they use the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers. Vendia enables organisations to securely share data and code across regions, accounts, and clouds at scale. Ryan shares how AWS CDK is instrumental in helping Vendia move fast, maintain high operational standards, and support modern cloud-native architectures.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2021/02/01/Vendia_figure_2.png)
 
@@ -184,7 +184,7 @@ Finally this week we have the always awesome and fellow DA, Eddie Zaneski with a
 
 **Open Telemetry**
 
-News last week that the specification has reached the [1.0.0 specification milesetone](https://aws-oss.beachgeek.co.uk/6i). Check out the release notes for all the details.
+News last week that the specification has reached the [1.0.0 specification milesetone](https://github.com/open-telemetry/opentelemetry-specification/releases/tag/v1.0.0). Check out the release notes for all the details.
 
 **PartiQL**
 
@@ -198,7 +198,7 @@ Replication filtering can reduce the size of read replicas by excluding unnecess
 
 **Serverless Image Handler**
 
-The [Serverless Image Handler solution](https://aws-oss.beachgeek.co.uk/5t) enables fast and cost-effective image manipulation in the cloud by combining highly available, trusted AWS Services with the open-source imaging processing suite, Sharp. The solution automatically deploys and configures a serverless architecture optimised for dynamic image manipulation. It uses Amazon CloudFront for global content delivery and Amazon Simple Storage Service (Amazon S3) for reliable and durable cloud storage at low costs.
+The [Serverless Image Handler solution](https://aws.amazon.com/solutions/implementations/serverless-image-handler/) enables fast and cost-effective image manipulation in the cloud by combining highly available, trusted AWS Services with the open-source imaging processing suite, Sharp. The solution automatically deploys and configures a serverless architecture optimised for dynamic image manipulation. It uses Amazon CloudFront for global content delivery and Amazon Simple Storage Service (Amazon S3) for reliable and durable cloud storage at low costs.
 
 This update includes the ability to crop an image as an ellipse, supports images without file extensions, and adds a cache policy and origin request policy in CloudFront to replace the legacy default policies. It also includes several quality-of-life updates, such as improved error handling for cropping and resizing.
 

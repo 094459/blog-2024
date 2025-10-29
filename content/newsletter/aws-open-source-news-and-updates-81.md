@@ -30,17 +30,17 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **serverless-airflow**
 
-[serverless-airflow](https://aws-oss.beachgeek.co.uk/w8) two of my favourite things combined in this open source project, an AWS CDK construct that provisions AWS resources to build an Apache Airflow environment. You can use Python or Typescript. Nice job Yihui Han.
+[serverless-airflow](https://github.com/readybuilderone/serverless-airflow) two of my favourite things combined in this open source project, an AWS CDK construct that provisions AWS resources to build an Apache Airflow environment. You can use Python or Typescript. Nice job Yihui Han.
 
 ![arch](https://raw.githubusercontent.com/readybuilderone/serverless-airflow/main/assets/01-serverless-airflow-on-aws-architecture.svg)
 
 **minecraft-ondemand**
 
-[minecraft-ondemand](https://aws-oss.beachgeek.co.uk/w9) Ray Gibson's open sourced project that helps you provision resources on AWS to deploy Minecraft servers frugally will delight lots of you. Clean and easy to follow docs, together with some cost estimates provide everything you need to get going. Where was this at the beginning of the lockdown :-)
+[minecraft-ondemand](https://github.com/doctorray117/minecraft-ondemand) Ray Gibson's open sourced project that helps you provision resources on AWS to deploy Minecraft servers frugally will delight lots of you. Clean and easy to follow docs, together with some cost estimates provide everything you need to get going. Where was this at the beginning of the lockdown :-)
 
 **sqs-workbench**
 
-[sqs-workbench](https://aws-oss.beachgeek.co.uk/wc) this is a fantastic tool from AWS Community Builder Harinder Seera, that helps you easily explore AWS SQS through this gui based interface. What is more, you can see how to get started by reading his post, [AWS SQS Workbench - A Simple & Non-Technical Tool To Interact With AWS SQS](https://aws-oss.beachgeek.co.uk/wd). 
+[sqs-workbench](https://github.com/hseera/aws-python-utilities/#13-sqs-workbench) this is a fantastic tool from AWS Community Builder Harinder Seera, that helps you easily explore AWS SQS through this gui based interface. What is more, you can see how to get started by reading his post, [AWS SQS Workbench - A Simple & Non-Technical Tool To Interact With AWS SQS](https://dev.to/aws-builders/aws-sqs-workbench-a-simple-non-technical-way-to-access-aws-sqs-10ec). 
 
 ![demo](https://github.com/hseera/aws-python-utilities/blob/main/images/sqs-playa.png?raw=true)
 
@@ -52,15 +52,15 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **cdktf-aws-eks**
 
-[cdktf-aws-eks](https://aws-oss.beachgeek.co.uk/wb) Pahud Hsieh has put together another CDK construct, this time providing an cdktf construct library for Amazon EKS. 
+[cdktf-aws-eks](https://github.com/pahud/cdktf-aws-eks) Pahud Hsieh has put together another CDK construct, this time providing an cdktf construct library for Amazon EKS. 
 
 **eks-anywhere**
 
-[eks-anywhere](https://aws-oss.beachgeek.co.uk/wa) Amazon EKS Anywhere is a new deployment option for Amazon EKS that enables you to easily create and operate Kubernetes clusters on-premises with your own virtual machines. Read more about this below, but this is the project home page.
+[eks-anywhere](https://github.com/aws/eks-anywhere) Amazon EKS Anywhere is a new deployment option for Amazon EKS that enables you to easily create and operate Kubernetes clusters on-premises with your own virtual machines. Read more about this below, but this is the project home page.
 
 **AWS CDK - RFC**
 
-[RFC for CDK](https://aws-oss.beachgeek.co.uk/we) Have your say in this Request for Comment (RFC) in the AWS CDK GitHub project page. This is a request for comments about Integration testing for CDK apps. Read about the current proposal, the discussion in the commands and then share your thoughts.
+[RFC for CDK](https://github.com/aws/aws-cdk-rfcs/pull/378) Have your say in this Request for Comment (RFC) in the AWS CDK GitHub project page. This is a request for comments about Integration testing for CDK apps. Read about the current proposal, the discussion in the commands and then share your thoughts.
 
 ### AWS and Community blog posts
 
@@ -68,81 +68,81 @@ Make sure you find and follow these builders and keep up to date with their open
 
 Last week, we announced the general availability of a new deployment option for Amazon Elastic Kubernetes Service (Amazon EKS) called Amazon EKS Anywhere.
 
-In the officinal announcement post, [Amazon EKS Anywhere – Now Generally Available to Create and Manage Kubernetes Clusters on Premises](https://aws-oss.beachgeek.co.uk/vp), Channy Yun takes a closer look at what this means, compares this offering against other choices customers have for running their Kubernetes clusters, provides a quick start and some things you will find helpful to know around the security model, support and more. [hands on]
+In the officinal announcement post, [Amazon EKS Anywhere – Now Generally Available to Create and Manage Kubernetes Clusters on Premises](https://aws.amazon.com/blogs/aws/amazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises/), Channy Yun takes a closer look at what this means, compares this offering against other choices customers have for running their Kubernetes clusters, provides a quick start and some things you will find helpful to know around the security model, support and more. [hands on]
 
-We also had Justin Garrison put together [Getting started with Amazon EKS Anywhere](https://aws-oss.beachgeek.co.uk/vo) which will take you through how to get your first Amazon EKS Anywhere Kubernetes cluster running on your local machine. [hands on]
+We also had Justin Garrison put together [Getting started with Amazon EKS Anywhere](https://aws.amazon.com/blogs/containers/introducing-general-availability-of-amazon-eks-anywhere/) which will take you through how to get your first Amazon EKS Anywhere Kubernetes cluster running on your local machine. [hands on]
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/09/08/hello-eks-a.png)
 
 I believe Justin will be streaming live about Amazon EKS Anywhere in more detail later today, so head on over to the [Containers from the Couch](https://www.twitch.tv/aws/schedule?seriesID=11b10057-6345-4982-95ca-670f769f5faf) You Tube channel.
 
-Rancher is a popular open-source container management tool utilized by many organizations that provides an intuitive user interface for managing and deploying the Kubernetes clusters on Amazon Elastic Kubernetes Service (Amazon EKS) or Amazon Elastic Compute Cloud (Amazon EC2). This post [Collect, Aaggregate, and analyze Rancher Kubernetes Cluster logs with Amazon CloudWatch](https://aws-oss.beachgeek.co.uk/wi) from Darius Januskis and Keerti Shah  demonstrates how to send logs from your Rancher Kubernetes environment on Amazon EC2 to Amazon CloudWatch Logs. [hands on]
+Rancher is a popular open-source container management tool utilized by many organizations that provides an intuitive user interface for managing and deploying the Kubernetes clusters on Amazon Elastic Kubernetes Service (Amazon EKS) or Amazon Elastic Compute Cloud (Amazon EC2). This post [Collect, Aaggregate, and analyze Rancher Kubernetes Cluster logs with Amazon CloudWatch](https://aws.amazon.com/blogs/mt/collect-aggregate-and-analyze-rancher-kubernetes-cluster-logs-with-amazon-cloudwatch/) from Darius Januskis and Keerti Shah  demonstrates how to send logs from your Rancher Kubernetes environment on Amazon EC2 to Amazon CloudWatch Logs. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/09/09/Figure-1.png)
 
-To finish up the Kubernetes updates this week, we have Nagesh Subrahmanyam who writes, [Implementing the Saga Orchestration pattern with Amazon EKS and Amazon SNS](https://aws-oss.beachgeek.co.uk/vy) described the Saga Orchestration pattern for coordinating. This was new to me, Saga patterns are used to bring multiple microservices together for concluding an end-to-end business process. The Saga patterns can be applied for all business processes that span across multiple microservices. In this particular post, he looks at Orders, Orders Rollback, and Inventory microservices with Amazon SNS passing messages between microservices. This pattern can be applied in digital transformation projects where features are implemented as microservices. Source code repository is linked to so you can try this out for yourself. [hands on]
+To finish up the Kubernetes updates this week, we have Nagesh Subrahmanyam who writes, [Implementing the Saga Orchestration pattern with Amazon EKS and Amazon SNS](https://aws.amazon.com/blogs/containers/implementing-the-saga-orchestration-pattern-with-amazon-eks-and-amazon-sns/) described the Saga Orchestration pattern for coordinating. This was new to me, Saga patterns are used to bring multiple microservices together for concluding an end-to-end business process. The Saga patterns can be applied for all business processes that span across multiple microservices. In this particular post, he looks at Orders, Orders Rollback, and Inventory microservices with Amazon SNS passing messages between microservices. This pattern can be applied in digital transformation projects where features are implemented as microservices. Source code repository is linked to so you can try this out for yourself. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/09/01/Saga-Orchestrator_img2.png)
 
 **AWS Amplify**
 
-Another great post last week was Ali Spittel's [10 New AWS Amplify Features to Check Out](https://aws-oss.beachgeek.co.uk/w4) which is a must read to keep up with the new features you have available to you when using AWS Amplify. From Next.js support, Apple pay integration, cool stuff if you need to work with location or maps, make sure you check out these cool new capabilities.
+Another great post last week was Ali Spittel's [10 New AWS Amplify Features to Check Out](https://dev.to/aws/10-new-aws-amplify-features-to-check-out-4291) which is a must read to keep up with the new features you have available to you when using AWS Amplify. From Next.js support, Apple pay integration, cool stuff if you need to work with location or maps, make sure you check out these cool new capabilities.
 
 **AWS CDK**
 
-[Reference and import existing assets into AWS CDK](https://aws-oss.beachgeek.co.uk/w6) Matt Coles has put together this excellent resource and guide for anyone who is building CDK applications to deploy their cloud infrastructure, and wants to reference or import existing resources. The post covers most of the use cases you might expect to come across (some of which I have had to figure out, so this post would have saved me quite a bit of time/effort). [hands on]
+[Reference and import existing assets into AWS CDK](https://devsintheshed.com/reference-and-import-existing-assets-into-aws-cdk/) Matt Coles has put together this excellent resource and guide for anyone who is building CDK applications to deploy their cloud infrastructure, and wants to reference or import existing resources. The post covers most of the use cases you might expect to come across (some of which I have had to figure out, so this post would have saved me quite a bit of time/effort). [hands on]
 
 **Apache Spark**
 
-Posts from Gary Stafford are always something to look forward to, so grab a cup of your favourite beverage and take in his latest post, [Getting Started with Spark Structured Streaming and Kafka on AWS using Amazon MSK and Amazon EMR](https://aws-oss.beachgeek.co.uk/w7). Following on from a previous post which I shared in this newsletter, in this post Gary's shows how to use Apache Spark and Spark Structured Streaming with Apache Kafka. [hands on]
+Posts from Gary Stafford are always something to look forward to, so grab a cup of your favourite beverage and take in his latest post, [Getting Started with Spark Structured Streaming and Kafka on AWS using Amazon MSK and Amazon EMR](https://itnext.io/getting-started-with-spark-structured-streaming-and-kafka-on-aws-using-amazon-msk-and-amazon-emr-91b1f2ef0162). Following on from a previous post which I shared in this newsletter, in this post Gary's shows how to use Apache Spark and Spark Structured Streaming with Apache Kafka. [hands on]
 
 ![arch](https://miro.medium.com/max/4800/1*8bK_UDwA6HOn6FUCJcuROg.png)
 
 **Apache Kafka**
 
-Brandon Rubadou, Ravi Menon, and John O'Donnell have collaborated on this post, [Hybrid Cloud Architectures Using Self-hosted Apache Kafka and AWS Glue](https://aws-oss.beachgeek.co.uk/wk). In it they share an architecture that provides hybrid cloud data integration and analytics capability, leveraging AWS services along with Apache Kafka that ensures that your on-premises workloads are tightly integrated with your larger data lake solution.
+Brandon Rubadou, Ravi Menon, and John O'Donnell have collaborated on this post, [Hybrid Cloud Architectures Using Self-hosted Apache Kafka and AWS Glue](https://aws.amazon.com/blogs/architecture/hybrid-cloud-architectures-using-self-hosted-apache-kafka-and-aws-glue/). In it they share an architecture that provides hybrid cloud data integration and analytics capability, leveraging AWS services along with Apache Kafka that ensures that your on-premises workloads are tightly integrated with your larger data lake solution.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2021/09/09/Fig1-etljob.png)
 
 **Apache Airflow**
 
-I try and spend as much time as I can lurking in the Apache Airflow slack channels, a great source of inspiration. As part of some stuff I worked on to help a customer, I wrote how to use Amazon Managed Workflows for Apache Airflow (MWAA) when wanting to read/write data across different AWS accounts. Check out the whole post in [Reading and writing data across different AWS accounts with Amazon Managed Workflows for Apache Airflow v2.x](https://aws-oss.beachgeek.co.uk/wf) 
+I try and spend as much time as I can lurking in the Apache Airflow slack channels, a great source of inspiration. As part of some stuff I worked on to help a customer, I wrote how to use Amazon Managed Workflows for Apache Airflow (MWAA) when wanting to read/write data across different AWS accounts. Check out the whole post in [Reading and writing data across different AWS accounts with Amazon Managed Workflows for Apache Airflow v2.x](https://dev.to/aws/reading-and-writing-data-across-different-aws-accounts-with-amazon-managed-workflows-for-apache-airflow-v2-x-3319) 
 
 **Delta Sharing**
 
-I love reading about new open source projects, and last week it was [delta sharing](https://aws-oss.beachgeek.co.uk/w3), an open protocol for secure data sharing. A former colleague Frank Munz (DevRel over at Databricks) put together a great walk through on how to use this project. Find out more by reading his blog post, [Share Large Amounts of Live Data With Delta Sharing and Docker](https://aws-oss.beachgeek.co.uk/w2) [hands on]
+I love reading about new open source projects, and last week it was [delta sharing](https://github.com/delta-io/delta-sharing), an open protocol for secure data sharing. A former colleague Frank Munz (DevRel over at Databricks) put together a great walk through on how to use this project. Find out more by reading his blog post, [Share Large Amounts of Live Data With Delta Sharing and Docker](https://hackernoon.com/share-large-amounts-of-live-data-with-delta-sharing-and-docker) [hands on]
 
 ![demo](https://cdn.hackernoon.com/images/DLEi5kpJlfcjqct1t5onzRmuWy83-jq4f35lm.png)
 
 **Apache NiFi**
 
-Apache NiFi is a very cool open-source site-to-site data transfer tool that abstracts writing code by providing a simple drag-and-drop interface of predefined processor modules, which you can use to connect a variety of data sources and targets and perform lightweight data transformations. In this post, [Stream time series data into Amazon Timestream using Apache NiFi](https://aws-oss.beachgeek.co.uk/vz), Arun A K, Hari Rongali, and Wayne R. Vincent discuss how Apache NiFi users can ingest time series data into Timestream without explicitly writing code. [hands on]
+Apache NiFi is a very cool open-source site-to-site data transfer tool that abstracts writing code by providing a simple drag-and-drop interface of predefined processor modules, which you can use to connect a variety of data sources and targets and perform lightweight data transformations. In this post, [Stream time series data into Amazon Timestream using Apache NiFi](https://aws.amazon.com/blogs/database/stream-time-series-data-into-amazon-timestream-using-apache-nifi/), Arun A K, Hari Rongali, and Wayne R. Vincent discuss how Apache NiFi users can ingest time series data into Timestream without explicitly writing code. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/08/30/DBBLOG-1635-ingestion_dataflow_architecture.png)
 
 **PartiQL**
 
-[PartiQL](https://aws-oss.beachgeek.co.uk/w1) is a SQL-compatible query language that makes it easy to efficiently query data, regardless of where or in what format it’s stored. In the post [A PartiQL deep dive: Understand the language and bring SQL queries to AWS non-relational database services](https://aws-oss.beachgeek.co.uk/w0), Swapna Chawhan explains some of the important PartiQL features and basics so you can effectively use the language to explore databases that require PartiQL knowledge. Unlike traditional SQL, the PartiQL query language also meets the needs of NoSQL and non-relational databases. PartiQL is fully open sourced under the Apache2.0 license and the open-source implementation provides an interactive shell that allows you to write and evaluate PartiQL queries.
+[PartiQL](https://github.com/partiql/) is a SQL-compatible query language that makes it easy to efficiently query data, regardless of where or in what format it’s stored. In the post [A PartiQL deep dive: Understand the language and bring SQL queries to AWS non-relational database services](https://aws.amazon.com/blogs/database/a-partiql-deep-dive-understanding-the-language-bringing-sql-queries-to-aws-non-relational-database-services/), Swapna Chawhan explains some of the important PartiQL features and basics so you can effectively use the language to explore databases that require PartiQL knowledge. Unlike traditional SQL, the PartiQL query language also meets the needs of NoSQL and non-relational databases. PartiQL is fully open sourced under the Apache2.0 license and the open-source implementation provides an interactive shell that allows you to write and evaluate PartiQL queries.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/08/31/DBBLOG-1209-IMG2.png)
 
 **PyTorch**
 
-Amazon S3 plugin for PyTorch is an open-source library which is built to be used with the deep learning framework PyTorch for streaming data from Amazon Simple Storage Service (Amazon S3). With this feature available in PyTorch Deep Learning Containers, you can take advantage of using data from S3 buckets directly with PyTorch dataset and dataloader APIs without needing to download it first on local storage. To see how this works, Roshani Nagmote, Aditya Bindal, Khaled ElGalaind, and Rajesh Parangi Sharabhalingappa have put together [Announcing the Amazon S3 plugin for PyTorch](https://aws-oss.beachgeek.co.uk/vv) which will walk you through a couple of examples. [hands on]
+Amazon S3 plugin for PyTorch is an open-source library which is built to be used with the deep learning framework PyTorch for streaming data from Amazon Simple Storage Service (Amazon S3). With this feature available in PyTorch Deep Learning Containers, you can take advantage of using data from S3 buckets directly with PyTorch dataset and dataloader APIs without needing to download it first on local storage. To see how this works, Roshani Nagmote, Aditya Bindal, Khaled ElGalaind, and Rajesh Parangi Sharabhalingappa have put together [Announcing the Amazon S3 plugin for PyTorch](https://aws.amazon.com/blogs/machine-learning/announcing-the-amazon-s3-plugin-for-pytorch/) which will walk you through a couple of examples. [hands on]
  
 **SPEKE**
 
-Secure Packager and Encoder Key Exchange (SPEKE) defines the standard for communication between encryptors and packagers or encoders of media content and digital rights management (DRM) key providers. The [SPEKE Reference Server](https://aws-oss.beachgeek.co.uk/vw) is an implementation of the SPEKE API and minimal implementation of back-end software to generate AES keys for an encoder or packager. The Reference Server has been donated to open source by Amazon and is available from GitHub for installation, use and customisation. Nicolas Weil shares the latest updates in this specification (SPEKE v2) in the post, [Improve streaming content security with SPEKE v2.0 and AWS Elemental MediaPackage](https://aws-oss.beachgeek.co.uk/vx)
+Secure Packager and Encoder Key Exchange (SPEKE) defines the standard for communication between encryptors and packagers or encoders of media content and digital rights management (DRM) key providers. The [SPEKE Reference Server](https://github.com/awslabs/speke-reference-server) is an implementation of the SPEKE API and minimal implementation of back-end software to generate AES keys for an encoder or packager. The Reference Server has been donated to open source by Amazon and is available from GitHub for installation, use and customisation. Nicolas Weil shares the latest updates in this specification (SPEKE v2) in the post, [Improve streaming content security with SPEKE v2.0 and AWS Elemental MediaPackage](https://aws.amazon.com/blogs/media/improve-streaming-content-security-speke-v2-aws-elemental-mediapackage/)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2021/09/07/spekev2-mediapackage002-1024x437.png)
 
 **AWS ParallelCluster**
 
-Brendan Bouffler and Rye Robinson introduced an important announcement for AWS ParallCluster users last week. In [New: Introducing AWS ParallelCluster 3](https://aws-oss.beachgeek.co.uk/wl) dives into the key features of the new release, including enhancements to the API, integration with EC2 Imagebuilder, the new configuration file format, simpler network configuration, fine grain IAM permissions and more.
+Brendan Bouffler and Rye Robinson introduced an important announcement for AWS ParallCluster users last week. In [New: Introducing AWS ParallelCluster 3](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-3/) dives into the key features of the new release, including enhancements to the API, integration with EC2 Imagebuilder, the new configuration file format, simpler network configuration, fine grain IAM permissions and more.
 
 **BeeGFS**
 
-In [Enabling parallel file systems in the cloud with Amazon EC2 (Part I: BeeGFS)](https://aws-oss.beachgeek.co.uk/wj) Ray Zaman, David Desroches, and Ameer Hakme show you how to deploy the popular open source parallel file system, BeeGFS, using AWS D3en and I3en EC2 instances. [hands on]
+In [Enabling parallel file systems in the cloud with Amazon EC2 (Part I: BeeGFS)](https://aws.amazon.com/blogs/compute/enabling-parallel-file-systems-in-the-cloud-with-amazon-ec2-part-i-beegfs/) Ray Zaman, David Desroches, and Ameer Hakme show you how to deploy the popular open source parallel file system, BeeGFS, using AWS D3en and I3en EC2 instances. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2021/09/10/BeeGFS-architecture.png)
 
@@ -154,15 +154,15 @@ In [Enabling parallel file systems in the cloud with Amazon EC2 (Part I: BeeGFS)
 
 There are a few quick updates this week from the ever increasingly active OpenSearch community.
 
-* Amazon Elasticsearch Service has a new name: Amazon OpenSearch Service. This change, which was previously announced here, coincides with the addition of support for OpenSearch 1.0. You can now run and scale both OpenSearch and Elasticsearch (until version 7.10) clusters on Amazon OpenSearch Service and get all of the same benefits you have enjoyed so far from Amazon Elasticsearch Service. Read more in the announcement, [Amazon Elasticsearch Service is now Amazon OpenSearch Service; adds support for OpenSearch 1.0](https://aws-oss.beachgeek.co.uk/vr)
-* Amazon OpenSearch Service (successor to Amazon Elasticsearch Service) now supports index transforms that enables customers to extract significant information from large data sets and store summarised views in new indices. Customers can derive new insights, further analyse, and visualise trends from the new summary index. Index transforms are similar to “materialized views” in databases and provide an interactive way to aggregate and store summarised views from large data sets so that you can visualise and analyse the data more easily. For example, you can summarise the annual sales index with multiple fields using transforms to organise the data by region, quarter, and then revenue. Using OpenSearch Dashboards or the transforms API, customers can schedule and run index transforms jobs to create the summarised indices for analysing trends and patterns. Read more in the announcement, [Amazon OpenSearch Service (successor to Amazon Elasticsearch Service) now supports Index Transforms](https://aws-oss.beachgeek.co.uk/vs)
-* Amazon OpenSearch Service now supports OpenSearch Dashboards Notebooks, a new feature that enables OpenSearch users to interactively and collaboratively develop rich reports backed by live data and queries. A notebook is a document made up of cells or paragraphs that can combine markdown, SQL and Piped Processing Language (PPL) queries, and visualizations with support for multi-timelines so that users can easily tell a story. Notebooks can be developed, shared as an OpenSearch Dashboards link, PDF or PNG, and refreshed directly from OpenSearch Dashboards to foster data driven exploration and collaboration among OpenSearch users and their stakeholders. Common use cases for notebooks includes creating postmortem reports, designing run books, building live infrastructure reports, or even documentation. Read more in, [OpenSearch Dashboards Notebooks, a new visual reporting feature, now available on Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)](https://aws-oss.beachgeek.co.uk/vt)
+* Amazon Elasticsearch Service has a new name: Amazon OpenSearch Service. This change, which was previously announced here, coincides with the addition of support for OpenSearch 1.0. You can now run and scale both OpenSearch and Elasticsearch (until version 7.10) clusters on Amazon OpenSearch Service and get all of the same benefits you have enjoyed so far from Amazon Elasticsearch Service. Read more in the announcement, [Amazon Elasticsearch Service is now Amazon OpenSearch Service; adds support for OpenSearch 1.0](https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-elasticsearch-service-amazon-opensearch-service-opensearch-1-0/)
+* Amazon OpenSearch Service (successor to Amazon Elasticsearch Service) now supports index transforms that enables customers to extract significant information from large data sets and store summarised views in new indices. Customers can derive new insights, further analyse, and visualise trends from the new summary index. Index transforms are similar to “materialized views” in databases and provide an interactive way to aggregate and store summarised views from large data sets so that you can visualise and analyse the data more easily. For example, you can summarise the annual sales index with multiple fields using transforms to organise the data by region, quarter, and then revenue. Using OpenSearch Dashboards or the transforms API, customers can schedule and run index transforms jobs to create the summarised indices for analysing trends and patterns. Read more in the announcement, [Amazon OpenSearch Service (successor to Amazon Elasticsearch Service) now supports Index Transforms](https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-opensearch-index-transforms/)
+* Amazon OpenSearch Service now supports OpenSearch Dashboards Notebooks, a new feature that enables OpenSearch users to interactively and collaboratively develop rich reports backed by live data and queries. A notebook is a document made up of cells or paragraphs that can combine markdown, SQL and Piped Processing Language (PPL) queries, and visualizations with support for multi-timelines so that users can easily tell a story. Notebooks can be developed, shared as an OpenSearch Dashboards link, PDF or PNG, and refreshed directly from OpenSearch Dashboards to foster data driven exploration and collaboration among OpenSearch users and their stakeholders. Common use cases for notebooks includes creating postmortem reports, designing run books, building live infrastructure reports, or even documentation. Read more in, [OpenSearch Dashboards Notebooks, a new visual reporting feature, now available on Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)](https://aws.amazon.com/about-aws/whats-new/2021/09/opensearch-dashboards-notebooks-amazon-opensearch-service/)
 
 **Suricata**
 
 Suricata is an open source threat detection engine that provides capabilities including intrusion detection, intrusion prevention and network security monitoring. AWS Network Firewall uses Suricata to provide network protections for all of your Amazon Virtual Private Clouds (VPCs). AWS Network Firewall is now a HIPAA eligible service. This means you can use AWS Network Firewall to secure and inspect protected health information (PHI) stored in your accounts. If you have a HIPAA Business Associate Addendum (BAA) in place with AWS, you can now start using AWS Network Firewall for your HIPAA-regulated workloads.
 
-Also, incase you missed it, there was a new blog post last week covering some additional deployment options and use cases you might have. Check out the post from Shakeel Ahmad and Evgeny Vaganov [Deployment models for AWS Network Firewall with VPC routing enhancements](https://aws-oss.beachgeek.co.uk/wg)
+Also, incase you missed it, there was a new blog post last week covering some additional deployment options and use cases you might have. Check out the post from Shakeel Ahmad and Evgeny Vaganov [Deployment models for AWS Network Firewall with VPC routing enhancements](https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall-with-vpc-routing-enhancements/)
 
 **RabbitMQ**
 
@@ -174,7 +174,7 @@ Amazon EC2 now supports Hibernation for On-Demand Nitro-based instances running 
 
 **AWS CDK**
 
-During August, 2021, 4 new versions of the AWS Cloud Development Kit (CDK) for JavaScript, TypeScript, Java, Python, .NET and Go were released (v1.117.0 through v1.120.0). These releases include multiple additions to the Kinesis Firehose Construct Library, including compression and prefixes on S3 delivery stream destinations, delivery stream metrics, S3 source backups, AWS Lambda-based data processors and more. Additionally, CloudFront Construct Library now supports Origin Shield, CloudWatch supports defining alarms across AWS accounts, and Cognito User Pools support Device Tracking. These releases resolve 28 issues and introduce 37 new features that span 30 different modules across the library. Many of these changes were contributed by the developer community. Read more in [AWS CDK releases v1.117.0 - v1.120.0](https://aws-oss.beachgeek.co.uk/vu)
+During August, 2021, 4 new versions of the AWS Cloud Development Kit (CDK) for JavaScript, TypeScript, Java, Python, .NET and Go were released (v1.117.0 through v1.120.0). These releases include multiple additions to the Kinesis Firehose Construct Library, including compression and prefixes on S3 delivery stream destinations, delivery stream metrics, S3 source backups, AWS Lambda-based data processors and more. Additionally, CloudFront Construct Library now supports Origin Shield, CloudWatch supports defining alarms across AWS accounts, and Cognito User Pools support Device Tracking. These releases resolve 28 issues and introduce 37 new features that span 30 different modules across the library. Many of these changes were contributed by the developer community. Read more in [AWS CDK releases v1.117.0 - v1.120.0](https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-cdk-versions-amazon-kinesis-cloudfront-cognito/)
 
 ### Events for your diary
 

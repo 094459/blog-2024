@@ -35,37 +35,37 @@ So thank you to the following open source heroes: Ethan Steininger, Stephen Said
 
 **sls-mentor** 
 
-[sls-mentor](https://aws-oss.beachgeek.co.uk/2g4) is an open source tool that analyses the configuration of your AWS resources against best practice rules, helping you to remove before they occur, and optimises your app’s performances and costs. Check out the blog post [sls-mentor: your serverless quality teacher has arrived!](https://aws-oss.beachgeek.co.uk/2g5) where Pierre Chollet provides more info as to the origins of why this project was created, walks you through some of its capabilities, and then looks forward to what they are hoping to do next. Well worth checking out.
+[sls-mentor](https://github.com/sls-mentor/sls-mentor) is an open source tool that analyses the configuration of your AWS resources against best practice rules, helping you to remove before they occur, and optimises your app’s performances and costs. Check out the blog post [sls-mentor: your serverless quality teacher has arrived!](https://dev.to/kumo/sls-mentor-your-serverless-quality-teacher-has-arrived-5fin) where Pierre Chollet provides more info as to the origins of why this project was created, walks you through some of its capabilities, and then looks forward to what they are hoping to do next. Well worth checking out.
 
 ![demo of sls-mentor](https://github.com/sls-mentor/sls-mentor/blob/master/docs/images/guardian-run.gif?raw=true)
 
 **subnet-watcher**
 
-[subnet-watcher](https://aws-oss.beachgeek.co.uk/2fs) is a neat tool that monitors the remaining free IP addresses in AWS VPC subnets (both public and private) using some CloudWatch custom metrics. It also sets up alerts to provide complete visibility on your VPC CIDR IP space. Hat Tip to Corey Quinn who shared this tool in his weekly AWS Newsletter.
+[subnet-watcher](https://github.com/zoph-io/subnet-watcher) is a neat tool that monitors the remaining free IP addresses in AWS VPC subnets (both public and private) using some CloudWatch custom metrics. It also sets up alerts to provide complete visibility on your VPC CIDR IP space. Hat Tip to Corey Quinn who shared this tool in his weekly AWS Newsletter.
 
 **aws-cdk-web-administered-apps**
 
-[aws-cdk-web-administered-apps](https://aws-oss.beachgeek.co.uk/2ft) this looks like it is going to help a lot of folk automate the deployment of well known open source software. This CDK+Python project is designed to support the web administered app model, where the admin interface is hosted within the same codebase as the front-end application. To achieve this outcome more securely, this project creates two groups of server hosts - one with admin access and one with only read access. This enables you to restrict all write operations to a server (or servers) that can only be accessed from specific allowed IP addresses. Comes with a couple of examples (Wordpress and Node-RED) to help you see how this works.
+[aws-cdk-web-administered-apps](https://github.com/aws-samples/aws-cdk-web-administered-apps) this looks like it is going to help a lot of folk automate the deployment of well known open source software. This CDK+Python project is designed to support the web administered app model, where the admin interface is hosted within the same codebase as the front-end application. To achieve this outcome more securely, this project creates two groups of server hosts - one with admin access and one with only read access. This enables you to restrict all write operations to a server (or servers) that can only be accessed from specific allowed IP addresses. Comes with a couple of examples (Wordpress and Node-RED) to help you see how this works.
 
 ![architecture of aws cdk web admin apps](https://github.com/aws-samples/aws-cdk-web-administered-apps/blob/main/assets/sol_diagram.png?raw=true)
 
 **serverless-newsletter-app**
 
-[serverless-newsletter-app](https://aws-oss.beachgeek.co.uk/2fr) provides a complete Newsletter application that you can deploy yourself, leveraging AWS serverless services and SendGrid. AWS Hero Allen Helton shares his story in hist post, [How I Built An Open Source Serverless Newsletter Platform](https://aws-oss.beachgeek.co.uk/2fq). In it he writes how he came to build this open source project, and how you can use it to create your own Newsletter app. Very cool indeed.
+[serverless-newsletter-app](https://github.com/allenheltondev/serverless-newsletter-app) provides a complete Newsletter application that you can deploy yourself, leveraging AWS serverless services and SendGrid. AWS Hero Allen Helton shares his story in hist post, [How I Built An Open Source Serverless Newsletter Platform](https://dev.to/aws-heroes/how-i-built-an-open-source-serverless-newsletter-platform-3bm2). In it he writes how he came to build this open source project, and how you can use it to create your own Newsletter app. Very cool indeed.
 
 ![architecture of serverless newsletter app](https://camo.githubusercontent.com/babfd8c7825fd7ce8594fbee9720155e94dc259a66e916d91378bdd1da9951e8/68747470733a2f2f7265616479736574636c6f75642e73332e616d617a6f6e6177732e636f6d2f6e6577736c65747465725f706c6174666f726d5f312e6a666966)
 
 **slapo**
 
-[slapo](https://aws-oss.beachgeek.co.uk/2g2) Slapo is a schedule language for progressive optimisation of large deep learning model training. Large deep learning models demonstrate dominating model accuracy on a range of tasks in NLP and CV, but it is hard to train the model efficiently while preserving the usability. Slapo aims to address this tension through separation of concerns. Slapo decouples model execution from definition, enabling developers to use a set of schedule primitives to convert a PyTorch model for common model training optimizations without directly changing the model itself.
+[slapo](https://github.com/awslabs/slapo) Slapo is a schedule language for progressive optimisation of large deep learning model training. Large deep learning models demonstrate dominating model accuracy on a range of tasks in NLP and CV, but it is hard to train the model efficiently while preserving the usability. Slapo aims to address this tension through separation of concerns. Slapo decouples model execution from definition, enabling developers to use a set of schedule primitives to convert a PyTorch model for common model training optimizations without directly changing the model itself.
 
 **update-aws-ip-ranges**
 
-[update-aws-ip-ranges](https://aws-oss.beachgeek.co.uk/2fz) AWS publishes a list of it's IP address ranges (you can [see the list here](https://aws-oss.beachgeek.co.uk/2g0)) This project creates Lambda function that automatically create or update AWS resource with AWS service's IP ranges from that ip-ranges.json file. You can configure which service and region to get range. You can also configure to which resources you want to create or update with those ranges. Use cases include allowing CloudFront requests, API Gateway requests, Route53 health checker and EC2 IP range (which includes AWS Lambda and CloudWatch Synthetics). The resources are created or updated in the region where the CloudFormation stack is created.
+[update-aws-ip-ranges](https://github.com/aws-samples/update-aws-ip-ranges) AWS publishes a list of it's IP address ranges (you can [see the list here](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html)) This project creates Lambda function that automatically create or update AWS resource with AWS service's IP ranges from that ip-ranges.json file. You can configure which service and region to get range. You can also configure to which resources you want to create or update with those ranges. Use cases include allowing CloudFront requests, API Gateway requests, Route53 health checker and EC2 IP range (which includes AWS Lambda and CloudWatch Synthetics). The resources are created or updated in the region where the CloudFormation stack is created.
 
 **emr-spark-benchmark**
 
-[emr-spark-benchmark](https://aws-oss.beachgeek.co.uk/2fw) This repository provides a general tool to benchmark Spark performance on Amazon EC2 and Amazon EMR. The repos use an open source tool Flintrock to launch EC2 based Apache Spark clusters. If you want to baseline or compare how your Apache Spark performs, why not give this repo a try.
+[emr-spark-benchmark](https://github.com/aws-samples/emr-spark-benchmark) This repository provides a general tool to benchmark Spark performance on Amazon EC2 and Amazon EMR. The repos use an open source tool Flintrock to launch EC2 based Apache Spark clusters. If you want to baseline or compare how your Apache Spark performs, why not give this repo a try.
 
 **unlock-mainframe-data-files-on-aws**
 
@@ -76,7 +76,7 @@ So thank you to the following open source heroes: Ethan Steininger, Stephen Said
 
 **axios-based-http-testing-tool**
 
-[axios-based-http-testing-tool](https://aws-oss.beachgeek.co.uk/2fx) [Axios](https://aws-oss.beachgeek.co.uk/2fy) is a simple promise based HTTP client for the browser and node.js. This repo provides everything you need to help you deploy an axios based HTTP testing tool solution on AWS.
+[axios-based-http-testing-tool](https://github.com/aws-samples/axios-based-http-testing-tool) [Axios](https://github.com/axios/axios) is a simple promise based HTTP client for the browser and node.js. This repo provides everything you need to help you deploy an axios based HTTP testing tool solution on AWS.
 
 ![architecture for axios on aws](https://github.com/aws-samples/axios-based-http-testing-tool/blob/main/images/architecture.png?raw=true)
 
@@ -84,13 +84,13 @@ So thank you to the following open source heroes: Ethan Steininger, Stephen Said
 
 **aws-iot-with-privatelink**
 
-[aws-iot-with-privatelink](https://aws-oss.beachgeek.co.uk/2fv) The goal of this project is to create IOT private link for customer who wants to send data from IoT device securely through private network without using public internet. The repo contains detailed breakdown of how this is achieved, and you can try it for yourself as they have a nice simulator to help you kick the tyres.
+[aws-iot-with-privatelink](https://github.com/aws-samples/aws-iot-with-privatelink) The goal of this project is to create IOT private link for customer who wants to send data from IoT device securely through private network without using public internet. The repo contains detailed breakdown of how this is achieved, and you can try it for yourself as they have a nice simulator to help you kick the tyres.
 
 ![architecture for iot with privatelink](https://github.com/aws-samples/aws-iot-with-privatelink/blob/main/docs/IOT-privatelink.png?raw=true)
 
 **serverless-smart-streaming-engine**
 
-[serverless-smart-streaming-engine](https://aws-oss.beachgeek.co.uk/2g1) this repo is for football fans (especially if you support Tottenham Hotspurs), and is a demo that shows how you can use CDK and amplify to build a streaming service with a smart backend that analyse the streaming media using a AI/ML service. 
+[serverless-smart-streaming-engine](https://github.com/aws-samples/serverless-smart-streaming-engine) this repo is for football fans (especially if you support Tottenham Hotspurs), and is a demo that shows how you can use CDK and amplify to build a streaming service with a smart backend that analyse the streaming media using a AI/ML service. 
 
 ![architecture for serverless smart streaming](https://github.com/aws-samples/serverless-smart-streaming-engine/blob/main/images/2022-12-28-20-38-37.png?raw=true)
 
@@ -101,7 +101,7 @@ In this particular demo, it sends a soccer game that Tottenham plays, generate c
 
 **amazon-personalize-online-recommendations-with-google-tag-manager**
 
-[amazon-personalize-online-recommendations-with-google-tag-manager](https://aws-oss.beachgeek.co.uk/2fu) this repo provides some help to get you started working with Amazon Personalize, and AWS service that allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML). If you are using Google Tag Manager (GTM) then see how you can integrate that date to create more personalised recommendations for your customers.
+[amazon-personalize-online-recommendations-with-google-tag-manager](https://github.com/aws-samples/amazon-personalize-online-recommendations-with-google-tag-manager) this repo provides some help to get you started working with Amazon Personalize, and AWS service that allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML). If you are using Google Tag Manager (GTM) then see how you can integrate that date to create more personalised recommendations for your customers.
 
 ![architecture and overview of tag manager for amazon personalize](https://github.com/aws-samples/amazon-personalize-online-recommendations-with-google-tag-manager/blob/main/Architecture.png?raw=true)
 
@@ -109,7 +109,7 @@ In this particular demo, it sends a soccer game that Tottenham plays, generate c
 
 **OpenLineage**
 
-If you are looking to dive into data lineage, an increasingly important area of your data governance strategy, then read on as this post is for you. OpenLineage is an open source project provides a technology-agnostic metadata model for capturing data lineage and integrates with widely used tools, including Apache Airflow, the topic for this blog post. In the post, [Automate data lineage on Amazon MWAA with OpenLineage](https://aws-oss.beachgeek.co.uk/2fj), Stephen Said, Paul Villena, and Vishwanatha Nayak show you how you can get started,  using Marquez, an open-source metadata service for collection and visualisation of data lineage with support for the OpenLineage standard. [hands on]
+If you are looking to dive into data lineage, an increasingly important area of your data governance strategy, then read on as this post is for you. OpenLineage is an open source project provides a technology-agnostic metadata model for capturing data lineage and integrates with widely used tools, including Apache Airflow, the topic for this blog post. In the post, [Automate data lineage on Amazon MWAA with OpenLineage](https://aws.amazon.com/blogs/big-data/automate-data-lineage-on-amazon-mwaa-with-openlineage/), Stephen Said, Paul Villena, and Vishwanatha Nayak show you how you can get started,  using Marquez, an open-source metadata service for collection and visualisation of data lineage with support for the OpenLineage standard. [hands on]
 
 ![architecutre of marquez and mwaa](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/13/BDB2522-04-solution-overview-1.png)
 
@@ -117,34 +117,34 @@ If you are looking to dive into data lineage, an increasingly important area of 
 
 We have a couple of great posts this week for OpenSearch fans.
 
-Starting us off we have Ethan Steininger, who has written this post, [Searching PDFs in S3 Using OpenSearch and Tika](https://aws-oss.beachgeek.co.uk/2g3) where he shows you a hands on guide in how to build a Python script that is able to search the contents of PDF files in an Amazon S3 bucket using Apache Tika and OpenSearch. Apache Tika is an open source project that helps you extract data from files, and in this tutorial the focus is on searching PDFs. Very nice little project. [hands on]
+Starting us off we have Ethan Steininger, who has written this post, [Searching PDFs in S3 Using OpenSearch and Tika](https://learn.mixpeek.com/creating-a-searchable-pdf-repository/) where he shows you a hands on guide in how to build a Python script that is able to search the contents of PDF files in an Amazon S3 bucket using Apache Tika and OpenSearch. Apache Tika is an open source project that helps you extract data from files, and in this tutorial the focus is on searching PDFs. Very nice little project. [hands on]
 
-Next up we have [Introducing identity and access control for OpenSearch](https://aws-oss.beachgeek.co.uk/2g6) from Peter Nied who explores the current and future direction of the OpenSearch security model. This direction presents a significant departure from the current security model, but these OpenSearch security features will help it be more efficient, more reliable, and simply easier and more enjoyable to work with. As OpenSearch is an open source project, they are currently inviting folk to share there views and comments, so check out the blog post for more details.
+Next up we have [Introducing identity and access control for OpenSearch](https://opensearch.org/blog/Introducing-Identity/) from Peter Nied who explores the current and future direction of the OpenSearch security model. This direction presents a significant departure from the current security model, but these OpenSearch security features will help it be more efficient, more reliable, and simply easier and more enjoyable to work with. As OpenSearch is an open source project, they are currently inviting folk to share there views and comments, so check out the blog post for more details.
 
 **AWS CDK**
 
-A couple of posts featuring AWS CDK this week. Kicking off with, [Manually Approving Security Changes in CDK Pipeline](https://aws-oss.beachgeek.co.uk/2fk) Brian Beach provides a nice overview of how to add a manual approval to AWS Cloud Development Kit (CDK) Pipelines to confirm security changes before deployment. With this solution, when a developer commits a change, CDK pipeline identifies an IAM permissions change, pauses execution, and sends a notification to a security engineer to manually approve or reject the change before it is deployed. [hands on]
+A couple of posts featuring AWS CDK this week. Kicking off with, [Manually Approving Security Changes in CDK Pipeline](https://aws.amazon.com/blogs/devops/manually-approving-security-changes-in-cdk-pipeline/) Brian Beach provides a nice overview of how to add a manual approval to AWS Cloud Development Kit (CDK) Pipelines to confirm security changes before deployment. With this solution, when a developer commits a change, CDK pipeline identifies an IAM permissions change, pauses execution, and sends a notification to a security engineer to manually approve or reject the change before it is deployed. [hands on]
 
 ![screenshot of cdk permissions change](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2023/01/17/sdevops-2230_3.png)
 
-Following that we had AWS Community Builder (and Build on Open Source guest) Ran Isenberg put together [Build AWS Lambda Layers with AWS CDK](https://aws-oss.beachgeek.co.uk/2fp) giving you a gentle introduction into AWS Lambda layers and then how you can build your own using Docker and AWS CDK.
+Following that we had AWS Community Builder (and Build on Open Source guest) Ran Isenberg put together [Build AWS Lambda Layers with AWS CDK](https://dev.to/aws-builders/build-aws-lambda-layers-with-aws-cdk-4nh5) giving you a gentle introduction into AWS Lambda layers and then how you can build your own using Docker and AWS CDK.
 
 **Kubernetes**
 
-If you are self managing Kubernetes, this post is for you. Jayesh Vartak looks at how to use pod priority and dummy pods that have a pause container to eliminate or minimise the time required for provisioning the worker nodes during scaling in hist post, [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning](https://aws-oss.beachgeek.co.uk/2fo) [hands on]
+If you are self managing Kubernetes, this post is for you. Jayesh Vartak looks at how to use pod priority and dummy pods that have a pause container to eliminate or minimise the time required for provisioning the worker nodes during scaling in hist post, [Eliminate Kubernetes node scaling lag with pod priority and over-provisioning](https://aws.amazon.com/blogs/containers/eliminate-kubernetes-node-scaling-lag-with-pod-priority-and-over-provisioning/) [hands on]
 
 ![overview of kubernetes solution](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/01/12/pic-01-flow-1.png)
 
 **Other posts and quick reads**
 
-* [Is the GitHub Actions self-hosted runner safe for Open Source?](https://aws-oss.beachgeek.co.uk/2g8) is a great post that will get you to think about your options around both why you might want to run your own self-hosted runners, and what you need to thin about
-* [Visualize and gain insights into your AWS cost and usage with Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/2fm) demonstrates how you can visualise and analyse your AWS Cost and Usage data with Amazon Managed Grafana [hands on]
+* [Is the GitHub Actions self-hosted runner safe for Open Source?](https://actuated.dev/blog/is-the-self-hosted-runner-safe-github-actions) is a great post that will get you to think about your options around both why you might want to run your own self-hosted runners, and what you need to thin about
+* [Visualize and gain insights into your AWS cost and usage with Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/visualize-and-gain-insights-into-your-aws-cost-and-usage-with-amazon-managed-grafana/) demonstrates how you can visualise and analyse your AWS Cost and Usage data with Amazon Managed Grafana [hands on]
 
 ![dashboard of aws cost displayed in grafana](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/01/17/cloudops_860_13.png)
 
-* [Journey to adopt Cloud-Native DevOps platform Series #2: Progressive delivery on Amazon EKS with Flagger and Gloo Edge Ingress Controller](https://aws-oss.beachgeek.co.uk/2fi) looks at the technical steps to build a DevOps platform using open source components that enables the progressive deployment of microservices on Amazon Managed Amazon EKS [hands on]
-* [Set up Amazon SageMaker Studio with Jupyter Lab 3 using the AWS CDK](https://aws-oss.beachgeek.co.uk/2fl) guides you through the steps to get started with setting up and deploying Studio to standardize ML model development and collaboration with fellow ML engineers and ML scientists using a CDK app written in Python [hands on]
-* [Automate backups for AWS Amplify GraphQL backends with AWS Backup](https://aws-oss.beachgeek.co.uk/2fn) shows how you can easily build a modern full stack cloud based application with an automated backup solution to meet your data protection needs [hands on]
+* [Journey to adopt Cloud-Native DevOps platform Series #2: Progressive delivery on Amazon EKS with Flagger and Gloo Edge Ingress Controller](https://aws.amazon.com/blogs/devops/journey-to-adopt-cloud-native-devops-platform-series-2-progressive-delivery-on-amazon-eks-with-flagger-and-gloo-edge-ingress-controller/) looks at the technical steps to build a DevOps platform using open source components that enables the progressive deployment of microservices on Amazon Managed Amazon EKS [hands on]
+* [Set up Amazon SageMaker Studio with Jupyter Lab 3 using the AWS CDK](https://aws.amazon.com/blogs/machine-learning/set-up-amazon-sagemaker-studio-with-jupyter-lab-3-using-the-aws-cdk/) guides you through the steps to get started with setting up and deploying Studio to standardize ML model development and collaboration with fellow ML engineers and ML scientists using a CDK app written in Python [hands on]
+* [Automate backups for AWS Amplify GraphQL backends with AWS Backup](https://aws.amazon.com/blogs/storage/automate-backups-for-aws-amplify-graphql-backends-with-aws-backup/) shows how you can easily build a modern full stack cloud based application with an automated backup solution to meet your data protection needs [hands on]
 
 ![architecture of graphql backup](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2022/12/20/AwsBackupAmplifyAppsync.png)
 
@@ -152,11 +152,11 @@ If you are self managing Kubernetes, this post is for you. Jayesh Vartak looks a
 
 **Amazon Corretto**
 
-On January 17, 2023 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 19.0.2, 17.0.6, 11.0.18, 8u362 are now [available for download](https://aws-oss.beachgeek.co.uk/2fh). Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. 
+On January 17, 2023 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 19.0.2, 17.0.6, 11.0.18, 8u362 are now [available for download](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc). Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. 
 
 **Memcached**
 
-Amazon ElastiCache for Memcached has added support for Memcached version 1.6.17. This version is a cumulative update and contains all changes and improvements from version 1.6.12 to 1.6.17. For the full list of improvements and bug fixes in Amazon ElastiCache for Memcached 1.6.17, see the [release notes](https://aws-oss.beachgeek.co.uk/2fg).
+Amazon ElastiCache for Memcached has added support for Memcached version 1.6.17. This version is a cumulative update and contains all changes and improvements from version 1.6.12 to 1.6.17. For the full list of improvements and bug fixes in Amazon ElastiCache for Memcached 1.6.17, see the [release notes](https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/supported-engine-versions-mc.html#memcached-version-1-6-17).
 
 **Amazon EMR**
 
@@ -182,7 +182,7 @@ Great video featuring two of my most favourite people, Julian Wood and John Jack
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -193,35 +193,35 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 
 Join this free online event with a great lineup of speakers who will discuss all about latest "AWS coldstart killer: SnapStart" and how and how much it improves startup times for Java Serverless Lambda functions. They will introduce you to what SnapStart is, and then discuss first month of production experience. Following that presentation the next talk lined up is "SpringCloud AWS", presented by Maciej Walkowiak Let's see what are the latest updates and how this library improves AWS + Spring experience.
 
-Find out more and register to take part at [the meetup link here](https://aws-oss.beachgeek.co.uk/2g7).
+Find out more and register to take part at [the meetup link here](https://www.meetup.com/awsugbelgrade/events/291069268/).
 
 **FOSSDEM**
 **Feb 4-5th, 2023 in Brussels**
 
-FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://aws-oss.beachgeek.co.uk/2dc).
+FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://openuk.uk/event-calendar/fosdem-2023/).
 
 **State of Open Con 23**
 **Feb 7-8th, 2023 in London**
 
-OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://aws-oss.beachgeek.co.uk/2dd).
+OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://openuk.uk/event-calendar/state-of-open-con-23/).
 
 **PGConf India**
 **Feb 22nd to 24th, Radisson Blu Bengaluru, India**
 
-If you are in or can get to Bengaluru, then checkout this conference for PostgreSQL developers and enthusiasts. Check out the session line up and get [your tickets here](https://aws-oss.beachgeek.co.uk/2ff).
+If you are in or can get to Bengaluru, then checkout this conference for PostgreSQL developers and enthusiasts. Check out the session line up and get [your tickets here](https://pgconf.in/conferences/pgconfin2023).
 
 
 **Everything Open**
 **March14-15th Melbourne, Australia**
 
-A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://aws-oss.beachgeek.co.uk/2ds). The CFP us currently open, so why not take a look and submit something if you can.
+A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://2023.everythingopen.au/about/). The CFP us currently open, so why not take a look and submit something if you can.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

@@ -13,7 +13,7 @@ With KubeCon happening this week, make sure you check out the Container Day. The
 
 **Container Day x KubeCon**
 
-Next week, the AWS Kubernetes team is back for the next instalment of Container Day x KubeCon, a full day of sessions on Amazon EKS and Kubernetes at AWS. In this live and virtual Twitch event, the AWS Kubernetes team, hosted by developer advocates Justin Garrison and Jesse Butler, will be covering new launches, demoing products and features, and answering your questions. Read more in the post, [Save the date: Container Day x KubeCon](https://aws-oss.beachgeek.co.uk/zd) to find out about the sessions and you can [sign up here](https://aws-oss.beachgeek.co.uk/cr) to be reminded when things kick off.
+Next week, the AWS Kubernetes team is back for the next instalment of Container Day x KubeCon, a full day of sessions on Amazon EKS and Kubernetes at AWS. In this live and virtual Twitch event, the AWS Kubernetes team, hosted by developer advocates Justin Garrison and Jesse Butler, will be covering new launches, demoing products and features, and answering your questions. Read more in the post, [Save the date: Container Day x KubeCon](https://aws.amazon.com/blogs/containers/save-the-date-container-day-kubecon/) to find out about the sessions and you can [sign up here](https://containerdayxkubecon.splashthat.com/) to be reminded when things kick off.
 
 ### Celebrating open source contributors
 
@@ -27,28 +27,28 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **vscode-spoty-army**
 
-[vscode-spoty-army](https://aws-oss.beachgeek.co.uk/z5) Gitpod is a great open source project that helps you to tun upstream VS Code on a remote machine with access through a modern web browser from any device, anywhere, via the [OpenVSCode Server project](https://aws-oss.beachgeek.co.uk/z6). This project from Eng-Hwa Tan will help you to deploy an OpenVSCode Server for AWS Graviton2 (arm64) with spot instance using Amazon ECS.
+[vscode-spoty-army](https://github.com/enghwa/vscode-spoty-army) Gitpod is a great open source project that helps you to tun upstream VS Code on a remote machine with access through a modern web browser from any device, anywhere, via the [OpenVSCode Server project](https://github.com/gitpod-io/openvscode-server). This project from Eng-Hwa Tan will help you to deploy an OpenVSCode Server for AWS Graviton2 (arm64) with spot instance using Amazon ECS.
 
 **cloudkeeper-ckui**
 cloudkeeper-ckui this project really impressed me last week and got me thinking should game designers be hired by all projects/organisations to help design their UI's. Cloudkeeper is an open source project that indexes resources, captures dependencies and maps out your AWS infrastructure in a graph so that it’s understandable for a human. Raffa aka Picster shared news last week on Reddit about a new project he is working on, a UI for this project. 
 
 **Planet_Storm**
 
-[Planet_Storm](https://aws-oss.beachgeek.co.uk/zo) from application of a games UI to an actual game. This project provides an example game called Planet Storm, that is imagined as a 3D, physics-based, side-scrolling platformer inspired by the 1980’s IREM classic “Moon Patrol”. It uses the Open 3D Engine (O3DE) engine and the developers behind this, Starr Shaw and John Kennedy, share how you can build this yourself in the blog post, [We Also Make Games: AWS’ First Internal O3DE Game is Now Available!](https://aws-oss.beachgeek.co.uk/zp)
+[Planet_Storm](https://github.com/o3de/Planet_Storm) from application of a games UI to an actual game. This project provides an example game called Planet Storm, that is imagined as a 3D, physics-based, side-scrolling platformer inspired by the 1980’s IREM classic “Moon Patrol”. It uses the Open 3D Engine (O3DE) engine and the developers behind this, Starr Shaw and John Kennedy, share how you can build this yourself in the blog post, [We Also Make Games: AWS’ First Internal O3DE Game is Now Available!](https://aws.amazon.com/blogs/gametech/we-also-make-games-aws-first-internal-o3de-game-is-now-available/)
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/91032ad7bbcb6cf72875e8e8207dcfba80173f7c/2021/10/07/graphic-007.png)
 
 **aws-instance-scheduler**
 
-[aws-instance-scheduler](https://aws-oss.beachgeek.co.uk/z4) if you ever needed to schedule the stopping and starting of EC2 and RDS resources across your AWS accounts, then this project is what you have been looking for. This helps reduce operational costs by stopping resources that are not in use and starting resources when their capacity is needed. It provides a solution for Cross-Account and Cross-Region scheduling EC2 and RDS instances/clusters using SSM Automation Runbooks.
+[aws-instance-scheduler](https://github.com/awslabs/aws-instance-scheduler) if you ever needed to schedule the stopping and starting of EC2 and RDS resources across your AWS accounts, then this project is what you have been looking for. This helps reduce operational costs by stopping resources that are not in use and starting resources when their capacity is needed. It provides a solution for Cross-Account and Cross-Region scheduling EC2 and RDS instances/clusters using SSM Automation Runbooks.
 
 ![arch](https://github.com/awslabs/aws-instance-scheduler/blob/master/source/architecture.png?raw=true)
 
 **glue-workflow-aws-cdk**
 
-[glue-workflow-aws-cdk](https://aws-oss.beachgeek.co.uk/z2) this repository contains an example that creates a Glue Workflow containing multiple crawlers, glue jobs and triggers for the workflow. The workflow is manually triggered, but the script can be updated to run on a cron schedule.
+[glue-workflow-aws-cdk](https://github.com/aws-samples/glue-workflow-aws-cdk) this repository contains an example that creates a Glue Workflow containing multiple crawlers, glue jobs and triggers for the workflow. The workflow is manually triggered, but the script can be updated to run on a cron schedule.
 
-Follow the blog post [Field Notes: How to Build an AWS Glue Workflow using the AWS Cloud Development Kit](https://aws-oss.beachgeek.co.uk/z3) from Michael Hamilton and Joe Losinski to get started.
+Follow the blog post [Field Notes: How to Build an AWS Glue Workflow using the AWS Cloud Development Kit](https://aws.amazon.com/blogs/architecture/field-notes-how-to-build-an-aws-glue-workflow-using-the-aws-cloud-development-kit/) from Michael Hamilton and Joe Losinski to get started.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2021/10/05/figure-1-4-1024x553.png)
 
@@ -56,29 +56,29 @@ Follow the blog post [Field Notes: How to Build an AWS Glue Workflow using the A
 
 **Kubernetes**
 
-Virginia Chu and Hunter Tom write in their post, [Simplifying Kubernetes configurations using AWS Lambda](https://aws-oss.beachgeek.co.uk/zl) how to create a multi-stage Dockerfile that uses eksctl, kubectl, and aws-auth. Why would you want to do that? This will help you manage your Amazon EKS clusters dynamically using a Lambda function rather than installing kubectl or eksctl on a local machine. Additionally, all container images are stored in a versioned format as infrastructure as code.
+Virginia Chu and Hunter Tom write in their post, [Simplifying Kubernetes configurations using AWS Lambda](https://aws.amazon.com/blogs/opensource/simplifying-kubernetes-configurations-using-aws-lambda/) how to create a multi-stage Dockerfile that uses eksctl, kubectl, and aws-auth. Why would you want to do that? This will help you manage your Amazon EKS clusters dynamically using a Lambda function rather than installing kubectl or eksctl on a local machine. Additionally, all container images are stored in a versioned format as infrastructure as code.
 
-I also read this post from Okta, [Secure Access to AWS EKS Clusters for Admins](https://aws-oss.beachgeek.co.uk/zq) from Nico Triballier. In this tutorial, Nico shows you how you can use OpenID Connect (OIDC) to allow developers to securely access Amazon EKS clusters on AWS. 
+I also read this post from Okta, [Secure Access to AWS EKS Clusters for Admins](https://developer.okta.com/blog/2021/10/08/secure-access-to-aws-eks) from Nico Triballier. In this tutorial, Nico shows you how you can use OpenID Connect (OIDC) to allow developers to securely access Amazon EKS clusters on AWS. 
 
 **OpenSearch**
 
-AWS Hero and open sourcerer Ian Mckay put together this blog post, [Migrating to OpenSearch with CloudFormation](https://aws-oss.beachgeek.co.uk/zc) on how to migrate from an Elasticsearch domain to an OpenSearch domain. [hands on]
+AWS Hero and open sourcerer Ian Mckay put together this blog post, [Migrating to OpenSearch with CloudFormation](https://onecloudplease.com/blog/migrating-to-opensearch-with-cloudformation) on how to migrate from an Elasticsearch domain to an OpenSearch domain. [hands on]
 
 **Apache Lucene**
 
-It was great to see this post from former colleague Matt Asay and Marcus Eagan from MongoDB, diving deep on how MongoDB Atlas uses Apache Lucene within Atlas Search. Read the post, [How AWS and MongoDB collaborate to unlock the power of Apache Lucene](https://aws-oss.beachgeek.co.uk/zi)
+It was great to see this post from former colleague Matt Asay and Marcus Eagan from MongoDB, diving deep on how MongoDB Atlas uses Apache Lucene within Atlas Search. Read the post, [How AWS and MongoDB collaborate to unlock the power of Apache Lucene](https://aws.amazon.com/blogs/opensource/how-aws-and-mongodb-collaborate-to-unlock-the-power-of-apache-lucene/)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/09/23/mongo_lucene_f1.png)
 
 **Innersource**
 
-InnerSource is the term for the emerging practice of organisations adopting the open source methodology and tools in order to build their applications. I was very excited to read [Building an InnerSource ecosystem using AWS DevOps tools](https://aws-oss.beachgeek.co.uk/z9) from Debashish Chakrabarty and Akash Verma. The post discusses how to build a model InnerSource ecosystem that leverages multiple AWS services, such as CodeBuild, CodeCommit, CodePipeline, CodeArtifact, and CodeGuru, along with other AWS services and open source tools such as the [InnerSource Portal from SAP](https://aws-oss.beachgeek.co.uk/zb). The post provides a nice tool, the [codecommit-crawler-innersource](https://aws-oss.beachgeek.co.uk/za) that provides a custom crawler for AWS CodeCommit that generates the repos.json that can be used by the SAP InnerSource Portal. [hands on]
+InnerSource is the term for the emerging practice of organisations adopting the open source methodology and tools in order to build their applications. I was very excited to read [Building an InnerSource ecosystem using AWS DevOps tools](https://aws.amazon.com/blogs/devops/building-an-innersource-ecosystem-using-aws-devops-tools/) from Debashish Chakrabarty and Akash Verma. The post discusses how to build a model InnerSource ecosystem that leverages multiple AWS services, such as CodeBuild, CodeCommit, CodePipeline, CodeArtifact, and CodeGuru, along with other AWS services and open source tools such as the [InnerSource Portal from SAP](https://github.com/SAP/project-portal-for-innersource). The post provides a nice tool, the [codecommit-crawler-innersource](https://github.com/aws-samples/codecommit-crawler-innersource) that provides a custom crawler for AWS CodeCommit that generates the repos.json that can be used by the SAP InnerSource Portal. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2021/09/28/InnerSource-Architecture-1024x506.png)
 
 **Feast**
 
-Feast is an open source feature store and a fast, convenient way to serve machine learning (ML) features for training and online inference. Feast lets you build point-in-time correct training datasets from feature data, allows you to deploy a production-grade feature serving stack to AWS and simplifies tracking features models are using. Willem Pienaar, Principal Engineer at Tecton and creator of Feast created a post, [Getting started with Feast, an open source feature store running on AWS Managed Services](https://aws-oss.beachgeek.co.uk/zg) that does what it says on the tin - walks you through how you can use Feast using a real-time credit scoring example.
+Feast is an open source feature store and a fast, convenient way to serve machine learning (ML) features for training and online inference. Feast lets you build point-in-time correct training datasets from feature data, allows you to deploy a production-grade feature serving stack to AWS and simplifies tracking features models are using. Willem Pienaar, Principal Engineer at Tecton and creator of Feast created a post, [Getting started with Feast, an open source feature store running on AWS Managed Services](https://aws.amazon.com/blogs/opensource/getting-started-with-feast-an-open-source-feature-store-running-on-aws-managed-services/) that does what it says on the tin - walks you through how you can use Feast using a real-time credit scoring example.
 
 ![arch](https://awsopensourceblog.s3.us-east-2.amazonaws.com/assets/phi_feast/phi-feast_f1_1000x500.png)
 
@@ -86,29 +86,29 @@ Feast is an open source feature store and a fast, convenient way to serve machin
 
 A couple of Apache Airflow posts this week (neither by me!), covering some cool topics that I often hear developers wanting to know how to do.
 
-First up we have Uma Ramadoss who has put together this post, [Automating a DAG deployment with Amazon Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/zh) that goes beyond just creating a simple CI/CD pipeline for your workflows, and includes how you test them and then how you automate the deployment and updating of your MWAA environments. Super useful. [hands on]
+First up we have Uma Ramadoss who has put together this post, [Automating a DAG deployment with Amazon Managed Workflows for Apache Airflow](https://aws.amazon.com/blogs/opensource/automating-a-dag-deployment-with-amazon-managed-workflows-for-apache-airflow/) that goes beyond just creating a simple CI/CD pipeline for your workflows, and includes how you test them and then how you automate the deployment and updating of your MWAA environments. Super useful. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/09/27/ramadu_dag_mwaa_f1.png)
 
-To follow that, we have Henry Robalino who wrote [Using Okta as an identity provider with Amazon MWAA](https://aws-oss.beachgeek.co.uk/zj) which shows you how you can integrate an existing identity provider (in this instance, Okta) to authenticate via AWS SSO to your Amazon Managed Workflows for Apache Airflow (Amazon MWAA) environments. Very nice post indeed. [hands on]
+To follow that, we have Henry Robalino who wrote [Using Okta as an identity provider with Amazon MWAA](https://aws.amazon.com/blogs/compute/using-okta-as-an-identity-provider-with-amazon-mwaa/) which shows you how you can integrate an existing identity provider (in this instance, Okta) to authenticate via AWS SSO to your Amazon Managed Workflows for Apache Airflow (Amazon MWAA) environments. Very nice post indeed. [hands on]
 
 **Apache Flink/Apache Kafka**
 
-Chinmayi Narasimhadevara walks you through how to create stream processing applications using Apache Flink, in this hands on post, [Query your Amazon MSK topics interactively using Amazon Kinesis Data Analytics Studio](https://aws-oss.beachgeek.co.uk/zf). Apache Flink is an open-source framework and engine for processing data streams, and in the post she walks you through creating some example applications to interact with streaming data from Apache Kafka in Scala, Python and SQL.
+Chinmayi Narasimhadevara walks you through how to create stream processing applications using Apache Flink, in this hands on post, [Query your Amazon MSK topics interactively using Amazon Kinesis Data Analytics Studio](https://aws.amazon.com/blogs/big-data/query-your-amazon-msk-topics-interactively-using-amazon-kinesis-data-analytics-studio/). Apache Flink is an open-source framework and engine for processing data streams, and in the post she walks you through creating some example applications to interact with streaming data from Apache Kafka in Scala, Python and SQL.
 
 **Apache Ranger**
 
-Apache Ranger is an open source project that provides security capabilities for Hadoop clusters, and in this post [Authorize SparkSQL data manipulation on Amazon EMR using Apache Ranger](https://aws-oss.beachgeek.co.uk/zk) from Varun Rao Bhamidimarri and Jalpan Randeri, you will learn more about how Amazon EMR 6.4 has introduced additional authorising capabilities for data manipulation statements with Apache Ranger 2.0.
+Apache Ranger is an open source project that provides security capabilities for Hadoop clusters, and in this post [Authorize SparkSQL data manipulation on Amazon EMR using Apache Ranger](https://aws.amazon.com/blogs/big-data/authorize-sparksql-data-manipulation-on-amazon-emr-using-apache-ranger/) from Varun Rao Bhamidimarri and Jalpan Randeri, you will learn more about how Amazon EMR 6.4 has introduced additional authorising capabilities for data manipulation statements with Apache Ranger 2.0.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/10/04/Ranger-Spark-feature.png)
 
 **PostgreSQL**
 
-Naga Appani has put together this post, [Tune sorting operations in PostgreSQL with work_mem](https://aws-oss.beachgeek.co.uk/ze) where he talks about how and where to identify queries that are suboptimal, such as ones that require sorting on disk, and how to use various optimisation techniques to improve performance. What is work_mem? Read the post to find out what it is and why it is important in how you optimise your queries.
+Naga Appani has put together this post, [Tune sorting operations in PostgreSQL with work_mem](https://aws.amazon.com/blogs/database/tune-sorting-operations-in-postgresql-with-work_mem/) where he talks about how and where to identify queries that are suboptimal, such as ones that require sorting on disk, and how to use various optimisation techniques to improve performance. What is work_mem? Read the post to find out what it is and why it is important in how you optimise your queries.
 
 **AWS CDK**
 
-Om Prakash Jha writes in his post, [Align with best practices while creating infrastructure using CDK Aspects](https://aws-oss.beachgeek.co.uk/zm), how if you are utilising AWS CDK to provision your infrastructure, you can apply some best practices to not only to evaluate compliance of your resources against the best practices, but also modify their state to make them compliant before they are created.
+Om Prakash Jha writes in his post, [Align with best practices while creating infrastructure using CDK Aspects](https://aws.amazon.com/blogs/devops/align-with-best-practices-while-creating-infrastructure-using-cdk-aspects/), how if you are utilising AWS CDK to provision your infrastructure, you can apply some best practices to not only to evaluate compliance of your resources against the best practices, but also modify their state to make them compliant before they are created.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2021/09/27/cdk-lifecycle.png)
 
@@ -148,7 +148,7 @@ Following that we have this recorded workshop from Provectus, Amazon SageMaker a
 
 **Hadoop on Kubernetes**
 
-If you have not seen or worked through this workshop, [EMR on EKS Workshop](https://aws-oss.beachgeek.co.uk/zn) then it provides a nice entry point into running some of the open source analytics tools such as Apache Spark on Kubernetes.
+If you have not seen or worked through this workshop, [EMR on EKS Workshop](https://emr-on-eks.workshop.aws/introduction.html) then it provides a nice entry point into running some of the open source analytics tools such as Apache Spark on Kubernetes.
 
 ### Events for your diary
 

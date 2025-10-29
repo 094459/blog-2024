@@ -31,21 +31,21 @@ So thank you to the following open source heroes: Gary Stafford, Dhiraj Thakur, 
 
 **metahub**
 
-[metahub](https://aws-oss.beachgeek.co.uk/25c) is an AWS Security Finding Format (ASFF) security context enrichment and command line utility for AWS Security Hub. Using MetaHub, you can enrich your security findings with your context to use that context for filtering, deduplicating, grouping, reporting, automating, suppressing, or updating and enrichment directly in AWS Security Hub. MetaHub interacts with reading/writing from AWS Security Hub API or directly from ASFF files. You can combine these sources as you want to enrich your findings further.
+[metahub](https://github.com/gabrielsoltz/metahub) is an AWS Security Finding Format (ASFF) security context enrichment and command line utility for AWS Security Hub. Using MetaHub, you can enrich your security findings with your context to use that context for filtering, deduplicating, grouping, reporting, automating, suppressing, or updating and enrichment directly in AWS Security Hub. MetaHub interacts with reading/writing from AWS Security Hub API or directly from ASFF files. You can combine these sources as you want to enrich your findings further.
 
 ![architecture of metahub tool](https://github.com/gabrielsoltz/metahub/blob/main/docs/imgs/diagram-metahub.drawio.png?raw=true)
 
-Check out more details from [this Reddit thread](https://aws-oss.beachgeek.co.uk/2ke).
+Check out more details from [this Reddit thread](https://www.reddit.com/r/aws/comments/11cqxwx/aws_security_hub_and_asff_automated_security/).
 
 **savings-estimator**
 
-[savings-estimator](https://aws-oss.beachgeek.co.uk/2kh) this is a native desktop application written in Go that allows you to estimate the cost savings you can achieve in your AWS account by converting your AutoScaling Groups to Spot instances. You can simulate various scenarios, such as to keep some of your instances as OnDemand in each group (maybe covered by Reserved Instances or Savings Plans), or only convert some of your AutoScaling Groups to Spot as part of a gradual rollout. You may use any mechanism to adopt Spot, such as applying the configuration yourself group by group as per your simulation. They also provide a helpful video to show you how you can get started. 
+[savings-estimator](https://github.com/LeanerCloud/savings-estimator) this is a native desktop application written in Go that allows you to estimate the cost savings you can achieve in your AWS account by converting your AutoScaling Groups to Spot instances. You can simulate various scenarios, such as to keep some of your instances as OnDemand in each group (maybe covered by Reserved Instances or Savings Plans), or only convert some of your AutoScaling Groups to Spot as part of a gradual rollout. You may use any mechanism to adopt Spot, such as applying the configuration yourself group by group as per your simulation. They also provide a helpful video to show you how you can get started. 
 
 {{< youtube VXfCOXXtLwA >}}
 
 **aws-iot-core-credential-provider-session-helper**
 
-[aws-iot-core-credential-provider-session-helper](https://aws-oss.beachgeek.co.uk/2kf) this package provides an easy way to create a refreshable Boto3 Session using the AWS IoT Core credential provider. Needs Python version 3.8 to 3.11, and some of the features include:
+[aws-iot-core-credential-provider-session-helper](https://github.com/awslabs/aws-iot-core-credential-provider-session-helper) this package provides an easy way to create a refreshable Boto3 Session using the AWS IoT Core credential provider. Needs Python version 3.8 to 3.11, and some of the features include:
 
 * Automatic refresh of Boto3 credentials through requests to the AWS IoT Core credential provider. No need to manage or maintain refresh times.
 * Uses the underlying AWS CRT Python bindings for querying the credential provider instead of the Python standard library. This provides support for both certificate and private keys as files or as environment variables.
@@ -54,27 +54,27 @@ Check out more details from [this Reddit thread](https://aws-oss.beachgeek.co.uk
 
 **traffic-inspection-architectures-aws-cloud-wan**
 
-[traffic-inspection-architectures-aws-cloud-wan](https://aws-oss.beachgeek.co.uk/2kg) this repository contains code (in AWS CloudFormation and Terraform) to deploy several inspection architectures using AWS Cloud WAN - with AWS Network Firewall as inspection solution. The use cases covered are 1/ Centralized Outbound, 2/ East/West traffic, with both Spoke VPCs and Inspection VPCs attached to AWS Cloud WAN, 3/ East/West traffic, with both Spoke VPCs and Inspection VPCs attached to AWS Transit Gateway and peered with AWS Cloud WAN, and 4/ East/West traffic, with Spoke VPCs attached to a peered AWS Transit Gateway and Inspection VPCs attached to AWS Cloud WAN. The documentation provides nice architectural diagram that outline each of these use cases, a description of what is inspected, and some sample output.
+[traffic-inspection-architectures-aws-cloud-wan](https://github.com/aws-samples/traffic-inspection-architectures-aws-cloud-wan) this repository contains code (in AWS CloudFormation and Terraform) to deploy several inspection architectures using AWS Cloud WAN - with AWS Network Firewall as inspection solution. The use cases covered are 1/ Centralized Outbound, 2/ East/West traffic, with both Spoke VPCs and Inspection VPCs attached to AWS Cloud WAN, 3/ East/West traffic, with both Spoke VPCs and Inspection VPCs attached to AWS Transit Gateway and peered with AWS Cloud WAN, and 4/ East/West traffic, with Spoke VPCs attached to a peered AWS Transit Gateway and Inspection VPCs attached to AWS Cloud WAN. The documentation provides nice architectural diagram that outline each of these use cases, a description of what is inspected, and some sample output.
 
 ![sample output for traffic-inspection](https://github.com/aws-samples/traffic-inspection-architectures-aws-cloud-wan/blob/main/images/east_west.png?raw=true)
 
 **neptune-export**
 
-[neptune-export](https://aws-oss.beachgeek.co.uk/2ki) is a command line tool that exports Amazon Neptune property graph data to CSV or JSON, or RDF graph data to Turtle. The repo provides details of how you can also deploy this as a service within your environment.
+[neptune-export](https://github.com/aws/neptune-export) is a command line tool that exports Amazon Neptune property graph data to CSV or JSON, or RDF graph data to Turtle. The repo provides details of how you can also deploy this as a service within your environment.
 
 **aws-organizations-tool**
 
-[aws-organizations-tool](https://aws-oss.beachgeek.co.uk/2kk) orgtool is a configuration management tool set for AWS Organizations written in python. This tooling enable the configuration and management of AWS Organization with code. This might be useful as you transition from ClickOps to automation via infrastructure as code. Check the docs for more details on how you might do this.
+[aws-organizations-tool](https://github.com/aws-samples/aws-organizations-tool) orgtool is a configuration management tool set for AWS Organizations written in python. This tooling enable the configuration and management of AWS Organization with code. This might be useful as you transition from ClickOps to automation via infrastructure as code. Check the docs for more details on how you might do this.
 
 ### Demos, Samples, Solutions and Workshops
 
 **sagemaker-external-repo-access**
 
-[sagemaker-external-repo-access](https://aws-oss.beachgeek.co.uk/2kj) the goal of this solution is to demonstrate the deployment of AWS CodeSuite Services (i.e., CodeBuild, CodePipeline) to orchestrate secure MLOps access to external package repositories in a data science environment configured with multi-layer security. Detailed documentation as well as links to a supporting blog post you can read to help you get started.
+[sagemaker-external-repo-access](https://github.com/aws-samples/sagemaker-external-repo-access) the goal of this solution is to demonstrate the deployment of AWS CodeSuite Services (i.e., CodeBuild, CodePipeline) to orchestrate secure MLOps access to external package repositories in a data science environment configured with multi-layer security. Detailed documentation as well as links to a supporting blog post you can read to help you get started.
 
 **mlops-sagemaker-github-actions**
 
-[mlops-sagemaker-github-actions](https://aws-oss.beachgeek.co.uk/2hv) similar to the previous post, this repo is an example of MLOps implementation using Amazon SageMaker and GitHub Actions. The code helps you to build a solution that automates a model-build pipeline that includes steps for data preparation, model training, model evaluation, and registration of that model in the SageMaker Model Registry. The resulting trained ML model is deployed from the model registry to staging and production environments upon the approval.
+[mlops-sagemaker-github-actions](https://github.com/aws-samples/mlops-sagemaker-github-actions) similar to the previous post, this repo is an example of MLOps implementation using Amazon SageMaker and GitHub Actions. The code helps you to build a solution that automates a model-build pipeline that includes steps for data preparation, model training, model evaluation, and registration of that model in the SageMaker Model Registry. The resulting trained ML model is deployed from the model registry to staging and production environments upon the approval.
 
 ![architecture of mlops on sagemaker](https://github.com/aws-samples/mlops-sagemaker-github-actions/blob/main/img/Amazon-SageMaker-GitHub-Actions-Architecture.png?raw=true)
 
@@ -100,47 +100,47 @@ Back with another epic blog post, Gary Stafford provides a gloriously detailed w
 
 > Red Hat’s Debezium, Apache Kafka, and Kafka Connect will be used for change data capture (CDC). In addition, Apache Spark, Apache Hudi, and Hudi’s DeltaStreamer will be used to manage the data lake.  
 
-Gary's posts are essential reading, so head on over to [Building Data Lakes on AWS with Kafka Connect, Debezium, Apicurio Registry, and Apache Hudi](https://aws-oss.beachgeek.co.uk/2ko) and dive right on into the lake! [hands on]
+Gary's posts are essential reading, so head on over to [Building Data Lakes on AWS with Kafka Connect, Debezium, Apicurio Registry, and Apache Hudi](https://garystafford.medium.com/building-data-lakes-on-aws-with-kafka-connect-debezium-apicurio-registry-and-apache-hudi-b4da0268dce) and dive right on into the lake! [hands on]
 
 ![architecture of real time transactional data lake on aws using open source software](https://github.com/garystafford/cdc-hudi-data-lake-demo/blob/main/diagram.png?raw=true)
 
 **Apache Iceberg**
 
-In the post, [Build a real-time GDPR-aligned Apache Iceberg data lake](https://aws-oss.beachgeek.co.uk/2kv), Dhiraj Thakur and Rajdip Chaudhuri show you  how you can use the Iceberg table format on Athena to implement GDPR use cases like data deletion and data upserts as required, when streaming data is being generated and ingested through AWS Glue streaming jobs in Amazon S3. [hands on]
+In the post, [Build a real-time GDPR-aligned Apache Iceberg data lake](https://aws.amazon.com/blogs/big-data/build-a-real-time-gdpr-aligned-apache-iceberg-data-lake/), Dhiraj Thakur and Rajdip Chaudhuri show you  how you can use the Iceberg table format on Athena to implement GDPR use cases like data deletion and data upserts as required, when streaming data is being generated and ingested through AWS Glue streaming jobs in Amazon S3. [hands on]
 
 ![architecture of how you can build a real time GDPR apache iceberg solution for your data lake](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/28/image001-4.png) 
 
 **Mastodon**
 
-If you have been looking for a way to host your own Mastadon instance, then why not take a look at this blog post from Corry Haines. In [Deploying Mastodon on AWS](https://aws-oss.beachgeek.co.uk/2kn) shares the lessons he learned on the way to hosting his own instance. Essential reading this week.
+If you have been looking for a way to host your own Mastadon instance, then why not take a look at this blog post from Corry Haines. In [Deploying Mastodon on AWS](https://sharpletters.net/2023/02/16/mastodon-aws/?ck_subscriber_id=895521900) shares the lessons he learned on the way to hosting his own instance. Essential reading this week.
 
 **FFMPEG**
 
-FFmpeg is an open source tool commonly used by media technology companies to encode and transcode video and audio formats. In [Run Open Source FFMPEG at Lower Cost and Better Performance on a VT1 Instance for VOD Encoding Workloads](https://aws-oss.beachgeek.co.uk/2kp), Tulip Gupta and Dennis Calhoun share how you can optimise how your run FFMpeg on AWS using VT1 instance types on Amazon EC2 instances.
+FFmpeg is an open source tool commonly used by media technology companies to encode and transcode video and audio formats. In [Run Open Source FFMPEG at Lower Cost and Better Performance on a VT1 Instance for VOD Encoding Workloads](https://aws.amazon.com/blogs/opensource/run-open-source-ffmpeg-at-lower-cost-and-better-performance-on-a-vt1-instance-for-vod-encoding-workloads/), Tulip Gupta and Dennis Calhoun share how you can optimise how your run FFMpeg on AWS using VT1 instance types on Amazon EC2 instances.
 
 **Other posts and quick reads**
 
-* [Build a GNN-based real-time fraud detection solution using the Deep Graph Library without using external graph storage](https://aws-oss.beachgeek.co.uk/2kw) provides a step-by-step process for training and evaluating a Relational Graph Convolutional Network (RGCN) model for real-time fraud detection using the open source Deep Graph Library [hands on]
-* [Reduce Amazon EMR cluster costs by up to 19% with new enhancements in Amazon EMR Managed Scaling](https://aws-oss.beachgeek.co.uk/2kt) provides an overview of enhancements in EMR Managed Scaling which show improved cluster utilisation (by up to 15 percent) and a reduction in cluster costs [hands on]
+* [Build a GNN-based real-time fraud detection solution using the Deep Graph Library without using external graph storage](https://aws.amazon.com/blogs/machine-learning/build-a-gnn-based-real-time-fraud-detection-solution-using-the-deep-graph-library-without-using-external-graph-storage/) provides a step-by-step process for training and evaluating a Relational Graph Convolutional Network (RGCN) model for real-time fraud detection using the open source Deep Graph Library [hands on]
+* [Reduce Amazon EMR cluster costs by up to 19% with new enhancements in Amazon EMR Managed Scaling](https://aws.amazon.com/blogs/big-data/reduce-amazon-emr-cluster-costs-by-up-to-19-with-new-enhancements-in-amazon-emr-managed-scaling/) provides an overview of enhancements in EMR Managed Scaling which show improved cluster utilisation (by up to 15 percent) and a reduction in cluster costs [hands on]
 
 ![reducing amazon emr cluster costs graph](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/02/27/BDB-2751_image_001-new.png)
 
-* [Using OpsWatch to Create a Single Pane of Prometheus Metrics from Multiple Non-Native Sources](https://aws-oss.beachgeek.co.uk/2ks) explores how to integrate CloudWatch and other Amazon Web Services (AWS) data sources into a typical container and Prometheus-based monitoring world
+* [Using OpsWatch to Create a Single Pane of Prometheus Metrics from Multiple Non-Native Sources](https://aws.amazon.com/blogs/apn/using-opswatch-to-create-a-single-pane-of-prometheus-metrics-from-multiple-non-native-sources/) explores how to integrate CloudWatch and other Amazon Web Services (AWS) data sources into a typical container and Prometheus-based monitoring world
 
 ![overview of single pane of prometheus metrics](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/01/24/OpsWatch-Arvato-Systems-4.png)
 
-* [Automated Application Failover Across Availability Zones with Floating/Virtual IP on Amazon EKS](https://aws-oss.beachgeek.co.uk/2ku) looks at design patterns that let you fail-over your EKS based applications seamlessly to another AZ while using same IP addresses, in an automated way, with no change needed in the application code [hands on]
-* [SaaS Data Isolation with Dynamic Credentials Using HashiCorp Vault in Amazon EKS](https://aws-oss.beachgeek.co.uk/2kx) examines a solution for implementing multi-tenant SaaS data isolation with dynamic credentials using HashiCorp Vault in an Amazon EKS environment [hands on]
+* [Automated Application Failover Across Availability Zones with Floating/Virtual IP on Amazon EKS](https://aws.amazon.com/blogs/industries/automated-application-failover-across-availability-zones-with-floating-virtual-ip-on-amazon-eks/) looks at design patterns that let you fail-over your EKS based applications seamlessly to another AZ while using same IP addresses, in an automated way, with no change needed in the application code [hands on]
+* [SaaS Data Isolation with Dynamic Credentials Using HashiCorp Vault in Amazon EKS](https://aws.amazon.com/blogs/apn/saas-data-isolation-with-dynamic-credentials-using-hashicorp-vault-in-amazon-eks/) examines a solution for implementing multi-tenant SaaS data isolation with dynamic credentials using HashiCorp Vault in an Amazon EKS environment [hands on]
 
 ![architecture for saas data isolation on EKS using HashiCorp Vault](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/02/06/HashiCorp-Vault-EKS-SaaS-4.png)
 
 **Case Studies**
 
-* [How Wiz used Amazon ElastiCache to improve performance and reduce costs](https://aws-oss.beachgeek.co.uk/2kq)  is a great case study on how they were able to improved overall application performance, reduce pressure on their database, and then right-size the database instances, to save their overall TCO.
+* [How Wiz used Amazon ElastiCache to improve performance and reduce costs](https://aws.amazon.com/blogs/database/how-wiz-used-amazon-elasticache-to-improve-performance-and-reduce-costs/)  is a great case study on how they were able to improved overall application performance, reduce pressure on their database, and then right-size the database instances, to save their overall TCO.
 
 ![graph of performance enhancements Redis](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/03/01/06-reduced-load.png)
 
-* [Rebura: Accelerate SQL Server database modernization with Babelfish for Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/2kr) explores how Rebura helps customers modernise their SQL Server on AWS using Babelfish for Amazon Aurora PostgreSQL.
+* [Rebura: Accelerate SQL Server database modernization with Babelfish for Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/modernizing-with-aws/rebura-accelerate-sql-server-database-modernization-with-babelfish-for-amazon-aurora-postgresql/) explores how Rebura helps customers modernise their SQL Server on AWS using Babelfish for Amazon Aurora PostgreSQL.
 
 ![process overview of how to modernise sql server](https://d2908q01vomqb2.cloudfront.net/8effee409c625e1a2d8f5033631840e6ce1dcb64/2023/02/27/babelfishrebura3-1024x466.png)
 
@@ -148,15 +148,15 @@ FFmpeg is an open source tool commonly used by media technology companies to enc
 
 **AWS Lambda Powertools**
 
-AWS Lambda Powertools, an open-source developer library, now supports .NET to help you incorporate Well-Architected Serverless best practices into your .NET Lambda function code as early and as fast as possible. Lambda Powertools for .NET is used when developing code for the .NET 6 Lambda runtime. To dive deeper into the GA announcement, read the post from Amir Khairalomoum, [Introducing AWS Lambda Powertools for .NET](https://aws-oss.beachgeek.co.uk/2km).
+AWS Lambda Powertools, an open-source developer library, now supports .NET to help you incorporate Well-Architected Serverless best practices into your .NET Lambda function code as early and as fast as possible. Lambda Powertools for .NET is used when developing code for the .NET 6 Lambda runtime. To dive deeper into the GA announcement, read the post from Amir Khairalomoum, [Introducing AWS Lambda Powertools for .NET](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-powertools-for-net/).
 
 ![dashboard from aws console powered by aws lambda powertools](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2023/02/24/AWS-X-Ray-waterfall-trace-view-1024x663.png)
 
 **OpenSearch**
 
-OpenSearch 2.6.0 is now available, with a new data schema built to OpenTelemetry standards that unlocks an array of future capabilities for analytics and observability use cases. This release also delivers upgrades for index management, improves threat detection for security analytics workloads, and adds functionality for visualization tools, machine learning (ML) models, and more. Read the full announcement from James McIntyre, [Introducing OpenSearch 2.6](https://aws-oss.beachgeek.co.uk/2kl).
+OpenSearch 2.6.0 is now available, with a new data schema built to OpenTelemetry standards that unlocks an array of future capabilities for analytics and observability use cases. This release also delivers upgrades for index management, improves threat detection for security analytics workloads, and adds functionality for visualization tools, machine learning (ML) models, and more. Read the full announcement from James McIntyre, [Introducing OpenSearch 2.6](https://opensearch.org/blog/introducing-opensearch-2-6).
 
-In related news, Krishna Kondaka, Asif Sohail Mohammed, and David Venable collaborated on the post, [Announcing Data Prepper 2.1.0](https://aws-oss.beachgeek.co.uk/2ky) that shared news about the latest release of Data Prepper, an open source tool that that accepts, filters, transforms, enriches, and routes data into your OpenSearch environment.
+In related news, Krishna Kondaka, Asif Sohail Mohammed, and David Venable collaborated on the post, [Announcing Data Prepper 2.1.0](https://opensearch.org/blog/Announcing-Data-Prepper-2.1.0/?sc_channel=sm&sc_campaign=Open_Source&sc_publisher=TWITTER&sc_geo=GLOBAL&sc_outcome=awareness&trk=opensearchproject) that shared news about the latest release of Data Prepper, an open source tool that that accepts, filters, transforms, enriches, and routes data into your OpenSearch environment.
 
 **PostgreSQL**
 
@@ -199,9 +199,9 @@ This short video covers how to install and configure OpenSearch 2.5.0 with OpenS
 
 **Build on Open Source**
 
-Episode two of Build on Open Source streamed live last Friday, 3rd March. Derek and myself covered newsletters #146 and this one, #147. We had a special guest, Toni de la Fuente who walked us through his open source projects prowler. **[prowler](https://aws-oss.beachgeek.co.uk/2ct)** helps keep your AWS environments secure by running audits against well know security compliance checks, and Toni walked us through a demo of it in action. I highly recommend you watch it if you can, as this project is awesome! You can watch it on [replay here](https://www.twitch.tv/videos/1754262947)
+Episode two of Build on Open Source streamed live last Friday, 3rd March. Derek and myself covered newsletters #146 and this one, #147. We had a special guest, Toni de la Fuente who walked us through his open source projects prowler. **[prowler](https://github.com/prowler-cloud/prowler)** helps keep your AWS environments secure by running audits against well know security compliance checks, and Toni walked us through a demo of it in action. I highly recommend you watch it if you can, as this project is awesome! You can watch it on [replay here](https://www.twitch.tv/videos/1754262947)
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -219,31 +219,31 @@ See you there on [twitch.tv/aws](https://twitch.tv/aws), Friday 3rd at 9am GMT, 
 
 If you want to improve architecture, scaling and monitoring of your applications that run on AWS Elastic Kubernetes Service, this event is for you. During this event you will learn to scale Kubernetes applications with Karpenter, monitor your workloads, and build SaaS architectures for Kubernetes. 
 
-Find out more and save your place by heading over to the registration page, [Power up your Kubernetes on AWS](https://aws-oss.beachgeek.co.uk/2jd)
+Find out more and save your place by heading over to the registration page, [Power up your Kubernetes on AWS](https://powerupyourkubernetesonaws.splashthat.com)
 
 **Everything Open**
 **March14-15th Melbourne, Australia**
 
-A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://aws-oss.beachgeek.co.uk/2ds). The CFP us currently open, so why not take a look and submit something if you can.
+A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://2023.everythingopen.au/about/). The CFP us currently open, so why not take a look and submit something if you can.
 
 **FOSSASIA**
 **April 13th-15th, Singapore**
 
 FOSSASIA Summit 2023 returns as an in-person and online event, taking place from Thursday 13th April to Saturday 15th April at the Lifelong Learning Institute in Singapore. 
 
-If you are interested in attending in person, or virtually, find out more about the event at the [FOSSASIA Summit 2023 page](https://aws-oss.beachgeek.co.uk/2iq).
+If you are interested in attending in person, or virtually, find out more about the event at the [FOSSASIA Summit 2023 page](https://eventyay.com/e/7cfe0771).
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

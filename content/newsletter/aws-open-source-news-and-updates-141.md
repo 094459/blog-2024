@@ -30,7 +30,7 @@ So thank you to the following open source heroes: Bohdan Petryshyn, Rajarshi Sar
 
 **distributed-compute-on-aws-with-cross-regional-dask**
 
-[distributed-compute-on-aws-with-cross-regional-dask](https://aws-oss.beachgeek.co.uk/2f7) is a distributed computing solution which uses AWS's global network to not only scale on storage, but minimise data replication across the globe. Extending the capabilities of Dask in combination with libraries such as dask-worker-pools. No longer are data scientist's having to migrate petabytes of data inter regionally, but instead now have capability in querying/interacting with data at the edge.
+[distributed-compute-on-aws-with-cross-regional-dask](https://github.com/aws-samples/distributed-compute-on-aws-with-cross-regional-dask) is a distributed computing solution which uses AWS's global network to not only scale on storage, but minimise data replication across the globe. Extending the capabilities of Dask in combination with libraries such as dask-worker-pools. No longer are data scientist's having to migrate petabytes of data inter regionally, but instead now have capability in querying/interacting with data at the edge.
 
 ![architecture of running distribute compute using dask](https://github.com/aws-samples/distributed-compute-on-aws-with-cross-regional-dask/blob/main/images/Architecture.png?raw=true)
 
@@ -38,34 +38,34 @@ This architecture leverages the Dask framework deployed across multiple AWS regi
 
 **amazon-route53-hosted-zone-sync**
 
-[amazon-route53-hosted-zone-sync](https://aws-oss.beachgeek.co.uk/2fd) this repository shows an example of DNS record replication from an Amazon Route 53 public hosted zone to a private hosted zone - both with the same domain name. If you want resources in your VPC to have public resolution as your external users (with a public hosted zone), except you want also specific private resolution using a private hosted zone, this solution will help you do that.
+[amazon-route53-hosted-zone-sync](https://github.com/aws-samples/amazon-route53-hosted-zone-sync) this repository shows an example of DNS record replication from an Amazon Route 53 public hosted zone to a private hosted zone - both with the same domain name. If you want resources in your VPC to have public resolution as your external users (with a public hosted zone), except you want also specific private resolution using a private hosted zone, this solution will help you do that.
 
 ![architecture of route53 hosted zone sync](https://github.com/aws-samples/amazon-route53-hosted-zone-sync/blob/main/image/route53-sync.png?raw=true)
 
 
 **amazon-emr-serverless-image-cli**
 
-[amazon-emr-serverless-image-cli](https://aws-oss.beachgeek.co.uk/2f9) is a utility to validate the recently launched Amazon EMR custom container image’s file structure. The utility will examine basic required arguments and ensure that the modifications work as expected and prevent job failures due to common misconfigurations. This tool can be integrated into your Continuous Integration (CI) pipeline when you are building your image. You can find out more about this new capability in the Quick Updates section.
+[amazon-emr-serverless-image-cli](https://github.com/awslabs/amazon-emr-serverless-image-cli) is a utility to validate the recently launched Amazon EMR custom container image’s file structure. The utility will examine basic required arguments and ensure that the modifications work as expected and prevent job failures due to common misconfigurations. This tool can be integrated into your Continuous Integration (CI) pipeline when you are building your image. You can find out more about this new capability in the Quick Updates section.
 
 **serverless-run-watch**
 
-[serverless-run-watch](https://aws-oss.beachgeek.co.uk/2f6) is a new open source project from AWS Community Builder AJ Stuyvenberg that provides a plugin for the [Serverless Framework](https://aws-oss.beachgeek.co.uk/1bx) that helps you accelerate your testing loop.
+[serverless-run-watch](https://github.com/astuyve/serverless-run-watch) is a new open source project from AWS Community Builder AJ Stuyvenberg that provides a plugin for the [Serverless Framework](https://github.com/serverless/serverless) that helps you accelerate your testing loop.
 
 **aws-sso-auto-expand-accounts**
 
-[aws-sso-auto-expand-accounts](https://aws-oss.beachgeek.co.uk/2f5) is a Chrome extension from Axel Leroy that automatically expanding every accounts on the AWS SSO page allowing you to more quickly access the links. Simple and useful, just why the folks on Reddit love this so much.
+[aws-sso-auto-expand-accounts](https://github.com/axeleroy/aws-sso-auto-expand-accounts) is a Chrome extension from Axel Leroy that automatically expanding every accounts on the AWS SSO page allowing you to more quickly access the links. Simple and useful, just why the folks on Reddit love this so much.
 
 ![overview of how sso-auto-expand works](https://raw.githubusercontent.com/axeleroy/aws-sso-auto-expand-accounts/main/assets/screenshot.png)
 
 **klotho**
 
-[klotho](https://aws-oss.beachgeek.co.uk/2f4) is an open source tool that transforms plain code into cloud native code. It is not specific to AWS, but does support it. Early stages, but take a look at the README for a walk through and demo of how this works.
+[klotho](https://github.com/klothoplatform/klotho) is an open source tool that transforms plain code into cloud native code. It is not specific to AWS, but does support it. Early stages, but take a look at the README for a walk through and demo of how this works.
 
 ![klothko architecture](https://user-images.githubusercontent.com/69910109/209458345-261875db-7168-4570-86ac-f43fe37f78c6.png)
 
 **basti**
 
-[basti](https://aws-oss.beachgeek.co.uk/2fc) is an open source tool from Bohdan Petryshyn that provides a CLI tool for accessing DB instances and other AWS resources in private networks. The name originates from Bastion Host. Check out the docs for details on what you can use it with and how it works.
+[basti](https://github.com/BohdanPetryshyn/basti) is an open source tool from Bohdan Petryshyn that provides a CLI tool for accessing DB instances and other AWS resources in private networks. The name originates from Bastion Host. Check out the docs for details on what you can use it with and how it works.
 
 ![demo of basti working](https://user-images.githubusercontent.com/45905756/211385579-3ac54ad5-7c90-4b68-9b22-239f4b26ad61.gif)
 
@@ -74,13 +74,13 @@ This architecture leverages the Dask framework deployed across multiple AWS regi
 
 **amazon-ec2-running-apache-cloudstack**
 
-[amazon-ec2-running-apache-cloudstack](https://aws-oss.beachgeek.co.uk/2f8) is a collection of AWS CloudFormation templates and bash scripts that demonstrate ways to run Apache CloudStack on Amazon Elastic Compute Cloud (Amazon EC2). Apache CloudStack is an open-source platform for deploying and managing virtual machines (VMs) and the associated network and storage infrastructure. In a two-part post, [Building a Cloud in the Cloud: Running Apache CloudStack on Amazon EC2, Part 1](https://aws-oss.beachgeek.co.uk/2f2) Mark Rogers shows how you can deploy this project on AWS using the code in this repository. Part 2 dives deeper into how you might approach scaling this.
+[amazon-ec2-running-apache-cloudstack](https://github.com/aws-samples/amazon-ec2-running-apache-cloudstack) is a collection of AWS CloudFormation templates and bash scripts that demonstrate ways to run Apache CloudStack on Amazon Elastic Compute Cloud (Amazon EC2). Apache CloudStack is an open-source platform for deploying and managing virtual machines (VMs) and the associated network and storage infrastructure. In a two-part post, [Building a Cloud in the Cloud: Running Apache CloudStack on Amazon EC2, Part 1](https://aws.amazon.com/blogs/compute/building-a-cloud-in-the-cloud-running-apache-cloudstack-on-amazon-ec2-part-1/) Mark Rogers shows how you can deploy this project on AWS using the code in this repository. Part 2 dives deeper into how you might approach scaling this.
 
 ![running apache cloudstack on aws](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2023/01/03/Part_1_image_3.png)
 
 **realtime-slot-car-racing-with-aws-amplify-aws-iot-core-and-amazon-kinesis-video-streams**
 
-[realtime-slot-car-racing-with-aws-amplify-aws-iot-core-and-amazon-kinesis-video-streams](https://aws-oss.beachgeek.co.uk/2f3) if you attended re:Invent 2022 and visited the Builders Fair you might have seen this project in action. Sam and team put together a very cool demo of how you can use AI to control slot cars (or Scaletrix as I always call them). If you have an old set lying about, why not put it to good use with this demo! Check the repo for a video demo of this running.
+[realtime-slot-car-racing-with-aws-amplify-aws-iot-core-and-amazon-kinesis-video-streams](https://github.com/aws-samples/realtime-slot-car-racing-with-aws-amplify-aws-iot-core-and-amazon-kinesis-video-streams) if you attended re:Invent 2022 and visited the Builders Fair you might have seen this project in action. Sam and team put together a very cool demo of how you can use AI to control slot cars (or Scaletrix as I always call them). If you have an old set lying about, why not put it to good use with this demo! Check the repo for a video demo of this running.
 
 ![architecture of solution.](https://github.com/aws-samples/realtime-slot-car-racing-with-aws-amplify-aws-iot-core-and-amazon-kinesis-video-streams/blob/main/Pictures/slot-cars-arch.png?raw=true)
 
@@ -88,62 +88,62 @@ This architecture leverages the Dask framework deployed across multiple AWS regi
 
 **Cedar**
 
-Cedar is a new language created by AWS to define access permissions using policies, similar to the way IAM policies work. AWS Hero Ian Mckay has put put together a blog post, [Cedar: A new policy language](https://aws-oss.beachgeek.co.uk/2et) that introduces this new policy language and then walks you through how you can use it with some hands on examples. It is a great way to see in practical terms how Formal Reasoning can help you craft better security. [hands on]
+Cedar is a new language created by AWS to define access permissions using policies, similar to the way IAM policies work. AWS Hero Ian Mckay has put put together a blog post, [Cedar: A new policy language](https://onecloudplease.com/blog/cedar-a-new-policy-language) that introduces this new policy language and then walks you through how you can use it with some hands on examples. It is a great way to see in practical terms how Formal Reasoning can help you craft better security. [hands on]
 
 **Spring Boot**
 
-AWS Community Builder Vadym Kazulkin provides the latest instalment in his series of blog posts looking at the performance impact of using SnapStart, this time looking at the impact on Spring Boot apps. Find out more by reading the post, [Measuring Java 11 Lambda cold starts with SnapStart - Part 4 Using Spring Boot Framework](https://aws-oss.beachgeek.co.uk/2eu) [hands on]
+AWS Community Builder Vadym Kazulkin provides the latest instalment in his series of blog posts looking at the performance impact of using SnapStart, this time looking at the impact on Spring Boot apps. Find out more by reading the post, [Measuring Java 11 Lambda cold starts with SnapStart - Part 4 Using Spring Boot Framework](https://dev.to/aws-builders/measuring-java-11-lambda-cold-starts-with-snapstart-part-4-using-spring-boot-framework-417e) [hands on]
 
 **Firecracker**
 
-I love it when I discover how open source tools are being used in specific use cases or to tackle problems that perhaps the open source project was not perhaps initially intended to address. This is one such post, where Alex Ellis shows how you can speed up QEMU when creating multi-architecture releases in your CI/CD pipeline using MicroVM technology. Find out more by reading his post, [Blazing fast CI with MicroVMs](https://aws-oss.beachgeek.co.uk/2eq) [hands on]
+I love it when I discover how open source tools are being used in specific use cases or to tackle problems that perhaps the open source project was not perhaps initially intended to address. This is one such post, where Alex Ellis shows how you can speed up QEMU when creating multi-architecture releases in your CI/CD pipeline using MicroVM technology. Find out more by reading his post, [Blazing fast CI with MicroVMs](https://blog.alexellis.io/blazing-fast-ci-with-microvms/) [hands on]
 
 **Apache DolphinScheduler**
 
-Apache DolphinScheduler is an open source distributed and extensible open-source workflow orchestration platform with a powerful visual interface. Like other workflow orchestration tools, it looks to help you solve complex big data task dependencies. To find out more about this, and how you can run this on AWS, check out this blog post, [Deploy the serverless Apache DolphinScheduler task scheduling system on AWS](https://aws-oss.beachgeek.co.uk/2fa) [hands on]
+Apache DolphinScheduler is an open source distributed and extensible open-source workflow orchestration platform with a powerful visual interface. Like other workflow orchestration tools, it looks to help you solve complex big data task dependencies. To find out more about this, and how you can run this on AWS, check out this blog post, [Deploy the serverless Apache DolphinScheduler task scheduling system on AWS](https://blog.devgenius.io/deploy-the-serverless-apache-dolphinscheduler-task-scheduling-system-on-aws-438d9f9d5b59) [hands on]
 
 ![architecture of apache dolphinscheduler](https://miro.medium.com/max/1400/1*mYkLMKRZD0px6migksPuwA.webp)
 
 **Apache Airflow**
 
-The TaskFlow API was introduced in Airflow 2.0 and provides an alternative way to set out your workflow code in Apache Airflow. Dennis Ferruzzi has put together [Unleashing the power of TaskFlow API in Apache Airflow](https://aws-oss.beachgeek.co.uk/2er) that walks you through a side by side comparison of using TaskFlow vs the Python Operator so you can see the benefits for yourself. [hands on]
+The TaskFlow API was introduced in Airflow 2.0 and provides an alternative way to set out your workflow code in Apache Airflow. Dennis Ferruzzi has put together [Unleashing the power of TaskFlow API in Apache Airflow](https://medium.com/apache-airflow/unleashing-the-power-of-taskflow-api-in-apache-airflow-371637089141) that walks you through a side by side comparison of using TaskFlow vs the Python Operator so you can see the benefits for yourself. [hands on]
 
 ![screenshot of taskflow vs python operator](https://miro.medium.com/max/1400/0*OsZaXXCxL5FlLlD5)
 
 > **NOTE!** The code in the post ran fine in my MWAA environment running Apache Airflow version 2.2
 
 
-Also last week I put together a quick post on how you use one of the Apache Airflow operators (KubernetesPodOperator) to run your tasks that use this operator in a different AWS account. This means you could have one account where you run Apache Airflow, and then use this to orchestrate tasks on any number of other AWS accounts without having to deploy Apache Airflow multiple times. If you want to find out more, read the post [Running KubernetesPodOperator in different AWS accounts](https://aws-oss.beachgeek.co.uk/2fe)
+Also last week I put together a quick post on how you use one of the Apache Airflow operators (KubernetesPodOperator) to run your tasks that use this operator in a different AWS account. This means you could have one account where you run Apache Airflow, and then use this to orchestrate tasks on any number of other AWS accounts without having to deploy Apache Airflow multiple times. If you want to find out more, read the post [Running KubernetesPodOperator in different AWS accounts](https://blog.beachgeek.co.uk/mwaa-eks-multi-aws/)
 
 ![architecture of airflow kubernetes pod operator post](https://ricsuepublicresources.s3.eu-west-1.amazonaws.com/images/eks-multi.png)
 
 **Apache Iceberg**
 
-In the post, [Improve the performance of Apache Iceberg’s metadata file operations using Amazon FSx for Lustre on Amazon EMR](https://aws-oss.beachgeek.co.uk/2fb), Rajarshi Sarkar shows you show you can improve the performance of Iceberg’s metadata file operations using Amazon FSx for Lustre and Amazon EMR. [hands on]
+In the post, [Improve the performance of Apache Iceberg’s metadata file operations using Amazon FSx for Lustre on Amazon EMR](https://aws.amazon.com/blogs/big-data/improve-the-performance-of-apache-icebergs-metadata-file-operations-using-amazon-fsx-for-lustre-on-amazon-emr/), Rajarshi Sarkar shows you show you can improve the performance of Iceberg’s metadata file operations using Amazon FSx for Lustre and Amazon EMR. [hands on]
 
 ![overview of iceberg and lustre on emr architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/12/27/bdb-2235-image005.jpg)
 
 **DoWhy**
 
-If you have been involved in any operational activities in IT, you will be familiar with doing root cause analysis to understand the underlying issues when you encounter problems. DoWhy is an open source Python library that aims to spark causal thinking and analysis, and can be used to help you tackle and understand root causes. AWS has contributed a large set of novel causal machine learning (ML) algorithms last year, and in this post, [Root Cause Analysis with DoWhy, an Open Source Python Library for Causal Machine Learning](https://aws-oss.beachgeek.co.uk/2es) Patrick Blöbaum, Kailash Budhathoki, and Peter Götz take a closer look at these algorithms. Specifically, they demonstrate their applicability in the context of root cause analysis in complex systems. Super interesting read, well worth a few minutes of your time. [hands on]
+If you have been involved in any operational activities in IT, you will be familiar with doing root cause analysis to understand the underlying issues when you encounter problems. DoWhy is an open source Python library that aims to spark causal thinking and analysis, and can be used to help you tackle and understand root causes. AWS has contributed a large set of novel causal machine learning (ML) algorithms last year, and in this post, [Root Cause Analysis with DoWhy, an Open Source Python Library for Causal Machine Learning](https://aws.amazon.com/blogs/opensource/root-cause-analysis-with-dowhy-an-open-source-python-library-for-causal-machine-learning/) Patrick Blöbaum, Kailash Budhathoki, and Peter Götz take a closer look at these algorithms. Specifically, they demonstrate their applicability in the context of root cause analysis in complex systems. Super interesting read, well worth a few minutes of your time. [hands on]
 
 ![graph of dowhy post](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/01/05/Causal-analysis-graph.png)
 
 **Infrastructure as Code**
 
-When it comes to which tool to use when creating your Infrastructure as Code (IaC), you have many choices. Choice is great, but how do know which one is the best for your particular use case? Well, Brian Caffey has you covered with his latest post, [My Infrastructure as Code Rosetta Stone - Deploying the same web application on AWS ECS Fargate with CDK, Terraform and Pulumi](https://aws-oss.beachgeek.co.uk/2ev). Taking the same sample application, Brian dives deep and uses these different IaC tools to deploy this on AWS ECS. Even if you currently use a preferred IaC tool, this post is a great way to look at how you might be able to do it elsewhere. [hands on]
+When it comes to which tool to use when creating your Infrastructure as Code (IaC), you have many choices. Choice is great, but how do know which one is the best for your particular use case? Well, Brian Caffey has you covered with his latest post, [My Infrastructure as Code Rosetta Stone - Deploying the same web application on AWS ECS Fargate with CDK, Terraform and Pulumi](https://briancaffey.github.io/2023/01/07/i-deployed-the-same-containerized-serverless-django-app-with-aws-cdk-terraform-and-pulumi/). Taking the same sample application, Brian dives deep and uses these different IaC tools to deploy this on AWS ECS. Even if you currently use a preferred IaC tool, this post is a great way to look at how you might be able to do it elsewhere. [hands on]
 
 ![mindmap of infrastructure as code rosetta post](https://briancaffey.github.io/static/pulumi_ad_hoc_base_dep_graph.png)
 
 **Other posts and quick reads**
 
-* [Alternative JAR Entry Points Using Java Dependency Injection Frameworks](https://aws-oss.beachgeek.co.uk/2ew) demonstrates how to elegantly reuse existing application functionality without requiring significant changes [hands on]
-* [Authenticate to Amazon EKS using Google Workspace](https://aws-oss.beachgeek.co.uk/2ex) walks you through  how to integrate Amazon EKS cluster authentication with Google workspace [hands on]
+* [Alternative JAR Entry Points Using Java Dependency Injection Frameworks](https://aws.amazon.com/blogs/opensource/alternative-jar-entry-points-using-a-dependency-injection-framework-for-existing-java-applications/) demonstrates how to elegantly reuse existing application functionality without requiring significant changes [hands on]
+* [Authenticate to Amazon EKS using Google Workspace](https://aws.amazon.com/blogs/containers/authenticate-to-amazon-eks-using-google-workspace/) walks you through  how to integrate Amazon EKS cluster authentication with Google workspace [hands on]
 
 ![overview of architecture for eks and google workspace integration](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/01/04/Blog-EKS-with-Google-Workspaces-Solution-1024x848.png)
 
-* [Secure CDK deployments with IAM permission boundaries](https://aws-oss.beachgeek.co.uk/2ez) shows how IAM permission boundaries can be integrated in to CDK development, helping ensure developers have the control they need while administrators can ensure that security is managed in a way that meets the needs of the organisation
-* [Build a search application with Amazon OpenSearch Serverless](https://aws-oss.beachgeek.co.uk/2f1) how to build a simple search application using OpenSearch Serverless, but you could adapt for running your own self managed OpenSearch if you wanted
+* [Secure CDK deployments with IAM permission boundaries](https://aws.amazon.com/blogs/devops/secure-cdk-deployments-with-iam-permission-boundaries/) shows how IAM permission boundaries can be integrated in to CDK development, helping ensure developers have the control they need while administrators can ensure that security is managed in a way that meets the needs of the organisation
+* [Build a search application with Amazon OpenSearch Serverless](https://aws.amazon.com/blogs/big-data/build-a-search-application-with-amazon-opensearch-serverless/) how to build a simple search application using OpenSearch Serverless, but you could adapt for running your own self managed OpenSearch if you wanted
 
 ![overview of OpenSearch dashbaord](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/12/27/BDB-2818-create-index.gif)
 
@@ -161,7 +161,7 @@ Amazon EMR Serverless is a serverless option in Amazon EMR that makes it simple 
 
 Running custom images simplifies many big data analytics use cases. For example, data engineers can customise the default release image to package common dependencies, custom code, specific Java or Python versions, or SSL certificates required by workloads. They can then store these customised images in Amazon Elastic Container Repository (ECR), making it easy to run Spark workloads with custom dependencies. Security engineers can scan these images to comply with organisational standards. Data Scientists can customise runtime images to include proprietary libraries or specific Python packages. Further, EMR Serverless releases can directly be integrated with your organisation's Docker build, test and deployment processes, simplifying continuous integration and continuous delivery (CI/CD) of applications.
 
-To find out more, read the blog post [Add your own libraries and application dependencies to Spark and Hive on Amazon EMR Serverless with custom images](https://aws-oss.beachgeek.co.uk/2ey) where Veena Vasudevan provides a nice walkthrough of how you can use this new feature.
+To find out more, read the blog post [Add your own libraries and application dependencies to Spark and Hive on Amazon EMR Serverless with custom images](https://aws.amazon.com/blogs/big-data/add-your-own-libraries-and-application-dependencies-to-spark-and-hive-on-amazon-emr-serverless-with-custom-images/) where Veena Vasudevan provides a nice walkthrough of how you can use this new feature.
 
 ![overview of process for running your own containers](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/10/bdb-2771-emr-serverless-custom-image-support-1.jpg)
 
@@ -177,7 +177,7 @@ AWS Glue comes with a new engine option called Ray. Ray allows to process large 
 
 **Apache Cassandra**
 
-Check out the post, [Amazon Keyspaces (for Apache Cassandra) re:Invent 2022 recap](https://aws-oss.beachgeek.co.uk/2f0) that provides links to the re:Invent 2022 sessions featuring Apache Cassandra, including DAT327, DAT217, and the database leadership sessions. A must for all users of Apache Cassandra.
+Check out the post, [Amazon Keyspaces (for Apache Cassandra) re:Invent 2022 recap](https://aws.amazon.com/blogs/database/amazon-keyspaces-for-apache-cassandra-reinvent-2022-recap/) that provides links to the re:Invent 2022 sessions featuring Apache Cassandra, including DAT327, DAT217, and the database leadership sessions. A must for all users of Apache Cassandra.
 
 **Apache Iceberg**
 
@@ -188,7 +188,7 @@ Dremio's Developer Advocate Dipankar Mazumdar shows how to use AWS Glue as a cat
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -197,24 +197,24 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **FOSSDEM**
 **Feb 4-5th, 2023 in Brussels**
 
-FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://aws-oss.beachgeek.co.uk/2dc).
+FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://openuk.uk/event-calendar/fosdem-2023/).
 
 **State of Open Con 23**
 **Feb 7-8th, 2023 in London**
 
-OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://aws-oss.beachgeek.co.uk/2dd).
+OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://openuk.uk/event-calendar/state-of-open-con-23/).
 
 **Everything Open**
 **March14-15th Melbourne, Australia**
 
-A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://aws-oss.beachgeek.co.uk/2ds). The CFP us currently open, so why not take a look and submit something if you can.
+A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://2023.everythingopen.au/about/). The CFP us currently open, so why not take a look and submit something if you can.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

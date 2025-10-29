@@ -14,7 +14,7 @@ Before you dive in, a few short notices you should read.
 **Python 2.7 in AWS Chalice**
 
 On July 15, 2021, AWS will publish a minor version update for AWS Chalice that will require Python 3.6 or greater, formally ending our support for Python 2.7. You can read more in the post from James Saryerwinnie,
-[Announcing the end of support for Python 2.7 in AWS Chalice](https://aws-oss.beachgeek.co.uk/hd) which provides more details as well as some options for what you can do.
+[Announcing the end of support for Python 2.7 in AWS Chalice](https://aws.amazon.com/blogs/developer/announcing-the-end-of-support-for-python-2-7-in-aws-chalice/) which provides more details as well as some options for what you can do.
 
 **Do you want to write a blog on the AWS open source blog?**
 
@@ -22,7 +22,7 @@ I am always looking our for new content that we can share with readers of the AW
 
 **Give your project some love**
 
-Check out [this tweet from David Boyne](https://aws-oss.beachgeek.co.uk/gz) if you have an open source project that you might want to benefit from this tool David is developing. From the short video, it looks really nice and one of the best ways to help raise awareness and get interest in your project is having clear documentation. This could be a great way to help with that.
+Check out [this tweet from David Boyne](https://twitter.com/boyney123/status/1390567702113173504) if you have an open source project that you might want to benefit from this tool David is developing. From the short video, it looks really nice and one of the best ways to help raise awareness and get interest in your project is having clear documentation. This could be a great way to help with that.
 
 ### Celebrating open source contributors
 
@@ -36,130 +36,130 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **aws-sdk-rust**
 
-[aws-sdk-rust](https://aws-oss.beachgeek.co.uk/hs) last week we released the alpha of the new AWS SDK for Rust developers. During the alpha, you can install the SDK via a Git dependency and this will be published to crates.io when the SDK is Generally Available. You can read more about this from the launch blog post from iliana etaoin, [A New AWS SDK for Rust – Alpha Launch](https://aws-oss.beachgeek.co.uk/ht)
+[aws-sdk-rust](https://github.com/awslabs/aws-sdk-rust) last week we released the alpha of the new AWS SDK for Rust developers. During the alpha, you can install the SDK via a Git dependency and this will be published to crates.io when the SDK is Generally Available. You can read more about this from the launch blog post from iliana etaoin, [A New AWS SDK for Rust – Alpha Launch](https://aws.amazon.com/blogs/developer/a-new-aws-sdk-for-rust-alpha-launch/)
 
 **awscii-cli**
 
-[awscii-cli](https://aws-oss.beachgeek.co.uk/h5) folks that know me understand how much I love retro/ascii art/graphics, so when I saw the latest project from the lovely folks at the MatHem tech team I got super excited. This is an open source tool that renders ASCII-art graphs from AWS resource metrics. The purpose of this tool is to give cloud engineers instant access to their resources' graphs without context switching into the AWS console. Check out this little animated gif demo to see more, then head over and check out the project.
+[awscii-cli](https://www.npmjs.com/package/@mhlabs/awscii-cli) folks that know me understand how much I love retro/ascii art/graphics, so when I saw the latest project from the lovely folks at the MatHem tech team I got super excited. This is an open source tool that renders ASCII-art graphs from AWS resource metrics. The purpose of this tool is to give cloud engineers instant access to their resources' graphs without context switching into the AWS console. Check out this little animated gif demo to see more, then head over and check out the project.
 
 ![demo](https://raw.githubusercontent.com/mhlabs/awscii-cli/main/images/demo.gif)
 
 **node-go-live**
 
-[node-go-live](https://aws-oss.beachgeek.co.uk/hu) the folks at Eyevinn Technology released this node package that provides the functionality to build an API layer on top of AWS Media Services to automate and simplify setting up a media pipeline for live using RTMP as the video signal contribution protocol. If you work with AWS Media Services, this is going to come in real handy.
+[node-go-live](https://github.com/Eyevinn/node-go-live#readme) the folks at Eyevinn Technology released this node package that provides the functionality to build an API layer on top of AWS Media Services to automate and simplify setting up a media pipeline for live using RTMP as the video signal contribution protocol. If you work with AWS Media Services, this is going to come in real handy.
 
 **aws-auto-inventory**
 
-[aws-auto-inventory](https://aws-oss.beachgeek.co.uk/h6) this very handy new tool, AWS Auto Inventory, allows you to quickly and easily generate inventory reports of your AWS resources. Check out the repo to take a look at what those reports look like and how configurable this tool is. I think a lot of folks are going to find this tool very useful.
+[aws-auto-inventory](https://github.com/aws-samples/aws-auto-inventory) this very handy new tool, AWS Auto Inventory, allows you to quickly and easily generate inventory reports of your AWS resources. Check out the repo to take a look at what those reports look like and how configurable this tool is. I think a lot of folks are going to find this tool very useful.
 
 ![demo](https://github.com/aws-samples/aws-auto-inventory/blob/master/clencli/terminalizer/run.gif?raw=true)
 
 **assisted-log-enabler-for-aws**
 
-[assisted-log-enabler-for-aws](https://aws-oss.beachgeek.co.uk/h7) this is an interesting tool that is for customers who do not have logging turned on for various services, and lack knowledge of best practices and/or how to turn them on. Check out the README to find out more details as to which AWS service logs it can enable, and more about the typical use cases where this might be useful.
+[assisted-log-enabler-for-aws](https://github.com/awslabs/assisted-log-enabler-for-aws) this is an interesting tool that is for customers who do not have logging turned on for various services, and lack knowledge of best practices and/or how to turn them on. Check out the README to find out more details as to which AWS service logs it can enable, and more about the typical use cases where this might be useful.
 
 ![arch](https://github.com/awslabs/assisted-log-enabler-for-aws/blob/main/diagrams/assisted_log_enabler.png?raw=true)
 
 **aws-react-elasticsearch-terraform**
 
-[aws-react-elasticsearch-terraform](https://aws-oss.beachgeek.co.uk/h3) The right to study/modify/use that open source gives you is what this project is all about, and is a complete sample project/architecture from Matthew Lau that uses a number of open source technologies to build a sample todo application that is perhaps a little over-engineered but you can re-purpose potentially for your own needs. It uses Terraform to deploy, and this is on my todo list for the weekend..see what I did there :-)
+[aws-react-elasticsearch-terraform](https://github.com/MatthewCYLau/aws-react-elasticsearch-terraform) The right to study/modify/use that open source gives you is what this project is all about, and is a complete sample project/architecture from Matthew Lau that uses a number of open source technologies to build a sample todo application that is perhaps a little over-engineered but you can re-purpose potentially for your own needs. It uses Terraform to deploy, and this is on my todo list for the weekend..see what I did there :-)
 
 ![arch](https://github.com/MatthewCYLau/aws-react-elasticsearch-terraform/blob/master/img/aws-elasticsearch.JPG?raw=true)
 
-Also, if you are a fan of Terraform then you should check out AWS Hero Anton Babenko's weekly Terraform newsletter which you can [sign up for here](https://aws-oss.beachgeek.co.uk/hq). The [latest edition, #40](https://aws-oss.beachgeek.co.uk/hr) is jam packed with great Terrform resources and whilst not all the content covers AWS, there is plenty of relevant AWS content on a regular basis.
+Also, if you are a fan of Terraform then you should check out AWS Hero Anton Babenko's weekly Terraform newsletter which you can [sign up for here](https://weekly.tf/). The [latest edition, #40](https://weekly.tf/issues/weekly-tf-issue-40-terraform-refresh-436658) is jam packed with great Terrform resources and whilst not all the content covers AWS, there is plenty of relevant AWS content on a regular basis.
 
 **tool-compare**
 * [tool-compare](https://github.com/iacsecurity/tool-compare) a nice simple tool helps you compare various infrastructure as code (IaC) open source security tools. This allows you to see what the tool can do, and how it compares, before even installing it. Currently supporting Checkov, Indeni Cloudrail,Kics,	Snyk, Terrascan and Tfsec.
 
 **AWSsert**
 
-[AWSsert](https://aws-oss.beachgeek.co.uk/hv) this Python library popped up on my radar over the weekend, and is a library providing declarative assertions about AWS resources to your tests. Installing the package will make AWSserts extra assertions available to all of your tests. Assertions are attached directly to boto3 resource objects, allowing you to write clean and declarative tests. Whilst only a subset of AWS Services is currently supported, one to watch.
+[AWSsert](https://github.com/TSNobleSoftware/awssert) this Python library popped up on my radar over the weekend, and is a library providing declarative assertions about AWS resources to your tests. Installing the package will make AWSserts extra assertions available to all of your tests. Assertions are attached directly to boto3 resource objects, allowing you to write clean and declarative tests. Whilst only a subset of AWS Services is currently supported, one to watch.
 
 **other open source project updates**
 
-* [es-kotlin-client](https://aws-oss.beachgeek.co.uk/h0) - es-kotlin-client is an open source tool from Jilles van Gurp that provides a friendly Kotlin API on top of the official Elastic Java client, that adds kotlin DSLs, support for co-routines, and more to the official Java client.
+* [es-kotlin-client](https://github.com/jillesvangurp/es-kotlin-client) - es-kotlin-client is an open source tool from Jilles van Gurp that provides a friendly Kotlin API on top of the official Elastic Java client, that adds kotlin DSLs, support for co-routines, and more to the official Java client.
 
-* [aws-graviton-getting-started](https://aws-oss.beachgeek.co.uk/h1) - updated last week, this project  helps new users start using the Arm-based AWS Graviton and Graviton2 processors and has been updated to include .NET/.NET Core 
+* [aws-graviton-getting-started](https://github.com/aws/aws-graviton-getting-started/blob/main/dotnet.md) - updated last week, this project  helps new users start using the Arm-based AWS Graviton and Graviton2 processors and has been updated to include .NET/.NET Core 
 
-* [aws-lambda-powertools-python](https://aws-oss.beachgeek.co.uk/h4) big release last week from one of the most loved projects that I know about, Lambda powertools. This release has three major goodies: 1/ Idempotency utility is now GA, 2/ New API Gateway and ALB event handler, and 3/ MANY enhancements to Logger. As AWS Community Builder Luc van Donkersgoed tweeted last week "Check out this new feature in Lambda Powertools for Python: fully managed event handling for ALB, REST and HTTP API Gateways. Just decorate your handler function with a route and boom, it works."
+* [aws-lambda-powertools-python](https://github.com/awslabs/aws-lambda-powertools-python/discussions/423) big release last week from one of the most loved projects that I know about, Lambda powertools. This release has three major goodies: 1/ Idempotency utility is now GA, 2/ New API Gateway and ALB event handler, and 3/ MANY enhancements to Logger. As AWS Community Builder Luc van Donkersgoed tweeted last week "Check out this new feature in Lambda Powertools for Python: fully managed event handling for ALB, REST and HTTP API Gateways. Just decorate your handler function with a route and boom, it works."
 
-Finally, if you are a Terraform user and interested in using that to automate Amazon Lightsail deployments, then [check out this thread](https://aws-oss.beachgeek.co.uk/h2) and think about supporting (up voting) some of these. 
+Finally, if you are a Terraform user and interested in using that to automate Amazon Lightsail deployments, then [check out this thread](https://github.com/hashicorp/terraform-provider-aws/pulls?q=is%3Apr+is%3Aopen+label%3Aservice%2Flightsail) and think about supporting (up voting) some of these. 
 
 ### Community open source posts
 
 **Magpie**
 
-[Magpie](https://aws-oss.beachgeek.co.uk/hg) is a free, open-source framework and a collection of community developed plugins that can be used to build complete end-to-end security tools such as a Cloud Security Posture Manager (CSPM). In this blog post, [Magpie RFC - Security Rules and Policies](https://aws-oss.beachgeek.co.uk/hf) Jason Nichols describes the planned approach for how the open source Magpie framework will also be able to apply policies against the persisted discovery data from discovered information of your AWS resources that are persisted. To find out more about this project, check out their other blog posts including the origin story [here](https://aws-oss.beachgeek.co.uk/hh).
+[Magpie](https://github.com/openraven/magpie) is a free, open-source framework and a collection of community developed plugins that can be used to build complete end-to-end security tools such as a Cloud Security Posture Manager (CSPM). In this blog post, [Magpie RFC - Security Rules and Policies](https://www.openraven.com/blog/magpie-rfc-security-rules-and-policies?platform=hootsuite&utm_campaign=dw01t) Jason Nichols describes the planned approach for how the open source Magpie framework will also be able to apply policies against the persisted discovery data from discovered information of your AWS resources that are persisted. To find out more about this project, check out their other blog posts including the origin story [here](https://www.openraven.com/blog/hello).
 
 **Apache Airflow**
 
-[How I Built CI/CD For Data Pipelines in Apache Airflow on AWS](https://aws-oss.beachgeek.co.uk/hm) one of my favourite posts this week, Anna Geller puts together this detailed walkthrough of how you can create a CI/CD pipeline for your Apache Airflow environment, using Buddy as your CI/CD tool. Really nice.
+[How I Built CI/CD For Data Pipelines in Apache Airflow on AWS](https://towardsdatascience.com/how-i-built-ci-cd-for-data-pipelines-in-apache-airflow-on-aws-aae029fe557e) one of my favourite posts this week, Anna Geller puts together this detailed walkthrough of how you can create a CI/CD pipeline for your Apache Airflow environment, using Buddy as your CI/CD tool. Really nice.
 
 **AWS CDK**
 
-With CDK Day still fresh in my mind, it was amazing to see Matt Coulter put together this post, [CDK Day In Review](https://aws-oss.beachgeek.co.uk/hn). Consider this your essential companion when revisiting or checking out for the first time the sessions that ran over the two tracks. Great stuff.
+With CDK Day still fresh in my mind, it was amazing to see Matt Coulter put together this post, [CDK Day In Review](https://dev.to/aws-heroes/cdk-day-in-review-21eo). Consider this your essential companion when revisiting or checking out for the first time the sessions that ran over the two tracks. Great stuff.
 
 **CDK8s**
 
-On a related note, Vu Dao put together this post, [CDK8S Example](https://aws-oss.beachgeek.co.uk/ho), that uses the CDK8s tool to generate Kubernetes YAML from code you write to describe your application using the same constructs approach that you will be familiar with in AWS CDK. This is a great primer into how this works, walking you through a sample application.
+On a related note, Vu Dao put together this post, [CDK8S Example](https://dev.to/vumdao/cdk8s-example-2glk), that uses the CDK8s tool to generate Kubernetes YAML from code you write to describe your application using the same constructs approach that you will be familiar with in AWS CDK. This is a great primer into how this works, walking you through a sample application.
 
 ### AWS open source posts
 
 **Pixie**
 
-[Gathering insights on Kubernetes applications, services, and network traffic with Pixie](https://aws-oss.beachgeek.co.uk/he) Colin Bookman and Mark Carter share a great post on Pixie, an Extended Berkeley Packet Filter (eBPF) powered, open source, observability platform for Kubernetes that makes observability easily accessible to developers. The post provides more info on Pixie, how AWS is partnering with New Relic to contribute to this project and the announcement last week of AWS joining Pixies board to collaborate with New Relic on this open source project. The post provides some great links to getting started and tutorials so you should be able to try this out for yourself very quickly indeed.
+[Gathering insights on Kubernetes applications, services, and network traffic with Pixie](https://aws.amazon.com/blogs/opensource/gathering-insights-on-kubernetes-applications-services-and-network-traffic-with-pixie/) Colin Bookman and Mark Carter share a great post on Pixie, an Extended Berkeley Packet Filter (eBPF) powered, open source, observability platform for Kubernetes that makes observability easily accessible to developers. The post provides more info on Pixie, how AWS is partnering with New Relic to contribute to this project and the announcement last week of AWS joining Pixies board to collaborate with New Relic on this open source project. The post provides some great links to getting started and tutorials so you should be able to try this out for yourself very quickly indeed.
 
 ![pixie](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/28/bookman_f1_1000.png)
 
-You can also check out the post from Nočnica Fee at New Relic over on dev.to, [Pixie is now open source](https://aws-oss.beachgeek.co.uk/hp)
+You can also check out the post from Nočnica Fee at New Relic over on dev.to, [Pixie is now open source](https://dev.to/newrelic/pixie-is-now-open-source-335k)
 
 **Open Policy Agent**
 
-[Open Policy Agent](https://aws-oss.beachgeek.co.uk/hj) (OPA) is an open source, general-purpose policy engine, which decouples policy decision-making from policy enforcement, which allows you to release, analyse, and review policies (which security and compliance teams love) without sacrificing availability or performance. In this post, [Creating a custom Lambda authorizer using Open Policy Agent](https://aws-oss.beachgeek.co.uk/hi) Srihari Prabaharan and Rucha Deshpande demonstrate how you can create a custom Lambda authoriser to offload authorisation decisions by leveraging the OPA policy engine, showing how authorisation can be as straightforward as passing request headers to OPA to return a decision.
+[Open Policy Agent](https://www.openpolicyagent.org/) (OPA) is an open source, general-purpose policy engine, which decouples policy decision-making from policy enforcement, which allows you to release, analyse, and review policies (which security and compliance teams love) without sacrificing availability or performance. In this post, [Creating a custom Lambda authorizer using Open Policy Agent](https://aws.amazon.com/blogs/opensource/creating-a-custom-lambda-authorizer-using-open-policy-agent/) Srihari Prabaharan and Rucha Deshpande demonstrate how you can create a custom Lambda authoriser to offload authorisation decisions by leveraging the OPA policy engine, showing how authorisation can be as straightforward as passing request headers to OPA to return a decision.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/28/srihap_custom_lambda_f1_500.png)
 
 **TiDB**
 
-[Achieve Better Price to Performance for TiDB on Amazon EKS with Graviton2 Processors](https://aws-oss.beachgeek.co.uk/hk) Ron Xing from PingCAP, and Yudho Ahmad Diponegoro from AWS collaborate on a post that combines two of my favourite things: open source technology and AWS Graviton2 processors. In this post you will hear how TiDB benchmarking was undertaken using a number of different benchmarks to provide a much better price/performance result. I always recommend that customers look to use these kinds of posts as helpful illustrations only and that you should look to benchmark your own workloads, leveraging the how-to and other nuggets provided to help you with that effort.
+[Achieve Better Price to Performance for TiDB on Amazon EKS with Graviton2 Processors](https://aws.amazon.com/blogs/startups/achieve-better-price-to-performance-for-tidb-graviton2-processors/) Ron Xing from PingCAP, and Yudho Ahmad Diponegoro from AWS collaborate on a post that combines two of my favourite things: open source technology and AWS Graviton2 processors. In this post you will hear how TiDB benchmarking was undertaken using a number of different benchmarks to provide a much better price/performance result. I always recommend that customers look to use these kinds of posts as helpful illustrations only and that you should look to benchmark your own workloads, leveraging the how-to and other nuggets provided to help you with that effort.
 
 ![benchmark](https://d2908q01vomqb2.cloudfront.net/cb4e5208b4cd87268b208e49452ed6e89a68e0b8/2021/05/05/Pingcap-TIDB-Cluster-on-EKS-1.png)
 
 **Spinnaker Keel**
 
-[How to deploy Spinnaker Keel on Amazon EKS](https://aws-oss.beachgeek.co.uk/ha) Manabu McCloskey, Nima Kaviani, and Rob Hilton look at the process of deploying Spinnaker core micro services and Keel to a Kubernetes cluster and then deploying a sample Kubernetes application using Keel. Spinnaker is a continuous delivery platform for releasing software changes rapidly and reliably that was open sourced by Netflix, and Keel is an optional micro service of Spinnaker that enables the GitOps experience. To find out more, read on...
+[How to deploy Spinnaker Keel on Amazon EKS](https://aws.amazon.com/blogs/opensource/how-to-deploy-spinnaker-keel-on-amazon-eks/) Manabu McCloskey, Nima Kaviani, and Rob Hilton look at the process of deploying Spinnaker core micro services and Keel to a Kubernetes cluster and then deploying a sample Kubernetes application using Keel. Spinnaker is a continuous delivery platform for releasing software changes rapidly and reliably that was open sourced by Netflix, and Keel is an optional micro service of Spinnaker that enables the GitOps experience. To find out more, read on...
 
 **PyTorch**
 
-[Achieve 12x higher throughput and lowest latency for PyTorch Natural Language Processing applications out-of-the-box on AWS Inferentia](https://aws-oss.beachgeek.co.uk/hb) winner of this weeks longest blog post title, we have Fabio Nonato de Paula and Mahadevan Balasubramaniam who show you how to optimise running a NLP-based solution using HuggingFace Transformers pretrained BERT base models, with no modifications to the model and one-line code change at the PyTorch framework level that achieves 12 times higher throughput at 70% lower cost. This is done using AWS Inferentia instance types, leveraging the open source [Neuron SDK's](https://aws-oss.beachgeek.co.uk/hc) capabilities for PyTorch.
+[Achieve 12x higher throughput and lowest latency for PyTorch Natural Language Processing applications out-of-the-box on AWS Inferentia](https://aws.amazon.com/blogs/machine-learning/achieve-12x-higher-throughput-and-lowest-latency-for-pytorch-natural-language-processing-applications-out-of-the-box-on-aws-inferentia/) winner of this weeks longest blog post title, we have Fabio Nonato de Paula and Mahadevan Balasubramaniam who show you how to optimise running a NLP-based solution using HuggingFace Transformers pretrained BERT base models, with no modifications to the model and one-line code change at the PyTorch framework level that achieves 12 times higher throughput at 70% lower cost. This is done using AWS Inferentia instance types, leveraging the open source [Neuron SDK's](https://github.com/aws/aws-neuron-sdk) capabilities for PyTorch.
 
 ![graph](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/04/29/topPicture.png)
 
 **ROS**
 
-[AWS RoboMaker now supports ROS2 Foxy Fitzroy featuring Navigation2](https://aws-oss.beachgeek.co.uk/gu) Matt Hansen provides an update on the latest ROS2 release,  Foxy Fitzroy, and how you can now use this when using AWS RoboMaker. In this post, Matt takes a look at Navigation2 (Nav2) which is the second generation of the ROS Navigation software stack, enabling robots to move autonomously from point A to B. He covers the main features and architecture as well as getting you started with Nav2 in AWS RoboMaker. 
+[AWS RoboMaker now supports ROS2 Foxy Fitzroy featuring Navigation2](https://aws.amazon.com/blogs/robotics/aws-robomaker-now-supports-ros2-foxy-fitzroy-featuring-navigation2/) Matt Hansen provides an update on the latest ROS2 release,  Foxy Fitzroy, and how you can now use this when using AWS RoboMaker. In this post, Matt takes a look at Navigation2 (Nav2) which is the second generation of the ROS Navigation software stack, enabling robots to move autonomously from point A to B. He covers the main features and architecture as well as getting you started with Nav2 in AWS RoboMaker. 
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/a9334987ece78b6fe8bf130ef00b74847c1d3da6/2021/05/03/figure-d.png)
 
 **Kubernetes**
 
-[Planning Kubernetes Upgrades with Amazon EKS](https://aws-oss.beachgeek.co.uk/gv) Jesse Butler kicks off what will be a new series of blog posts on the Containers blog covering new features as well as calling out specific changes that you should make note of when planning your cluster upgrades. Jesse kicks this series off with this post taking a look at Kubernetes version 1.19, and shares a broader perspective on versions and observations of running this version of Kubernetes. If you do containers, this is a must read this week.
+[Planning Kubernetes Upgrades with Amazon EKS](https://aws.amazon.com/blogs/containers/planning-kubernetes-upgrades-with-amazon-eks/) Jesse Butler kicks off what will be a new series of blog posts on the Containers blog covering new features as well as calling out specific changes that you should make note of when planning your cluster upgrades. Jesse kicks this series off with this post taking a look at Kubernetes version 1.19, and shares a broader perspective on versions and observations of running this version of Kubernetes. If you do containers, this is a must read this week.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/05/01/EKS-Lifecycle-Management.png)
 
 **SimpleSAMLphp**
 
-[Enabling Federation with SimpleSAMLphp and Amazon AppStream 2.0](https://aws-oss.beachgeek.co.uk/h9) Jeremy Schiefer writes about an old favourite project of mine that I have used many times in the past, SimpleSAMLphp. This is an open-source project written in native PHP that deals with authentication for SAML 2.0 as a Service Provider and as an Identity Provider. In this post, Jeremy explains how to configure federated user access for Amazon AppStream 2.0 for customers already using SimpleSAMLphp.
+[Enabling Federation with SimpleSAMLphp and Amazon AppStream 2.0](https://aws.amazon.com/blogs/desktop-and-application-streaming/enabling-federation-with-simplesamlphp-and-amazon-appstream-2-0/) Jeremy Schiefer writes about an old favourite project of mine that I have used many times in the past, SimpleSAMLphp. This is an open-source project written in native PHP that deals with authentication for SAML 2.0 as a Service Provider and as an Identity Provider. In this post, Jeremy explains how to configure federated user access for Amazon AppStream 2.0 for customers already using SimpleSAMLphp.
 
 **SRT**
 
-Secure Reliable Transport (SRT) is an open source video transport protocol that optimises video streaming performance, and in this post, [Getting started with SRT inputs in AWS Elemental Live](https://aws-oss.beachgeek.co.uk/hl), Dirk Boekee dives deeper into SRT and then shows you how you can integrate this with AWS Elemental Live.
+Secure Reliable Transport (SRT) is an open source video transport protocol that optimises video streaming performance, and in this post, [Getting started with SRT inputs in AWS Elemental Live](https://aws.amazon.com/blogs/media/metfc-srt-inputs-in-aws-elemental-live/), Dirk Boekee dives deeper into SRT and then shows you how you can integrate this with AWS Elemental Live.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2021/05/05/Picture1-1.png)
 
 **Apache Kafka**
 
-[Securing Apache Kafka is easy and familiar with IAM Access Control for Amazon MSK](https://aws-oss.beachgeek.co.uk/h8) this guest post from AWS Data Hero Stéphane Maarek takes a look at how easy it is to secure an Amazon MSK cluster and Apache Kafka with IAM Access Control, showing you how to configure access from your developer tooling. 
+[Securing Apache Kafka is easy and familiar with IAM Access Control for Amazon MSK](https://aws.amazon.com/blogs/big-data/securing-apache-kafka-is-easy-and-familiar-with-iam-access-control-for-amazon-msk/) this guest post from AWS Data Hero Stéphane Maarek takes a look at how easy it is to secure an Amazon MSK cluster and Apache Kafka with IAM Access Control, showing you how to configure access from your developer tooling. 
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/05/06/bdb1447-access-control-msk-1.jpg) 
 
@@ -169,7 +169,7 @@ Secure Reliable Transport (SRT) is an open source video transport protocol that 
 
 If you missed this last week, then this will be good news as we announced reducing the price of metric samples ingested by up to 84% for Amazon Managed Service for Prometheus (AMP). Amazon Managed Service for Prometheus (AMP) is a fully managed Prometheus-compatible monitoring service that makes it easy to monitor containerised applications at scale. With AMP, you can use the open source Prometheus Query Language (PromQL) to monitor the performance of containerised workloads on AWS or on-premises. AMP automatically scales the ingestion, storage, and querying of operational metrics (from, for example, your Amazon Kubernetes Service (Amazon EKS) clusters) as workloads grow or shrink, and is integrated with AWS security services such as AWS Identity and Access Management (IAM), AWS PrivateLink, and AWS CloudTrail to enable fast and secure access to data.
 
-Find out more by reading the post, [AWS announces a price reduction for Amazon Managed Service for Prometheus (AMP)](https://aws-oss.beachgeek.co.uk/gx)
+Find out more by reading the post, [AWS announces a price reduction for Amazon Managed Service for Prometheus (AMP)](https://aws.amazon.com/about-aws/whats-new/2021/05/aws-announces-a-price-reduction-for-amazon-managed-service-for-prometheus-amp/)
 
 **Elasticsearch**
 
@@ -185,7 +185,7 @@ In case you missed this last week, Porting Assistant for .NET is now available a
 
 Porting Assistant for .NET is an open source analysis tool that scans .NET Framework applications and generates a .NET Core or .NET 5 compatibility assessment, helping you port your applications to Linux faster. Porting .NET Framework applications to .NET Core or .NET 5 helps customers take advantage of the performance, cost savings, and the robust Linux ecosystem.
 
-The new Porting Assistant for .NET extension is available for download through the Visual Studio marketplace [here](https://aws-oss.beachgeek.co.uk/gw).
+The new Porting Assistant for .NET extension is available for download through the Visual Studio marketplace [here](https://marketplace.visualstudio.com/items?itemName=AWSPA.AWSPortingAssistant).
 
 **FreeRTOS**
 
@@ -193,7 +193,7 @@ FreeRTOS version 202104.00 includes a new managed over-the-air update (OTA) libr
 
 The OTA library makes it easier to download and perform cryptographic verification of firmware updates. You can use the OTA library with your preferred MQTT library, HTTP library, and underlying operating system (e.g. FreeRTOS, Linux). The coreMQTT-Agent library manages the MQTT connection by serializing the access to the coreMQTT library and reducing implementation overhead (e.g., the need for repeated calls to the process loop from the application). This allows your multi-threaded applications to share the same MQTT connection, and enables you to design an embedded application without having to worry about thread safety. See coreMQTT-Agent demo that uses OTA, Device Shadow, and Device Defender in multiple threads. The Device Defender library enables you to send device metrics to the AWS IoT Device Defender service. This library also supports custom metrics, a feature that helps you monitor operational health metrics that are unique to your fleet or use case. For example, you can define a new metric to monitor the memory usage or CPU load on your devices. These libraries have been optimized for modularity and memory usage for constrained microcontrollers, and have undergone code quality checks (e.g. MISRA-C compliance, Coverity static analysis), and memory safety validation with the C Bounded Model Checker (CBMC) automated reasoning tool.
 
-You can read more in the announcement, [FreeRTOS 202104.00 includes new managed OTA and MQTT capabilities for IoT applications](https://aws-oss.beachgeek.co.uk/gy)
+You can read more in the announcement, [FreeRTOS 202104.00 includes new managed OTA and MQTT capabilities for IoT applications](https://aws.amazon.com/about-aws/whats-new/2021/05/freertos-202104-00-includes-new-managed-ota-and-mqtt-capabilities-for-iot-applications/)
 
 ### AWS Container Day at KubeCon
 

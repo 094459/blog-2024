@@ -5,9 +5,9 @@ tags : [ oss-newsletter, Apache Airflow, airflowctl]
 
 ---
 
-I have written in the [past](https://dev.to/aws/getting-mwaa-local-runner-up-on-aws-cloud9-1nhd) about setting up developer environments and tools when working with Apache Airflow. Today I came across a new tool from [Kaxil Naik](https://github.com/kaxil), directory of engineering at Astronomer and all round Apache Airflow good guy. Kaxil has put together [airflowctl](https://aws-oss.beachgeek.co.uk/35c), a command-line tool for managing Apache Airflow™ projects, and making it super easy to get up and running. What does it do? Well, it helps you install and use different versions of Apache Airflow, work with Variables and Connections, provide live logs, and more.
+I have written in the [past](https://dev.to/aws/getting-mwaa-local-runner-up-on-aws-cloud9-1nhd) about setting up developer environments and tools when working with Apache Airflow. Today I came across a new tool from [Kaxil Naik](https://github.com/kaxil), directory of engineering at Astronomer and all round Apache Airflow good guy. Kaxil has put together [airflowctl](https://github.com/kaxil/airflowctl), a command-line tool for managing Apache Airflow™ projects, and making it super easy to get up and running. What does it do? Well, it helps you install and use different versions of Apache Airflow, work with Variables and Connections, provide live logs, and more.
 
-The README provides nice documentation to get you up and running, but I thought I would do a quick demo showing how you can get this up and running on your AWS environment, using my Cloud 9 developer environment. Everything in this post was done in my [AWS Cloud 9](https://aws-oss.beachgeek.co.uk/35g) developer environment. If you are not sure what that is, it is a Cloud based IDE that provides everything you need to develop your applications. I am a big fan, and find it helps me better organise my development activities from the stuff I do on my local machine. You do not need that to follow along this post however, and you can probably (not tested) run this on your own preferred environment.
+The README provides nice documentation to get you up and running, but I thought I would do a quick demo showing how you can get this up and running on your AWS environment, using my Cloud 9 developer environment. Everything in this post was done in my [AWS Cloud 9](https://aws.amazon.com/cloud9/) developer environment. If you are not sure what that is, it is a Cloud based IDE that provides everything you need to develop your applications. I am a big fan, and find it helps me better organise my development activities from the stuff I do on my local machine. You do not need that to follow along this post however, and you can probably (not tested) run this on your own preferred environment.
 
 This is my first impressions of the tool, having used it for the past few hours.
 
@@ -123,11 +123,11 @@ Airflow project built successfully.
 ```
 
 > **NOTE** When I did this the first time, I had no available Python version that matched what I had setup in my initial configure command (--python-version 3.10.11). This tool will use pyenv if it is available, but I had not installed it. If you plan to use a specific Python version, make sure you have pyenv up and running.
->  I used [this gist](https://aws-oss.beachgeek.co.uk/35d) when I setup my Cloud 9 environment which seemed to do the trick for me. You will also need to make sure you have any dependencies already installed in order to build newer versions of Python. I have the following setup which worked for me:
+>  I used [this gist](https://gist.github.com/djohnkang/062e1b5c37df7d4d5b4e503315481282) when I setup my Cloud 9 environment which seemed to do the trick for me. You will also need to make sure you have any dependencies already installed in order to build newer versions of Python. I have the following setup which worked for me:
 > ```
 > sudo yum install gcc zlib-devel bzip2 bzip2-devel readline readline-devel sqlite sqlite-devel openssl openssl-devel libffi-devel xz-devel -y
 > ```
-> If you are trying to install 3.10.11 and run into errors (such as "ModuleNotFoundError: No module named '_ssl'") then this [Stack Overflow](https://aws-oss.beachgeek.co.uk/35e) solution worked for me
+> If you are trying to install 3.10.11 and run into errors (such as "ModuleNotFoundError: No module named '_ssl'") then this [Stack Overflow](https://stackoverflow.com/questions/71954694/pyenv-on-amazon-linux-fails-to-build-due-to-openssl) solution worked for me
 
 It took about 5 minutes to complete on my Cloud9 environment. We are now ready to run our Apache Airflow environment.
 
@@ -167,7 +167,7 @@ You will notice that the admin passwords appears in the console log. It is also 
 > airflow.exceptions.AirflowConfigException: error: sqlite C library version too old (< 3.15.0). See https://airflow.apache.org/docs/apache-airflow/2.4.3/howto/set-up-database.html#setting-up-a-sqlite-database
 > Error starting Airflow: Command 'source /home/ec2-user/environment/airflow-jokes/.venv/bin/activate && airflow version' returned non-zero exit status 1.
 > """
-> then check out [this](https://aws-oss.beachgeek.co.uk/35f) on the Apache Airflow site. You will now run this as root on your Linux environment. You will need to uninstall anything you had previously installed, and re-create your configuration files (or at least, I could not get them to work until I did this)
+> then check out [this](https://airflow.apache.org/docs/apache-airflow/2.4.3/howto/set-up-database.html#setting-up-a-sqlite-database) on the Apache Airflow site. You will now run this as root on your Linux environment. You will need to uninstall anything you had previously installed, and re-create your configuration files (or at least, I could not get them to work until I did this)
 > 
 
 You can also run this in the background, by using the --background flag. So hitting CTRL+C to exit the foreground mode, I then ran
@@ -245,4 +245,4 @@ I am not sure if this is the correct way, but given that these Airflow environme
 
 **Conclusion**
 
-It is always fun to see new projects to help developers get hands on with Apache Airflow and boost their productivity. I will be using this and testing it out over the coming weeks and see how it compares to some of the others tools I have been using, such as [mwaa-local-runner](https://aws-oss.beachgeek.co.uk/gd).
+It is always fun to see new projects to help developers get hands on with Apache Airflow and boost their productivity. I will be using this and testing it out over the coming weeks and see how it compares to some of the others tools I have been using, such as [mwaa-local-runner](https://github.com/aws/aws-mwaa-local-runner).

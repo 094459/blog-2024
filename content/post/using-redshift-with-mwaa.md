@@ -8,9 +8,9 @@ tags : [ Apache Airflow, MWAA, Amazon Redshift]
 
 ## Working with Managed Workflows for Apache Airflow (MWAA) and Amazon Redshift 
 
-I was recently [looking at some Stack Overflow questions](https://stackoverflow.com/questions/tagged/mwaa) from the [AWS Collective](https://aws-oss.beachgeek.co.uk/2o4) and saw a number of folk having questions about the integration between Amazon Redshift and Managed Workflows for Apache Airflow (MWAA). I thought I would put together a quick post that might help folk address what I saw were some of the common challenges.
+I was recently [looking at some Stack Overflow questions](https://stackoverflow.com/questions/tagged/mwaa) from the [AWS Collective](https://stackoverflow.com/collectives/aws) and saw a number of folk having questions about the integration between Amazon Redshift and Managed Workflows for Apache Airflow (MWAA). I thought I would put together a quick post that might help folk address what I saw were some of the common challenges.
 
-There is some code that accompanies this post, which you can find at the GitHub repository [cdk-mwaa-redshift](https://aws-oss.beachgeek.co.uk/2o5). 
+There is some code that accompanies this post, which you can find at the GitHub repository [cdk-mwaa-redshift](https://github.com/094459/cdk-mwaa-redshift). 
 
 > **Pre-requisites** You will need the following to be able to use the code in this repo:
 > 
@@ -54,7 +54,7 @@ The rest of this post will be looking at using these. What we will do is:
 
 **Setting up my test environment**
 
-To make things easier I have put together a simple CDK app that will deploy a new VPC, and into that VPC deploy a MWAA 2.4.3 environment, and an Amazon Redshift cluster. The stack also deploys some sample DAGs which we will use. The repo is here  [cdk-mwaa-redshift](https://aws-oss.beachgeek.co.uk/2o5) and we can deploy this as follows:
+To make things easier I have put together a simple CDK app that will deploy a new VPC, and into that VPC deploy a MWAA 2.4.3 environment, and an Amazon Redshift cluster. The stack also deploys some sample DAGs which we will use. The repo is here  [cdk-mwaa-redshift](https://github.com/094459/cdk-mwaa-redshift) and we can deploy this as follows:
 
 ```
 git clone https://github.com/094459/cdk-mwaa-redshift
@@ -73,7 +73,7 @@ You will be prompted after each stack to confirm you are happy to deploy. So aft
 
 **RedshiftSQLOperator**
 
-We now have a completely new setup with no sample data. Our next step is to upload the sample data (which we can find info on  [in the Redshift documentation pages]((https://aws-oss.beachgeek.co.uk/2ov)). We will use Airflow operators to automate these tasks.
+We now have a completely new setup with no sample data. Our next step is to upload the sample data (which we can find info on  [in the Redshift documentation pages]((https://github.com/webdriverio/webdriveriov)). We will use Airflow operators to automate these tasks.
 
 First we will upload the files to our S3 bucket that was created when the Redshift cluster was setup (in my default app.py, this S3 bucket is called "mwaa-094459-redshift"). To do this we do not need a specific Redshift operator, we will just use the PythonOperator to do this, defining a function that does the file copying and uploading to our S3 bucket
 
@@ -114,7 +114,7 @@ files_to_s3 = PythonOperator(
 files_to_s3        
 ```
 
-The next step is to [create the tables as per the guide]((https://aws-oss.beachgeek.co.uk/2ov)) so that when we ingest the data, it is imported into the right tables. For this we are going to use the first Redshift operator, **RedshiftSQLOperator**
+The next step is to [create the tables as per the guide]((https://github.com/webdriverio/webdriveriov)) so that when we ingest the data, it is imported into the right tables. For this we are going to use the first Redshift operator, **RedshiftSQLOperator**
 
 We will define a variable in our DAG that holds the sql we want to execute (copied from the guide above) and then we will use this operator to execute that query to create our tables.
 

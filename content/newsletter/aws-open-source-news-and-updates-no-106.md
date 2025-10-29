@@ -33,21 +33,21 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **access-undenied-aws**
 
-[access-undenied-aws](https://aws-oss.beachgeek.co.uk/1io) this project from Ermetic received a lot of attention and looks interesting. Access Undenied parses AWS AccessDenied CloudTrail events, explains the reasons for them, and offers actionable remediation steps. Nice detailed docs and quick demo to show you how it works, this looks super useful.
+[access-undenied-aws](https://github.com/ermetic/access-undenied-aws) this project from Ermetic received a lot of attention and looks interesting. Access Undenied parses AWS AccessDenied CloudTrail events, explains the reasons for them, and offers actionable remediation steps. Nice detailed docs and quick demo to show you how it works, this looks super useful.
 
 ![demo of access-undenied](https://github.com/ermetic/access-undenied-aws/blob/main/examples/example.gif?raw=true)
 
 **aws-slack-clickoops-watcher**
 
-[aws-slack-clickoops-watcher](https://aws-oss.beachgeek.co.uk/1ir) this project from Paul Zietsman allows you to monitor your AWS accounts for changes being made in the console, messaging you in Slack when it detects changes. Hat tip to Corey Quinn's newsletter where I found this project.
+[aws-slack-clickoops-watcher](https://github.com/phzietsman/aws-slack-clickoops-watcher) this project from Paul Zietsman allows you to monitor your AWS accounts for changes being made in the console, messaging you in Slack when it detects changes. Hat tip to Corey Quinn's newsletter where I found this project.
 
 **kronicle**
 
-[kronicle](https://aws-oss.beachgeek.co.uk/1ik) Kronicle open source tool and dashboard for documenting and visualising a tech stack. Simon Dean [share a post on LinkedIn](https://aws-oss.beachgeek.co.uk/1il), where he shared how he had been working on a new AWS plugin. Check out the post and the repo for more info, looks interesting.
+[kronicle](https://github.com/kronicle-tech/kronicle) Kronicle open source tool and dashboard for documenting and visualising a tech stack. Simon Dean [share a post on LinkedIn](https://www.linkedin.com/posts/simon-dean-22382619_developerexperience-developertools-aws-activity-6911593172250845184-flvl), where he shared how he had been working on a new AWS plugin. Check out the post and the repo for more info, looks interesting.
 
 **cdk-iam-credentials-rotator**
 
-[cdk-iam-credentials-rotator](https://aws-oss.beachgeek.co.uk/1im) this open source project from Will Dady is an AWS CDK construct for rotating IAM user credentials and sending to a third party. Simply provide a list of usernames of IAM users which exist in the target account and a Lambda function to handle the newly created credentials for a given user.
+[cdk-iam-credentials-rotator](https://github.com/willdady/cdk-iam-credentials-rotator) this open source project from Will Dady is an AWS CDK construct for rotating IAM user credentials and sending to a third party. Simply provide a list of usernames of IAM users which exist in the target account and a Lambda function to handle the newly created credentials for a given user.
 
 ![architecture for cdk-iam-credentials-rotator project](https://github.com/willdady/cdk-iam-credentials-rotator/blob/main/images/diagram.png?raw=true)
 
@@ -55,39 +55,39 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **crossplane-aws-blueprints**
 
-[crossplane-aws-blueprints](https://aws-oss.beachgeek.co.uk/1ih) Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume, without having to write any code. This repository to bootstrap EKS Clusters and provision AWS resources with a library of Crossplane Compositions (XRs) with Composite Resource Definitions (XRDs). Compositions in this repository enable platform teams to define and offer bespoke AWS infrastructure APIs to the teams of application developers based on predefined Composite Resources (XRs), encompassing one or more of AWS Managed Resources (MRs).
+[crossplane-aws-blueprints](https://github.com/aws-samples/crossplane-aws-blueprints) Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume, without having to write any code. This repository to bootstrap EKS Clusters and provision AWS resources with a library of Crossplane Compositions (XRs) with Composite Resource Definitions (XRDs). Compositions in this repository enable platform teams to define and offer bespoke AWS infrastructure APIs to the teams of application developers based on predefined Composite Resources (XRs), encompassing one or more of AWS Managed Resources (MRs).
 
 > **Note!** AWS Blueprints for Crossplane is under active development and should be considered a pre-production framework.
 
 **aws-config-detect-environment-variables-secrets-terraform**
 
-[aws-config-detect-environment-variables-secrets-terraform](https://aws-oss.beachgeek.co.uk/1ii) this repo contains a Terraform module that creates a custom rule on AWS Config that detects secrets/tokens in the Lambda functions in the account.
+[aws-config-detect-environment-variables-secrets-terraform](https://github.com/aws-samples/aws-config-detect-environment-variables-secrets-terraform) this repo contains a Terraform module that creates a custom rule on AWS Config that detects secrets/tokens in the Lambda functions in the account.
 
 ![architecture for aws-config detection of variables and secrets](https://github.com/aws-samples/aws-config-detect-environment-variables-secrets-terraform/blob/main/.images/lambda-secrets-detector.png?raw=true)
 
 **aws-gamekit-unreal**
 
-[aws-gamekit-unreal](https://github.com/aws/aws-gamekit-unreal) announced last week, AWS GameKit is an open sourced plugin that lets you configure and deploy a game feature from your Unreal Engine game project. AWS GameKit offers a suite of core game backend features at launch, including Identity and Authentication, Achievements, Game State Cloud Saving, and User Gameplay Data. To find out more, read the blog post [AWS Announces AWS GameKit for Unreal Engine](https://aws-oss.beachgeek.co.uk/1i3)
+[aws-gamekit-unreal](https://github.com/aws/aws-gamekit-unreal) announced last week, AWS GameKit is an open sourced plugin that lets you configure and deploy a game feature from your Unreal Engine game project. AWS GameKit offers a suite of core game backend features at launch, including Identity and Authentication, Achievements, Game State Cloud Saving, and User Gameplay Data. To find out more, read the blog post [AWS Announces AWS GameKit for Unreal Engine](https://aws.amazon.com/blogs/gametech/aws-gamekit/)
 
 **rust-smt-ir-examples**
 
-[rust-smt-ir-examples](https://aws-oss.beachgeek.co.uk/1ij) This project provides examples of using a rust-smt-ir, a Rust intermediate representation (IR) for SMT-LIB. Read the documentation to find out more about this and the three sample applications provided. 
+[rust-smt-ir-examples](https://github.com/awslabs/rust-smt-ir-examples) This project provides examples of using a rust-smt-ir, a Rust intermediate representation (IR) for SMT-LIB. Read the documentation to find out more about this and the three sample applications provided. 
 
 #### Demos and Samples
 
 **Mantil example-chat**
 
-[example-chat](https://aws-oss.beachgeek.co.uk/1in) Mantil is a modern open-source framework for writing serverless apps in Go. This example shows how one can make a simple cloud native chat app with a serverless backend written in Go. Backend is built on AWS Lambda and uses WebSocket API and DynamoDB. 
+[example-chat](https://github.com/mantil-io/example-chat) Mantil is a modern open-source framework for writing serverless apps in Go. This example shows how one can make a simple cloud native chat app with a serverless backend written in Go. Backend is built on AWS Lambda and uses WebSocket API and DynamoDB. 
 
 **serverless-dotnet-demo**
 
-[serverless-dotnet-demo](https://aws-oss.beachgeek.co.uk/1ig) With the release of .NET 6 AWS Lambda now supports .NET Core 3.1 and .NET 6 as managed runtimes. With the availability of ARM64 using Graviton2 there have been vast improvements to using .NET with Lambda. But how does that translate to actual application performance? And how does .NET compare to other available runtimes. This repository contains a simple serverless application across a range of .NET implementations and the corresponding benchmarking results.
+[serverless-dotnet-demo](https://github.com/aws-samples/serverless-dotnet-demo) With the release of .NET 6 AWS Lambda now supports .NET Core 3.1 and .NET 6 as managed runtimes. With the availability of ARM64 using Graviton2 there have been vast improvements to using .NET with Lambda. But how does that translate to actual application performance? And how does .NET compare to other available runtimes. This repository contains a simple serverless application across a range of .NET implementations and the corresponding benchmarking results.
 
 ![architecture of dotnet demo](https://github.com/aws-samples/serverless-dotnet-demo/blob/main/imgs/diagram.jpg?raw=true)
 
 **aws-amplify-sample-registrationapp**
 
-[aws-amplify-sample-registrationapp](https://aws-oss.beachgeek.co.uk/1i9) this demo repository provides a sample single page registration web application code to demonstrate how using AWS Amplify rapidly accelerates building a Serverless Full Stack Registration App. To help you with building this, you can read the blog post [Build a Serverless Full-Stack Registration App in minutes using AWS Amplify](https://aws-oss.beachgeek.co.uk/1ia) from Shan Kandaswamy and Mamata Vaidya.
+[aws-amplify-sample-registrationapp](https://github.com/aws-samples/aws-amplify-sample-registrationapp) this demo repository provides a sample single page registration web application code to demonstrate how using AWS Amplify rapidly accelerates building a Serverless Full Stack Registration App. To help you with building this, you can read the blog post [Build a Serverless Full-Stack Registration App in minutes using AWS Amplify](https://aws.amazon.com/blogs/mobile/build-a-serverless-full-stack-registration-app-in-minutes-using-aws-amplify/) from Shan Kandaswamy and Mamata Vaidya.
 
 ![architecture of demo](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/03/17/architecture-V3.drawio.png)
 
@@ -95,21 +95,21 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **DataHub**
 
-[DataHub](https://aws-oss.beachgeek.co.uk/1ip) is an open-source metadata platform for the modern data stack. Gary Stafford has put together a new blog post, [End-to-End Data Discovery, Observability, and Governance on AWS with LinkedIn’s Open-source DataHub](https://aws-oss.beachgeek.co.uk/1iq) that dives deep into the topic of data cataloging options (open source and commercial), before diving deep on DataHub, showing how you can integrate this within AWS and some AWS services. Another must read post from Gary. [hands on]
+[DataHub](https://github.com/datahub-project/datahub) is an open-source metadata platform for the modern data stack. Gary Stafford has put together a new blog post, [End-to-End Data Discovery, Observability, and Governance on AWS with LinkedIn’s Open-source DataHub](https://garystafford.medium.com/end-to-end-data-discovery-observability-and-governance-on-aws-with-linkedins-datahub-8c69e7e8c925) that dives deep into the topic of data cataloging options (open source and commercial), before diving deep on DataHub, showing how you can integrate this within AWS and some AWS services. Another must read post from Gary. [hands on]
 
 ![architecture of DataHub on AWS](https://miro.medium.com/max/1400/1*-2DT-TQ-UZ06WAL_eIx9TQ.png)
 
 **MySQL**
 
-If you are looking to connect to MySQL databases in your AWS Lambda functions, then this post from Randy Westergren, [Building pymssql (FreeTDS) for Lambda](https://aws-oss.beachgeek.co.uk/1id) elaborates from a previous post of his, and this time he shows you how he built the Lambda layer. [hands on]
+If you are looking to connect to MySQL databases in your AWS Lambda functions, then this post from Randy Westergren, [Building pymssql (FreeTDS) for Lambda](https://randywestergren.com/building-pymssql-freetds-for-lambda/) elaborates from a previous post of his, and this time he shows you how he built the Lambda layer. [hands on]
 
 **Openswan**
 
-Openswan is an IPsec implementation for Linux, and I have used this myself many times when creating site to site VPNs between my home network and my VPN Gateway in a VPC. In this post from the folks at Kloudvm, [AWS Site to Site VPN Using OpenSwan IPSEC Step By Step Tutorial](https://aws-oss.beachgeek.co.uk/1ie), they share their way of setting this up. [hands on]
+Openswan is an IPsec implementation for Linux, and I have used this myself many times when creating site to site VPNs between my home network and my VPN Gateway in a VPC. In this post from the folks at Kloudvm, [AWS Site to Site VPN Using OpenSwan IPSEC Step By Step Tutorial](https://kloudvm.com/aws/aws-site-to-site-vpn-using-openswan-ipsec-step-by-step-tutorial/), they share their way of setting this up. [hands on]
 
 **Observability**
 
-This post came from the always excellent [weekly newsletter from Michael Hausenblas, o11y news!](https://aws-oss.beachgeek.co.uk/1if) (make sure you sign up so you don't miss it). In the post, Who watches the watchers?, Miedwar Meshbesher shares a great post on how to make sure that you watch your monitoring tools - very much a case of watching the watchmen. This is a detailed walk through and tutorial of how you can do this, made easier by the fact that the code is provided as Terraform HCL. Very nice post, make sure you check this out. [hands on]
+This post came from the always excellent [weekly newsletter from Michael Hausenblas, o11y news!](https://o11y.news/2022-03-21/) (make sure you sign up so you don't miss it). In the post, Who watches the watchers?, Miedwar Meshbesher shares a great post on how to make sure that you watch your monitoring tools - very much a case of watching the watchmen. This is a detailed walk through and tutorial of how you can do this, made easier by the fact that the code is provided as Terraform HCL. Very nice post, make sure you check this out. [hands on]
 
 **OrgFormation**
 
@@ -119,38 +119,38 @@ Setting up a multi-account AWS environment is a great series of posts from AWS H
 
 **Terraform**
 
-AWS Proton is a fully managed application deployment service for containers and serverless that platform teams can use to connect and coordinate all the different tools needed for infrastructure provisioning, code deployments, monitoring, and updates in a curated self-service interface for developers. The self-service interface provides developers access to approved infrastructure to build and deploy their applications. Aaron Wishnick takes a deep dive in how you can set this up in a two part blog, [AWS Proton Terraform Templates](https://aws-oss.beachgeek.co.uk/1i0) and [AWS Proton Self-Managed Provisioning](https://aws-oss.beachgeek.co.uk/1hz). One of the must read posts this week! [hands on]
+AWS Proton is a fully managed application deployment service for containers and serverless that platform teams can use to connect and coordinate all the different tools needed for infrastructure provisioning, code deployments, monitoring, and updates in a curated self-service interface for developers. The self-service interface provides developers access to approved infrastructure to build and deploy their applications. Aaron Wishnick takes a deep dive in how you can set this up in a two part blog, [AWS Proton Terraform Templates](https://aws.amazon.com/blogs/containers/aws-proton-terraform-templates/) and [AWS Proton Self-Managed Provisioning](https://aws.amazon.com/blogs/containers/aws-proton-self-managed-provisioning/). One of the must read posts this week! [hands on]
 
 ![architecture of AWS Proton on Terraform](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/03/23/aws-proton-3.jpg)
 
 **Hugging Face Transformers**
 
-In this two part blog, Heiko Hotz provides a practical guide for organisations so you can assess the quality of text summarisation models for your domain. Text summarisation is the capability of a computer to read a given text and summarise its content. It’s one of the hardest tasks for a computer because it combines two fields within the field of natural language processing (NLP): reading comprehension and text generation. Dive deeper by reading part one, [Set up a text summarization project with Hugging Face Transformers: Part 1](https://aws-oss.beachgeek.co.uk/1i1) and the creatively titled part two, [Set up a text summarization project with Hugging Face Transformers: Part 2](https://aws-oss.beachgeek.co.uk/1i2) - I wonder if anyone is working on a GPT-3 model for creating titles ;-D! [hands on]
+In this two part blog, Heiko Hotz provides a practical guide for organisations so you can assess the quality of text summarisation models for your domain. Text summarisation is the capability of a computer to read a given text and summarise its content. It’s one of the hardest tasks for a computer because it combines two fields within the field of natural language processing (NLP): reading comprehension and text generation. Dive deeper by reading part one, [Set up a text summarization project with Hugging Face Transformers: Part 1](https://aws.amazon.com/blogs/machine-learning/part-1-set-up-a-text-summarization-project-with-hugging-face-transformers/) and the creatively titled part two, [Set up a text summarization project with Hugging Face Transformers: Part 2](https://aws.amazon.com/blogs/machine-learning/part-2-set-up-a-text-summarization-project-with-hugging-face-transformers/) - I wonder if anyone is working on a GPT-3 model for creating titles ;-D! [hands on]
 
 ![architecture overview](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/03/09/ML-7391-image002.png)
 
 **Quarkus**
 
-Quarkus offers Java developers the capability of building native images based on GraalVM. Joan Bonilla shares how to integrate the Quarkus framework with AWS Lambda functions, using the AWS Serverless Application Model (AWS SAM) in this post, [Deploy Quarkus-based applications using AWS Lambda with AWS SAM](https://aws-oss.beachgeek.co.uk/1i6) [hands on]
+Quarkus offers Java developers the capability of building native images based on GraalVM. Joan Bonilla shares how to integrate the Quarkus framework with AWS Lambda functions, using the AWS Serverless Application Model (AWS SAM) in this post, [Deploy Quarkus-based applications using AWS Lambda with AWS SAM](https://aws.amazon.com/blogs/architecture/deploy-quarkus-based-applications-using-aws-lambda-with-aws-sam/) [hands on]
 
 **Kubernetes**
 
 A couple of note worthy posts this week.
 
-First up we have Jonathan Katz with the post, [Deploy Amazon RDS databases for applications in Kubernetes](https://aws-oss.beachgeek.co.uk/1i8) that walks you through deploying Jira, into a Kubernetes cluster provided by Amazon EKS, using Amazon RDS for PostgreSQL as the database. [hands on]
+First up we have Jonathan Katz with the post, [Deploy Amazon RDS databases for applications in Kubernetes](https://aws.amazon.com/blogs/database/deploy-amazon-rds-databases-for-applications-in-kubernetes/) that walks you through deploying Jira, into a Kubernetes cluster provided by Amazon EKS, using Amazon RDS for PostgreSQL as the database. [hands on]
 
-Following that we have a post that describes how you can send events from your Kubernetes cluster to a Slack channel using BotKube. BotKube is a messaging bot for monitoring and debugging Kubernetes clusters. Elamaran Shanmugam, Jayaprakash Alawala, and Re Alvarez-Parmar have collaborated on this post, [Streaming Kubernetes Events in Slack](https://aws-oss.beachgeek.co.uk/1i7), to show you how. [hands on]
+Following that we have a post that describes how you can send events from your Kubernetes cluster to a Slack channel using BotKube. BotKube is a messaging bot for monitoring and debugging Kubernetes clusters. Elamaran Shanmugam, Jayaprakash Alawala, and Re Alvarez-Parmar have collaborated on this post, [Streaming Kubernetes Events in Slack](https://aws.amazon.com/blogs/containers/streaming-kubernetes-events-in-slack/), to show you how. [hands on]
 
 ![architecture for botkube](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/03/21/botkube-architecture.jpg)
 
 **Other posts worth checking out**
 
-* [How to re-platform and modernize Java web applications on AWS](https://aws-oss.beachgeek.co.uk/1i4) shows you how to use an open source project shared in [last weeks newsletter](https://dev.to/aws/aws-open-source-news-and-updates-105-38ch) that helps simplify the steps to re-platform a simple contact management Java application running on an open-source Tomcat application server
+* [How to re-platform and modernize Java web applications on AWS](https://aws.amazon.com/blogs/compute/re-platform-java-web-applications-on-aws/) shows you how to use an open source project shared in [last weeks newsletter](https://dev.to/aws/aws-open-source-news-and-updates-105-38ch) that helps simplify the steps to re-platform a simple contact management Java application running on an open-source Tomcat application server
 
 [architecture for modernising java apps](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2021/12/09/Image1.png)
 
-* [Schema and code validator for Oracle to Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL migration](https://aws-oss.beachgeek.co.uk/1i5) walks you through an automated way to validate Oracle and PostgreSQL schema differences
-* [Allowing external users to securely and directly upload files to Amazon S3](https://aws-oss.beachgeek.co.uk/1hy) demonstrate how you can build a modern web application to securely upload multiple files directly to Amazon Simple Storage Service (Amazon S3) using AWS Amplify
+* [Schema and code validator for Oracle to Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL migration](https://aws.amazon.com/blogs/database/schema-and-code-validator-for-oracle-to-amazon-rds-for-postgresql-or-amazon-aurora-postgresql-migration/) walks you through an automated way to validate Oracle and PostgreSQL schema differences
+* [Allowing external users to securely and directly upload files to Amazon S3](https://aws.amazon.com/blogs/storage/allowing-external-users-to-securely-and-directly-upload-files-to-amazon-s3/) demonstrate how you can build a modern web application to securely upload multiple files directly to Amazon Simple Storage Service (Amazon S3) using AWS Amplify
 
 ### Quick updates
 
@@ -158,7 +158,7 @@ Following that we have a post that describes how you can send events from your K
 
 Amazon Corretto 18 is now generally available. This version supports the latest Java feature release OpenJDK 18 and is available on Linux, Windows, and macOS. OpenJDK 18 offers a new Internet-Address resolution capability, a Simple Web Server, an updated Vector API, a new @snippet Tag for JavaDoc, a new implementation of Core Reflection, a change to UTF-8 as the default character set (charset) of the standard Java APIs, a second iteration of the foreign memory API, advancements in pattern matching for switch statements, and the deprecation of finalisation.
 
-Read more about these in the announcement, [Amazon Corretto 18 is now generally available](https://aws-oss.beachgeek.co.uk/1hx) as well as [this tweet from OpenJDK](https://aws-oss.beachgeek.co.uk/1ic)
+Read more about these in the announcement, [Amazon Corretto 18 is now generally available](https://aws.amazon.com/about-aws/whats-new/2022/03/amazon-corretto-18/) as well as [this tweet from OpenJDK](https://twitter.com/OpenJDK/status/1506283035213406208)
 
 **AWS GameKit**
 
@@ -170,7 +170,7 @@ AWS GameKit also provides Unreal Engine Blueprints, C++ code, libraries, documen
 
 **Proton for Terraform Open Source**
 
-Following on from this [Tweet from Rafael Alvarez](https://aws-oss.beachgeek.co.uk/1hw), the support for Terraform in Proton is now GA.
+Following on from this [Tweet from Rafael Alvarez](https://twitter.com/Rafavallina/status/1506752056597512195), the support for Terraform in Proton is now GA.
 
 AWS Proton support for defining infrastructure in HashiCorp Configuration Language (HCL) and provisioning infrastructure using Terraform Open Source is now generally available in all regions where Proton is available. Platform teams can now define AWS Proton templates using Terraform modules, in addition to CloudFormation. AWS Proton leverages the customer-managed Terraform automation to provision or update the infrastructure. Customers can use Terraform as their infrastructure definition and provisioning tool, and AWS Proton keeps modules that are used consistently up to date. This generally available launch includes support for BitBucket repositories for infrastructure management, and improved messaging across the service to further clarify the status of provisioning.
 
@@ -197,7 +197,7 @@ Brendan Bouffler and Lee Pang from the dev team that built this shows how it wor
 **Getting started with AWS Amplify**
 **March 28th, 3pm GMT**
 
-Join Eddie Jaoude and Matt Auerbach in this [live session on You Tube](https://aws-oss.beachgeek.co.uk/1ib) where Matt will demonstrate how to deploy a React app with authentication using AWS Amplify
+Join Eddie Jaoude and Matt Auerbach in this [live session on You Tube](https://www.youtube.com/watch?v=PjxGB8QD9uQ) where Matt will demonstrate how to deploy a React app with authentication using AWS Amplify
 
 
 **Building an Open Data Lakehouse with Presto, Hudi, and AWS S3**
@@ -205,7 +205,7 @@ Join Eddie Jaoude and Matt Auerbach in this [live session on You Tube](https://a
 
 In this 90 minute hands on-virtual lab that will walk you through how to build an Open Data Lakehouse stack with Presto, Apache Hudi, and AWS S3.
 
-If you want to learn more about these open source projects, this looks like the perfect opportunity. Check it out and [register on their registration page](https://aws-oss.beachgeek.co.uk/1ep).
+If you want to learn more about these open source projects, this looks like the perfect opportunity. Check it out and [register on their registration page](https://ahana.io/hands-on-lab-building-open-data-lakehouse-presto-hudi-aws/).
 
 **GitOpsCon Europe**
 **May 17th, Valencia Spain**
@@ -226,7 +226,7 @@ This is a community organised event about AWS CDK, cdktf, projen and cdk8s. This
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://www.meetup.com/OpenSearch/)
 
 
 ### Stay in touch with open source at AWS

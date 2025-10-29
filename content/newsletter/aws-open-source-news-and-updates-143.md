@@ -33,39 +33,39 @@ So thank you to the following open source heroes: Rio Astamal, Yankee Maharjan, 
 
 **porting-advisor-for-graviton**
 
-[porting-advisor-for-graviton](https://aws-oss.beachgeek.co.uk/2g9) is a fork of Porting advisor, an open source project by the ARM High Performance Computing group. Originally, it was coded as a Python module that analysed some known incompatibilities for C and Fortran code. It is a command line tool that analyses source code for known code patterns and dependency libraries. It then generates a report with any incompatibilities with our Graviton processors. This tool provides suggestions of minimal required and/or recommended versions to run on Graviton instances for both language runtime and dependency libraries. It can run on non-ARM based machines (no Graviton processor needed). This tool does not work on binaries, just source code. The tool supports C/C++, Fortran, Go 1.11+, Java 8+, and Python 3+. Very nice indeed, and this weeks must check out project. Dive into the detailed README for more details.
+[porting-advisor-for-graviton](https://github.com/aws/porting-advisor-for-graviton) is a fork of Porting advisor, an open source project by the ARM High Performance Computing group. Originally, it was coded as a Python module that analysed some known incompatibilities for C and Fortran code. It is a command line tool that analyses source code for known code patterns and dependency libraries. It then generates a report with any incompatibilities with our Graviton processors. This tool provides suggestions of minimal required and/or recommended versions to run on Graviton instances for both language runtime and dependency libraries. It can run on non-ARM based machines (no Graviton processor needed). This tool does not work on binaries, just source code. The tool supports C/C++, Fortran, Go 1.11+, Java 8+, and Python 3+. Very nice indeed, and this weeks must check out project. Dive into the detailed README for more details.
 
 **iam-roles-anywhere-session**
 
-[iam-roles-anywhere-session](https://aws-oss.beachgeek.co.uk/2gy) provides an easy way to create a refreshable boto3 Session with AWS Roles Anywhere. You can use AWS Roles Anywhere to obtain temporary security credentials in IAM for workloads such as servers, containers, and applications that run outside of AWS. Read more about this here, [What is AWS Identity and Access Management Roles Anywhere?](https://aws-oss.beachgeek.co.uk/2gz)
+[iam-roles-anywhere-session](https://github.com/awslabs/iam-roles-anywhere-session) provides an easy way to create a refreshable boto3 Session with AWS Roles Anywhere. You can use AWS Roles Anywhere to obtain temporary security credentials in IAM for workloads such as servers, containers, and applications that run outside of AWS. Read more about this here, [What is AWS Identity and Access Management Roles Anywhere?](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html)
 
 ![an overview of iam anywhere architecture](https://pbs.twimg.com/media/FYmSga3WAAApFeY?format=jpg&name=medium)
 
 **aws-cdk-in-electron**
 
-[aws-cdk-in-electron](https://aws-oss.beachgeek.co.uk/2h0) This project demonstrates how you can deploy CDK projects, and run SDK commands from within an Electron app. The app can contain all the dependencies the end user needs, meaning they will not have to install AWS SDK for JavaScript, AWS CDK, or use the command line. This sample project can be built as a standalone app that is able to both query and deploy changes to an account. What the standalone app is able to do is dependant on the permissions you give it when you configure it with credentials. Very cool.
+[aws-cdk-in-electron](https://github.com/aws-samples/aws-cdk-in-electron) This project demonstrates how you can deploy CDK projects, and run SDK commands from within an Electron app. The app can contain all the dependencies the end user needs, meaning they will not have to install AWS SDK for JavaScript, AWS CDK, or use the command line. This sample project can be built as a standalone app that is able to both query and deploy changes to an account. What the standalone app is able to do is dependant on the permissions you give it when you configure it with credentials. Very cool.
 
 ![overview of cdk in electron app](https://github.com/aws-samples/aws-cdk-in-electron/blob/main/assets/ui.png?raw=true)
 
 **lake-formation-permissions-sync**
 
-[lake-formation-permissions-sync](https://aws-oss.beachgeek.co.uk/2h1) is a utility developed to create alternate backup of Glue Catalog objects and LakeFormation permissions and replicate to a target region. It supports both batch and realtime modes of operation, so check out the docs for more details on how these work.
+[lake-formation-permissions-sync](https://github.com/aws-samples/lake-formation-permissions-sync) is a utility developed to create alternate backup of Glue Catalog objects and LakeFormation permissions and replicate to a target region. It supports both batch and realtime modes of operation, so check out the docs for more details on how these work.
 
 ![architecture of lake formation permissions sync](https://github.com/aws-samples/lake-formation-permissions-sync/blob/main/img/LakeFormationDRRealTime.png?raw=true)
 
 **leverage**
 
-[leverage](https://aws-oss.beachgeek.co.uk/2gq) is an open source tool that helps you easily deploy ready made AWS Cloud infrastructure based on the AWS Well Architected Framework provided by Binbash. Their mission is to simplify the process of building, and deploying software in the Cloud. You can find out more about how they have laid out their open source projects by reading a post they put together, [Open source Github repository pre-launch checklist](https://aws-oss.beachgeek.co.uk/2gw)
+[leverage](https://github.com/binbashar/leverage) is an open source tool that helps you easily deploy ready made AWS Cloud infrastructure based on the AWS Well Architected Framework provided by Binbash. Their mission is to simplify the process of building, and deploying software in the Cloud. You can find out more about how they have laid out their open source projects by reading a post they put together, [Open source Github repository pre-launch checklist](https://medium.com/binbash-inc/open-source-github-repository-pre-launch-checklist-4a52dbbe4af1)
 
 ![example of one of their architectures](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*t64DmJ6Zjf5LaPRPa4nXHw.png)
 
 **lightsail-k8s-installer**
 
-[lightsail-k8s-installer](https://aws-oss.beachgeek.co.uk/2gv) is a shell script from AWS Developer Advocate Rio Astamal that simplifies the process of setting up a Kubernetes cluster on Amazon Lightsail. Not only it automates the creation of necessary resources using AWS CloudFormation, but it also automates the installation of Kubernetes packages. With just one simple command, your Kubernetes cluster should up and running in no time!
+[lightsail-k8s-installer](https://github.com/rioastamal/lightsail-k8s-installer) is a shell script from AWS Developer Advocate Rio Astamal that simplifies the process of setting up a Kubernetes cluster on Amazon Lightsail. Not only it automates the creation of necessary resources using AWS CloudFormation, but it also automates the installation of Kubernetes packages. With just one simple command, your Kubernetes cluster should up and running in no time!
 
 **aws-ebook-downloader**
 
-[aws-ebook-downloader](https://aws-oss.beachgeek.co.uk/2gx) is a handy Chrome extension from Yankee Maharjan that helps you easily download AWS documentation from the AWS Resource Hub. Check out this short video he has linked in the repo to see it in action.
+[aws-ebook-downloader](https://github.com/yankeexe/aws-ebook-downloader) is a handy Chrome extension from Yankee Maharjan that helps you easily download AWS documentation from the AWS Resource Hub. Check out this short video he has linked in the repo to see it in action.
 
 {{< youtube TEmndTI01dU >}}
 
@@ -73,31 +73,31 @@ So thank you to the following open source heroes: Rio Astamal, Yankee Maharjan, 
 
 **transactional-datalake-using-apache-iceberg-on-aws-glue**
 
-[transactional-datalake-using-apache-iceberg-on-aws-glue](https://aws-oss.beachgeek.co.uk/2h3) This repository provides you cdk scripts and sample code on how to implement end to end pipeline for transactional data lake by ingesting stream change data capture (CDC) from MySQL DB to Amazon S3 in Apache Iceberg format through Amazon Kinesis using Amazon Data Migration Service(DMS) and Glue Streaming.
+[transactional-datalake-using-apache-iceberg-on-aws-glue](https://github.com/aws-samples/transactional-datalake-using-apache-iceberg-on-aws-glue) This repository provides you cdk scripts and sample code on how to implement end to end pipeline for transactional data lake by ingesting stream change data capture (CDC) from MySQL DB to Amazon S3 in Apache Iceberg format through Amazon Kinesis using Amazon Data Migration Service(DMS) and Glue Streaming.
 
 ![architecture of transactional data lake using apache iceberg on aws glue](https://raw.githubusercontent.com/aws-samples/transactional-datalake-using-apache-iceberg-on-aws-glue/be6dd694bf70596966ca51e7f094cec2b93ccf80/transactional-datalake-arch.svg)
 
 **aws-glue-streaming-etl-with-apache-iceberg**
 
-[aws-glue-streaming-etl-with-apache-iceberg](https://aws-oss.beachgeek.co.uk/2h4) this project helps you to buid a streaming ETL job in AWS Glue to integrate Iceberg with a streaming use case and create an in-place updatable data lake on Amazon S3. AWS CDK scripts are provided to help simplify the installation and configuration, and after ingested to Amazon S3, you can query the data with Amazon Athena.
+[aws-glue-streaming-etl-with-apache-iceberg](https://github.com/aws-samples/aws-glue-streaming-etl-with-apache-iceberg) this project helps you to buid a streaming ETL job in AWS Glue to integrate Iceberg with a streaming use case and create an in-place updatable data lake on Amazon S3. AWS CDK scripts are provided to help simplify the installation and configuration, and after ingested to Amazon S3, you can query the data with Amazon Athena.
 
 ![architecture of aws glue streaming etl with apache iceberg](https://raw.githubusercontent.com/aws-samples/aws-glue-streaming-etl-with-apache-iceberg/dbfa011d2611e48c84d47de56ca5914a86a6f0c5/glue-streaming-data-to-iceberg-table.svg)
 
 **amazon-opensearch-batch-indexing-with-aws-lambda**
 
-[amazon-opensearch-batch-indexing-with-aws-lambda](https://aws-oss.beachgeek.co.uk/2gn) This repository provides guidance on how to use the Amazon OpenSearch Python client to perform batch operations using Lambda functions and how to architect your solution using a data lake architecture. You can read the supporting blog post, [Text analytics on AWS: implementing a data lake architecture with OpenSearch](https://aws-oss.beachgeek.co.uk/2go), where Francisco Losada provides an overview of the architecture and dives deeper into how this project works.
+[amazon-opensearch-batch-indexing-with-aws-lambda](https://github.com/aws-samples/amazon-opensearch-batch-indexing-with-aws-lambda) This repository provides guidance on how to use the Amazon OpenSearch Python client to perform batch operations using Lambda functions and how to architect your solution using a data lake architecture. You can read the supporting blog post, [Text analytics on AWS: implementing a data lake architecture with OpenSearch](https://aws.amazon.com/blogs/architecture/text-analytics-on-aws-implementing-a-data-lake-architecture-with-opensearch/), where Francisco Losada provides an overview of the architecture and dives deeper into how this project works.
 
 ![architecture of opensearch batch indexing project](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2023/01/19/Figure1.png)
 
 **LambdaTriggersSample**
 
-[LambdaTriggersSample](https://aws-oss.beachgeek.co.uk/2gp) if you are looking for a sample .NET app demonstrating AWS Lambda triggers, then Brandon Minnick has you covered. This is a sample app demonstrating an end-to-end mobile workflow using .NET MAUI, + Serverless AWS Lambda + AWS S3 Storage in C#.
+[LambdaTriggersSample](https://github.com/brminnick/LambdaTriggersSample) if you are looking for a sample .NET app demonstrating AWS Lambda triggers, then Brandon Minnick has you covered. This is a sample app demonstrating an end-to-end mobile workflow using .NET MAUI, + Serverless AWS Lambda + AWS S3 Storage in C#.
 
 ![architecture for lambdatriggersample](https://user-images.githubusercontent.com/13558917/214541434-0244c7f0-cc13-4273-89b0-af5ffd9f9786.png)
 
 **aws-mwaa-openlineage**
 
-[aws-mwaa-openlineage](https://aws-oss.beachgeek.co.uk/2h2) this repo contains all the code from the post I shared in last weeks newsletter, #142 [Automate data lineage on Amazon MWAA with OpenLineage](https://aws-oss.beachgeek.co.uk/2fj). This code will help you get started with how to integrate Marquez and OpenLineage with Apache Airflow.
+[aws-mwaa-openlineage](https://github.com/aws-samples/aws-mwaa-openlineage) this repo contains all the code from the post I shared in last weeks newsletter, #142 [Automate data lineage on Amazon MWAA with OpenLineage](https://aws.amazon.com/blogs/big-data/automate-data-lineage-on-amazon-mwaa-with-openlineage/). This code will help you get started with how to integrate Marquez and OpenLineage with Apache Airflow.
 
 ![overview of aws mwaa openlineage architecture ](https://res.cloudinary.com/practicaldev/image/fetch/s--vLCvZ9l3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/13/BDB2522-04-solution-overview-1.png)
 
@@ -105,47 +105,47 @@ So thank you to the following open source heroes: Rio Astamal, Yankee Maharjan, 
 
 **Apache Flink**
 
-In the post [Automate deployment and version updates for Amazon Kinesis Data Analytics applications with AWS CodePipeline](https://aws-oss.beachgeek.co.uk/2ge), Anand Shah show how you can automate deployment and version updates for Kinesis Data Analytics applications that enables better collaboration with your Platform and engineering teams. [hands on]
+In the post [Automate deployment and version updates for Amazon Kinesis Data Analytics applications with AWS CodePipeline](https://aws.amazon.com/blogs/big-data/automate-deployment-and-version-updates-for-amazon-kinesis-data-analytics-applications-with-aws-codepipeline/), Anand Shah show how you can automate deployment and version updates for Kinesis Data Analytics applications that enables better collaboration with your Platform and engineering teams. [hands on]
 
 ![architecture of cicd and apache flink ](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/17/image005-3.jpg)
 
-We also had this post, [Exploring Apache Flink & AWS KDA: Realtime data streaming](https://aws-oss.beachgeek.co.uk/2gs) where engineers at Capitol One share their experience building realtime data streaming apps with Apache Flink and AWS Kinesis Data Analytics. [hands on]
+We also had this post, [Exploring Apache Flink & AWS KDA: Realtime data streaming](https://www.capitalone.com/tech/cloud/aws-apache-flink/) where engineers at Capitol One share their experience building realtime data streaming apps with Apache Flink and AWS Kinesis Data Analytics. [hands on]
 
 ![architecture of apache flink at capitol one](https://ecm.capitalone.com/WCM/tech/images/screen-shot-2022-12-21-at-10.05.11-am.png)
 
 **Apache Kafka**
 
-AWS Community Builder and Apache Kafka wizard John Preston has a great post for you this week. Using an open source tool that John created and we have featured on the AWS open source blog, you can speed up and simplify how you deploy and integrate Apache Kafka and Conduktor in as little as three commands. Don't believe me? Well I will hand you over to John in hist post, [Deploy Conduktor & a MSK Cluster in 3 commands](https://aws-oss.beachgeek.co.uk/2gu). [hands on]
+AWS Community Builder and Apache Kafka wizard John Preston has a great post for you this week. Using an open source tool that John created and we have featured on the AWS open source blog, you can speed up and simplify how you deploy and integrate Apache Kafka and Conduktor in as little as three commands. Don't believe me? Well I will hand you over to John in hist post, [Deploy Conduktor & a MSK Cluster in 3 commands](https://dev.to/aws-builders/deploy-conduktor-a-msk-cluster-in-3-commands-2fhl). [hands on]
 
 ![architecture of solution for msk and conductor](https://images.compose-x.io/labs/conduktor_msk/architecture.jpg)
 
 **Open Source Serverless frameworks**
 
-With a number of open source serverless frameworks available for developers to use, which one should you use? AWS Community Builder Sebastian Bille has just what you need to help you explore this area in his post, [Serverless Frameworks for 2023](https://aws-oss.beachgeek.co.uk/2gt). Settle in and grab a cup of your favourite warm beverage whilst he takes you on a serverless framework journey.
+With a number of open source serverless frameworks available for developers to use, which one should you use? AWS Community Builder Sebastian Bille has just what you need to help you explore this area in his post, [Serverless Frameworks for 2023](https://blog.elva-group.com/serverless-frameworks-for-2023). Settle in and grab a cup of your favourite warm beverage whilst he takes you on a serverless framework journey.
 
 **AWS Distro for OpenTelemetry**
 
-Rafael Pereyra has put together, [Using AWS Distro for OpenTelemetry and IAM Roles Anywhere on-premises to ingest metrics into Amazon Managed Service for Prometheus](https://aws-oss.beachgeek.co.uk/2gm). In it he shows how to programmatically access your AWS resources running in your on-premises using IAM Roles Anywhere. IAM Roles Anywhere allows your workloads such as servers, containers, and applications to use X.509 digital certificates to obtain temporary AWS credentials and use the same IAM roles and policies that you have configured for your AWS workloads to access AWS resources. Very nice post. [hands on]
+Rafael Pereyra has put together, [Using AWS Distro for OpenTelemetry and IAM Roles Anywhere on-premises to ingest metrics into Amazon Managed Service for Prometheus](https://aws.amazon.com/blogs/mt/using-aws-distro-for-opentelemetry-and-iam-roles-anywhere-on-premises-to-ingest-metrics-into-amazon-managed-service-for-prometheus/). In it he shows how to programmatically access your AWS resources running in your on-premises using IAM Roles Anywhere. IAM Roles Anywhere allows your workloads such as servers, containers, and applications to use X.509 digital certificates to obtain temporary AWS credentials and use the same IAM roles and policies that you have configured for your AWS workloads to access AWS resources. Very nice post. [hands on]
 
 ![aws distro for opentelemetry hybrid architecture](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/01/19/cloudops_11192_2.png)
 
 **Other posts and quick reads**
 
-* [Scaling container workloads with shared storage for Red Hat OpenShift Service on AWS](https://aws-oss.beachgeek.co.uk/2gk) demonstrates the use of FSx for ONTAP as a persistent storage layer for  Red Hat OpenShift Service on AWS (ROSA) applications [hands on]
+* [Scaling container workloads with shared storage for Red Hat OpenShift Service on AWS](https://aws.amazon.com/blogs/storage/scaling-container-workloads-with-shared-storage-for-red-hat-openshift-service-on-aws/) demonstrates the use of FSx for ONTAP as a persistent storage layer for  Red Hat OpenShift Service on AWS (ROSA) applications [hands on]
 
 ![architecture for ROSA storage post](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2023/01/13/Figure-1-ROSA-Integration-with-Amazon-FSx-for-NetApp-ONTAP-1024x659.png)
 
-* [5G Core implementation on Amazon Elastic Kubernetes Service Anywhere on bare metal](https://aws-oss.beachgeek.co.uk/2gf) looks at how customers can utilise Amazon Elastic Kubernetes Service Anywhere (Amazon EKS-A) to automate the deployment of 5G Core on their customer-managed on-premises infrastructure on bare metal [hands on]
+* [5G Core implementation on Amazon Elastic Kubernetes Service Anywhere on bare metal](https://aws.amazon.com/blogs/industries/5g-core-implementation-on-amazon-elastic-kubernetes-service-anywhere-on-bare-metal-2/) looks at how customers can utilise Amazon Elastic Kubernetes Service Anywhere (Amazon EKS-A) to automate the deployment of 5G Core on their customer-managed on-premises infrastructure on bare metal [hands on]
 
 ![5G core amazon eks anywhere architecture](https://d2908q01vomqb2.cloudfront.net/c5b76da3e608d34edb07244cd9b875ee86906328/2023/01/25/Figure-2-Open5GS-Mobile-Core-deployment-on-Amazon-EKS-A-on-COTS-server-1.png)
 
-* [Leveraging Slurm Accounting in AWS ParallelCluster](https://aws-oss.beachgeek.co.uk/2gh) shows how to use new features in AWS ParallelCluster 3.3.0 that enables you to configure and enable Slurm accounting for you automatically [hands on]
-* [Best practices for working with the Apache Velocity Template Language in Amazon API Gateway](https://aws-oss.beachgeek.co.uk/2gi) discusses best practices for using Apache Velocity Templates for direct service integration in API Gateway
-* [Enhancing IoT device security using Hardware Security Modules and AWS IoT Device SDK](https://aws-oss.beachgeek.co.uk/2gl) walks you through some notable examples of security challenges across IoT Industry verticals [hands on]
+* [Leveraging Slurm Accounting in AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/leveraging-slurm-accounting-in-aws-parallelcluster/) shows how to use new features in AWS ParallelCluster 3.3.0 that enables you to configure and enable Slurm accounting for you automatically [hands on]
+* [Best practices for working with the Apache Velocity Template Language in Amazon API Gateway](https://aws.amazon.com/blogs/compute/best-practices-for-working-with-the-apache-velocity-template-language-in-amazon-api-gateway/) discusses best practices for using Apache Velocity Templates for direct service integration in API Gateway
+* [Enhancing IoT device security using Hardware Security Modules and AWS IoT Device SDK](https://aws.amazon.com/blogs/iot/enhancing-iot-device-security-using-hardware-security-modules-and-aws-iot-device-sdk/) walks you through some notable examples of security challenges across IoT Industry verticals [hands on]
 
 ![architecture of iot security](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2023/01/17/Blog-HSMGraphics-Architecture.drawio-1024x467.png)
 
-* [Four key application protocols for the internet of things (IoT)](https://aws-oss.beachgeek.co.uk/2gr) explores the application protocols that are best suited for internet data messaging, focusing on criteria such as range, availability, maturity, and market segment applicability
+* [Four key application protocols for the internet of things (IoT)](https://www.embedded.com/four-key-application-protocols-for-the-internet-of-things-iot/) explores the application protocols that are best suited for internet data messaging, focusing on criteria such as range, availability, maturity, and market segment applicability
 
 ### Quick updates
 
@@ -153,13 +153,13 @@ Rafael Pereyra has put together, [Using AWS Distro for OpenTelemetry and IAM Rol
 
 We have a few updates for OpenSearch users and developers.
 
-First up, check out [OpenSearch Project 2022 recap and what's next](https://aws-oss.beachgeek.co.uk/2ga) where Eli Fisher and David Tippett look back at the key accomplishments in 2022 and then looks ahead to what you can expect this year.
+First up, check out [OpenSearch Project 2022 recap and what's next](https://opensearch.org/blog/opensearch-project-2022-recap-and-whats-next/) where Eli Fisher and David Tippett look back at the key accomplishments in 2022 and then looks ahead to what you can expect this year.
 
-Also announced last week was the availability of OpenSearch 2.5. James McIntyre shares more info in his post, [OpenSearch 2.5 is live!](https://aws-oss.beachgeek.co.uk/2gb)
+Also announced last week was the availability of OpenSearch 2.5. James McIntyre shares more info in his post, [OpenSearch 2.5 is live!](https://opensearch.org/blog/opensearch-2-5-is-live/)
 
 ![OpenSearch 2.5 announcement demo](https://opensearch.org/assets/media/blog-images/2023-01-24-opensearch-2-5-is-live/dashboard-maps-preview.gif)
 
-Finally, for those moving from self managed to managed OpenSearch, Amazon OpenSearch Serverless is now generally available. You can check out the announcement, [Amazon OpenSearch Serverless is now generally available](https://aws-oss.beachgeek.co.uk/2gc), for more details and read the post, [Amazon OpenSearch Serverless is now generally available!](https://aws-oss.beachgeek.co.uk/2gg) where Pavani Baddepudi shares the design and high-level architecture of OpenSearch Serverless. 
+Finally, for those moving from self managed to managed OpenSearch, Amazon OpenSearch Serverless is now generally available. You can check out the announcement, [Amazon OpenSearch Serverless is now generally available](https://aws.amazon.com/about-aws/whats-new/2023/01/amazon-opensearch-serverless-available/), for more details and read the post, [Amazon OpenSearch Serverless is now generally available!](https://aws.amazon.com/blogs/big-data/amazon-opensearch-serverless-is-now-generally-available/) where Pavani Baddepudi shares the design and high-level architecture of OpenSearch Serverless. 
 
 ![architecture of opensearch serverless](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/23/BDB-3011-img3-500.png)
 
@@ -181,7 +181,7 @@ Amazon RDS Multi-AZ deployments provide enhanced availability and durability, ma
 
 Amazon Aurora now supports Aurora MySQL 3 (with MySQL 8.0 compatibility) as a source cluster or blue environment within Amazon RDS Blue/Green Deployments. This enables you to use Blue/Green Deployments for minor version upgrades for Aurora MySQL 3 (with MySQL 8.0 compatibility).
 
-Read more about this in the announcement, [Amazon RDS Blue/Green Deployments now supports Aurora MySQL 3 (with MySQL 8.0 compatibility) as a source cluster](https://aws-oss.beachgeek.co.uk/2gd)
+Read more about this in the announcement, [Amazon RDS Blue/Green Deployments now supports Aurora MySQL 3 (with MySQL 8.0 compatibility) as a source cluster](https://aws.amazon.com/about-aws/whats-new/2023/01/amazon-rds-blue-green-deployments-aurora-mysql-3-8-0-source-cluster/)
 
 **RabbitMQ**
 
@@ -191,7 +191,7 @@ Amazon MQ now provides support for RabbitMQ version 3.8.34, which includes sever
 
 **DataHub**
 
-Check out the video version of Gary Stafford's post, [DataHub on AWS:  Data Discovery, Observability, and Governance on AWS with DataHub, the Open Source Data Catalog.](https://aws-oss.beachgeek.co.uk/1iq)
+Check out the video version of Gary Stafford's post, [DataHub on AWS:  Data Discovery, Observability, and Governance on AWS with DataHub, the Open Source Data Catalog.](https://garystafford.medium.com/end-to-end-data-discovery-observability-and-governance-on-aws-with-linkedins-datahub-8c69e7e8c925)
 
 {{< youtube ODalP0-hFmQ >}}
 
@@ -210,7 +210,7 @@ Praneeta Prakash, and software engineer, Mohamed ElAsmar, join Julian Wood to go
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -219,30 +219,30 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **FOSSDEM**
 **Feb 4-5th, 2023 in Brussels**
 
-FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://aws-oss.beachgeek.co.uk/2dc).
+FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://openuk.uk/event-calendar/fosdem-2023/).
 
 **State of Open Con 23**
 **Feb 7-8th, 2023 in London**
 
-OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://aws-oss.beachgeek.co.uk/2dd).
+OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://openuk.uk/event-calendar/state-of-open-con-23/).
 
 **PGConf India**
 **Feb 22nd to 24th, Radisson Blu Bengaluru, India**
 
-If you are in or can get to Bengaluru, then checkout this conference for PostgreSQL developers and enthusiasts. Check out the session line up and get [your tickets here](https://aws-oss.beachgeek.co.uk/2ff).
+If you are in or can get to Bengaluru, then checkout this conference for PostgreSQL developers and enthusiasts. Check out the session line up and get [your tickets here](https://pgconf.in/conferences/pgconfin2023).
 
 
 **Everything Open**
 **March14-15th Melbourne, Australia**
 
-A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://aws-oss.beachgeek.co.uk/2ds). The CFP us currently open, so why not take a look and submit something if you can.
+A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://2023.everythingopen.au/about/). The CFP us currently open, so why not take a look and submit something if you can.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

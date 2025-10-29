@@ -11,7 +11,7 @@ Make sure you check out this weeks "Quick Updates" as there are some updates tha
 
 **Open@Amazon**
 
-Last week we announced Open@Amazon, a celebration of open source on AWS with a fabulous cast of speakers, a fantastic broad set of topics and the event will be fully live so you can get your chance to interact with the speakers and the broader open source and AWS community. Check out the blog post, [What’s up with open source at AWS? Attend Open@Amazon live on Twitch June 16](https://aws-oss.beachgeek.co.uk/jo) or just register to get a handy calendar invite [HERE](https://aws-oss.beachgeek.co.uk/jn)
+Last week we announced Open@Amazon, a celebration of open source on AWS with a fabulous cast of speakers, a fantastic broad set of topics and the event will be fully live so you can get your chance to interact with the speakers and the broader open source and AWS community. Check out the blog post, [What’s up with open source at AWS? Attend Open@Amazon live on Twitch June 16](https://aws.amazon.com/blogs/opensource/whats-up-with-open-source-at-aws-attend-openamazon-live-on-twitch-june-16/) or just register to get a handy calendar invite [HERE](https://openatamazon.splashthat.com/)
 
 **DevAx connect**
 
@@ -34,7 +34,7 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **orkestra**
 
-[orkestra](https://aws-oss.beachgeek.co.uk/kw) this new open source project from Stephan Fitzpatrick looks very promising, allowing you to create workflow tasks via Lambda functions and then orchestrate these similar to how Apache Airflow works. The documentation says "a seamless way of building observable (scheduled or event-driven) cloud-native workflows. It aims to bring a similar development experience to that of Airflow while leveraging the full power of AWS."
+[orkestra](https://github.com/knowsuchagency/orkestra) this new open source project from Stephan Fitzpatrick looks very promising, allowing you to create workflow tasks via Lambda functions and then orchestrate these similar to how Apache Airflow works. The documentation says "a seamless way of building observable (scheduled or event-driven) cloud-native workflows. It aims to bring a similar development experience to that of Airflow while leveraging the full power of AWS."
 
 This is a project that is going to get some closer inspection from myself for sure.
 
@@ -42,7 +42,7 @@ This is a project that is going to get some closer inspection from myself for su
 
 **iamzero**
 
-[iamzero](https://aws-oss.beachgeek.co.uk/kk) is an open source tool that helps simplify your identity and access management on AWS. IAM Zero detects identity and access management issues and automatically suggests least-privilege policies. Check out the [newly formed website](https://aws-oss.beachgeek.co.uk/km) and business that has started to help customers who want support from this tool, and you can read more about the backstory in this [post from Reddit](https://aws-oss.beachgeek.co.uk/kl). As per the Reddit post:
+[iamzero](https://github.com/common-fate/iamzero) is an open source tool that helps simplify your identity and access management on AWS. IAM Zero detects identity and access management issues and automatically suggests least-privilege policies. Check out the [newly formed website](https://iamzero.dev/) and business that has started to help customers who want support from this tool, and you can read more about the backstory in this [post from Reddit](https://www.reddit.com/r/aws/comments/njuyc1/iam_zero_i_released_a_tool_which_automatically/). As per the Reddit post:
 
 > The tool is in a similar space to iamlive, policy_sentry, and consoleme (all of which are worth checking out too if you're interested in making AWS security easier) but the main points of difference I see are:
 > 
@@ -54,53 +54,53 @@ This is a project that is going to get some closer inspection from myself for su
 
 **PMapper**
 
-[PMapper](https://aws-oss.beachgeek.co.uk/kn) Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS. PMapper includes a querying mechanism that uses a local simulation of AWS's authorization behavior. When running a query to determine if a principal has access to a certain action/resource, PMapper also checks if the user or role could access other users or roles that have access to that action/resource. This catches scenarios such as when a user doesn't have permission to read an S3 object, but could launch an EC2 instance that can read the S3 object.
+[PMapper](https://github.com/nccgroup/PMapper) Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS. PMapper includes a querying mechanism that uses a local simulation of AWS's authorization behavior. When running a query to determine if a principal has access to a certain action/resource, PMapper also checks if the user or role could access other users or roles that have access to that action/resource. This catches scenarios such as when a user doesn't have permission to read an S3 object, but could launch an EC2 instance that can read the S3 object.
 
 **aurora-serverless-to-s3**
 
-[aurora-serverless-to-s3](https://aws-oss.beachgeek.co.uk/ki) this open source project from Devetry simplifies the automation necessary to export Amazon RDS Aurora Serverless snapshots to S3 for a specific database whenever an automated snapshot is created. The project outlines how it achieves its task, provides clear examples and an AWS CDK app to help easily deploy this project. Brian Schiller has put together a short blog post, [Aurora Serverless DB Export](https://aws-oss.beachgeek.co.uk/kj) that provides some additional context. If you want to see a demo, check this short video
+[aurora-serverless-to-s3](https://github.com/devetry/aurora-serverless-to-s3) this open source project from Devetry simplifies the automation necessary to export Amazon RDS Aurora Serverless snapshots to S3 for a specific database whenever an automated snapshot is created. The project outlines how it achieves its task, provides clear examples and an AWS CDK app to help easily deploy this project. Brian Schiller has put together a short blog post, [Aurora Serverless DB Export](https://brianschiller.com/blog/2021/05/20/aurora-serverless-db-export) that provides some additional context. If you want to see a demo, check this short video
 
 {% youtube lyNGeDg6EII %}
 
 **Image-Flex**
 
-[Image-Flex](https://aws-oss.beachgeek.co.uk/kg) is an open sourced solution from Horace Nelson that provides a robust image resizing service built on AWS Serverless technologies and used to resize, optimise, and cache images on "the edge," on the fly. If you want to know more about how you might use or deploy it, he has helpfully put together a detailed blog post, [An Open Source and Completely Serverless Image Resizing Service in AWS](https://aws-oss.beachgeek.co.uk/kh)
+[Image-Flex](https://github.com/HoraceShmorace/Image-Flex) is an open sourced solution from Horace Nelson that provides a robust image resizing service built on AWS Serverless technologies and used to resize, optimise, and cache images on "the edge," on the fly. If you want to know more about how you might use or deploy it, he has helpfully put together a detailed blog post, [An Open Source and Completely Serverless Image Resizing Service in AWS](https://dev.to/horaceshmorace/an-open-source-and-completely-serverless-image-resizing-service-in-aws-589b)
 
 ![arch](https://res.cloudinary.com/practicaldev/image/fetch/s--HJI5FI4v--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8bhb9if8fn1hesm31bq2.png)
 
 **ecs-anywhere-tutorial**
 
-[ecs-anywhere-tutorial](https://aws-oss.beachgeek.co.uk/ke) last week one of the big announcements was the general availability of [Amazon ECS Anywhere](https://aws-oss.beachgeek.co.uk/kf), and this project/tutorial is intended to walk you through an opinionated demonstration of how ECS Anywhere works. The initial steps will show you how to deploy a (somewhat) sophisticated multi services application in an AWS region as an ECS service running on AWS Fargate. Further in the tutorial, the steps will guide you through how to deploy parts of this application on ECS Anywhere managed instances in a customer managed infrastructure outside of the AWS region. If you saw Massimo's presentation and demo, you will know how nice this was and I am looking forward to dusting off my Raspberry Pi's and trying this out for myself.
+[ecs-anywhere-tutorial](https://github.com/aws-containers/ecs-anywhere-tutorial) last week one of the big announcements was the general availability of [Amazon ECS Anywhere](https://aws.amazon.com/blogs/aws/getting-started-with-amazon-ecs-anywhere-now-generally-available/), and this project/tutorial is intended to walk you through an opinionated demonstration of how ECS Anywhere works. The initial steps will show you how to deploy a (somewhat) sophisticated multi services application in an AWS region as an ECS service running on AWS Fargate. Further in the tutorial, the steps will guide you through how to deploy parts of this application on ECS Anywhere managed instances in a customer managed infrastructure outside of the AWS region. If you saw Massimo's presentation and demo, you will know how nice this was and I am looking forward to dusting off my Raspberry Pi's and trying this out for myself.
 
 ![demo](https://github.com/aws-containers/ecs-anywhere-tutorial/raw/master/images/stretched-architecture.png)
 
 **aws-do-docker**
 
-[aws-do-docker](https://aws-oss.beachgeek.co.uk/kd) this project provides a simple pattern for building and deployment of Docker containers to AWS. It can be used "as is" to build and run a sample container, or can be customized and used to build, test, and deploy containerized microservices, jobs, or serverless functions. Containers built using this project can be run locally or on a number of AWS compute environments by a simple change to the configuration files.
+[aws-do-docker](https://github.com/aws-samples/aws-do-docker) this project provides a simple pattern for building and deployment of Docker containers to AWS. It can be used "as is" to build and run a sample container, or can be customized and used to build, test, and deploy containerized microservices, jobs, or serverless functions. Containers built using this project can be run locally or on a number of AWS compute environments by a simple change to the configuration files.
 
 ![demo](https://github.com/aws-samples/aws-do-docker/blob/main/docs/img/aws-do-docker-demo.gif?raw=true)
 
 **serverless-rules**
 
-[serverless-rules](https://aws-oss.beachgeek.co.uk/kv) is new project that provides a compilation of rules to validate infrastructure as code template against recommended practices. This currently provides a module for cfn-lint and a plugin for tflint. This is currently in public preview, so if you do try it out please feedback anything you find.
+[serverless-rules](https://github.com/aws-samples/serverless-rules) is new project that provides a compilation of rules to validate infrastructure as code template against recommended practices. This currently provides a module for cfn-lint and a plugin for tflint. This is currently in public preview, so if you do try it out please feedback anything you find.
 
 **cdk-vscode-fargate**
 
-[cdk-vscode-fargate](https://aws-oss.beachgeek.co.uk/ko) this was one of my favourite projects that I came across last week, although I have not had a chance to test it out yet. cdk-vscode-fargate is a JSII construct library for AWS CDK from Mike Apted that allows you to deploy Code-server running VS Code remotely, on a AWS Fargate container. The project provides you with a quick how-to guide to get you started, so hopefully something I can try over the weekend. You can find the source code in the GitHub repository [here](https://aws-oss.beachgeek.co.uk/kp)
+[cdk-vscode-fargate](https://awscdk.io/packages/cdk-vscode-fargate@0.0.23/#/) this was one of my favourite projects that I came across last week, although I have not had a chance to test it out yet. cdk-vscode-fargate is a JSII construct library for AWS CDK from Mike Apted that allows you to deploy Code-server running VS Code remotely, on a AWS Fargate container. The project provides you with a quick how-to guide to get you started, so hopefully something I can try over the weekend. You can find the source code in the GitHub repository [here](https://github.com/mikeapted/cdk-vscode-fargate)
 
 ![arch](https://github.com/mikeapted/cdk-vscode-fargate/blob/main/diagram.png?raw=true)
 
 **mwaa-local-runner**
 
-[mwaa-local-runner](https://aws-oss.beachgeek.co.uk/kc) I shared this project a few weeks ago (#66) but that was for Apache Airflow 1.x, and the project has been quickly updated to align with the launch last week of Apache Airflow version 2.0.2 support in Amazon Managed Workflows for Apache Airflow (MWAA). Everything is the same, just now using the latest version.
+[mwaa-local-runner](https://github.com/aws/aws-mwaa-local-runner/tree/v2.0.2) I shared this project a few weeks ago (#66) but that was for Apache Airflow 1.x, and the project has been quickly updated to align with the launch last week of Apache Airflow version 2.0.2 support in Amazon Managed Workflows for Apache Airflow (MWAA). Everything is the same, just now using the latest version.
 
 **S3AssetDeploy**
 
-[S3AssetDeploy](https://aws-oss.beachgeek.co.uk/kb) if you are a Ruby developer then you are going to find this open source tool from Loomly very nice indeed. The folks at Loomly use this to safely package up and deploy their web assets to Amazon S3 that are being served via Cloudfront. This gem is designed to upload and clean unneeded assets from S3 in a safe manner such that older versions or recently removed assets are kept on S3 during the rolling deploy process. It also maintains a version limit and TTL (time-to-live) on assets to avoid deleting recent and outdated versions (up to a limit) or those that have been recently removed. Nice detailed docs and clear examples too.
+[S3AssetDeploy](https://github.com/Loomly/s3_asset_deploy) if you are a Ruby developer then you are going to find this open source tool from Loomly very nice indeed. The folks at Loomly use this to safely package up and deploy their web assets to Amazon S3 that are being served via Cloudfront. This gem is designed to upload and clean unneeded assets from S3 in a safe manner such that older versions or recently removed assets are kept on S3 during the rolling deploy process. It also maintains a version limit and TTL (time-to-live) on assets to avoid deleting recent and outdated versions (up to a limit) or those that have been recently removed. Nice detailed docs and clear examples too.
 
 **amazonlinux-dind**
 
-[amazonlinux-dind](https://aws-oss.beachgeek.co.uk/kt) this repo from Niko Virtala is an Amazon Linux 2 container image with systemd and Docker Engine, and as Niko said in his tweet:
+[amazonlinux-dind](https://github.com/nikovirtala/amazonlinux-dind) this repo from Niko Virtala is an Amazon Linux 2 container image with systemd and Docker Engine, and as Niko said in his tweet:
 
 > I built a #Docker in Docker image that meets the #ECS Agent systemd requirement, so you don't have to – you can find it from all well-stocked container registries and #GitHub
 > 
@@ -111,64 +111,64 @@ We have not had a Tweet of the week for a while, but last week there were a coup
 
 **Blender**
 
-This [tweet](https://aws-oss.beachgeek.co.uk/k3) shared by John Mark, linked to an example of how the AWS open source teams are working with open source projects and foundations to strengthen upstream communities.
+This [tweet](https://twitter.com/jm_stuff/status/1397617355929395201?s=11) shared by John Mark, linked to an example of how the AWS open source teams are working with open source projects and foundations to strengthen upstream communities.
 
 **AWS Copilot vs**
 
-This [tweet](https://aws-oss.beachgeek.co.uk/k4) from Jonathan Matthews asking about using AWS Copilot vs the AWS cli started a great discussion and it was good to hear from the likes of Massimo, Romain and Efe. Massimo shared a [response](https://aws-oss.beachgeek.co.uk/k5) but make sure you check out the thread.
+This [tweet](https://twitter.com/JplusCplusM/status/1397845165658853378) from Jonathan Matthews asking about using AWS Copilot vs the AWS cli started a great discussion and it was good to hear from the likes of Massimo, Romain and Efe. Massimo shared a [response](https://stackoverflow.com/questions/67359857/how-to-decide-which-ecs-tool-to-use/67364838#67364838) but make sure you check out the thread.
 
 **AWS CDK**
 
-Henrique Lima had [an ask](https://aws-oss.beachgeek.co.uk/k6) this week for folks who are using AWS CDK. He is specifically looking for developers interested in checking or automating compliance of infrastructure changes, to provide 30 minutes to complete a survey to help him as he works on a Change Analysis tool for his Master's thesis to do just that. 
+Henrique Lima had [an ask](https://twitter.com/reeckset/status/1397113761882853378) this week for folks who are using AWS CDK. He is specifically looking for developers interested in checking or automating compliance of infrastructure changes, to provide 30 minutes to complete a survey to help him as he works on a Change Analysis tool for his Master's thesis to do just that. 
 
 
 ### Community open source posts
 
 **GraakVM**
 
-[Converting Java Lambda functions to GraalVM native-image](https://aws-oss.beachgeek.co.uk/ks) Mark Sailes with a quick guide on how to create binary files that you can use in your Lambda functions, showing you how to configure your maven files to do this.
+[Converting Java Lambda functions to GraalVM native-image](https://www.graalvmonlambda.com/walkthrough/convert-to-graalvm/) Mark Sailes with a quick guide on how to create binary files that you can use in your Lambda functions, showing you how to configure your maven files to do this.
 
 **OpenSearch**
 
-Eli Fisher shared the new public roadmap for the OpenSearch project, hosted in GitHub. The roadmap shows the next several months of planned features and releases. Going forward, this roadmap will show what the maintainers and contributors of the various components of the project intend to work on and when that work aims to launch. Read more in the post, [The OpenSearch roadmap is now available on GitHub](https://aws-oss.beachgeek.co.uk/k8)
+Eli Fisher shared the new public roadmap for the OpenSearch project, hosted in GitHub. The roadmap shows the next several months of planned features and releases. Going forward, this roadmap will show what the maintainers and contributors of the various components of the project intend to work on and when that work aims to launch. Read more in the post, [The OpenSearch roadmap is now available on GitHub](https://opensearch.org/blog/update/2021/05/opensearch-roadmap-announcement/)
 
 ![roadmap](https://opensearch.org/assets/media/blog-images/2021-05-26-opensearch-roadmap-announcement/opensearch-roadmap.png)
 
 **Consul Service Mesh**
 
-[Announcing Tech Preview of Consul Service Mesh for Amazon ECS](https://aws-oss.beachgeek.co.uk/k9) Luke Kysow and Devarshi Shah wrote last week about the availability (at this stage it is a tech preview) of HashiCorp Consul service mesh for Amazon ECS, with this tech preview letting you deploy non-production versions of Consul for testing on the Fargate launch type for ECS. The post covers how it works and provides a simple Web and API example to demonstrate this further.
+[Announcing Tech Preview of Consul Service Mesh for Amazon ECS](https://www.hashicorp.com/blog/announcing-consul-service-mesh-for-amazon-ecs) Luke Kysow and Devarshi Shah wrote last week about the availability (at this stage it is a tech preview) of HashiCorp Consul service mesh for Amazon ECS, with this tech preview letting you deploy non-production versions of Consul for testing on the Fargate launch type for ECS. The post covers how it works and provides a simple Web and API example to demonstrate this further.
 
 ![arch](https://www.datocms-assets.com/2885/1622050365-consul-on-ecs.png?fit=max&fm=webp&q=80&w=2500)
 
 **Anisible**
 
-In the past week (and indeed this week) there have been a number of posts around how you can use open source tools as part of your CI/CD pipeline to build your applications for the Mac operating systems. In this post, [Run Ansible playbook on mac1.metal instances fleet with AWS Systems Manager](https://aws-oss.beachgeek.co.uk/ka) AWS Community Builder Serhii Vasylenko shows you how you can use Ansible in conjunction with AWS Services. 
+In the past week (and indeed this week) there have been a number of posts around how you can use open source tools as part of your CI/CD pipeline to build your applications for the Mac operating systems. In this post, [Run Ansible playbook on mac1.metal instances fleet with AWS Systems Manager](https://dev.to/aws-builders/run-ansible-playbook-on-mac1-metal-instances-fleet-with-aws-systems-manager-36j6) AWS Community Builder Serhii Vasylenko shows you how you can use Ansible in conjunction with AWS Services. 
 
 **Reddis**
 
-Another AWS Commuinity Builder, Ibrahim Cesar has put this post, [Redis: Exploring Redis as Serverless Database to solve idempotence in APIs](https://aws-oss.beachgeek.co.uk/kr) which is part of a series, but in this he explores what Reddis is and how to get started with it. 
+Another AWS Commuinity Builder, Ibrahim Cesar has put this post, [Redis: Exploring Redis as Serverless Database to solve idempotence in APIs](https://dev.to/aws-builders/redis-exploring-redis-as-serverless-database-to-solve-idempotence-in-apis-2gma) which is part of a series, but in this he explores what Reddis is and how to get started with it. 
 
 ### AWS and Amazon open source posts
 
 **Assisted Log Enabler**
 
-In my #67 newsletter I introduced you to this open source project from AWS, [assisted-log-enabler-for-aws](https://aws-oss.beachgeek.co.uk/h7) an interesting tool that helps customers manage logging for various services. Joshua McKiddy has put together this blog post, [Introducing Assisted Log Enabler for AWS](https://aws-oss.beachgeek.co.uk/k0) showing you how to use Assisted Log Enabler for AWS to ensure logging is turned on within an AWS environment. Make sure you check this out.
+In my #67 newsletter I introduced you to this open source project from AWS, [assisted-log-enabler-for-aws](https://github.com/awslabs/assisted-log-enabler-for-aws) an interesting tool that helps customers manage logging for various services. Joshua McKiddy has put together this blog post, [Introducing Assisted Log Enabler for AWS](https://aws.amazon.com/blogs/opensource/introducing-assisted-log-enabler-for-aws/) showing you how to use Assisted Log Enabler for AWS to ensure logging is turned on within an AWS environment. Make sure you check this out.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/05/19/mckiddy_assisted-log-enabler-diagram.png)
 
 **AWS Distro for OpenTelemetry**
 
-[AWS Distro for OpenTelemetry 0.10.0 is now available with AWS Lambda layers for .Net](https://aws-oss.beachgeek.co.uk/jy) Alolita Sharma and Nizar Tyrewalla provide a quick update on the availability of version 0.10.0 of AWS Distro for OpenTelemetry (ADOT). This is now available in AWS Lambda layers for AWS X-Ray support in .Net. The latest versions of AWS Lambda layers with AWS X-Ray support are now available for the OpenTelemetry Collector, Java, Java instrumentation, JavaScript, and Python. The post also covers news of some updated sample applications as well as news that StatsD is now supported within the ADOT Collector. Read the post for the full details.
+[AWS Distro for OpenTelemetry 0.10.0 is now available with AWS Lambda layers for .Net](https://aws.amazon.com/blogs/opensource/aws-distro-for-opentelemetry-0-10-0-is-now-available-with-aws-lambda-layers-for-net/) Alolita Sharma and Nizar Tyrewalla provide a quick update on the availability of version 0.10.0 of AWS Distro for OpenTelemetry (ADOT). This is now available in AWS Lambda layers for AWS X-Ray support in .Net. The latest versions of AWS Lambda layers with AWS X-Ray support are now available for the OpenTelemetry Collector, Java, Java instrumentation, JavaScript, and Python. The post also covers news of some updated sample applications as well as news that StatsD is now supported within the ADOT Collector. Read the post for the full details.
 
 **Vim, tmux and Zsh**
 
-As an extensive user of these tools, this post brought a huge smile to my face. In, [Enhancing data science environments with Vim, tmux, and Zsh on Amazon EC2](https://aws-oss.beachgeek.co.uk/jz) Josiah Davis, Yin Song, and Anne Hu share how you can use these tools to enable data scientists to be more productive in their day to day working environment. From providing Cloudformation templates that enable you to get this up and running yourself, to providing some great examples, this post is your must read post this week. Whether you are a data scientist or not, you can take some of the tips shared here to help you work smarter. Very nice indeed.
+As an extensive user of these tools, this post brought a huge smile to my face. In, [Enhancing data science environments with Vim, tmux, and Zsh on Amazon EC2](https://aws.amazon.com/blogs/opensource/enhancing-data-science-environments-with-vim-tmux-and-zsh-on-amazon-ec2/) Josiah Davis, Yin Song, and Anne Hu share how you can use these tools to enable data scientists to be more productive in their day to day working environment. From providing Cloudformation templates that enable you to get this up and running yourself, to providing some great examples, this post is your must read post this week. Whether you are a data scientist or not, you can take some of the tips shared here to help you work smarter. Very nice indeed.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/29/davjosia_Enhance-data-science-vim-tmux-zsh_f1.png)
 
 **Apache Zeppelin**
 
-Launched last week, Amazon Kinesis Data Analytics Studio uses a number of open source projects to help make it easier for customers to analyse streaming data. You can now easily launch Apache Zeppelin notebooks, and interact and work with streaming data using SQL, Python or Scala. In, [Introducing Amazon Kinesis Data Analytics Studio – Quickly Interact with Streaming Data Using SQL, Python, or Scala](https://aws-oss.beachgeek.co.uk/jw) Danilo Poccia provides you an overview of the features as well as a follow along example to help get you orientated. 
+Launched last week, Amazon Kinesis Data Analytics Studio uses a number of open source projects to help make it easier for customers to analyse streaming data. You can now easily launch Apache Zeppelin notebooks, and interact and work with streaming data using SQL, Python or Scala. In, [Introducing Amazon Kinesis Data Analytics Studio – Quickly Interact with Streaming Data Using SQL, Python, or Scala](https://aws.amazon.com/blogs/aws/introducing-amazon-kinesis-data-analytics-studio-quickly-interact-with-streaming-data-using-sql-python-or-scala/) Danilo Poccia provides you an overview of the features as well as a follow along example to help get you orientated. 
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/19/KinesisAnalyticsStudio-1-1024x655.png)
 
@@ -178,46 +178,46 @@ My favourite part of this blog post is where Danilo writes:
 
 **Apache Spark**
 
-Bigstream is an AWS ISV Partner and pioneer in the field of hardware and software level acceleration. Brad Kashani, CEO at Bigstream, shares in this post, [Bigstream Provides Big Data Acceleration with Apache Spark and Amazon EMR](https://aws-oss.beachgeek.co.uk/ju) why acceleration has better potential than CPU scaling, the historic challenges organisations have had in implementing accelerators, and how Bigstream are able to address those for a seamless, accelerated Spark experience.
+Bigstream is an AWS ISV Partner and pioneer in the field of hardware and software level acceleration. Brad Kashani, CEO at Bigstream, shares in this post, [Bigstream Provides Big Data Acceleration with Apache Spark and Amazon EMR](https://aws.amazon.com/blogs/apn/bigstream-provides-big-data-acceleration-with-apache-spark-and-amazon-emr/) why acceleration has better potential than CPU scaling, the historic challenges organisations have had in implementing accelerators, and how Bigstream are able to address those for a seamless, accelerated Spark experience.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2021/05/24/Bigstream-Spark-EMR-2.png)
 
 **Packer**
 
-Packer is an open source tool from HashiCorp for building identical machine images for multiple platforms from a single source configuration. In this post, [Building Amazon Machine Images (AMIs) for EC2 Mac instances with Packer](https://aws-oss.beachgeek.co.uk/jt) Joerg Woehrle shares best practices for building custom AMIs for EC2 Mac instances using HashiCorp Packer. Joerg covers how to create an AMI of an EC2 Mac instance, understake administrative tasks such as resizing the hard drive, resetting ec2-macos-init and installing some base software (golang) onto the image as well as demonstrating how to facilitate SSM to connect to an EC2 instance without the need to open any ports or a public IP. Read on to dive deeper...
+Packer is an open source tool from HashiCorp for building identical machine images for multiple platforms from a single source configuration. In this post, [Building Amazon Machine Images (AMIs) for EC2 Mac instances with Packer](https://aws.amazon.com/blogs/compute/building-amazon-machine-images-amis-for-ec2-mac-instances-with-packer/) Joerg Woehrle shares best practices for building custom AMIs for EC2 Mac instances using HashiCorp Packer. Joerg covers how to create an AMI of an EC2 Mac instance, understake administrative tasks such as resizing the hard drive, resetting ec2-macos-init and installing some base software (golang) onto the image as well as demonstrating how to facilitate SSM to connect to an EC2 instance without the need to open any ports or a public IP. Read on to dive deeper...
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2021/05/24/Packer1.png)
 
 **git**
 
-[Use Git pre-commit hooks to avoid AWS CloudFormation errors](https://aws-oss.beachgeek.co.uk/ku) Troy Ameigh and Andrew Glenn with a post that walks you through how you can use GitHub pre-commit hooks with a number of open source tools to help address a number of common issues when using AWS Cloudformation. The post takes a look at some of those open source tools and how you can use them to help you with things like checking shell scripts, validating end of line, dealing with white space, enforcing style and much more.
+[Use Git pre-commit hooks to avoid AWS CloudFormation errors](https://aws.amazon.com/blogs/infrastructure-and-automation/use-git-pre-commit-hooks-avoid-aws-cloudformation-errors/) Troy Ameigh and Andrew Glenn with a post that walks you through how you can use GitHub pre-commit hooks with a number of open source tools to help address a number of common issues when using AWS Cloudformation. The post takes a look at some of those open source tools and how you can use them to help you with things like checking shell scripts, validating end of line, dealing with white space, enforcing style and much more.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/b7eb6c689c037217079766fdb77c3bac3e51cb4c/2021/03/20/customize-quick-start-example-architecture.png)
 
 **AWS CDK**
 
-Christian Weber provides another one of his regular monthly updates covering all things AWS CDK related, in his [CDK Corner – May 2021](https://aws-oss.beachgeek.co.uk/jx). Plenty of highlights, including updates from the recent CDK Day, news on the CDK v2 developer preview, AWS CDK for Go developer preview and a nice list of updated/new constructs you should check out. This is essential reading in my opinion, and hats off to all those listed as having their first PRs merged. Please get in touch, I have an AWS Credit voucher waiting for you..
+Christian Weber provides another one of his regular monthly updates covering all things AWS CDK related, in his [CDK Corner – May 2021](https://aws.amazon.com/blogs/devops/cdk-corner-may-2021/). Plenty of highlights, including updates from the recent CDK Day, news on the CDK v2 developer preview, AWS CDK for Go developer preview and a nice list of updated/new constructs you should check out. This is essential reading in my opinion, and hats off to all those listed as having their first PRs merged. Please get in touch, I have an AWS Credit voucher waiting for you..
 
 **TensorFlow**
 
-A couple of posts this week on TensorFlow. The first post covers how to optimise the inference latency of TensorFlow Serving in the post, [How Contentsquare reduced TensorFlow inference latency with TensorFlow Serving on Amazon SageMaker](https://aws-oss.beachgeek.co.uk/k1). Olivier Cruchant shares how one customer was able to experiment with a number of approaches to find an optimum solution for hosting their inference endpoints.
+A couple of posts this week on TensorFlow. The first post covers how to optimise the inference latency of TensorFlow Serving in the post, [How Contentsquare reduced TensorFlow inference latency with TensorFlow Serving on Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/how-contentsquare-reduced-tensorflow-inference-latency-with-tensorflow-serving-on-amazon-sagemaker/). Olivier Cruchant shares how one customer was able to experiment with a number of approaches to find an optimum solution for hosting their inference endpoints.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/03/25/Capture-d%E2%80%99%C3%A9cran-2021-03-25-%C3%A0-13.03.31.jpg)
 
-Following that we have the post, [Host multiple TensorFlow computer vision models using Amazon SageMaker multi-model endpoints](https://aws-oss.beachgeek.co.uk/k2), where Arunprasath Shankar and Mark Roy demonstrate how to use SageMaker multi-model endpoints to host two computer TensorFlow vision models with different model architectures and datasets for image classification. They provide the sample notebook so you can try this for yourself.
+Following that we have the post, [Host multiple TensorFlow computer vision models using Amazon SageMaker multi-model endpoints](https://aws.amazon.com/blogs/machine-learning/host-multiple-tensorflow-computer-vision-models-using-amazon-sagemaker-multi-model-endpoints/), where Arunprasath Shankar and Mark Roy demonstrate how to use SageMaker multi-model endpoints to host two computer TensorFlow vision models with different model architectures and datasets for image classification. They provide the sample notebook so you can try this for yourself.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/05/11/1-2888-Architecture.jpg)
 
 
 **Open Problems**
 
-Open Problems provides a framework for researchers to define formalized tasks in single-cell genomics and benchmark model performance on those tasks using AWS. In the blog post, [Driving innovation in single-cell analysis on AWS](https://aws-oss.beachgeek.co.uk/jr) Daniel Burkhardt, Malte Luecken, and Mrudhula Balasubramanyan take a look in more detail how they are running this on AWS, looking at the architecture of the platform, benchmarking computational methods for single-cell analysis and more.
+Open Problems provides a framework for researchers to define formalized tasks in single-cell genomics and benchmark model performance on those tasks using AWS. In the blog post, [Driving innovation in single-cell analysis on AWS](https://aws.amazon.com/blogs/publicsector/driving-innovation-single-cell-analysis-aws/) Daniel Burkhardt, Malte Luecken, and Mrudhula Balasubramanyan take a look in more detail how they are running this on AWS, looking at the architecture of the platform, benchmarking computational methods for single-cell analysis and more.
 
 ![open problems](https://d2908q01vomqb2.cloudfront.net/9e6a55b6b4563e652a23be9d623ca5055c356940/2021/05/27/CHANNEL_SIM-ID_international-competition-open-problems-repository-clipped-2.jpg)
 
 **Ethereum**
 
-Amazon Managed Blockchain support for managed Ethereum nodes makes it possible to build your own decentralized applications (dapps) without having to worry about maintaining reliable Ethereum nodes for relaying blockchain transactions or querying the state of blockchain data. In this post, [Deploy an Ethereum node on Amazon Managed Blockchain](https://aws-oss.beachgeek.co.uk/jv) Carl Youngblood walks you through setting up and connecting to an Ethereum node with Managed Blockchain
+Amazon Managed Blockchain support for managed Ethereum nodes makes it possible to build your own decentralized applications (dapps) without having to worry about maintaining reliable Ethereum nodes for relaying blockchain transactions or querying the state of blockchain data. In this post, [Deploy an Ethereum node on Amazon Managed Blockchain](https://aws.amazon.com/blogs/database/deploy-an-ethereum-node-on-amazon-managed-blockchain/) Carl Youngblood walks you through setting up and connecting to an Ethereum node with Managed Blockchain
 
 ### Quick updates
 
@@ -283,14 +283,14 @@ The hackathon is open to technologists of all experience levels and backgrounds,
 **Maintainer Week**
 **week of June 7th**
 
-Make sure you check out this week long event starting on the 7th of June, for open source maintainers to gather, share, and be celebrated. You can find details of [all the weeks sessions on their GitHub page](https://aws-oss.beachgeek.co.uk/kq), with Upstream on June 7th, Global Maintainer Summit on the 8/9th, The Changelog: Maintainer Spotlight on the 10th and FundOSS on the 11th.
+Make sure you check out this week long event starting on the 7th of June, for open source maintainers to gather, share, and be celebrated. You can find details of [all the weeks sessions on their GitHub page](https://github.com/github/maintainerweek), with Upstream on June 7th, Global Maintainer Summit on the 8/9th, The Changelog: Maintainer Spotlight on the 10th and FundOSS on the 11th.
 
 **Open@Amazon**
 **June 16th, 9:00am - 5:00PM EDT**
 
 Of course I am biased, but this is a must attend event. A celebration of open source on AWS with a fabulous cast of speakers, a fantastic broad set of topics and the event will be fully live so you can get your chance to interact with the speakers and the broader open source and AWS community.
 
-Check out the blog post, [What’s up with open source at AWS? Attend Open@Amazon live on Twitch June 16](https://aws-oss.beachgeek.co.uk/jo)
+Check out the blog post, [What’s up with open source at AWS? Attend Open@Amazon live on Twitch June 16](https://aws.amazon.com/blogs/opensource/whats-up-with-open-source-at-aws-attend-openamazon-live-on-twitch-june-16/)
 
 **Cloud Native Day**
 **23rd September, Bern Switzerland**

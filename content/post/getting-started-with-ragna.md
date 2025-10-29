@@ -7,9 +7,9 @@ tags : [ aws open source, generative AI, Ragna, Amazon Bedrock, Anthropic Claude
 
 ## Unboxing Ragna: Getting hands on and making it to work with Amazon Bedrock
 
-I am always on the look out for interesting new projects to check out, and this week I came across [Ragna](https://aws-oss.beachgeek.co.uk/3e6), an open source Retrieval Augmented Generation [RAG](https://aws-oss.beachgeek.co.uk/3e7) orchestration framework. It is a new project with a committed and active community, so I wanted to find out more about this project.
+I am always on the look out for interesting new projects to check out, and this week I came across [Ragna](https://ragna.chat/en/stable/), an open source Retrieval Augmented Generation [RAG](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html) orchestration framework. It is a new project with a committed and active community, so I wanted to find out more about this project.
 
-What piqued my interest was reading this blog post, [Unveiling Ragna: An Open Source RAG-based AI Orchestration Framework Designed to Scale From Research to Production](https://aws-oss.beachgeek.co.uk/3ex) which takes a look at the background, or as I like to think of it, the "scratch that needed to be itched". I couldn't help notice some parallels from an architectural perspective to one of my favourite open source projects, Apache Airflow.
+What piqued my interest was reading this blog post, [Unveiling Ragna: An Open Source RAG-based AI Orchestration Framework Designed to Scale From Research to Production](https://quansight.com/post/unveiling-ragna-an-open-source-rag-based-ai-orchestration-framework-designed-to-scale-from-research-to-production/) which takes a look at the background, or as I like to think of it, the "scratch that needed to be itched". I couldn't help notice some parallels from an architectural perspective to one of my favourite open source projects, Apache Airflow.
 
 ![architecture of ragna](https://quansight.com/wp-content/uploads/elementor/thumbs/ragna-architecture-qeoic0wqnsa4axasb9m1ogxpc0jhclpcgqt59y8plu.png)
 
@@ -808,7 +808,7 @@ And now when I run "ragna check" I get the following:
 └────┴─────────────────────────────────┴───────────────────────┴──────────┘
 ```
 
-> **Side note** I did raise an [issue](https://aws-oss.beachgeek.co.uk/3e4) and then a [PR](https://aws-oss.beachgeek.co.uk/3e5) which you can check out. It is probably worth checking back with the project once they have built a system that allows additional assistants to be plugged in.
+> **Side note** I did raise an [issue](https://github.com/Quansight/ragna/issues/171) and then a [PR](https://github.com/Quansight/ragna/pull/173) which you can check out. It is probably worth checking back with the project once they have built a system that allows additional assistants to be plugged in.
 
 We can now start Ragna
 

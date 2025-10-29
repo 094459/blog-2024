@@ -23,39 +23,39 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **cfn-diagram**
 
-[cfn-diagram](https://aws-oss.beachgeek.co.uk/4r) whilst I did cover this project back in Feb, I was [notified](https://aws-oss.beachgeek.co.uk/10b) by Lars from Mathem that there was now a new capability, ascii graphics.
+[cfn-diagram](https://github.com/mhlabs/cfn-diagram) whilst I did cover this project back in Feb, I was [notified](https://twitter.com/lajacobsson/status/1445001356692148229) by Lars from Mathem that there was now a new capability, ascii graphics.
 
 **aws-jwt-verify**
 
-[aws-jwt-verify](https://aws-oss.beachgeek.co.uk/10c) this project provides a NodeJS library for verifying JWTs signed by Amazon Cognito, and any OIDC-compatible IDP that signs JWTs with RS256 (currently, only signature algorithm RS256 is supported)
+[aws-jwt-verify](https://github.com/awslabs/aws-jwt-verify) this project provides a NodeJS library for verifying JWTs signed by Amazon Cognito, and any OIDC-compatible IDP that signs JWTs with RS256 (currently, only signature algorithm RS256 is supported)
 
 **aws-appconfig-codepipeline-cdk**
 
-[aws-appconfig-codepipeline-cdk](https://aws-oss.beachgeek.co.uk/10d) this project provides a sample application demos setup of AWS AppConfig using AWS CDK. AWS AppConfig application is set up to use AWS CodePipeline as configuration store. It also sets up AWS Lambda validator to validate the configuration.
+[aws-appconfig-codepipeline-cdk](https://github.com/aws-samples/aws-appconfig-codepipeline-cdk) this project provides a sample application demos setup of AWS AppConfig using AWS CDK. AWS AppConfig application is set up to use AWS CodePipeline as configuration store. It also sets up AWS Lambda validator to validate the configuration.
 
 ![arch](https://github.com/aws-samples/aws-appconfig-codepipeline-cdk/blob/main/infrastructure/src/main/resources/asset/arch.png?raw=true)
 
 **aws-cloud-map-mcs-controller-for-k8s**
 
-[aws-cloud-map-mcs-controller-for-k8s](https://aws-oss.beachgeek.co.uk/10e) this project that snuck out late last week, AWS Cloud Map multi-cluster service discovery for Kubernetes (K8s) is a controller that implements existing multi-cluster services API that allows services to communicate across multiple clusters. The implementation relies on AWS Cloud Map for enabling cross-cluster service discovery.
+[aws-cloud-map-mcs-controller-for-k8s](https://github.com/aws/aws-cloud-map-mcs-controller-for-k8s) this project that snuck out late last week, AWS Cloud Map multi-cluster service discovery for Kubernetes (K8s) is a controller that implements existing multi-cluster services API that allows services to communicate across multiple clusters. The implementation relies on AWS Cloud Map for enabling cross-cluster service discovery.
 
 **BayerCLAW**
 
-[BayerCLAW](https://aws-oss.beachgeek.co.uk/10f) this project from the Bayer Group is a workflow orchestration system for AWS, targeted at bioinformatics pipelines. A workflow consists of a sequence of computational steps, each of which is captured in a Docker container. Some steps may parallelise work across many executions of the same container (scatter/gather pattern).
+[BayerCLAW](https://github.com/Bayer-Group/BayerCLAW) this project from the Bayer Group is a workflow orchestration system for AWS, targeted at bioinformatics pipelines. A workflow consists of a sequence of computational steps, each of which is captured in a Docker container. Some steps may parallelise work across many executions of the same container (scatter/gather pattern).
 
 **damo**
 
-[damo](https://aws-oss.beachgeek.co.uk/10g) this is a cool project, damo is a user space tool for [DAMON](https://aws-oss.beachgeek.co.uk/10h). Using this, you can monitor the data access patterns of your system or workloads and make data access-aware memory management optimisations.
+[damo](https://github.com/awslabs/damo) this is a cool project, damo is a user space tool for [DAMON](https://sjp38.github.io/post/damon/). Using this, you can monitor the data access patterns of your system or workloads and make data access-aware memory management optimisations.
 
 ![demo](https://github.com/awslabs/damo/blob/next/images/damo_monitor_water_nsquared.gif?raw=true)
 
 **aws-dotnet-deploy**
 
-[aws-dotnet-deploy](https://aws-oss.beachgeek.co.uk/b7) this repository contains the AWS .NET deployment tool for .NET CLI - the opinionated tooling that simplifies deployment of .NET applications with minimum AWS knowledge. The tool suggests the right AWS compute service to deploy your application to. It then builds and packages your application as required by the chosen compute service, generates the deployment infrastructure, deploys your application by using the Cloud Development Kit (CDK), and displays the endpoint. Norm Johanson has put together a couple of blog posts. First we have [Update on our new AWS .NET Deployment Experience](https://aws-oss.beachgeek.co.uk/102) which provides you with an update of the recent updates to this project. Following that we have [Deployment Projects with the new AWS .NET Deployment Experience](https://aws-oss.beachgeek.co.uk/zz) that walks you through a new feature of this project, deployment projects[hands on]
+[aws-dotnet-deploy](https://github.com/aws/aws-dotnet-deploy) this repository contains the AWS .NET deployment tool for .NET CLI - the opinionated tooling that simplifies deployment of .NET applications with minimum AWS knowledge. The tool suggests the right AWS compute service to deploy your application to. It then builds and packages your application as required by the chosen compute service, generates the deployment infrastructure, deploys your application by using the Cloud Development Kit (CDK), and displays the endpoint. Norm Johanson has put together a couple of blog posts. First we have [Update on our new AWS .NET Deployment Experience](https://aws.amazon.com/blogs/developer/update-new-net-deployment-experience/) which provides you with an update of the recent updates to this project. Following that we have [Deployment Projects with the new AWS .NET Deployment Experience](https://aws.amazon.com/blogs/developer/dotnet-deployment-projects/) that walks you through a new feature of this project, deployment projects[hands on]
 
 **automated-account-configuration**
 
-[automated-account-configuration](https://aws-oss.beachgeek.co.uk/zy) this project is the Automated Account Configuration, a sample solution to enable operational scale for AWS customers by automating repeatable steps required before AWS accounts are used for customer workloads. Steps include setting up backups and patching for the resources within the account.
+[automated-account-configuration](https://github.com/awslabs/automated-account-configuration) this project is the Automated Account Configuration, a sample solution to enable operational scale for AWS customers by automating repeatable steps required before AWS accounts are used for customer workloads. Steps include setting up backups and patching for the resources within the account.
 
 ![arch](https://d1.awsstatic.com/Solutions/Solutions%20Category%20Template%20Draft/Solution%20Architecture%20Diagrams/automated-account-config-architecture.34216591b80a575a38cd215fe59608925054d50f.png)
 
@@ -63,63 +63,63 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **MySQL**
 
-Nik Krichko has put together this post, [Comparing Graviton (ARM) Performance to Intel and AMD for MySQL](https://aws-oss.beachgeek.co.uk/10i) that takes a closer look at running MySQL against different instance types on AWS to see what the different performance characteristics are. If you are running MySQL workloads you should check this out - no spoilers, but very interesting indeed.
+Nik Krichko has put together this post, [Comparing Graviton (ARM) Performance to Intel and AMD for MySQL](https://www.percona.com/blog/comparing-graviton-performance-to-arm-and-intel-for-mysql/) that takes a closer look at running MySQL against different instance types on AWS to see what the different performance characteristics are. If you are running MySQL workloads you should check this out - no spoilers, but very interesting indeed.
 
 **headless-recorder**
 
-Amazon CloudWatch Synthetics to create canaries, configurable scripts that run on a schedule, to monitor your endpoints and APIs. Canaries offer programmatic access to a headless Google Chrome Browser via Puppeteer or Selenium Webdriver. Amazon provides a CloudWatch Synthetics Recorder to help you create canaries more easily. The recorder is a Google Chrome extension and based on the open source project,  [Headless recorder](https://aws-oss.beachgeek.co.uk/10a). In this post, [Visual monitoring of applications with Amazon CloudWatch Synthetics](https://aws-oss.beachgeek.co.uk/109) Mahanth Jayadeva and Yesh Ravindra walk through how the visual monitoring blueprint for Amazon CloudWatch Synthetics can be utilised to monitor your applications for visual defects. [hands on]
+Amazon CloudWatch Synthetics to create canaries, configurable scripts that run on a schedule, to monitor your endpoints and APIs. Canaries offer programmatic access to a headless Google Chrome Browser via Puppeteer or Selenium Webdriver. Amazon provides a CloudWatch Synthetics Recorder to help you create canaries more easily. The recorder is a Google Chrome extension and based on the open source project,  [Headless recorder](https://github.com/checkly/headless-recorder). In this post, [Visual monitoring of applications with Amazon CloudWatch Synthetics](https://aws.amazon.com/blogs/mt/visual-monitoring-of-applications-with-amazon-cloudwatch-synthetics/) Mahanth Jayadeva and Yesh Ravindra walk through how the visual monitoring blueprint for Amazon CloudWatch Synthetics can be utilised to monitor your applications for visual defects. [hands on]
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/10/04/9-1.png)
 
 **.NET**
 
-My colleague François Bouteruche is back with another instalment of the story of My Local Farmer, a fictional company inspired by customer interactions with AWS Solutions Architects. This episode, [Migrating our trusty ol’ .NET Framework applications to AWS, I couldn’t believe it!](https://aws-oss.beachgeek.co.uk/108) takes a look at a number of open source projects you can use to help move your .NET workloads over to AWS. Tres bien!
+My colleague François Bouteruche is back with another instalment of the story of My Local Farmer, a fictional company inspired by customer interactions with AWS Solutions Architects. This episode, [Migrating our trusty ol’ .NET Framework applications to AWS, I couldn’t believe it!](https://medium.com/i-love-my-local-farmer-engineering-blog/migrating-our-trusty-ol-net-framework-applications-to-aws-i-couldn-t-believe-it-2b111fcd8146) takes a look at a number of open source projects you can use to help move your .NET workloads over to AWS. Tres bien!
 
 **cdk8s**
 
-Perfect timing with Kubecon last week, was Eddie Zaneski in his post, [Announcing the general availability of cdk8s and support for Go](https://aws-oss.beachgeek.co.uk/106). For those who may not be familiar with cdk8s, this is a CNCF Sandbox project, an open-source software development framework for defining Kubernetes applications using general-purpose programming languages. The output of a CDK8s program is Kubernetes YAML that you can apply directly to any cluster.
+Perfect timing with Kubecon last week, was Eddie Zaneski in his post, [Announcing the general availability of cdk8s and support for Go](https://aws.amazon.com/blogs/containers/announcing-the-general-availability-of-cdk8s-and-support-for-go/). For those who may not be familiar with cdk8s, this is a CNCF Sandbox project, an open-source software development framework for defining Kubernetes applications using general-purpose programming languages. The output of a CDK8s program is Kubernetes YAML that you can apply directly to any cluster.
 
 **OpenSearch**
 
-Rohin Bhargava, Gopala Krishna, and Saikumar Karanam provide a brief overview of the cross-cluster replication feature within OpenSearch, and the thought process behind the design and implementation. Read on in [Introduction to Cross-Cluster Replication](https://aws-oss.beachgeek.co.uk/107)
+Rohin Bhargava, Gopala Krishna, and Saikumar Karanam provide a brief overview of the cross-cluster replication feature within OpenSearch, and the thought process behind the design and implementation. Read on in [Introduction to Cross-Cluster Replication](https://opensearch.org/blog/cross-cluster/2021/10/cross-cluster-replication-intro/)
 
 **Jax**
 
-JAX is NumPy on the CPU, GPU, and TPU, with great automatic differentiation for high-performance machine learning research. In this post, [Train and deploy deep learning models using JAX with Amazon SageMaker](https://aws-oss.beachgeek.co.uk/105) Archis Joglekar and Sean Morgan show how you can utilise the Bring Your Own Container (BYOC) paradigm to train ML models on GPUs using the increasingly popular JAX library from Google. As a bonus, the post shows how to serialise trained models into the TensorFlow SavedModel format so that we can use the existing TensorFlow Serving infrastructure provided by SageMaker. [hands on]
+JAX is NumPy on the CPU, GPU, and TPU, with great automatic differentiation for high-performance machine learning research. In this post, [Train and deploy deep learning models using JAX with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/training-and-deploying-deep-learning-models-using-jax-with-amazon-sagemaker/) Archis Joglekar and Sean Morgan show how you can utilise the Bring Your Own Container (BYOC) paradigm to train ML models on GPUs using the increasingly popular JAX library from Google. As a bonus, the post shows how to serialise trained models into the TensorFlow SavedModel format so that we can use the existing TensorFlow Serving infrastructure provided by SageMaker. [hands on]
 
 **Deep Graph Library**
 
-Ian Avilez and Tim Pavlick from HawkEye 360 provide some insights in how they are using the open source Deep Graph Library and Amazon Neptune to find risks for nearby ships in the post [HawkEye 360 predicts vessel risk using the Deep Graph Library and Amazon Neptune](https://aws-oss.beachgeek.co.uk/10j). The graph networks in Neptune and GNN models enable HawkEye 360 to reveal hidden relationships among vessels that would otherwise be lost in the vast sea of complexity. Read on to find out more.
+Ian Avilez and Tim Pavlick from HawkEye 360 provide some insights in how they are using the open source Deep Graph Library and Amazon Neptune to find risks for nearby ships in the post [HawkEye 360 predicts vessel risk using the Deep Graph Library and Amazon Neptune](https://aws.amazon.com/blogs/machine-learning/hawkeye-360-predicts-vessel-risk-using-the-deep-graph-library-and-amazon-neptune/). The graph networks in Neptune and GNN models enable HawkEye 360 to reveal hidden relationships among vessels that would otherwise be lost in the vast sea of complexity. Read on to find out more.
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/09/07/image001-1.png)
 
 **OpenMRS**
 
-OpenMRS is a collaborative open-source project to develop software to support the delivery of health care. In the post [Deploying OpenMRS Electronic Health Record (EHR) system on AWS](https://aws-oss.beachgeek.co.uk/104), Krishna Singh and Razvan Ionasec explore how to deploy a OpenMRS EHR system on AWS so you can support hundreds of concurrent HCP users and tens of thousands of patients. [hands on]
+OpenMRS is a collaborative open-source project to develop software to support the delivery of health care. In the post [Deploying OpenMRS Electronic Health Record (EHR) system on AWS](https://aws.amazon.com/blogs/opensource/deploying-openmrs-electronic-health-record-ehr-system-on-aws/), Krishna Singh and Razvan Ionasec explore how to deploy a OpenMRS EHR system on AWS so you can support hundreds of concurrent HCP users and tens of thousands of patients. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/10/05/kbs_openmrs-aws_f1.png)
 
 **miniwdl**
 
-The Workflow Description Language (WDL) is a way to specify data processing workflows with a human-readable and -writeable syntax. WDL makes it straightforward to define analysis tasks, chain them together in workflows, and parallelise their execution. miniwdl is a local runner and developer toolkit for the bioinformatics-focused Workflow Description Language (WDL). In the blog post, [Using miniwdl, GWFCore, and SageMaker Studio as a cloud IDE for genomics workflows](https://aws-oss.beachgeek.co.uk/103) written by Mike Lin and Lee Pang, will show you how you can combine these open source tools together with AWS to build workflows and manage ad hoc analysis runs.
+The Workflow Description Language (WDL) is a way to specify data processing workflows with a human-readable and -writeable syntax. WDL makes it straightforward to define analysis tasks, chain them together in workflows, and parallelise their execution. miniwdl is a local runner and developer toolkit for the bioinformatics-focused Workflow Description Language (WDL). In the blog post, [Using miniwdl, GWFCore, and SageMaker Studio as a cloud IDE for genomics workflows](https://aws.amazon.com/blogs/industries/using-miniwdl-gwfcore-and-sagemaker-studio-as-a-cloud-ide-for-genomics-workflows/) written by Mike Lin and Lee Pang, will show you how you can combine these open source tools together with AWS to build workflows and manage ad hoc analysis runs.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/c5b76da3e608d34edb07244cd9b875ee86906328/2021/10/11/VPC-in-Cloud.png)
 
 **Apache Hudi**
 
-Apache Hudi is an open-source data management framework used to simplify incremental data processing and data pipeline development. In this case study from Amazon's Transportation service, they share how they enabled near-real-time event analytics at petabyte scale using Apache Hudi tables created by AWS Glue Spark jobs. For data analytics afficiondos, read on in [How Amazon Transportation Service enabled near-real-time event analytics at petabyte scale using AWS Glue with Apache Hudi](https://aws-oss.beachgeek.co.uk/101) [warning, may contain gratuitous use of graphs!]
+Apache Hudi is an open-source data management framework used to simplify incremental data processing and data pipeline development. In this case study from Amazon's Transportation service, they share how they enabled near-real-time event analytics at petabyte scale using Apache Hudi tables created by AWS Glue Spark jobs. For data analytics afficiondos, read on in [How Amazon Transportation Service enabled near-real-time event analytics at petabyte scale using AWS Glue with Apache Hudi](https://aws.amazon.com/blogs/big-data/how-amazon-transportation-service-enabled-near-real-time-event-analytics-at-petabyte-scale-using-aws-glue-with-apache-hudi/) [warning, may contain gratuitous use of graphs!]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/10/01/BDB1611-image001.png)
 
 **AWS SDKs**
 
-Trivikram Kamat shares how they were able to reduce the publish size of v3 SDK for Javascript modular packages by ~50% in the post, [How we halved the publish size of modular AWS SDK for JavaScript clients](https://aws-oss.beachgeek.co.uk/100). A must read this week.
+Trivikram Kamat shares how they were able to reduce the publish size of v3 SDK for Javascript modular packages by ~50% in the post, [How we halved the publish size of modular AWS SDK for JavaScript clients](https://aws.amazon.com/blogs/developer/how-we-halved-the-publish-size-of-modular-aws-sdk-for-javascript-clients/). A must read this week.
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2021/10/14/aws_sdk_client_sts_install_size_reduction_packagephobia-1024x787.png)
 
 ### Open Data
 
-Whilst not open source, open data sets help democratise access to data by making it available to the public for analysis on AWS; develop new cloud-native techniques, formats, and tools that lower the cost of working with data; and encourage the development of communities that benefit from access to shared datasets. In the post, [Climate data, koala genomes, analysis ready radar data, and highly-queryable genomic data: The latest open data on AWS](https://aws-oss.beachgeek.co.uk/10k) Joe Flasher shares 26 new data sets released.
+Whilst not open source, open data sets help democratise access to data by making it available to the public for analysis on AWS; develop new cloud-native techniques, formats, and tools that lower the cost of working with data; and encourage the development of communities that benefit from access to shared datasets. In the post, [Climate data, koala genomes, analysis ready radar data, and highly-queryable genomic data: The latest open data on AWS](https://aws.amazon.com/blogs/publicsector/climate-data-koala-genomes-analysis-ready-radar-data-highly-queryable-genomic-data-latest-open-data-on-aws/) Joe Flasher shares 26 new data sets released.
 
 ### Quick updates
 
@@ -137,7 +137,7 @@ You can now launch Apache ActiveMQ 5.16.3 brokers on Amazon MQ. This version upd
 
 During September, 2021, 5 new versions of the AWS Cloud Development Kit  (CDK) for JavaScript, TypeScript, Java, Python, .NET and Go were released (v1.121.0 through v.125.0). With these releases, the CDK CLI now has support for hotswap deployments for faster inner-loop development iterations on the application code in your CDK project. Hotswap initially supports AWS Lambda handler code, but support is planned for additional resource types and a “watch” mode which continually watches for changes and deploys any updates. Additionally, users can preserve successfully provisioned resources by disabling automatic stack rollbacks, further reducing deployment and iteration time. These releases also resolve 21 issues and introduce 40 new features that span over 30 different modules across the library. Many of these changes were contributed by the developer community.
 
-Read the full release notes for [1.121.0](https://aws-oss.beachgeek.co.uk/zt), [1.122.0](https://aws-oss.beachgeek.co.uk/zu), [1.123.0](https://aws-oss.beachgeek.co.uk/zv), [1.124.0](https://aws-oss.beachgeek.co.uk/zw), [1.125.0](https://aws-oss.beachgeek.co.uk/zx)
+Read the full release notes for [1.121.0](https://github.com/aws/aws-cdk/releases/tag/v1.121.0), [1.122.0](https://github.com/aws/aws-cdk/releases/tag/v1.122.0), [1.123.0](https://github.com/aws/aws-cdk/releases/tag/v1.123.0), [1.124.0](https://github.com/aws/aws-cdk/releases/tag/v1.124.0), [1.125.0](https://github.com/aws/aws-cdk/releases/tag/v1.125.0)
 
 **ROS**
 
@@ -157,7 +157,7 @@ Want to contribute to Apache Airflow? Find out more as to how this works by chec
 **Enterprise Scale NLP with Hugging Face & SageMaker**
 **October 26th 2021 - 5:00 PM (BST)**
 
-In this workshop, [Getting Started with Amazon SageMaker: Training your first NLP Transformer model with Hugging Face](https://aws-oss.beachgeek.co.uk/10l) you will learn how to use Amazon SageMaker to train a Hugging Face Transformer model and deploy it afterwards. The workshop covers preparing and uploading  test dataset to S3, fine-tuning a script to be used with Amazon SageMaker Training jobs, launching a training job and storing the trained model into S3 and then deploying the model after successful training.
+In this workshop, [Getting Started with Amazon SageMaker: Training your first NLP Transformer model with Hugging Face](https://app.livestorm.co/hugging-face/getting-started-with-amazon-sagemaker-training-a-hugging-face-transformers-and-deploy-it) you will learn how to use Amazon SageMaker to train a Hugging Face Transformer model and deploy it afterwards. The workshop covers preparing and uploading  test dataset to S3, fine-tuning a script to be used with Amazon SageMaker Training jobs, launching a training job and storing the trained model into S3 and then deploying the model after successful training.
 
 **Flink Forwards Global 2021**
 **October 26th/27th**

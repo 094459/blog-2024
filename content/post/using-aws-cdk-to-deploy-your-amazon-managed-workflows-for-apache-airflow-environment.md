@@ -7,7 +7,7 @@ tags: [Apache Airflow, mwaa, AWS CDK, IaC]
 
 ### Using AWS CDK to deploy your Amazon Managed Workflows for Apache Airflow environment
 
-What better way to celebrate CDK Day than to return to a previous blog where I wrote about automating the [installation and configuration of Amazon Managed Workflows for Apache Airflow (MWAA)](https://aws-oss.beachgeek.co.uk/3h), and take a look at doing the same thing but this time using AWS CDK. 
+What better way to celebrate CDK Day than to return to a previous blog where I wrote about automating the [installation and configuration of Amazon Managed Workflows for Apache Airflow (MWAA)](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a), and take a look at doing the same thing but this time using AWS CDK. 
 
 What this post will show you is how you can use AWS CDK to deploy a working MWAA environment, and I will provide enough details that you should be able to tailor this to your own needs. It should take (if everything works ok!) around 45-60 minutes to complete. Given that Apache Airflow uses Python, this CDK application is also going to be using Python.
 
@@ -23,7 +23,7 @@ If you are planning on using KMS, then please make sure you read this additional
 * An environment with the AWS CDK configured and running - it is outside the scope of this post to cover what AWS CDK is, but check out my open source newsletter as I often feature great tutorial blog posts. Also, I would ensure you are running the latest version too.
 * Access to an AWS region where Managed Workflows for Apache Airflow is supported
 
-I have provided everything you need in a [GitHub repository](https://aws-oss.beachgeek.co.uk/fs).
+I have provided everything you need in a [GitHub repository](https://github.com/094459/blogpost-cdk-mwaa).
 
 Some thing to watch out for:
 

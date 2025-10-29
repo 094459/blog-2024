@@ -28,17 +28,17 @@ So thank you to the following open source heroes:   Chuong Tran (Chris), Gary St
 
 **aws-terrajet**
 
-[aws-terrajet](https://aws-oss.beachgeek.co.uk/33b) is a project from Chuong Tran (Chris) that aide from having a really cool project name, aims to help Developers deploy their monolith application to AWS in the easiest and fastest way. From the README we can see that "TerraJet follows AWS best practices to help your infrastructure archives reliability, security, performance, and cost optimisation". Certainly looks interesting, and got a lot of interest on Reddit.
+[aws-terrajet](https://github.com/chuongtran27/aws-terrajet) is a project from Chuong Tran (Chris) that aide from having a really cool project name, aims to help Developers deploy their monolith application to AWS in the easiest and fastest way. From the README we can see that "TerraJet follows AWS best practices to help your infrastructure archives reliability, security, performance, and cost optimisation". Certainly looks interesting, and got a lot of interest on Reddit.
 
 ![architecture of aws-terrajet](https://github.com/chuongtran27/aws-terrajet/blob/main/images/diagram.png?raw=true)
 
 **aws-dynasync**
 
-[aws-dynasync](https://aws-oss.beachgeek.co.uk/33c) is fresh from the open source forge at awslabs, and this project helps you create an AWS AppSync GraphQL API and an Amazon DynamoDB database with a single command. You can automate the building and provisioning of a GraphQL API using a single config file with AWS AppSync and Amazon DynamoDb to store the data. Nicely details documentation with examples means that if you are working in AWS AppSync and Amazon DynamoDB, you have to try this out.
+[aws-dynasync](https://github.com/awslabs/aws-dynasync) is fresh from the open source forge at awslabs, and this project helps you create an AWS AppSync GraphQL API and an Amazon DynamoDB database with a single command. You can automate the building and provisioning of a GraphQL API using a single config file with AWS AppSync and Amazon DynamoDb to store the data. Nicely details documentation with examples means that if you are working in AWS AppSync and Amazon DynamoDB, you have to try this out.
 
 **chaos-lambda-extension**
 
-[chaos-lambda-extension](https://aws-oss.beachgeek.co.uk/33a) AWS Hero Efi Merdler-Kravitz is back with another tool that allows you to inject faults into Lambda functions without modifying the function code. Unlike previous chaos implementations that required tight coupling with the Lambda runtime, this extension is runtime-agnostic. It can operate with any runtime that utilises Amazon Linux 2. The chaos extension is publicly available as a layer and you can easily incorporate the layer using the AWS Console, or your preferred IAC solution. Efi is on a mission to create Rust based tools that help AWS developers, so check this out and let him know what you think. Efi reach out and added:
+[chaos-lambda-extension](https://github.com/aws-cli-tools/chaos-lambda-extension) AWS Hero Efi Merdler-Kravitz is back with another tool that allows you to inject faults into Lambda functions without modifying the function code. Unlike previous chaos implementations that required tight coupling with the Lambda runtime, this extension is runtime-agnostic. It can operate with any runtime that utilises Amazon Linux 2. The chaos extension is publicly available as a layer and you can easily incorporate the layer using the AWS Console, or your preferred IAC solution. Efi is on a mission to create Rust based tools that help AWS developers, so check this out and let him know what you think. Efi reach out and added:
 
 > *"It's a Rust-written Lambda extension that introduces chaos, but here's the kicker – no code changes needed. It's a bit of a game-changer compared to other chaos utilities for Lambda."*
 
@@ -50,7 +50,7 @@ Also, Efi is looking for your feedback. He told me:
 
 **guidance-for-natural-language-queries-of-relational-databases-on-aws**
 
-[guidance-for-natural-language-queries-of-relational-databases-on-aws](https://aws-oss.beachgeek.co.uk/337) demonstrates how to build an application enabling users to ask questions directly of relational databases using natural language queries (NLQ). The architecture uses LangChain’s SQL Database Chain, a Streamlit framework, and an Amazon SageMaker JumpStart Foundation Model (FM). With this Guidance, your NLQ will be converted into a natural language answer as part of the NLQ process. After submitting the converted SQL query and compiling the results, the results will be converted using generative artificial intelligence (AI) into a text explanation written in NLQ. The translation from SQL to NLQ is supported by a foundation model (FM) that translates the natural language question to SQL and back to a natural language answer. Gary Stafford who features regularly in this newsletter, wrote:
+[guidance-for-natural-language-queries-of-relational-databases-on-aws](https://github.com/aws-solutions-library-samples/guidance-for-natural-language-queries-of-relational-databases-on-aws) demonstrates how to build an application enabling users to ask questions directly of relational databases using natural language queries (NLQ). The architecture uses LangChain’s SQL Database Chain, a Streamlit framework, and an Amazon SageMaker JumpStart Foundation Model (FM). With this Guidance, your NLQ will be converted into a natural language answer as part of the NLQ process. After submitting the converted SQL query and compiling the results, the results will be converted using generative artificial intelligence (AI) into a text explanation written in NLQ. The translation from SQL to NLQ is supported by a foundation model (FM) that translates the natural language question to SQL and back to a natural language answer. Gary Stafford who features regularly in this newsletter, wrote:
 
 > "This solution is first in a set of Generative AI Guidance from AWS to help our customers accelerate development of Generative AI use cases on AWS. Natural Language Query (NLQ) of structured data in relational, NoSQL, timeseries, and graph databases is of huge industry interest."
 > 
@@ -59,49 +59,49 @@ Also, Efi is looking for your feedback. He told me:
 
 **llm-langchain-sql-demo**
 
-[llm-langchain-sql-demo](https://aws-oss.beachgeek.co.uk/338) this repo provides code to enable you to follow along in the excellent post from colleague and regular face within this newsletter, Gary Stafford. In [Generative AI for Analytics: Performing Natural Language Queries on Amazon RDS using SageMaker, LangChain, and LLMs](https://aws-oss.beachgeek.co.uk/339), Gary shows you how you can use LangChain’s SQL Database Chain and Agent with large language models to perform natural language queries (NLQ) of Amazon RDS for PostgreSQL database. You will need access to OpenAI and Anthropic API keys to use this code.
+[llm-langchain-sql-demo](https://github.com/garystafford/llm-langchain-sql-demo) this repo provides code to enable you to follow along in the excellent post from colleague and regular face within this newsletter, Gary Stafford. In [Generative AI for Analytics: Performing Natural Language Queries on Amazon RDS using SageMaker, LangChain, and LLMs](https://www.linkedin.com/pulse/generative-ai-analytics-performing-natural-language-queries-stafford/), Gary shows you how you can use LangChain’s SQL Database Chain and Agent with large language models to perform natural language queries (NLQ) of Amazon RDS for PostgreSQL database. You will need access to OpenAI and Anthropic API keys to use this code.
 
 ### AWS and Community blog posts
 
 **Community round up**
 
-Lots of really interesting content from the AWS Community this week, but starting us off is AWS Community Builder Sreekesh Iyer with his post, [Self Hosting Supabase on AWS](https://aws-oss.beachgeek.co.uk/333). [Supabase](https://aws-oss.beachgeek.co.uk/334) is a well loved open source backend as a service that allows web and app developers to simplify common functionality they need (authentication and authorisation, storage, API generation, etc), and in this post Sreekesh provides a quick guide to get this up and running in your AWS environment so you can try it out for yourself. I somehow missed this post when it first came out, but AWS Hero Efi Merdler-Kravitz put together [Migrating a Web App to AWS Lambda with Lambda Web Adapter](https://aws-oss.beachgeek.co.uk/332) that looked at how to use a project featured in [#146](https://dev.to/aws/aws-open-source-newsletter-146-26bh) of this newsletter, [aws-lambda-web-adapter](https://aws-oss.beachgeek.co.uk/2jv), to migrate a sample web application. If you missed this project the first time, read Efi's post and check out the project, it is super interesting. Vector databases and Large Language Models (LLMs) are everywhere it seems, so it is handy that AWS Community Builder Dejanu Alex has put together [OpenSearch as Vector DB: Supercharge Your LLM](https://aws-oss.beachgeek.co.uk/335), which provides a quick post on how Amazon OpenSearch can help you as well as showing you how to get this up and running. To finish up this Community roundup we have a regular face, AWS Community Builder Lars Jacobsson. He is back with a blog post this time, [Introducing samp-cli for local Lambda debugging of SAM and CDK stacks](https://aws-oss.beachgeek.co.uk/336) looking at how one of this projects can help you dear developer, to improve the local developer experience when using AWS SAM and CDK. It is a must read this week.
+Lots of really interesting content from the AWS Community this week, but starting us off is AWS Community Builder Sreekesh Iyer with his post, [Self Hosting Supabase on AWS](https://dev.to/aws-builders/self-hosting-supabase-on-aws-1cdl). [Supabase](https://github.com/supabase/supabase) is a well loved open source backend as a service that allows web and app developers to simplify common functionality they need (authentication and authorisation, storage, API generation, etc), and in this post Sreekesh provides a quick guide to get this up and running in your AWS environment so you can try it out for yourself. I somehow missed this post when it first came out, but AWS Hero Efi Merdler-Kravitz put together [Migrating a Web App to AWS Lambda with Lambda Web Adapter](https://lumigo.io/blog/migrating-a-web-app-to-aws-lambda-with-lambda-web-adapter/) that looked at how to use a project featured in [#146](https://dev.to/aws/aws-open-source-newsletter-146-26bh) of this newsletter, [aws-lambda-web-adapter](https://github.com/awslabs/aws-lambda-web-adapter), to migrate a sample web application. If you missed this project the first time, read Efi's post and check out the project, it is super interesting. Vector databases and Large Language Models (LLMs) are everywhere it seems, so it is handy that AWS Community Builder Dejanu Alex has put together [OpenSearch as Vector DB: Supercharge Your LLM](https://dejanualexandru.medium.com/opensearch-as-vector-db-supercharge-your-llm-fbd90d74c421), which provides a quick post on how Amazon OpenSearch can help you as well as showing you how to get this up and running. To finish up this Community roundup we have a regular face, AWS Community Builder Lars Jacobsson. He is back with a blog post this time, [Introducing samp-cli for local Lambda debugging of SAM and CDK stacks](https://dev.to/aws-builders/introducing-samp-cli-for-local-lambda-debugging-1m01) looking at how one of this projects can help you dear developer, to improve the local developer experience when using AWS SAM and CDK. It is a must read this week.
 
 **Powertools for AWS Lambda**
 
-Whether you are new to Powertools for AWS Lambda, or a seasoned user, Mark Sailes [tweeted](https://aws-oss.beachgeek.co.uk/32x) last week details about the [Discord server](https://aws-oss.beachgeek.co.uk/32y) that you should join in order to meet the broader Powertools community and stay up to date with all the latest news.
+Whether you are new to Powertools for AWS Lambda, or a seasoned user, Mark Sailes [tweeted](https://twitter.com/MarkSailes3/status/1683775779119812608) last week details about the [Discord server](https://discord.com/invite/B8zZKbbyET) that you should join in order to meet the broader Powertools community and stay up to date with all the latest news.
 
 **Open Application Model (OAM)**
 
-Open Application Model (OAM) is an open-source specification for building cloud-native applications. It provides a declarative way to define the components of an application, including its services, configuration, and dependencies. In the post, [Application first delivery on Kubernetes with Open Application Model](https://aws-oss.beachgeek.co.uk/32v)  Daniel Higuero, CTO of Napptive collaborates with Tsahi Duek, Andreas Lindh, and Siva Guruvareddiar on a hands on guide on how to implement the OAM using KubeVela, an open-source project, which implements the Open Application Model. Great post, well worth checking out. [hands on]
+Open Application Model (OAM) is an open-source specification for building cloud-native applications. It provides a declarative way to define the components of an application, including its services, configuration, and dependencies. In the post, [Application first delivery on Kubernetes with Open Application Model](https://aws.amazon.com/blogs/containers/application-first-delivery-on-kubernetes-with-open-application-model/)  Daniel Higuero, CTO of Napptive collaborates with Tsahi Duek, Andreas Lindh, and Siva Guruvareddiar on a hands on guide on how to implement the OAM using KubeVela, an open-source project, which implements the Open Application Model. Great post, well worth checking out. [hands on]
 
 ![overview of oam components](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/07/26/Kubevela-Architecture.png)
 
 **Traefik**
 
-Traefik is an open-source cloud-native load balancer and reverse proxy application developed by the software company Traefik Labs. In the post, [Implementing application load balancing of Amazon ECS Anywhere workloads using Traefik Proxy](https://aws-oss.beachgeek.co.uk/32u), Cameron Senese demonstrates how to deploy and load balance a web application across multiple Amazon ECS Anywhere external instances, using Traefik Proxy (Traefik) [hands on]
+Traefik is an open-source cloud-native load balancer and reverse proxy application developed by the software company Traefik Labs. In the post, [Implementing application load balancing of Amazon ECS Anywhere workloads using Traefik Proxy](https://aws.amazon.com/blogs/containers/implementing-application-load-balancing-of-amazon-ecs-anywhere-workloads-using-traefik-proxy/), Cameron Senese demonstrates how to deploy and load balance a web application across multiple Amazon ECS Anywhere external instances, using Traefik Proxy (Traefik) [hands on]
 
 ![overview of traefik proxy solution architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/07/18/Solution-Operation.png)
 
 **Keycloak**
 
-After [blogging recently](https://dev.to/aws/integrating-keycloak-as-my-identity-provider-for-iam-identity-centre-part-one-deploying-keycloak-on-aws-2ol1) about how to use the CDK construct to deploy Keycloak into your AWS environment, I was delighted to see this post from Joseph Keating, Dinuth De Zoysa, and Virginia Chu. [Configure Keycloak on Amazon Elastic Kubernetes Service (Amazon EKS) using Terraform](https://aws-oss.beachgeek.co.uk/32r) helps you to deploy Keycloak into your AWS environment, using Terraform. Whereas my post helped you deploy on ECS, this one deploys into your Kubernetes clusters. Very nice post, with all the source code you need to deploy provide in the GitHub repo. [hands on]
+After [blogging recently](https://dev.to/aws/integrating-keycloak-as-my-identity-provider-for-iam-identity-centre-part-one-deploying-keycloak-on-aws-2ol1) about how to use the CDK construct to deploy Keycloak into your AWS environment, I was delighted to see this post from Joseph Keating, Dinuth De Zoysa, and Virginia Chu. [Configure Keycloak on Amazon Elastic Kubernetes Service (Amazon EKS) using Terraform](https://aws.amazon.com/blogs/opensource/configure-keycloak-on-amazon-elastic-kubernetes-service-amazon-eks-using-terraform/) helps you to deploy Keycloak into your AWS environment, using Terraform. Whereas my post helped you deploy on ECS, this one deploys into your Kubernetes clusters. Very nice post, with all the source code you need to deploy provide in the GitHub repo. [hands on]
 
 ![keycloak on eks](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/07/19/Keycloak-access-diagram.png)
 
 **Other posts and quick reads**
 
-* [Building better container image](https://aws-oss.beachgeek.co.uk/32t)s shows you how to build better container images using best practices [hands on]
-* [The role of vector datastores in generative AI applications](https://aws-oss.beachgeek.co.uk/32q) describes the role of vector databases in generative AI applications
+* [Building better container image](https://aws.amazon.com/blogs/containers/building-better-container-images/)s shows you how to build better container images using best practices [hands on]
+* [The role of vector datastores in generative AI applications](https://aws.amazon.com/blogs/database/the-role-of-vector-datastores-in-generative-ai-applications/) describes the role of vector databases in generative AI applications
 
 ![vector datastores in generative ai](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/07/25/dbblog-3423-image005.png)
 
-* [Revolutionize retail recommendations for ecommerce with Amazon RDS for PostgreSQL and GenAI](https://aws-oss.beachgeek.co.uk/32o) explores the significance of vector databases in retail recommendations, and how they are revolutionising the ecommerce landscape
-* [Build a centralized audit data collection for Amazon RDS for PostgreSQL using Amazon S3 and Amazon Athena](https://aws-oss.beachgeek.co.uk/32p) is a hands on guide that shows you how to capture and store audit data from an Amazon RDS for PostgreSQL database, store it in Amazon S3, and then process the data so you can query it with Amazon Athena [hands on]
+* [Revolutionize retail recommendations for ecommerce with Amazon RDS for PostgreSQL and GenAI](https://aws.amazon.com/blogs/database/revolutionize-retail-recommendations-for-ecommerce-with-amazon-rds-for-postgresql-and-genai/) explores the significance of vector databases in retail recommendations, and how they are revolutionising the ecommerce landscape
+* [Build a centralized audit data collection for Amazon RDS for PostgreSQL using Amazon S3 and Amazon Athena](https://aws.amazon.com/blogs/database/build-a-centralized-audit-data-collection-for-amazon-rds-for-postgresql-using-amazon-s3-and-amazon-athena/) is a hands on guide that shows you how to capture and store audit data from an Amazon RDS for PostgreSQL database, store it in Amazon S3, and then process the data so you can query it with Amazon Athena [hands on]
 
 ![overview of centralised data collection for rds postgresql](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/07/21/DBBLOG-2084-01-1.jpg)
 
-* [Optimize AWS Inferentia utilization with FastAPI and PyTorch models on Amazon EC2 Inf1 & Inf2 instances](https://aws-oss.beachgeek.co.uk/32s) helps you get started in deploying FastAPI model servers on AWS Inferentia devices, ready to start serving up your PyTorch models [hands on]
+* [Optimize AWS Inferentia utilization with FastAPI and PyTorch models on Amazon EC2 Inf1 & Inf2 instances](https://aws.amazon.com/blogs/machine-learning/optimize-aws-inferentia-utilization-with-fastapi-and-pytorch-models-on-amazon-ec2-inf1-inf2-instances/) helps you get started in deploying FastAPI model servers on AWS Inferentia devices, ready to start serving up your PyTorch models [hands on]
 
 ![overview of fastapi, pytorch on inferentia](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/07/14/ml-13916-img2.png)
 
@@ -109,11 +109,11 @@ After [blogging recently](https://dev.to/aws/integrating-keycloak-as-my-identity
 
 **OpenSearch**
 
-Last week the OpenSearch community posted, [Introducing OpenSearch 2.9.0](https://aws-oss.beachgeek.co.uk/32z) with new features designed to help you build better search solutions and integrate more machine learning (ML) into your applications, along with updates for security analytics workloads, geospatial visualisations, and more. Read the post to get all that OpenSearch goodness.
+Last week the OpenSearch community posted, [Introducing OpenSearch 2.9.0](https://opensearch.org/blog/introducing-opensearch-2.9.0/) with new features designed to help you build better search solutions and integrate more machine learning (ML) into your applications, along with updates for security analytics workloads, geospatial visualisations, and more. Read the post to get all that OpenSearch goodness.
 
 ![overview of opensearch 2.90 new features](https://opensearch.org/assets/media/blog-images/2023-07-24-introducing-opensearch-2.9.0/associate-existing.gif)
 
-One of the interesting experimental features in this release are Extensions. In the post, [Introducing extensions for OpenSearch](https://aws-oss.beachgeek.co.uk/330) Sarat Vemulapalli, Dan Widdis, Owais Kazi, Daniel (dB.) Doubrovkine, Dagney Braun, Minal Shah, and Fanit Kolchina dive deeper and walk you through what Extensions in OpenSearch are and why it was needed.
+One of the interesting experimental features in this release are Extensions. In the post, [Introducing extensions for OpenSearch](https://opensearch.org/blog/introducing-extensions-for-opensearch/) Sarat Vemulapalli, Dan Widdis, Owais Kazi, Daniel (dB.) Doubrovkine, Dagney Braun, Minal Shah, and Fanit Kolchina dive deeper and walk you through what Extensions in OpenSearch are and why it was needed.
 
 ![overview of OpenSearch extensions](https://opensearch.org/assets/media/blog-images/2023-07-25-introducing-extensions-for-opensearch/extensions.png)
 
@@ -145,7 +145,7 @@ Finally, from Amazon EMR on EC2 to Amazon EMR on EKS. Apache Spark with Java 17 
 
 *Bonus material*
 
-Check out the post, [Improved scalability and resiliency for Amazon EMR on EC2 clusters](https://aws-oss.beachgeek.co.uk/32w), where Ravi Kumar Singh and Kevin Wikant dive into improvements that AWS has made in Amazon EMR on EC2 with the goal to make your EMR clusters more resilient and stable.
+Check out the post, [Improved scalability and resiliency for Amazon EMR on EC2 clusters](https://aws.amazon.com/blogs/big-data/improved-scalability-and-resiliency-for-amazon-emr-on-ec2-clusters/), where Ravi Kumar Singh and Kevin Wikant dive into improvements that AWS has made in Amazon EMR on EC2 with the goal to make your EMR clusters more resilient and stable.
 
 **Apache Iceberg**
 
@@ -157,11 +157,11 @@ AWS Glue Crawlers now supports Apache Hudi tables, allowing customers to query d
 
 **Go**
 
-If you are a Go developer, then make sure you check out [Migrating AWS Lambda functions from the Go1.x runtime to the custom runtime on Amazon Linux 2](https://aws-oss.beachgeek.co.uk/32n) where Micah Walter, Yanko Bolanos, and Ramesh Mathikumar describes our plans to improve performance and streamline the user experience for customers writing AWS Lambda functions using Go.
+If you are a Go developer, then make sure you check out [Migrating AWS Lambda functions from the Go1.x runtime to the custom runtime on Amazon Linux 2](https://aws.amazon.com/blogs/compute/migrating-aws-lambda-functions-from-the-go1-x-runtime-to-the-custom-runtime-on-amazon-linux-2/) where Micah Walter, Yanko Bolanos, and Ramesh Mathikumar describes our plans to improve performance and streamline the user experience for customers writing AWS Lambda functions using Go.
 
 **Python**
 
-On a related note, you can now use Python 3.11 in AWS Lambda. Ramesh Mathikumar, and Francesco Vergona put together [Python 3.11 runtime now available in AWS Lambda](https://aws-oss.beachgeek.co.uk/331) that explores this in more details.
+On a related note, you can now use Python 3.11 in AWS Lambda. Ramesh Mathikumar, and Francesco Vergona put together [Python 3.11 runtime now available in AWS Lambda](https://aws.amazon.com/blogs/compute/python-3-11-runtime-now-available-in-aws-lambda/) that explores this in more details.
 
 ### Videos of the week
 
@@ -186,7 +186,7 @@ Pacu is an open source tool which is used for ethical offensive security . In th
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes).
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag).
 
 We are currently planning the third series - if you have an open source project you want to talk about, get in touch and we might be able to feature your project in future episodes of Build on Open Source.
 
@@ -203,72 +203,72 @@ AWS User groups regularly meet across the world, and in this London chapter of t
 > This is the story of how Quivr went viral and how our tiny dev team struggled to build all the features our user base wanted. We will talk about the challenges we faced scaling a generative AI-powered app without it costing the earth on ECS Fargate, and the extra tooling we had to build along the way.
 > We will cover how we solved the problems of keeping the project open source and super easy to both use and contribute whilst leveraging AWS services in a different way to most."
 
-Find out more about the other talk and details of how to register, over at the[ meetup page AWS User Group UK Meetup](https://aws-oss.beachgeek.co.uk/32l)
+Find out more about the other talk and details of how to register, over at the[ meetup page AWS User Group UK Meetup](https://www.meetup.com/awsuguk/events/291124882/)
 
 
 
 **RADIUSS AWS Tutorials: Learn how to use a modern HPC software stack**
 **Online, throughout August 2023**
 
-Check out this series of online tutorials happening throughout August demonstrating how to use several GPU-ready projects in the cloud and on premises. Follow along on your own EC2 instance (provided). No previous experience necessary. Lots of open source technologies are covered in this series, so if you are looking to get started in this space, check out the details on the information page, [Learn how to use a modern HPC software stack](https://aws-oss.beachgeek.co.uk/31h). Brenden Bouffler has also put together a great blog post, [Call for participation: RADIUSS Tutorial Series 2023](https://aws-oss.beachgeek.co.uk/31i) that dives deeper into some of these topics and provides further information.
+Check out this series of online tutorials happening throughout August demonstrating how to use several GPU-ready projects in the cloud and on premises. Follow along on your own EC2 instance (provided). No previous experience necessary. Lots of open source technologies are covered in this series, so if you are looking to get started in this space, check out the details on the information page, [Learn how to use a modern HPC software stack](https://software.llnl.gov/radiuss/event/2023/07/11/radiuss-on-aws/). Brenden Bouffler has also put together a great blog post, [Call for participation: RADIUSS Tutorial Series 2023](https://aws.amazon.com/blogs/hpc/call-for-participation-radiuss-tutorial-series-2023/) that dives deeper into some of these topics and provides further information.
 
 **Building ML capabilities with PostgreSQL and pgvector extension**
 **YouTube, 14th September 4pm UK time**
 
 Generative AI and Large Language Models (LLMs) are powerful technologies for building applications with richer and more personalised user experiences. Application developers who use Amazon Aurora for PostgreSQL or Amazon RDS for PostgreSQL can use pgvector, an open-source extension for PostgreSQL, to harness the power of generative AI and LLMs for driving richer user experiences. Register now to learn more about this powerful technology.
 
-Watch it [live on YouTube](https://aws-oss.beachgeek.co.uk/325).
+Watch it [live on YouTube](https://www.youtube.com/watch?v=pJxrjs4D08k).
 
 **Build ML into your apps with PostgreSQL and the pgvector extension**
 **YouTube, 21st September 4pm UK time**
 
 This office hours session is a follow up for those who attended the fireside chat titled "Building ML capabilities into your apps with PostgreSQL and the open-source pgvector extension". Others are also welcome. Office hours attendees can ask questions related to this topic. Application developers who use Amazon Aurora for PostgreSQL or Amazon RDS for PostgreSQL can use pgvector, an open-source extension for PostgreSQL, to harness the power of generative AI and LLMs for driving richer user experiences. Join us to ask your questions and hear the answers to the most frequently asked questions about the pgvector extension for PostgreSQL.
 
-Watch it [live on YouTube](https://aws-oss.beachgeek.co.uk/326).
+Watch it [live on YouTube](https://www.youtube.com/watch?v=_GFUlJW2j70).
 
 **Open Source Summit, Europe**
 **September 19th-21st, Bilboa Spain**
 
-"Open Source Summit is the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors." You will find AWS as well as myself at Open Source Summit this year, so come by the AWS booth and say hello - from the glimpses I have seen so far, it is going to be awesome! Find out more at the official site, [Open Source Summit Europe 2023](https://aws-oss.beachgeek.co.uk/31f).
+"Open Source Summit is the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors." You will find AWS as well as myself at Open Source Summit this year, so come by the AWS booth and say hello - from the glimpses I have seen so far, it is going to be awesome! Find out more at the official site, [Open Source Summit Europe 2023](https://events.linuxfoundation.org/open-source-summit-europe/).
 
 **2023 UC Santa Cruz Open Source Symposium**
 **University of California, Santa Cruz**
 
-This three day event in Santa Cruz, California will provide the opportunity to learn about the cutting edge open source research being done throughout the University of California. To find out more and to register your interest, [sign up here](https://aws-oss.beachgeek.co.uk/32m).
+This three day event in Santa Cruz, California will provide the opportunity to learn about the cutting edge open source research being done throughout the University of California. To find out more and to register your interest, [sign up here](https://ucsc-ospo.github.io/event/20230927/).
 
 **OpenSearchCon**
 **Seattle, September 27-29, 2023**
 
-Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://aws-oss.beachgeek.co.uk/2zk) that provides you with what you can expect, and resources you need to help plan your trip.
+Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://opensearch.org/blog/registration-for-opensearchcon-2023-is-now-open/) that provides you with what you can expect, and resources you need to help plan your trip.
 
 **CDK Day, 2023**
 **Online, 29th September 2023**
 
 Back for the fourth instalment, this Community led event is a must attend for anyone working with infrastructure as code using the AWS Cloud Development Kit (CDK). It is intended to provide learning opportunities for all users of the CDK and related libraries. The CFP is open, so if you have some ideas for some talks then make sure you check that section out. Also, this year they are accepting talks in Espanol! Woohoo, love it!
 
-Check more at the website, [CDK Day](https://aws-oss.beachgeek.co.uk/fr) 
+Check more at the website, [CDK Day](https://www.cdkday.com/) 
 
 **Open Source India**
 **October 12-13th, NIMHANS Convention Center, Bengaluru**
 
-One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://aws-oss.beachgeek.co.uk/31d).
+One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://www.opensourceindia.in).
 
 **All Things Open**
 **October, 15th-17th, Raleigh Convention Center, Raleigh, North Carolina**
 
-I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://aws-oss.beachgeek.co.uk/31e)
+I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://2023.allthingsopen.org)
  
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

@@ -32,59 +32,59 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **censor-shell**
 
-[censor-shell](https://aws-oss.beachgeek.co.uk/fb) AWS Hero Ian Mckay is back with another open source tool that I know I will be using. This handy little tool allows you to hide phrases (such as passwords or AWS credentials) that you do not want to display on the screen when you are recording/sharing your screen whilst doing demos.
+[censor-shell](https://github.com/iann0036/censor-shell) AWS Hero Ian Mckay is back with another open source tool that I know I will be using. This handy little tool allows you to hide phrases (such as passwords or AWS credentials) that you do not want to display on the screen when you are recording/sharing your screen whilst doing demos.
 
 ![demo](https://github.com/iann0036/iann0036/raw/master/static/censor-shell.gif?raw=true)
 
 **sonar-cloudformation-plugin**
 
-[sonar-cloudformation-plugin](https://aws-oss.beachgeek.co.uk/ff) this came in from James Pether Sörling, and this project provides a Sonarqube cloudformation plugin that supports cfn-nag and checkov and  helps you to secure your development pipeline with static application security test (SAST) / Dynamic application security test (DAST), software composition analysis (SCA). James got in touch to say the latest updates:
+[sonar-cloudformation-plugin](https://github.com/Hack23/sonar-cloudformation-plugin) this came in from James Pether Sörling, and this project provides a Sonarqube cloudformation plugin that supports cfn-nag and checkov and  helps you to secure your development pipeline with static application security test (SAST) / Dynamic application security test (DAST), software composition analysis (SCA). James got in touch to say the latest updates:
 
 > Made it easier to handle false positives and override issues in cfn-nag (uses meta-data in cloudformation otherwise), also nice with an audit record who changed state of an detected issue.
 
 **cdk-serverless**
 
-[cdk-serverless](https://aws-oss.beachgeek.co.uk/fe) the folks at Taimos have created this nice open source tool to facilitate the use of the AWS CDK in serverless architectures. They have put together this video to show you how to get started.
+[cdk-serverless](https://github.com/taimos/cdk-serverless) the folks at Taimos have created this nice open source tool to facilitate the use of the AWS CDK in serverless architectures. They have put together this video to show you how to get started.
 
 {% youtube GGc0eg3E9MM %}
 
 **cdk-image-moderation**
 
-[https://github.com/pahud/cdk-image-moderation](https://aws-oss.beachgeek.co.uk/fd) Pahud Hsieh is back again this week, this time with an event-driven image moderation and notification service with AWS CDK. Once you deploy the sample code within the README.md, you can  upload any images into the defined bucket and you should be able to get the notification - in the example, they use Telegram chatrooms.
+[https://github.com/pahud/cdk-image-moderation](https://github.com/pahud/cdk-image-moderation) Pahud Hsieh is back again this week, this time with an event-driven image moderation and notification service with AWS CDK. Once you deploy the sample code within the README.md, you can  upload any images into the defined bucket and you should be able to get the notification - in the example, they use Telegram chatrooms.
 
 ![arch](https://raw.githubusercontent.com/pahud/cdk-image-moderation/31e1900be4651b8b4b5956994ff30d1ed0fea0d6/images/cdk-image-moderation2.svg)
 
 **aws-navbar-hue-safari-extension**
 
-[aws-navbar-hue-safari-extension](https://aws-oss.beachgeek.co.uk/fc) this is a very handy little tool from Dino Bektaš for those using Safari web browser to access AWS resources via the Console - it changes the AWS console's navbar color depending on the region you selected.
+[aws-navbar-hue-safari-extension](https://github.com/dbektas/aws-navbar-hue-safari-extension) this is a very handy little tool from Dino Bektaš for those using Safari web browser to access AWS resources via the Console - it changes the AWS console's navbar color depending on the region you selected.
 
 **B.AwsS3Backup**
 
-[B.AwsS3Backup](https://aws-oss.beachgeek.co.uk/fo) this open source library from Laimonas Sutkus is a python based package that allows you to back up, restore, and seed S3 buckets. From the description, this project: "Sometimes you want to make a small modification to your S3 bucket, however it usually requires destruction of the bucket itself. This library allows you to do those small modifications without any headache. You can easily backup all your data to your local computer, delete the bucket, create a new one with desired modifications, and then simply restore it"
+[B.AwsS3Backup](https://github.com/Biomapas/B.AwsS3Backup) this open source library from Laimonas Sutkus is a python based package that allows you to back up, restore, and seed S3 buckets. From the description, this project: "Sometimes you want to make a small modification to your S3 bucket, however it usually requires destruction of the bucket itself. This library allows you to do those small modifications without any headache. You can easily backup all your data to your local computer, delete the bucket, create a new one with desired modifications, and then simply restore it"
 
 ### Community open source posts
 
 **Terraform**
 
-A few weeks ago I shared an open source project from AWS Hero Ian Mckay called iamlive, an open source tool to help you generate basic IAM policies by from AWS client-side monitoring. This great post from Meir Gabay came up on my radar late last week, [Determining AWS IAM Policies According To Terraform And AWS CLI](https://aws-oss.beachgeek.co.uk/fn) which is a nice post writing how to put this into practice as part of your CI/CD pipelines. In this post Meir uses Terraform, but you should be able to take this approach to whatever tool you are using. One of my favourite posts this week, so thank you Meir!
+A few weeks ago I shared an open source project from AWS Hero Ian Mckay called iamlive, an open source tool to help you generate basic IAM policies by from AWS client-side monitoring. This great post from Meir Gabay came up on my radar late last week, [Determining AWS IAM Policies According To Terraform And AWS CLI](https://dev.to/unfor19/determining-aws-iam-policies-according-to-terraform-and-aws-cli-27md) which is a nice post writing how to put this into practice as part of your CI/CD pipelines. In this post Meir uses Terraform, but you should be able to take this approach to whatever tool you are using. One of my favourite posts this week, so thank you Meir!
 
 **DevSecOps**
 
-This post from Gourav Das, [DevSecOps Introduction: Clear Instructions on How to Build a DevSecOps Pipeline in AWS [Part 1]](https://aws-oss.beachgeek.co.uk/fg), is Part One of a two part series on how to build a DevSecOps pipeline on AWS that uses many open source tools. Gourav provides associated source code and CloudFormation templates so you can reproduce this stack for yourself.
+This post from Gourav Das, [DevSecOps Introduction: Clear Instructions on How to Build a DevSecOps Pipeline in AWS [Part 1]](https://hackernoon.com/devsecops-introduction-clear-instructions-on-how-to-build-a-pipeline-in-aws-part-1-5nx334e), is Part One of a two part series on how to build a DevSecOps pipeline on AWS that uses many open source tools. Gourav provides associated source code and CloudFormation templates so you can reproduce this stack for yourself.
 
 ![arch](https://hackernoon.com/images/gv93oOBCpSQa2kRIURhv0A8fVP33-n11633ax.png)
 
 **Istio**
 
-[Istio: external AWS Application LoadBalancer and Istio Ingress Gateway](https://aws-oss.beachgeek.co.uk/fi) Arseny Zinchenko follows up on a previous post showing you how to run a service mesh on Amazon EKS, and walks you through how to add an AWS Application Load Balancer (ALB) before the Istio Ingress Gateway.
+[Istio: external AWS Application LoadBalancer and Istio Ingress Gateway](https://itnext.io/istio-external-aws-application-loadbalancer-and-istio-ingress-gateway-fce3bfd3202f) Arseny Zinchenko follows up on a previous post showing you how to run a service mesh on Amazon EKS, and walks you through how to add an AWS Application Load Balancer (ALB) before the Istio Ingress Gateway.
 
 **Kubernetes**
 
-[Living with Kubernetes: Cluster Upgrades](https://aws-oss.beachgeek.co.uk/fj) this is the first of a series of posts from my colleague Justin Garrison, called Living with Kubernetes. In this post Justin shares some things that will guide you through common patterns to consider when upgrading Kubernetes in any environment. He covers a number of patterns for upgrading your clusterings, covering: In place, Blue/Green, Rolling and Canary. 
+[Living with Kubernetes: Cluster Upgrades](https://thenewstack.io/living-with-kubernetes-cluster-upgrades/) this is the first of a series of posts from my colleague Justin Garrison, called Living with Kubernetes. In this post Justin shares some things that will guide you through common patterns to consider when upgrading Kubernetes in any environment. He covers a number of patterns for upgrading your clusterings, covering: In place, Blue/Green, Rolling and Canary. 
 
 **GraphQL on Rust**
 
-[Running GraphQL on Lambda with Rust](https://aws-oss.beachgeek.co.uk/fk) Dylan Anthony explores writing API development using GraphQL in Rust. To quote Dylan:
+[Running GraphQL on Lambda with Rust](https://dylananthony.com/posts/graphql-lambda-rust) Dylan Anthony explores writing API development using GraphQL in Rust. To quote Dylan:
 
 > I've been pleasantly surprised so far at how easy it's been to write a GraphQL API using Rust, much easier than doing so with the OpenAPI tools I've tested so far.
 
@@ -94,25 +94,25 @@ This is a short post, and Dylan provides source code for you to explore further 
 
 A couple of posts this week on AWS Copilot, a tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate. [v1.5.0](https://github.com/aws/copilot-cli/releases/tag/v1.5.0) was released a few weeks back, so what better way to celebrate that by reading these posts.
 
-First up we have [Pilot your containers like a boss with AWS Copilot!](https://aws-oss.beachgeek.co.uk/fl) from Florian Clanet that is a great introduction, showing you how you can get started. The post shows you how to deploy a sample application using Copilot, and shares lots of great resources if you want to go further.
+First up we have [Pilot your containers like a boss with AWS Copilot!](https://blog.flolight.dev/pilot-your-containers-like-a-boss-with-aws-copilot) from Florian Clanet that is a great introduction, showing you how you can get started. The post shows you how to deploy a sample application using Copilot, and shares lots of great resources if you want to go further.
 
-Following Florian we have Danny Steenman writing, [Use AWS Copilot CLI to deploy containers on an existing infrastructure - Tutorial](https://aws-oss.beachgeek.co.uk/fm). In this tutorial Danny shows how you can easily deploy containers on your existing VPC with AWS Copilot CLI, using a sample Django application.
+Following Florian we have Danny Steenman writing, [Use AWS Copilot CLI to deploy containers on an existing infrastructure - Tutorial](https://dannys.cloud/aws-copilot-cli-deploy-containers-existing-infrastructure-tutorial). In this tutorial Danny shows how you can easily deploy containers on your existing VPC with AWS Copilot CLI, using a sample Django application.
 
 So not one but two good reasons for you to try out AWS Copilot this week.
 
 **Apache Airflow**
 
-[Automating your ELT Workflows with Managed Workflows for Apache Airflow - Part One](https://aws-oss.beachgeek.co.uk/ey) this week I managed to get some time to write about one of my favourite open source projects, Apache Airflow. In this two part blog post I cover how you can use Apache Airflow to build a workflow to help you automate your ELT/ETL tasks using two AWS services, Amazon Athena and Amazon EMR. If you are currently using Apache Hive/Presto as part of your day to day data engineering/analytics work, then take a look to see if this might be a useful approach to automating some of your tasks.
+[Automating your ELT Workflows with Managed Workflows for Apache Airflow - Part One](https://dev.to/aws/automating-your-elt-workflows-with-managed-workflows-for-apache-airflow-4bjg) this week I managed to get some time to write about one of my favourite open source projects, Apache Airflow. In this two part blog post I cover how you can use Apache Airflow to build a workflow to help you automate your ELT/ETL tasks using two AWS services, Amazon Athena and Amazon EMR. If you are currently using Apache Hive/Presto as part of your day to day data engineering/analytics work, then take a look to see if this might be a useful approach to automating some of your tasks.
 
 ![arch](https://raw.githubusercontent.com/094459/devday-elt-automation/main/images/demo-arch.png)
 
 ### Workshops
 
-The One Observability Demo Workshop was made available last year, and provides a workshop in multiple languages (English/Spanish/Korean/Japanese) that help you get hands on with monitoring and observability tools such as Prometheus, Grafana and OpenTelemetry. Last week Imaya Kumar Jagannathan, Rodrigue Koffi, and Rafael Pereyra put together this blog post, [AWS One Observability Demo Workshop: What’s new with Prometheus, Grafana, and OpenTelemetry ](https://aws-oss.beachgeek.co.uk/f0) that goes into a little more detail about what this workshop covers, as well as announcing some new features of this workshop that have been recently added.
+The One Observability Demo Workshop was made available last year, and provides a workshop in multiple languages (English/Spanish/Korean/Japanese) that help you get hands on with monitoring and observability tools such as Prometheus, Grafana and OpenTelemetry. Last week Imaya Kumar Jagannathan, Rodrigue Koffi, and Rafael Pereyra put together this blog post, [AWS One Observability Demo Workshop: What’s new with Prometheus, Grafana, and OpenTelemetry ](https://aws.amazon.com/blogs/opensource/aws-one-observability-demo-workshop-whats-new-with-prometheus-grafana-and-opentelemetry/) that goes into a little more detail about what this workshop covers, as well as announcing some new features of this workshop that have been recently added.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/16/ijaganna_One-Observability-Whats-New_f4.jpg)
 
-Also new this week was the [AWS IoT Greengrass v2 workshop](https://aws-oss.beachgeek.co.uk/fh). AWS IoT Greengrass is an Internet of Things (IoT) open source edge runtime and cloud service that helps you build, deploy, and manage device software. This workshop walks you through how to build an edge gateway running AWS IoT Greengrass Core software v2.
+Also new this week was the [AWS IoT Greengrass v2 workshop](https://greengrassv2.workshop.aws/en/). AWS IoT Greengrass is an Internet of Things (IoT) open source edge runtime and cloud service that helps you build, deploy, and manage device software. This workshop walks you through how to build an edge gateway running AWS IoT Greengrass Core software v2.
 
 ![arch](https://greengrassv2.workshop.aws/images/architecture_diagram.png)
 
@@ -120,43 +120,43 @@ Also new this week was the [AWS IoT Greengrass v2 workshop](https://aws-oss.beac
 
 **Amazon Corretto/OpenJDK**
 
-[TLS 1.0/1.1 changes in OpenJDK and Amazon Corretto](https://aws-oss.beachgeek.co.uk/f7) I covered this in last weeks newsletter, but this week we have Dave Currie who dives a little deeper into what is changing and provides some useful tools to help you audit your environments so you can plan you upgrade. This is essential reading this week.
+[TLS 1.0/1.1 changes in OpenJDK and Amazon Corretto](https://aws.amazon.com/blogs/opensource/tls-1-0-1-1-changes-in-openjdk-and-amazon-corretto/) I covered this in last weeks newsletter, but this week we have Dave Currie who dives a little deeper into what is changing and provides some useful tools to help you audit your environments so you can plan you upgrade. This is essential reading this week.
 
 **Python Flask**
 
-[Deploying Python Flask microservices to AWS using open source tools](https://aws-oss.beachgeek.co.uk/f1) Joseph Keating and Matt Hedges show you how to deploy an API running in a microservice architecture, deploying a Python Flask application using Docker to containerise it and deploy on Amazon ECS and then using SoapUI to test it.
+[Deploying Python Flask microservices to AWS using open source tools](https://aws.amazon.com/blogs/opensource/deploying-python-flask-microservices-to-aws-using-open-source-tools/) Joseph Keating and Matt Hedges show you how to deploy an API running in a microservice architecture, deploying a Python Flask application using Docker to containerise it and deploy on Amazon ECS and then using SoapUI to test it.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/05/awsjoe_Flask-Microservice_f2.png)
 
 **Amplify DataStore**
 
-Amplify DataStore is a library that provides a programming model for leveraging shared and distributed data without writing additional code for offline and online scenarios. In this post, [Connect Amplify DataStore with existing SQL datasources; adding offline and sync features in your application](https://aws-oss.beachgeek.co.uk/ez) Brice Pellé shows you how you can use the Amplify CLI to build an AppSync API for your DataStore application, that connects to an existing Aurora MySql database using an AppSync Lambda resolver and an Amazon RDS Proxy.
+Amplify DataStore is a library that provides a programming model for leveraging shared and distributed data without writing additional code for offline and online scenarios. In this post, [Connect Amplify DataStore with existing SQL datasources; adding offline and sync features in your application](https://aws.amazon.com/blogs/mobile/connect-amplify-datastore-with-existing-sql-datasources-adding-offline-and-sync-features-in-your-application/) Brice Pellé shows you how you can use the Amplify CLI to build an AppSync API for your DataStore application, that connects to an existing Aurora MySql database using an AppSync Lambda resolver and an Amazon RDS Proxy.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2021/04/16/image-15.png)
 
 **AWS SAM**
 
-[Optimizing serverless development with samconfig](https://aws-oss.beachgeek.co.uk/fa) Eric Johnson with a post that shows you how you can optimise development time by customising the default settings for your serverless application by using the samconfig used by the AWS SAM cli. Eric provides some examples to show you how, 
+[Optimizing serverless development with samconfig](https://aws.amazon.com/blogs/compute/optimizing-serverless-development-with-samconfig/) Eric Johnson with a post that shows you how you can optimise development time by customising the default settings for your serverless application by using the samconfig used by the AWS SAM cli. Eric provides some examples to show you how, 
 
 **Amazon Linux 2**
 
-I have not used Windows in a long time, but if this is your preferred developer setup then this post is going to interest you if you need to use that setup to develop, deploy or work on applications that use Amazon Linux2. In the post, [Developing on Amazon Linux 2 using Windows](https://aws-oss.beachgeek.co.uk/f2) Carlos Santos and Matthew Ostovarpour show you how you can use a feature of Windows, the Windows Subsystem for Linux (WSL) and Visual Studio Code to work with Amazon Linux 2.
+I have not used Windows in a long time, but if this is your preferred developer setup then this post is going to interest you if you need to use that setup to develop, deploy or work on applications that use Amazon Linux2. In the post, [Developing on Amazon Linux 2 using Windows](https://aws.amazon.com/blogs/developer/developing-on-amazon-linux-2-using-windows/) Carlos Santos and Matthew Ostovarpour show you how you can use a feature of Windows, the Windows Subsystem for Linux (WSL) and Visual Studio Code to work with Amazon Linux 2.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2021/04/19/developing-on-amazon-linux2-using-windows-overview.png)
 
 **AWS Toolkit for Visual Studio**
 
-[AWS Toolkit for Visual Studio](https://aws-oss.beachgeek.co.uk/f5) is an open source extension for Microsoft Visual Studio running on Microsoft Windows that makes it easier for developers to develop, debug, and deploy applications using. In this post [Introducing AWS Toolkit for Visual Studio support for AWS SSO and Assume Role with MFA](https://aws-oss.beachgeek.co.uk/f6) Christopher Christou shows you how you can use this extension to configure two sets of credentials: one that makes use of MFA, and another that uses AWS SSO, showing you how to configure the Toolkit to use these credentials.
+[AWS Toolkit for Visual Studio](https://github.com/aws/aws-toolkit-visual-studio) is an open source extension for Microsoft Visual Studio running on Microsoft Windows that makes it easier for developers to develop, debug, and deploy applications using. In this post [Introducing AWS Toolkit for Visual Studio support for AWS SSO and Assume Role with MFA](https://aws.amazon.com/blogs/developer/introducing-aws-toolkit-for-visual-studio-support-for-aws-sso-and-assume-role-with-mfa/) Christopher Christou shows you how you can use this extension to configure two sets of credentials: one that makes use of MFA, and another that uses AWS SSO, showing you how to configure the Toolkit to use these credentials.
 
 **Prometheus**
 
-[Monitoring your service mesh container environment using Amazon Managed Service for Prometheus](https://aws-oss.beachgeek.co.uk/f8) Vikram Venkataraman, Sathiyan Baskaran, Naseer Sayyad, and Shivkumar Rajendran join forces to show you how you can deploy an application running on EKS, integrate the app with AppMesh, scrape the Prometheus metrics using Grafana Agent and then to ingest the metrics into Amazon Managed Service for Prometheus (AMP) and and then visualise them in Amazon Managed Service for Grafana (AMG). This builds upon last weeks post that announced Prometheus now has native AWS Signature v4 support, making this solution simpler to implement.
+[Monitoring your service mesh container environment using Amazon Managed Service for Prometheus](https://aws.amazon.com/blogs/containers/monitoring-your-service-mesh-container-environment-using-amazon-managed-service-for-prometheus/) Vikram Venkataraman, Sathiyan Baskaran, Naseer Sayyad, and Shivkumar Rajendran join forces to show you how you can deploy an application running on EKS, integrate the app with AppMesh, scrape the Prometheus metrics using Grafana Agent and then to ingest the metrics into Amazon Managed Service for Prometheus (AMP) and and then visualise them in Amazon Managed Service for Grafana (AMG). This builds upon last weeks post that announced Prometheus now has native AWS Signature v4 support, making this solution simpler to implement.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/04/20/Grafana-updated.png)
 
 **FreeRTOS**
 
-[FreeRTOS.org update for Q1 2021](https://aws-oss.beachgeek.co.uk/f9)  Richard Elberger provides a round up of all the key announcements, news and posts from Q1 2021 covering FreeRTOS. From using Visual Studio Code, AVR Controllers, SESIP certification and much more, if you work or are interested in the IoT/devices spaces, check this post out. 
+[FreeRTOS.org update for Q1 2021](https://aws.amazon.com/blogs/opensource/freertos-org-update-for-q1-2021/)  Richard Elberger provides a round up of all the key announcements, news and posts from Q1 2021 covering FreeRTOS. From using Visual Studio Code, AVR Controllers, SESIP certification and much more, if you work or are interested in the IoT/devices spaces, check this post out. 
 
 ### Quick updates
 
@@ -182,7 +182,7 @@ If you missed Matt Asay's talk at the Cloud City Meetup last week, then you can 
 
 **PyTorch on AWS**
 
-In Dr Tony Hoang's Artificial Intelligence podcast, [Open source model server for PyTorch on AWS - TorchServe](https://aws-oss.beachgeek.co.uk/fp) Dr Hoang does a deep dive on PyTorch and TorchServe, covering what it is and how some customers are using it and the benefits they are seeing.
+In Dr Tony Hoang's Artificial Intelligence podcast, [Open source model server for PyTorch on AWS - TorchServe](https://open.spotify.com/episode/0sryuht8jzTsjGmClGDXWb) Dr Hoang does a deep dive on PyTorch and TorchServe, covering what it is and how some customers are using it and the benefits they are seeing.
 
 {% spotify spotify:episode:0sryuht8jzTsjGmClGDXWb %}
 
@@ -224,7 +224,7 @@ Curtis Rissi, a Principal Partner SA at AWS will walk attendees through the Bott
 
 This is a LIVE streamed event on Twitch  focused on accelerating full-stack mobile and web development. Learn about AWS Amplify, a set of purpose-built tools and services for front-end web and mobile developers that simplify app development. Deep dive into GraphQL and AWS AppSync, a fully-managed GraphQL service that improves app performance and developer productivity.
 
-You can read more about what you can expect in the blog post, [Mobile and Front-End Live, May 25](https://aws-oss.beachgeek.co.uk/f4)
+You can read more about what you can expect in the blog post, [Mobile and Front-End Live, May 25](https://aws.amazon.com/blogs/mobile/mobile-and-front-end-live-may-25-registration-open/)
 
 
 

@@ -13,7 +13,7 @@ Without further ado, lets get going.
 
 ### Elasticsearch
 
-[Stepping up for a truly open source Elasticsearch](https://aws-oss.beachgeek.co.uk/2x) Carl Meadows, Jules Graybill, Kyle Davis, and Mehul Shah shared an important announcement for customers and developers working with Elasticsearch. With the recent licensing changes that will, in effect moved Elasticsearch to become a proprietary code base, (SSPL is **not** open source) then this left customers and many in the open source communities with some difficult decisions to make. This post shares how AWS is creating a fork of Elasticsearch and Kibana so that both projects can remain open source, under the Apache 2.0 license. This is a really important post and I urge you to read it. 
+[Stepping up for a truly open source Elasticsearch](https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/) Carl Meadows, Jules Graybill, Kyle Davis, and Mehul Shah shared an important announcement for customers and developers working with Elasticsearch. With the recent licensing changes that will, in effect moved Elasticsearch to become a proprietary code base, (SSPL is **not** open source) then this left customers and many in the open source communities with some difficult decisions to make. This post shares how AWS is creating a fork of Elasticsearch and Kibana so that both projects can remain open source, under the Apache 2.0 license. This is a really important post and I urge you to read it. 
 
 If you have any questions or follow up, please do not hesitate to contact me - you can find my contact details in my bio but alternatively leave a comment and I will get back to you.
 
@@ -21,11 +21,11 @@ If you have any questions or follow up, please do not hesitate to contact me - y
 
 We very recently announced eighteen new or updated datasets from Illumina, the University of Alaska Fairbanks, IntelinAir, and others. Whilst not open source, these open data sets are very useful and are available for you to build on for research, education, and product development. Many of the listings for the datasets include applications, demos, tutorials, and publication references showing how you can use the data on AWS.
 
-To find out more details about these new data sets, read the [announcement here](https://aws-oss.beachgeek.co.uk/2m). 
+To find out more details about these new data sets, read the [announcement here](https://aws.amazon.com/about-aws/whats-new/2021/01/new-aws-public-datasets-available/). 
 
 **CloudFormation Guard - RFC**
 
-CloudFormation Guard is a tool that checks #CloudFormation templates for compliance using a simple declarative language. We are asking for feedback on upcoming changes to the rule language through this RFC. Be part of the conversation by submitting your feedback in our open pull request, which you can check out [here](https://aws-oss.beachgeek.co.uk/2s).
+CloudFormation Guard is a tool that checks #CloudFormation templates for compliance using a simple declarative language. We are asking for feedback on upcoming changes to the rule language through this RFC. Be part of the conversation by submitting your feedback in our open pull request, which you can check out [here](https://github.com/aws-cloudformation/cloudformation-guard/pull/111/files).
 
 
 ### Celebrating open source contributors
@@ -42,29 +42,29 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **driftctl**
 
-[driftctl](https://aws-oss.beachgeek.co.uk/2p) is an open source project that helps you to measure infrastructure as code coverage, and tracks infrastructure drift. Stephane Jourdan blogs about this project and the problem it is looking to address in, [Announcing Driftctl because drift matters](https://aws-oss.beachgeek.co.uk/2q).
+[driftctl](https://github.com/cloudskiff/driftctl) is an open source project that helps you to measure infrastructure as code coverage, and tracks infrastructure drift. Stephane Jourdan blogs about this project and the problem it is looking to address in, [Announcing Driftctl because drift matters](https://dev.to/getdriftctl/announcing-driftctl-because-drift-matters-4fl0).
 
 **dwcflint**
 
 [dwcflint](https://github.com/dwtechnologies/dwcflint) is an open source Python module that provides a runnable module and wrapper around Amazons cfn-lint tool for Cloudformation file linting that adds a few extra rules. It is written in Python 3, lightweight (only a single dependency) and fast. This tool emerged from trying to solve the problem around how they could easily bundle custom rules for the corner cases they had discovered, and distribute those among the development teams.
 
-You can read more about this from Lezgin Bakircioglu's post, [DWCFLint - The tool supporting our cost control & improves our security roles](https://aws-oss.beachgeek.co.uk/2k)
+You can read more about this from Lezgin Bakircioglu's post, [DWCFLint - The tool supporting our cost control & improves our security roles](https://dev.to/dwtech/dwcflint-how-we-solved-our-cloudformation-frustration-and-gained-cost-control-security-improvement-30fb)
 
 **s3p**
 
-[s3p](https://aws-oss.beachgeek.co.uk/39) S3P is an open source tool from GenUI that provides a radically faster way to copy, list, sync and do other bulk operations over large AWS S3 buckets. You can use it as a command-line tool for common operations, or you can use it as a library. The project readme shares how it is able to be so quick, as well as sharing a blog post they wrote earlier last year. Worth checking out if you are looking to improve/tune performance of your file copies.
+[s3p](https://github.com/generalui/s3p) S3P is an open source tool from GenUI that provides a radically faster way to copy, list, sync and do other bulk operations over large AWS S3 buckets. You can use it as a command-line tool for common operations, or you can use it as a library. The project readme shares how it is able to be so quick, as well as sharing a blog post they wrote earlier last year. Worth checking out if you are looking to improve/tune performance of your file copies.
 
 **aws-saas-factory-ref-solution-metrics-analytics**
 
-[aws-saas-factory-ref-solution-metrics-analytics](https://aws-oss.beachgeek.co.uk/2i) is an open source reference implementation of a metrics & analytics solution, which can be used to visualize the usage and consumption across various tenants, and tenant tiers, within your SaaS application. These metrics can then be used for various purposes, such as optimizing tenant experience and ultimately calculating cost per tenant. These metrics will also eventually have a direct impact on the pricing and tiering strategy of your SaaS application.
+[aws-saas-factory-ref-solution-metrics-analytics](https://github.com/aws-samples/aws-saas-factory-ref-solution-metrics-analytics/) is an open source reference implementation of a metrics & analytics solution, which can be used to visualize the usage and consumption across various tenants, and tenant tiers, within your SaaS application. These metrics can then be used for various purposes, such as optimizing tenant experience and ultimately calculating cost per tenant. These metrics will also eventually have a direct impact on the pricing and tiering strategy of your SaaS application.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2021/01/22/SaaS-Multi-Tenant-Metrics-2.jpg)
 
-You can read more about how this solution works in the blog post, [Capturing and Visualizing Multi-Tenant Metrics Inside a SaaS Application on AWS](https://aws-oss.beachgeek.co.uk/2j) by Anubhav Sharma and Tod Golding.
+You can read more about how this solution works in the blog post, [Capturing and Visualizing Multi-Tenant Metrics Inside a SaaS Application on AWS](https://aws.amazon.com/blogs/apn/capturing-and-visualizing-multi-tenant-metrics-inside-a-saas-application-on-aws/) by Anubhav Sharma and Tod Golding.
 
 **wdio-aws-device-farm-service**
 
-[wdio-aws-device-farm-service](https://aws-oss.beachgeek.co.uk/2n) Cross-browser e2e tests have never been simpler with the release of this new open source project that provides AWS Device Farm drivers for WebdriverIO. [WebdriverIO](https://aws-oss.beachgeek.co.uk/2o) is a test automation framework that allows you to run tests based on the Webdriver protocol and Appium automation technology. It provides support for your favorite BDD/TDD test framework and will run your tests locally or in the cloud using Sauce Labs, BrowserStack, TestingBot or LambdaTest. 
+[wdio-aws-device-farm-service](https://github.com/awslabs/wdio-aws-device-farm-service) Cross-browser e2e tests have never been simpler with the release of this new open source project that provides AWS Device Farm drivers for WebdriverIO. [WebdriverIO](https://github.com/webdriverio/webdriverio) is a test automation framework that allows you to run tests based on the Webdriver protocol and Appium automation technology. It provides support for your favorite BDD/TDD test framework and will run your tests locally or in the cloud using Sauce Labs, BrowserStack, TestingBot or LambdaTest. 
 
 ### Videos of the week
 
@@ -84,26 +84,26 @@ From the beginning of the year, the team get together to talk about the graduati
 
 **Firecracker**
 
-Have you heard or read about [Firecracker](https://aws-oss.beachgeek.co.uk/3e), the open source virtualisation technology that helps you create secure, fast, multi-tenant container solutions but didn't know where to start? Well this post from Julia Evans, [Firecracker: start a VM in less than a second](https://aws-oss.beachgeek.co.uk/3f) is just what you need. From a quick overview of the main problems Firecracker is looking to address to then providing a number of examples of how you can get it up and running, look no further than this post for your weekly dose of Firecracker goodness. 
+Have you heard or read about [Firecracker](https://firecracker-microvm.github.io/), the open source virtualisation technology that helps you create secure, fast, multi-tenant container solutions but didn't know where to start? Well this post from Julia Evans, [Firecracker: start a VM in less than a second](https://jvns.ca/blog/2021/01/23/firecracker--start-a-vm-in-less-than-a-second/) is just what you need. From a quick overview of the main problems Firecracker is looking to address to then providing a number of examples of how you can get it up and running, look no further than this post for your weekly dose of Firecracker goodness. 
 
 **GraphQL**
 
-[Testing AppSync GraphQL with Altair](https://aws-oss.beachgeek.co.uk/3c) this post from Joseph So shows you how you can use the [open source GraphQL client IDE Altair](https://aws-oss.beachgeek.co.uk/3d) to test your AWS AppSync GraphQL API's. Joseph walks you through a quick example so you can understand how this works and then apply this to your own projects.
+[Testing AppSync GraphQL with Altair](https://www.josephso.dev/testing-appsync-graphql-with-altair/) this post from Joseph So shows you how you can use the [open source GraphQL client IDE Altair](https://github.com/imolorhe/altair) to test your AWS AppSync GraphQL API's. Joseph walks you through a quick example so you can understand how this works and then apply this to your own projects.
 
 **PostgreSQL**
 
-[PostgREST on Fargate](https://aws-oss.beachgeek.co.uk/3a) Ned McClain walks you through how you can deploy PostgREST on AWS Fargate. [PostgREST](https://aws-oss.beachgeek.co.uk/3b) is an open source project that serves a fully RESTful API from any existing PostgreSQL database. Ned shows you how you can get this running on AWS Fargate, with a detailed walkthrough and instructions.
+[PostgREST on Fargate](https://www.nedmcclain.com/postgrest-rest-api-on-aws-fargate/) Ned McClain walks you through how you can deploy PostgREST on AWS Fargate. [PostgREST](https://github.com/PostgREST/postgrest) is an open source project that serves a fully RESTful API from any existing PostgreSQL database. Ned shows you how you can get this running on AWS Fargate, with a detailed walkthrough and instructions.
 
 **AWS Amplify**
 
-[Scheduled AWS Amplify Builds](https://aws-oss.beachgeek.co.uk/2l) Denis Gladkikh gives you a very quick post sharing a tip around how to trigger Hugo blog posts builds using the buidFuture option. Read on to find out more.
+[Scheduled AWS Amplify Builds](https://www.outcoldman.com/en/archive/2021/01/21/scheduled-aws-amplify-builds/) Denis Gladkikh gives you a very quick post sharing a tip around how to trigger Hugo blog posts builds using the buidFuture option. Read on to find out more.
 
 
 ### AWS open source posts
 
 **Deep Java Library**
 
-[How Netflix uses Deep Java Library (DJL) for distributed deep learning inference in real-time](https://aws-oss.beachgeek.co.uk/35) Stanislav Kirdey from Netflix and  Lu Huang, Lai Wei, and Qing Lan from AWS share with you how the observability team at Netflix uses Deep Java Library (DJL), an open source, deep learning toolkit for Java, to deploy transfer learning models in production to perform real-time clustering and analysis of applications’ log data. 
+[How Netflix uses Deep Java Library (DJL) for distributed deep learning inference in real-time](https://aws.amazon.com/blogs/opensource/how-netflix-uses-deep-java-library-djl-for-distributed-deep-learning-inference-in-real-time/) Stanislav Kirdey from Netflix and  Lu Huang, Lai Wei, and Qing Lan from AWS share with you how the observability team at Netflix uses Deep Java Library (DJL), an open source, deep learning toolkit for Java, to deploy transfer learning models in production to perform real-time clustering and analysis of applications’ log data. 
 
 One of the ways Netflix is able to sustain a high-quality customer experience is by employing deep learning models in the observability and monitoring space, specifically in observability of system and application logs (not user data) to help improve the customer experience. The Netflix observability team uses deep learning to automatically analyse and cluster gigabytes of log lines coming from various microservices in real-time.
 
@@ -113,31 +113,31 @@ The post provides sample code to help you reproduce the post.
 
 **Apache Airflow**
 
-[Running Airflow on AWS Fargate](https://aws-oss.beachgeek.co.uk/31) Re Alvarez-Parmar and Chaithanya Maisagoni show you how you can get Apache Airflow up and running on AWS Fargate. A few weeks ago I posted how one of our customers, Affirm has already undertaken this journey and the benefits they have seen. This post takes that one step further and takes a look at the technical and architectural considerations you will need to think about.
+[Running Airflow on AWS Fargate](https://aws.amazon.com/blogs/containers/running-airflow-on-aws-fargate/) Re Alvarez-Parmar and Chaithanya Maisagoni show you how you can get Apache Airflow up and running on AWS Fargate. A few weeks ago I posted how one of our customers, Affirm has already undertaken this journey and the benefits they have seen. This post takes that one step further and takes a look at the technical and architectural considerations you will need to think about.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/01/20/img_0416.png)
 
 **Apache Spark**
 
-This week we have a couple of posts on Apache Spark. Kicking this off we have Qing Lan, Carol McDonald, and Kong Zhao collaborating on this tutorial, [Leverage deep learning in Scala with GPU on Spark 3.0](https://aws-oss.beachgeek.co.uk/2u). This post demonstrate how to create a cluster of GPU machines and use Apache Spark with Deep Java Library (DJL) on Amazon EMR to leverage large-scale image classification in Scala. DJL now provides a GPU-based Deep Learning Java package that is designed to work smoothly in Spark.
+This week we have a couple of posts on Apache Spark. Kicking this off we have Qing Lan, Carol McDonald, and Kong Zhao collaborating on this tutorial, [Leverage deep learning in Scala with GPU on Spark 3.0](https://aws.amazon.com/blogs/opensource/leverage-deep-learning-in-scala-with-gpu-on-spark-3-0/). This post demonstrate how to create a cluster of GPU machines and use Apache Spark with Deep Java Library (DJL) on Amazon EMR to leverage large-scale image classification in Scala. DJL now provides a GPU-based Deep Learning Java package that is designed to work smoothly in Spark.
 
-Following that we have [Run Apache Spark 3.0 workloads 1.7 times faster with Amazon EMR runtime for Apache Spark](https://aws-oss.beachgeek.co.uk/34). Al MS and Peter Gvozdjak have put together an interesting benchmarking post to help you understand how you can improve the performance of your Apache Spark workloads. They use the [TPC-DS benchmark](https://aws-oss.beachgeek.co.uk/36) to do this, and as with all benchmarking posts, no spoilers - it is a short post, so check the results out for yourself.
+Following that we have [Run Apache Spark 3.0 workloads 1.7 times faster with Amazon EMR runtime for Apache Spark](https://aws.amazon.com/blogs/big-data/run-apache-spark-3-0-workloads-1-7-times-faster-with-amazon-emr-runtime-for-apache-spark/). Al MS and Peter Gvozdjak have put together an interesting benchmarking post to help you understand how you can improve the performance of your Apache Spark workloads. They use the [TPC-DS benchmark](http://www.tpc.org/tpcds/) to do this, and as with all benchmarking posts, no spoilers - it is a short post, so check the results out for yourself.
 
 **Apache Hudi**
 
-[Writing to Apache Hudi tables using AWS Glue Custom Connector](https://aws-oss.beachgeek.co.uk/32) Vishal Pathak follows up from a previous post (which you can find [here](https://aws-oss.beachgeek.co.uk/38)) taking a look at the volume (or "big") aspect of big data, and how you can use Apache Hudi tables created within the AWS Glue service to process millions of records (in this post they show an example of updating 70 million out of 200 million records). If you like your data big, this post is for you.
+[Writing to Apache Hudi tables using AWS Glue Custom Connector](https://aws.amazon.com/blogs/big-data/writing-to-apache-hudi-tables-using-aws-glue-connector/) Vishal Pathak follows up from a previous post (which you can find [here](https://aws.amazon.com/blogs/big-data/creating-a-source-to-lakehouse-data-replication-pipe-using-apache-hudi-aws-glue-aws-dms-and-amazon-redshift/)) taking a look at the volume (or "big") aspect of big data, and how you can use Apache Hudi tables created within the AWS Glue service to process millions of records (in this post they show an example of updating 70 million out of 200 million records). If you like your data big, this post is for you.
 
 **DevSecOps**
 
-[Building end-to-end AWS DevSecOps CI/CD pipeline with open source SCA, SAST and DAST tools](https://aws-oss.beachgeek.co.uk/2v) Srinivas Manepall shows how you can use a number of open source tools such as OWASP Dependency Check, SonarQube, PHPStan and OWASP Zap as part of your automated deployment pipelines to provide security capabilities such as detecting publicly available vulnerabilities in the code, static code analysis, finding common application vulnerabilities and more. This post uses a number of AWS services to help you incorporate these tools, so check it out.
+[Building end-to-end AWS DevSecOps CI/CD pipeline with open source SCA, SAST and DAST tools](https://aws.amazon.com/blogs/devops/building-end-to-end-aws-devsecops-ci-cd-pipeline-with-open-source-sca-sast-and-dast-tools/) Srinivas Manepall shows how you can use a number of open source tools such as OWASP Dependency Check, SonarQube, PHPStan and OWASP Zap as part of your automated deployment pipelines to provide security capabilities such as detecting publicly available vulnerabilities in the code, static code analysis, finding common application vulnerabilities and more. This post uses a number of AWS services to help you incorporate these tools, so check it out.
 
-This is a complete solution and the source code is available in the GitHub repository here, at [devsecops-cicd](https://aws-oss.beachgeek.co.uk/37)
+This is a complete solution and the source code is available in the GitHub repository here, at [devsecops-cicd](https://github.com/aws-samples/devsecops-cicd)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2021/01/21/pipeline-architecture.png)
 
 **Amazon Neptune and graph-app-kit**
 
-[Enabling low code graph data apps with Amazon Neptune and Graphistry](https://aws-oss.beachgeek.co.uk/2w) Leo Meyerovich CEO of Graphistry and Dave Bechberger and Taylor Riggan from AWS take a look at a new open-source tool, graph-app-kit, which aims to provide  a low code way to create powerful data applications for your Amazon Neptune managed graph database. 
+[Enabling low code graph data apps with Amazon Neptune and Graphistry](https://aws.amazon.com/blogs/database/enabling-low-code-graph-data-apps-with-amazon-neptune-and-graphistry/) Leo Meyerovich CEO of Graphistry and Dave Bechberger and Taylor Riggan from AWS take a look at a new open-source tool, graph-app-kit, which aims to provide  a low code way to create powerful data applications for your Amazon Neptune managed graph database. 
 
 ![demo](https://aws-database-blog.s3.amazonaws.com/artifacts/DBBLOG-1352-neptune-graphistry/graph_app_kit_gremlin.gif)
 
@@ -145,34 +145,34 @@ This post provides everything you need to get going to create stunning looking v
 
 **AWS Chalice**
 
-[AWS Chalice adds support for the AWS CDK](https://aws-oss.beachgeek.co.uk/2y) James Saryerwinnie follows up with another post on AWS Chalice and support in AWS CDK, this time sharing how the AWS CDK construct (cdk-chalice) has now been integrated into the AWS Chalice framework from version 1.22.0. In this post, James walks you through creating a sample application that shows how this integration works.
+[AWS Chalice adds support for the AWS CDK](https://aws.amazon.com/blogs/developer/aws-chalice-adds-support-for-the-aws-cdk/) James Saryerwinnie follows up with another post on AWS Chalice and support in AWS CDK, this time sharing how the AWS CDK construct (cdk-chalice) has now been integrated into the AWS Chalice framework from version 1.22.0. In this post, James walks you through creating a sample application that shows how this integration works.
 
 **Bottlerocket, Calico and eBPF**
 
-[Turbocharging EKS networking with Bottlerocket, Calico, and eBPF](https://aws-oss.beachgeek.co.uk/2z) Mikhail Shapirov and Curtis Rissi from AWS team up with Alex Pollitt, Co-founder and CTO at Tigera take a closer look at the support within Amazon EKS for running Bottlerocket, and what this means to managing the networking requirements you might have. Bottlerocket is an open source Linux distribution built by Amazon to run containers focused on security, operations, and manageability at scale. In this post you will read how Calico can build on top of this foundation to enhance the base networking for EKS beyond just adding network policy support . The benefits of this approach include accelerating network performance, removing the need to run kube-proxy, and preserving client source IP addresses when accessing Kubernetes Services from outside the cluster.
+[Turbocharging EKS networking with Bottlerocket, Calico, and eBPF](https://aws.amazon.com/blogs/containers/turbocharging-eks-networking-with-bottlerocket-calico-and-ebpf/) Mikhail Shapirov and Curtis Rissi from AWS team up with Alex Pollitt, Co-founder and CTO at Tigera take a closer look at the support within Amazon EKS for running Bottlerocket, and what this means to managing the networking requirements you might have. Bottlerocket is an open source Linux distribution built by Amazon to run containers focused on security, operations, and manageability at scale. In this post you will read how Calico can build on top of this foundation to enhance the base networking for EKS beyond just adding network policy support . The benefits of this approach include accelerating network performance, removing the need to run kube-proxy, and preserving client source IP addresses when accessing Kubernetes Services from outside the cluster.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/01/21/calico-ebpf-node-port.png)
 
 **PHP**
 
-[Building PHP Lambda functions with Docker container images](https://aws-oss.beachgeek.co.uk/30) Benjamin Smith is back with more PHP goodness, this time following up from the re:Invent announcement of AWS Lambda supporting Open Container Initiative (OCI) Spec v1.0 onwards) as a packaging format for your functions and how this can benefit folk who are running custom container runtimes such as the PHP one. This is a great post and game changing if you are running serverless PHP. 
+[Building PHP Lambda functions with Docker container images](https://aws.amazon.com/blogs/compute/building-php-lambda-functions-with-docker-container-images/) Benjamin Smith is back with more PHP goodness, this time following up from the re:Invent announcement of AWS Lambda supporting Open Container Initiative (OCI) Spec v1.0 onwards) as a packaging format for your functions and how this can benefit folk who are running custom container runtimes such as the PHP one. This is a great post and game changing if you are running serverless PHP. 
 
 **AWS SDK's**
 
-[AWS SDK for Go Version 2 – General Availability](https://aws-oss.beachgeek.co.uk/33) Shantanu Kotambkar posts about the general availability of the AWS SDK for Go, v2. This new SDK requires Go version 1.15 or higher, and offers better functionality and performance. Read the post for more details.
+[AWS SDK for Go Version 2 – General Availability](https://aws.amazon.com/blogs/developer/aws-sdk-for-go-version-2-general-availability/) Shantanu Kotambkar posts about the general availability of the AWS SDK for Go, v2. This new SDK requires Go version 1.15 or higher, and offers better functionality and performance. Read the post for more details.
 
 
 ### AWS Partner
 
 **PostgreSQL on AWS Graviton2**
 
-[PostgreSQL on ARM-based AWS EC2 Instances: Is It Any Good?](https://aws-oss.beachgeek.co.uk/2t) Jobin Augustine and Sergey Kuzmichev at Percona have put together a post to understand and compare the differences between running PostgreSQL on x86 and arm against a number of different workloads. As for all benchmarking posts, no spoilers - read the post. Warning, gratuitous use of graphs!
+[PostgreSQL on ARM-based AWS EC2 Instances: Is It Any Good?](https://www.percona.com/blog/2021/01/22/postgresql-on-arm-based-aws-ec2-instances-is-it-any-good/) Jobin Augustine and Sergey Kuzmichev at Percona have put together a post to understand and compare the differences between running PostgreSQL on x86 and arm against a number of different workloads. As for all benchmarking posts, no spoilers - read the post. Warning, gratuitous use of graphs!
 
 ![graph](https://www.percona.com/blog/wp-content/uploads/2021/01/saturation_IO.png)
 
 **CDK for Terraform**
 
-[Announcing CDK for Terraform 0.1](https://aws-oss.beachgeek.co.uk/2r) Anubhav Mishra writes about the release of CDK for Terraform 0.1, covering the enhancements that have been added since the launch last July and outlining how this project is moving closer to beta status.If you are using AWS CDK, HashiCorp's Terraform or just interested in IaC, check this post.
+[Announcing CDK for Terraform 0.1](https://www.hashicorp.com/blog/announcing-cdk-for-terraform-0-1) Anubhav Mishra writes about the release of CDK for Terraform 0.1, covering the enhancements that have been added since the launch last July and outlining how this project is moving closer to beta status.If you are using AWS CDK, HashiCorp's Terraform or just interested in IaC, check this post.
 
 ### Quick updates
 

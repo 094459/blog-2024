@@ -9,7 +9,7 @@ How are you using these new AI coding assistants like Amazon CodeWhisperer? I wa
 
 As I work on new projects, demos, blog posts, I often need to do supporting activities such as creating or cleaning up AWS environments, which I sometimes do by hand but mostly do via the AWS CLI or via Python scripts and boto3. I am working on a some demos to show how you can use tools like Griptape, which is a Python framework for AI workflows and pipelines which you can think of as an enterprise grade alternative to LangChain. I needed to delete a bunch of resources in my Amazon Sagemaker environment that I had forgotten to clean up. I had a few hundred SageMaker Models that were really distracting me as I love to have clean environments when I start writing new content.
 
-Typically I might just use the console to clean these up, but there were just too many so I decided to write a quick script to do this. In my VSCode I have Amazon CodeWispherer enabled via the AWS Toolkit (check out [this video](https://aws-oss.beachgeek.co.uk/37n) if you want to learn how). I thought I would try and use it to create a script to help me automate this.
+Typically I might just use the console to clean these up, but there were just too many so I decided to write a quick script to do this. In my VSCode I have Amazon CodeWispherer enabled via the AWS Toolkit (check out [this video](https://www.youtube.com/watch?v=rHNMfOK8pWI) if you want to learn how). I thought I would try and use it to create a script to help me automate this.
 
 I created a new file called "cleanup-sagemaker-models.py" and in the first line I wrote
 
@@ -72,7 +72,7 @@ I re-ran the script a few times, changing the search prefix until it had success
 
 **Improving the script**
 
-When I ran the script, I realised it was only bringing back the first page of models as they appear in the Amazon SageMaker console. I explored the "[sagemaker_client.list_models](https://aws-oss.beachgeek.co.uk/37o)" documentation in boto3 and noticed there was a "MaxResults=" parameter that could be set. I could set this myself, and this would have improved the script. But maybe I can see if Amazon CodeWhisperer can do this for me.
+When I ran the script, I realised it was only bringing back the first page of models as they appear in the Amazon SageMaker console. I explored the "[sagemaker_client.list_models](https://boto3.amazonaws.com/v1/documentation/api/1.26.98/reference/services/sagemaker/client/list_models.html)" documentation in boto3 and noticed there was a "MaxResults=" parameter that could be set. I could set this myself, and this would have improved the script. But maybe I can see if Amazon CodeWhisperer can do this for me.
 
 I deleted the script, and the tried again, this time using this comment
 

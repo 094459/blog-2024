@@ -34,25 +34,25 @@ So thank you to the following open source heroes: Lars Jacobsson, David Boyne, A
 
 **workload-discovery-on-aws**
 
-[workload-discovery-on-aws](https://aws-oss.beachgeek.co.uk/292) is a solution to visualize AWS Cloud workloads. With it you can build, customize, and share architecture diagrams of your workloads based on live data from AWS. The solution maintains an inventory of the AWS resources across your accounts and regions, mapping their relationships and displaying them in the user interface.
+[workload-discovery-on-aws](https://github.com/awslabs/workload-discovery-on-aws) is a solution to visualize AWS Cloud workloads. With it you can build, customize, and share architecture diagrams of your workloads based on live data from AWS. The solution maintains an inventory of the AWS resources across your accounts and regions, mapping their relationships and displaying them in the user interface.
 
 ![architecture of solution for workload discovery](https://github.com/awslabs/workload-discovery-on-aws/blob/main/docs/modules/ROOT/images/arch-diagram.png?raw=true)
 
-You can view more details by checking out the implementation guide over at, [Workload Discovery on AWS](https://aws-oss.beachgeek.co.uk/293)
+You can view more details by checking out the implementation guide over at, [Workload Discovery on AWS](https://aws.amazon.com/solutions/implementations/workload-discovery-on-aws/)
 
 **aws-resource-explorer-cli**
 
-[aws-resource-explorer-cli](https://aws-oss.beachgeek.co.uk/290) is the latest project from AWS Community Builder Lars Jacobsson, and provide a cli for the recently announced Resource Explorer feature (read more about that in the blog post, [Introducing AWS Resource Explorer – Quickly Find Resources in Your AWS Account](https://aws-oss.beachgeek.co.uk/291) from my colleague Danilo Poccia). The cli tool allows you to quickly find what you are looking for in the console before launching the web browser in the right place.
+[aws-resource-explorer-cli](https://github.com/ljacobsson/aws-resource-explorer-cli#readme) is the latest project from AWS Community Builder Lars Jacobsson, and provide a cli for the recently announced Resource Explorer feature (read more about that in the blog post, [Introducing AWS Resource Explorer – Quickly Find Resources in Your AWS Account](https://aws.amazon.com/blogs/aws/introducing-aws-resource-explorer-quickly-find-resources-in-your-aws-account/) from my colleague Danilo Poccia). The cli tool allows you to quickly find what you are looking for in the console before launching the web browser in the right place.
 
 ![demo of resource explorer cli](https://github.com/ljacobsson/aws-resource-explorer-cli/blob/main/images/demo.gif?raw=true)
 
 **cdk-schema-watcher**
 
-[cdk-schema-watcher](https://aws-oss.beachgeek.co.uk/28y) Serverless Developer Advocate and all round open source good guy David Boyne has been hard at the open source forge again, this time with his latest creation, SchemaWatcher. SchemaWatcher is a CDK construct that can help you scale your event-driven architecture by allowing event consumers to subscribe to schema changes. SchemaWatcher was designed to help developers manage their event-driven architecture. Notifying consumers of any changes to event structures can help catch issues before you see them in production. In David's words:
+[cdk-schema-watcher](https://github.com/boyney123/cdk-schema-watcher/) Serverless Developer Advocate and all round open source good guy David Boyne has been hard at the open source forge again, this time with his latest creation, SchemaWatcher. SchemaWatcher is a CDK construct that can help you scale your event-driven architecture by allowing event consumers to subscribe to schema changes. SchemaWatcher was designed to help developers manage their event-driven architecture. Notifying consumers of any changes to event structures can help catch issues before you see them in production. In David's words:
 
 > Over time our Event Driven Architectures (EDA) grow and it can become difficult to understand the impact of changes to downstream consumers. Producers can easily change their event schemas without consumers being aware. SchemaWatcher was built to help you setup notifications for your downstream consumers when using EventBridge. Never let a breaking schema scare you again!
 
-David's projects have one common trait - amazing documentation, and SchemaWatcher is no different. You can view the documentation at [cdk-schema-watcher.vercel.app](https://aws-oss.beachgeek.co.uk/28z)
+David's projects have one common trait - amazing documentation, and SchemaWatcher is no different. You can view the documentation at [cdk-schema-watcher.vercel.app](https://cdk-schema-watcher.vercel.app/)
 
 **aws-serverless-scheduler**
 
@@ -62,19 +62,19 @@ David's projects have one common trait - amazing documentation, and SchemaWatche
 
 **cloudenv**
 
-[cloudenv](https://aws-oss.beachgeek.co.uk/28o) is an open source proof of concept from Aidan Steele that allows your AWS Lambda functions to be configured to use secrets stored in AWS Parameter Store and AWS Secrets Manager in the same way that AWS ECS task definitions can be. Aidan has put together a detailed blog post, [Configuration in the cloud](https://aws-oss.beachgeek.co.uk/28p), that goes into more details. Take a look and get back to Aidan with your feedback.
+[cloudenv](https://github.com/aidansteele/cloudenv) is an open source proof of concept from Aidan Steele that allows your AWS Lambda functions to be configured to use secrets stored in AWS Parameter Store and AWS Secrets Manager in the same way that AWS ECS task definitions can be. Aidan has put together a detailed blog post, [Configuration in the cloud](https://awsteele.com/blog/2022/10/19/configuration-in-the-cloud.html), that goes into more details. Take a look and get back to Aidan with your feedback.
 
 ![example of cloudenv](https://awsteele.com/assets/2022-10-20-tada.png)
 
 **nitrogen**
 
-[nitrogen](https://aws-oss.beachgeek.co.uk/28v) is my vote for coolest project name this week, and is an open source tool for deploying web services to AWS Nitro Enclaves. Given a dockerfile and an ssh key, Nitrogen will spin up an EC2, configure the network, and build and deploy your web service. You get back a hostname that’s ready to go. Nitrogen is fully open source and it comes with pre-built scripts for deploying popular services like Nginx, Redis, and MongoDB. This sounds pretty amazing to me, so this is going straight to the top of the todo list.
+[nitrogen](https://github.com/capeprivacy/nitrogen) is my vote for coolest project name this week, and is an open source tool for deploying web services to AWS Nitro Enclaves. Given a dockerfile and an ssh key, Nitrogen will spin up an EC2, configure the network, and build and deploy your web service. You get back a hostname that’s ready to go. Nitrogen is fully open source and it comes with pre-built scripts for deploying popular services like Nginx, Redis, and MongoDB. This sounds pretty amazing to me, so this is going straight to the top of the todo list.
 
-Make sure you check out the documentation, which really does help explain and show how you might use enclave technology, as well as seeing the other demos from Cape Privacy, which you can find here [demos.capeprivacy.com](https://aws-oss.beachgeek.co.uk/28w)
+Make sure you check out the documentation, which really does help explain and show how you might use enclave technology, as well as seeing the other demos from Cape Privacy, which you can find here [demos.capeprivacy.com](https://demos.capeprivacy.com/)
 
 **sovereign-keys**
 
-[sovereign-keys](https://aws-oss.beachgeek.co.uk/289) Sovereignty has become a concern for some companies as they plan and move to Cloud computing. This project is designed around the hypothesis that your Cloud provider is not actively seeking to steal your data for its own gain, but rather that it can be forced by the law to surrender your data to a (foreign) government. Sovereign Keys gives you additional data protection guarantees and also provides an excuse that Cloud providers can use to argue they cannot comply with legally issued requests to access your data (e.g. requests issued under the CLOUD Act). 
+[sovereign-keys](https://github.com/d2si/sovereign-keys) Sovereignty has become a concern for some companies as they plan and move to Cloud computing. This project is designed around the hypothesis that your Cloud provider is not actively seeking to steal your data for its own gain, but rather that it can be forced by the law to surrender your data to a (foreign) government. Sovereign Keys gives you additional data protection guarantees and also provides an excuse that Cloud providers can use to argue they cannot comply with legally issued requests to access your data (e.g. requests issued under the CLOUD Act). 
 
 ![architecture overview of the sovereign-keys](https://github.com/d2si/sovereign-keys/blob/main/images/demo-architecture-overview.png?raw=true)
 
@@ -86,23 +86,23 @@ There is a lot of stuff to go through in this project, and the examples and docu
 
 **soap-to-serverless-modern-infrastructure-for-mature-apis**
 
-[soap-to-serverless-modern-infrastructure-for-mature-apis](https://aws-oss.beachgeek.co.uk/28s) this project provides a SOAP Service written in NodeJS that communicates with API Gateway which transforms the information payload using VTL to Lambda. Lambda responds back to API Gateway to maintain backward to SOAP and in JSON to REST calls. The repo provides a sample use case as to why this project might be helpful. A company has a legacy application communicating between layers using SOAP Services. The team that is in charge of the business logic wants to start migrating part of the code to Serverless but have backward compatibility with the front-end layer. So communication between the front-end and backend has to remain in SOAP contract but with business logic in serverless solution. This example show how to do that.
+[soap-to-serverless-modern-infrastructure-for-mature-apis](https://github.com/aws-samples/soap-to-serverless-modern-infrastructure-for-mature-apis) this project provides a SOAP Service written in NodeJS that communicates with API Gateway which transforms the information payload using VTL to Lambda. Lambda responds back to API Gateway to maintain backward to SOAP and in JSON to REST calls. The repo provides a sample use case as to why this project might be helpful. A company has a legacy application communicating between layers using SOAP Services. The team that is in charge of the business logic wants to start migrating part of the code to Serverless but have backward compatibility with the front-end layer. So communication between the front-end and backend has to remain in SOAP contract but with business logic in serverless solution. This example show how to do that.
 
 ![architecture for supporting SOAP to serverless](https://github.com/aws-samples/soap-to-serverless-modern-infrastructure-for-mature-apis/blob/main/docs/images/architecture.png?raw=true)
 
 **react_aws_static_hosting**
 
-[react_aws_static_hosting](https://aws-oss.beachgeek.co.uk/28t) is a demo repository from Allan Chua for hosting static React websites using AWS, CloudFront, WAF & CloudFront Origin Policies.
+[react_aws_static_hosting](https://github.com/allanchua101/react_aws_static_hosting) is a demo repository from Allan Chua for hosting static React websites using AWS, CloudFront, WAF & CloudFront Origin Policies.
 
 ![architecture of sample static react app](https://github.com/allanchua101/react_aws_static_hosting/blob/main/assets/waf_s3_cf_cf-origins.jpg?raw=true)
 
 **image-content-moderation**
 
-[image-content-moderation](https://aws-oss.beachgeek.co.uk/28u) is a proof of concept from Hardik Singh Behl, that exposes a single REST API endpoint to set/update user's current profile picture. Amazon Rekognition has been integrated in the service layer to detect any inappropriate, suggestive, unwanted or offensive content in the image being uploaded, If any ModerationLabels are detected the API returns HttpStatus.NOT_ACCEPTABLE. On successful content moderation evaluation, HttpStatus.OK is returned by the endpoint. Check the README for a short video of how this works.
+[image-content-moderation](https://github.com/hardikSinghBehl/aws-reference-projects/tree/main/image-content-moderation) is a proof of concept from Hardik Singh Behl, that exposes a single REST API endpoint to set/update user's current profile picture. Amazon Rekognition has been integrated in the service layer to detect any inappropriate, suggestive, unwanted or offensive content in the image being uploaded, If any ModerationLabels are detected the API returns HttpStatus.NOT_ACCEPTABLE. On successful content moderation evaluation, HttpStatus.OK is returned by the endpoint. Check the README for a short video of how this works.
 
 **sagemaker-datawrangler**
 
-[sagemaker-datawrangler](https://aws-oss.beachgeek.co.uk/286) this repo contains example flows that demonstrate how to aggregate and prepare data for Machine Learning using Amazon SageMaker Data Wrangler. Isha Dua has put together a blog post, [Use Github Samples with Amazon SageMaker Data Wrangler](https://aws-oss.beachgeek.co.uk/287) to help get you started.
+[sagemaker-datawrangler](https://github.com/aws/amazon-sagemaker-examples/tree/main/sagemaker-datawrangler) this repo contains example flows that demonstrate how to aggregate and prepare data for Machine Learning using Amazon SageMaker Data Wrangler. Isha Dua has put together a blog post, [Use Github Samples with Amazon SageMaker Data Wrangler](https://aws.amazon.com/blogs/machine-learning/use-github-samples-with-amazon-sagemaker-data-wrangler/) to help get you started.
 
 ![example screen shot of sagemaker datawrangler examples](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/10/20/image012-2.jpg)
 
@@ -110,23 +110,23 @@ There is a lot of stuff to go through in this project, and the examples and docu
 
 **Terraform CDK**
 
-Shaun Scovil has put together this post, [Using Terraform CDK with LocalStack (Python)](https://aws-oss.beachgeek.co.uk/28q) (with a nice illustration courtesy of Midjourney) that is intended for anyone who is trying to get Terraform CDK to work with LocalStack. For those who may be unfamiliar, LocalStack is an open source tool that enables you to run cloud service emulator in a single container on your laptop or in your CI environment. Very nice idea and post, so well worth five minutes of your time this week. [hands on]
+Shaun Scovil has put together this post, [Using Terraform CDK with LocalStack (Python)](https://shaunscovil.com/using-terraform-cdk-with-localstack-python-105de9d32b8c) (with a nice illustration courtesy of Midjourney) that is intended for anyone who is trying to get Terraform CDK to work with LocalStack. For those who may be unfamiliar, LocalStack is an open source tool that enables you to run cloud service emulator in a single container on your laptop or in your CI environment. Very nice idea and post, so well worth five minutes of your time this week. [hands on]
 
 **Apache Iceberg**
 
-Matano is an open source security lake platform for AWS, which I have featured in previous editions of this newsletter. Samrose Ahmed peeks under the covers as he writes, [Automated Iceberg table maintenance](https://aws-oss.beachgeek.co.uk/28r) and how table maintenance works and how they are able to run completely serverless Iceberg table maintenance on AWS.
+Matano is an open source security lake platform for AWS, which I have featured in previous editions of this newsletter. Samrose Ahmed peeks under the covers as he writes, [Automated Iceberg table maintenance](https://www.matano.dev/blog/2022/11/04/automated-iceberg-table-maintenance) and how table maintenance works and how they are able to run completely serverless Iceberg table maintenance on AWS.
 
 ![architecture of apache iceberg on matano](https://www.matano.dev/assets/images/diag-2e2f41b5e35e05b3ea86ef0448b96ba6.png)
 
 **Micronaut**
 
-In a collaboration between Mark Sailes, Heather Jeong, Jimmy Kang, and Jimmy Tam, they have got together to write [Improving Developer Productivity at Disney with Serverless and Open Source](https://aws-oss.beachgeek.co.uk/28k) where they share how they are combining serverless and open source technologies to improve their ability to deliver business value safely and reliably.  
+In a collaboration between Mark Sailes, Heather Jeong, Jimmy Kang, and Jimmy Tam, they have got together to write [Improving Developer Productivity at Disney with Serverless and Open Source](https://aws.amazon.com/blogs/opensource/improving-developer-productivity-at-disney-with-serverless-and-open-source/) where they share how they are combining serverless and open source technologies to improve their ability to deliver business value safely and reliably.  
 
 ![cold start graph](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/11/07/Java-cold-start-native-image-chart.png)
 
 **Apache Flink**
 
-Apache Flink is an open-source framework and engine for stateful processing of data streams. It’s highly available and scalable, delivering high throughput and low latency for the most demanding stream-processing applications. In [Learn more about Apache Flink and Amazon Kinesis Data Analytics with three new videos](https://aws-oss.beachgeek.co.uk/28i), there are three new videos for you to learn more about Apache Flink and Kinesis Data Analytics, including open-source contributions to Apache Flink, our learnings from running thousands of Flink jobs on a managed service, and how we use Kinesis Data Analytics and Apache Flink to enable machine learning (ML) in Alexa.
+Apache Flink is an open-source framework and engine for stateful processing of data streams. It’s highly available and scalable, delivering high throughput and low latency for the most demanding stream-processing applications. In [Learn more about Apache Flink and Amazon Kinesis Data Analytics with three new videos](https://aws.amazon.com/blogs/big-data/learn-more-about-apache-flink-and-amazon-kinesis-data-analytics-with-three-new-videos/), there are three new videos for you to learn more about Apache Flink and Kinesis Data Analytics, including open-source contributions to Apache Flink, our learnings from running thousands of Flink jobs on a managed service, and how we use Kinesis Data Analytics and Apache Flink to enable machine learning (ML) in Alexa.
 
 {{< youtube F5yKSznkls8 >}}
 
@@ -134,23 +134,23 @@ Apache Flink is an open-source framework and engine for stateful processing of d
 
 This week we had a number of great posts for Web and Mobile developers. 
 
-In this first of a two part post, [Building Offline first applications with AWS Amplify DataStore – Part 1](https://aws-oss.beachgeek.co.uk/28g), Diego Gomes shows how [AWS Amplify DataStore](https://aws-oss.beachgeek.co.uk/28f) addresses some of the challenges of building Offline first applications. [hands on]
+In this first of a two part post, [Building Offline first applications with AWS Amplify DataStore – Part 1](https://aws.amazon.com/blogs/mobile/building-offline-first-applications-with-aws-amplify-datastore-part-1/), Diego Gomes shows how [AWS Amplify DataStore](https://github.com/aws-amplify/amplify-js/tree/master/packages/datastore) addresses some of the challenges of building Offline first applications. [hands on]
 
 ![architecture overview of amplify datastore](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/11/03/mobile_1962_2.png)
 
-Following that we had Kyle Lee write, [Getting Started with AWS Amplify on macOS](https://aws-oss.beachgeek.co.uk/28h) who shows you how to use Amplify Auth sign in with web UI to authenticate a user across both macOS and iOS. Get into XCode and off you go...! [hands on]
+Following that we had Kyle Lee write, [Getting Started with AWS Amplify on macOS](https://aws.amazon.com/blogs/mobile/getting-started-with-aws-amplify-on-macos/) who shows you how to use Amplify Auth sign in with web UI to authenticate a user across both macOS and iOS. Get into XCode and off you go...! [hands on]
 
 **Other posts and quick reads**
 
-* [Using Async/Await with AWS Amplify Libraries for Swift](https://aws-oss.beachgeek.co.uk/28n) shows you how to use async/await with the Amplify Libraries for Swift and demonstrates how efficiently you can write asynchronous code with this new release [hands on]
-* [Transfer learning for TensorFlow text classification models in Amazon SageMaker](https://aws-oss.beachgeek.co.uk/288) looks at the announcement last week that SageMaker provides a new built-in algorithm for text classification using TensorFlow [hands on] 
-* [Secure AWS AppSync with Amazon Cognito using the AWS CDK](https://aws-oss.beachgeek.co.uk/28j) provides an overview of AWS IAM permissions as they relate to Cognito identity pools, showing how to configure IAM permissions in the CDK [hands on]
-* [Secure AWS AppSync with API Keys using the AWS CDK](https://aws-oss.beachgeek.co.uk/28m) is a walkthrough on how access can be enabled for guest users–that is, users that need access to our data, but do not have a mechanism for logging in [hands on]
-* [Support JSON data using Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL and Java Spring Boot on AWS](https://aws-oss.beachgeek.co.uk/28l) shows you how to support business data captured in JSON format in microservices developed in the Spring Boot Java framework, Amazon RDS for PostgreSQL, or Aurora PostgreSQL [hands on]
+* [Using Async/Await with AWS Amplify Libraries for Swift](https://aws.amazon.com/blogs/mobile/using-async-await-with-aws-amplify-libraries-for-swift/) shows you how to use async/await with the Amplify Libraries for Swift and demonstrates how efficiently you can write asynchronous code with this new release [hands on]
+* [Transfer learning for TensorFlow text classification models in Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/transfer-learning-for-tensorflow-text-classification-models-in-amazon-sagemaker/) looks at the announcement last week that SageMaker provides a new built-in algorithm for text classification using TensorFlow [hands on] 
+* [Secure AWS AppSync with Amazon Cognito using the AWS CDK](https://aws.amazon.com/blogs/mobile/secure-aws-appsync-with-iam-permissions-using-the-aws-cdk/) provides an overview of AWS IAM permissions as they relate to Cognito identity pools, showing how to configure IAM permissions in the CDK [hands on]
+* [Secure AWS AppSync with API Keys using the AWS CDK](https://aws.amazon.com/blogs/mobile/secure-aws-appsync-with-api-keys-using-the-aws-cdk/) is a walkthrough on how access can be enabled for guest users–that is, users that need access to our data, but do not have a mechanism for logging in [hands on]
+* [Support JSON data using Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL and Java Spring Boot on AWS](https://aws.amazon.com/blogs/database/support-json-data-using-amazon-rds-for-postgresql-or-amazon-aurora-postgresql-and-java-spring-boot-on-aws/) shows you how to support business data captured in JSON format in microservices developed in the Spring Boot Java framework, Amazon RDS for PostgreSQL, or Aurora PostgreSQL [hands on]
 
 **Case Studies**
 
-* [How Hudl built a cost-optimized AWS Glue pipeline with Apache Hudi datasets](https://aws-oss.beachgeek.co.uk/28e) in this case study, Hudl (Hudl Agile Sports Technologies, a company that provides tools for coaches and athletes to review game footage and improve individual and team play) share how Apache Hudi enabled them to dramatically improve performance of their data pipeline.
+* [How Hudl built a cost-optimized AWS Glue pipeline with Apache Hudi datasets](https://aws.amazon.com/blogs/big-data/how-hudl-built-a-cost-optimized-aws-glue-pipeline-with-apache-hudi-datasets/) in this case study, Hudl (Hudl Agile Sports Technologies, a company that provides tools for coaches and athletes to review game footage and improve individual and team play) share how Apache Hudi enabled them to dramatically improve performance of their data pipeline.
 
 ![hudl apache hudi data pipeline architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/10/25/NewDesign.png)
 
@@ -192,17 +192,17 @@ In 2022, there are so many 3D engines that exist that you can barely keep a coun
 
 **Dagger**
 
-[Dagger](https://aws-oss.beachgeek.co.uk/28c) is an open source programmable CI/CD engine that runs your pipelines in containers. You can follow along with the Containers on the Couch crew via [Twitch](https://aws-oss.beachgeek.co.uk/28b) or [LinkedIn](https://aws-oss.beachgeek.co.uk/28a) as they introduce this project and then walk you through a demo.
+[Dagger](https://github.com/dagger/dagger) is an open source programmable CI/CD engine that runs your pipelines in containers. You can follow along with the Containers on the Couch crew via [Twitch](https://www.twitch.tv/videos/1647165538) or [LinkedIn](https://www.linkedin.com/video/event/urn:li:ugcPost:6993991689317101568/) as they introduce this project and then walk you through a demo.
 
 **AWS Container Day**
 
-If you missed the AWS sessions at KubeCon NA a few weeks back, the team has your back. They have put together a [play list on YouTube](https://aws-oss.beachgeek.co.uk/28d) with all the sessions.
+If you missed the AWS sessions at KubeCon NA a few weeks back, the team has your back. They have put together a [play list on YouTube](https://www.youtube.com/playlist?list=PLehXSATXjcQFD6ZUH4o0hwoH6gmGHvqQe) with all the sessions.
 
 **Build on Open Source**
 
 For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs.
 
-We have put together a playlist so that you can easily access all the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+We have put together a playlist so that you can easily access all the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -211,14 +211,14 @@ We have put together a playlist so that you can easily access all the other epis
 
 The OpenSearch engineering team working on the Security repo have opened up their Backlog & Triage meetings to the public. This is a great opportunity to find out more about the inner workings of open source projects such as OpenSearch. Don't worry if you cannot make this meeting as they are currently scheduled from the 7th of November out through Dec 19th.
 
-Check out the entire [list here](https://aws-oss.beachgeek.co.uk/285).
+Check out the entire [list here](https://opensearch.org/events/2022-1107-dev-triage-security/).
 
 **Running Open Source Transcoding Server on Amazon EKS**
 **Friday, 18th, 19:00 WIB**
 
 Join Beny Ibrani and the AWS User Group Indonesia for this session (local language I believe) where Beny will show you how you can use open source transcoding software running on Amazon EKS.
 
-This session will be streamed on YouTube, so [check it out here](https://aws-oss.beachgeek.co.uk/27j)
+This session will be streamed on YouTube, so [check it out here](https://www.youtube.com/watch?v=N-W-aaAOrsA)
 
 **Build on AWS Open Source**
 **November 18th, 9am BST**
@@ -230,7 +230,7 @@ Join us for the sixth episode of the Build on AWS series, featuring a live round
 
 Join us for an interactive workshop on containers, Docker, Fargate and Amazon EKS, hosted by ClearScale and AWS. This live, virtual workshop includes three hours of interactive presentation and hands-on lab work. You will take part in the setup and deployment of containers using EKS. Follow along and work directly with AWS professionals and ClearScale (an AWS Premier Tier Services Partner) in this Level 200 training session.
 
-You can find out more about this event by [checking out the event page and signing up](https://aws-oss.beachgeek.co.uk/22y).
+You can find out more about this event by [checking out the event page and signing up](https://www.bigmarker.com/clearscale/AWS-Elastic-Kubernetes-Service-EKS-Workshop-November).
 
 **re:Invent**
 **November 28th - December 3rd, Las Vegas**
@@ -239,7 +239,7 @@ re:Invent is only a few weeks away so I want to share a few things that will hop
 
 First up, we will be running the Build On Live stream throughout re:Invent and we would love to feature you! If either yourself, or perhaps you know a community member going to re:Invent and think they will absolutely love to attend the livestream, we want to hear from you. Please nominate a community member you want to hear from during Build On Live [using this survey](https://eventbox.dev/survey/6B0ED1J).
 
-Second, check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://aws-oss.beachgeek.co.uk/252) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
+Second, check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/OPN) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
 
 1. OPN306 AWS Lambda Powertools: Lessons from the road to 10 million downloads - Heitor Lessa is going to deliver an amazing session on the journey from idea to one of the most loved and used open source tools for AWS Lambda users
 2. BOA204 When security, safety, and urgency all matter: Handling Log4Shell - Cannot wait for this session from Abbey Fuller who will walk us through how we managed this incident
@@ -252,7 +252,7 @@ There are many other great open source sessions, and hopefully I will try and pu
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

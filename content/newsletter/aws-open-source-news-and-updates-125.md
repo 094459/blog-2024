@@ -36,25 +36,25 @@ So thank you to the following open source heroes: Rosius Ndimofor, Suraj Narwade
 
 **AWSGoat**
 
-[AWSGoat](https://aws-oss.beachgeek.co.uk/1ze) is an open source project that aims to help you better understand the thread landscape of your AWS environments. Compromising an organization's cloud infrastructure is like sitting on a gold mine for attackers. Sometimes a simple misconfiguration or a vulnerability in web applications is all an attacker needs to compromise the entire infrastructure. Since the cloud is relatively new, many developers are not fully aware of the threatscape and they end up deploying a vulnerable cloud infrastructure.
+[AWSGoat](https://github.com/ine-labs/AWSGoat) is an open source project that aims to help you better understand the thread landscape of your AWS environments. Compromising an organization's cloud infrastructure is like sitting on a gold mine for attackers. Sometimes a simple misconfiguration or a vulnerability in web applications is all an attacker needs to compromise the entire infrastructure. Since the cloud is relatively new, many developers are not fully aware of the threatscape and they end up deploying a vulnerable cloud infrastructure.
 
 AWSGoat is a vulnerable by design infrastructure on AWS featuring the latest released OWASP Top 10 web application security risks (2021) and other misconfiguration based on services such as IAM, S3, API Gateway, Lambda, EC2, and ECS. AWSGoat mimics real-world infrastructure but with added vulnerabilities. It features multiple escalation paths and is focused on a black-box approach.
 
-There are plenty of other news posts that mentioned this project, and I found this one, [AWSGoat Open-Source Project for Pen Testing AWS Cloud Solutions](https://aws-oss.beachgeek.co.uk/1zw), particular helpful. 
+There are plenty of other news posts that mentioned this project, and I found this one, [AWSGoat Open-Source Project for Pen Testing AWS Cloud Solutions](https://www.infoq.com/news/2022/08/awsgoat-pentesters-open-source/), particular helpful. 
 
 **cw-logs-insights-snippets**
 
-[cw-logs-insights-snippets](https://aws-oss.beachgeek.co.uk/202) is an AWS SAM project from AWS Community Builder Lars Jacobsson that adds the snippets from serverlessland.com/snippets as saved queries in CloudWatch Logs. Serverlessland.com/snippets hosts a growing number of community provided snippets. Many of these are useful CloudWatch Logs Insights snippets. Until AWS integrates these in the console natively you can use this stack to get them there.
+[cw-logs-insights-snippets](https://github.com/ljacobsson/cw-logs-insights-snippets) is an AWS SAM project from AWS Community Builder Lars Jacobsson that adds the snippets from serverlessland.com/snippets as saved queries in CloudWatch Logs. Serverlessland.com/snippets hosts a growing number of community provided snippets. Many of these are useful CloudWatch Logs Insights snippets. Until AWS integrates these in the console natively you can use this stack to get them there.
 
 ![demo of cw-logs-insights](https://github.com/ljacobsson/cw-logs-insights-snippets/blob/main/images/demo.gif?raw=true)
 
 **kubectl-eks**
 
-[kubectl-eks](https://aws-oss.beachgeek.co.uk/203) is kubectl plugin for Amazon EKS from AWS Community Builder Suraj Narwade.
+[kubectl-eks](https://github.com/surajincloud/kubectl-eks) is kubectl plugin for Amazon EKS from AWS Community Builder Suraj Narwade.
 
 **streaming-sales-generator**
 
-[streaming-sales-generator](https://aws-oss.beachgeek.co.uk/201) is a handy tool from Gary Stafford that generates sample streaming sales data for Apache Kafka, written in Python. Each time you want to explore or demonstrate a new streaming technology, you must first find an adequate data source or develop a new source. Ideally, the streaming data source should be complex enough to perform multiple types of analyses on and visualise different aspects with Business Intelligence (BI) and dashboarding tools. Additionally, the streaming data source should possess a degree of consistency and predictability while still displaying a reasonable level of natural randomness. Conversely, the source should not result in an unnatural uniform distribution of data over time. This project's highly configurable synthetic data generator (producer.py) streams beverage products, semi-random beverage sales transactions, and inventory restocking activities to Apache Kafka topics. It is designed for demonstrating streaming data analytics tools, such as Apache Spark Structured Streaming, Apache Beam, Apache Flink, Apache Pinot, Databricks, Google Cloud Dataproc, and Amazon Kinesis Data Analytics.
+[streaming-sales-generator](https://github.com/garystafford/streaming-sales-generator) is a handy tool from Gary Stafford that generates sample streaming sales data for Apache Kafka, written in Python. Each time you want to explore or demonstrate a new streaming technology, you must first find an adequate data source or develop a new source. Ideally, the streaming data source should be complex enough to perform multiple types of analyses on and visualise different aspects with Business Intelligence (BI) and dashboarding tools. Additionally, the streaming data source should possess a degree of consistency and predictability while still displaying a reasonable level of natural randomness. Conversely, the source should not result in an unnatural uniform distribution of data over time. This project's highly configurable synthetic data generator (producer.py) streams beverage products, semi-random beverage sales transactions, and inventory restocking activities to Apache Kafka topics. It is designed for demonstrating streaming data analytics tools, such as Apache Spark Structured Streaming, Apache Beam, Apache Flink, Apache Pinot, Databricks, Google Cloud Dataproc, and Amazon Kinesis Data Analytics.
 
 Check out the docs, which include a short video to show you how you can get this tool up and running
 
@@ -62,11 +62,11 @@ Check out the docs, which include a short video to show you how you can get this
 
 **amazon-ec2-instance-selector**
 
-[amazon-ec2-instance-selector](https://aws-oss.beachgeek.co.uk/200) is a CLI tool and go library which recommends instance types based on resource criteria like vcpus and memory. There are over 270 different instance types available on EC2 which can make the process of selecting appropriate instance types difficult. Instance Selector helps you select compatible instance types for your application to run on. The command line interface can be passed resource criteria like vcpus, memory, network performance, and much more and then return the available, matching instance types. Check out the repo for plenty of examples of how you can use this command.
+[amazon-ec2-instance-selector](https://github.com/aws/amazon-ec2-instance-selector) is a CLI tool and go library which recommends instance types based on resource criteria like vcpus and memory. There are over 270 different instance types available on EC2 which can make the process of selecting appropriate instance types difficult. Instance Selector helps you select compatible instance types for your application to run on. The command line interface can be passed resource criteria like vcpus, memory, network performance, and much more and then return the available, matching instance types. Check out the repo for plenty of examples of how you can use this command.
 
 **merloc**
 
-[merloc](https://aws-oss.beachgeek.co.uk/1zg) AWS Hero [Serkan Özal](https://aws-oss.beachgeek.co.uk/1zf) tweeted about this new project just before I disappeared on holiday. In his tweet he says:
+[merloc](https://github.com/thundra-io/merloc) AWS Hero [Serkan Özal](https://twitter.com/serkan_ozal?s=11) tweeted about this new project just before I disappeared on holiday. In his tweet he says:
 
 > I am thrilled to announce @thundraio MerLoc an AWS Lambda local development, testing, debugging and hot-reload tool to build and ship #serverless applications faster without need to add console logs and re-deploys after changes 
 
@@ -76,12 +76,12 @@ MerLoc is a live AWS Lambda function development and debugging tool. MerLoc allo
 
 **automated-iam-access-analyzer**
 
-[automated-iam-access-analyzer](https://aws-oss.beachgeek.co.uk/208) is a sample implementation of a periodical monitoring of an AWS IAM Role in order to achieve a continuous permission refinement of that role. The goal of the solution is to present an operational, continuous least-privilege approach for a particular role in order to provide for security proliferation in an ongoing manner. Automated IAM Access Analyzer relies on the AWS CloudTrail, AWS IAM Access Analyzer for policy generation, and AWS Step Functions for orchestrating the overall process.
+[automated-iam-access-analyzer](https://github.com/aws-samples/automated-iam-access-analyzer) is a sample implementation of a periodical monitoring of an AWS IAM Role in order to achieve a continuous permission refinement of that role. The goal of the solution is to present an operational, continuous least-privilege approach for a particular role in order to provide for security proliferation in an ongoing manner. Automated IAM Access Analyzer relies on the AWS CloudTrail, AWS IAM Access Analyzer for policy generation, and AWS Step Functions for orchestrating the overall process.
 
 
 **aws_signature_v4**
 
-[aws_signature_v4](https://aws-oss.beachgeek.co.uk/1zm) is an open source implementation of the AWS Signature Version 4 protocol in the Dart programming language. The SigV4 signer is a library which developers can include in their projects to sign and send HTTP requests to AWS services using their AWS credentials. To get you started, check out the post [Introducing the AWS SigV4 Signer for Dart](https://aws-oss.beachgeek.co.uk/1zn) from Dillon Nys, Abdallah Shaban, and Ashish Nanda. 
+[aws_signature_v4](https://github.com/aws-amplify/amplify-flutter/tree/next/packages/aws_signature_v4) is an open source implementation of the AWS Signature Version 4 protocol in the Dart programming language. The SigV4 signer is a library which developers can include in their projects to sign and send HTTP requests to AWS services using their AWS credentials. To get you started, check out the post [Introducing the AWS SigV4 Signer for Dart](https://aws.amazon.com/blogs/opensource/introducing-the-aws-sigv4-signer-for-dart/) from Dillon Nys, Abdallah Shaban, and Ashish Nanda. 
 
 ![demo of library of sigv4 for dart](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/08/22/s3blog1.gif)
 
@@ -89,27 +89,27 @@ MerLoc is a live AWS Lambda function development and debugging tool. MerLoc allo
 
 **serverless-batch-cost-guardian**
 
-[serverless-batch-cost-guardian](https://aws-oss.beachgeek.co.uk/206) this repo has the code that will deploy and provide a serverless solution that watches jobs in an AWS Batch (Fargate-only) compute environment, and if an AWS Budget threshold is close to being met, will kick in a high-frequency cost checker to stop all jobs before the budget is met. This solution is meant to be a safeguard for long-running jobs and can evaluate Budget status at a much higher rate than AWS Billing's 2-3 daily limit with 6-8 hour granularity.
+[serverless-batch-cost-guardian](https://github.com/aws-samples/serverless-batch-cost-guardian) this repo has the code that will deploy and provide a serverless solution that watches jobs in an AWS Batch (Fargate-only) compute environment, and if an AWS Budget threshold is close to being met, will kick in a high-frequency cost checker to stop all jobs before the budget is met. This solution is meant to be a safeguard for long-running jobs and can evaluate Budget status at a much higher rate than AWS Billing's 2-3 daily limit with 6-8 hour granularity.
 
 ![architecture of serverless batch cost guardian](https://github.com/aws-samples/serverless-batch-cost-guardian/blob/main/images/event-driven-budget-checker-architecture.png?raw=true)
 
 **graviton2-based-ecommerence-solution**
 
-[graviton2-based-ecommerence-solution](https://aws-oss.beachgeek.co.uk/207) if you are looking for some code for a sample e-commerce solution that leverages AWS Graviton2, then check out this repo. It provides the code from the Graviton2-based-ecommerence-solution Workshop which you will find links for in the README.
+[graviton2-based-ecommerence-solution](https://github.com/aws-samples/graviton2-based-ecommerence-solution) if you are looking for some code for a sample e-commerce solution that leverages AWS Graviton2, then check out this repo. It provides the code from the Graviton2-based-ecommerence-solution Workshop which you will find links for in the README.
 
 ![architecture for graviton ecommerce](https://github.com/aws-samples/graviton2-based-ecommerence-solution/blob/main/resource/Architecture.png?raw=true)
 
 **aws-mainframe-modernization-carddemo**
 
-[aws-mainframe-modernization-carddemo](https://aws-oss.beachgeek.co.uk/209) is a Mainframe application designed and developed to test and showcase AWS and partner technology for mainframe migration and modernisation use-cases such as discovery, migration, modernisation, performance test, augmentation, service enablement, service extraction, test creation, test harness, etc. I am a big fan of retro computing, and this project really appeals so I need to try and figure out how I can get this one up and running - watch this space!
+[aws-mainframe-modernization-carddemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo) is a Mainframe application designed and developed to test and showcase AWS and partner technology for mainframe migration and modernisation use-cases such as discovery, migration, modernisation, performance test, augmentation, service enablement, service extraction, test creation, test harness, etc. I am a big fan of retro computing, and this project really appeals so I need to try and figure out how I can get this one up and running - watch this space!
 
 **sam_stepfunctions**
 
-[sam_stepfunctions](https://aws-oss.beachgeek.co.uk/204) AWS Hero Rosius Ndimofor shares a simple Step functions workflow written in SAM and Python for an apartment booking application.
+[sam_stepfunctions](https://github.com/trey-rosius/sam_stepfunctions) AWS Hero Rosius Ndimofor shares a simple Step functions workflow written in SAM and Python for an apartment booking application.
 
 **gitops-amazon-ecs-sample**
 
-[gitops-amazon-ecs-sample](https://aws-oss.beachgeek.co.uk/205) is a repo that helps you create a single pipeline to deploy multiple services on Amazon ECS using gitops. What problem is this repo trying to solve? Certain Organizations need to test and deploy multiple, sometimes hundreds of micro-services simultaneously. This could be because of regulatory or compliance requirements where the organisation is mandated to test numerous services together and then release it in one go. Using the traditional strategy of deploying one pipeline per micro-service requires these organisations to coordinate hundreds of pipelines to do a single production release. This increases the deployment window, deployment complexity, and requires coordination from multiple teams that own these micro-services. For example, if 50 services must be deployed in a release, then it would require the team to go and approve 50 production approval gates, which can be a time-consuming and error-prone process. In the case of rollback, it would take considerable time to go and individually rollback each of the pipelines to do a full rollback of the release. These organisations need the ability to reliably deploy multiple services together without the complexity of having to orchestrate numerous pipelines during release. Certain GitOps deployment tools like ArgoCD can facilitate the deployment of multiple services in the Kubernetes space. However, these tools are limited in the Amazon ECS space. This repo attempts to create a single pipeline to provide the ability to deploy multiple Amazon ECS Fargate services and scheduled tasks simultaneously with Git as the source of truth. This is done to reduce the complexity associated with deploying multiple services in a release.
+[gitops-amazon-ecs-sample](https://github.com/aws-samples/gitops-amazon-ecs-sample) is a repo that helps you create a single pipeline to deploy multiple services on Amazon ECS using gitops. What problem is this repo trying to solve? Certain Organizations need to test and deploy multiple, sometimes hundreds of micro-services simultaneously. This could be because of regulatory or compliance requirements where the organisation is mandated to test numerous services together and then release it in one go. Using the traditional strategy of deploying one pipeline per micro-service requires these organisations to coordinate hundreds of pipelines to do a single production release. This increases the deployment window, deployment complexity, and requires coordination from multiple teams that own these micro-services. For example, if 50 services must be deployed in a release, then it would require the team to go and approve 50 production approval gates, which can be a time-consuming and error-prone process. In the case of rollback, it would take considerable time to go and individually rollback each of the pipelines to do a full rollback of the release. These organisations need the ability to reliably deploy multiple services together without the complexity of having to orchestrate numerous pipelines during release. Certain GitOps deployment tools like ArgoCD can facilitate the deployment of multiple services in the Kubernetes space. However, these tools are limited in the Amazon ECS space. This repo attempts to create a single pipeline to provide the ability to deploy multiple Amazon ECS Fargate services and scheduled tasks simultaneously with Git as the source of truth. This is done to reduce the complexity associated with deploying multiple services in a release.
 
 ![architecture of amazon ecs gitops sample](https://github.com/aws-samples/gitops-amazon-ecs-sample/blob/main/docs/gitops-ecs.png?raw=true)
 
@@ -118,15 +118,15 @@ MerLoc is a live AWS Lambda function development and debugging tool. MerLoc allo
 
 **dbt**
 
-In the first of two posts this week from a writer who regular reader of this newsletter will know, Gary Stafford explores how dbt makes it easy to transform data and materialise models in a modern cloud data lakehouse built on AWS in his post [Lakehouse Data Modeling using dbt, Amazon Redshift, Redshift Spectrum, and AWS Glue](https://aws-oss.beachgeek.co.uk/1zy). [hands on]
+In the first of two posts this week from a writer who regular reader of this newsletter will know, Gary Stafford explores how dbt makes it easy to transform data and materialise models in a modern cloud data lakehouse built on AWS in his post [Lakehouse Data Modeling using dbt, Amazon Redshift, Redshift Spectrum, and AWS Glue](https://itnext.io/lakehouse-data-modeling-using-dbt-amazon-redshift-redshift-spectrum-and-aws-glue-fdc5629c3df8). [hands on]
 
 ![screenshot of dbt from the blog post](https://miro.medium.com/max/1400/1*F6HZZyQT68phkXvQSU-VcA.png)
 
-Following that, Gary put together the post[ dbt and Amazon Redshift Serverless: Serverless Lakehouse Data Modeling](https://aws-oss.beachgeek.co.uk/1zz) which explores the integration of dbt with Amazon Redshift Serverless. [hands on] As always, both posts are recommended reading this week.
+Following that, Gary put together the post[ dbt and Amazon Redshift Serverless: Serverless Lakehouse Data Modeling](https://itnext.io/dbt-and-amazon-redshift-serverless-serverless-lakehouse-data-modeling-ef9106888137) which explores the integration of dbt with Amazon Redshift Serverless. [hands on] As always, both posts are recommended reading this week.
 
 **Open Source Lakehouses**
 
-Kyle Weller from Onehouse has put together this very nice post, [Apache Hudi vs Delta Lake vs Apache Iceberg - Lakehouse Feature Comparison](https://aws-oss.beachgeek.co.uk/1zx), that has a very comprehensive list of features that you might looking for and how each of these open source projects currently meets those, as well as taking a look at some real life use cases and customer stories. I think this post could be useful as you look to explore and think about how you might evaluate these technologies.
+Kyle Weller from Onehouse has put together this very nice post, [Apache Hudi vs Delta Lake vs Apache Iceberg - Lakehouse Feature Comparison](https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison), that has a very comprehensive list of features that you might looking for and how each of these open source projects currently meets those, as well as taking a look at some real life use cases and customer stories. I think this post could be useful as you look to explore and think about how you might evaluate these technologies.
 
 **Jupyter**
 
@@ -134,29 +134,29 @@ Interactive Sessions for Jupyter is a new notebook interface in the AWS Glue ser
 
 **Flyway**
 
-Flyway is an open-source database SQL deployment tool. In the post, [Automate schema version control and migration with Flyway and AWS Lambda on Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/1zo), Harshad Gohil and John Lonappan share more details about this open source project and its capabilities, before showing you how you can set up Flyway along with an AWS Lambda function to deploy SQL scripts into various Amazon Aurora PostgreSQL-Compatible Edition environments. [hands on]
+Flyway is an open-source database SQL deployment tool. In the post, [Automate schema version control and migration with Flyway and AWS Lambda on Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/automate-schema-version-control-and-migration-with-flyway-and-aws-lambda-on-amazon-aurora-postgresql/), Harshad Gohil and John Lonappan share more details about this open source project and its capabilities, before showing you how you can set up Flyway along with an AWS Lambda function to deploy SQL scripts into various Amazon Aurora PostgreSQL-Compatible Edition environments. [hands on]
 
 ![architecture of flyaway](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/08/23/DBBLOG-2254-image001.png)
 
 **Ray**
 
-In the post, [Scaling AI and Machine Learning Workloads with Ray on AWS](https://aws-oss.beachgeek.co.uk/1zs), Chris Fregly, Antje Barth, Apoorva Kulkarni, and Simon Zamarin highlight AWS contributions to the scalability and operational efficiency of Ray on AWS. 
+In the post, [Scaling AI and Machine Learning Workloads with Ray on AWS](https://aws.amazon.com/blogs/opensource/scaling-ai-and-machine-learning-workloads-with-ray-on-aws/), Chris Fregly, Antje Barth, Apoorva Kulkarni, and Simon Zamarin highlight AWS contributions to the scalability and operational efficiency of Ray on AWS. 
 
 **OpenAPI/Swagger**
 
-In the post, [Deploy and manage OpenAPI/Swagger RESTful APIs with the AWS Cloud Development Kit](https://aws-oss.beachgeek.co.uk/1zl), Luke Popplewell demonstrates how AWS Cloud Development Kit (AWS CDK) Infrastructure as Code (IaC) constructs and AWS serverless technology can be used to build and deploy a RESTful Application Programming Interface (API) defined in the OpenAPI specification. [hands on]
+In the post, [Deploy and manage OpenAPI/Swagger RESTful APIs with the AWS Cloud Development Kit](https://aws.amazon.com/blogs/devops/deploy-and-manage-openapi-swagger-restful-apis-with-the-aws-cloud-development-kit/), Luke Popplewell demonstrates how AWS Cloud Development Kit (AWS CDK) Infrastructure as Code (IaC) constructs and AWS serverless technology can be used to build and deploy a RESTful Application Programming Interface (API) defined in the OpenAPI specification. [hands on]
 
 ![architecture of solution for OpenAPI / Swagger](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2022/08/18/devops_2096_1.png)
 
 **Keycloak**
 
-Keycloak is an open source identity and access management solution for modern services and applications with a large and active open source community. Keycloak uses open protocol standards like OpenID Connect and SAML 2.0. It provides features including single sign-on (SSO), user federation, and identity brokering. It also provides both an admin console and an account management console. In the post, [Authenticating with Amazon Managed Grafana Using Open Source Keycloak on Amazon EKS](https://aws-oss.beachgeek.co.uk/1zh) Aaron Miller and Siva Guruvareddiar walk you through the steps to deploy and configure Keycloak on Amazon EKS to serve as the SAML authentication provider for Amazon Managed Grafana. [hands on]
+Keycloak is an open source identity and access management solution for modern services and applications with a large and active open source community. Keycloak uses open protocol standards like OpenID Connect and SAML 2.0. It provides features including single sign-on (SSO), user federation, and identity brokering. It also provides both an admin console and an account management console. In the post, [Authenticating with Amazon Managed Grafana Using Open Source Keycloak on Amazon EKS](https://aws.amazon.com/blogs/opensource/authenticating-with-amazon-managed-grafana-using-open-source-keycloak-on-amazon-eks/) Aaron Miller and Siva Guruvareddiar walk you through the steps to deploy and configure Keycloak on Amazon EKS to serve as the SAML authentication provider for Amazon Managed Grafana. [hands on]
 
 ![architecture of keycloak solution](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/08/15/Keycloak-on-AWS-architecture-diagram-1024x779.png)
 
 **CollectD**
 
-CollectD is an open-source system statistics collection daemon. When running java workloads, the JVM exposes runtime metrics, such as the heap memory usage, thread count, and classes, through a standard API interface called the Java Management Extension (JMX). In this post, [Deliver Java JMX statistics to Amazon CloudWatch using the CloudWatch Agent and CollectD](https://aws-oss.beachgeek.co.uk/1zp), Daniel Lorch shows you how you can CollectD to collect metrics from JMX and send them to the Amazon CloudWatch agent, as well as allows namespacing metrics per application. Very nice post. [hands on]
+CollectD is an open-source system statistics collection daemon. When running java workloads, the JVM exposes runtime metrics, such as the heap memory usage, thread count, and classes, through a standard API interface called the Java Management Extension (JMX). In this post, [Deliver Java JMX statistics to Amazon CloudWatch using the CloudWatch Agent and CollectD](https://aws.amazon.com/blogs/mt/deliver-java-jmx-statistics-to-amazon-cloudwatch-using-the-cloudwatch-agent-and-collectd/), Daniel Lorch shows you how you can CollectD to collect metrics from JMX and send them to the Amazon CloudWatch agent, as well as allows namespacing metrics per application. Very nice post. [hands on]
 
 ![demo of cloudwatch alarms for collectd](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/08/30/cloudwatch-alarms.gif)
 
@@ -166,23 +166,23 @@ CollectD is an open-source system statistics collection daemon. When running jav
 
 ![architectural overview of gitops](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/08/16/tsahi-1.png)
 
-* [Amazon EMR on EKS gets up to 19% performance boost running on AWS Graviton3 Processors vs. Graviton2](https://aws-oss.beachgeek.co.uk/1zj) shares insights from running performance tests observed while running the same EMR Spark runtime on different Graviton-based EC2 instance types
-* [Implementing Zero-Trust Workload Security on Amazon EKS with Calico](https://aws-oss.beachgeek.co.uk/1zi) demonstrates how you can apply zero-trust workload access controls along with micro segmentation for your workloads that run on Amazon EKS [hands on]
+* [Amazon EMR on EKS gets up to 19% performance boost running on AWS Graviton3 Processors vs. Graviton2](https://aws.amazon.com/blogs/big-data/amazon-emr-on-eks-gets-up-to-19-performance-boost-running-on-aws-graviton3-processors-vs-graviton2/) shares insights from running performance tests observed while running the same EMR Spark runtime on different Graviton-based EC2 instance types
+* [Implementing Zero-Trust Workload Security on Amazon EKS with Calico](https://aws.amazon.com/blogs/apn/implementing-zero-trust-workload-security-on-amazon-eks-with-calico/) demonstrates how you can apply zero-trust workload access controls along with micro segmentation for your workloads that run on Amazon EKS [hands on]
 
 ![zero trust mind map diagram](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2022/08/01/Tigera-Zero-Trust-Access-1.png)
 
-* [Accelerating Genomics Pipelines Using Intel’s Open Omics Acceleration Framework on AWS](https://aws-oss.beachgeek.co.uk/1zk) showcases the first version of Intel's open source Open Omics Acceleration Framework and shares benchmark info of three applications that are used in processing next-generation sequencing data (DNA, mRNA, regulatory regions, the gut microbiome, etc)
-* [Parallel vacuuming in Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/1zq) shares how parallel vacuuming works in Amazon RDS for PostgreSQL, a feature that was introduced in PostgreSQL 13, that covers the parallel VACUUM parameters and how to run parallel VACUUM in Amazon RDS for PostgreSQL
-* [Speeding up incremental changes with AWS SAM Accelerate and nested stacks](https://aws-oss.beachgeek.co.uk/1zr) looks at how to increase development velocity by using AWS SAM Accelerate with AWS CloudFormation nested stacks [hands on]
+* [Accelerating Genomics Pipelines Using Intel’s Open Omics Acceleration Framework on AWS](https://aws.amazon.com/blogs/hpc/accelerating-genomics-pipelines-using-intel-open-omics-on-aws/) showcases the first version of Intel's open source Open Omics Acceleration Framework and shares benchmark info of three applications that are used in processing next-generation sequencing data (DNA, mRNA, regulatory regions, the gut microbiome, etc)
+* [Parallel vacuuming in Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/parallel-vacuuming-in-amazon-rds-for-postgresql-and-amazon-aurora-postgresql/) shares how parallel vacuuming works in Amazon RDS for PostgreSQL, a feature that was introduced in PostgreSQL 13, that covers the parallel VACUUM parameters and how to run parallel VACUUM in Amazon RDS for PostgreSQL
+* [Speeding up incremental changes with AWS SAM Accelerate and nested stacks](https://aws.amazon.com/blogs/compute/speeding-up-incremental-changes-with-aws-sam-accelerate-and-nested-stacks/) looks at how to increase development velocity by using AWS SAM Accelerate with AWS CloudFormation nested stacks [hands on]
 
 ![architecture for AWS SAM Accelerate](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2022/08/25/Screen-Shot-2022-08-24-at-9.10.45-PM.png)
 
-* [Deploying AWS Lambda functions using AWS Controllers for Kubernetes (ACK)](https://aws-oss.beachgeek.co.uk/1zu) walks you through deploying a sample Lambda function from a Kubernetes cluster provided by Amazon EKS [hands on]
-* [AWS and Kubecost collaborate to deliver cost monitoring for EKS customers](https://aws-oss.beachgeek.co.uk/1zv) looks at how Amazon EKS customers can deploy an EKS optimised bundle of Kubecost for cluster cost visibility
+* [Deploying AWS Lambda functions using AWS Controllers for Kubernetes (ACK)](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-functions-using-aws-controllers-for-kubernetes-ack/) walks you through deploying a sample Lambda function from a Kubernetes cluster provided by Amazon EKS [hands on]
+* [AWS and Kubecost collaborate to deliver cost monitoring for EKS customers](https://aws.amazon.com/blogs/containers/aws-and-kubecost-collaborate-to-deliver-cost-monitoring-for-eks-customers/) looks at how Amazon EKS customers can deploy an EKS optimised bundle of Kubecost for cluster cost visibility
 
 ![dashboard for kubecost post](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/08/24/kubecost-1.jpg)
 
-* [Addressing IPv4 address exhaustion in Amazon EKS clusters using private NAT gateways](https://aws-oss.beachgeek.co.uk/1zt) shares how you can put together a network design that enabled communication across Amazon EKS clusters deployed to VPCs with overlapping CIDRs 
+* [Addressing IPv4 address exhaustion in Amazon EKS clusters using private NAT gateways](https://aws.amazon.com/blogs/containers/addressing-ipv4-address-exhaustion-in-amazon-eks-clusters-using-private-nat-gateways/) shares how you can put together a network design that enabled communication across Amazon EKS clusters deployed to VPCs with overlapping CIDRs 
 
 ![kubernetes network cidr overlap architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/08/29/ipv4-4.png)
 
@@ -271,7 +271,7 @@ https://twitch.tv/aws
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 **OpenSearchCon 2022**
 **Sept 21st, 2022 Seattle**
@@ -280,7 +280,7 @@ Come to the first annual OpenSearchCon!
 
 This day-long conference will be packed with presenters who build and innovate with OpenSearch. It doesn’t matter if you’re just getting started on your OpenSearch journey, running giant clusters, or contributing tons of code; the event is for everyone. Join us to celebrate the progress and look into the future of the project. Admission is free, and registration will be open in the next few weeks. All you will need to do is sign up, and get to Seattle!
 
-Check out the full details, including signing up and location, at the [meetup page here](https://aws-oss.beachgeek.co.uk/1n1).
+Check out the full details, including signing up and location, at the [meetup page here](https://www.meetup.com/OpenSearch/events/285152025/).
 
 
 ### Stay in touch with open source at AWS

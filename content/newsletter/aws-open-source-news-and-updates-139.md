@@ -34,20 +34,20 @@ As this is the last newsletter of 2022, I thought I would share what have been t
 
 **2022 most popular projects**
 
-*	[querypal](https://aws-oss.beachgeek.co.uk/x) the most viewed project, provides a nice WebUI for Amazon Athena
-*	[cfn-diagram](https://aws-oss.beachgeek.co.uk/4r) is CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks, draw.io or ascii-art diagrams
-*	[driftctl](https://aws-oss.beachgeek.co.uk/2p) helps you detect, track and alert on infrastructure drift
-* [infracost](https://aws-oss.beachgeek.co.uk/7l) shows cloud cost estimates for Terraform
-* [aws-sdk-client-mock](https://aws-oss.beachgeek.co.uk/ll) provides AWS JavaScript SDK v3 mocks for easy unit testing
-* [cfn_nag](https://aws-oss.beachgeek.co.uk/ng) is a linting tool for CloudFormation templates
-* [steampipe](https://aws-oss.beachgeek.co.uk/dl) ise SQL to instantly query AWS resources across regions and accounts
-* [keycloak](https://aws-oss.beachgeek.co.uk/lf) is an open source Identity and Access Management solution
-* [gnuradio](https://aws-oss.beachgeek.co.uk/1au) is a free & open-source software development toolkit that provides signal processing blocks to implement software radios
-* [eventcatalog](https://aws-oss.beachgeek.co.uk/18d) helps you discover, explore and document your Event Driven Architectures powered by Markdown.
-* [ddb_local](https://aws-oss.beachgeek.co.uk/17r) provides a Python wrapper for DynamoDB Local
-* [cloudquery-policies/aws](https://aws-oss.beachgeek.co.uk/16f) is an open-source cloud asset inventory powered by SQL
-* [kronicle](https://aws-oss.beachgeek.co.uk/1ik) is an open source tool and dashboard for documenting and visualising a tech stack
-* [memq](https://aws-oss.beachgeek.co.uk/1cs) is an efficient, scalable cloud native PubSub system from Pintrest
+*	[querypal](https://github.com/OElesin/querypal) the most viewed project, provides a nice WebUI for Amazon Athena
+*	[cfn-diagram](https://github.com/mhlabs/cfn-diagram) is CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks, draw.io or ascii-art diagrams
+*	[driftctl](https://github.com/cloudskiff/driftctl) helps you detect, track and alert on infrastructure drift
+* [infracost](https://github.com/infracost/infracost) shows cloud cost estimates for Terraform
+* [aws-sdk-client-mock](https://github.com/m-radzikowski/aws-sdk-client-mock) provides AWS JavaScript SDK v3 mocks for easy unit testing
+* [cfn_nag](https://github.com/stelligent/cfn_nag) is a linting tool for CloudFormation templates
+* [steampipe](https://github.com/turbot/steampipe-plugin-aws) ise SQL to instantly query AWS resources across regions and accounts
+* [keycloak](https://github.com/keycloak/keycloak) is an open source Identity and Access Management solution
+* [gnuradio](https://github.com/gnuradio/gnuradio) is a free & open-source software development toolkit that provides signal processing blocks to implement software radios
+* [eventcatalog](https://github.com/boyney123/eventcatalog) helps you discover, explore and document your Event Driven Architectures powered by Markdown.
+* [ddb_local](https://github.com/wbkang/ddb_local) provides a Python wrapper for DynamoDB Local
+* [cloudquery-policies/aws](https://github.com/cloudquery-policies/aws) is an open-source cloud asset inventory powered by SQL
+* [kronicle](https://github.com/kronicle-tech/kronicle) is an open source tool and dashboard for documenting and visualising a tech stack
+* [memq](https://github.com/pinterest/memq) is an efficient, scalable cloud native PubSub system from Pintrest
 
 ### Latest open source projects
 
@@ -57,57 +57,57 @@ As this is the last newsletter of 2022, I thought I would share what have been t
 
 **hardeneks**
 
-[hardeneks](https://aws-oss.beachgeek.co.uk/2d3) this tool tuns checks to see if an Amazon EKS cluster follows EKS Best Practices.
+[hardeneks](https://github.com/aws-samples/hardeneks) this tool tuns checks to see if an Amazon EKS cluster follows EKS Best Practices.
 
 ![demo of tool running](https://raw.githubusercontent.com/aws-samples/hardeneks/main/docs/hardeneks.gif)
 
 **aws-lambda-snapstart-java-rules**
 
-[aws-lambda-snapstart-java-rules](https://aws-oss.beachgeek.co.uk/2cx) introduced during re:Invent, you can use AWS Lambda SnapStart environments to make big improvements in your cold start times. There are some things as a developer you need to be aware of (check the docs) but this tool, the SnapStart Bug Scanner is the [SpotBugs](https://aws-oss.beachgeek.co.uk/2cy) (an open source static analysis tool to look for bugs in Java code) plugin for helping AWS Lambda customers inspect their functions against potential bugs unique to AWS Lambda SnapStart environment. Using it will help you determine whether your code can run in AWS Lambda SnapStart environments. 
+[aws-lambda-snapstart-java-rules](https://github.com/aws/aws-lambda-snapstart-java-rules) introduced during re:Invent, you can use AWS Lambda SnapStart environments to make big improvements in your cold start times. There are some things as a developer you need to be aware of (check the docs) but this tool, the SnapStart Bug Scanner is the [SpotBugs](https://spotbugs.github.io/) (an open source static analysis tool to look for bugs in Java code) plugin for helping AWS Lambda customers inspect their functions against potential bugs unique to AWS Lambda SnapStart environment. Using it will help you determine whether your code can run in AWS Lambda SnapStart environments. 
 
 **aiac**
 
-[aiac](https://aws-oss.beachgeek.co.uk/2df) is a command line tool to generate IaC (Infrastructure as Code) templates via OpenAI's API. The CLI allows you to ask the model to generate templates for different scenarios (e.g. "get terraform for AWS EC2"). It will make the request, and store the resulting code to a file, or simply print it to standard output. With the excitement around chatGPT, this project looks super interesting. I have already tried (and been impressed) with asking chatGPT to write basic code, so lets see how this does.
+[aiac](https://github.com/gofireflyio/aiac) is a command line tool to generate IaC (Infrastructure as Code) templates via OpenAI's API. The CLI allows you to ask the model to generate templates for different scenarios (e.g. "get terraform for AWS EC2"). It will make the request, and store the resulting code to a file, or simply print it to standard output. With the excitement around chatGPT, this project looks super interesting. I have already tried (and been impressed) with asking chatGPT to write basic code, so lets see how this does.
 
 ![demo of aiac tool](https://github.com/gofireflyio/aiac/blob/main/demo.gif?raw=true)
 
 **jupyter-scheduler**
 
-[jupyter-scheduler](https://aws-oss.beachgeek.co.uk/2dr) is a JupyterLab extension for running notebook jobs. This extension is composed of a Python package named jupyter_scheduler for the server extension and a NPM package named @jupyterlab/scheduler for the frontend extension. Installation of this extension provides a REST API to run, query, stop and delete notebook jobs; the UI provides an interface to create, list and view job details. Read the post Introducing Jupyter Scheduler, where Jason Weill introduces the project and how you can get started.
+[jupyter-scheduler](https://github.com/jupyter-server/jupyter-scheduler/) is a JupyterLab extension for running notebook jobs. This extension is composed of a Python package named jupyter_scheduler for the server extension and a NPM package named @jupyterlab/scheduler for the frontend extension. Installation of this extension provides a REST API to run, query, stop and delete notebook jobs; the UI provides an interface to create, list and view job details. Read the post Introducing Jupyter Scheduler, where Jason Weill introduces the project and how you can get started.
 
 ![screenshot integration of jupyter scheduler](https://miro.medium.com/max/1400/1*nUcvmd-_anAtX4rT5MGPfA.webp)
 
 **aws-tf-prowler-fargate**
 
-[aws-tf-prowler-fargate](https://aws-oss.beachgeek.co.uk/2cv) is a Terraform module helps you assess your multi-account environment in AWS Organizations using the open source Prowler security assessment tool deployed on AWS Fargate. It assesses all accounts using a time-based schedule expression in Amazon CloudWatch, creates assessment reports in CSV format, and stores them in an Amazon Simple Storage Service (S3) bucket.
+[aws-tf-prowler-fargate](https://github.com/aws-samples/aws-tf-prowler-fargate) is a Terraform module helps you assess your multi-account environment in AWS Organizations using the open source Prowler security assessment tool deployed on AWS Fargate. It assesses all accounts using a time-based schedule expression in Amazon CloudWatch, creates assessment reports in CSV format, and stores them in an Amazon Simple Storage Service (S3) bucket.
 
 ![architecture of prowler terraform solution](https://github.com/aws-samples/aws-tf-prowler-fargate/blob/main/images/Prowler-ECS-Architecture.png?raw=true)
 
 **aws-iot-greengrass-v2-painless-installer**
 
-[aws-iot-greengrass-v2-painless-installer](https://aws-oss.beachgeek.co.uk/2cw) this solution allows installing Greengrass V2 on an edge gateway without requiring access to the AWS account where the device will connect. The User supervising the installation only needs to be able to authenticate with Amazon Cognito in order to initiate the installation process. No specific knowledge of the AWS Cloud nor Greengrass is necessary. The solution can be further customised for instance to federate user authentication to your enterprise identity management system (e.g. Active Directory).
+[aws-iot-greengrass-v2-painless-installer](https://github.com/aws-samples/aws-iot-greengrass-v2-painless-installer) this solution allows installing Greengrass V2 on an edge gateway without requiring access to the AWS account where the device will connect. The User supervising the installation only needs to be able to authenticate with Amazon Cognito in order to initiate the installation process. No specific knowledge of the AWS Cloud nor Greengrass is necessary. The solution can be further customised for instance to federate user authentication to your enterprise identity management system (e.g. Active Directory).
 
 ![architecture overview of iot greengrass installer](https://github.com/aws-samples/aws-iot-greengrass-v2-painless-installer/blob/main/doc/ArchitectureDiagrams-OverallArchitecture.png?raw=true)
 
 **anti-malware-scanning**
 
-[anti-malware-scanning](https://aws-oss.beachgeek.co.uk/2dp) Hardik Singh Behl has put together this reference solution together on how you can us the open source anti virus tool ClamAV, and use event driven capabilities of Amazon S3 to execute a Lambda function that scans the file for bad things. Very nice.
+[anti-malware-scanning](https://github.com/hardikSinghBehl/aws-reference-projects/tree/main/anti-malware-scanning) Hardik Singh Behl has put together this reference solution together on how you can us the open source anti virus tool ClamAV, and use event driven capabilities of Amazon S3 to execute a Lambda function that scans the file for bad things. Very nice.
 
 ![architecture of malware scanning](https://user-images.githubusercontent.com/69693621/207793461-9d9f0195-58d8-4d99-93c7-8496880662bb.png)
 
 **cdk-s3-upload-presignedurl-api**
 
-[cdk-s3-upload-presignedurl-api](https://aws-oss.beachgeek.co.uk/2dq) Jerome Van Der Linden has created this new AWS CDK construct to make your lives easier. If you want your users to be able to #upload a specific object to an Amazon S3 bucket, but you don't want them to have AWS security credentials or permissions, you can use pre-signed URLs. It's a common pattern but before Jerome created this construct, there was no IaC component that you could leverage directly. Great stuff Jerome.
+[cdk-s3-upload-presignedurl-api](https://github.com/jeromevdl/cdk-s3-upload-presignedurl-api) Jerome Van Der Linden has created this new AWS CDK construct to make your lives easier. If you want your users to be able to #upload a specific object to an Amazon S3 bucket, but you don't want them to have AWS security credentials or permissions, you can use pre-signed URLs. It's a common pattern but before Jerome created this construct, there was no IaC component that you could leverage directly. Great stuff Jerome.
 
 ### Demos, Samples, Solutions and Workshops
 
 **Lucene.Net-AWS-Lambda-EFS**
 
-[Lucene.Net-AWS-Lambda-EFS](https://aws-oss.beachgeek.co.uk/2dg) this project from Salman Sali enables you to implement a Serverless Search for .Net hosted on AWS Lambda with Amazon EFS Storage.
+[Lucene.Net-AWS-Lambda-EFS](https://github.com/Salman-Sali/Lucene.Net-AWS-Lambda-EFS) this project from Salman Sali enables you to implement a Serverless Search for .Net hosted on AWS Lambda with Amazon EFS Storage.
 
 **amazon-keyspaces-with-apache-kafka**
 
-[amazon-keyspaces-with-apache-kafka](https://aws-oss.beachgeek.co.uk/2d1) this repository contains hands on content how to build a data pipeline to ingest real time data using managed open-source compatible services such as Amazon Elastic Kubernetes Service (EKS), Amazon Managed Streaming for Apache Kafka (MSK), and Amazon Keyspaces (for Apache Cassandra). Apache Kafka and Cassandra share distributed core capabilities like high availability, scalability, and throughput that makes them a good solution for large scale processing applications like IoT data, user metadata, trade monitoring, and route optimisation. This data pipeline can consume a sample stream from Twitter API which streams 1% of all the tweets in realtime as a data source, parse the tweets, metadata, and publish the parsed data to a Kafka topic. Kafka works as a distributed queue as well as a buffer layer to transport messages. MSK Connect consumes these messages from Kafka topic and writes them to Amazon Keyspaces tables.
+[amazon-keyspaces-with-apache-kafka](https://github.com/aws-samples/amazon-keyspaces-with-apache-kafka) this repository contains hands on content how to build a data pipeline to ingest real time data using managed open-source compatible services such as Amazon Elastic Kubernetes Service (EKS), Amazon Managed Streaming for Apache Kafka (MSK), and Amazon Keyspaces (for Apache Cassandra). Apache Kafka and Cassandra share distributed core capabilities like high availability, scalability, and throughput that makes them a good solution for large scale processing applications like IoT data, user metadata, trade monitoring, and route optimisation. This data pipeline can consume a sample stream from Twitter API which streams 1% of all the tweets in realtime as a data source, parse the tweets, metadata, and publish the parsed data to a Kafka topic. Kafka works as a distributed queue as well as a buffer layer to transport messages. MSK Connect consumes these messages from Kafka topic and writes them to Amazon Keyspaces tables.
 
 The solution uses EKS to deploy containerised Twitter Event source application, the containerised application consumes, and a stream of tweets from Twitter API, parse the tweets (discards tweets that don’t have a hashtag), extract tweet metadata (created at, lang etc.), publishes these messages to Kafka topic twitter_input with desired fields using Kafka producer API. You will use the MSK Connect to ingest data from the twitter_input topic to Amazon Keyspaces.
 
@@ -115,34 +115,34 @@ The solution uses EKS to deploy containerised Twitter Event source application, 
 
 **iot-analytics-athena-ddb**
 
-[iot-analytics-athena-ddb](https://aws-oss.beachgeek.co.uk/2cu) provides a solution for a reference architecture to analyse electricity data from smart meters, for maintenance purposes of a hypothetical Energy company, and for self-service analysis of customers, to understand how much electricity they consume.
+[iot-analytics-athena-ddb](https://github.com/aws-samples/iot-analytics-athena-ddb) provides a solution for a reference architecture to analyse electricity data from smart meters, for maintenance purposes of a hypothetical Energy company, and for self-service analysis of customers, to understand how much electricity they consume.
 
 ![architecture of iot electricity solution](https://github.com/aws-samples/iot-analytics-athena-ddb/blob/main/assets/images/iot-analytics-solution-git-cover.png?raw=true)
 
 **amazon-sagemaker-clip-search**
 
-[amazon-sagemaker-clip-search](https://aws-oss.beachgeek.co.uk/2cz) this repository aims at building a machine learning (ML) powered search engine prototype to retrieve and recommend products based on text or image queries. This is a step-by-step guide on how to create SageMaker Models with Contrastive Language-Image Pre-Training (CLIP), use the models to encode images and text into embeddings, ingest embeddings into Amazon OpenSearch Service index, and query the index using OpenSearch Service k-nearest neighbors (KNN) functionality.
+[amazon-sagemaker-clip-search](https://github.com/aws-samples/amazon-sagemaker-clip-search) this repository aims at building a machine learning (ML) powered search engine prototype to retrieve and recommend products based on text or image queries. This is a step-by-step guide on how to create SageMaker Models with Contrastive Language-Image Pre-Training (CLIP), use the models to encode images and text into embeddings, ingest embeddings into Amazon OpenSearch Service index, and query the index using OpenSearch Service k-nearest neighbors (KNN) functionality.
 
 ![architecture for sagemaker clip search](https://github.com/aws-samples/amazon-sagemaker-clip-search/blob/main/pictures/blog.drawio.png?raw=true)
 
 **ack-rds-gitops-workshop**
 
-[ack-rds-gitops-workshop](https://aws-oss.beachgeek.co.uk/2d0) roll your sleeves up for this great workshop, where you will learn to deploy a continuous integration and delivery (CI/CD) workflow using GitOps and the AWS Controllers for Kubernetes (ACK) service controller for Amazon RDS on Amazon EKS to create and manage Amazon Aurora Serverless v2 databases effectively. GitOps relies on Git as the single source of truth for declaratively managing containerised infrastructure and application components. With Git at the centre of CI/CD pipelines, developers can automate and simplify application deployments and operations to Kubernetes. 
+[ack-rds-gitops-workshop](https://github.com/aws-samples/ack-rds-gitops-workshop) roll your sleeves up for this great workshop, where you will learn to deploy a continuous integration and delivery (CI/CD) workflow using GitOps and the AWS Controllers for Kubernetes (ACK) service controller for Amazon RDS on Amazon EKS to create and manage Amazon Aurora Serverless v2 databases effectively. GitOps relies on Git as the single source of truth for declaratively managing containerised infrastructure and application components. With Git at the centre of CI/CD pipelines, developers can automate and simplify application deployments and operations to Kubernetes. 
 
 ###2022 most popular posts
 
 As this is the last newsletter of 2022, I wanted to highlight the most viewed blog posts of 2022 just in case some of you missed these. These are the top ten, so am hoping that some of these will be new to you.
 
-* [Presto® on Apache Kafka® At Uber Scale](https://aws-oss.beachgeek.co.uk/1ls)
-* [Dashboards as Code with HCL + SQL](https://aws-oss.beachgeek.co.uk/1hk)
-* [The Art of Building Open Data Lakes with Apache Hudi, Kafka, Hive, and Debezium](https://aws-oss.beachgeek.co.uk/17v)
-* [Monitor AWS resources created by Terraform in Amazon DevOps Guru using tfdevops](https://aws-oss.beachgeek.co.uk/17k)
-* [Progressive Delivery using AWS App Mesh and Flagger](https://aws-oss.beachgeek.co.uk/17n)
-* [Parallel CDK stack deployments with GitHub Actions](https://aws-oss.beachgeek.co.uk/1lu)
-* [Use CDK8S To Create AWS Controllers for Kubernetes Custom Resources](https://aws-oss.beachgeek.co.uk/1je)
-* [How Prime Video updates its app for more than 8,000 device types](https://aws-oss.beachgeek.co.uk/1b9)
-* [First Look at Lambda Powertools TypeScript](https://aws-oss.beachgeek.co.uk/196)
-* [AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application](https://aws-oss.beachgeek.co.uk/17u)
+* [Presto® on Apache Kafka® At Uber Scale](https://eng.uber.com/presto-on-apache-kafka-at-uber-scale/)
+* [Dashboards as Code with HCL + SQL](https://steampipe.io/blog/dashboards-as-code)
+* [The Art of Building Open Data Lakes with Apache Hudi, Kafka, Hive, and Debezium](https://garystafford.medium.com/the-art-of-building-open-data-lakes-with-apache-hudi-kafka-hive-and-debezium-3d2f71c5981f)
+* [Monitor AWS resources created by Terraform in Amazon DevOps Guru using tfdevops](https://aws.amazon.com/blogs/devops/monitor-aws-resources-created-by-terraform-in-amazon-devops-guru-using-tfdevops/)
+* [Progressive Delivery using AWS App Mesh and Flagger](https://aws.amazon.com/blogs/containers/progressive-delivery-using-aws-app-mesh-and-flagger/)
+* [Parallel CDK stack deployments with GitHub Actions](https://www.stedi.com/blog/parallel-cdk-stack-deployments)
+* [Use CDK8S To Create AWS Controllers for Kubernetes Custom Resources](https://dev.to/vumdao/use-cdk8s-to-create-aws-controllers-for-kubernetes-custom-resources-4542)
+* [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
+* [First Look at Lambda Powertools TypeScript](https://dev.to/aws-builders/first-look-at-lambda-powertools-typescript-2k3p)
+* [AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/amp/)
 
 Congratulations to the writers of these posts, you have obviously put together something of interest to the broader open source and AWS community.
 
@@ -152,51 +152,51 @@ From a retrospective look to the latest blog posts for you to enjoy.
 
 **Karpenter**
 
-Ran Tao, Cloud architect @Jina AI shares a detailed guide on how to lower the cost of using GPUs by using time-slicing, and how you can achieve that using Karpenter. In the post, [Time-Slicing GPUs with Karpenter](https://aws-oss.beachgeek.co.uk/2d7) find out more about how you can use Karpenter and NVIDIA’s k8s plugin to achieve time-slicing on GPUs that will allow users to share GPUs between pods, and hence save on costs.
+Ran Tao, Cloud architect @Jina AI shares a detailed guide on how to lower the cost of using GPUs by using time-slicing, and how you can achieve that using Karpenter. In the post, [Time-Slicing GPUs with Karpenter](https://dev.to/aws/time-slicing-gpus-with-karpenter-43nn) find out more about how you can use Karpenter and NVIDIA’s k8s plugin to achieve time-slicing on GPUs that will allow users to share GPUs between pods, and hence save on costs.
 
 ![architecture of karpenter time slicing gpu](https://res.cloudinary.com/practicaldev/image/fetch/s--uqeSDJOU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://miro.medium.com/max/1400/1%2A9fXBwPJii317MA5OPouEdg.png)
 
 **Micronaut**
 
-AWS Community Builder Vadym Kazulkin has written his latest blog post, a two part series on Measuring Java 11 Lambda cold starts with SnapStart. In the first, [Measuring Java 11 Lambda cold starts with SnapStart - Part 1 First Impressions](https://aws-oss.beachgeek.co.uk/2db) he provides a quick introduction and overview of this new capability within AWS Lambda, and in the follow up post, [Measuring Java 11 Lambda cold starts with SnapStart - Part 2 Using Micronaut Framework](https://aws-oss.beachgeek.co.uk/2d5) revisits the first post but this time comparing what happens when using the Micronaut framework.
+AWS Community Builder Vadym Kazulkin has written his latest blog post, a two part series on Measuring Java 11 Lambda cold starts with SnapStart. In the first, [Measuring Java 11 Lambda cold starts with SnapStart - Part 1 First Impressions](https://dev.to/vkazulkin/measuring-java-11-lambda-cold-starts-with-snapstart-part-1-first-impressions-30a4) he provides a quick introduction and overview of this new capability within AWS Lambda, and in the follow up post, [Measuring Java 11 Lambda cold starts with SnapStart - Part 2 Using Micronaut Framework](https://dev.to/aws-builders/measuring-java-11-lambda-cold-starts-with-snapstart-part-2-using-micronaut-framework-17j4) revisits the first post but this time comparing what happens when using the Micronaut framework.
 
 **Apache Skywalking**
 
-Apache SkyWalking is an open source Application Performance Monitoring (APM) tool for monitoring and troubleshooting distributed systems, especially designed for micro services, cloud native and container-based (Docker, Kubernetes, Mesos) architectures. My colleague Yue Guo has put together a blog post, [How to run Apache SkyWalking on AWS EKS and RDS/Aurora](https://aws-oss.beachgeek.co.uk/2d4) on how to quickly set up Apache SkyWalking on AWS EKS and RDS/Aurora, as well as a couple of sample services, monitoring services to observe SkyWalking itself.
+Apache SkyWalking is an open source Application Performance Monitoring (APM) tool for monitoring and troubleshooting distributed systems, especially designed for micro services, cloud native and container-based (Docker, Kubernetes, Mesos) architectures. My colleague Yue Guo has put together a blog post, [How to run Apache SkyWalking on AWS EKS and RDS/Aurora](https://dev.to/aws/how-to-run-apache-skywalking-on-aws-eks-and-rdsaurora-4a5d) on how to quickly set up Apache SkyWalking on AWS EKS and RDS/Aurora, as well as a couple of sample services, monitoring services to observe SkyWalking itself.
 
 ![example dashboard for apache skywalker](https://res.cloudinary.com/practicaldev/image/fetch/s--Md575NF4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ek4lmsvf78f0wdkbndii.png)
 
 **Apache Ranger**
 
-Apache Ranger™ is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform. Amazon EMR enables fine-grained access control with Apache Ranger through a number of [components](https://aws-oss.beachgeek.co.uk/2do) (a Secret Agent and EMR record server). In the tutorial [Apache Ranger and AWS EMR Automated Installation and Integration Series (4): OpenLDAP + Open-Source Ranger](https://aws-oss.beachgeek.co.uk/2dn), Laurence Geng shows you how to use OpenLDAP as the authentication provider, and user accounts data store on it, and Ranger plays the authorisation controller. [hands on]
+Apache Ranger™ is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform. Amazon EMR enables fine-grained access control with Apache Ranger through a number of [components](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ranger-components.html) (a Secret Agent and EMR record server). In the tutorial [Apache Ranger and AWS EMR Automated Installation and Integration Series (4): OpenLDAP + Open-Source Ranger](https://dzone.com/articles/apache-ranger-aws-emr-automated-installation-4), Laurence Geng shows you how to use OpenLDAP as the authentication provider, and user accounts data store on it, and Ranger plays the authorisation controller. [hands on]
 
 ![architecture overview of ranger on amazon emr and openldap](https://dz2cdn1.dzone.com/storage/temp/16532375-ranger-opensource-arch.png)
 
 **Kubernetes**
 
-A few posts this week, starting off with [Blue/Green Kubernetes upgrades for Amazon EKS Anywhere using Flux](https://aws-oss.beachgeek.co.uk/2d9), where Robert Northard, Elamaran Shanmugam, and Premal Tailor detail a solution on how you can achieve blue/green Kubernetes platform deployments on Amazon EKS-A deployed on vSphere. [hands on]
+A few posts this week, starting off with [Blue/Green Kubernetes upgrades for Amazon EKS Anywhere using Flux](https://aws.amazon.com/blogs/containers/blue-green-kubernetes-upgrades-for-amazon-eks-anywhere-using-flux/), where Robert Northard, Elamaran Shanmugam, and Premal Tailor detail a solution on how you can achieve blue/green Kubernetes platform deployments on Amazon EKS-A deployed on vSphere. [hands on]
 
 ![decision flow chart diagram](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/12/13/Blue-Green_Architecture_Diagram.png)
 
-Following that Marcio Morales and Bruno Gabriel da Silva have written [Windows Authentication on Amazon EKS Windows pods](https://aws-oss.beachgeek.co.uk/2da), an end-to-end guide on how to configure an Amazon EKS cluster to exchange Kerberos tickets with an Active Directory Domain, allowing Windows pods to use Windows Authentication. [hands on]
+Following that Marcio Morales and Bruno Gabriel da Silva have written [Windows Authentication on Amazon EKS Windows pods](https://aws.amazon.com/blogs/containers/windows-authentication-on-amazon-eks-windows-pods/), an end-to-end guide on how to configure an Amazon EKS cluster to exchange Kerberos tickets with an Active Directory Domain, allowing Windows pods to use Windows Authentication. [hands on]
 
-Jimmy Ray and Sriram Ranganathan shared an overview of newly released Amazon EKS add-ons advanced configurations support in their post, [Amazon EKS add-ons: Advanced configuration](https://aws-oss.beachgeek.co.uk/2dh). Advanced configuration support for Amazon EKS add-ons allows you to set your configuration directly through the Amazon EKS add-ons API, to install and configure their operational software during cluster creation in a single step.[hands on]
+Jimmy Ray and Sriram Ranganathan shared an overview of newly released Amazon EKS add-ons advanced configurations support in their post, [Amazon EKS add-ons: Advanced configuration](https://aws.amazon.com/blogs/containers/amazon-eks-add-ons-advanced-configuration/). Advanced configuration support for Amazon EKS add-ons allows you to set your configuration directly through the Amazon EKS add-ons API, to install and configure their operational software during cluster creation in a single step.[hands on]
 
-At re:Invent we announced the availability of AWS Marketplace add-ons for Amazon EKS. This feature extends the add-ons experience to include operational software for security, storage, observability, and networking available in AWS Marketplace. Swaminathan Jayaraman and Sai Vennam walk you through this in the post, [Deploy third-party software add-ons from AWS Marketplace to Amazon EKS clusters.](https://aws-oss.beachgeek.co.uk/2di) [hands on] 
+At re:Invent we announced the availability of AWS Marketplace add-ons for Amazon EKS. This feature extends the add-ons experience to include operational software for security, storage, observability, and networking available in AWS Marketplace. Swaminathan Jayaraman and Sai Vennam walk you through this in the post, [Deploy third-party software add-ons from AWS Marketplace to Amazon EKS clusters.](https://aws.amazon.com/blogs/awsmarketplace/deploy-third-party-software-add-ons-aws-marketplace-amazon-eks-clusters/) [hands on] 
 
 ![architecture of aws marketplace deployments for eks](https://d2908q01vomqb2.cloudfront.net/761f22b2c1593d0bb87e0b606f990ba4974706de/2022/12/13/arch_diagram.png)
 
-Finally we have the post [Expose Amazon EKS pods through cross-account load balancer](https://aws-oss.beachgeek.co.uk/2dl) from Medha Shree and Ayush Kumar who show you how to expose Amazon EKS pods through cross-account load balancing. [hands on]
+Finally we have the post [Expose Amazon EKS pods through cross-account load balancer](https://aws.amazon.com/blogs/containers/expose-amazon-eks-pods-through-cross-account-load-balancer/) from Medha Shree and Ayush Kumar who show you how to expose Amazon EKS pods through cross-account load balancing. [hands on]
 
 **Other posts and quick reads**
 
-* [Deploy a Next.js 13 app with authentication to AWS Amplify](https://aws-oss.beachgeek.co.uk/2dm) explains how to create and deploy a Next.js 13 app with user authentication to Amplify Hosting in five steps [hands on]
-* [Cloud Brigade Accelerates Full-Stack App Development with AWS Amplify](https://aws-oss.beachgeek.co.uk/2d8) is a case study from Cloud Brigade and how they leverage AWS Amplify to accelerate development of solutions for their customers
+* [Deploy a Next.js 13 app with authentication to AWS Amplify](https://aws.amazon.com/blogs/mobile/deploy-a-next-js-13-app-with-authentication-to-aws-amplify/) explains how to create and deploy a Next.js 13 app with user authentication to Amplify Hosting in five steps [hands on]
+* [Cloud Brigade Accelerates Full-Stack App Development with AWS Amplify](https://aws.amazon.com/blogs/mobile/cloud-brigade-accelerates-full-stack-app-development-with-aws-amplify/) is a case study from Cloud Brigade and how they leverage AWS Amplify to accelerate development of solutions for their customers
 
 ![architecture of cloud bridge sample solution](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/12/08/Screen-Shot-2022-12-07-at-4.59.43-PM-1024x647.png)
 
-* [Partition existing tables using native commands in Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/2dk) shares how to use PostgreSQL native SQL commands to convert an existing non-partitioned table to a partitioned one [hands on]
-* [Datavail: Migrating and modernizing commercial databases to open-source database engines on AWS](https://aws-oss.beachgeek.co.uk/2dj) an interview with Datavail on how they are helping to migrate customers to open source databases
+* [Partition existing tables using native commands in Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/partition-existing-tables-using-native-commands-in-amazon-rds-for-postgresql-and-amazon-aurora-postgresql/) shares how to use PostgreSQL native SQL commands to convert an existing non-partitioned table to a partitioned one [hands on]
+* [Datavail: Migrating and modernizing commercial databases to open-source database engines on AWS](https://aws.amazon.com/blogs/modernizing-with-aws/datavail-modernizing-databases-on-aws/) an interview with Datavail on how they are helping to migrate customers to open source databases
 
 ![overview of datavail process](https://d2908q01vomqb2.cloudfront.net/8effee409c625e1a2d8f5033631840e6ce1dcb64/2022/12/14/datavail_process.jpg)
 
@@ -204,7 +204,7 @@ Finally we have the post [Expose Amazon EKS pods through cross-account load bala
 
 **AWS CDK**
 
-[V2.55 release of AWS CDK](https://aws-oss.beachgeek.co.uk/2de) was released, containing the usual new featurs, bug fixes and changes, which include:
+[V2.55 release of AWS CDK](https://github.com/aws/aws-cdk/releases/tag/v2.55.0) was released, containing the usual new featurs, bug fixes and changes, which include:
 
 * autoscaling: support default instance warmup for Auto Scaling groups 
 * cfnspec: cloudformation spec v101.0.0
@@ -221,7 +221,7 @@ Until now, EMR on EKS customers had to create a custom image to use Nvidia RAPID
 
 **Prowler**
 
-[Prowler](https://aws-oss.beachgeek.co.uk/2ct), the handy cloud security tool, new version 3.0 has been fully rewritten in Python and can scan your AWS account in minutes across all regions and covering more than 250 checks for the most popular AWS services. Prowler v3 also comes with a new check architecture, better compliance support and consolidated reporting formats.
+[Prowler](https://github.com/prowler-cloud/prowler), the handy cloud security tool, new version 3.0 has been fully rewritten in Python and can scan your AWS account in minutes across all regions and covering more than 250 checks for the most popular AWS services. Prowler v3 also comes with a new check architecture, better compliance support and consolidated reporting formats.
 
 **PostgreSQL**
 
@@ -279,7 +279,7 @@ This newsletter was reviewed in the latest Build on Open Source show, S01E08. If
 
 {{< youtube VN_FiwJ45fE >}}
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (seven) of the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (seven) of the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -288,24 +288,24 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **FOSSDEM**
 **Feb 4-5th, 2023 in Brussles**
 
-FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://aws-oss.beachgeek.co.uk/2dc).
+FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://openuk.uk/event-calendar/fosdem-2023/).
 
 **State of Open Con 23**
 **Feb 7-8th, 2023 in London**
 
-OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://aws-oss.beachgeek.co.uk/2dd).
+OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://openuk.uk/event-calendar/state-of-open-con-23/).
 
 **Everything Open**
 **March14-15th Melbourne, Australia**
 
-A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://aws-oss.beachgeek.co.uk/2ds). The CFP us currently open, so why not take a look and submit something if you can.
+A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://2023.everythingopen.au/about/). The CFP us currently open, so why not take a look and submit something if you can.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

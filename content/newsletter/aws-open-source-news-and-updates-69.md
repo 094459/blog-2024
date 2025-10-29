@@ -42,27 +42,27 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **iamlive-lambda-extension**
 
-[iamlive-lambda-extension](https://aws-oss.beachgeek.co.uk/iy) AWS Hero Ian McKay provides an extention to the iamlive project, offering a Lambda Extension that helps generate a least-privilege IAM policy by monitoring the AWS calls made within the Lambda execution environment.
+[iamlive-lambda-extension](https://github.com/iann0036/iamlive-lambda-extension) AWS Hero Ian McKay provides an extention to the iamlive project, offering a Lambda Extension that helps generate a least-privilege IAM policy by monitoring the AWS calls made within the Lambda execution environment.
 
 **iamcanary**
 
-[iamcanary](https://aws-oss.beachgeek.co.uk/iz) Hassan Tahhan with a tool that helps detect IAM access misconfigurations in your AWS account using periodic dry runs. This open source project can help you answer questions such as: Do you need to deploy a canary test into your AWS account to be notified when certain IAM actions do not succeed? Are you concerned about sudden changes to IAM permission boundaries impacting your workloads? Do you need to detect IAM access misconfigurations not in your control such as overly restrictive AWS Organisations Service Control Policies (SCPs)? If the answer to any of these is yes, then check this project out.
+[iamcanary](https://github.com/hassantahhan/iamcanary) Hassan Tahhan with a tool that helps detect IAM access misconfigurations in your AWS account using periodic dry runs. This open source project can help you answer questions such as: Do you need to deploy a canary test into your AWS account to be notified when certain IAM actions do not succeed? Are you concerned about sudden changes to IAM permission boundaries impacting your workloads? Do you need to detect IAM access misconfigurations not in your control such as overly restrictive AWS Organisations Service Control Policies (SCPs)? If the answer to any of these is yes, then check this project out.
 
 **cdk-watch**
 
-[cdk-watch](https://aws-oss.beachgeek.co.uk/j0) this is a CLI to watch and live-update your CDK Stack's Lambdas, which means you can get real-time logs over web-sockets to make the development feedback-loop faster when debugging your lambdas. An image is worth a hundred words, so check this out.
+[cdk-watch](https://github.com/teamplanes/cdk-watch) this is a CLI to watch and live-update your CDK Stack's Lambdas, which means you can get real-time logs over web-sockets to make the development feedback-loop faster when debugging your lambdas. An image is worth a hundred words, so check this out.
 
 ![demo](https://camo.githubusercontent.com/26e4a63a3f4db93c99e443c7e4dfde5f24fb6fff7c3b7d51d7583cfde9ad02aa/68747470733a2f2f63646b2d77617463682d7374617469632e73332e65752d776573742d322e616d617a6f6e6177732e636f6d2f64656d6f2e676966)
 
 **digital-pathology-on-aws**
 
-[digital-pathology-on-aws](https://aws-oss.beachgeek.co.uk/je) OMERO (Open Microscopy Environment Remote Objects) is a well known open source solution, a collaboration between academia and commercial business, to digitise microscopy images. This repo contains everything you need to get this up and running within your AWS account.
+[digital-pathology-on-aws](https://github.com/aws-samples/digital-pathology-on-aws) OMERO (Open Microscopy Environment Remote Objects) is a well known open source solution, a collaboration between academia and commercial business, to digitise microscopy images. This repo contains everything you need to get this up and running within your AWS account.
 
 ![arch](https://github.com/aws-samples/digital-pathology-on-aws/blob/main/Figures/omero-on-aws-ha.jpg?raw=true)  
 
 **aws-orbit-workbench**
 
-[aws-orbit-workbench](https://aws-oss.beachgeek.co.uk/hy) [Orbit Workbench] is a new open source framework for building team-based secured data environment, that is built on Kubernetes using Amazon Managed Kubernetes Service (EKS), and provides both a command line tool for rapid deployment as well as Python SDK, Jupyter Plugins and more to accelerate data analysis and ML by integration with AWS analytics services such as Amazon Redshift, Amazon Athena, Amazon EMR, Amazon SageMaker and more. Lots of documentation to help you get started, if you work with data then make sure you check this project out.
+[aws-orbit-workbench](https://github.com/awslabs/aws-orbit-workbench) [Orbit Workbench] is a new open source framework for building team-based secured data environment, that is built on Kubernetes using Amazon Managed Kubernetes Service (EKS), and provides both a command line tool for rapid deployment as well as Python SDK, Jupyter Plugins and more to accelerate data analysis and ML by integration with AWS analytics services such as Amazon Redshift, Amazon Athena, Amazon EMR, Amazon SageMaker and more. Lots of documentation to help you get started, if you work with data then make sure you check this project out.
 
 ![arch](https://raw.githubusercontent.com/wiki/awslabs/aws-orbit-workbench/Orbit-WorkBench-Arch.svg)
 
@@ -70,86 +70,86 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **LLVM**
 
-LLVM is an open source toolchain that helps make it easier to develop new programming languages or enhance existing ones and has been extensively used in the development of languages such as Swift, Rust and Kotlin. In this post, [Building LLVM in 90 seconds using Amazon Lambda](https://aws-oss.beachgeek.co.uk/jh) Nelson Elhage provides a super post on how you can use Llama so you can run and scale compilation jobs using AWS Lambda, making it easier to compile C or C++ code.
+LLVM is an open source toolchain that helps make it easier to develop new programming languages or enhance existing ones and has been extensively used in the development of languages such as Swift, Rust and Kotlin. In this post, [Building LLVM in 90 seconds using Amazon Lambda](https://blog.nelhage.com/post/building-llvm-in-90s/) Nelson Elhage provides a super post on how you can use Llama so you can run and scale compilation jobs using AWS Lambda, making it easier to compile C or C++ code.
 
 **TensorFlow**
 
-[Automating the Setup of SageMaker Studio Custom Images](https://aws-oss.beachgeek.co.uk/j1) this post from Sofian Hamiti walks you through the process of creating your own custom container images, in this instance one that has TensorFlow 2.5, and then using a CI/CD pipeline to build and then publish this so you can then use it within the Amazon SageMaker Studio. I am currently playing around in SageMaker Studio as part of a review for Julien Simon's 2nd edition [Learn Amazon SageMaker book](https://aws-oss.beachgeek.co.uk/j2) so was able to have a play around with this. The only clarification for those going through this walkthrough is that when you are asked for the ImageRoleArn, use your Amazon Studio's Execution role arn (that is what I used when I followed this post, and it worked for me)
+[Automating the Setup of SageMaker Studio Custom Images](https://towardsdatascience.com/automating-the-setup-of-sagemaker-studio-custom-images-4a3433fd7148) this post from Sofian Hamiti walks you through the process of creating your own custom container images, in this instance one that has TensorFlow 2.5, and then using a CI/CD pipeline to build and then publish this so you can then use it within the Amazon SageMaker Studio. I am currently playing around in SageMaker Studio as part of a review for Julien Simon's 2nd edition [Learn Amazon SageMaker book](https://www.amazon.co.uk/Learn-Amazon-SageMaker-developers-scientists/dp/180020891X/ref=sr_1_1?dchild=1&keywords=julien+simon&qid=1621599097&sr=8-1) so was able to have a play around with this. The only clarification for those going through this walkthrough is that when you are asked for the ImageRoleArn, use your Amazon Studio's Execution role arn (that is what I used when I followed this post, and it worked for me)
 
 **Triton**
 
-Triton Inference Server is an open source cloud and edge inferencing project from Nvidia that is optimised for both CPUs and GPUs. In this post, [Deploying an Nvidia Triton Inference Server on Amazon ECS](https://aws-oss.beachgeek.co.uk/jk), Sofian Hamiti shows you how you can use AWS CDK to deploy this on Amazon ECS containers.
+Triton Inference Server is an open source cloud and edge inferencing project from Nvidia that is optimised for both CPUs and GPUs. In this post, [Deploying an Nvidia Triton Inference Server on Amazon ECS](https://sofian-hamiti.medium.com/deploying-an-nvidia-triton-inference-server-on-amazon-ecs-ca6f0bebfcc8), Sofian Hamiti shows you how you can use AWS CDK to deploy this on Amazon ECS containers.
 
 **FastAPI**
 
-[Deploying a FastAPI backend using AWS Amplify Container-based REST APIs](https://aws-oss.beachgeek.co.uk/j3) Stephen Siegert with a great walkthrough on how to get FastAPI, a framework for setting up APIs for data science and analytics-based workloads, up and running with AWS Amplify in ...well, very Fast indeed.
+[Deploying a FastAPI backend using AWS Amplify Container-based REST APIs](https://xiegerts.com/post/fastapi-fargate-amplify/) Stephen Siegert with a great walkthrough on how to get FastAPI, a framework for setting up APIs for data science and analytics-based workloads, up and running with AWS Amplify in ...well, very Fast indeed.
 
 **Mailtrain**
 
-Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+). In this post, [How to save up to 500€/year switching from Mailchimp to Open Source Mailtrain and AWS SES](https://aws-oss.beachgeek.co.uk/j4) Carl Chenet walks you through how you can reduce your costs by self hosting your newsletter subscribers using this open source project and running it on AWS and using some services such as Amazon Simple Email Service. I had not heard about Mailtrain before, and it looks super nice and feature rich so will be taking a closer look.
+Mailtrain is a self hosted newsletter application built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+). In this post, [How to save up to 500€/year switching from Mailchimp to Open Source Mailtrain and AWS SES](https://carlchenet.com/how-to-save-up-to-500e-year-switching-from-mailchimp-to-open-source-mailtrain-and-aws-ses/) Carl Chenet walks you through how you can reduce your costs by self hosting your newsletter subscribers using this open source project and running it on AWS and using some services such as Amazon Simple Email Service. I had not heard about Mailtrain before, and it looks super nice and feature rich so will be taking a closer look.
 
 **Apache Kakfa / Spring**
 
-[Eventual Consistency with Spring for Apache Kafka](https://aws-oss.beachgeek.co.uk/jl) another great post from Gary Stafford, the first of two parts, where he takes you on journey to understand how you can ensure you maintain data consistency in distributed systems that are made up of many microservices. As you might expect from the title, Apache Kakfa holds the key. So get comfortable, grab something to drink and read on to find out more.
+[Eventual Consistency with Spring for Apache Kafka](https://itnext.io/eventual-consistency-with-spring-for-apache-kafka-cfbbed450b5e) another great post from Gary Stafford, the first of two parts, where he takes you on journey to understand how you can ensure you maintain data consistency in distributed systems that are made up of many microservices. As you might expect from the title, Apache Kakfa holds the key. So get comfortable, grab something to drink and read on to find out more.
 
 ![arch](https://miro.medium.com/max/700/0*UpyRPNG_WkV7UnrD.png)
 
 **Tuning HTTP**
 
-If you have been reading this newsletter for any amount of time you will know I enjoy a good performance tuning/benchmarking post, and this week we have a real treat. Marc Richards has put together this post, [Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance](https://aws-oss.beachgeek.co.uk/j5) showing how you can really squeeze every last bit of performance from HTTP running on an EC2 instance, iterating through a number of techniques which each time push the performance bar higher. Really compelling read this one.
+If you have been reading this newsletter for any amount of time you will know I enjoy a good performance tuning/benchmarking post, and this week we have a real treat. Marc Richards has put together this post, [Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance](https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/) showing how you can really squeeze every last bit of performance from HTTP running on an EC2 instance, iterating through a number of techniques which each time push the performance bar higher. Really compelling read this one.
 
 ![graph](https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/libreactor-dhcp-fg.png)
 
 **AWS Chalice**
 
-Chalice is an open source framework for writing serverless apps in python that allows you to quickly create and deploy applications that use AWS Lambda. In this post, [CI/CD For CDN Invalidation Using AWS Lambda Function And Gitlab Pipeline](https://aws-oss.beachgeek.co.uk/jf) Vu Dao shows you how you can use this framework and address how you can clear edge stored copies of your static assets.
+Chalice is an open source framework for writing serverless apps in python that allows you to quickly create and deploy applications that use AWS Lambda. In this post, [CI/CD For CDN Invalidation Using AWS Lambda Function And Gitlab Pipeline](https://dev.to/vumdao/ci-cd-for-cdn-invalidation-using-aws-lambda-function-and-gitlab-pipeline-3662) Vu Dao shows you how you can use this framework and address how you can clear edge stored copies of your static assets.
 
 **AWS CDK**
 
-A couple of posts this week. First up we have [Build Serverless Applications using CDK and SAM](https://aws-oss.beachgeek.co.uk/ji), this post is the perfect read given the recent new a few weeks ago that it is now easier to use AWS CDK and SAM together as you build your serverless applications. AWS Community Builder Lorenz Vanthillo shows you how this look by providing a nice simple walkthrough.
+A couple of posts this week. First up we have [Build Serverless Applications using CDK and SAM](https://dev.to/aws-builders/build-serverless-applications-using-cdk-and-sam-4oig), this post is the perfect read given the recent new a few weeks ago that it is now easier to use AWS CDK and SAM together as you build your serverless applications. AWS Community Builder Lorenz Vanthillo shows you how this look by providing a nice simple walkthrough.
 
-Then we have [AWS CDK for EKS — Handling Helm Charts](https://aws-oss.beachgeek.co.uk/jm) from Jimmy Ray, with a post showing you how you can use AWS CDK with Amazon EKS to deploy applications packaged as Helm charts.
+Then we have [AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4) from Jimmy Ray, with a post showing you how you can use AWS CDK with Amazon EKS to deploy applications packaged as Helm charts.
 
 
 ### AWS and Amazon open source posts
 
 **Bottlerocket**
 
-[Getting started with Bottlerocket on AWS Graviton2](https://aws-oss.beachgeek.co.uk/jb) Vijoy Choyi brings together two technologies, Bottlerocket and AWS Graviton2, and spins up some Kubernetes clusters running the Bottlerocket OS hosted on Graviton2 based worker nodes. Why might you be interested in doing something similar? Aside from the security benefits brought by Bottlerocket, many customers are finding a better price/performance optic when running on Arm based instances that AWS Graviton2 provides.
+[Getting started with Bottlerocket on AWS Graviton2](https://aws.amazon.com/blogs/opensource/getting-started-with-bottlerocket-on-aws-graviton2/) Vijoy Choyi brings together two technologies, Bottlerocket and AWS Graviton2, and spins up some Kubernetes clusters running the Bottlerocket OS hosted on Graviton2 based worker nodes. Why might you be interested in doing something similar? Aside from the security benefits brought by Bottlerocket, many customers are finding a better price/performance optic when running on Arm based instances that AWS Graviton2 provides.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/28/vijoy_Getting-Started-Bottlerocket_f1.png)
 
 **Kubernetes**
 
-Big news last week as the Containers team announced the availability of Kubernetes 1.20 in Amazon EKS. Eddie Zaneski dives deeper into this announcement in his post, [Amazon EKS 1.20 Released](https://aws-oss.beachgeek.co.uk/j8) taking a look at the main features of this release, changes you should be aware of, specifics to Amazon EKS and a few things to consider as you ponder migrating from 1.19.
+Big news last week as the Containers team announced the availability of Kubernetes 1.20 in Amazon EKS. Eddie Zaneski dives deeper into this announcement in his post, [Amazon EKS 1.20 Released](https://aws.amazon.com/blogs/containers/amazon-eks-1-20-released/) taking a look at the main features of this release, changes you should be aware of, specifics to Amazon EKS and a few things to consider as you ponder migrating from 1.19.
 
 **Next.js**
 
-Big news last week for folks who love to use AWS Amplify to host their websites with the announcement of now supporting server-side rendering (SSR) apps built with the Next.js framework. In this post, [Host a Next.js SSR app with real-time data on AWS Amplify](https://aws-oss.beachgeek.co.uk/j9) Nikhil Swaminathan walks you through an example so you can see how simple this is, with very little configuration for you to do and plenty of flexibility. Nikhil provides some additional resources to get you going.
+Big news last week for folks who love to use AWS Amplify to host their websites with the announcement of now supporting server-side rendering (SSR) apps built with the Next.js framework. In this post, [Host a Next.js SSR app with real-time data on AWS Amplify](https://aws.amazon.com/blogs/mobile/host-a-next-js-ssr-app-with-real-time-data-on-aws-amplify/) Nikhil Swaminathan walks you through an example so you can see how simple this is, with very little configuration for you to do and plenty of flexibility. Nikhil provides some additional resources to get you going.
 
 **Amplify**
 
-[Restoring AWS Amplify project after deleting it from the cloud](https://aws-oss.beachgeek.co.uk/jj) Olajide Enigbokan put together a nice guide to help you if you ever find yourself needing to recover from deleting your Amplify projects. Covering what is and is not recovered to how to actually do this, essential reading for those of you who use and love AWS Amplify.
+[Restoring AWS Amplify project after deleting it from the cloud](https://aws.amazon.com/blogs/mobile/restoring-aws-amplify-project-after-deleting-it-from-the-cloud/) Olajide Enigbokan put together a nice guide to help you if you ever find yourself needing to recover from deleting your Amplify projects. Covering what is and is not recovered to how to actually do this, essential reading for those of you who use and love AWS Amplify.
 
 **AWS CloudFormation Guard 2.0**
 
-AWS CloudFormation Guard is an open-source general-purpose policy-as-code evaluation tool. It provides developers with a simple-to-use, yet powerful and expressive domain-specific language (DSL) to define policies and enables developers to validate JSON- or YAML- formatted structured data with those policies. Announced last week, the Guard 2.0 release is a complete re-write to make the tool general-purpose. In this post, [Introducing AWS CloudFormation Guard 2.0](https://aws-oss.beachgeek.co.uk/ja) Matteo Rinaudo covers some of those changes, and walks you through some examples of the new features.
+AWS CloudFormation Guard is an open-source general-purpose policy-as-code evaluation tool. It provides developers with a simple-to-use, yet powerful and expressive domain-specific language (DSL) to define policies and enables developers to validate JSON- or YAML- formatted structured data with those policies. Announced last week, the Guard 2.0 release is a complete re-write to make the tool general-purpose. In this post, [Introducing AWS CloudFormation Guard 2.0](https://aws.amazon.com/blogs/mt/introducing-aws-cloudformation-guard-2-0/) Matteo Rinaudo covers some of those changes, and walks you through some examples of the new features.
 
 ![demo](https://raw.githubusercontent.com/aws-cloudformation/cloudformation-guard/main/images/guard-demo.gif)
 
 **AutoGluon**
 
-[AWS releases code to help reduce bias in machine learning models](https://aws-oss.beachgeek.co.uk/jg) Valerio Perrone and Michele Donini present details of a new paper demonstrating how to help mitigate bias via tuning a models hyper-parameters. You can find more details including a link to the research paper and code samples and tutorials in this post.
+[AWS releases code to help reduce bias in machine learning models](https://www.amazon.science/blog/aws-releases-code-to-help-reduce-bias-in-machine-learning-models) Valerio Perrone and Michele Donini present details of a new paper demonstrating how to help mitigate bias via tuning a models hyper-parameters. You can find more details including a link to the research paper and code samples and tutorials in this post.
 
 ![bias](https://assets.amazon.science/dims4/default/5bb5921/2147483647/strip/true/crop/2424x890+0+0/resize/1200x441!/quality/90/?url=http%3A%2F%2Famazon-topics-brightspot.s3.amazonaws.com%2Fscience%2F0c%2F1c%2F3178f4e74280b842c10e813e0d28%2Fbo-vs-cbo.png)
 
 **YOLO**
 
-YOLO (You Only Look Once) is part of the DL single-stage object detection model family, which includes models such as Single Shot Detector (SSD) and RetinaNet. Santosh Bhavani and Vamshidhar Dantu help open your eyes on how you can use Neo to improve the performance of image classification in their post, [Speed up YOLOv4 inference to twice as fast on Amazon SageMaker](https://aws-oss.beachgeek.co.uk/j7)
+YOLO (You Only Look Once) is part of the DL single-stage object detection model family, which includes models such as Single Shot Detector (SSD) and RetinaNet. Santosh Bhavani and Vamshidhar Dantu help open your eyes on how you can use Neo to improve the performance of image classification in their post, [Speed up YOLOv4 inference to twice as fast on Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/speed-up-yolov4-inference-to-twice-as-fast-on-amazon-sagemaker/)
 
 **Wordpress**
 
-We all remember our first website, and after a brief reminis of days gone by, Re Alvarez-Parmar and Jimmy Hayes take time to write about how many people now start creating their websites on the web - via Wordpress. In, [Running WordPress on Amazon ECS on AWS Fargate with Amazon EFS](https://aws-oss.beachgeek.co.uk/j6) they apply modern cloud approaches to build a scalable and robust architecture that ensures Wordpress can serve the next generation of creators. 
+We all remember our first website, and after a brief reminis of days gone by, Re Alvarez-Parmar and Jimmy Hayes take time to write about how many people now start creating their websites on the web - via Wordpress. In, [Running WordPress on Amazon ECS on AWS Fargate with Amazon EFS](https://aws.amazon.com/blogs/containers/running-wordpress-amazon-ecs-fargate-ecs/) they apply modern cloud approaches to build a scalable and robust architecture that ensures Wordpress can serve the next generation of creators. 
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/05/20/image-2021-05-20T153609.196.png)
 
@@ -157,7 +157,7 @@ We all remember our first website, and after a brief reminis of days gone by, Re
 
 **Spring**
 
-If you are a java developer and use Spring on AWS, make sure you read the announcement last week, [Spring Integration for AWS 2.5 went GA last week.](https://aws-oss.beachgeek.co.uk/jd) 
+If you are a java developer and use Spring on AWS, make sure you read the announcement last week, [Spring Integration for AWS 2.5 went GA last week.](https://spring.io/blog/2021/05/20/spring-integration-for-aws-2-5-goes-ga) 
 
 **Kubernetes - 1.20**
 

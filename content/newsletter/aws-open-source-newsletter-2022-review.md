@@ -22,35 +22,35 @@ I transitioned to using Hugo to build my personal blog, and introduced tagging a
 
 What were the most popular projects that readers found interesting in this newsletter? I thought I would share what have been the most popular projects this year (measured by folks that have clicked on the links). These are just too good to miss, so check this list out and let me know what you think. What were your favourite projects of 2022? What is missing that you are surprised about?
 
-*	[querypal](https://aws-oss.beachgeek.co.uk/x) the most viewed project, provides a nice WebUI for Amazon Athena
-*	[cfn-diagram](https://aws-oss.beachgeek.co.uk/4r) is CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks, draw.io or ascii-art diagrams
-*	[driftctl](https://aws-oss.beachgeek.co.uk/2p) helps you detect, track and alert on infrastructure drift
-* [infracost](https://aws-oss.beachgeek.co.uk/7l) shows cloud cost estimates for Terraform
-* [aws-sdk-client-mock](https://aws-oss.beachgeek.co.uk/ll) provides AWS JavaScript SDK v3 mocks for easy unit testing
-* [cfn_nag](https://aws-oss.beachgeek.co.uk/ng) is a linting tool for CloudFormation templates
-* [steampipe](https://aws-oss.beachgeek.co.uk/dl) ise SQL to instantly query AWS resources across regions and accounts
-* [keycloak](https://aws-oss.beachgeek.co.uk/lf) is an open source Identity and Access Management solution
-* [gnuradio](https://aws-oss.beachgeek.co.uk/1au) is a free & open-source software development toolkit that provides signal processing blocks to implement software radios
-* [eventcatalog](https://aws-oss.beachgeek.co.uk/18d) helps you discover, explore and document your Event Driven Architectures powered by Markdown.
-* [ddb_local](https://aws-oss.beachgeek.co.uk/17r) provides a Python wrapper for DynamoDB Local
-* [cloudquery-policies/aws](https://aws-oss.beachgeek.co.uk/16f) is an open-source cloud asset inventory powered by SQL
-* [kronicle](https://aws-oss.beachgeek.co.uk/1ik) is an open source tool and dashboard for documenting and visualising a tech stack
-* [memq](https://aws-oss.beachgeek.co.uk/1cs) is an efficient, scalable cloud native PubSub system from Pintrest
+*	[querypal](https://github.com/OElesin/querypal) the most viewed project, provides a nice WebUI for Amazon Athena
+*	[cfn-diagram](https://github.com/mhlabs/cfn-diagram) is CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks, draw.io or ascii-art diagrams
+*	[driftctl](https://github.com/cloudskiff/driftctl) helps you detect, track and alert on infrastructure drift
+* [infracost](https://github.com/infracost/infracost) shows cloud cost estimates for Terraform
+* [aws-sdk-client-mock](https://github.com/m-radzikowski/aws-sdk-client-mock) provides AWS JavaScript SDK v3 mocks for easy unit testing
+* [cfn_nag](https://github.com/stelligent/cfn_nag) is a linting tool for CloudFormation templates
+* [steampipe](https://github.com/turbot/steampipe-plugin-aws) ise SQL to instantly query AWS resources across regions and accounts
+* [keycloak](https://github.com/keycloak/keycloak) is an open source Identity and Access Management solution
+* [gnuradio](https://github.com/gnuradio/gnuradio) is a free & open-source software development toolkit that provides signal processing blocks to implement software radios
+* [eventcatalog](https://github.com/boyney123/eventcatalog) helps you discover, explore and document your Event Driven Architectures powered by Markdown.
+* [ddb_local](https://github.com/wbkang/ddb_local) provides a Python wrapper for DynamoDB Local
+* [cloudquery-policies/aws](https://github.com/cloudquery-policies/aws) is an open-source cloud asset inventory powered by SQL
+* [kronicle](https://github.com/kronicle-tech/kronicle) is an open source tool and dashboard for documenting and visualising a tech stack
+* [memq](https://github.com/pinterest/memq) is an efficient, scalable cloud native PubSub system from Pintrest
 
 **Most viewed blog posts and articles**
 
 It was not just code that readers were interested in. Here is a list of the most viewed blog posts of 2022. If you missed them the first time around, here is your chance to catch up.
 
-* [Presto® on Apache Kafka® At Uber Scale](https://aws-oss.beachgeek.co.uk/1ls)
-* [Dashboards as Code with HCL + SQL](https://aws-oss.beachgeek.co.uk/1hk)
-* [The Art of Building Open Data Lakes with Apache Hudi, Kafka, Hive, and Debezium](https://aws-oss.beachgeek.co.uk/17v)
-* [Monitor AWS resources created by Terraform in Amazon DevOps Guru using tfdevops](https://aws-oss.beachgeek.co.uk/17k)
-* [Progressive Delivery using AWS App Mesh and Flagger](https://aws-oss.beachgeek.co.uk/17n)
-* [Parallel CDK stack deployments with GitHub Actions](https://aws-oss.beachgeek.co.uk/1lu)
-* [Use CDK8S To Create AWS Controllers for Kubernetes Custom Resources](https://aws-oss.beachgeek.co.uk/1je)
-* [How Prime Video updates its app for more than 8,000 device types](https://aws-oss.beachgeek.co.uk/1b9)
-* [First Look at Lambda Powertools TypeScript](https://aws-oss.beachgeek.co.uk/196)
-* [AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application](https://aws-oss.beachgeek.co.uk/17u)
+* [Presto® on Apache Kafka® At Uber Scale](https://eng.uber.com/presto-on-apache-kafka-at-uber-scale/)
+* [Dashboards as Code with HCL + SQL](https://steampipe.io/blog/dashboards-as-code)
+* [The Art of Building Open Data Lakes with Apache Hudi, Kafka, Hive, and Debezium](https://garystafford.medium.com/the-art-of-building-open-data-lakes-with-apache-hudi-kafka-hive-and-debezium-3d2f71c5981f)
+* [Monitor AWS resources created by Terraform in Amazon DevOps Guru using tfdevops](https://aws.amazon.com/blogs/devops/monitor-aws-resources-created-by-terraform-in-amazon-devops-guru-using-tfdevops/)
+* [Progressive Delivery using AWS App Mesh and Flagger](https://aws.amazon.com/blogs/containers/progressive-delivery-using-aws-app-mesh-and-flagger/)
+* [Parallel CDK stack deployments with GitHub Actions](https://www.stedi.com/blog/parallel-cdk-stack-deployments)
+* [Use CDK8S To Create AWS Controllers for Kubernetes Custom Resources](https://dev.to/vumdao/use-cdk8s-to-create-aws-controllers-for-kubernetes-custom-resources-4542)
+* [How Prime Video updates its app for more than 8,000 device types](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types)
+* [First Look at Lambda Powertools TypeScript](https://dev.to/aws-builders/first-look-at-lambda-powertools-typescript-2k3p)
+* [AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/amp/)
 
 ### Feedback and looking forward to 2023
 

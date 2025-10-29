@@ -20,7 +20,7 @@ Make sure you check out the events, looking forward to Airflow Summit next week.
 
 The call for papers (cfp) for ApacheCon closes on Monday, 23rd May so there is still time to put together a submission. This year features a new data engineering track, but there are many other tracks including Community, Internet of Things, Cloud, as well as some of your favourite Apache projects such as Tomcat, Pulsar and more.
 
-Give this some thought and when ready, [check out this page](https://aws-oss.beachgeek.co.uk/1p5) to submit your proposal.
+Give this some thought and when ready, [check out this page](https://www.apachecon.com/acna2022/cfp.html) to submit your proposal.
 
 (Big thanks to Ismael Mejia for nudging me to include this)
 
@@ -39,27 +39,27 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **aws-iam-utils**
 
-[aws-iam-utils](https://aws-oss.beachgeek.co.uk/1pl) is an open sourced Python library with some utility functions for working with AWS IAM policies. [Jonny](https://github.com/jtyers) wrote this because he wanted a simpler solution to what was already available and wanted an easy and quick way to interact without having to use the API. The docs cover what you can do with this in more detail, so check this project out.
+[aws-iam-utils](https://github.com/jtyers/aws-iam-utils) is an open sourced Python library with some utility functions for working with AWS IAM policies. [Jonny](https://github.com/jtyers) wrote this because he wanted a simpler solution to what was already available and wanted an easy and quick way to interact without having to use the API. The docs cover what you can do with this in more detail, so check this project out.
 
 #### Tools
 
 **s3pathlib-project**
 
-[s3pathlib-project](https://aws-oss.beachgeek.co.uk/1pr) is the python package provides the Pythonic objective oriented programming (OOP) interface to manipulate AWS S3 object / directory. Check out the details [documentation](https://s3pathlib.readthedocs.io/en/latest/) to find out more.
+[s3pathlib-project](https://github.com/aws-samples/s3pathlib-project) is the python package provides the Pythonic objective oriented programming (OOP) interface to manipulate AWS S3 object / directory. Check out the details [documentation](https://s3pathlib.readthedocs.io/en/latest/) to find out more.
 
 **collaboration-chambers-on-aws**
 
-[collaboration-chambers-on-aws](https://aws-oss.beachgeek.co.uk/1pq) this repo provides the code needed for the Scale-Out Computing on AWS. This is a solution that helps customers more easily deploy and operate a multiuser environment for computationally intensive workflows.
+[collaboration-chambers-on-aws](https://github.com/awslabs/collaboration-chambers-on-aws) this repo provides the code needed for the Scale-Out Computing on AWS. This is a solution that helps customers more easily deploy and operate a multiuser environment for computationally intensive workflows.
 
 **iot-app-kit**
 
-[iot-app-kit](https://aws-oss.beachgeek.co.uk/1p3) this project is a development library for creating web applications to visualise industrial data. You can quickly get up to speed by checking out the blog post from Sudhir Jena, [Build IoT web applications using AWS IoT Application Kit](https://aws-oss.beachgeek.co.uk/1p4) which provides everything you need to know to get up and running. [hands on]
+[iot-app-kit](https://github.com/awslabs/iot-app-kit) this project is a development library for creating web applications to visualise industrial data. You can quickly get up to speed by checking out the blog post from Sudhir Jena, [Build IoT web applications using AWS IoT Application Kit](https://aws.amazon.com/blogs/iot/build-iot-applications-using-aws-iot-application-kit/) which provides everything you need to know to get up and running. [hands on]
 
 ![example of iot-app-kit being used](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2022/05/08/AWS-IoT-App-Kit-Demo-Screenshot-1-1024x602.png)
 
 **aws-systemsmanager-automate-hybrid-activations**
 
-[aws-systemsmanager-automate-hybrid-activations](https://aws-oss.beachgeek.co.uk/1pm) AWS Systems Manager (formerly known as SSM) is an AWS service that you can use to view and control your servers on AWS cloud and and on-premise infrastructure. To set up servers and virtual machines (VMs) in your hybrid environment as managed instances, you create a managed-instance activation. This repo contains a solution to help you automate the System Manager Hybrid Activations creation.
+[aws-systemsmanager-automate-hybrid-activations](https://github.com/aws-samples/aws-systemsmanager-automate-hybrid-activations) AWS Systems Manager (formerly known as SSM) is an AWS service that you can use to view and control your servers on AWS cloud and and on-premise infrastructure. To set up servers and virtual machines (VMs) in your hybrid environment as managed instances, you create a managed-instance activation. This repo contains a solution to help you automate the System Manager Hybrid Activations creation.
 
 ![architecture of ssm](https://github.com/aws-samples/aws-systemsmanager-automate-hybrid-activations/blob/main/Images/architecture.jpg?raw=true)
 
@@ -67,49 +67,49 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **amazon-ivs-chat-web-demo**
 
-[amazon-ivs-chat-web-demo](https://aws-oss.beachgeek.co.uk/1pp) provides the code and details of how to set this up for a demo web application intended as an educational tool to demonstrate how you can build a simple live video and chat application with Amazon IVS.
+[amazon-ivs-chat-web-demo](https://github.com/aws-samples/amazon-ivs-chat-web-demo) provides the code and details of how to set this up for a demo web application intended as an educational tool to demonstrate how you can build a simple live video and chat application with Amazon IVS.
 
 ![demo chat app screenshot](https://github.com/aws-samples/amazon-ivs-chat-web-demo/blob/main/app-screenshot.png?raw=true)
 
 **aws-lambda-ml-monitoring**
 
-[aws-lambda-ml-monitoring](https://aws-oss.beachgeek.co.uk/1ps) this project contains source code and supporting files for a serverless application for providing real-time inferencing for the HuggingFace Question & Answer Natural Language Processing(NLP) model using PyTorch.
+[aws-lambda-ml-monitoring](https://github.com/aws-samples/aws-lambda-ml-monitoring) this project contains source code and supporting files for a serverless application for providing real-time inferencing for the HuggingFace Question & Answer Natural Language Processing(NLP) model using PyTorch.
 
 **aws-spring-boot-optimization**
 
-[aws-spring-boot-optimization](https://aws-oss.beachgeek.co.uk/1po) provides an example of how to deploy a Spring Boot application across a number of different scenarios. Watch out for the blog post coming soon.
+[aws-spring-boot-optimization](https://github.com/aws-samples/aws-spring-boot-optimization) provides an example of how to deploy a Spring Boot application across a number of different scenarios. Watch out for the blog post coming soon.
 
 **process-optimization-workshop**
 
-[process-optimization-workshop](https://aws-oss.beachgeek.co.uk/1pn) is a new Workshop that introduces participants to IoT and machine learning technologies that can extract insight from industrial data and use it to improve the performance of industrial processes. Participants will gain hands-on experience on using AWS IoT Greengrass to deploy and run software on edge devices. This workshop will illustrate how an edge device can be added to an industrial control network to publish sensor data to the cloud for near real-time monitoring and analysis of historical data. In the cloud, historical data will be used to build machine learning models for predictive (what-if analysis) and prescriptive (set point optimisation) purposes. Finally, participants will learn how to deploy machine learning models to edge devices to leverage insights as part of latency-critical applications, such as set point optimisation.
+[process-optimization-workshop](https://github.com/aws-samples/process-optimization-workshop) is a new Workshop that introduces participants to IoT and machine learning technologies that can extract insight from industrial data and use it to improve the performance of industrial processes. Participants will gain hands-on experience on using AWS IoT Greengrass to deploy and run software on edge devices. This workshop will illustrate how an edge device can be added to an industrial control network to publish sensor data to the cloud for near real-time monitoring and analysis of historical data. In the cloud, historical data will be used to build machine learning models for predictive (what-if analysis) and prescriptive (set point optimisation) purposes. Finally, participants will learn how to deploy machine learning models to edge devices to leverage insights as part of latency-critical applications, such as set point optimisation.
 
 ### AWS and Community blog posts
 
 **Amazon Corretto**
 
-This weeks must read post is from guest writer Liz Fong-Jones, Principal Developer Advocate at Honeycomb.io. In the post, [Tuning Apache Kafka and Confluent Platform for Graviton2 using Amazon Corretto](https://aws-oss.beachgeek.co.uk/1pe) shares how they were able to work with the Amazon Corretto team to find and then optimise the performance of Apache Kafka on AWS Graviton2 processors.
+This weeks must read post is from guest writer Liz Fong-Jones, Principal Developer Advocate at Honeycomb.io. In the post, [Tuning Apache Kafka and Confluent Platform for Graviton2 using Amazon Corretto](https://aws.amazon.com/blogs/developer/tuning-apache-kafka-and-confluent-platform-for-graviton2-using-amazon-corretto/) shares how they were able to work with the Amazon Corretto team to find and then optimise the performance of Apache Kafka on AWS Graviton2 processors.
 
 ![graphs of performance](https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2022/05/19/image2-300x192.png)
 
 **Kotlin**
 
-Juan Sebastián Urrego Escobar has put together this nice post (the first of a series) that shows you how you can use the serverless project to deploy a Kotlin application on AWS Lambda. From outlining the selection of Kotlin over Java, to the tooling used and comparisons with others, this promises to be a good series. Go ahead and see what you think by reading, [Week of Java: Part 1 - Setting Up the Project](https://aws-oss.beachgeek.co.uk/1pi) and make sure you don't miss the other episodes which are already out.
+Juan Sebastián Urrego Escobar has put together this nice post (the first of a series) that shows you how you can use the serverless project to deploy a Kotlin application on AWS Lambda. From outlining the selection of Kotlin over Java, to the tooling used and comparisons with others, this promises to be a good series. Go ahead and see what you think by reading, [Week of Java: Part 1 - Setting Up the Project](https://www.serverless.com//blog/week-of-java-part-1-setting-up-the-project) and make sure you don't miss the other episodes which are already out.
 
 **OpenSSF**
 
-There was some big news last week as we announced an increased investment in the Open Source Security Foundation (OpenSSF) in the post, [AWS Investing an Additional $10 Million in Open Source Supply Chain Security](https://aws-oss.beachgeek.co.uk/1p2)
+There was some big news last week as we announced an increased investment in the Open Source Security Foundation (OpenSSF) in the post, [AWS Investing an Additional $10 Million in Open Source Supply Chain Security](https://aws.amazon.com/blogs/opensource/aws-investing-an-additional-10-million-in-open-source-supply-chain-security/)
 
 **Kubernetes**
 
 What better way to celebrate KubeCon than a bunch of Kubernetes related content.
 
-AWS Community Builder Mohamed Radwan put together this post, [Using Lambda to Automate OIDC and IAM role for Service Account in EKS](https://aws-oss.beachgeek.co.uk/1pf) which provides a guided walkthrough of how you can automate the configuration OpenID Connect and IAM Roles when provisioning your Amazon EKS clusters. [hands on]
+AWS Community Builder Mohamed Radwan put together this post, [Using Lambda to Automate OIDC and IAM role for Service Account in EKS](https://dev.to/aws-builders/using-lambda-to-automate-oidc-and-iam-role-for-service-account-in-eks-c0e) which provides a guided walkthrough of how you can automate the configuration OpenID Connect and IAM Roles when provisioning your Amazon EKS clusters. [hands on]
 
-Sean Kane wrote this post, [Zero to GitOps: Terraform and the AWS EKS Blueprints Project](https://aws-oss.beachgeek.co.uk/1pg) together with code in a GitHub repo introduces how Superorbital were able to explore via a proof of concept, how to leverage Terraform to spin up Kubernetes and ArgoCD instances in AWS. [hands on]
+Sean Kane wrote this post, [Zero to GitOps: Terraform and the AWS EKS Blueprints Project](https://superorbital.io/journal/terraform-aws-eks-blueprints/) together with code in a GitHub repo introduces how Superorbital were able to explore via a proof of concept, how to leverage Terraform to spin up Kubernetes and ArgoCD instances in AWS. [hands on]
 
 ![diagram of GitOps and ArgoCD](https://superorbital.io/journal/terraform-aws-eks-blueprints/argocd-addons.png)
 
-In the post, [Introducing Amazon EKS Observability Accelerator](https://aws-oss.beachgeek.co.uk/1pb), Vikram Venkataraman, Michael Hausenblas, Imaya Kumar Jagannathan, Rodrigue Koffi, Munish Dabra, and Ramesh Kumar Venkatraman have come together to share how customers can now leverage EKS Observability Accelerator to deploy the opinionated EKS clusters and configure observability for specific workloads without spending much time manually deploying the resources and configuring the agent to scrape the metrics. [hands on]
+In the post, [Introducing Amazon EKS Observability Accelerator](https://aws.amazon.com/blogs/mt/introducing-amazon-eks-observability-accelerator/), Vikram Venkataraman, Michael Hausenblas, Imaya Kumar Jagannathan, Rodrigue Koffi, Munish Dabra, and Ramesh Kumar Venkatraman have come together to share how customers can now leverage EKS Observability Accelerator to deploy the opinionated EKS clusters and configure observability for specific workloads without spending much time manually deploying the resources and configuring the agent to scrape the metrics. [hands on]
 
 ![graph of eks observability accelerator](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/05/17/C_OPS_880_17.jpg.png)
 
@@ -117,44 +117,44 @@ In the post, [Introducing Amazon EKS Observability Accelerator](https://aws-oss.
 
 Red Hat OpenShift Service on AWS (ROSA) is a fully managed OpenShift service, jointly supported by both Red Hat and Amazon Web Services (AWS) and managed by the Red Hat SRE team. We had a number of posts this week on this topic.
 
-Kicking things off we had [Fine-grained IAM roles for Red Hat OpenShift Service on AWS (ROSA) workloads with STS](https://aws-oss.beachgeek.co.uk/1pa) from Ovidiu Valeanu who shows you how to use RBAC for implementing IAM roles for service accounts in a ROSA cluster to provide fine-grained permissions to pods and access AWS API securely. Ovidiu dives deep into how to use the OpenID Connect (OIDC) identity provider that is created during cluster installation and then use that with IAM roles for service accounts (IRSA). [hands on]
+Kicking things off we had [Fine-grained IAM roles for Red Hat OpenShift Service on AWS (ROSA) workloads with STS](https://aws.amazon.com/blogs/containers/fine-grained-iam-roles-for-red-hat-openshift-service-on-aws-rosa-workloads-with-sts/) from Ovidiu Valeanu who shows you how to use RBAC for implementing IAM roles for service accounts in a ROSA cluster to provide fine-grained permissions to pods and access AWS API securely. Ovidiu dives deep into how to use the OpenID Connect (OIDC) identity provider that is created during cluster installation and then use that with IAM roles for service accounts (IRSA). [hands on]
 
-A collaboration between Mark Taylor and Ian Packer from IBM Consulting, and Arnaud Lauer from AWS on the topic of  portability time objectives (PTO) resulted in this post, [Measuring portability time objective as a metric for migrating to Red Hat Openshift Service on AWS (ROSA)](https://aws-oss.beachgeek.co.uk/1p8). What is PTO and why does this matter? Well I know you are all curious and want to find out, so dive in and all shall be revealed.
+A collaboration between Mark Taylor and Ian Packer from IBM Consulting, and Arnaud Lauer from AWS on the topic of  portability time objectives (PTO) resulted in this post, [Measuring portability time objective as a metric for migrating to Red Hat Openshift Service on AWS (ROSA)](https://aws.amazon.com/blogs/containers/measuring-portability-time-objective-as-a-metric-for-migrating-to-red-hat-openshift-service-on-aws-rosa/). What is PTO and why does this matter? Well I know you are all curious and want to find out, so dive in and all shall be revealed.
 
 ![architecture of pto](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/05/18/rosa-2.png) 
 
-The final post in this round up ROSA related content is [Self-service AWS native service adoption in OpenShift using ACK](https://aws-oss.beachgeek.co.uk/1p9), from Ovidiu Valeanu and Ryan Niksch. AWS Controllers for Kubernetes (ACK) is an open-source project that allows you to define and create AWS resources directly from within OpenShift. Using ACK, you can take advantage of AWS-managed services to complement the application workloads running in OpenShift without needing to define resources outside of the cluster or run services that provide supporting capabilities like databases or message queues. This post provides a great hands on introduction to help get you going. [hands on]
+The final post in this round up ROSA related content is [Self-service AWS native service adoption in OpenShift using ACK](https://aws.amazon.com/blogs/containers/self-service-aws-native-service-adoption-in-openshift-using-ack/), from Ovidiu Valeanu and Ryan Niksch. AWS Controllers for Kubernetes (ACK) is an open-source project that allows you to define and create AWS resources directly from within OpenShift. Using ACK, you can take advantage of AWS-managed services to complement the application workloads running in OpenShift without needing to define resources outside of the cluster or run services that provide supporting capabilities like databases or message queues. This post provides a great hands on introduction to help get you going. [hands on]
 
 ![availble ack controllers on rosa](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/05/17/ovid-1.jpg)
 
 **Apache Spark**
 
-In the post, [A new Spark plugin for CPU and memory profiling](https://aws-oss.beachgeek.co.uk/1oz) Bo Xiong takes a look at a newly open sourced plugin ([amazon-codeguru-profiler-for-spark](https://aws-oss.beachgeek.co.uk/1p0)) that uses a feature of Spark 3, SparkPlugins, that enables profiling for JVM based Spark apps via Amazon CodeGuru and gain visibility of the runtime characteristics of yours Spark applications to help identify any bottlenecks or inefficiencies. [hands on]
+In the post, [A new Spark plugin for CPU and memory profiling](https://aws.amazon.com/blogs/devops/a-new-spark-plugin-for-cpu-and-memory-profiling/) Bo Xiong takes a look at a newly open sourced plugin ([amazon-codeguru-profiler-for-spark](https://github.com/amzn/amazon-codeguru-profiler-for-spark)) that uses a feature of Spark 3, SparkPlugins, that enables profiling for JVM based Spark apps via Amazon CodeGuru and gain visibility of the runtime characteristics of yours Spark applications to help identify any bottlenecks or inefficiencies. [hands on]
 
 ![demo of new plugin](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2022/05/13/DEVOPS_2010_1_B.gif)
 
 **AWS Copilot**
 
-AWS Copilot CLI is an open-source command line interface that makes it easy for developers to build, release, and operate production-ready containerised workloads on a number of AWS Services. Yang Wanxian and Yiming Peng have come together to write [Enabling AWS X-Ray tracing for AWS App Runner service using AWS Copilot CLI](https://aws-oss.beachgeek.co.uk/1p1) to show you how you can used AWS Copilot to easily integrate and use observability tools within your applications. [hands on]
+AWS Copilot CLI is an open-source command line interface that makes it easy for developers to build, release, and operate production-ready containerised workloads on a number of AWS Services. Yang Wanxian and Yiming Peng have come together to write [Enabling AWS X-Ray tracing for AWS App Runner service using AWS Copilot CLI](https://aws.amazon.com/blogs/containers/enabling-aws-x-ray-tracing-for-aws-app-runner-service-using-aws-copilot-cli/) to show you how you can used AWS Copilot to easily integrate and use observability tools within your applications. [hands on]
 
 ![architecture of solution](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/05/13/apprunner461_001.png)
 
 **Other posts you might like from the past week**
 
-* [Deep dive into Amazon EMR Kerberos authentication integrated with Microsoft Active Directory](https://aws-oss.beachgeek.co.uk/1p6) walks you through creating the trust between Amazon EMR’s Kerberos daemon and an Active Directory domain [hands on]
-* [TLS 1.3 Incompatibility with AWS SDK for Java versions 1.9.5 to 1.10.31](https://aws-oss.beachgeek.co.uk/1p7) helps you uncover the options when dealing with how to move from older versions of the AWS SDK that do not support TLS 1.3
-* [Analyze Amazon Ion datasets using Amazon Athena](https://aws-oss.beachgeek.co.uk/1pc) find out about Amazon ION, a richly typed, self-describing, hierarchical data serialization format offering interchangeable binary and text representations [hands on]
-* [Detect social media fake news using graph machine learning with Amazon Neptune ML](https://aws-oss.beachgeek.co.uk/1pd) shows you how Deep Graph Library (DGL), an open-source library for working with graph data, can be used to detect social media fake news [hands on]
+* [Deep dive into Amazon EMR Kerberos authentication integrated with Microsoft Active Directory](https://aws.amazon.com/blogs/big-data/deep-dive-into-amazon-emr-kerberos-authentication-integrated-with-microsoft-active-directory/) walks you through creating the trust between Amazon EMR’s Kerberos daemon and an Active Directory domain [hands on]
+* [TLS 1.3 Incompatibility with AWS SDK for Java versions 1.9.5 to 1.10.31](https://aws.amazon.com/blogs/developer/tls-1-3-incompatibility-with-aws-sdk-for-java-versions-1-9-5-to-1-10-31/) helps you uncover the options when dealing with how to move from older versions of the AWS SDK that do not support TLS 1.3
+* [Analyze Amazon Ion datasets using Amazon Athena](https://aws.amazon.com/blogs/big-data/analyze-amazon-ion-datasets-using-amazon-athena/) find out about Amazon ION, a richly typed, self-describing, hierarchical data serialization format offering interchangeable binary and text representations [hands on]
+* [Detect social media fake news using graph machine learning with Amazon Neptune ML](https://aws.amazon.com/blogs/machine-learning/detect-social-media-fake-news-using-graph-machine-learning-with-amazon-neptune-ml/) shows you how Deep Graph Library (DGL), an open-source library for working with graph data, can be used to detect social media fake news [hands on]
 
 ![examples of graphs for DGL](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/05/17/workings.png)
 
-* [Using AWS Distro for OpenTelemetry with Jaeger](https://aws-oss.beachgeek.co.uk/1pj) demonstrates a complete example of using AWS Distro for OpenTelemetry (ADOT) and Jaeger as a tracing backend [hands on]
+* [Using AWS Distro for OpenTelemetry with Jaeger](https://betterprogramming.pub/using-aws-distro-for-opentelemetry-with-jaeger-acf4df3a8e37) demonstrates a complete example of using AWS Distro for OpenTelemetry (ADOT) and Jaeger as a tracing backend [hands on]
 
 ![example architecture](https://miro.medium.com/max/1400/1*HI2y4rbOW1CkiRNiWiHHIw.png)
 
 **Podcast**
 
-Check out our very own Michael Hausenblas, who joins Annerieke Kortier in talking about all things observability in the pod cast, [Open Source Observability With Michael Hausenblas of AWS](https://aws-oss.beachgeek.co.uk/1ph)
+Check out our very own Michael Hausenblas, who joins Annerieke Kortier in talking about all things observability in the pod cast, [Open Source Observability With Michael Hausenblas of AWS](https://stackstate.com/podcasts/ep-13-open-source-observability-with-michael-hausenblas-of-aws)
 
 ### Quick updates
 
@@ -202,7 +202,7 @@ Node-Red is my most favourite open source project. Any time I see content I get 
 
 A combination of online viewing as well as local chapters where you can congregate to watch and discuss sessions, as well as a number of the sessions being delivered live from those physical locations, this years Airflow Summit promises to be incredible.
 
-Check out the [schedule](https://airflowsummit.org/program/) and [speakers](https://airflowsummit.org/speakers/), there is something for everyone. [Sign up](https://aws-oss.beachgeek.co.uk/1pk) and hopefully see you there.
+Check out the [schedule](https://airflowsummit.org/program/) and [speakers](https://airflowsummit.org/speakers/), there is something for everyone. [Sign up](https://www.crowdcast.io/e/airflowsummit2022/register) and hopefully see you there.
 
 **CDK Day**
 **May 26th - Virtual**
@@ -212,14 +212,14 @@ This is a community organised event about AWS CDK, cdktf, projen and cdk8s. This
 **BOSC 2022**
 **July 13-14, Madison, Wisconsin, USA**
 
-The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://aws-oss.beachgeek.co.uk/1li)
+The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://www.open-bio.org/events/bosc-2022/)
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 **OpenSearchCon 2022**
 **Sept 21st, 2022 Seattle**
@@ -228,7 +228,7 @@ Come to the first annual OpenSearchCon!
 
 This day-long conference will be packed with presenters who build and innovate with OpenSearch. It doesn’t matter if you’re just getting started on your OpenSearch journey, running giant clusters, or contributing tons of code; the event is for everyone. Join us to celebrate the progress and look into the future of the project. Admission is free, and registration will be open in the next few weeks. All you will need to do is sign up, and get to Seattle!
 
-Check out the full details, including signing up and location, at the [meetup page here](https://aws-oss.beachgeek.co.uk/1n1).
+Check out the full details, including signing up and location, at the [meetup page here](https://www.meetup.com/OpenSearch/events/285152025/).
 
 
 ### Stay in touch with open source at AWS

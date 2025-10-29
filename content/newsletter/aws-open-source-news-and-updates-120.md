@@ -35,33 +35,33 @@ So thank you to the following open source heroes: Cal Heldenbrand, Dimos Botsari
 
 **terraform-aws-mwaa**
 
-[terraform-aws-mwaa](https://aws-oss.beachgeek.co.uk/1vr) is a new Terraform module that helps you configure and deploy Managed Workflow for Apache Airflow (MWAA) environments on AWS. Over the past few weeks I have been helping the AWS-IA team with work on the new Terraform module for Managed Workflows for Apache Airflow (MWAA). I put together this blog, [Using Terraform to configure and deploy Managed Workflows for Apache Airflow (MWAA) environments](https://aws-oss.beachgeek.co.uk/1vk), that shows you how you can configure and deploy your very own MWAA environment using Terraform. 
+[terraform-aws-mwaa](https://github.com/aws-ia/terraform-aws-mwaa) is a new Terraform module that helps you configure and deploy Managed Workflow for Apache Airflow (MWAA) environments on AWS. Over the past few weeks I have been helping the AWS-IA team with work on the new Terraform module for Managed Workflows for Apache Airflow (MWAA). I put together this blog, [Using Terraform to configure and deploy Managed Workflows for Apache Airflow (MWAA) environments](https://dev.to/aws/using-terraform-to-configure-managed-workflows-for-apache-airflow-mwaa-environments-3d84), that shows you how you can configure and deploy your very own MWAA environment using Terraform. 
 
 ![architecture overview of mwaa and terraform](https://github.com/094459/blogpost-cdk-mwaa/blob/main/images/mwaa-architecture-iac.png?raw=true)
 
 **vscode-infracost**
 
-[vscode-infracost](https://aws-oss.beachgeek.co.uk/1vs) Infracost is a really cool open source tool that helps Terraform users estimate the cost of your AWS deployments. This new project, shows you cost estimates for Terraform right in your VSCode - how cool is that. Detailed documentation provides lots of useful info on how to optimise the setup, so make sure you check it all out.
+[vscode-infracost](https://github.com/infracost/vscode-infracost) Infracost is a really cool open source tool that helps Terraform users estimate the cost of your AWS deployments. This new project, shows you cost estimates for Terraform right in your VSCode - how cool is that. Detailed documentation provides lots of useful info on how to optimise the setup, so make sure you check it all out.
 
 ![demo screenshot of Infracost in VSCODE](https://raw.githubusercontent.com/infracost/vscode-infracost/master/.github/assets/resources.gif)
 
-*Bonus* Check out my colleagues Darko and Jacqui featuring Infracost in the [new weekly Build On AWS show](https://aws-oss.beachgeek.co.uk/1vt). 
+*Bonus* Check out my colleagues Darko and Jacqui featuring Infracost in the [new weekly Build On AWS show](https://www.twitch.tv/videos/1531644457). 
 
 **RDSOSMetrics**
 
-[RDSOSMetrics](https://aws-oss.beachgeek.co.uk/1vv) this project from Cal Heldenbrand provides a way of getting advanced AWS CloudWatch metrics for Amazon RDS. This Lambda script pulls metrics from the CloudWatch RDSOSMetrics logs, parses the CPU and memory utilisation for each PID, aggregates, categorizes and then publishes custom CloudWatch metrics for a given RDS instance.
+[RDSOSMetrics](https://github.com/calh/RDSOSMetrics) this project from Cal Heldenbrand provides a way of getting advanced AWS CloudWatch metrics for Amazon RDS. This Lambda script pulls metrics from the CloudWatch RDSOSMetrics logs, parses the CPU and memory utilisation for each PID, aggregates, categorizes and then publishes custom CloudWatch metrics for a given RDS instance.
 
 ![example RDS Cloudwatch graph](https://github.com/calh/RDSOSMetrics/blob/master/screenshots/os_metrics.png?raw=true)
 
 **barometer**
 
-[barometer](https://aws-oss.beachgeek.co.uk/1vz) is a new tool from awslabs that will help you to automate analytic platform evaluations. Barometer helps customers to get data points needed for service selection/service configurations for given workload. Barometer will deploy cdk stack which is used to run benchmarking experiments. The experiment is a combination of platform and workload which can be defined using cli-wizard provided by Barometer tool. Detailed documentation with examples, and this is the essential project to check out this week.
+[barometer](https://github.com/awslabs/barometer) is a new tool from awslabs that will help you to automate analytic platform evaluations. Barometer helps customers to get data points needed for service selection/service configurations for given workload. Barometer will deploy cdk stack which is used to run benchmarking experiments. The experiment is a combination of platform and workload which can be defined using cli-wizard provided by Barometer tool. Detailed documentation with examples, and this is the essential project to check out this week.
 
 ![architecture of barometer](https://github.com/awslabs/barometer/blob/main/assets/Benchmarking-tool-architacture-Highlevel.jpg?raw=true)
 
 **resource-tagging-automation**
 
-[resource-tagging-automation](https://aws-oss.beachgeek.co.uk/1w0) This is a Lambda function that can auto tagging newly created AWS resources. It is triggered by EventBridge events from CloudTrail logs. Currently it supports tagging EC2, S3, DynamoDB, RDS, Lambda, EFS, EBS, ELB, OpenSearch, SNS, SQS and KMS. Notice that the solution can only tag newly created resources.
+[resource-tagging-automation](https://github.com/aws-samples/resource-tagging-automation) This is a Lambda function that can auto tagging newly created AWS resources. It is triggered by EventBridge events from CloudTrail logs. Currently it supports tagging EC2, S3, DynamoDB, RDS, Lambda, EFS, EBS, ELB, OpenSearch, SNS, SQS and KMS. Notice that the solution can only tag newly created resources.
 
 ![architecture for resource tagging solution](https://github.com/aws-samples/resource-tagging-automation/blob/main/docs/architecture.png?raw=true)
 
@@ -69,11 +69,11 @@ So thank you to the following open source heroes: Cal Heldenbrand, Dimos Botsari
 
 **emr-serverless-with-mwaa**
 
-[emr-serverless-with-mwaa](https://aws-oss.beachgeek.co.uk/1vw) this repo provides a CDKv2 Python project that deploys an MWAA environment with the Amazon EMR Serverless Operator pre-installed with two sample DAGs. 
+[emr-serverless-with-mwaa](https://github.com/aws-samples/emr-serverless-samples/tree/main/cdk/emr-serverless-with-mwaa) this repo provides a CDKv2 Python project that deploys an MWAA environment with the Amazon EMR Serverless Operator pre-installed with two sample DAGs. 
 
 **real_time_streaming_analytics**
 
-[real_time_streaming_analytics](https://aws-oss.beachgeek.co.uk/1vu) is a new project from Dimos Botsaris, where he shares how they use managed services in arconsis IT-Solutions GmbH, such as Amazon Kinesis to handle our incoming data analytics streams from our sources while AWS handles the undifferentiated heavy lifting of managing the infrastructure.
+[real_time_streaming_analytics](https://github.com/eldimious/real_time_streaming_analytics) is a new project from Dimos Botsaris, where he shares how they use managed services in arconsis IT-Solutions GmbH, such as Amazon Kinesis to handle our incoming data analytics streams from our sources while AWS handles the undifferentiated heavy lifting of managing the infrastructure.
 
 ![architecture of real time streaming solution](https://github.com/eldimious/real_time_streaming_analytics/blob/main/ArchitectureFlow.png?raw=true)
 
@@ -81,25 +81,25 @@ This particular solution, creates a real time streaming service (payment transac
 
 **serverless-kafka-producer**
 
-[serverless-kafka-producer](https://aws-oss.beachgeek.co.uk/1w1) This example walks you through how to build a serverless real-time stream producer application using Amazon API Gateway and AWS Lambda. You can easily deploy via AWS CDK, which creates a demo environment, including an Amazon Managed Streaming for Apache Kafka (MSK) cluster and a bastion host for observing the produced messages on the cluster.
+[serverless-kafka-producer](https://github.com/aws-samples/serverless-kafka-producer) This example walks you through how to build a serverless real-time stream producer application using Amazon API Gateway and AWS Lambda. You can easily deploy via AWS CDK, which creates a demo environment, including an Amazon Managed Streaming for Apache Kafka (MSK) cluster and a bastion host for observing the produced messages on the cluster.
 
 ![architecture for serverless kafka](https://github.com/aws-samples/serverless-kafka-producer/blob/main/serverless-kafka-iac/img/Architecture.drawio.png?raw=true)
 
 **shuffle-sharding-demo-app**
 
-[shuffle-sharding-demo-app](https://aws-oss.beachgeek.co.uk/1vx) a few years ago, the AWS Builders Library featured a very nice reference article on [Workload isolation using shuffle-sharding](https://aws-oss.beachgeek.co.uk/1vy) that has become a core pattern that makes it possible for AWS to deliver cost-effective multi-tenant services that give each customer a single-tenant experience. This project shows you how you can implement the same technique, and provides a demo of Shuffle Sharding solution using Cloudfront and ALB Target groups. The CloudFront distribution (the main entry point to the application) runs a CloudFront Function that allocates a random key, and returns a redirect (302) response to the user with the generated key, and the user is redirected to one of the Target Groups. The demo is quickly deployed via AWS CDK.
+[shuffle-sharding-demo-app](https://github.com/aws-samples/shuffle-sharding-demo-app) a few years ago, the AWS Builders Library featured a very nice reference article on [Workload isolation using shuffle-sharding](https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/?did=ba_card&trk=ba_card) that has become a core pattern that makes it possible for AWS to deliver cost-effective multi-tenant services that give each customer a single-tenant experience. This project shows you how you can implement the same technique, and provides a demo of Shuffle Sharding solution using Cloudfront and ALB Target groups. The CloudFront distribution (the main entry point to the application) runs a CloudFront Function that allocates a random key, and returns a redirect (302) response to the user with the generated key, and the user is redirected to one of the Target Groups. The demo is quickly deployed via AWS CDK.
 
 ![architecture of shuffle sharding](https://github.com/aws-samples/shuffle-sharding-demo-app/blob/main/diagram.png?raw=true)
 
 **aws-cloudwan-workshop-code**
 
-[aws-cloudwan-workshop-code](https://aws-oss.beachgeek.co.uk/1w2) perfect timing with the GA announcement last week, AWS Cloud WAN is a managed wide-area networking (WAN) service that you can use to build, manage, and monitor an unified global network that connects resources running across your cloud and on-premises environments. It provides a central dashboard from which you can connect on-premises branch offices, data centers, and Amazon Virtual Private Clouds (VPCs) across the AWS global network. You can use simple network policies to centrally configure and automate network management and security tasks, and get a complete view of your global network. This repository shows you an example of global communication with AWS Cloud WAN, showing the same architecture you can build in the AWS Cloud WAN Workshop using different Infrastructure as Code (IaC) frameworks: CloudFormation, CDK (with Typescript and Python examples) and Terraform.
+[aws-cloudwan-workshop-code](https://github.com/aws-samples/aws-cloudwan-workshop-code) perfect timing with the GA announcement last week, AWS Cloud WAN is a managed wide-area networking (WAN) service that you can use to build, manage, and monitor an unified global network that connects resources running across your cloud and on-premises environments. It provides a central dashboard from which you can connect on-premises branch offices, data centers, and Amazon Virtual Private Clouds (VPCs) across the AWS global network. You can use simple network policies to centrally configure and automate network management and security tasks, and get a complete view of your global network. This repository shows you an example of global communication with AWS Cloud WAN, showing the same architecture you can build in the AWS Cloud WAN Workshop using different Infrastructure as Code (IaC) frameworks: CloudFormation, CDK (with Typescript and Python examples) and Terraform.
 
 ![architecture of workshop example](https://github.com/aws-samples/aws-cloudwan-workshop-code/blob/main/images/cloud_wan_architecture.png?raw=true)
 
 **aws-samples-for-ray**
 
-[aws-samples-for-ray](https://aws-oss.beachgeek.co.uk/1w3) Ray is a super hot project, it is an open source framework that provides a simple, universal API for building distributed applications. This repo shows you how you can get started using Ray on AWS across Amazon SageMaker, Amazon EC2, Amazon EKS and Amazon EMR.
+[aws-samples-for-ray](https://github.com/aws-samples/aws-samples-for-ray) Ray is a super hot project, it is an open source framework that provides a simple, universal API for building distributed applications. This repo shows you how you can get started using Ray on AWS across Amazon SageMaker, Amazon EC2, Amazon EKS and Amazon EMR.
 
 ![running Ray on EC2](https://github.com/aws-samples/aws-samples-for-ray/blob/main/ec2/img/workspace.png?raw=true)
 
@@ -107,62 +107,62 @@ This particular solution, creates a real time streaming service (payment transac
 
 **OpenSearch**
 
-With OpenSearch 2.0, document-level monitors were released, adding document-level traceability and a new findings index that make it easy to dive deep into the details of what caused an alert. In the latest blog post on the OpenSearch blog, [What’s new: Document-level monitors](https://aws-oss.beachgeek.co.uk/1w4) Joshua Bright and Ashish Agrawal talk about document-level monitors within OpenSearch, a feature that allows you to understand and view which documents are triggering alerts.
+With OpenSearch 2.0, document-level monitors were released, adding document-level traceability and a new findings index that make it easy to dive deep into the details of what caused an alert. In the latest blog post on the OpenSearch blog, [What’s new: Document-level monitors](https://opensearch.org/blog/technical-post/2022/07/whatsnew-document-level-monitors/) Joshua Bright and Ashish Agrawal talk about document-level monitors within OpenSearch, a feature that allows you to understand and view which documents are triggering alerts.
 
 
 **Data Version Control**
 
-A collaboration between Paolo Di Francesco and Eitan Sela in the post, [Track your ML experiments end to end with Data Version Control and Amazon SageMaker Experiments](https://aws-oss.beachgeek.co.uk/1vp) explores the open source tool, Data Version Control (DVC), a new type of data versioning, workflow, and experiment management tool and walks you through an example of how to track your experiments across code, data, artefacts, and metrics by using Amazon SageMaker Experiments in conjunction with Data Version Control (DVC). [hands on]
+A collaboration between Paolo Di Francesco and Eitan Sela in the post, [Track your ML experiments end to end with Data Version Control and Amazon SageMaker Experiments](https://aws.amazon.com/blogs/machine-learning/track-your-ml-experiments-end-to-end-with-data-version-control-and-amazon-sagemaker-experiments/) explores the open source tool, Data Version Control (DVC), a new type of data versioning, workflow, and experiment management tool and walks you through an example of how to track your experiments across code, data, artefacts, and metrics by using Amazon SageMaker Experiments in conjunction with Data Version Control (DVC). [hands on]
 
 ![overview of dvc and sagemaker](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/07/03/dvc-blog-arch.png)
 
 **Blazor**
 
-In the post [Blazor WebAssembly applications](https://aws-oss.beachgeek.co.uk/1vj) my colleague François Bouteruche provides an overview of Blazor WebAssembly and how you can use this on AWS.
+In the post [Blazor WebAssembly applications](https://medium.com/i-love-my-local-farmer-engineering-blog/blazor-webassembly-applications-7cfece9609f6) my colleague François Bouteruche provides an overview of Blazor WebAssembly and how you can use this on AWS.
 
 **Dicoogle**
 
-The follow on from a [previous post](https://aws-oss.beachgeek.co.uk/1r8) from Forrest Sun, in [Running Dicoogle, an open source PACS solution, on AWS (part 2)](https://aws-oss.beachgeek.co.uk/1vc) Forrest continues in showing you how to host a secure Digital Imaging and Communications in Medicine (DICOM) server on AWS using Dicoogle open source software. [hands on]
+The follow on from a [previous post](https://aws.amazon.com/blogs/opensource/running-dicoogle-an-open-source-pacs-solution-on-aws-part-1/) from Forrest Sun, in [Running Dicoogle, an open source PACS solution, on AWS (part 2)](https://aws.amazon.com/blogs/opensource/running-dicoogle-an-open-source-pacs-solution-on-aws-part-2/) Forrest continues in showing you how to host a secure Digital Imaging and Communications in Medicine (DICOM) server on AWS using Dicoogle open source software. [hands on]
 
 ![architecture of dicoogle deployment on aws](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/05/23/DicooglePartOne10.png)
 
 **Redis**
 
-Following on from a previous post, Gary Stafford is back with his latest post, [Utilizing In-memory Data Caching to Enhance the Performance of Data Lake-based Applications](https://aws-oss.beachgeek.co.uk/1vn). In the previous post Gary explored creating a Spring Boot application that interacted with a data lake built on Amazon Athena. In this post, he shows you how to significantly speed things up. Warning, gratuitous use of graphs and benchmarks ahead. As always, another great and must read post. [hands on]
+Following on from a previous post, Gary Stafford is back with his latest post, [Utilizing In-memory Data Caching to Enhance the Performance of Data Lake-based Applications](https://garystafford.medium.com/utilizing-in-memory-data-caching-to-substantially-enhance-performance-of-data-lake-based-1e6afe04fe35). In the previous post Gary explored creating a Spring Boot application that interacted with a data lake built on Amazon Athena. In this post, he shows you how to significantly speed things up. Warning, gratuitous use of graphs and benchmarks ahead. As always, another great and must read post. [hands on]
 
 **Kyber**
 
-Kyber is a key encapsulation method (KEM) designed to be resistant to cryptanalytic attacks with future powerful quantum computers. In the post, [How to tune TLS for hybrid post-quantum cryptography with Kyber](https://aws-oss.beachgeek.co.uk/1vh) Brian Jarvis shares how Kyber is available within AWS Key Management Service (KMS) and Amazon Certificate Manager (ACM) and outlines how this new cipher suite raises the security bar and allows you to prepare your workloads for post-quantum cryptography.
+Kyber is a key encapsulation method (KEM) designed to be resistant to cryptanalytic attacks with future powerful quantum computers. In the post, [How to tune TLS for hybrid post-quantum cryptography with Kyber](https://aws.amazon.com/blogs/security/how-to-tune-tls-for-hybrid-post-quantum-cryptography-with-kyber/) Brian Jarvis shares how Kyber is available within AWS Key Management Service (KMS) and Amazon Certificate Manager (ACM) and outlines how this new cipher suite raises the security bar and allows you to prepare your workloads for post-quantum cryptography.
 
 ![graph of kyber latencies](https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2022/06/15/image3-1-1024x743.png)
 
 **Kubernetes**
 
-jsPolicy is an open-source framework for managing validating or mutating admission control policies for Amazon Elastic Kubernetes Service (Amazon EKS) clusters using JavaScript (or TypeScript), which is similar to the way AWS Identity and Access Management (IAM) manages AWS accounts and resource access. In the post, [Policy management in Amazon EKS using jsPolicy](https://aws-oss.beachgeek.co.uk/1vb) Avaneesh Ramprasad walks you through deploying jsPolicy into an Amazon EKS cluster and implementing two policies—one to deny deployments of resources into the default namespace and another to only allow container images from Amazon Elastic Container Registry (Amazon ECR) [hands on]
+jsPolicy is an open-source framework for managing validating or mutating admission control policies for Amazon Elastic Kubernetes Service (Amazon EKS) clusters using JavaScript (or TypeScript), which is similar to the way AWS Identity and Access Management (IAM) manages AWS accounts and resource access. In the post, [Policy management in Amazon EKS using jsPolicy](https://aws.amazon.com/blogs/containers/policy-management-in-amazon-eks-using-jspolicy/) Avaneesh Ramprasad walks you through deploying jsPolicy into an Amazon EKS cluster and implementing two policies—one to deny deployments of resources into the default namespace and another to only allow container images from Amazon Elastic Container Registry (Amazon ECR) [hands on]
 
-Another great post earlier in the week came from Michael Marie Julie and Quentin Bernard from TheFork, who put together, [Kubernetes cluster upgrade: the blue-green deployment strategy](https://aws-oss.beachgeek.co.uk/1vm). An essential component of maintaining Kubernetes is keeping your cluster up-to-date, which requires defining an efficient process that reduces downtime and risk. In this post, they walk you through how they update our Kubernetes clusters while reducing risk to the platform at TheFork.
+Another great post earlier in the week came from Michael Marie Julie and Quentin Bernard from TheFork, who put together, [Kubernetes cluster upgrade: the blue-green deployment strategy](https://aws.amazon.com/blogs/containers/kubernetes-cluster-upgrade-the-blue-green-deployment-strategy/). An essential component of maintaining Kubernetes is keeping your cluster up-to-date, which requires defining an efficient process that reduces downtime and risk. In this post, they walk you through how they update our Kubernetes clusters while reducing risk to the platform at TheFork.
 
 ![illustration of TheFork kubernetes bluegreen architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/06/24/fork-3.png)
 
 **Karpenter**
 
-Pierre Mavro, CTO of Qovery has put together a nice blog post comparing Kubernetes scaling options for your pods in his post, [Kubernetes Cluster Autoscaler vs Karpenter](https://aws-oss.beachgeek.co.uk/1vo)
+Pierre Mavro, CTO of Qovery has put together a nice blog post comparing Kubernetes scaling options for your pods in his post, [Kubernetes Cluster Autoscaler vs Karpenter](https://www.qovery.com/blog/kubernetes-cluster-autoscaler-vs-karpenter)
 
 **Other posts you might like from the past week**
 
-* [How to use Amazon RDS and Amazon Aurora with a static IP address](https://aws-oss.beachgeek.co.uk/1vf) is a super nice post that presents a way to access Amazon RDS based on static IP addresses [hands on]
+* [How to use Amazon RDS and Amazon Aurora with a static IP address](https://aws.amazon.com/blogs/database/how-to-use-amazon-rds-and-amazon-aurora-with-a-static-ip-address/) is a super nice post that presents a way to access Amazon RDS based on static IP addresses [hands on]
 
 ![architecture of IP address access to RDS instances](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/06/29/DBBLOG-1990-image001.png)
 
-* [Automating workflows for AWS IoT Greengrass V2 components](https://aws-oss.beachgeek.co.uk/1ve) highlights the use of AWS CodePipeline for building/publishing AWS IoT Greengrass V2 components and reduces development efforts as well as manual intervention [hands on]
+* [Automating workflows for AWS IoT Greengrass V2 components](https://aws.amazon.com/blogs/iot/automating-workflows-for-aws-iot-greengrass-v2-components/) highlights the use of AWS CodePipeline for building/publishing AWS IoT Greengrass V2 components and reduces development efforts as well as manual intervention [hands on]
 
 ![architecture of workflows with AWS IoT Greengrass v2](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2022/06/29/AutomatingGGV2_AWSArchitecture-910x1024.png)
 
-* [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws-oss.beachgeek.co.uk/1vg) explains how to run parallel rendering workloads and produce an animation in a cost and time effective way using AWS Batch and AWS Step Functions [hands on]
+* [Efficient and cost-effective rendering pipelines with Blender and AWS Batch](https://aws.amazon.com/blogs/hpc/efficient-and-cost-effective-rendering-pipelines-with-blender-and-aws-batch/) explains how to run parallel rendering workloads and produce an animation in a cost and time effective way using AWS Batch and AWS Step Functions [hands on]
 
 ![architecture of blender solution](https://d2908q01vomqb2.cloudfront.net/e6c3dd630428fd54834172b8fd2735fed9416da4/2022/06/17/Fig-1.png)
 
-* [Using Amazon EMR on Amazon EKS for transient EMR clusters](https://aws-oss.beachgeek.co.uk/1vl) will walk you through how to use EMR on EKS to migrate from transient clusters to a common compute platform [hands on]
+* [Using Amazon EMR on Amazon EKS for transient EMR clusters](https://aws.amazon.com/blogs/containers/using-amazon-emr-on-amazon-eks-for-transient-emr-clusters/) will walk you through how to use EMR on EKS to migrate from transient clusters to a common compute platform [hands on]
 
 ![amazon emr on eks flow diagram](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/07/11/emr-1fix.png)
 
@@ -172,7 +172,7 @@ Pierre Mavro, CTO of Qovery has put together a nice blog post comparing Kubernet
 
 OpenSearch 2.1 is now available for download! This release includes new features and significant enhancements aimed at boosting performance and expanding functionality for search, analytics, and observability use cases. OpenSearch 2.1 delivers a number of capabilities that have come up consistently in the OpenSearch community, including a dedicated node type for running machine learning (ML) workloads at scale, enhanced data protection capabilities, more flexible search options, and user interface upgrades.
 
-Read the full announcement in the post, [OpenSearch 2.1 is available now!](https://aws-oss.beachgeek.co.uk/1vi)
+Read the full announcement in the post, [OpenSearch 2.1 is available now!](https://opensearch.org/blog/releases/2022/07/opensearch-2-1-is-available-now/)
 
 **MariaDB**
 
@@ -188,7 +188,7 @@ Customers often have data in Amazon S3 that does not change over time. However, 
 
 Announced last week was the new deployment experience in both the Visual Studio and the .NET CLI for .NET developers. The new deployment experience focuses on the type of application you want to deploy instead of individual AWS services by providing intelligent compute recommendations.
 
-Read more about this in the post from Irene Kors and Norm Johanson, [AWS announces a streamlined deployment experience for .NET applications](https://aws-oss.beachgeek.co.uk/1vd)
+Read more about this in the post from Irene Kors and Norm Johanson, [AWS announces a streamlined deployment experience for .NET applications](https://aws.amazon.com/blogs/developer/aws-announces-a-streamlined-deployment-experience-for-net-applications/)
 
 ![ide screenshot of new .net dev experience](https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2022/07/06/publish.jpg)
 
@@ -221,13 +221,13 @@ A return from the Containers from the Couch crew, this time showing you how to r
 **BOSC 2022**
 **July 13-14, Madison, Wisconsin, USA**
 
-The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://aws-oss.beachgeek.co.uk/1li)
+The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://www.open-bio.org/events/bosc-2022/)
 
 
 **Cloud DevSecOps with Bridgecrew and Terraform**
 **July 21st**
 
-From scanning infrastructure as code (IaC) for security misconfigurations to implementing automated DevSecOps workflows, this workshop will provide a hands-on experience to automate your cloud security. Check out more details and register using this page, [Cloud DevSecOps with Bridgecrew and Terraform](https://aws-oss.beachgeek.co.uk/1vq)
+From scanning infrastructure as code (IaC) for security misconfigurations to implementing automated DevSecOps workflows, this workshop will provide a hands-on experience to automate your cloud security. Check out more details and register using this page, [Cloud DevSecOps with Bridgecrew and Terraform](https://bridgecrew.io/webinar/220721-aws-dev-day-terraform/)
 
 
 **OpenSearch**
@@ -235,7 +235,7 @@ From scanning infrastructure as code (IaC) for security misconfigurations to imp
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 **OpenSearchCon 2022**
 **Sept 21st, 2022 Seattle**
@@ -244,7 +244,7 @@ Come to the first annual OpenSearchCon!
 
 This day-long conference will be packed with presenters who build and innovate with OpenSearch. It doesn’t matter if you’re just getting started on your OpenSearch journey, running giant clusters, or contributing tons of code; the event is for everyone. Join us to celebrate the progress and look into the future of the project. Admission is free, and registration will be open in the next few weeks. All you will need to do is sign up, and get to Seattle!
 
-Check out the full details, including signing up and location, at the [meetup page here](https://aws-oss.beachgeek.co.uk/1n1).
+Check out the full details, including signing up and location, at the [meetup page here](https://www.meetup.com/OpenSearch/events/285152025/).
 
 
 ### Stay in touch with open source at AWS

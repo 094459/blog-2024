@@ -187,7 +187,7 @@ In the GitHub repo you will find a file called **variables.json** which when you
 ```
 You **WILL** need to modify the last three variables (redshift_iam_arn, redshift_secret_arn and s3_bucket_name) using the values that were output as part of the Redshift cluster build. Once amended you can then import these into MWAA via the Apache Airflow UI. Once you have done this, you should have a list of the variables with the values listed. MWAA stores these securely in the MWAA metstore database. If you prefer, you could change the configuration of MWAA to look for variables in AWS Secrets Manager, and then manage these values via CDK perhaps - for this post I am keeping it simple and just using standard variables through the Apache Airflow UI.
 
-The rest of the DAG is the same as the blog post, and you should deploy this to your DAGS folder via your preferred method (I use a very simple CI/CD system which you can replicate for yourself in my blog post, [A simple CI/CD system for your Amazon Managed Workflows for Apache Airflow development workflow](https://aws-oss.beachgeek.co.uk/4t)
+The rest of the DAG is the same as the blog post, and you should deploy this to your DAGS folder via your preferred method (I use a very simple CI/CD system which you can replicate for yourself in my blog post, [A simple CI/CD system for your Amazon Managed Workflows for Apache Airflow development workflow](https://dev.to/aws/a-simple-ci-cd-system-for-your-development-workflow-30b4)
 
 Once you have uploaded it you should see it in the main Apache Airflow UI.
 
@@ -310,7 +310,7 @@ This is to be expected. The MWAA and Amazon Redshift clusters are in two differe
 * you could configure your own networking solution to enable connectivity between the MWAA VPC and the Amazon Redshift VPC, for example setting up VPC Peering between the two VPCs
 * we could configure Redshift-managed VPC endpoints
 
-I am going to look at the last option to addressing this, configuring Amazon Redshift-managed VPC endpoints. You can dive deeper into this topic by checking out this post, [Enable private access to Amazon Redshift from your client applications in another VPC](https://aws-oss.beachgeek.co.uk/is)
+I am going to look at the last option to addressing this, configuring Amazon Redshift-managed VPC endpoints. You can dive deeper into this topic by checking out this post, [Enable private access to Amazon Redshift from your client applications in another VPC](https://aws.amazon.com/blogs/big-data/enable-private-access-to-amazon-redshift-from-your-client-applications-in-another-vpc/)
 
 **Configuring Amazon Redshift-managed VPC endpoints**
 

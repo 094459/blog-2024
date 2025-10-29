@@ -17,7 +17,7 @@ We also feature this week content on a broad array of open source technologies, 
 
 **Amazon Joins the Open Invention Network**
 
-[Open Invention Network (OIN)](https://aws-oss.beachgeek.co.uk/2bl) is a company that acquires patents and licenses them royalty-free to its community members who, in turn, agree not to assert their own patents against Linux and Linux-related systems and applications. Announced last week, David Nalley wrote about Amazon joining OIN, and what this means to us. Nithya Ruff also added:
+[Open Invention Network (OIN)](https://openinventionnetwork.com/amazon-joins-the-open-invention-network/) is a company that acquires patents and licenses them royalty-free to its community members who, in turn, agree not to assert their own patents against Linux and Linux-related systems and applications. Announced last week, David Nalley wrote about Amazon joining OIN, and what this means to us. Nithya Ruff also added:
 
 >“By joining OIN, we are continuing to strengthen open source communities and helping to ensure technologies like Linux remain thriving and accessible to everyone.”
 
@@ -40,25 +40,25 @@ So thank you to the following open source heroes: Donnie Prakoso, Todd Neal, Tyl
 
 **pg_tle**
 
-[pg_tle](https://aws-oss.beachgeek.co.uk/2cf) Trusted Language Extensions (TLE) for PostgreSQL (pg_tle) is an open source project that lets developers extend and deploy new PostgreSQL functionality with lower administrative and technical overhead. Developers can use Trusted Language Extensions for PostgreSQL to create and install extensions on restricted filesystems and work with PostgreSQL internals through a SQL API. You can learn more about Trusted Language Extensions in the AWS News blog post, [New – Trusted Language Extensions for PostgreSQL on Amazon Aurora and Amazon RDS](https://aws-oss.beachgeek.co.uk/2bh) where Channy Yun provides a hands on guide to getting started with this project.
+[pg_tle](https://github.com/aws/pg_tle) Trusted Language Extensions (TLE) for PostgreSQL (pg_tle) is an open source project that lets developers extend and deploy new PostgreSQL functionality with lower administrative and technical overhead. Developers can use Trusted Language Extensions for PostgreSQL to create and install extensions on restricted filesystems and work with PostgreSQL internals through a SQL API. You can learn more about Trusted Language Extensions in the AWS News blog post, [New – Trusted Language Extensions for PostgreSQL on Amazon Aurora and Amazon RDS](https://aws.amazon.com/blogs/aws/new-trusted-language-extensions-for-postgresql-on-amazon-aurora-and-amazon-rds/) where Channy Yun provides a hands on guide to getting started with this project.
 
 **eks-node-viewer**
 
-[eks-node-viewer](https://aws-oss.beachgeek.co.uk/2cq) is a tool developed by Todd Neal for visualising dynamic node usage within a cluster. It was originally developed as an internal tool at AWS for demonstrating consolidation with Karpenter. Check out [this short video](https://aws-oss.beachgeek.co.uk/2cr) from Justin Garrison that looks at this tool running. Hat tip to Tyler Lynch for sharing this with me.
+[eks-node-viewer](https://github.com/awslabs/eks-node-viewer) is a tool developed by Todd Neal for visualising dynamic node usage within a cluster. It was originally developed as an internal tool at AWS for demonstrating consolidation with Karpenter. Check out [this short video](https://www.linkedin.com/posts/justingarrison_kubernetes-aws-eks-activity-7006784766825943040-72ST?utm_source=share&utm_medium=member_desktop) from Justin Garrison that looks at this tool running. Hat tip to Tyler Lynch for sharing this with me.
 
 ![demo screenshot of eks-node-viewer](https://github.com/awslabs/eks-node-viewer/blob/main/.static/screenshot.png?raw=true)
 
 **functionclarity**
 
-[functionclarity](https://aws-oss.beachgeek.co.uk/2co) is a code integrity solution for serverless functions. It allows users to sign their serverless functions and verify their integrity prior to their execution in their cloud environments. FunctionClarity includes a CLI tool, complemented by a "verification" function deployed in the target cloud account. The solution is designed for CI/CD insertion, where the serverless function code/images can be signed and uploaded before the function is created in the cloud repository.
+[functionclarity](https://github.com/openclarity/functionclarity) is a code integrity solution for serverless functions. It allows users to sign their serverless functions and verify their integrity prior to their execution in their cloud environments. FunctionClarity includes a CLI tool, complemented by a "verification" function deployed in the target cloud account. The solution is designed for CI/CD insertion, where the serverless function code/images can be signed and uploaded before the function is created in the cloud repository.
 
 ![architecture for functionclarity](https://user-images.githubusercontent.com/110329574/197707276-10cd650e-a84d-4a9f-a83a-ee60dc2cbf28.png)
 
-Check out this blog post [A New Open-Source Tool that Fills a Critical Serverless Security Gap](https://aws-oss.beachgeek.co.uk/2cp), where Ariel Shuper looks at this in more detail including how you can get started.
+Check out this blog post [A New Open-Source Tool that Fills a Critical Serverless Security Gap](https://www.panoptica.app/blog/a-new-open-source-tool-that-fills-a-critical-serverless-security-gap), where Ariel Shuper looks at this in more detail including how you can get started.
 
 **dyna53**
 
-[dyna53](https://aws-oss.beachgeek.co.uk/2br) a fun project from AWS Hero, Álvaro Hernández, dyna53 is a database (with limited functionality). It is in reality a frontend to another database. The frontend is DynamoDB API compatible. That is, it implements (a limited subset of) the same API that DynamoDB exposes. Therefore it is (should be) compatible with DynamoDB clients and tools. The main goal is to support very basic operations (create table, put item, basic querying capabilities). The backend is AWS Route 53, a DNS service. This is where data is stored and queried from. As Alvaro notes in the README
+[dyna53](https://github.com/ongres/dyna53) a fun project from AWS Hero, Álvaro Hernández, dyna53 is a database (with limited functionality). It is in reality a frontend to another database. The frontend is DynamoDB API compatible. That is, it implements (a limited subset of) the same API that DynamoDB exposes. Therefore it is (should be) compatible with DynamoDB clients and tools. The main goal is to support very basic operations (create table, put item, basic querying capabilities). The backend is AWS Route 53, a DNS service. This is where data is stored and queried from. As Alvaro notes in the README
 
 > Using DNS "as a database" is not a novel idea, but the concept of running a database on top of Route 53 has not been explored deep enough. 
 > 
@@ -67,47 +67,47 @@ What do you think? Get in touch with Alvaro if you try this out, and let him kno
 
 **dynamodb-mass-migrations**
 
-[dynamodb-mass-migrations](https://aws-oss.beachgeek.co.uk/2cl) this repo provides a tool using AWS Step Functions Distributed Map to run massively parallel DynamoDB migrations in AWS CDK. Thanks to recent accouncement of Step Functions Distributed Map, we can now run 10,000 of parallel executions in Step Functions. This is especially useful for transforming/migrating big datasets in DynamoDB.
+[dynamodb-mass-migrations](https://github.com/Dynobase/dynamodb-mass-migrations) this repo provides a tool using AWS Step Functions Distributed Map to run massively parallel DynamoDB migrations in AWS CDK. Thanks to recent accouncement of Step Functions Distributed Map, we can now run 10,000 of parallel executions in Step Functions. This is especially useful for transforming/migrating big datasets in DynamoDB.
 
 ![architecture of dynamodb migration](https://github.com/Dynobase/dynamodb-mass-migrations/blob/main/stepfunctions_graph.png?raw=true)
 
 **aws-kms-xksproxy-api-spec**
 
-[aws-kms-xksproxy-api-spec](https://aws-oss.beachgeek.co.uk/2cg) if you missed the [announcement](https://aws-oss.beachgeek.co.uk/2ch) at re:Invent, AWS Key Management Service (AWS KMS) introduces the External Key Store (XKS), a new feature for customers who want to protect their data with encryption keys stored in an external key management system under their control. This capability brings new flexibility for customers to encrypt or decrypt data with cryptographic keys, independent authorisation, and audit in an external key management system outside of AWS. This repo contains the specification, an example XKS client and some test clients. There is also a link to the launch blog post to help get you started.
+[aws-kms-xksproxy-api-spec](https://github.com/aws/aws-kms-xksproxy-api-spec) if you missed the [announcement](https://aws.amazon.com/about-aws/whats-new/2022/11/aws-kms-external-key-store/) at re:Invent, AWS Key Management Service (AWS KMS) introduces the External Key Store (XKS), a new feature for customers who want to protect their data with encryption keys stored in an external key management system under their control. This capability brings new flexibility for customers to encrypt or decrypt data with cryptographic keys, independent authorisation, and audit in an external key management system outside of AWS. This repo contains the specification, an example XKS client and some test clients. There is also a link to the launch blog post to help get you started.
 
 **visual-asset-management-system**
 
-[visual-asset-management-system](https://aws-oss.beachgeek.co.uk/2bo) VAMS for short, is a purpose-built, AWS native solution for the management and distribution of specialised visual assets used in spatial computing. VAMS offers a simplified solution for organisations to ingest, store, and manage visual assets in the cloud, which empowers any user with a web browser to upload, manage, visualise, transform, and retrieve visual assets. Existing workflows that leverage both custom code and pre-built or third-party applications can also be migrated to VAMS and ran in the AWS cloud, as opposed to being limited by the on-premise capacity available. VAMS is customisable and expandable with option of being further tailored to specific use-cases by development teams.
+[visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system) VAMS for short, is a purpose-built, AWS native solution for the management and distribution of specialised visual assets used in spatial computing. VAMS offers a simplified solution for organisations to ingest, store, and manage visual assets in the cloud, which empowers any user with a web browser to upload, manage, visualise, transform, and retrieve visual assets. Existing workflows that leverage both custom code and pre-built or third-party applications can also be migrated to VAMS and ran in the AWS cloud, as opposed to being limited by the on-premise capacity available. VAMS is customisable and expandable with option of being further tailored to specific use-cases by development teams.
 
 ![architecture of VAMS](https://d2908q01vomqb2.cloudfront.net/a17554a0d2b15a664c0e73900184544f19e70227/2022/12/01/VAMS-Architecture.jpg)
 
 **aws-cloud9-auto-root-volume-resize**
 
-[aws-cloud9-auto-root-volume-resize](https://aws-oss.beachgeek.co.uk/2ca) this is a project that I think a lot of folk (including myself, who comes up against this every time I provision a new environment) will find useful. Cloud9 provides a consistent environment for development teams that allows for ease of development by easily integrating with AWS. However, when launching a Cloud9 instance environment, no options are provided that will allow for adjusting the size of the root volume and the environment will launch using the default size of 10 GiB. This limited size can prove cumbersome if teams start development work in the Cloud9 instance environment without realising this storage space is limited without intervention. This solution allows for a near-seamless integration with the existing Cloud9 instance environment launch process but utilising an optional tag ("cloud9:root_volume_size") to indicate the desired root volume size in GiB.
+[aws-cloud9-auto-root-volume-resize](https://github.com/aws-samples/aws-cloud9-auto-root-volume-resize) this is a project that I think a lot of folk (including myself, who comes up against this every time I provision a new environment) will find useful. Cloud9 provides a consistent environment for development teams that allows for ease of development by easily integrating with AWS. However, when launching a Cloud9 instance environment, no options are provided that will allow for adjusting the size of the root volume and the environment will launch using the default size of 10 GiB. This limited size can prove cumbersome if teams start development work in the Cloud9 instance environment without realising this storage space is limited without intervention. This solution allows for a near-seamless integration with the existing Cloud9 instance environment launch process but utilising an optional tag ("cloud9:root_volume_size") to indicate the desired root volume size in GiB.
 
 **fast-differential-privacy**
 
-[fast-differential-privacy](https://aws-oss.beachgeek.co.uk/2cc) is a library that allows differentially private optimisation of PyTorch models, with a few additional lines of code. It supports all PyTorch optimisers, popular models in TIMM, torchvision, HuggingFace (up to supported modules), multiple privacy accountants, and multiple clipping functions. The library has provably little overhead in terms of training time and memory cost, compared with the standard non-private optimisation.
+[fast-differential-privacy](https://github.com/awslabs/fast-differential-privacy) is a library that allows differentially private optimisation of PyTorch models, with a few additional lines of code. It supports all PyTorch optimisers, popular models in TIMM, torchvision, HuggingFace (up to supported modules), multiple privacy accountants, and multiple clipping functions. The library has provably little overhead in terms of training time and memory cost, compared with the standard non-private optimisation.
 
 **aws-organizations-alternate-contacts-management-via-csv**
 
-[aws-organizations-alternate-contacts-management-via-csv](https://aws-oss.beachgeek.co.uk/2ce) Nowadays, customers have several linked accounts in their AWS Organizations. These linked accounts might require different alternate contacts for many reasons and keeping such contacts updated is fundamental. Unfortunately, populating such contacts might be a complex and time-consuming activity. Customers would like to fill in their AWS linked accounts alternate contacts in a simple and quick way, closer to their daily way of working, like exporting to a CSV file, modifying it keeping the original formatting, and importing the updated contacts from the management account. This is what the script does. The script leverages on AWS CLI 2.0 and AWS CloudShell to enable the AWS Organizations management account to easily export all the linked accounts alternate contacts to a regular CSV file. Then, the file can be integrated or updated, and uploaded again.
+[aws-organizations-alternate-contacts-management-via-csv](https://github.com/aws-samples/aws-organizations-alternate-contacts-management-via-csv) Nowadays, customers have several linked accounts in their AWS Organizations. These linked accounts might require different alternate contacts for many reasons and keeping such contacts updated is fundamental. Unfortunately, populating such contacts might be a complex and time-consuming activity. Customers would like to fill in their AWS linked accounts alternate contacts in a simple and quick way, closer to their daily way of working, like exporting to a CSV file, modifying it keeping the original formatting, and importing the updated contacts from the management account. This is what the script does. The script leverages on AWS CLI 2.0 and AWS CloudShell to enable the AWS Organizations management account to easily export all the linked accounts alternate contacts to a regular CSV file. Then, the file can be integrated or updated, and uploaded again.
 
 **migration-hadoop-to-emr-tco-simulator**
 
-[migration-hadoop-to-emr-tco-simulator](https://aws-oss.beachgeek.co.uk/2cj) this repo provides you with help if you are looking to move off self managed Hadoop, and migrate onto a managed service like Amazon EMR. This tool may be useful when examining and estimating the cost of migration, so well worth checking out.
+[migration-hadoop-to-emr-tco-simulator](https://github.com/awslabs/migration-hadoop-to-emr-tco-simulator) this repo provides you with help if you are looking to move off self managed Hadoop, and migrate onto a managed service like Amazon EMR. This tool may be useful when examining and estimating the cost of migration, so well worth checking out.
 
 ![dashboard for tco calculator](https://github.com/awslabs/migration-hadoop-to-emr-tco-simulator/blob/main/imgs/tco_simulation.png?raw=true)
 
 **aws-medialive-channel-orchestrator**
 
-[aws-medialive-channel-orchestrator](https://aws-oss.beachgeek.co.uk/2cm) this repository contains sample code to deploy a web app that can be used to simplify the management of AWS MediaLive Channels. Supported functionality includes starting/stopping channels, input switching, motion graphic overlays, and much more. If you use AWS MediaLive Channels, then this repo is something you should check out.
+[aws-medialive-channel-orchestrator](https://github.com/aws-samples/aws-medialive-channel-orchestrator) this repository contains sample code to deploy a web app that can be used to simplify the management of AWS MediaLive Channels. Supported functionality includes starting/stopping channels, input switching, motion graphic overlays, and much more. If you use AWS MediaLive Channels, then this repo is something you should check out.
 
 ![architecture of aws-medialive-channel-orchestrator](https://github.com/aws-samples/aws-medialive-channel-orchestrator/blob/main/docs/architecture.jpg?raw=true)
 
 **amazon-gamelift-testing-toolkit**
 
-[amazon-gamelift-testing-toolkit](https://aws-oss.beachgeek.co.uk/2cn) this repo provides a test harness and visualisation tool for Amazon GameLift and Amazon GameLift FlexMatch. The toolkit lets you visualise your GameLift infrastructure, launch virtual players, and iterate upon your FlexMatch rule sets with the FlexMatch simulator. Detailed docs show you how to deploy and use this project.
+[amazon-gamelift-testing-toolkit](https://github.com/aws-samples/amazon-gamelift-testing-toolkit) this repo provides a test harness and visualisation tool for Amazon GameLift and Amazon GameLift FlexMatch. The toolkit lets you visualise your GameLift infrastructure, launch virtual players, and iterate upon your FlexMatch rule sets with the FlexMatch simulator. Detailed docs show you how to deploy and use this project.
 
 ![architecture of gamelift testing toolkit](https://aws-samples.github.io/amazon-gamelift-testing-toolkit/img/amazon_gamelift_testing_toolkit.png)
 
@@ -115,26 +115,26 @@ What do you think? Get in touch with Alvaro if you try this out, and let him kno
 
 **aws-music-genre-classification**
 
-[aws-music-genre-classification](https://aws-oss.beachgeek.co.uk/2cd) is a Jupyter Notebook that connects to the Registry of Open Data on AWS to show music genre classification. You can run this locally or use AWS SageMaker Studio Lab (this does not require an AWS account)
+[aws-music-genre-classification](https://github.com/aws-samples/aws-music-genre-classification) is a Jupyter Notebook that connects to the Registry of Open Data on AWS to show music genre classification. You can run this locally or use AWS SageMaker Studio Lab (this does not require an AWS account)
 
 **realtime-toxicity-detection**
 
-[realtime-toxicity-detection](https://aws-oss.beachgeek.co.uk/2ci) this repository contains a complete solution for detecting toxicity across voice and text chats, cost efficiently and at scale, in near real time. It makes use of a number of AWS services, including Amazon SageMaker, Amazon Cognito, AWS Lambda, AWS Amplify, and Amazon Transcribe.
+[realtime-toxicity-detection](https://github.com/aws-samples/realtime-toxicity-detection) this repository contains a complete solution for detecting toxicity across voice and text chats, cost efficiently and at scale, in near real time. It makes use of a number of AWS services, including Amazon SageMaker, Amazon Cognito, AWS Lambda, AWS Amplify, and Amazon Transcribe.
 
 ![architecture for toxicity solution](https://github.com/aws-samples/realtime-toxicity-detection/blob/main/images/high-level-architecture.png?raw=true)
 
 
 **msk-powered-financial-data-feed**
 
-[msk-powered-financial-data-feed](https://aws-oss.beachgeek.co.uk/2cb) this sample application demonstrates how to publish a real-time financial data feed as a service on AWS. It contains the code for a data provider to send streaming data to its clients via an Amazon MSK cluster. Clients can consume the data using a Kafka client SDK. Detailed instructions on how to get this setup are provided in the README, as well as plenty of examples in the EXAMPLES folder.
+[msk-powered-financial-data-feed](https://github.com/aws-samples/msk-powered-financial-data-feed) this sample application demonstrates how to publish a real-time financial data feed as a service on AWS. It contains the code for a data provider to send streaming data to its clients via an Amazon MSK cluster. Clients can consume the data using a Kafka client SDK. Detailed instructions on how to get this setup are provided in the README, as well as plenty of examples in the EXAMPLES folder.
 
 **aws-to-azure-bgp-vpn**
 
-[aws-to-azure-bgp-vpn](https://aws-oss.beachgeek.co.uk/2bn) this Terraform module allows you to configure a BGP VPN Gateway between AWS and Microsoft Azure. Check the docs for requirements and constraints, but if you are looking to build networking across Clouds, this is going to be of interest.
+[aws-to-azure-bgp-vpn](https://github.com/aws-samples/terraform-aws-windows-workloads-on-aws/tree/main/modules/aws-to-azure-bgp-vpn) this Terraform module allows you to configure a BGP VPN Gateway between AWS and Microsoft Azure. Check the docs for requirements and constraints, but if you are looking to build networking across Clouds, this is going to be of interest.
 
 **terraform-eksblueprints-tetrate-istio-addon**
 
-[terraform-eksblueprints-tetrate-istio-addon](https://aws-oss.beachgeek.co.uk/2bj) provides sample code on how you can deploy Istio and Envoy into your Amazon EKS environments. To help you along the way, check out [Automate Istio-Enabled Amazon EKS Cluster Deployment with Tetrate’s EKS Blueprints Add-On](https://aws-oss.beachgeek.co.uk/2bk)
+[terraform-eksblueprints-tetrate-istio-addon](https://github.com/tetratelabs/terraform-eksblueprints-tetrate-istio-addon) provides sample code on how you can deploy Istio and Envoy into your Amazon EKS environments. To help you along the way, check out [Automate Istio-Enabled Amazon EKS Cluster Deployment with Tetrate’s EKS Blueprints Add-On](https://aws.amazon.com/blogs/apn/automate-istio-enabled-amazon-eks-cluster-deployment-with-tetrate-eks-blueprints-add-on/)
 
 ![example dashboard from using itsio tetrate](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2022/11/21/Tetrate-EKS-Blueprints-Add-On-3.png)
 
@@ -145,77 +145,77 @@ What do you think? Get in touch with Alvaro if you try this out, and let him kno
 
 Cloud Shuffle Storage Plugin for Apache Spark, is a new open source project under the Apache 2.0 license that allows you to independently scale storage in your Spark jobs without adding additional workers. With this plugin, you can expect jobs processing terabytes of data to run much more reliably. You can download the binaries and run them on any Spark environment. The new plugin is open-cloud, comes with out-of-the box support for Amazon S3, and can be easily configured to use other forms of cloud storage such as Google Cloud Storage and Microsoft Azure Blob Storage.
 
-To find out more, check out this must read post, [Introducing the Cloud Shuffle Storage Plugin for Apache Spark](https://aws-oss.beachgeek.co.uk/2bt) where Noritaka Sekiyama, Gonzalo Herreros, and Mohit Saxena help get you started. [hands on]
+To find out more, check out this must read post, [Introducing the Cloud Shuffle Storage Plugin for Apache Spark](https://aws.amazon.com/blogs/big-data/introducing-the-cloud-shuffle-storage-plugin-for-apache-spark/) where Noritaka Sekiyama, Gonzalo Herreros, and Mohit Saxena help get you started. [hands on]
 
 ![illustration of architecture for cloud shuffle](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/22/bdb2484-chopper_diagram.jpg)
 
 **DeeQu**
 
-A hot topic over the past 12 months that I have been hearing in various data communities is that around data quality. [Deequ](https://aws-oss.beachgeek.co.uk/2bu) is an open source library built on top of Apache Spark for defining "unit tests for data". Built on top of the open-source DeeQu framework, [AWS Glue Data Quality](https://aws-oss.beachgeek.co.uk/2bv) provides a managed, serverless experience to help you evaluate and monitor the quality of your data when you use AWS Glue 3.0. To find out more on how to get started, check out Jeff Barr's excellent post on the topic, [Join the Preview – AWS Glue Data Quality](https://aws-oss.beachgeek.co.uk/2bw) [hands on]
+A hot topic over the past 12 months that I have been hearing in various data communities is that around data quality. [Deequ](https://github.com/awslabs/deequ) is an open source library built on top of Apache Spark for defining "unit tests for data". Built on top of the open-source DeeQu framework, [AWS Glue Data Quality](https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality.html) provides a managed, serverless experience to help you evaluate and monitor the quality of your data when you use AWS Glue 3.0. To find out more on how to get started, check out Jeff Barr's excellent post on the topic, [Join the Preview – AWS Glue Data Quality](https://aws.amazon.com/blogs/aws/join-the-preview-aws-glue-data-quality/) [hands on]
 
 ![example output of using tool](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/11/22/dq_eval_out_1.png)
 
 **AWS Lambda Snapstart**
 
-One of the biggest announcements during re:Invent was that of AWS Lambda SnapStart, a new performance optimisation developed by AWS that can significantly improve the startup time for applications. This feature delivers up to 10x faster function startup times for latency-sensitive Java applications. SnapStart is made possible by several pieces of open-source work, including Firecracker, Linux, CraC, OpenSSL and more. It is always interesting to see how these open source building blocks are combined to create great innovations like this. Dive deeper by reading the post, [Starting up faster with AWS Lambda SnapStart](https://aws-oss.beachgeek.co.uk/2by) on what those open source projects are and how they combine to make this all work. [deep dive]
+One of the biggest announcements during re:Invent was that of AWS Lambda SnapStart, a new performance optimisation developed by AWS that can significantly improve the startup time for applications. This feature delivers up to 10x faster function startup times for latency-sensitive Java applications. SnapStart is made possible by several pieces of open-source work, including Firecracker, Linux, CraC, OpenSSL and more. It is always interesting to see how these open source building blocks are combined to create great innovations like this. Dive deeper by reading the post, [Starting up faster with AWS Lambda SnapStart](https://aws.amazon.com/blogs/compute/starting-up-faster-with-aws-lambda-snapstart/) on what those open source projects are and how they combine to make this all work. [deep dive]
 
 ![overview of snapshot lifecycle](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2022/11/25/Screen-Shot-2022-11-25-at-10.48.12-AM.png) 
 
 **Amazon Security Lake**
 
-Launched earlier this year, the [Open Cybersecurity Schema Framework](https://aws-oss.beachgeek.co.uk/2c1) is an open-source project, delivering an extensible framework for developing schemas, along with a vendor-agnostic core security schema. Amazon Security Lake is a purpose-built service that supports data in this format, and automatically centralises an organisation’s security data from cloud and on-premises sources into a purpose-built data lake stored in your account. To find out more, check out [Preview: Amazon Security Lake – A Purpose-Built Customer-Owned Data Lake Service](https://aws-oss.beachgeek.co.uk/2c2) where Channy Yun looks closer at OCSF and Amazon Security Lake. [hands on]
+Launched earlier this year, the [Open Cybersecurity Schema Framework](https://github.com/ocsf) is an open-source project, delivering an extensible framework for developing schemas, along with a vendor-agnostic core security schema. Amazon Security Lake is a purpose-built service that supports data in this format, and automatically centralises an organisation’s security data from cloud and on-premises sources into a purpose-built data lake stored in your account. To find out more, check out [Preview: Amazon Security Lake – A Purpose-Built Customer-Owned Data Lake Service](https://aws.amazon.com/blogs/aws/preview-amazon-security-lake-a-purpose-built-customer-owned-data-lake-service/) where Channy Yun looks closer at OCSF and Amazon Security Lake. [hands on]
 
 ![dashboard example of amazon security lake](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/11/21/2022-security-lake-7.jpg)
 
 **AWS SDK for pandas**
 
-AWS SDK for pandas is an open-source library that extends the popular Python pandas library, enabling you to connect to AWS data and analytics services using pandas data frames. I love this project, and use it frequently in my demos. At re:Invent, it was announced that AWS SDK for pandas now supports Ray and Modin, enabling you to scale your pandas workflows from a single machine to a multi-node environment, with no code changes. Check out the blog post, [Scale AWS SDK for pandas workloads with AWS Glue for Ray](https://aws-oss.beachgeek.co.uk/2c4) where Abdel Jaidi, Anton Kukushkin, Lucas Hanson, and Leon Luttenberger walk you through this update [hands on]
+AWS SDK for pandas is an open-source library that extends the popular Python pandas library, enabling you to connect to AWS data and analytics services using pandas data frames. I love this project, and use it frequently in my demos. At re:Invent, it was announced that AWS SDK for pandas now supports Ray and Modin, enabling you to scale your pandas workflows from a single machine to a multi-node environment, with no code changes. Check out the blog post, [Scale AWS SDK for pandas workloads with AWS Glue for Ray](https://aws.amazon.com/blogs/big-data/scale-aws-sdk-for-pandas-workloads-with-aws-glue-for-ray/) where Abdel Jaidi, Anton Kukushkin, Lucas Hanson, and Leon Luttenberger walk you through this update [hands on]
 
 ![overview of how this works](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/25/BDB-2793-image003.png)
 
 **Ray**
 
-Ray is an open-source unified compute framework that makes it simple to scale AI and Python workloads. In this post, [Introducing AWS Glue for Ray: Scaling your data integration workloads using Python](https://aws-oss.beachgeek.co.uk/2c5) Zach Mitchell, Ishan Gaur, Kinshuk Pahare, and Derek Liu provide an introduction to AWS Glue for Ray and shows you how to start using Ray to distribute your Python workloads. [hands on]
+Ray is an open-source unified compute framework that makes it simple to scale AI and Python workloads. In this post, [Introducing AWS Glue for Ray: Scaling your data integration workloads using Python](https://aws.amazon.com/blogs/big-data/introducing-aws-glue-for-ray-scaling-your-data-integration-workloads-using-python/) Zach Mitchell, Ishan Gaur, Kinshuk Pahare, and Derek Liu provide an introduction to AWS Glue for Ray and shows you how to start using Ray to distribute your Python workloads. [hands on]
 
 ![AWS Glue for Ray overview](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/25/BDB-2761-image003.jpg)
 
 **Other posts and quick reads**
 
-* [Managing Docker container lifecycle with AWS IoT Greengrass](https://aws-oss.beachgeek.co.uk/2bf) an interesting way on how to use AWS IoT Greengrass to control a Docker container’s lifecycle, using the AWS IoT Core MQTT topic and uses the message contents to execute commands against the Docker daemon with the Docker SDK for Python [hands on]
+* [Managing Docker container lifecycle with AWS IoT Greengrass](https://aws.amazon.com/blogs/iot/managing-docker-container-lifecycle-with-aws-iot-greengrass/) an interesting way on how to use AWS IoT Greengrass to control a Docker container’s lifecycle, using the AWS IoT Core MQTT topic and uses the message contents to execute commands against the Docker daemon with the Docker SDK for Python [hands on]
 
 ![overview of greeengrassv2 and docker](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2022/11/09/solution-diagram.png)
 
-* [Gain visibility into your Amazon MSK cluster by deploying the Conduktor Platform](https://aws-oss.beachgeek.co.uk/2bg) looks at how you can use Conduktor to help you solve Apache Kafka issues end to end with solutions for testing, monitoring, data quality, governance, and security [hands on]
-* [Managing Pod Security on Amazon EKS with Kyverno](https://aws-oss.beachgeek.co.uk/2c8) shows you how you can augment the Kubernetes Pod Security Admission (PSA) and  Pod Security Standards(PSS) configurations with Kyverno [hands on]
-* [Managing access to Amazon Elastic Kubernetes Service clusters with X.509 certificates](https://aws-oss.beachgeek.co.uk/2bp) is walk through on how to use X.509 certificates as the root of trust for obtaining temporary AWS credentials to access resources in the Amazon EKS Cluster [hands on]
+* [Gain visibility into your Amazon MSK cluster by deploying the Conduktor Platform](https://aws.amazon.com/blogs/big-data/gain-visibility-into-your-amazon-msk-cluster-by-deploying-the-conduktor-platform/) looks at how you can use Conduktor to help you solve Apache Kafka issues end to end with solutions for testing, monitoring, data quality, governance, and security [hands on]
+* [Managing Pod Security on Amazon EKS with Kyverno](https://aws.amazon.com/blogs/containers/managing-pod-security-on-amazon-eks-with-kyverno/) shows you how you can augment the Kubernetes Pod Security Admission (PSA) and  Pod Security Standards(PSS) configurations with Kyverno [hands on]
+* [Managing access to Amazon Elastic Kubernetes Service clusters with X.509 certificates](https://aws.amazon.com/blogs/containers/managing-access-to-amazon-elastic-kubernetes-service-clusters-with-x-509-certificates/) is walk through on how to use X.509 certificates as the root of trust for obtaining temporary AWS credentials to access resources in the Amazon EKS Cluster [hands on]
 
 ![architecture of x509 on eks](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/28/anuj-1.jpg)
 
-* [AWS Thinkbox Deadline adds support for Rez](https://aws-oss.beachgeek.co.uk/2bq) looks at Rez, an open source, cross-platform package manager, and how the deep integration into AWS Thinkbox Deadline allows customers to build dynamically resolved pipelines that can be executed in an identical way on their render farm, whether that be on-premises or in the cloud
+* [AWS Thinkbox Deadline adds support for Rez](https://aws.amazon.com/blogs/media/aws-thinkbox-deadline-adds-support-for-rez/) looks at Rez, an open source, cross-platform package manager, and how the deep integration into AWS Thinkbox Deadline allows customers to build dynamically resolved pipelines that can be executed in an identical way on their render farm, whether that be on-premises or in the cloud
 
 ![example of what REZ does](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2022/12/03/Image-1-1.png)
 
-* [New for Amazon Redshift – General Availability of Streaming Ingestion for Kinesis Data Streams and Managed Streaming for Apache Kafka](https://aws-oss.beachgeek.co.uk/2bz) looks at how you can now natively ingest hundreds of megabytes of data per second from Apache Kafka (Amazon MSK) into an Amazon Redshift materialised view and query it in seconds [hands on]
-* [Simplify managing access to Amazon ElastiCache for Redis clusters with IAM](https://aws-oss.beachgeek.co.uk/2c0) shows you how to use your IAM identity to authenticate and access an ElastiCache for Redis cluster [hands on]
+* [New for Amazon Redshift – General Availability of Streaming Ingestion for Kinesis Data Streams and Managed Streaming for Apache Kafka](https://aws.amazon.com/blogs/aws/new-for-amazon-redshift-general-availability-of-streaming-ingestion-for-kinesis-data-streams-and-managed-streaming-for-apache-kafka/) looks at how you can now natively ingest hundreds of megabytes of data per second from Apache Kafka (Amazon MSK) into an Amazon Redshift materialised view and query it in seconds [hands on]
+* [Simplify managing access to Amazon ElastiCache for Redis clusters with IAM](https://aws.amazon.com/blogs/database/simplify-managing-access-to-amazon-elasticache-for-redis-clusters-with-iam/) shows you how to use your IAM identity to authenticate and access an ElastiCache for Redis cluster [hands on]
 
 ![architecture overview of redis and iam](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/11/28/DBBLOG-2711_img1-1024x454.png)
 
-* [Introducing the Amazon Braket Algorithm Library](https://aws-oss.beachgeek.co.uk/2c3) walks you through this  open-source, GitHub repository providing researchers ready-to-use Python implementations for a set of quantum algorithms on Amazon Braket
+* [Introducing the Amazon Braket Algorithm Library](https://aws.amazon.com/blogs/quantum-computing/introducing-the-amazon-braket-algorithm-library/) walks you through this  open-source, GitHub repository providing researchers ready-to-use Python implementations for a set of quantum algorithms on Amazon Braket
 
 ![example dashboard of algo library](https://d2908q01vomqb2.cloudfront.net/5a5b0f9b7d3f8fc84c3cef8fd8efaaa6c70d75ab/2022/11/28/Screen-Shot-2022-11-28-at-6.18.35-PM.png)
 
-* [Introducing new MQTTv5 features for AWS IoT Core to help build flexible architecture patterns](https://aws-oss.beachgeek.co.uk/2c7) looks at how AWS IoT Core support of MQTTv5 features help enhance communications of large-scale device deployments and innovate device messaging patterns [hands on]
+* [Introducing new MQTTv5 features for AWS IoT Core to help build flexible architecture patterns](https://aws.amazon.com/blogs/iot/introducing-new-mqttv5-features-for-aws-iot-core-to-help-build-flexible-architecture-patterns/) looks at how AWS IoT Core support of MQTTv5 features help enhance communications of large-scale device deployments and innovate device messaging patterns [hands on]
 
 ![overview of mqttv5 support in iotcore](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2022/11/26/AWS-iot-mqttv5-diagram.png)
 
-* [Use AWS CDK v2 with the AWS Amplify CLI extensibility features (Preview)](https://aws-oss.beachgeek.co.uk/2c9) shows you how with v11.0.0-beta of the Amplify CLI, you can now use AWS CDK v2 to extend or modify your Amplify backend stack [hands on]
+* [Use AWS CDK v2 with the AWS Amplify CLI extensibility features (Preview)](https://aws.amazon.com/blogs/mobile/use-aws-cdk-v2-with-the-aws-amplify-cli-extensibility-features-beta/) shows you how with v11.0.0-beta of the Amplify CLI, you can now use AWS CDK v2 to extend or modify your Amplify backend stack [hands on]
 
 
 ### Quick updates
 
 **terraform-provider-aws**
 
-This popular Terraform module now enables you to configure and deploy AWS Neptune Global clusters. You can view the [release notes here](https://aws-oss.beachgeek.co.uk/2bm).
+This popular Terraform module now enables you to configure and deploy AWS Neptune Global clusters. You can view the [release notes here](https://github.com/hashicorp/terraform-provider-aws/releases/tag/v4.43.0).
 
 **Apache Hudi, Apache Iceberg, Delta Lake**
 
@@ -225,7 +225,7 @@ These open source data lake frameworks simplify incremental data processing in d
 
 **Amazon EMR**
 
-With Amazon EMR release 6.8, you can now use Amazon Elastic Compute Cloud (Amazon EC2) instances such as C6i, M6i, I4i, R6i, and R6id, which use the third-generation Intel Xeon scalable processors. Using these new instances with Amazon EMR improves cost-performance by an additional 5–33% over previous generation instances. To dive deeper into this, check out the blog post, [Amazon EMR launches support for Amazon EC2 C6i, M6i, I4i, R6i and R6id instances to improve cost performance for Spark workloads by 6–33%](https://aws-oss.beachgeek.co.uk/2bi)
+With Amazon EMR release 6.8, you can now use Amazon Elastic Compute Cloud (Amazon EC2) instances such as C6i, M6i, I4i, R6i, and R6id, which use the third-generation Intel Xeon scalable processors. Using these new instances with Amazon EMR improves cost-performance by an additional 5–33% over previous generation instances. To dive deeper into this, check out the blog post, [Amazon EMR launches support for Amazon EC2 C6i, M6i, I4i, R6i and R6id instances to improve cost performance for Spark workloads by 6–33%](https://aws.amazon.com/blogs/big-data/amazon-emr-launches-support-for-amazon-ec2-c6i-m6i-i4i-r6i-and-r6id-instances-to-improve-cost-performance-for-spark-workloads-by-6-33/)
 
 **Apache Iceberg**
 
@@ -237,11 +237,11 @@ Ingesting data, especially when streaming, can result in a large number of small
 
 Amazon Athena now supports Apache Spark, a popular open-source distributed processing system that is optimised for fast analytics workloads against data of any size. Athena is an interactive query service that helps you query petabytes of data wherever it lives, such as in data lakes, databases, or other data stores. With Amazon Athena for Apache Spark, you get the streamlined, interactive, serverless experience of Athena with Spark, in addition to SQL. You can build interactive Apache PySpark applications using a simplified notebook experience in the Athena console or through Athena APIs. With Athena, interactive Spark applications start in under a second and run faster with our optimised Spark runtime, so you spend more time on insights, not waiting for results. As Athena takes care of managing the infrastructure and configuring Spark settings, you can focus on your business applications.
 
-Dive deeper into this launch by reading the post, [Explore your data lake using Amazon Athena for Apache Spark](https://aws-oss.beachgeek.co.uk/2bs) where Pathik Shah and Raj Devnath show how you can use Athena for Apache Spark to explore and derive insights from your data lake hosted on Amazon Simple Storage Service (Amazon S3). 
+Dive deeper into this launch by reading the post, [Explore your data lake using Amazon Athena for Apache Spark](https://aws.amazon.com/blogs/big-data/explore-your-data-lake-using-amazon-athena-for-apache-spark/) where Pathik Shah and Raj Devnath show how you can use Athena for Apache Spark to explore and derive insights from your data lake hosted on Amazon Simple Storage Service (Amazon S3). 
 
 ![graph from blog post of Apache Spark on Athena](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/14/bdb-2718-image023.jpg)
 
-My fellow Developer Advocate Donnie Prakoso also put something together, so check out his post, [New — Amazon Athena for Apache Spark](https://aws-oss.beachgeek.co.uk/2bx) where he shows you how you can get started.
+My fellow Developer Advocate Donnie Prakoso also put something together, so check out his post, [New — Amazon Athena for Apache Spark](https://aws.amazon.com/blogs/aws/new-amazon-athena-for-apache-spark/) where he shows you how you can get started.
 
 ![demo of athena for apache spark](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/10/03/Kepler-0.gif)
 
@@ -271,7 +271,7 @@ Amazon Relational Database Service (Amazon RDS) for MySQL now supports Amazon RD
 
 In MySQL, you are protected from data loss due to unexpected events, such as a power failure, using a built-in feature called the “doublewrite buffer”. But this method of writing takes up to twice as long, consumes twice as much I/O bandwidth, and reduces the throughput and performance of your database. Starting today, Amazon RDS Optimized Writes provide you with up to 2x improvement in write transaction throughput on RDS for MySQL by writing only once while protecting you from data loss and at no additional cost. Optimized Writes uses the AWS Nitro System, to reliably and durably write to table storage in one step. Amazon RDS Optimized Writes is available as a default option from RDS for MySQL version 8.0.30 and above and on db.r6i and db.r5b database instances.
 
-You can dive deeper by checking out Jeff Barr's post, [New – Amazon RDS Optimized Reads and Optimized Writes](https://aws-oss.beachgeek.co.uk/2c6)
+You can dive deeper by checking out Jeff Barr's post, [New – Amazon RDS Optimized Reads and Optimized Writes](https://aws.amazon.com/blogs/aws/new-amazon-rds-optimized-reads-and-optimized-writes/)
 
 ### Videos of the week
 
@@ -305,7 +305,7 @@ BitBake is a make-like build tool with the special focus of distributions and pa
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (seven) of the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (seven) of the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -314,7 +314,7 @@ For those unfamiliar with this show, Build on Open Source is where we go over th
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

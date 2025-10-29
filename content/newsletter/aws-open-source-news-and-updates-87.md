@@ -19,7 +19,7 @@ Make sure you find and follow these builders and keep up to date with their open
 
 ### Community noticeboard
 
-Álvaro Hernández shared last week the GA of StackGres 1.0.0 GA. StackGres is an Open Source Postgres-as-a-Service that runs on any Kubernetes environment, and supports over 120 extensions. Read more in his post, [StackGres 1.0.0: Open Source Postgres-aaS with 120+ Extensions](https://aws-oss.beachgeek.co.uk/10n)
+Álvaro Hernández shared last week the GA of StackGres 1.0.0 GA. StackGres is an Open Source Postgres-as-a-Service that runs on any Kubernetes environment, and supports over 120 extensions. Read more in his post, [StackGres 1.0.0: Open Source Postgres-aaS with 120+ Extensions](https://stackgres.io/blog/stackgres-1-0-0-open-source-postgres-aas-with-120-extensions/)
 
 ![demo](https://stackgres.io/img/blog/SG_blog-StackGres_1-0-0.jpg)
 
@@ -27,11 +27,11 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **cfsec**
 
-[cfsec](https://aws-oss.beachgeek.co.uk/112) is an open source tool from the lovely folk at Aqua security that helps you with static analysis for CloudFormation templates to identify common misconfigurations. cfsec is early release status, so why not help this project by trying it out and if you run into any problems, please raise issues and be patient.
+[cfsec](https://github.com/aquasecurity/cfsec) is an open source tool from the lovely folk at Aqua security that helps you with static analysis for CloudFormation templates to identify common misconfigurations. cfsec is early release status, so why not help this project by trying it out and if you run into any problems, please raise issues and be patient.
 
 **eks-gitops-crossplane-argocd**
 
-[eks-gitops-crossplane-argocd](https://aws-oss.beachgeek.co.uk/10q) this repository provides you with artefacts that will help you to deploy Crossplane server and Argo CD to an existing Amazon EKS cluster and then leverage the GitOps workflow to manage both provisioning a remote EKS cluster with Crossplane and subsequently manage application deployments to it using Argo CD. To help you get started, you can follow along in the write up from Viji Sarathy, [GitOps model for provisioning and bootstrapping Amazon EKS clusters using Crossplane and Argo CD](https://aws-oss.beachgeek.co.uk/10r)
+[eks-gitops-crossplane-argocd](https://github.com/aws-samples/eks-gitops-crossplane-argocd) this repository provides you with artefacts that will help you to deploy Crossplane server and Argo CD to an existing Amazon EKS cluster and then leverage the GitOps workflow to manage both provisioning a remote EKS cluster with Crossplane and subsequently manage application deployments to it using Argo CD. To help you get started, you can follow along in the write up from Viji Sarathy, [GitOps model for provisioning and bootstrapping Amazon EKS clusters using Crossplane and Argo CD](https://aws.amazon.com/blogs/containers/gitops-model-for-provisioning-and-bootstrapping-amazon-eks-clusters-using-crossplane-and-argo-cd/)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/10/14/GitOpsEKS-1.jpg)
 
@@ -39,71 +39,71 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **Apache Kafka**
 
-Hendra Gunadi has put together a nice bench mark blog post that takes a look at the performance of Apache Kafka running on AWS Graviton2 instances using Amazon Corretto, including the Amazon Corretto Cryptographic Provider (ACCP) which can improve performance of your cryptographic operations. No spoilers, if you want to find out how well this runs, read on in [Benchmarking AWS Graviton2 and gp3 Support for Apache Kafka](https://aws-oss.beachgeek.co.uk/111)
+Hendra Gunadi has put together a nice bench mark blog post that takes a look at the performance of Apache Kafka running on AWS Graviton2 instances using Amazon Corretto, including the Amazon Corretto Cryptographic Provider (ACCP) which can improve performance of your cryptographic operations. No spoilers, if you want to find out how well this runs, read on in [Benchmarking AWS Graviton2 and gp3 Support for Apache Kafka](https://dzone.com/articles/benchmarking-aws-graviton2-and-gp3-support-for-apa)
 
 ![flame](https://dz2cdn1.dzone.com/storage/temp/15271836-1634312934225.png)
 
 **Spinnaker**
 
-[Enhancing Spinnaker deployment for dynamic AWS account registration](https://aws-oss.beachgeek.co.uk/10s) is a collaboration between Manabu McCloskey, Gaurav Dhamija, Nima Kaviani, Siddhi Shah, Kevin Kidd, Brandon Leach, and Shrirang Moghe, where they share how they designed and built a new interface and open source plugin for Spinnaker to dynamically manage a large number of AWS accounts.
+[Enhancing Spinnaker deployment for dynamic AWS account registration](https://aws.amazon.com/blogs/opensource/enhancing-spinnaker-deployment-for-dynamic-aws-account-registration/) is a collaboration between Manabu McCloskey, Gaurav Dhamija, Nima Kaviani, Siddhi Shah, Kevin Kidd, Brandon Leach, and Shrirang Moghe, where they share how they designed and built a new interface and open source plugin for Spinnaker to dynamically manage a large number of AWS accounts.
 
 **OpenShift**
 
 This week we have a couple of OpenShift posts.
 
-AWS PrivateLink allows customers to deploy workloads without the need to expose systems to the internet, and in this post, [Red Hat OpenShift Service on AWS: private clusters with AWS PrivateLink](https://aws-oss.beachgeek.co.uk/10o), Ryan Niksch takes a look at some architectures that allow you to do this with your OpenShift clusters and applications.
+AWS PrivateLink allows customers to deploy workloads without the need to expose systems to the internet, and in this post, [Red Hat OpenShift Service on AWS: private clusters with AWS PrivateLink](https://aws.amazon.com/blogs/containers/red-hat-openshift-service-on-aws-private-clusters-with-aws-privatelink/), Ryan Niksch takes a look at some architectures that allow you to do this with your OpenShift clusters and applications.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/10/13/ROSAPrivateLink_-17.jpg)
 
-Following that we have [How to Use Webhooks to Automate Red Hat OpenShift App Rebuilds from AWS CodeCommit](https://aws-oss.beachgeek.co.uk/10p) from Mehdi Salehi from AWS and Boris Jelic from IBM, where they show you  how you can automate their OpenShift builds when a change is pushed into their code repositories on AWS CodeCommit. [hands on]
+Following that we have [How to Use Webhooks to Automate Red Hat OpenShift App Rebuilds from AWS CodeCommit](https://aws.amazon.com/blogs/apn/how-to-use-webhooks-to-automate-red-hat-openshift-app-rebuilds-from-aws-codecommit/) from Mehdi Salehi from AWS and Boris Jelic from IBM, where they show you  how you can automate their OpenShift builds when a change is pushed into their code repositories on AWS CodeCommit. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2021/10/14/Automate-Red-Hat-OpenShift-AWS-CodeCommit-9s.png)
 
 **Envoy**
 
-Nathan Arnold and Praseeda Sathaye take a look at how to secure communications between micro services running across different Amazon EKS clusters in different AWS account, in the post [Enabling mTLS in AWS App Mesh using SPIFFE/SPIRE in a multi-account Amazon EKS environment](https://aws-oss.beachgeek.co.uk/10z). This is the third post of the series, so if you missed the others, you can find them lined here. [hands on]
+Nathan Arnold and Praseeda Sathaye take a look at how to secure communications between micro services running across different Amazon EKS clusters in different AWS account, in the post [Enabling mTLS in AWS App Mesh using SPIFFE/SPIRE in a multi-account Amazon EKS environment](https://aws.amazon.com/blogs/containers/enabling-mtls-in-aws-app-mesh-using-spiffe-spire-in-a-multi-account-amazon-eks-environment/). This is the third post of the series, so if you missed the others, you can find them lined here. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/07/21/multi-account-spire.png)
 
 **Porting Assistant for .NET**
 
-Porting Assistant for .NET is an open source analysis tool that reduces the manual effort and guesswork involved in porting .NET Framework applications to .NET Core or .NET 5. Prasad Rao and Pavankumar Kasani have come together to write [Modernizing legacy WCF applications to CoreWCF using Porting Assistant for .NET](https://aws-oss.beachgeek.co.uk/10w) which walks you through the process of porting legacy WCF application to CoreWCF using Porting Assistant for .NET as a standalone tool. [hands on]
+Porting Assistant for .NET is an open source analysis tool that reduces the manual effort and guesswork involved in porting .NET Framework applications to .NET Core or .NET 5. Prasad Rao and Pavankumar Kasani have come together to write [Modernizing legacy WCF applications to CoreWCF using Porting Assistant for .NET](https://aws.amazon.com/blogs/modernizing-with-aws/migrate-wcf-apps-to-wcfcore-using-porting-assistant/) which walks you through the process of porting legacy WCF application to CoreWCF using Porting Assistant for .NET as a standalone tool. [hands on]
 
 ![screen](https://d2908q01vomqb2.cloudfront.net/8effee409c625e1a2d8f5033631840e6ce1dcb64/2021/10/15/WCFSolutionPath.png)
 
 **Grafana**
 
-Elamaran Shanmugam and Munish Dabra walk you through how to set up Amazon Managed Grafana to retrieve metrics from Amazon Managed Service for Prometheus and Amazon CloudWatch from different AWS accounts running container workloads using customer managed IAM roles, in the blog post [Setting up Amazon Managed Grafana cross-account data source using customer managed IAM roles](https://aws-oss.beachgeek.co.uk/10x) [hands on]
+Elamaran Shanmugam and Munish Dabra walk you through how to set up Amazon Managed Grafana to retrieve metrics from Amazon Managed Service for Prometheus and Amazon CloudWatch from different AWS accounts running container workloads using customer managed IAM roles, in the blog post [Setting up Amazon Managed Grafana cross-account data source using customer managed IAM roles](https://aws.amazon.com/blogs/opensource/setting-up-amazon-managed-grafana-cross-account-data-source-using-customer-managed-iam-roles/) [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/10/18/1000xelamaras_setup_amg-cross-account_f1_v2.png)
 
 **Qovery**
 
-Last week I had the chance to speak to Romaric Philogène about his blog post, [How to Build a Cloud Version of Your Open Source Software: Part 1](https://aws-oss.beachgeek.co.uk/10y) which is the first in a series of posts where he will share with you one approach in creating a multi-tenant versions of some popular open source projects, deployed via Qovery onto AWS. Make sure you do not miss this series.
+Last week I had the chance to speak to Romaric Philogène about his blog post, [How to Build a Cloud Version of Your Open Source Software: Part 1](https://aws.plainenglish.io/how-to-build-a-cloud-version-of-your-open-source-software-a-case-study-with-appwrite-part-1-3673a658c2c5) which is the first in a series of posts where he will share with you one approach in creating a multi-tenant versions of some popular open source projects, deployed via Qovery onto AWS. Make sure you do not miss this series.
 
 **Apache Cassandra**
 
-Arturo Hinojosa takes a look at a widely used feature of Apache Cassandra, Time to Live (TTL). This helps developers manage storage costs and simplify application logic, and the post explains how the serverless nature of Amazon Keyspaces (for Apache Cassandra) address' the challenges of using TTL in Cassandra workloads by offering a fully managed version of TTL that doesn’t impact application performance or introduce availability risks for applications. Read more in [Announcing Amazon Keyspaces Time to Live (TTL) general availability](https://aws-oss.beachgeek.co.uk/10u)
+Arturo Hinojosa takes a look at a widely used feature of Apache Cassandra, Time to Live (TTL). This helps developers manage storage costs and simplify application logic, and the post explains how the serverless nature of Amazon Keyspaces (for Apache Cassandra) address' the challenges of using TTL in Cassandra workloads by offering a fully managed version of TTL that doesn’t impact application performance or introduce availability risks for applications. Read more in [Announcing Amazon Keyspaces Time to Live (TTL) general availability](https://aws.amazon.com/blogs/database/announcing-amazon-keyspaces-time-to-live-ttl-general-availability/)
 
 **Amazon Kinesis Data Streams**
 
-Education technology (EdTech) company GoGuardian announces the availability of a Go Client library for Amazon Kinesis Data Streams via open source, and Kevin Nguyen, Matt Dalida, and Sohil Gogri share more details in the blog post [GoGuardian releases Go code library via open source for Amazon Kinesis Data Streams](https://aws-oss.beachgeek.co.uk/10v)
+Education technology (EdTech) company GoGuardian announces the availability of a Go Client library for Amazon Kinesis Data Streams via open source, and Kevin Nguyen, Matt Dalida, and Sohil Gogri share more details in the blog post [GoGuardian releases Go code library via open source for Amazon Kinesis Data Streams](https://aws.amazon.com/blogs/publicsector/goguardian-releases-go-code-library-via-open-source-for-amazon-kinesis-data-streams/)
 
 **Location Services**
 
-In this blog post [Simulated location data with Amazon Location Service](https://aws-oss.beachgeek.co.uk/10m) from Aaron Sempf and Florian Seidel, you will find out how you use an open-source project and open-source data to generate simulated trips, as well as how to play those trips back to the Amazon Location Service Tracker. [hands on]
+In this blog post [Simulated location data with Amazon Location Service](https://aws.amazon.com/blogs/devops/simulated-location-data-with-amazon-location-service) from Aaron Sempf and Florian Seidel, you will find out how you use an open-source project and open-source data to generate simulated trips, as well as how to play those trips back to the Amazon Location Service Tracker. [hands on]
 
 ![map](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2021/09/29/location-service-console.jpg)
 
 **AWS Greengrass**
 
-AWS IoT Greengrass 2.0 is an open-source edge runtime, and in this post [How Boston Dynamics and AWS use mobility and computer vision for dynamic sensing](https://aws-oss.beachgeek.co.uk/10t), Brad Bonn from Boston Dynamics and Jon Slominski from AWS share how AWS IoT Greengrass enables Spot (Boston Dynamics'  quadruped robot) to send data back to the cloud with flexibility for varied use-cases. 
+AWS IoT Greengrass 2.0 is an open-source edge runtime, and in this post [How Boston Dynamics and AWS use mobility and computer vision for dynamic sensing](https://aws.amazon.com/blogs/robotics/how-boston-dynamics-and-aws-use-mobility-and-computer-vision-for-dynamic-sensing/), Brad Bonn from Boston Dynamics and Jon Slominski from AWS share how AWS IoT Greengrass enables Spot (Boston Dynamics'  quadruped robot) to send data back to the cloud with flexibility for varied use-cases. 
 
 ![robot](https://d2908q01vomqb2.cloudfront.net/a9334987ece78b6fe8bf130ef00b74847c1d3da6/2021/10/18/Enterprise_Industrial-.jpg)
 
 **Robotics**
 
-CARLA is an open-source simulator for autonomous driving research. It has been developed from the ground up to support development, training, and validation of autonomous driving systems. In the post, [Run any high-fidelity simulation in AWS RoboMaker with GPU and container support](https://aws-oss.beachgeek.co.uk/110) Matt Hansen takes a look at how you can now run a CARLA autonomous driving simulator in AWS RoboMaker, thanks to the new features that make it possible to use any robot simulator and robot software to run high fidelity GPU based simulation jobs.
+CARLA is an open-source simulator for autonomous driving research. It has been developed from the ground up to support development, training, and validation of autonomous driving systems. In the post, [Run any high-fidelity simulation in AWS RoboMaker with GPU and container support](https://aws.amazon.com/blogs/robotics/run-any-high-fidelity-simulation-in-aws-robomaker-with-gpu-and-container-support/) Matt Hansen takes a look at how you can now run a CARLA autonomous driving simulator in AWS RoboMaker, thanks to the new features that make it possible to use any robot simulator and robot software to run high fidelity GPU based simulation jobs.
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/a9334987ece78b6fe8bf130ef00b74847c1d3da6/2021/10/22/driving_demo2.gif)
 
@@ -142,7 +142,7 @@ The FreeRTOS SMP kernel has a consistent set of configuration options, APIs and 
 
 This week, we do not have a video rather a playlist for you. Taken from the recent O3DCon event, this playlist will show you how you can use the Open 3D Engine to build and deploy your game. Esteban Papp covers different options the engine can be configured with. He will also go over different workflows available to build the game.
 
-Check out the [playlist here](https://aws-oss.beachgeek.co.uk/113).
+Check out the [playlist here](https://www.youtube.com/watch?v=p7zNjS6-87o&list=PLCQwFpnHSZQgkw7MdNQwagKKKvywt6b80).
 
 {% youtube p7zNjS6-87o %}
 
@@ -151,9 +151,9 @@ Check out the [playlist here](https://aws-oss.beachgeek.co.uk/113).
 **Enterprise Scale NLP with Hugging Face & SageMaker**
 **October 26th 2021 - 5:00 PM (BST)**
 
-In this workshop, [Getting Started with Amazon SageMaker: Training your first NLP Transformer model with Hugging Face](https://aws-oss.beachgeek.co.uk/10l) you will learn how to use Amazon SageMaker to train a Hugging Face Transformer model and deploy it afterwards. The workshop covers preparing and uploading  test dataset to S3, fine-tuning a script to be used with Amazon SageMaker Training jobs, launching a training job and storing the trained model into S3 and then deploying the model after successful training.
+In this workshop, [Getting Started with Amazon SageMaker: Training your first NLP Transformer model with Hugging Face](https://app.livestorm.co/hugging-face/getting-started-with-amazon-sagemaker-training-a-hugging-face-transformers-and-deploy-it) you will learn how to use Amazon SageMaker to train a Hugging Face Transformer model and deploy it afterwards. The workshop covers preparing and uploading  test dataset to S3, fine-tuning a script to be used with Amazon SageMaker Training jobs, launching a training job and storing the trained model into S3 and then deploying the model after successful training.
 
-Everything you need will be provided, so [read more and register using this link](https://aws-oss.beachgeek.co.uk/10l).
+Everything you need will be provided, so [read more and register using this link](https://app.livestorm.co/hugging-face/getting-started-with-amazon-sagemaker-training-a-hugging-face-transformers-and-deploy-it).
 
 **Flink Forwards Global 2021**
 **October 26th/27th**

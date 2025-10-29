@@ -17,15 +17,15 @@ Finally, the AWS Summit London is happening this week, including the Open Source
 
 Last week there were a couple of important announcements you need to be aware of in case you missed them.
 
-* [Amazon Keyspaces (for Apache Cassandra) support for Cassandra v3.11 end of life schedule](https://aws-oss.beachgeek.co.uk/2v7) looks at what the end of life (EOL) date for Apache Cassandra v3.11(May 1, 2023) means for users of Amazon Keyspaces (for Apache Cassandra)
+* [Amazon Keyspaces (for Apache Cassandra) support for Cassandra v3.11 end of life schedule](https://aws.amazon.com/blogs/database/amazon-keyspaces-for-apache-cassandra-support-for-cassandra-v3-11-end-of-life-schedule/) looks at what the end of life (EOL) date for Apache Cassandra v3.11(May 1, 2023) means for users of Amazon Keyspaces (for Apache Cassandra)
 
-* [Version 1 of the AWS Cloud Development Kit (AWS CDK) has reached end-of-support](https://aws-oss.beachgeek.co.uk/2v8) as of June 1, 2023, AWS CDK v1 has officially reached its end-of-support, so make sure you read this to find out more about your options and why you should be moving to AWS CDK v2
+* [Version 1 of the AWS Cloud Development Kit (AWS CDK) has reached end-of-support](https://aws.amazon.com/blogs/devops/cdk-v1-end-of-support/) as of June 1, 2023, AWS CDK v1 has officially reached its end-of-support, so make sure you read this to find out more about your options and why you should be moving to AWS CDK v2
 
 **OpenUK Survey**
 
 OpenUK have been running an annual survey for a number of years now, collecting data and then producing and sharing reports that are widely cited. They are looking for more folk to respond, so please take a few minutes to complete the survey and provide your feedback on the state of open source in the UK.
 
-Read more and find the link to the survey over at, [State of Open: The UK 2023 Survey](https://aws-oss.beachgeek.co.uk/2tw)
+Read more and find the link to the survey over at, [State of Open: The UK 2023 Survey](https://openuk.uk/state-of-open-2023-survey/)
 
 **Feedback**
 
@@ -45,23 +45,23 @@ So thank you to the following open source heroes:  Marco Leong, Arthur Busser, L
 
 **eventbridge-kafka-connector**
 
-[eventbridge-kafka-connector](https://aws-oss.beachgeek.co.uk/2v6) This Kafka sink connector for Amazon EventBridge allows you to send events (records) from one or multiple Kafka topic(s) to the specified event bus, including useful features such as configurable topic to event detail-type name mapping, IAM role-based authentication, support for dead-letter queues, and schema registry support for Avro and Protocol Buffers (Protobuf). See configuration below for details.
+[eventbridge-kafka-connector](https://github.com/awslabs/eventbridge-kafka-connector) This Kafka sink connector for Amazon EventBridge allows you to send events (records) from one or multiple Kafka topic(s) to the specified event bus, including useful features such as configurable topic to event detail-type name mapping, IAM role-based authentication, support for dead-letter queues, and schema registry support for Avro and Protocol Buffers (Protobuf). See configuration below for details.
 
 **murmur**
 
-[murmur](https://aws-oss.beachgeek.co.uk/2vi) is a small binary from Arthur Busser that reads its environment variables, replaces references to secrets with the secrets' values, and passes the resulting variables to your application. Variables that do not reference secrets are passed as-is. We like the detailed README and docs, including a comparison of how this works against other similar tools. It is also worth reading the [Reddit thread](https://aws-oss.beachgeek.co.uk/2vj) for even more context and info.
+[murmur](https://github.com/busser/murmur) is a small binary from Arthur Busser that reads its environment variables, replaces references to secrets with the secrets' values, and passes the resulting variables to your application. Variables that do not reference secrets are passed as-is. We like the detailed README and docs, including a comparison of how this works against other similar tools. It is also worth reading the [Reddit thread](https://www.reddit.com/r/aws/comments/13u81lw/murmur_pass_secrets_as_environment_variables_to_a/) for even more context and info.
 
 **cognito-token-verifier**
 
-[cognito-token-verifier](https://aws-oss.beachgeek.co.uk/2vk) this library verifies that the signature of the JWT is valid, comes from a desired application, and that the token has not been tampered with or expired. Amazon Cognito is a service provided by Amazon Web Services (AWS) that allows users to authenticate and access AWS resources through credentials such as ClientID and Secret, or username and password. After a user successfully authenticates, Cognito returns a JSON Web Token (JWT), which contains the main information required to verify that the user has accessed our application. This library verifies that the signature of the JWT is valid, comes from a desired application, and that the token has not been tampered with or expired.
+[cognito-token-verifier](https://github.com/internacionalweb/cognito-token-verifier) this library verifies that the signature of the JWT is valid, comes from a desired application, and that the token has not been tampered with or expired. Amazon Cognito is a service provided by Amazon Web Services (AWS) that allows users to authenticate and access AWS resources through credentials such as ClientID and Secret, or username and password. After a user successfully authenticates, Cognito returns a JSON Web Token (JWT), which contains the main information required to verify that the user has accessed our application. This library verifies that the signature of the JWT is valid, comes from a desired application, and that the token has not been tampered with or expired.
 
 **aws-doc-extractor**
 
-[aws-doc-extractor](https://aws-oss.beachgeek.co.uk/2vn) this project from Kevin Lin that pulls in AWS documentation and extracts, consolidates, and organises it. Kevin publishes this over at [https://awsnotes.dendron.so/about/readme](https://aws-oss.beachgeek.co.uk/2vo) so you can see what this project is capable of. Hat Tip to Corey Quinn's newsletter where I found this project.
+[aws-doc-extractor](https://github.com/kevinslin/aws-doc-extractor) this project from Kevin Lin that pulls in AWS documentation and extracts, consolidates, and organises it. Kevin publishes this over at [https://awsnotes.dendron.so/about/readme](https://awsnotes.dendron.so/about/readme) so you can see what this project is capable of. Hat Tip to Corey Quinn's newsletter where I found this project.
 
 **aws-glue-test-data-generator**
 
-[aws-glue-test-data-generator](https://aws-oss.beachgeek.co.uk/2vp) is an AWS Glue Configurable Test Data Generator. Test data generation plays a critical role in evaluating system performance, validating accuracy, bug identification, enhancing reliability, assessing scalability, ensuring regulatory compliance, training machine learning models, and supporting CI/CD processes. It enables the discovery of potential issues and ensures that systems operate as intended across diverse scenarios. The AWS Glue Test Data Generator provides a configurable framework for Test Data Generation using AWS Glue Pyspark serverless Jobs. The required test data description is fully configurable through a YAML configuration file.
+[aws-glue-test-data-generator](https://github.com/aws-samples/aws-glue-test-data-generator) is an AWS Glue Configurable Test Data Generator. Test data generation plays a critical role in evaluating system performance, validating accuracy, bug identification, enhancing reliability, assessing scalability, ensuring regulatory compliance, training machine learning models, and supporting CI/CD processes. It enables the discovery of potential issues and ensures that systems operate as intended across diverse scenarios. The AWS Glue Test Data Generator provides a configurable framework for Test Data Generation using AWS Glue Pyspark serverless Jobs. The required test data description is fully configurable through a YAML configuration file.
 
 ![overview of architecture for glue test data generator](https://user-images.githubusercontent.com/17237690/219859235-924c127e-0c2d-40d3-837b-cb5c68aa2c45.png)
 
@@ -69,45 +69,45 @@ So thank you to the following open source heroes:  Marco Leong, Arthur Busser, L
 
 **handsfree-stable-diffusion**
 
-[handsfree-stable-diffusion](https://aws-oss.beachgeek.co.uk/2vl) is a CloudFormation template and script from Marco Leong for deploying Stable Diffusion webui - fully hands free. If you wanted to jump on the Generative AI wagon, then why not give this a go, and Marco is also [looking for feedback](https://aws-oss.beachgeek.co.uk/2vm) so let him know what you think.
+[handsfree-stable-diffusion](https://github.com/MarcoLeongDev/handsfree-stable-diffusion) is a CloudFormation template and script from Marco Leong for deploying Stable Diffusion webui - fully hands free. If you wanted to jump on the Generative AI wagon, then why not give this a go, and Marco is also [looking for feedback](https://www.reddit.com/r/aws/comments/13vddar/my_humble_open_source_templatescript_to_deploy/) so let him know what you think.
 
 ### AWS and Community blog posts
 
 **Community Roundup**
 
-A couple of posts caught my eye this week in the AWS Community round up. As regular readers will know, I am a big fan of our recently Cedar launch and Gabriel Manor has put together a very nice post, [Scaling Authorization with Cedar and OPAL](https://aws-oss.beachgeek.co.uk/2ve) which is one of the clearest posts on how you might incorporate Cedar into your own applications. An essential read this week!
+A couple of posts caught my eye this week in the AWS Community round up. As regular readers will know, I am a big fan of our recently Cedar launch and Gabriel Manor has put together a very nice post, [Scaling Authorization with Cedar and OPAL](https://www.permit.io/blog/scaling-authorization-with-cedar-and-opal) which is one of the clearest posts on how you might incorporate Cedar into your own applications. An essential read this week!
 
 ![app authorisation with cedar and opal](https://media.graphassets.com/amEDs7K9SdCK5oPQ6Udq)
 
-AWS Hero Ken Collins also piqued my interest with his post, [Using Tailscale on Lambda for a Live Development Proxy](https://aws-oss.beachgeek.co.uk/2vg). [Tailscale](https://aws-oss.beachgeek.co.uk/2vh) makes networking fun/easy (according to their website) and in this post Ken explores how he extended a project to make it even easier to use Tailscale in Lambda Container.
+AWS Hero Ken Collins also piqued my interest with his post, [Using Tailscale on Lambda for a Live Development Proxy](https://dev.to/aws-heroes/using-tailscale-on-lambda-for-a-live-development-proxy-3hkc). [Tailscale](https://github.com/tailscale/tailscale) makes networking fun/easy (according to their website) and in this post Ken explores how he extended a project to make it even easier to use Tailscale in Lambda Container.
 
 ![overview of using tailscale with aws lambda](https://res.cloudinary.com/practicaldev/image/fetch/s--7U22VKmy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://lamby.cloud/img/blog/tailscale/live-development-proxy-overview.png)
 
 **containerd**
 
-In the post, [All you need to know about moving to containerd on Amazon EKS](https://aws-oss.beachgeek.co.uk/2v9), Arun Nalpet Ramakrishna, Chance Lee, and Gowtham S walk you through the context around Dockershim removal and the implications when moving from Docker Engine to containerd runtime to help you prepare run your Kubernetes workloads on it. [hands on]
+In the post, [All you need to know about moving to containerd on Amazon EKS](https://aws.amazon.com/blogs/containers/all-you-need-to-know-about-moving-to-containerd-on-amazon-eks/), Arun Nalpet Ramakrishna, Chance Lee, and Gowtham S walk you through the context around Dockershim removal and the implications when moving from Docker Engine to containerd runtime to help you prepare run your Kubernetes workloads on it. [hands on]
 
 ![overview of moving to containerd](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/05/26/CRI-plugin.png)
 
 **Apache Flink**
 
-Apache Flink is a framework and distributed processing engine for stateful computations over data streams. Jeremy Ber, Gaurav Rele, and Deepthi Mohan have come together to write, [Real-time inference using deep learning within Amazon Kinesis Data Analytics for Apache Flink](https://aws-oss.beachgeek.co.uk/2va) where they present a solution for real-time classification using the Deep Java Library within Kinesis Data Analytics for Apache Flink. [hands on]
+Apache Flink is a framework and distributed processing engine for stateful computations over data streams. Jeremy Ber, Gaurav Rele, and Deepthi Mohan have come together to write, [Real-time inference using deep learning within Amazon Kinesis Data Analytics for Apache Flink](https://aws.amazon.com/blogs/big-data/real-time-inference-using-deep-learning-within-amazon-kinesis-data-analytics-for-apache-flink/) where they present a solution for real-time classification using the Deep Java Library within Kinesis Data Analytics for Apache Flink. [hands on]
 
 ![overview of architecture for apache flink and djl](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/05/30/bdb-3098-arch-diagram.png)
 
 **Other posts and quick reads**
 
-* [Extending Java applications to directly access files in Amazon S3 without recompiling](https://aws-oss.beachgeek.co.uk/2vd) looks at the benefits of the [aws-nio-spi-for-s3](https://aws-oss.beachgeek.co.uk/1kt) package, design decisions and implementation, and how it can be employed with java-based applications without any requirement to modify code or recompile the application [hands on]
+* [Extending Java applications to directly access files in Amazon S3 without recompiling](https://aws.amazon.com/blogs/storage/extending-java-applications-to-directly-access-files-in-amazon-s3-without-recompiling/) looks at the benefits of the [aws-nio-spi-for-s3](https://github.com/awslabs/aws-java-nio-spi-for-s3) package, design decisions and implementation, and how it can be employed with java-based applications without any requirement to modify code or recompile the application [hands on]
 
 ![overview of aws-nio-spi-for-s3](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2023/05/25/Figure-1-3.png)
  
-* [Announcing pull through cache for registry.k8s.io in Amazon Elastic Container Registry](https://aws-oss.beachgeek.co.uk/2v3)  shows you how to create a container image pull through cache for Kubernetes images from registry.k8s.io [hands on]
-* [Open-Source Chip Design on AWS](https://aws-oss.beachgeek.co.uk/2vb) discusses the benefits of using open-source electronic design automation (EDA) software, which is required for designing integrated circuits
+* [Announcing pull through cache for registry.k8s.io in Amazon Elastic Container Registry](https://aws.amazon.com/blogs/containers/announcing-pull-through-cache-for-registry-k8s-io-in-amazon-elastic-container-registry/)  shows you how to create a container image pull through cache for Kubernetes images from registry.k8s.io [hands on]
+* [Open-Source Chip Design on AWS](https://aws.amazon.com/blogs/industries/open-source-chip-design-on-aws/) discusses the benefits of using open-source electronic design automation (EDA) software, which is required for designing integrated circuits
 
 ![graph of open source chip design](https://d2908q01vomqb2.cloudfront.net/c5b76da3e608d34edb07244cd9b875ee86906328/2023/05/09/Screenshot-2023-05-09-at-1.26.10-PM.png)
 
-* [AWS SDK for Go Aligns with Go Release Policy on Supported Runtimes](https://aws-oss.beachgeek.co.uk/2vc) looks at how the AWS SDK for Go will now align with the Go Release policy
-* [Go and Redis, Better Together](https://aws-oss.beachgeek.co.uk/2vf) provides a very nice walk through of Abhishek's session at Conf42 Goland, looking at how to leverage Redis from within Go [hands on]
+* [AWS SDK for Go Aligns with Go Release Policy on Supported Runtimes](https://aws.amazon.com/blogs/developer/aws-sdk-for-go-aligns-with-go-release-policy-on-supported-runtimes/) looks at how the AWS SDK for Go will now align with the Go Release policy
+* [Go and Redis, Better Together](https://abhishek1987.medium.com/go-and-redis-better-together-cbcd1f94ac31) provides a very nice walk through of Abhishek's session at Conf42 Goland, looking at how to leverage Redis from within Go [hands on]
 
 ![overview of Redis and go](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*IEYRWrRhzyQDl1Ah.png)
 
@@ -123,11 +123,11 @@ Amazon RDS for PostgreSQL 16 Beta 1 is now available in the Amazon RDS Database 
 
 Amazon RDS for PostgreSQL now supports the HypoPG extension for creating hypothetical indexes, which lets you test the performance impact of an index on query plans before you build it.  Indexes are a way to accelerate queries in PostgreSQL, however, building indexes in a production system requires additional storage and may not necessarily improve the performance of slow-running queries. The HypoPG extension lets you test the impact of adding an index without having to build it, and lets you determine if you should build an index before using CPU and storage resources. HypoPG helps to provide you insight into whether the PostgreSQL query planner will choose to use an index and any performance benefits that result from the use of the index. The HypoPG extension is available on all database instances in Amazon RDS running PostgreSQL 15.3 and higher, 14.8 and higher, and 13.11 and higher.
 
-You can dive deeper into this topic by checking out the blog post, [Build hypothetical indexes in Amazon RDS for PostgreSQL with HypoPG](https://aws-oss.beachgeek.co.uk/2v5) where Peter Celentano provides a hands on guide into how you can use HypoPG for testing and evaluating index configurations in PostgreSQL before going to the expense of building actual indices on your database.
+You can dive deeper into this topic by checking out the blog post, [Build hypothetical indexes in Amazon RDS for PostgreSQL with HypoPG](https://aws.amazon.com/blogs/database/build-hypothetical-indexes-in-amazon-rds-for-postgresql-with-hypopg/) where Peter Celentano provides a hands on guide into how you can use HypoPG for testing and evaluating index configurations in PostgreSQL before going to the expense of building actual indices on your database.
 
 **Grafana**
 
-Amazon Managed Grafana is a fully managed service for Grafana, a popular open-source analytics platform that enables you to query, visualise, and alert on your metrics, logs, and traces. Last week we announced that Amazon Managed Grafana is now System and Organization Controls (SOC) compliant. You can now use Amazon Managed Grafana to visualise data that is subject to SOC compliance. AWS SOC reports are independent third-party examination reports that demonstrate how AWS achieves key compliance controls and objectives. The purpose of these reports is to help you and your auditors understand the AWS controls established to support operations and compliance. AWS SOC 1 and SOC 2 Security, Availability, and Confidentiality, and Privacy Reports are also now available. You can download the AWS SOC reports in [AWS Artifact](https://aws-oss.beachgeek.co.uk/2v4). 
+Amazon Managed Grafana is a fully managed service for Grafana, a popular open-source analytics platform that enables you to query, visualise, and alert on your metrics, logs, and traces. Last week we announced that Amazon Managed Grafana is now System and Organization Controls (SOC) compliant. You can now use Amazon Managed Grafana to visualise data that is subject to SOC compliance. AWS SOC reports are independent third-party examination reports that demonstrate how AWS achieves key compliance controls and objectives. The purpose of these reports is to help you and your auditors understand the AWS controls established to support operations and compliance. AWS SOC 1 and SOC 2 Security, Availability, and Confidentiality, and Privacy Reports are also now available. You can download the AWS SOC reports in [AWS Artifact](https://aws.amazon.com/artifact/). 
 
 **GraphQL**
 
@@ -148,14 +148,14 @@ Customers can get a single-page static website created by simply running copilot
 
 **Enforcing Kubernetes Security Policies with Datree**
 
-Fresh from the Containers from the Couch Channel is this session from Lukonde Mwila and Shimon Tolts, where they show you how you can use [Datree](https://aws-oss.beachgeek.co.uk/2vq) to enforce Kubernetes security policies.
+Fresh from the Containers from the Couch Channel is this session from Lukonde Mwila and Shimon Tolts, where they show you how you can use [Datree](https://github.com/datreeio/datree) to enforce Kubernetes security policies.
 
 {{< youtube keGWfWlpP5Y >}}
 {% youtube keGWfWlpP5Y %}
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes).
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag).
 
 We are currently planning the third series - if you have an open source project you want to talk about, get in touch and we might be able to feature your project in future episodes of Build on Open Source.
 
@@ -176,7 +176,7 @@ There will also be a focus on running scalable data workloads on Kubernetes and 
 
 ­­The goal of the symposium is to bring customers together to share thoughts on how they are using these solutions to solve big data and observability use cases, as well as to discuss lessons learned and mistakes to avoid.
 
-Register and save your spot via the [AWS Open Source Symposium](https://aws-oss.beachgeek.co.uk/2tv) link.
+Register and save your spot via the [AWS Open Source Symposium](https://awsopensourcesymposium-london.splashthat.com/) link.
 
 
 **Open source Table Formats with AWS Glue and Amazon EMR**
@@ -184,21 +184,21 @@ Register and save your spot via the [AWS Open Source Symposium](https://aws-oss.
 
 Curious about Transactional Data Lakes? Come join our AWS experts as we take you through the most popular open source table formats, how these table formats can help you enable a modern data strategy, and how to build on these formats with Amazon EMR and AWS Glue. In this session, we'll cover some of the key differences between these different table formats, help you decide which table format may be the best fit for your workloads, and show you how to start building today.
 
-You can [join via YouTube live here](https://aws-oss.beachgeek.co.uk/2pu)
+You can [join via YouTube live here](https://www.youtube.com/watch?v=QHNr4waoMoI)
 
 **London Open Source Data Infrastructure Meetup**
 **Huckletree Shoreditch, 6:30PM - 9:30PM**
 
 As part of London Tech Week Aiven are co-hosting the 'London Open Source Data Infrastructure Meetup' on the 14th of June. This event is in collaboration with Hugh Evans from Daemon the 'AI and Deep Learning for Enterprise' group. The speaker panel includes Ricardo Sueiras from Amazon Web Services (AWS) discussing the wonders of Apache Airflow, Davies Oludare from Confluent shedding light on the intricate world of Kafka, and Ed Shee from Seldon breaking down the nuances of ML-powered summarisation.
 
-Spaces are limited, so make sure you reserve your spot by [checking and out the meetup page](https://aws-oss.beachgeek.co.uk/2tu)
+Spaces are limited, so make sure you reserve your spot by [checking and out the meetup page](https://www.meetup.com/uk-open-source-data-infrastructure-meetup/events/293469951)
 
 **Open Source Festival**
 **Lagos, Nigeria - June 15th-17th**
 
 An established and essential event for all open source developers, Open Source Festival promises to be even bigger and better than previous years. I feel very privileged to have spoken at this event in 2020, and so make sure you check this out if you are in the region or perhaps if you are maybe looking to sponsor an open source event, then maybe this is the one you should check out.
 
-Check out more on their homepage, [Open Source Festival](https://aws-oss.beachgeek.co.uk/2ss) 
+Check out more on their homepage, [Open Source Festival](https://festival.oscafrica.org/) 
 
 **Live AWS and Apache Hudi Workshop**
 **Online, June 22nd at 8am PT**
@@ -207,20 +207,20 @@ Nadine Farah and Soumil S are teaming up to deliver  a live workshop that will m
 
 ![overview of workshop technologies covered](https://assets.website-files.com/61f2440c9fcbc37831846652/647657293b4973482c3a3b58_AWS%20WORKSHOP%20Q2%202023%20-%20Copy%20of%20Architecture-version-1%20(1).jpg)
 
-Make sure you reserve your place by going to the registration page, [Live AWS and Apache Hudi Workshop: Build a ride share lakehouse platform](https://aws-oss.beachgeek.co.uk/2v2)
+Make sure you reserve your place by going to the registration page, [Live AWS and Apache Hudi Workshop: Build a ride share lakehouse platform](https://www.onehouse.ai/live-aws-and-apache-hudi-workshop-build-a-ride-share-lakehouse-platform)
 
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

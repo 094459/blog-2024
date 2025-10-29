@@ -16,7 +16,7 @@ Check out the list of contributors at the end of the newsletter, and as always, 
 **Make sure you check out**
 
 If you are using the AWS Tools for Powershell, then check out [Announcing the end-of-support for AWS Tools for PowerShell v4
-](https://aws-oss.beachgeek.co.uk/4hq) for important info and timelines.
+](https://aws.amazon.com/blogs/devops/announcing-the-end-of-support-for-aws-tools-for-powershell-v4/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) for important info and timelines.
 
 ### Latest open source projects
 
@@ -26,43 +26,43 @@ If you are using the AWS Tools for Powershell, then check out [Announcing the en
 
 **TerraTitan**
 
-[TerraTitan](https://aws-oss.beachgeek.co.uk/4hs) is an open source (GPL) LLM powered workflow that converts AWS CDK constructs to Terraform CDK (CDKTF). This tool is a major component used to generate and maintain the TerraConstructs library, providing reliable and trustworthy infrastructure components for everyone to use. There is also [a workshop](https://aws-oss.beachgeek.co.uk/4ht) that will help you get started if this looks interesting to you.
+[TerraTitan](https://github.com/TerraConstructs/TerraTitan) is an open source (GPL) LLM powered workflow that converts AWS CDK constructs to Terraform CDK (CDKTF). This tool is a major component used to generate and maintain the TerraConstructs library, providing reliable and trustworthy infrastructure components for everyone to use. There is also [a workshop](https://aws-workshop.terraconstructs.dev/) that will help you get started if this looks interesting to you.
 
 **aws-size**
 
-[aws-size](https://aws-oss.beachgeek.co.uk/4hv) is a great tool that **AWS Community Builder Jason Kao** that checks hard to find size limits and usage for AWS which can help provide advance warning to teams about resource limits in AWS before it's too late. Usage of these limits are not covered by AWS provided tooling such as Service Quotas and Trusted Advisor. Read the introduction blog post, [Introducing aws-size: A New Open Source Tool for Difficult Service Limit Visibility in AWS](https://www.fogsecurity.io/blog/aws-size-release) to find out more.
+[aws-size](https://github.com/FogSecurity/aws-size) is a great tool that **AWS Community Builder Jason Kao** that checks hard to find size limits and usage for AWS which can help provide advance warning to teams about resource limits in AWS before it's too late. Usage of these limits are not covered by AWS provided tooling such as Service Quotas and Trusted Advisor. Read the introduction blog post, [Introducing aws-size: A New Open Source Tool for Difficult Service Limit Visibility in AWS](https://www.fogsecurity.io/blog/aws-size-release) to find out more.
 
 **iceberg_navigator**
 
-[iceberg_navigator](https://aws-oss.beachgeek.co.uk/4hu) is a command line tool from **AWS Community Builder Aki** to makes it easy to navigate and inspect Apache Iceberg snapshot histories. It uses PyIceberg with AWS Glue REST Catalog to list, show details, and visualise snapshot lineage graphs for Iceberg tables stored on S3. He has also put together a blog post, [Building a CLI Tool to Visualize AWS Iceberg Table Snapshot History](https://dev.to/aws-builders/building-a-cli-tool-to-visualize-aws-iceberg-table-snapshot-history-4cfp) that is a helpful walkthrough of the project and code. 
+[iceberg_navigator](https://github.com/dataPenginPenguin/iceberg_navigator) is a command line tool from **AWS Community Builder Aki** to makes it easy to navigate and inspect Apache Iceberg snapshot histories. It uses PyIceberg with AWS Glue REST Catalog to list, show details, and visualise snapshot lineage graphs for Iceberg tables stored on S3. He has also put together a blog post, [Building a CLI Tool to Visualize AWS Iceberg Table Snapshot History](https://dev.to/aws-builders/building-a-cli-tool-to-visualize-aws-iceberg-table-snapshot-history-4cfp) that is a helpful walkthrough of the project and code. 
 
 **valkey-swift**
 
-[valkey-swift](https://aws-oss.beachgeek.co.uk/4hy) is a Swift client library for Valkey. README provides everything you Swifties need to know to get all that Valkey goodness in your apps.
+[valkey-swift](https://github.com/valkey-io/valkey-swift) is a Swift client library for Valkey. README provides everything you Swifties need to know to get all that Valkey goodness in your apps.
 
 **q-view**
 
-[q-view](https://aws-oss.beachgeek.co.uk/4hx) is a handy tool from **AWS Community Builder Ryan Cormack** that lets you visualise and analyse Amazon Q Developer conversation history from Q CLI. Check out the README for more details, and I will leave you with an example screenshot.
+[q-view](https://github.com/ryancormack/q-view) is a handy tool from **AWS Community Builder Ryan Cormack** that lets you visualise and analyse Amazon Q Developer conversation history from Q CLI. Check out the README for more details, and I will leave you with an example screenshot.
 
 ![example screenshot of tool](https://raw.githubusercontent.com/ryancormack/q-view/refs/heads/main/docs/q_summary.png)
 
 **graphc**
 
-[graphc](https://aws-oss.beachgeek.co.uk/4hw) (stands for "graph console")  and is a really nice interactive text user interface from **Dhruv Thakur** that lets you query Neo4j/AWS Neptune databases via the command line.  Check out the repo for screenshots and short animated videos of this in action.
+[graphc](https://github.com/dhth/graphc) (stands for "graph console")  and is a really nice interactive text user interface from **Dhruv Thakur** that lets you query Neo4j/AWS Neptune databases via the command line.  Check out the repo for screenshots and short animated videos of this in action.
 
 **csi-components**
 
-[csi-components](https://aws-oss.beachgeek.co.uk/4i4) - This repository contains the tooling used to build minimal Amazon Linux based versions of the Kubernetes CSI Sidecars (and other related components such as the Kubernetes CSI snapshot-controller image). These images are used in the official releases of the EBS CSI Driver versions v1.45.0 and later.
+[csi-components](https://github.com/aws/csi-components) - This repository contains the tooling used to build minimal Amazon Linux based versions of the Kubernetes CSI Sidecars (and other related components such as the Kubernetes CSI snapshot-controller image). These images are used in the official releases of the EBS CSI Driver versions v1.45.0 and later.
 
 ### Demos, Samples, Solutions and Workshops
 
 **QualityFlow**
 
-[QualityFlow](https://aws-oss.beachgeek.co.uk/4i2) is a super interesting repo from Amazon Science that demonstrates the research paper, [QualityFlow: An Agentic Workflow for Program Synthesis Controlled by LLM Quality Checks](https://aws-oss.beachgeek.co.uk/4i3). Given the English description of a programming problem and a set of unit tests, the model's goal is to synthesise the correct program that solves the problem and passes the tests. QualityFlow includes large language model (LLM) agents resembling a software development team, including code generation, testing, and self-debugging. We propose the LLM Quality Checker, which explicitly ``imagines'' whether the synthesised programs' execution would conform to the unit tests. The Quality Checks dynamically control the workflow, including actions to submit the final answer, clarify the problem statement, and revert previous workflow steps. Our experiments show that the Quality Checker can precisely accept any correct program, mitigate faulty synthesised tests, and prevent potential workflow deviation. QualityFlow establishes the state-of-the-art results on four program synthesis benchmarks: MBPP, HumanEval, and stricter evaluations from MBPP-EvalPlus and HumanEval-EvalPlus.
+[QualityFlow](https://github.com/amazon-science/QualityFlow) is a super interesting repo from Amazon Science that demonstrates the research paper, [QualityFlow: An Agentic Workflow for Program Synthesis Controlled by LLM Quality Checks](https://arxiv.org/pdf/2501.17167). Given the English description of a programming problem and a set of unit tests, the model's goal is to synthesise the correct program that solves the problem and passes the tests. QualityFlow includes large language model (LLM) agents resembling a software development team, including code generation, testing, and self-debugging. We propose the LLM Quality Checker, which explicitly ``imagines'' whether the synthesised programs' execution would conform to the unit tests. The Quality Checks dynamically control the workflow, including actions to submit the final answer, clarify the problem statement, and revert previous workflow steps. Our experiments show that the Quality Checker can precisely accept any correct program, mitigate faulty synthesised tests, and prevent potential workflow deviation. QualityFlow establishes the state-of-the-art results on four program synthesis benchmarks: MBPP, HumanEval, and stricter evaluations from MBPP-EvalPlus and HumanEval-EvalPlus.
 
 **sample-cost-per-transaction**
 
-[sample-cost-per-transaction](https://aws-oss.beachgeek.co.uk/4i1) - is a repo that provides a cost intelligence solution that correlates application performance traces with Infrastructure costs, providing unprecedented transaction-level visibility to drive strategic business decisions. 
+[sample-cost-per-transaction](https://github.com/aws-samples/sample-cost-per-transaction) - is a repo that provides a cost intelligence solution that correlates application performance traces with Infrastructure costs, providing unprecedented transaction-level visibility to drive strategic business decisions. 
 
 ![AWS services used in solution](https://raw.githubusercontent.com/aws-samples/sample-cost-per-transaction/refs/heads/main/architecture-diagram.png)
 
@@ -74,15 +74,15 @@ sample-on-demand-workflow-orchestrator - this repo lets you build a serverless, 
 
 **strands-mcp-inter-agent**
 
-[strands-mcp-inter-agent](https://aws-oss.beachgeek.co.uk/4i5) is some sample code from my colleague James Ward that shows you how MCP Agents can call other MCP Agents by exposing them as MCP Servers. his example uses a hierarchy of agents with where the outer agent calls (using MCP) an inner agent that does routing and prompt modification, which then calls another MCP server.
+[strands-mcp-inter-agent](https://github.com/jamesward/Sample-Model-Context-Protocol-Demos/tree/agentcore/modules/strands-mcp-inter-agent) is some sample code from my colleague James Ward that shows you how MCP Agents can call other MCP Agents by exposing them as MCP Servers. his example uses a hierarchy of agents with where the outer agent calls (using MCP) an inner agent that does routing and prompt modification, which then calls another MCP server.
 
 **sample-sonic-java-playground**
 
-[sample-sonic-java-playground](https://aws-oss.beachgeek.co.uk/4i0) - is a full-stack playground application for experimenting with Amazon's NovaSonic API capabilities, built with React (v18.2.0) and Spring Boot (v3.2.0). The application supports invoking NovaSonic Speech to Speech model by configuring supported parameters.
+[sample-sonic-java-playground](https://github.com/aws-samples/sample-sonic-java-playground) - is a full-stack playground application for experimenting with Amazon's NovaSonic API capabilities, built with React (v18.2.0) and Spring Boot (v3.2.0). The application supports invoking NovaSonic Speech to Speech model by configuring supported parameters.
 
 **sample-ai-agent-accelerator**
 
-[sample-ai-agent-accelerator](https://aws-oss.beachgeek.co.uk/4hz) - if you wanted to get hands on with Amazon Bedrock AgentCore, then this repo is for you. This project is a sample reference implementation that showcases how to quickly build an AI agent using the Bedrock AgentCore building blocks. The implementation is fully serverless leveraging AgentCore Runtime, AgentCore Memory, AgentCore Observability, and Amazon S3 Vectors for Agentic RAG, eliminating the need to run databases.
+[sample-ai-agent-accelerator](https://github.com/aws-samples/sample-ai-agent-accelerator) - if you wanted to get hands on with Amazon Bedrock AgentCore, then this repo is for you. This project is a sample reference implementation that showcases how to quickly build an AI agent using the Bedrock AgentCore building blocks. The implementation is fully serverless leveraging AgentCore Runtime, AgentCore Memory, AgentCore Observability, and Amazon S3 Vectors for Agentic RAG, eliminating the need to run databases.
 
 The agent is built using the Strands Agent Python library and hosted on the AgentCore Runtime. It uses Strand's built-in retrieve tool to perform semantic search using Bedrock Knowledge Bases, which ingests documents from an S3 bucket and stores the indexed vectors in S3 Vectors. User conversation state and history are fully managed by AgentCore Memory. Users interact with the agent via a web app that provides both a web GUI and an HTTP JSON API, hosted as a container on ECS Fargate behind an ALB. The web app is built using Python Flask and HTMX.
 
@@ -93,11 +93,11 @@ The agent is built using the Strands Agent Python library and hosted on the Agen
 
 Here are the posts that I think are essential reads, so start here. We have more than we usually do, but thought these were all essential reads this month.
 
-* [AWS joins the DocumentDB project to build interoperable, open source document database technology](https://aws-oss.beachgeek.co.uk/4hr) - looks at the recent announcement that AWS has joined the open source DocumentDB project under the stewardship of the Linux Foundation
-* [Open Protocols for Agent Interoperability Part 4: Inter-Agent Communication on A2A](https://aws-oss.beachgeek.co.uk/4hp) - the fourth instalment of a series that is diving deep into Open Protocols for Agent Interoperability, looking at Agent-to-Agent (A2A) protocol, AWS’ involvement with the Linux Foundation-based open standard, and our support of A2A in the Strands Agents SDK [hands on]
-* [Strands Agents SDK: A technical deep dive into agent architectures and observability](https://aws-oss.beachgeek.co.uk/4h8) - introduces the Strands Agents SDK, an open source framework for building AI agents, and dives into its AWS integration for secure deployments with observability features, and provides practical use cases with a step-by-step example [hands on]
-* [Powering AI-Driven Security with the Open Cybersecurity Schema Framework](https://aws-oss.beachgeek.co.uk/4hn) - provides an update on the Open Cybersecurity Schema Framework (OCSF), sharing a case study, whats coming, and a look at the growing eco system
-* [Building Your Open Source Commercial Strategy with AWS](https://aws-oss.beachgeek.co.uk/4ho) - dives into the topic of moving from popular open source project to profitable business, drawing on some of the experiences companies like dbt, dagger, and others 
+* [AWS joins the DocumentDB project to build interoperable, open source document database technology](https://aws.amazon.com/blogs/opensource/aws-joins-the-documentdb-project-to-build-interoperable-open-source-document-database-technology/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - looks at the recent announcement that AWS has joined the open source DocumentDB project under the stewardship of the Linux Foundation
+* [Open Protocols for Agent Interoperability Part 4: Inter-Agent Communication on A2A](https://aws.amazon.com/blogs/opensource/open-protocols-for-agent-interoperability-part-4-inter-agent-communication-on-a2a/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - the fourth instalment of a series that is diving deep into Open Protocols for Agent Interoperability, looking at Agent-to-Agent (A2A) protocol, AWS’ involvement with the Linux Foundation-based open standard, and our support of A2A in the Strands Agents SDK [hands on]
+* [Strands Agents SDK: A technical deep dive into agent architectures and observability](https://aws.amazon.com/blogs/machine-learning/strands-agents-sdk-a-technical-deep-dive-into-agent-architectures-and-observability/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - introduces the Strands Agents SDK, an open source framework for building AI agents, and dives into its AWS integration for secure deployments with observability features, and provides practical use cases with a step-by-step example [hands on]
+* [Powering AI-Driven Security with the Open Cybersecurity Schema Framework](https://aws.amazon.com/blogs/opensource/powering-ai-driven-security-with-the-open-cybersecurity-schema-framework/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - provides an update on the Open Cybersecurity Schema Framework (OCSF), sharing a case study, whats coming, and a look at the growing eco system
+* [Building Your Open Source Commercial Strategy with AWS](https://aws.amazon.com/blogs/apn/building-your-open-source-commercial-strategy-with-aws/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - dives into the topic of moving from popular open source project to profitable business, drawing on some of the experiences companies like dbt, dagger, and others 
 
 **Community**
 
@@ -115,51 +115,51 @@ Thats all for this month. If you have an open source article you want to share w
 
 **Cloud Native**
 
-* [Simplify network connectivity using Tailscale with Amazon EKS Hybrid Nodes](https://aws-oss.beachgeek.co.uk/4ha) - guides you through integrating Tailscale with your Amazon EKS Hybrid Nodes environment, a feature of Amazon EKS that enables you to streamline your Kubernetes management by connecting on-premises and edge infrastructure to an EKS cluster running on AWS [hands on]
+* [Simplify network connectivity using Tailscale with Amazon EKS Hybrid Nodes](https://aws.amazon.com/blogs/containers/simplify-network-connectivity-using-tailscale-with-amazon-eks-hybrid-nodes/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - guides you through integrating Tailscale with your Amazon EKS Hybrid Nodes environment, a feature of Amazon EKS that enables you to streamline your Kubernetes management by connecting on-premises and edge infrastructure to an EKS cluster running on AWS [hands on]
 
 ![example hybrid architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2025/08/04/CONTAINERS-36-1.png)
 
-* [Deploy LLMs on Amazon EKS using vLLM Deep Learning Containers](https://aws-oss.beachgeek.co.uk/4hf) - demonstrates how to deploy the DeepSeek-R1-Distill-Qwen-32B model using AWS DLCs for vLLMs on Amazon EKS, showcasing how these purpose-built containers simplify deployment of this powerful open source inference engine [hands on]
+* [Deploy LLMs on Amazon EKS using vLLM Deep Learning Containers](https://aws.amazon.com/blogs/architecture/deploy-llms-on-amazon-eks-using-vllm-deep-learning-containers/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - demonstrates how to deploy the DeepSeek-R1-Distill-Qwen-32B model using AWS DLCs for vLLMs on Amazon EKS, showcasing how these purpose-built containers simplify deployment of this powerful open source inference engine [hands on]
 
 ![layer diagram for compute](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/08/04/image-2-3.png)
 
-* [Migrate to Amazon EKS: Data plane cost modeling with Karpenter and KWOK](https://aws-oss.beachgeek.co.uk/4hj) - looks at how to mimic a Kubernetes migration to Amazon EKS using Karpenter and KWOK, and in the process, how you can use this to estimate compute costs before progressing [hands on]
+* [Migrate to Amazon EKS: Data plane cost modeling with Karpenter and KWOK](https://aws.amazon.com/blogs/containers/migrate-to-amazon-eks-data-plane-cost-modeling-with-karpenter-and-kwok/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - looks at how to mimic a Kubernetes migration to Amazon EKS using Karpenter and KWOK, and in the process, how you can use this to estimate compute costs before progressing [hands on]
 
-* [Introducing Seekable OCI Parallel Pull mode for Amazon EKS](https://aws-oss.beachgeek.co.uk/4hm) - explains how container image pulls work and how they impact deployment and scaling operations, diving deep into how SOCI parallel pull works, and how it can help you improve image pull performance with your workloads on Amazon EKS [hands on]
+* [Introducing Seekable OCI Parallel Pull mode for Amazon EKS](https://aws.amazon.com/blogs/containers/introducing-seekable-oci-parallel-pull-mode-for-amazon-eks/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - explains how container image pulls work and how they impact deployment and scaling operations, diving deep into how SOCI parallel pull works, and how it can help you improve image pull performance with your workloads on Amazon EKS [hands on]
 
 **Data and Analytics**
 
-* [Demystifying the AWS advanced JDBC wrapper plugins](https://aws-oss.beachgeek.co.uk/4hi) - dives deep into the benefits, use cases, and implementation details for two popular AWS Advanced JDBC Wrapper Driver plugins: the Aurora Initial Connection Strategy and Failover v2 plugins [hands on]
+* [Demystifying the AWS advanced JDBC wrapper plugins](https://aws.amazon.com/blogs/database/demystifying-the-aws-advanced-jdbc-wrapper-plugins/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - dives deep into the benefits, use cases, and implementation details for two popular AWS Advanced JDBC Wrapper Driver plugins: the Aurora Initial Connection Strategy and Failover v2 plugins [hands on]
 
-* [Build data pipelines with dbt in Amazon Redshift using Amazon MWAA and Cosmos](https://aws-oss.beachgeek.co.uk/4he) - looks at a streamlined, configuration-driven approach to orchestrate dbt Core jobs using Amazon Managed Workflows for Apache Airflow (Amazon MWAA) and Cosmos, an open source package to simplify dbt with Apache Airflow [hands on]
+* [Build data pipelines with dbt in Amazon Redshift using Amazon MWAA and Cosmos](https://aws.amazon.com/blogs/big-data/build-data-pipelines-with-dbt-in-amazon-redshift-using-amazon-mwaa-and-cosmos/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - looks at a streamlined, configuration-driven approach to orchestrate dbt Core jobs using Amazon Managed Workflows for Apache Airflow (Amazon MWAA) and Cosmos, an open source package to simplify dbt with Apache Airflow [hands on]
 
-* [Improve PostgreSQL performance: Diagnose and mitigate lock manager contention](https://aws-oss.beachgeek.co.uk/4h7) - explores how read heavy workloads can cause LWLock contention in PostgreSQL based systems like Amazon Aurora by exceeding fast path locking limits, and demonstrates techniques to identify and optimise queries that transition to slow path locking [hands on]
+* [Improve PostgreSQL performance: Diagnose and mitigate lock manager contention](https://aws.amazon.com/blogs/database/improve-postgresql-performance-diagnose-and-mitigate-lock-manager-contention/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - explores how read heavy workloads can cause LWLock contention in PostgreSQL based systems like Amazon Aurora by exceeding fast path locking limits, and demonstrates techniques to identify and optimise queries that transition to slow path locking [hands on]
 
-* [Optimize traffic costs of Amazon MSK consumers on Amazon EKS with rack awareness](https://aws-oss.beachgeek.co.uk/4h6) - will explain more about Apache Kafka's nearest replica fetching (rack awareness), a cost optimisation technique that reduces cross AZ traffic costs for Amazon MSK consumers on Amazon EKS by using tools like Kyverno to dynamically inject Availability Zone information into Kubernetes pods and optimise consumer routing [hands on]
-* [Export JMX metrics from Kafka connectors in Amazon Managed Streaming for Apache Kafka Connect with a custom plugin](https://aws-oss.beachgeek.co.uk/4hh) - is a nice walk through that shows you how to extend the Debezium MySQL connector plugin with an additional module to export the JMX metrics to CloudWatch as custom metrics [hands on]
+* [Optimize traffic costs of Amazon MSK consumers on Amazon EKS with rack awareness](https://aws.amazon.com/blogs/big-data/optimize-traffic-costs-of-amazon-msk-consumers-on-amazon-eks-with-rack-awareness/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - will explain more about Apache Kafka's nearest replica fetching (rack awareness), a cost optimisation technique that reduces cross AZ traffic costs for Amazon MSK consumers on Amazon EKS by using tools like Kyverno to dynamically inject Availability Zone information into Kubernetes pods and optimise consumer routing [hands on]
+* [Export JMX metrics from Kafka connectors in Amazon Managed Streaming for Apache Kafka Connect with a custom plugin](https://aws.amazon.com/blogs/big-data/export-jmx-metrics-from-kafka-connectors-in-amazon-managed-streaming-for-apache-kafka-connect-with-a-custom-plugin/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - is a nice walk through that shows you how to extend the Debezium MySQL connector plugin with an additional module to export the JMX metrics to CloudWatch as custom metrics [hands on]
 
-* [Enhance Amazon EMR observability with automated incident mitigation using Amazon Bedrock and Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/4hg) - provides a solution to automated EMR cluster monitoring and incident response, by combining real-time monitoring with AI-powered remediation suggestions and automated execution [hands on]
-* [Improve Amazon EMR HBase availability and tail latency using generational ZGC](https://aws-oss.beachgeek.co.uk/4hk) - examines how unpredictable garbage collection pauses impact business critical workloads and explores the benefits of enabling generational ZGC in HBase, along with additional GC tuning techniques and new configuration parameters in Amazon EMR 7.10.0 to optimise HBase RegionServer performance and reduce tail latency [hands on]
+* [Enhance Amazon EMR observability with automated incident mitigation using Amazon Bedrock and Amazon Managed Grafana](https://aws.amazon.com/blogs/big-data/enhance-amazon-emr-observability-with-automated-incident-mitigation-using-amazon-bedrock-and-amazon-managed-grafana/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - provides a solution to automated EMR cluster monitoring and incident response, by combining real-time monitoring with AI-powered remediation suggestions and automated execution [hands on]
+* [Improve Amazon EMR HBase availability and tail latency using generational ZGC](https://aws.amazon.com/blogs/big-data/improve-amazon-emr-hbase-availability-and-tail-latency-using-generational-zgc/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - examines how unpredictable garbage collection pauses impact business critical workloads and explores the benefits of enabling generational ZGC in HBase, along with additional GC tuning techniques and new configuration parameters in Amazon EMR 7.10.0 to optimise HBase RegionServer performance and reduce tail latency [hands on]
 
 ![example graph showing generation zgc](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2025/08/05/bdb-5393-zgc_runtime_distribution-scaled.jpg)
 
-* [Amazon Timestream for InfluxDB: Expanding managed open source time series databases for data-driven insights and real-time decision making](https://aws-oss.beachgeek.co.uk/4hl) - dives into the strengthening of the partnership between AWS and InfluxData as Amazon Timestream adopts InfluxDB as the main purpose-built time series database 
+* [Amazon Timestream for InfluxDB: Expanding managed open source time series databases for data-driven insights and real-time decision making](https://aws.amazon.com/blogs/database/amazon-timestream-for-influxdb-expanding-managed-open-source-time-series-databases-for-data-driven-insights-and-real-time-decision-making/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - dives into the strengthening of the partnership between AWS and InfluxData as Amazon Timestream adopts InfluxDB as the main purpose-built time series database 
 
 **Other posts to check out**
 
-* [Introducing v2 of Powertools for AWS Lambda (Java)](https://aws-oss.beachgeek.co.uk/4h9) - walks you through v2 of Powertools for AWS Lambda for Java, that will help you  build robust, observable, and high-performing Serverless applications (looking at the enhanced core observability utilities, the performance gains through GraalVM native image support, and the new Kafka utility that supports using familiar Kafka patterns when working on Lambda) [hands on]
+* [Introducing v2 of Powertools for AWS Lambda (Java)](https://aws.amazon.com/blogs/compute/introducing-v2-of-powertools-for-aws-lambda-java/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - walks you through v2 of Powertools for AWS Lambda for Java, that will help you  build robust, observable, and high-performing Serverless applications (looking at the enhanced core observability utilities, the performance gains through GraalVM native image support, and the new Kafka utility that supports using familiar Kafka patterns when working on Lambda) [hands on]
 
-* [Using Red Hat Lightspeed AI assistant and generative AI to achieve your goals from within Red Hat Enterprise Linux (RHEL) on AWS](https://aws-oss.beachgeek.co.uk/4hc) - is a hands on walkthrough of a new AI assistant developed by Red Hat that you can use on your AWS instances of RHEL to simplify administration and more [hands on]
+* [Using Red Hat Lightspeed AI assistant and generative AI to achieve your goals from within Red Hat Enterprise Linux (RHEL) on AWS](https://aws.amazon.com/blogs/ibm-redhat/using-red-hat-lightspeed-ai-assistant-and-generative-ai-to-achieve-your-goals-from-within-red-hat-enterprise-linux-rhel-on-aws/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - is a hands on walkthrough of a new AI assistant developed by Red Hat that you can use on your AWS instances of RHEL to simplify administration and more [hands on]
 
-* [Build an intelligent financial analysis agent with LangGraph and Strands Agents](https://aws-oss.beachgeek.co.uk/4hd) - describes an approach of combining three powerful technologies to illustrate an architecture that you can adapt and build upon for your specific financial analysis needs: LangGraph for workflow orchestration, Strands Agents for structured reasoning, and Model Context Protocol (MCP) for tool integration [hands on]
+* [Build an intelligent financial analysis agent with LangGraph and Strands Agents](https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-financial-analysis-agent-with-langgraph-and-strands-agents/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - describes an approach of combining three powerful technologies to illustrate an architecture that you can adapt and build upon for your specific financial analysis needs: LangGraph for workflow orchestration, Strands Agents for structured reasoning, and Model Context Protocol (MCP) for tool integration [hands on]
 
 ![example app sequence diagram](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/08/07/ML-18662-4-1024x774.png)
 
 **Case Studies**
 
-* [How Wiz achieved near-zero downtime for Amazon Aurora PostgreSQL major version upgrades at scale using Aurora Blue/Green Deployments](https://aws-oss.beachgeek.co.uk/4h5) - provides a study into how Wiz were able to upgrade their Aurora PostgreSQL database from version 14 to 16 with near-zero downtime using Amazon Aurora Blue/Green Deployments [hands on]
+* [How Wiz achieved near-zero downtime for Amazon Aurora PostgreSQL major version upgrades at scale using Aurora Blue/Green Deployments](https://aws.amazon.com/blogs/database/how-wiz-achieved-near-zero-downtime-for-amazon-aurora-postgresql-major-version-upgrades-at-scale-using-aurora-blue-green-deployments/??trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - provides a study into how Wiz were able to upgrade their Aurora PostgreSQL database from version 14 to 16 with near-zero downtime using Amazon Aurora Blue/Green Deployments [hands on]
 
-* [Scaling transaction peaks: Juspay’s approach using Amazon ElastiCache](https://aws-oss.beachgeek.co.uk/4hb) - walks you through how Juspay transformed their payment processing architecture to handle transaction peaks, using Amazon ElastiCache and Amazon RDS for MySQL, to processes 7.6 million transactions per hour during peak events, whilst achieving sub-millisecond latency
+* [Scaling transaction peaks: Juspay’s approach using Amazon ElastiCache](https://aws.amazon.com/blogs/database/scaling-transaction-peaks-juspays-approach-using-amazon-elasticache/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) - walks you through how Juspay transformed their payment processing architecture to handle transaction peaks, using Amazon ElastiCache and Amazon RDS for MySQL, to processes 7.6 million transactions per hour during peak events, whilst achieving sub-millisecond latency
 
 ### Quick updates
 
@@ -249,6 +249,6 @@ So thank you to the following open source heroes:  Sagi Tsofan, Adi Avni, Pini D
 
 Remember to check out the [Open Source homepage](https://aws.amazon.com/opensource/?opensource-all.sort-by=item.additionalFields.startDate&opensource-all.sort-order=asc) for more open source goodness.
 
-One of the pieces of feedback I received was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://aws-oss.beachgeek.co.uk/3l8).
+One of the pieces of feedback I received was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://github.com/094459/newsletter-oss-projects).
 
 Made with ♥ from DevRel

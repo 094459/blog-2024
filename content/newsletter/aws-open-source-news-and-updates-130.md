@@ -37,7 +37,7 @@ So thank you to the following open source heroes: Lars Jacobsson, Makendran G, A
 
 **grucloud**
 
-[grucloud](https://aws-oss.beachgeek.co.uk/24h) is a low/no-code infrastructure as a code tool. It can generate code from live infrastructure, and deploy resources to the cloud from code. This works with AWS and other Cloud providers, and also support Kubernetes. One of the nice things I can see is that it generates graphs and diagrams. For example, you can visualise like this:
+[grucloud](https://github.com/grucloud/grucloud) is a low/no-code infrastructure as a code tool. It can generate code from live infrastructure, and deploy resources to the cloud from code. This works with AWS and other Cloud providers, and also support Kubernetes. One of the nice things I can see is that it generates graphs and diagrams. For example, you can visualise like this:
 
 ![graphviz of grucloud](https://raw.githubusercontent.com/grucloud/grucloud/main/examples/aws/EC2/ec2-vpc/artifacts/diagram-live.svg)
 
@@ -49,39 +49,39 @@ Looks like an interesting project.
 
 **stepfunctions-sdk-autocomplete**
 
-[stepfunctions-sdk-autocomplete](https://aws-oss.beachgeek.co.uk/24f) AWS Community Builder Lars Jacobsson has been back in his open source forge and minted another great open source tool. You can also grab it directly from the Visual Studio Code marketplace page, [StepFunctions SDK Integrations Autocomplete](https://aws-oss.beachgeek.co.uk/24g)
+[stepfunctions-sdk-autocomplete](https://github.com/ljacobsson/stepfunctions-sdk-autocomplete) AWS Community Builder Lars Jacobsson has been back in his open source forge and minted another great open source tool. You can also grab it directly from the Visual Studio Code marketplace page, [StepFunctions SDK Integrations Autocomplete](https://marketplace.visualstudio.com/items?itemName=ljacobsson.stepfunctions-sdk-autocomplete)
 
 ![demo of visual studio autocomplete plugin](https://github.com/ljacobsson/stepfunctions-sdk-autocomplete/raw/HEAD/images/demo.gif)
 
 **AWS_Billing_Overage_Shutdown**
 
-[AWS_Billing_Overage_Shutdown](https://aws-oss.beachgeek.co.uk/24c) this repo contains the starting of a tool that scripts the automatic shutting down of AWS EC2 instances based on billing alerts. You will need to do some work as what is provided is some code and documentation, but if you like this why not get involved and help shape it. Check out [the discussion on Reddit](https://aws-oss.beachgeek.co.uk/24d) to find out more and have your say.
+[AWS_Billing_Overage_Shutdown](https://github.com/JC31107/AWS_Billing_Overage_Shutdown) this repo contains the starting of a tool that scripts the automatic shutting down of AWS EC2 instances based on billing alerts. You will need to do some work as what is provided is some code and documentation, but if you like this why not get involved and help shape it. Check out [the discussion on Reddit](https://www.reddit.com/r/aws/comments/xv4fs4/aws_shutdown_ec2_on_budget_alert/) to find out more and have your say.
 
 **aws-secrets-manager-github-action**
 
-[aws-secrets-manager-github-action](https://aws-oss.beachgeek.co.uk/24e) lets you use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked Environment variables in your GitHub workflow. When you add a secret to your GitHub environment, it is available to all other steps in your GitHub job. Make sure you check out the docs to find out about how to follow best practices and hardening of your GitHub Actions.
+[aws-secrets-manager-github-action](https://github.com/marketplace/actions/aws-secrets-manager-github-action) lets you use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked Environment variables in your GitHub workflow. When you add a secret to your GitHub environment, it is available to all other steps in your GitHub job. Make sure you check out the docs to find out about how to follow best practices and hardening of your GitHub Actions.
 
 **meta-aws**
 
-[meta-aws](https://aws-oss.beachgeek.co.uk/24b) the meta-aws project provides recipes for building in AWS edge software capabilities to Embedded Linux built with OpenEmbedded and Yocto Project build frameworks. This repo links to a number of demos that show machine specific demonstrations (including one for the Raspberry Pi) for AWS software on Embedded Linux built by the Yocto Project build framework with the meta-aws Metadata Layer.
+[meta-aws](https://github.com/aws4embeddedlinux/meta-aws) the meta-aws project provides recipes for building in AWS edge software capabilities to Embedded Linux built with OpenEmbedded and Yocto Project build frameworks. This repo links to a number of demos that show machine specific demonstrations (including one for the Raspberry Pi) for AWS software on Embedded Linux built by the Yocto Project build framework with the meta-aws Metadata Layer.
 
 **data-on-eks**
 
-[data-on-eks](https://aws-oss.beachgeek.co.uk/24i) is a tool to build, deploy and scale Data Platforms on Amazon EKS. Data on Amazon EKS(DoEKS) helps users to build AWS managed and self-managed scalable data platforms on Amazon EKS. This repo provides Infrastructure as Code(IaC) templates(e.g., Terraform, AWS CDK etc.), sample Apache Spark/ML jobs, references to AWS Data blogs, Performance Benchmark reports and Best Practices for deploying Data Solutions on Amazon EKS. It currently covers Apache Airflow, Amazon EMR, Apache Spark and Ray. If you do any work with data you should check out this repo which will help accelerate you to build your solutions.
+[data-on-eks](https://github.com/awslabs/data-on-eks) is a tool to build, deploy and scale Data Platforms on Amazon EKS. Data on Amazon EKS(DoEKS) helps users to build AWS managed and self-managed scalable data platforms on Amazon EKS. This repo provides Infrastructure as Code(IaC) templates(e.g., Terraform, AWS CDK etc.), sample Apache Spark/ML jobs, references to AWS Data blogs, Performance Benchmark reports and Best Practices for deploying Data Solutions on Amazon EKS. It currently covers Apache Airflow, Amazon EMR, Apache Spark and Ray. If you do any work with data you should check out this repo which will help accelerate you to build your solutions.
 
 **cql-replicator**
 
-[cql-replicator](https://aws-oss.beachgeek.co.uk/24j) is a migration tool that helps to replicate data to Amazon Keyspaces. The project aims to help customers to migrate from the self-managed Cassandra to Amazon Keyspaces with zero downtime, for example, customers can replicate the Cassandra workload in low seconds to Amazon Keyspaces with no code changes on the client side. Moreover, customers can scale migration workload by spinning more CQLReplicator instances, where a CQLReplicator instance is a java process that responsible for a certain set of token ranges (partition keys/rows). If the CQLReplicator fails you can restart the migration process from where it was interrupted by rebooting a failed CQLReplicator instance.
+[cql-replicator](https://github.com/aws-samples/cql-replicator) is a migration tool that helps to replicate data to Amazon Keyspaces. The project aims to help customers to migrate from the self-managed Cassandra to Amazon Keyspaces with zero downtime, for example, customers can replicate the Cassandra workload in low seconds to Amazon Keyspaces with no code changes on the client side. Moreover, customers can scale migration workload by spinning more CQLReplicator instances, where a CQLReplicator instance is a java process that responsible for a certain set of token ranges (partition keys/rows). If the CQLReplicator fails you can restart the migration process from where it was interrupted by rebooting a failed CQLReplicator instance.
 
 **ec2-imagebuilder-ami-lifecycle**
 
-[ec2-imagebuilder-ami-lifecycle](https://aws-oss.beachgeek.co.uk/24q) Managing the lifecycle of AMI (Amazon Machine Image)s is a common requirement for many of our customers. An AMI lifecycle can include lifecycle events such as building, verifying, testing, vulnerability scanning, certifying, approving, and patching. This guide, and accompanying source code, describes an approach to managing AMI lifecycles by extending the capabilities of EC2 Image Builder and offering several additional features. So make sure you check this project out to find out more about those new features (no spoilers!)
+[ec2-imagebuilder-ami-lifecycle](https://github.com/aws-samples/ec2-imagebuilder-ami-lifecycle) Managing the lifecycle of AMI (Amazon Machine Image)s is a common requirement for many of our customers. An AMI lifecycle can include lifecycle events such as building, verifying, testing, vulnerability scanning, certifying, approving, and patching. This guide, and accompanying source code, describes an approach to managing AMI lifecycles by extending the capabilities of EC2 Image Builder and offering several additional features. So make sure you check this project out to find out more about those new features (no spoilers!)
 
 ![architecutre of ec2 imagebuilders](https://github.com/aws-samples/ec2-imagebuilder-ami-lifecycle/blob/main/docs/assets/solution_architecture.png?raw=true)
 
 **euc-toolkit**
 
-[euc-toolkit](https://aws-oss.beachgeek.co.uk/24s) Administrators can reduce self-managed VDI operational overhead by using End User Computing (EUC) managed services. The EUC Toolkit was created to provide additional features for admins managing Amazon WorkSpaces and Amazon AppStream 2.0 environments. The solution can be completely customised to meet business needs. The EUC toolkit is built on PowerShell using the Windows Presentation Framework (WPF) to display a graphical user interface (GUI). In addition, the solution has been modularised to to allow for changes and customisations.
+[euc-toolkit](https://github.com/aws-samples/euc-toolkit) Administrators can reduce self-managed VDI operational overhead by using End User Computing (EUC) managed services. The EUC Toolkit was created to provide additional features for admins managing Amazon WorkSpaces and Amazon AppStream 2.0 environments. The solution can be completely customised to meet business needs. The EUC toolkit is built on PowerShell using the Windows Presentation Framework (WPF) to display a graphical user interface (GUI). In addition, the solution has been modularised to to allow for changes and customisations.
 
 ![demo of euc toolkit](https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2022/09/22/ToolkitGUI-1024x657.png)
 
@@ -89,7 +89,7 @@ Looks like an interesting project.
 
 **water-tank-digital-twin**
 
-[water-tank-digital-twin](https://aws-oss.beachgeek.co.uk/24r) if you have been to any AWS events such as the AWS Summits or re:Invent then there is a good chance you might have seen this project. I have had some time to play with the real thing, and it is super cool. From the folks at the Prototyping team, this Water Tank demo is a fully functioning water system including a supply tank, a storage tank and pumps to exchange water between the two reservoirs. It allows the monitoring in Virtual Reality of flow rates, water volume in the reservoirs, temperature, and leaks.
+[water-tank-digital-twin](https://github.com/aws-samples/water-tank-digital-twin) if you have been to any AWS events such as the AWS Summits or re:Invent then there is a good chance you might have seen this project. I have had some time to play with the real thing, and it is super cool. From the folks at the Prototyping team, this Water Tank demo is a fully functioning water system including a supply tank, a storage tank and pumps to exchange water between the two reservoirs. It allows the monitoring in Virtual Reality of flow rates, water volume in the reservoirs, temperature, and leaks.
 
 ![water tank digital twin demo](https://github.com/aws-samples/water-tank-digital-twin/blob/main/doc/images/watertank.png?raw=true)
 
@@ -101,13 +101,13 @@ Looks like an interesting project.
 
 **amazon-cloudwatch-alarm-formatted-email**
 
-[amazon-cloudwatch-alarm-formatted-email](https://aws-oss.beachgeek.co.uk/24p) This solution enables you to customize CloudWatch alarm email alerts using Amazon Simple Email Service (Amazon SES) and AWS Lambda. You will be able to extract the relevant bits of information that you need from the alarm message and display them in an easy-to-read HTML format.
+[amazon-cloudwatch-alarm-formatted-email](https://github.com/aws-samples/amazon-cloudwatch-alarm-formatted-email) This solution enables you to customize CloudWatch alarm email alerts using Amazon Simple Email Service (Amazon SES) and AWS Lambda. You will be able to extract the relevant bits of information that you need from the alarm message and display them in an easy-to-read HTML format.
 
 ![architecture of solution](https://github.com/aws-samples/amazon-cloudwatch-alarm-formatted-email/blob/main/CloudWatchAlarmFormattedEmail-ArchitectureDiagram.png?raw=true)
 
 **aws-rtb-intelligence-kit**
 
-[aws-rtb-intelligence-kit](https://aws-oss.beachgeek.co.uk/24k) provides a sample repo that you might find interesting if you work in adtech. With one CDK application, a data scientist can deploy an end-to-end pipeline with pre-configured use cases, and can adapt the kit to their particular needs. The pre-configured use case at launch is bid filtering - predicting the likelihood of a bidder to make a bid on a given bid request. The pipeline is easily adaptable to other use cases common in the industry. By launching the kit as an open source project, users can contribute back their own adaptations and implementations in this growing industry.
+[aws-rtb-intelligence-kit](https://github.com/aws-samples/aws-rtb-intelligence-kit) provides a sample repo that you might find interesting if you work in adtech. With one CDK application, a data scientist can deploy an end-to-end pipeline with pre-configured use cases, and can adapt the kit to their particular needs. The pre-configured use case at launch is bid filtering - predicting the likelihood of a bidder to make a bid on a given bid request. The pipeline is easily adaptable to other use cases common in the industry. By launching the kit as an open source project, users can contribute back their own adaptations and implementations in this growing industry.
 
 ![architecture of adtech sample proejct](https://github.com/aws-samples/aws-rtb-intelligence-kit/blob/main/assets/traffic-filtering-server-view.png?raw=true)
 
@@ -115,64 +115,64 @@ Looks like an interesting project.
 
 **AWS CDK**
 
-AWS Community Builder Ran Isenberg is back with a new blog post, [AWS CDK - Best Practices From The Trenches](https://aws-oss.beachgeek.co.uk/24o) where he walks you through five current good practices that he suggestions you should be reviewing. In the post he covers Project Structure and stack guidelines, Constructs guidelines, CI/CD guidelines, Resiliency & Security, and General development tips.
+AWS Community Builder Ran Isenberg is back with a new blog post, [AWS CDK - Best Practices From The Trenches](https://www.ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches) where he walks you through five current good practices that he suggestions you should be reviewing. In the post he covers Project Structure and stack guidelines, Constructs guidelines, CI/CD guidelines, Resiliency & Security, and General development tips.
 
 **OpenSearch**
 
-A hat tip to Adrien Sales for sharing this post with me. Tao Liu writes [Launch Highlight: OpenSearch Playground](https://aws-oss.beachgeek.co.uk/24m) where he shares the announcement of the live demo environment of OpenSearch and OpenSearch Dashboards. OpenSearch Playground provides a central location for existing and evaluating users to explore features in OpenSearch and OpenSearch Dashboards without installing or downloading anything. You can access OpenSearch Playground at [playground.opensearch.org](https://aws-oss.beachgeek.co.uk/24n).
+A hat tip to Adrien Sales for sharing this post with me. Tao Liu writes [Launch Highlight: OpenSearch Playground](https://opensearch.org/blog/community/2022/10/opensearch-playground) where he shares the announcement of the live demo environment of OpenSearch and OpenSearch Dashboards. OpenSearch Playground provides a central location for existing and evaluating users to explore features in OpenSearch and OpenSearch Dashboards without installing or downloading anything. You can access OpenSearch Playground at [playground.opensearch.org](https://playground.opensearch.org).
 
 ![example of playground screenshot](https://opensearch.org/assets/media/blog-images/2022-09-26-opensearch-playground/observability.png)
 
 **Karpenter**
 
-AWS Community Builder Makendran G dives deep in Karpenter in his post, [A Deep Dive Into Just-in-Time Worker Nodes With Karpenter](https://aws-oss.beachgeek.co.uk/24l). In this guided walk through, he shows you how easy it is to deploy and configure the autoscaling of Kubernetes nodes using this open source project. Make sure you check this post out. [hands on]
+AWS Community Builder Makendran G dives deep in Karpenter in his post, [A Deep Dive Into Just-in-Time Worker Nodes With Karpenter](https://dev.to/aws-builders/a-deep-dive-into-just-in-time-worker-nodes-with-karpenter-2b5m). In this guided walk through, he shows you how easy it is to deploy and configure the autoscaling of Kubernetes nodes using this open source project. Make sure you check this post out. [hands on]
 
 **Apache Flink**
 
-In the post [Common streaming data enrichment patterns in Amazon Kinesis Data Analytics for Apache Flink](https://aws-oss.beachgeek.co.uk/241), Ali Alemi, Sam Mokhtari, and Subham Rakshit explore different data enrichment patterns in Kinesis Data Analytics for Apache Flink and how you can use these patterns and find the one that addresses your needs to accelerate how you can develop a stream processing application.
+In the post [Common streaming data enrichment patterns in Amazon Kinesis Data Analytics for Apache Flink](https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/), Ali Alemi, Sam Mokhtari, and Subham Rakshit explore different data enrichment patterns in Kinesis Data Analytics for Apache Flink and how you can use these patterns and find the one that addresses your needs to accelerate how you can develop a stream processing application.
 
 ![Apache Flink data enrichment patterns diagram](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/09/27/BDB-2199-image001.png)
 
 **Apache Hudi**
 
-Apache Hudi is an open-source data management framework designed for data lakes. It simplifies incremental data processing by enabling ACID transactions and record-level inserts, updates, and deletes of streaming ingestion on data lakes built on top of Amazon S3. In this post, [Ingest streaming data to Apache Hudi tables using AWS Glue and Apache Hudi DeltaStreamer](https://aws-oss.beachgeek.co.uk/24w) Vishal Pathak, Anand Prakash, and Noritaka Sekiyama collaborate to show you how to run DeltaStreamer (one of the tools that is part of Apache Hudi) to read streaming data from Amazon Managed Streaming for Apache Kafka (Amazon MSK) and ingest the data into S3 data lakes. [hands on]
+Apache Hudi is an open-source data management framework designed for data lakes. It simplifies incremental data processing by enabling ACID transactions and record-level inserts, updates, and deletes of streaming ingestion on data lakes built on top of Amazon S3. In this post, [Ingest streaming data to Apache Hudi tables using AWS Glue and Apache Hudi DeltaStreamer](https://aws.amazon.com/blogs/big-data/ingest-streaming-data-to-apache-hudi-tables-using-aws-glue-and-apache-hudi-deltastreamer/) Vishal Pathak, Anand Prakash, and Noritaka Sekiyama collaborate to show you how to run DeltaStreamer (one of the tools that is part of Apache Hudi) to read streaming data from Amazon Managed Streaming for Apache Kafka (Amazon MSK) and ingest the data into S3 data lakes. [hands on]
 
 ![apache hudi and datastreamer architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/09/26/bdb-2298-image001.png)
 
 **Porting Assistant for .NET**
 
-Porting Assistant for .NET is an open source analysis tool that reduces the manual effort and guesswork involved in porting .NET Framework applications to .NET 6, helping customers move to Linux faster. In the post, [Port legacy VB.NET applications to .NET 6.0 with Porting Assistant for .NET](https://aws-oss.beachgeek.co.uk/246) Jignesh Suthar provides a quick tutorial on how to port a well known VB.NET application to .NET 6.0 [hands on]
+Porting Assistant for .NET is an open source analysis tool that reduces the manual effort and guesswork involved in porting .NET Framework applications to .NET 6, helping customers move to Linux faster. In the post, [Port legacy VB.NET applications to .NET 6.0 with Porting Assistant for .NET](https://aws.amazon.com/blogs/modernizing-with-aws/port-legacy-vb-net-applications-to-net-6-0-with-porting-assistant-for-net/) Jignesh Suthar provides a quick tutorial on how to port a well known VB.NET application to .NET 6.0 [hands on]
 
 **Other posts you might like from the past week**
 
-* [Build an efficient development environment for AWS IoT Greengrass](https://aws-oss.beachgeek.co.uk/24y) is a great guide on how to set up a clean and efficient development environment for AWS IoT Greengrass [hands on]
-* [Building a full-stack chat application with AWS and NextJS](https://aws-oss.beachgeek.co.uk/24x) walks you through how to build scalable chat applications that contain the rich set of features [hands on]
-* [Stream data with Amazon DocumentDB and Amazon MSK using a Kafka connector](https://aws-oss.beachgeek.co.uk/249) shows you how to run and configure the MongoDB Kafka connector to move data between Amazon DocumentDB and Amazon MSK for sink and source use cases [hands on]
+* [Build an efficient development environment for AWS IoT Greengrass](https://aws.amazon.com/blogs/iot/build-an-efficient-development-environment-for-aws-iot-greengrass/) is a great guide on how to set up a clean and efficient development environment for AWS IoT Greengrass [hands on]
+* [Building a full-stack chat application with AWS and NextJS](https://aws.amazon.com/blogs/mobile/building-a-full-stack-chat-application-with-aws-and-nextjs/) walks you through how to build scalable chat applications that contain the rich set of features [hands on]
+* [Stream data with Amazon DocumentDB and Amazon MSK using a Kafka connector](https://aws.amazon.com/blogs/database/stream-data-with-amazon-documentdb-and-amazon-msk-using-a-kafka-connector/) shows you how to run and configure the MongoDB Kafka connector to move data between Amazon DocumentDB and Amazon MSK for sink and source use cases [hands on]
 
 ![stream data with documentdb and msk](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/09/21/DBBLOG-2263-image001.png)
 
-* [Build flexible and scalable distributed training architectures using Kubeflow on AWS and Amazon SageMaker](https://aws-oss.beachgeek.co.uk/244) demonstrates how Kubeflow on AWS (an AWS-specific distribution of Kubeflow) used with AWS Deep Learning Containers and Amazon Elastic File System (Amazon EFS) simplifies collaboration and provides flexibility in training deep learning models at scale on both Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon SageMaker [hands on]
+* [Build flexible and scalable distributed training architectures using Kubeflow on AWS and Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/build-flexible-and-scalable-distributed-training-architectures-using-kubeflow-on-aws-and-amazon-sagemaker/) demonstrates how Kubeflow on AWS (an AWS-specific distribution of Kubeflow) used with AWS Deep Learning Containers and Amazon Elastic File System (Amazon EFS) simplifies collaboration and provides flexibility in training deep learning models at scale on both Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon SageMaker [hands on]
 
 ![architecture of kubeflow on aws](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/09/23/Solution.png)
 
-* [Integrating SpringBoot Apps on a secured Amazon OpenSearch application](https://aws-oss.beachgeek.co.uk/245) is a hands on guide on how to create a Spring Boot RESTful Web Service, allowing end-user applications to securely interact with data stored in Amazon OpenSearch service [hands on]
-* [Getting visibility into your Amazon EKS Cross-AZ pod to pod network bytes](https://aws-oss.beachgeek.co.uk/24v) provides a cross-AZ, pod-to-pod network bytes visibility inside an Amazon EKS cluster using the AWS VPC CNI plugin [hands on]
+* [Integrating SpringBoot Apps on a secured Amazon OpenSearch application](https://medium.com/@neuw84/integrating-springboot-apps-on-a-secured-amazon-opensearch-application-33760bdaf55a) is a hands on guide on how to create a Spring Boot RESTful Web Service, allowing end-user applications to securely interact with data stored in Amazon OpenSearch service [hands on]
+* [Getting visibility into your Amazon EKS Cross-AZ pod to pod network bytes](https://aws.amazon.com/blogs/containers/getting-visibility-into-your-amazon-eks-cross-az-pod-to-pod-network-bytes/) provides a cross-AZ, pod-to-pod network bytes visibility inside an Amazon EKS cluster using the AWS VPC CNI plugin [hands on]
 
 ![architecture of solution for visibility in your container](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/10/04/kobi-1.png)
 
-* [Amazon EKS on AWS Outposts now supports local clusters](https://aws-oss.beachgeek.co.uk/247) dives deep and shows you how to run Amazon EKS on AWS Outposts [hands on]
+* [Amazon EKS on AWS Outposts now supports local clusters](https://aws.amazon.com/blogs/containers/amazon-eks-on-aws-outposts-now-supports-local-clusters/) dives deep and shows you how to run Amazon EKS on AWS Outposts [hands on]
 
 ![architecture of amazon eks on outposts](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/09/29/sheetal-1.png)
 
-* [Bootstrapping multiple AWS accounts for AWS CDK using CloudFormation StackSets](https://aws-oss.beachgeek.co.uk/248) teaches you how to bootstrap many AWS accounts in an automated and consistent manner using CloudFormation StackSets [hands on]
+* [Bootstrapping multiple AWS accounts for AWS CDK using CloudFormation StackSets](https://aws.amazon.com/blogs/mt/bootstrapping-multiple-aws-accounts-for-aws-cdk-using-cloudformation-stacksets/) teaches you how to bootstrap many AWS accounts in an automated and consistent manner using CloudFormation StackSets [hands on]
 
 ![aws cdk and cf stacksets](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/10/04/cloudops_2180_1.png)
 
-* [Migrate Oracle’s XMLDOM package functions to Amazon Aurora PostgreSQL using JSON format](https://aws-oss.beachgeek.co.uk/24a) shares a solution to migrate Oracle’s DBMS_XMLDOM package functions to Aurora PostgreSQL or Amazon RDS for PostgreSQL using the JSON data type [hands on]
+* [Migrate Oracle’s XMLDOM package functions to Amazon Aurora PostgreSQL using JSON format](https://aws.amazon.com/blogs/database/migrate-oracles-xmldom-package-functions-to-amazon-aurora-postgresql-using-json-format/) shares a solution to migrate Oracle’s DBMS_XMLDOM package functions to Aurora PostgreSQL or Amazon RDS for PostgreSQL using the JSON data type [hands on]
 
 **Case studies**
 
-In [FSI Service Spotlight: Amazon Managed Streaming for Kafka (MSK)](https://aws-oss.beachgeek.co.uk/242) reviews Amazon MSK and highlights key information that can help Financial Services Industry (FSI) customers accelerate the approval of the service within these five categories: achieving compliance, data protection, isolation of compute environments, automating audits with APIs, and operational access and security. 
+In [FSI Service Spotlight: Amazon Managed Streaming for Kafka (MSK)](https://aws.amazon.com/blogs/industries/fsi-service-spotlight-amazon-managed-streaming-for-kafka-msk/) reviews Amazon MSK and highlights key information that can help Financial Services Industry (FSI) customers accelerate the approval of the service within these five categories: achieving compliance, data protection, isolation of compute environments, automating audits with APIs, and operational access and security. 
 
 ### Quick updates
 
@@ -205,13 +205,13 @@ If you want to catch up with the latest episode (the fourth) where we speak with
 
 We have put together a playlist so that you can easily access all episodes of the Build on Open Source show. For those unfamiliar with this show, it is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs.
 
-[Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+[Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
 **Hacktoberfest**
 
-Our friends at Steampipe are participating in Hacktoberfest this year, and have put together a page on how you can earn swag for contributions. Check it out for more details, [Hacktoberfest 2022: Steampipe](https://aws-oss.beachgeek.co.uk/24t)
+Our friends at Steampipe are participating in Hacktoberfest this year, and have put together a page on how you can earn swag for contributions. Check it out for more details, [Hacktoberfest 2022: Steampipe](https://steampipe.io/blog/hacktoberfest-2022)
 
 
 **The Present and The Future of Infrastructure as Code**
@@ -219,42 +219,42 @@ Our friends at Steampipe are participating in Hacktoberfest this year, and have 
 
 This promises to be a great meet-up and essential attendance if you are into infrastructure as code. AWS Hero Anton Babenko hosts this event, sponsored by Qovery.
 
-Read more and register for this event by heading over to [their meet-up page](https://aws-oss.beachgeek.co.uk/220).
+Read more and register for this event by heading over to [their meet-up page](https://www.meetup.com/hashicorp-user-group-paris/events/288524608/).
 
 **Dev Day Workshop: Deploy, Manage and Scale Kubernetes to AWS EKS with GitLab**
 **October 11th, 11:45am PT**
 
 This four hour hands-on workshop is designed for development teams planning projects involving AWS EKS clusters. Join industry-leading experts from AWS and GitLab for a hands-on workshop that will enable you to deploy secure applications to AWS Elastic Kubernetes Service in record time. This is an in person workshop, so if you are near SJC18 2100 University Ave, East Palo Alto, CA 94303 then check this out.
 
-Find out more and [save your spot here](https://aws-oss.beachgeek.co.uk/22w).
+Find out more and [save your spot here](https://page.gitlab.com/awsworkshoppaloalto-in-person-registration-page.html).
 
 **Build on AWS with Quarkus Workshop**
 **Saturday, Oct 15th 3 - 9 pm CET**
 
 "Build on AWS with Quarkus Workshop", with Julio Faerman, is a 100% practical, full-day workshop to get YOUR web application started and running on AWS, using modern Java with Quarkus and other open-source technologies. We'll start from scratch and build a sample application, step by step, so do not worry if you're new to Java or Cloud Computing. All you'll need is a web browser, an AWS account and your desire to build.
 
-Check out more details and save your place, by heading over to the [Build on AWS with Quarkus Workshop landing page](https://aws-oss.beachgeek.co.uk/23z).
+Check out more details and save your place, by heading over to the [Build on AWS with Quarkus Workshop landing page](https://www.patreon.com/posts/72675800).
 
 **Build Flutter apps with AWS Amplify for mobile, web, and desktop platforms**
 **October 17th, 11am PT**
 
 Building cross-platform apps is becoming increasingly prominent when building products. This is due to the cost savings and operational efficiency builders get from building apps that target multiple platforms such as mobile (iOS/Android), web, and desktop (Windows, MacOS, Linux). The Amplify Libraries allow developers to connect their Flutter apps to an AWS backend for building features such as Authentication, storage, and Data interchange operations. In this session, we'll show you can quickly build a feature-rich cross-platform apps that works across mobile, web, and desktop from a single codebase that delight your customers.
 
-You can [register for this Webinar here](https://aws-oss.beachgeek.co.uk/22v).
+You can [register for this Webinar here](https://pages.awscloud.com/AWS-Online-Tech-Talks_October-2022?did=ep_card&trk=ep_card-5e424b63-56e5-4290-8977-bfbc91777eb1&sc_channel=el&webinar=2022_1002-MBL&category=MBL#:~:text=Build%20Flutter-,apps,-with%20AWS%20Amplify).
 
 **AWS Community Day**
 **Dresden, Germany 19th October**
 
 Check out this all day AWS Community driven and run event that features plenty of open source technologies. From open observability, AWS CDK, GitOps using Argo, there are is something for everyone. If you are in Dresden Germany, one to check out.
 
-Find out the full schedule and sign up by checking out the [welcome page here](https://aws-oss.beachgeek.co.uk/240).
+Find out the full schedule and sign up by checking out the [welcome page here](https://www.aws-community-day.de/).
 
 **Accelerating Adoption of AWS Open-Source Observability Services**
 **October 20th, 9am PT**
 
 Join this online tech talk to learn how you can leverage AWS managed open-source observability solutions to monitor your containerised or serverless workloads at scale. Unlock observability functionalities in Amazon Managed Service for Prometheus, Amazon Managed Grafana, and AWS Distro for OpenTelemetry and learn how our managed solutions can help you improve MTTD and reduce MTTR, saving you time and money. We’ll demo the Amazon Elastic Kubernetes Service Observability Accelerator and also share what’s new and upcoming in AWS Open-Source Observability.
 
-Find out more and [register via this link](https://aws-oss.beachgeek.co.uk/22u).
+Find out more and [register via this link](https://pages.awscloud.com/AWS-Online-Tech-Talks_October-2022?did=ep_card&trk=ep_card-5e424b63-56e5-4290-8977-bfbc91777eb1&sc_channel=el&webinar=2022_1010-MIG).
 
 **Build on AWS Open Source**
 **October 21st, 9am BST**
@@ -264,7 +264,7 @@ Join us for the fifth episode of the Build on AWS series, featuring a live round
 **KubeCon and CloudNativeCon North America**
 **October 24th-28th, Detroit USA**
 
-Check out this blog post from Nathan Taber, [AWS at KubeCon + CloudNativeCon North America 2022](https://aws-oss.beachgeek.co.uk/243) to hear more about what you can expect from AWS at this event, including Container Day. If you are going check this post out to see how you can reserve a spot to speak with one of the AWS specialists who will be at the booth.
+Check out this blog post from Nathan Taber, [AWS at KubeCon + CloudNativeCon North America 2022](https://aws.amazon.com/blogs/containers/aws-at-kubecon-cloudnativecon-north-america-2022/) to hear more about what you can expect from AWS at this event, including Container Day. If you are going check this post out to see how you can reserve a spot to speak with one of the AWS specialists who will be at the booth.
 
 
 **What's new in Amazon Aurora MySQL version 3**
@@ -272,14 +272,14 @@ Check out this blog post from Nathan Taber, [AWS at KubeCon + CloudNativeCon Nor
 
 Amazon Aurora MySQL version 3 compatible with MySQL 8.0, is the latest version of Aurora MySQL. Come learn what makes this the best version of Aurora MySQL to run your relational database workloads. You will learn about the latest innovations in Aurora MySQL version 3 and MySQL 8.0. You will also be introduced to important and breaking behavioural changes in the new version. We will discuss the new version currency adopted with Aurora MySQL version 3 and ways to upgrade from older versions. There will also be a demo of new features like Aurora Serverless v2.
 
-[Save your place on this online event by checking out the registration page here](https://aws-oss.beachgeek.co.uk/22x).
+[Save your place on this online event by checking out the registration page here](https://pages.awscloud.com/AWS-Online-Tech-Talks_October-2022?did=ep_card&trk=ep_card-27207c4d-6ba3-4edb-a48b-0bdf8a4c2c79&sc_channel=el&webinar=2022_1018-DAT).
 
 **AWS Elastic Kubernetes Service (EKS) Workshop**
 **November 10th, London 5pm**
 
 Join us for an interactive workshop on containers, Docker, Fargate and Amazon EKS, hosted by ClearScale and AWS. This live, virtual workshop includes three hours of interactive presentation and hands-on lab work. You will take part in the setup and deployment of containers using EKS. Follow along and work directly with AWS professionals and ClearScale (an AWS Premier Tier Services Partner) in this Level 200 training session.
 
-You can find out more about this event by [checking out the event page and signing up](https://aws-oss.beachgeek.co.uk/22y).
+You can find out more about this event by [checking out the event page and signing up](https://www.bigmarker.com/clearscale/AWS-Elastic-Kubernetes-Service-EKS-Workshop-November).
 
 
 **OpenSearch**
@@ -287,7 +287,7 @@ You can find out more about this event by [checking out the event page and signi
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

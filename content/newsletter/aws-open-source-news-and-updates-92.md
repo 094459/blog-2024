@@ -15,7 +15,7 @@ Before diving in, check out the agenda this week at re:Invent so you do not miss
 
 **re:Invent 2021**
 
-Spot put together your essential reading to prepare you for re:Invent this year in his post, [AWS attendee guide for Open Source at re:Invent 2021](https://aws-oss.beachgeek.co.uk/150).
+Spot put together your essential reading to prepare you for re:Invent this year in his post, [AWS attendee guide for Open Source at re:Invent 2021](https://aws.amazon.com/blogs/opensource/aws-attendee-guide-for-open-source-at-reinvent-2021/).
 
 If you are going or attending virtually, there is plenty of great open source related sessions this year. I have summarised them here for your convenience. Read Spot's post above to dive into the abstracts of these sessions if you want to know more.
 
@@ -64,7 +64,7 @@ If you are there in person, a few things you should check out:
 
 * Developer Lounge - there will be open source projects being show cased as well as open source builders on hand to speak with you.
 
-There is still time to register and attend, so find out more by checking out the [event home page.](https://aws-oss.beachgeek.co.uk/13m)
+There is still time to register and attend, so find out more by checking out the [event home page.](https://reinvent.awsevents.com/)
 
 If you attending this week, check the noticeboard to make sure you do not miss the best re:Invent party, After Dark.
 
@@ -80,39 +80,39 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **electrodb**
 
-[electrodb](https://aws-oss.beachgeek.co.uk/15f) ElectroDB is an open source DynamoDB library from Tyler Walch that aims to simplify the process of modelling, enforcing data constraints, querying across entities, and formatting complex DocumentClient parameters. Detailed documentation and plenty of examples make this a project worth checking out.
+[electrodb](https://github.com/tywalch/electrodb) ElectroDB is an open source DynamoDB library from Tyler Walch that aims to simplify the process of modelling, enforcing data constraints, querying across entities, and formatting complex DocumentClient parameters. Detailed documentation and plenty of examples make this a project worth checking out.
 
 **serverless-graalvm-demo**
 
-[serverless-graalvm-demo](https://aws-oss.beachgeek.co.uk/15g) Mark Sailes has put together a Serverless GraalVM demo, that consists of an Amazon API Gateway backed by four AWS Lambda functions and an Amazon DynamoDB table for storage.
+[serverless-graalvm-demo](https://github.com/aws-samples/serverless-graalvm-demo) Mark Sailes has put together a Serverless GraalVM demo, that consists of an Amazon API Gateway backed by four AWS Lambda functions and an Amazon DynamoDB table for storage.
 
 ![arch](https://github.com/aws-samples/serverless-graalvm-demo/blob/main/imgs/diagram.png?raw=true)
 
 **grafana-athena-recipes**
 
-If you have not subscribed to Michael Hausenblas' excellent weekly newsletter [o11y](https://aws-oss.beachgeek.co.uk/99), covering o11y topics including but not limited to OpenTelemetry, Prometheus, FluentBit, and other related CNCF projects then I recommend you check it out. Michael shares a couple of new recipes from the announcement last week that Amazon Athena and Amazon Redshift are now supported as data sources from within Grafana.
+If you have not subscribed to Michael Hausenblas' excellent weekly newsletter [o11y](https://o11y.news/), covering o11y topics including but not limited to OpenTelemetry, Prometheus, FluentBit, and other related CNCF projects then I recommend you check it out. Michael shares a couple of new recipes from the announcement last week that Amazon Athena and Amazon Redshift are now supported as data sources from within Grafana.
 
-First up we how to [setup Amazon Athena](https://aws-oss.beachgeek.co.uk/159), using a nice demo of how to query geo data and then visualise this. [Amazon Redshift as a data source](https://aws-oss.beachgeek.co.uk/15a) is now also possible, whether you want to use your own open source Grafana or a managed service version like AMG.
+First up we how to [setup Amazon Athena](https://aws-observability.github.io/aws-o11y-recipes/recipes/amg-athena-plugin/), using a nice demo of how to query geo data and then visualise this. [Amazon Redshift as a data source](https://aws-observability.github.io/aws-o11y-recipes/recipes/amg-redshift-plugin/) is now also possible, whether you want to use your own open source Grafana or a managed service version like AMG.
 
 **aws-sso-extensions-for-enterprise**
 
-[aws-sso-extensions-for-enterprise](https://aws-oss.beachgeek.co.uk/15h) this project simplifies the process to manage user access to AWS accounts with AWS SSO by extending the AWS SSO API. Instead of separately managing AWS SSO permission sets and account assignments, you can use this solution to describe permission sets with one API call per set.
+[aws-sso-extensions-for-enterprise](https://github.com/aws-samples/aws-sso-extensions-for-enterprise) this project simplifies the process to manage user access to AWS accounts with AWS SSO by extending the AWS SSO API. Instead of separately managing AWS SSO permission sets and account assignments, you can use this solution to describe permission sets with one API call per set.
 
 **mlops-template-gitlab**
 
-[mlops-template-gitlab](https://aws-oss.beachgeek.co.uk/14w) this repo contains a MLOps template in this repo can be used to setup a SageMaker Project for model training and deployment using GitLab for SVC and GitLab Pipelines for CI/CD.  Lauren Mullennex, Indrajit Ghosalkar, and Kirit Thadaka have put together this blog post, [Build MLOps workflows with Amazon SageMaker projects, GitLab, and GitLab pipelines](https://aws-oss.beachgeek.co.uk/14x), to help you walk through the code.
+[mlops-template-gitlab](https://github.com/aws-samples/sagemaker-custom-project-templates/tree/main/mlops-template-gitlab) this repo contains a MLOps template in this repo can be used to setup a SageMaker Project for model training and deployment using GitLab for SVC and GitLab Pipelines for CI/CD.  Lauren Mullennex, Indrajit Ghosalkar, and Kirit Thadaka have put together this blog post, [Build MLOps workflows with Amazon SageMaker projects, GitLab, and GitLab pipelines](https://aws.amazon.com/blogs/machine-learning/build-mlops-workflows-with-amazon-sagemaker-projects-gitlab-and-gitlab-pipelines/), to help you walk through the code.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/11/16/ML-6664-arch-diagram-image001.png)
 
 **aws-virtual-waiting-room**
 
-[aws-virtual-waiting-room](https://aws-oss.beachgeek.co.uk/15i) this new project helps you to buffer incoming user requests to your website during large bursts of traffic (perfect for the fast approaching holiday season). It creates a cloud infrastructure designed to temporarily offload incoming traffic to your website, and it provides options to customise and integrate a virtual waiting room. The waiting room acts as a holding area for visitors to your website and allows traffic to pass through when there is enough capacity. There is detailed documentation here, [Absorb large bursts of traffic to your website with the AWS Virtual Waiting Room](https://aws-oss.beachgeek.co.uk/15j). Thanks to Tyler Lynch for giving me a heads up on this one.
+[aws-virtual-waiting-room](https://github.com/aws-solutions/aws-virtual-waiting-room) this new project helps you to buffer incoming user requests to your website during large bursts of traffic (perfect for the fast approaching holiday season). It creates a cloud infrastructure designed to temporarily offload incoming traffic to your website, and it provides options to customise and integrate a virtual waiting room. The waiting room acts as a holding area for visitors to your website and allows traffic to pass through when there is enough capacity. There is detailed documentation here, [Absorb large bursts of traffic to your website with the AWS Virtual Waiting Room](https://docs.aws.amazon.com/solutions/latest/aws-virtual-waiting-room/welcome.html). Thanks to Tyler Lynch for giving me a heads up on this one.
 
 ![arch](https://d1.awsstatic.com/Solutions/Solutions%20Category%20Template%20Draft/Solution%20Architecture%20Diagrams/virtual-waiting-room-diagram.1a874d78025af5579e5444ad576487aa1b303f37.png)
 
 **amazon-ecs-ami**
 
-[amazon-ecs-ami](https://aws-oss.beachgeek.co.uk/15e) this repo contains Packer recipes for building the official ECS-optimized Amazon Linux AMIs.
+[amazon-ecs-ami](https://github.com/aws/amazon-ecs-ami) this repo contains Packer recipes for building the official ECS-optimized Amazon Linux AMIs.
 
 ### AWS and Community blog posts
 
@@ -120,45 +120,45 @@ First up we how to [setup Amazon Athena](https://aws-oss.beachgeek.co.uk/159), u
 
 Really excited about the announcement last week, of the public preview of Amazon Linux 2022 (AL2022), Amazon's new general purpose Linux for AWS, and I know a lot of folk have been working really hard on this one. Starting with AL2022, a new Amazon Linux major version will be available every two years and each version will be supported for five years. Customers will also be able to take advantage of quarterly updates via minor releases and use the latest software for their applications. Finally, AL2022 provides the ability to lock to a specific version of the Amazon Linux package repository giving customers control over how and when they absorb updates. AL2022 uses the Fedora project as its upstream to provide customers with a wide variety of the latest software, such as updated language runtimes, as part of quarterly releases. In addition, AL2022 has SELinux enabled and enforced by default.
 
-You can read the full announcement over at, [Announcing preview of Amazon Linux 2022](https://aws-oss.beachgeek.co.uk/157) and you can take a look at the GitHub repo, [amazon-linux-2022](https://aws-oss.beachgeek.co.uk/158)
+You can read the full announcement over at, [Announcing preview of Amazon Linux 2022](https://aws.amazon.com/about-aws/whats-new/2021/11/preview-amazon-linux-2022/) and you can take a look at the GitHub repo, [amazon-linux-2022](https://github.com/amazonlinux/amazon-linux-2022)
 
-Following that, we had Joanne Moore and Jim Weingarten announce the updated Amazon Linux Ready Program, which will now validate AWS Partner software products that run on Amazon Linux 2 as well as the next-generation Amazon Linux 2022. You read the details in their post, [Amazon Linux Ready Program Updated to Include the Next-Generation Amazon Linux Operating System](https://aws-oss.beachgeek.co.uk/154)
+Following that, we had Joanne Moore and Jim Weingarten announce the updated Amazon Linux Ready Program, which will now validate AWS Partner software products that run on Amazon Linux 2 as well as the next-generation Amazon Linux 2022. You read the details in their post, [Amazon Linux Ready Program Updated to Include the Next-Generation Amazon Linux Operating System](https://aws.amazon.com/blogs/apn/amazon-linux-ready-program-updated-to-include-the-next-generation-amazon-linux-operating-system/)
 
 **Redis**
 
-In the post, [Amazon ElastiCache introduces support for Redis 6.2](https://aws-oss.beachgeek.co.uk/14y), Roberto Luna Rojas, Siva Karuturi, and Sonal Brahmane talk about support for Redis 6.2 in Amazon ElastiCache and walk you through some of the key commands you should know about.
+In the post, [Amazon ElastiCache introduces support for Redis 6.2](https://aws.amazon.com/blogs/database/amazon-elasticache-introduces-support-for-redis-6-2/), Roberto Luna Rojas, Siva Karuturi, and Sonal Brahmane talk about support for Redis 6.2 in Amazon ElastiCache and walk you through some of the key commands you should know about.
 
 **Deep Java Library**
 
-Deep Java Library (DJL) is an open source Java framework for deep learning. In this guest post from Lucas Baker, Andrea Duque, and Viet Yen Nguyen of Hypefactors, they share how they integrated the predictor into one of their pipelines using, and how that change made their architecture simpler and MLOps easier. Find out more by reading their post, [Simplified MLOps with Deep Java Library](https://aws-oss.beachgeek.co.uk/14z)
+Deep Java Library (DJL) is an open source Java framework for deep learning. In this guest post from Lucas Baker, Andrea Duque, and Viet Yen Nguyen of Hypefactors, they share how they integrated the predictor into one of their pipelines using, and how that change made their architecture simpler and MLOps easier. Find out more by reading their post, [Simplified MLOps with Deep Java Library](https://aws.amazon.com/blogs/machine-learning/simplified-mlops-with-deep-java-library/)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/11/17/ML-6501-image009.jpg)
 
 **Deep Graph Library**
 
-[Deep Graph Library (DGL)](https://aws-oss.beachgeek.co.uk/152) is an open source Python package for deep learning on graphs. In this post, [How Careem is detecting identity fraud using graph-based deep learning and Amazon Neptune](https://aws-oss.beachgeek.co.uk/153) Kamran Habib, Waleed (Will) Badr, and Kevin O’Brien share how Careem detects identity fraud using graph-based deep learning and Amazon Neptune.
+[Deep Graph Library (DGL)](https://github.com/dmlc/dgl) is an open source Python package for deep learning on graphs. In this post, [How Careem is detecting identity fraud using graph-based deep learning and Amazon Neptune](https://aws.amazon.com/blogs/machine-learning/how-careem-is-detecting-identity-fraud-using-graph-based-deep-learning-and-amazon-neptune/) Kamran Habib, Waleed (Will) Badr, and Kevin O’Brien share how Careem detects identity fraud using graph-based deep learning and Amazon Neptune.
 
 ![graph](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/11/12/ML-5154-image003-600.png)
 
 **Moodle**
 
-If you are a user of Moodle, then this post [How to scale and optimize Moodle LMS on AWS](https://aws-oss.beachgeek.co.uk/14t) from Yusuf Mayet will show you how to scale and optimise Moodle making sure the new environment caters to thousands of students and is still a cost effective solution. [hands on]
+If you are a user of Moodle, then this post [How to scale and optimize Moodle LMS on AWS](https://aws.amazon.com/blogs/publicsector/how-to-scale-and-optimize-moodle-lms-on-aws/) from Yusuf Mayet will show you how to scale and optimise Moodle making sure the new environment caters to thousands of students and is still a cost effective solution. [hands on]
 
 **GitHub Actions**
 
-Whilst not specifically open source, many open source projects have chosen to live in GitHub and often use GitHub Actions as part of their software development tooling. If you are such a project, and you are looking for a nice, easy way to deploy your project into a container runtime on AWS, then check out this post, [Deploy applications in AWS App Runner with GitHub Actions](https://aws-oss.beachgeek.co.uk/14u) from Nathan Harris, Dmitry Gulin, and Hari Ohm Prasath. This post covers how you can use GitHub as a source code repository can use GitHub Actions to deploy your containerised applications on App Runner. [hands on]
+Whilst not specifically open source, many open source projects have chosen to live in GitHub and often use GitHub Actions as part of their software development tooling. If you are such a project, and you are looking for a nice, easy way to deploy your project into a container runtime on AWS, then check out this post, [Deploy applications in AWS App Runner with GitHub Actions](https://aws.amazon.com/blogs/containers/deploy-applications-in-aws-app-runner-with-github-actions/) from Nathan Harris, Dmitry Gulin, and Hari Ohm Prasath. This post covers how you can use GitHub as a source code repository can use GitHub Actions to deploy your containerised applications on App Runner. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/11/22/githubactions5.jpg)
 
 **AWS Distro for OpenTelemetry**
 
-In the post, [Simplifying Amazon ECS monitoring set up with AWS Distro for OpenTelemetry](https://aws-oss.beachgeek.co.uk/151) Rodrigue Koffi provides a hands on guide on how to set up AWS Distro for OpenTelemetry for Amazon Elastic Container Service (Amazon ECS) with the 1-click console integration. I have this on my todo list, so check it out. [hands on]
+In the post, [Simplifying Amazon ECS monitoring set up with AWS Distro for OpenTelemetry](https://aws.amazon.com/blogs/opensource/simplifying-amazon-ecs-monitoring-set-up-with-aws-distro-for-opentelemetry/) Rodrigue Koffi provides a hands on guide on how to set up AWS Distro for OpenTelemetry for Amazon Elastic Container Service (Amazon ECS) with the 1-click console integration. I have this on my todo list, so check it out. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/11/22/koffir_simplify_ecs_monitoring_opentelemetry_f1-1.png)
 
 **Magma**
 
-[Magma](https://aws-oss.beachgeek.co.uk/15c) is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution. In the post, [Deploying Magma on AWS Cloud: In Region, On Premises, and at Edge](https://aws-oss.beachgeek.co.uk/15d), Rabi Abdel, Jim Huang, and Arun Thulasi provide instructions for deploying and configuring the Magma core network on the AWS Cloud through Magma Cloudstrapper. [hands on]
+[Magma](https://github.com/magma/magma) is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution. In the post, [Deploying Magma on AWS Cloud: In Region, On Premises, and at Edge](https://aws.amazon.com/blogs/industries/deploying-magma-on-aws-cloud-in-region-on-premises-and-at-edge/), Rabi Abdel, Jim Huang, and Arun Thulasi provide instructions for deploying and configuring the Magma core network on the AWS Cloud through Magma Cloudstrapper. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/c5b76da3e608d34edb07244cd9b875ee86906328/2021/11/23/Figure-4.-Magma-AGW-in-AWS-Edge-Outposts-1.png)
 
@@ -168,7 +168,7 @@ There have been a few very nice pre:Invent announcements from the AWS Amplify te
 
 The AWS Amplify CLI is a command line toolchain that helps frontend developers create app backends in the cloud. Within this tool, Transformers enable developers to configure their backend data model using the GraphQL Schema Definition Language, and Amplify CLI automatically transforms the schema into a fully functioning GraphQL API with its underlying cloud infrastructure.
 
-In the post, [AWS Amplify announces the new GraphQL Transformer v2. More feature-rich, flexible, and extensible](https://aws-oss.beachgeek.co.uk/14v) Rene Brandel reviews five of the new GraphQL features that are available with the GraphQL Transformer v2.
+In the post, [AWS Amplify announces the new GraphQL Transformer v2. More feature-rich, flexible, and extensible](https://aws.amazon.com/blogs/mobile/aws-amplify-announces-the-new-graphql-transformer-v2-more-feature-rich-flexible-and-extensible/) Rene Brandel reviews five of the new GraphQL features that are available with the GraphQL Transformer v2.
 
 ![explain](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2021/11/23/key-migration-1024x591.png)
 
@@ -178,7 +178,7 @@ In the post, [AWS Amplify announces the new GraphQL Transformer v2. More feature
 
 Amazon Managed Grafana announces new data source plugins for Amazon Athena and Amazon Redshift, enabling customers to query, visualise, and alert on their Athena and Redshift data from Amazon Managed Grafana workspaces. Amazon Managed Grafana now also supports CloudFlare, Zabbix, and Splunk Infrastructure Monitoring data sources as well as the Geomap panel visualisation and open source Grafana version 8.2.
 
-Read the full announcement in, [Amazon Managed Grafana adds support for Amazon Athena and Amazon Redshift data sources and Geomap visualization](https://aws-oss.beachgeek.co.uk/156)
+Read the full announcement in, [Amazon Managed Grafana adds support for Amazon Athena and Amazon Redshift data sources and Geomap visualization](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-grafana-athena-redshift-data-sources-geomap/)
 
 **PostgreSQL**
 
@@ -186,7 +186,7 @@ Amazon Relational Database Service (RDS) Proxy now supports RDS for PostgreSQL a
 
 **Terraform**
 
-AWS Proton now supports the definition of infrastructure in HashiCorp Configuration Language (HCL) and the provisioning of infrastructure using Terraform Open Source through a git-based workflow. Platform teams define AWS Proton templates using Terraform modules, and AWS Proton leverages the customer-managed Terraform automation to provision or update the infrastructure. Customers can use Terraform as their infrastructure definition and provisioning tool, and AWS Proton will ensure that modules are used consistently and kept up to date. Read more in the announcement, [AWS Proton now supports Terraform Open Source for infrastructure provisioning](https://aws-oss.beachgeek.co.uk/155) and the post from my colleague Marcia Villalba, [New – AWS Proton Supports Terraform and Git Repositories to Manage Templates](https://aws-oss.beachgeek.co.uk/15b)
+AWS Proton now supports the definition of infrastructure in HashiCorp Configuration Language (HCL) and the provisioning of infrastructure using Terraform Open Source through a git-based workflow. Platform teams define AWS Proton templates using Terraform modules, and AWS Proton leverages the customer-managed Terraform automation to provision or update the infrastructure. Customers can use Terraform as their infrastructure definition and provisioning tool, and AWS Proton will ensure that modules are used consistently and kept up to date. Read more in the announcement, [AWS Proton now supports Terraform Open Source for infrastructure provisioning](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-proton-terraform-infrastructure/) and the post from my colleague Marcia Villalba, [New – AWS Proton Supports Terraform and Git Repositories to Manage Templates](https://aws.amazon.com/blogs/aws/new-aws-proton-supports-terraform-and-git-repositories-to-manage-templates/)
 
 **Amazon Redshift**
 
@@ -207,7 +207,7 @@ Adam Keller and Justin Garrison from The Containers from the Couch team ran a pr
 **re:Invent 2021 | Virtual and Las Vegas**
 **November 28th to Friday 3rd December**
 
-See details above of the sessions. There is still time to register and attend, so find out more by checking out the [event home page.](https://aws-oss.beachgeek.co.uk/13m)
+See details above of the sessions. There is still time to register and attend, so find out more by checking out the [event home page.](https://reinvent.awsevents.com/)
 
 ### Stay in touch with open source at AWS
 

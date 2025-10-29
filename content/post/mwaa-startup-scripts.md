@@ -4,11 +4,11 @@ date: '2023-04-17'
 tags: [ Apache Airflow, mwaa, mwaa-local-runner ]
 ---
 
-Managed Workflows for Apache Airflow (MWAA) recently launched a new feature that a lot of folk had been asking for, which was the ability to add additional libraries, binaries, or environment variables when launching Airflow workers. If you missed the announcement, [Amazon MWAA now supports Shell Launch Scripts](https://aws-oss.beachgeek.co.uk/2pm), this new capability allows you to easily do this by creating a script and then configuring your MWAA environments to use that script during the start-up phase. The MWAA documentation has been updated to show you how you can use this, and you can read about that in the page, [Using a startup script with Amazon MWAA](https://aws-oss.beachgeek.co.uk/2pn). This is essential reference material for understanding more about what you can do with this new feature.
+Managed Workflows for Apache Airflow (MWAA) recently launched a new feature that a lot of folk had been asking for, which was the ability to add additional libraries, binaries, or environment variables when launching Airflow workers. If you missed the announcement, [Amazon MWAA now supports Shell Launch Scripts](https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-mwaa-shell-launch-scripts/), this new capability allows you to easily do this by creating a script and then configuring your MWAA environments to use that script during the start-up phase. The MWAA documentation has been updated to show you how you can use this, and you can read about that in the page, [Using a startup script with Amazon MWAA](https://docs.aws.amazon.com/mwaa/latest/userguide/using-startup-script.html). This is essential reference material for understanding more about what you can do with this new feature.
 
 In this post, I wanted to share how you can use this and also how you can use mwaa-local-runner to validate/test your startup scripts. The latest versions of mwaa-local-runner (2.4.3 and 2.5.1) have been updated to support this.
 
-I assume that you have already got [mwaa-local-runner](https://aws-oss.beachgeek.co.uk/gd) up and running, so if you have not, it is the perfect time to do that now ;-).
+I assume that you have already got [mwaa-local-runner](https://github.com/aws/aws-mwaa-local-runner) up and running, so if you have not, it is the perfect time to do that now ;-).
 
 **The need for startup scripts**
 
@@ -264,6 +264,6 @@ and for the Java task
 
 **Conclusion**
 
-This short post reminded you of the new feature of MWAA that allows you to tailor the tools, libraries, and environment configuration details you need for your Airflow workers. You can use mwaa-local-runner as a great development tool to help you test your startup scripts, and this post showed you how you can set this up by using a simple example.  Make sure you check out the MWAA documentation. [Using a startup script with Amazon MWAA](https://aws-oss.beachgeek.co.uk/2pn), to dive deeper into this capability. This is essential reference material for understanding more about what you can do with this new feature.
+This short post reminded you of the new feature of MWAA that allows you to tailor the tools, libraries, and environment configuration details you need for your Airflow workers. You can use mwaa-local-runner as a great development tool to help you test your startup scripts, and this post showed you how you can set this up by using a simple example.  Make sure you check out the MWAA documentation. [Using a startup script with Amazon MWAA](https://docs.aws.amazon.com/mwaa/latest/userguide/using-startup-script.html), to dive deeper into this capability. This is essential reference material for understanding more about what you can do with this new feature.
 
 If you have found this blog post helpful, please give me some feedback by completing [this very short survey here](https://pulse.buildon.aws/survey/D4L9Y3II)

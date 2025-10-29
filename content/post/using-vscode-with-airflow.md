@@ -173,7 +173,7 @@ Now that we have our local development environment up and running, we have a fol
 
 **First plugin: Airflow**
 
-The [Airflow Extension for Visual Studio Code](https://aws-oss.beachgeek.co.uk/2jf) from Necati Arslan, is a VSCode extension for Apache Airflow 2.0 and up. You can trigger your DAGs, pause/unpause DAGs, view execution logs, explore source code and do much more.
+The [Airflow Extension for Visual Studio Code](https://github.com/necatiarslan/airflow-vscode-extension) from Necati Arslan, is a VSCode extension for Apache Airflow 2.0 and up. You can trigger your DAGs, pause/unpause DAGs, view execution logs, explore source code and do much more.
 
 To find this, just search for Airflow in the VSCode extensions screen. This will bring back a number of different extensions, but the one you want will probably be the first that appears (it should say Necati ARSLAN). When you click on this, more information will be revealed on the right hand side. There should also be an INSTALL button which will help you install this plugin locally.
 
@@ -214,7 +214,7 @@ From the VSCode window, for each DAG you can view the last log, you can trigger,
 
 **Second plugin: Airflow Templates**
 
-The [Airflow Templates](https://aws-oss.beachgeek.co.uk/2jg) plugin provides code completion for all of the custom Airflow Providers operators.
+The [Airflow Templates](https://github.com/astro-stream/airflow-templates) plugin provides code completion for all of the custom Airflow Providers operators.
 
 ![Demo of Airflow Templates in action](https://raw.githubusercontent.com/astro-stream/airflow-templates/main/assets/airflow-templates.gif)
 

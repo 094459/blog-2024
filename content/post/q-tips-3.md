@@ -82,7 +82,7 @@ Once you have it enabled and the indexes built, you can now start using it withi
 
 It is as simple as that!
 
-If you want to dive deeper, check out Will Matos' blog, [AWS announces workspace context awareness for Amazon Q Developer chat](https://aws-oss.beachgeek.co.uk/40j).
+If you want to dive deeper, check out Will Matos' blog, [AWS announces workspace context awareness for Amazon Q Developer chat](https://aws.amazon.com/blogs/devops/aws-announces-workspace-context-awareness-for-amazon-q-developer-chat/).
 
 
 **Things to know**
@@ -119,7 +119,7 @@ That's it for this tip, but keep posted for a new tip that I will publish tomorr
 
 **Try Amazon Q Developer today, and claim your free Builder ID**
 
-You can try Amazon Q Developer for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=34e0ecce-8101-42c4-840a-fe6170420294&sc_channel=el). You can also check out [my other posts](https://community.aws/@ricsueaws) on community.aws, as I have been sharing a lot of tips and use cases of how I am using Amazon Q Developer. You can also keep up to date with all the new features and improvements of Amazon Q Developer by checking out the [changelog](https://aws-oss.beachgeek.co.uk/40i).
+You can try Amazon Q Developer for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=34e0ecce-8101-42c4-840a-fe6170420294&sc_channel=el). You can also check out [my other posts](https://community.aws/@ricsueaws) on community.aws, as I have been sharing a lot of tips and use cases of how I am using Amazon Q Developer. You can also keep up to date with all the new features and improvements of Amazon Q Developer by checking out the [changelog](https://aws.amazon.com/developer/generative-ai/amazon-q/change-log/).
 
 
 ---

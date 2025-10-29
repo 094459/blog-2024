@@ -10,7 +10,7 @@ tags : [ Internet of Things, aws open source, Pimoroni, Badger2040]
 
 As someone who attends events on a regular basis, I have spent a fair bit of time over the years looking at interesting ways to engage with attendees. One of the problems I was looking to solve was how do I share useful information with attendees without having to interrupt the conversations (something that typically happens as I try and find those links on my mobile phone). 
 
-I am always looking at interesting new devices that might help, and recently I was drawn to an announcement from Pimoroni about a device called the [Badger2040](https://aws-oss.beachgeek.co.uk/1o1), a low cost e-Ink display that was combined with a [Raspberry Pi Pico controller](https://aws-oss.beachgeek.co.uk/1o2).
+I am always looking at interesting new devices that might help, and recently I was drawn to an announcement from Pimoroni about a device called the [Badger2040](https://learn.pimoroni.com/article/getting-started-with-badger-2040), a low cost e-Ink display that was combined with a [Raspberry Pi Pico controller](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html).
 
 > *If you work or even dabble in the Raspberry Pi/ Maker space, you will know who this is, if not then head over to their site and prepare to be inspired and excited in equal measure*
 
@@ -20,7 +20,7 @@ I actually bought one of these a few weeks ago, and put together over a couple o
 
 **Introducing the Badger2040**
 
-As this post, [Getting Started with Badger 2040](https://aws-oss.beachgeek.co.uk/1o1) on the Pimoroni site says, the Badger2040 is a:
+As this post, [Getting Started with Badger 2040](https://learn.pimoroni.com/article/getting-started-with-badger-2040) on the Pimoroni site says, the Badger2040 is a:
 
 > "a low cost, RP2040-powered eInk/ePaper/EPD programmable badge"
 > 
@@ -28,12 +28,12 @@ As this post, [Getting Started with Badger 2040](https://aws-oss.beachgeek.co.uk
 To get started with this, you are going to need the following:
 
 * a Badger2040 kit - this comes with a battery pack, velcro, a lanyard and a USB-C/USB connection cable
-* [Thonny](https://aws-oss.beachgeek.co.uk/1o4) - an open source Python IDE that allows you to connect and upload/download code and assets to the Badger2040. This works on Mac, Windows and Linux.
-* access to the [GitHub repository that contains useful example code](https://aws-oss.beachgeek.co.uk/1o3)
+* [Thonny](https://thonny.org/) - an open source Python IDE that allows you to connect and upload/download code and assets to the Badger2040. This works on Mac, Windows and Linux.
+* access to the [GitHub repository that contains useful example code](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/examples/badger2040)
 
 **Installing Thonny**
 
-I had never heard of [Thonny](https://aws-oss.beachgeek.co.uk/1o4) before, but it is a very simple code editor that is optimised for this kind of use case. When you add files, it asks you whether you want to work on that file locally, or directly on the remote (i.e. Badger2040) device. Thonny is the way to effectively deploy your code to the device.
+I had never heard of [Thonny](https://thonny.org/) before, but it is a very simple code editor that is optimised for this kind of use case. When you add files, it asks you whether you want to work on that file locally, or directly on the remote (i.e. Badger2040) device. Thonny is the way to effectively deploy your code to the device.
 
 It was simple enough to install on my Mac, and just installed using the defaults. To get ready for development, you need to first configure the runtime. To do this, from the TOOLS > OPTIONS, select the INTERRUPTER tab and from the pull down, select MICROPYTHON (RASPBERRY PI PICO).
 

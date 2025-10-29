@@ -21,7 +21,7 @@ Finally, with re:Invent upon us, make sure you check the events section for ever
 
 **AWS Copilot - have your say**
 
-The AWS Copilot project has created a new design proposal for overriding Copilot abstracted resources using the AWS Cloud Development Kit (CDK). The goal is to provide a "break the glass" mechanism to access and configure functionality that is not surfaced by Copilot manifests by leveraging the expressive power of a programming language. Have your say by heading over to [Extending Copilot with the CDK](https://aws-oss.beachgeek.co.uk/2b9) and joining the discussion.
+The AWS Copilot project has created a new design proposal for overriding Copilot abstracted resources using the AWS Cloud Development Kit (CDK). The goal is to provide a "break the glass" mechanism to access and configure functionality that is not surfaced by Copilot manifests by leveraging the expressive power of a programming language. Have your say by heading over to [Extending Copilot with the CDK](https://github.com/aws/copilot-cli/issues/4208) and joining the discussion.
 
 **Feedback**
 
@@ -41,43 +41,43 @@ So thank you to the following open source heroes: John Preston, Andreas Wittig, 
 
 **aws-sam-cli-pipeline-init-templates**
 
-[aws-sam-cli-pipeline-init-templates](https://aws-oss.beachgeek.co.uk/2av) This repository contains the pipeline init templates used in the AWS SAM CLI for sam pipeline commands. Customers can now incrementally add services to their repository and automate the creation and execution of pipelines for each new #serverless service. The template creates the necessary supporting infrastructure to keep track of commit history and changes that occur in your directories, so only the modified service pipeline is triggered. Get started by simply choosing option 2 when you initialise and bootstrap and new pipeline.
+[aws-sam-cli-pipeline-init-templates](https://github.com/aws/aws-sam-cli-pipeline-init-templates) This repository contains the pipeline init templates used in the AWS SAM CLI for sam pipeline commands. Customers can now incrementally add services to their repository and automate the creation and execution of pipelines for each new #serverless service. The template creates the necessary supporting infrastructure to keep track of commit history and changes that occur in your directories, so only the modified service pipeline is triggered. Get started by simply choosing option 2 when you initialise and bootstrap and new pipeline.
 
 **aws-security-assessment-solution**
 
-[aws-security-assessment-solution](https://aws-oss.beachgeek.co.uk/2ak) Cybersecurity remains a very important topic and point of concern for many CIOs, CISOs, and their customers. To meet these important concerns, AWS has developed a primary set of services customers should use to aid in protecting their accounts. Amazon GuardDuty, AWS Security Hub, AWS Config, and AWS Well-Architected reviews help customers maintain a strong security posture over their AWS accounts. As more organizations deploy to the cloud, especially if they are doing so quickly, and they have not yet implemented the recommended AWS Services, there may be a need to conduct a rapid security assessment of the cloud environment. With that in mind, we have worked to develop an inexpensive, easy to deploy, secure, and fast solution to provide our customers two (2) security assessment reports. These security assessments are from the open source projects “Prowler” and “ScoutSuite.” Each of these projects conduct an assessment based on AWS best practices and can help quickly identify any potential risk areas in a customer’s deployed environment.
+[aws-security-assessment-solution](https://github.com/awslabs/aws-security-assessment-solution) Cybersecurity remains a very important topic and point of concern for many CIOs, CISOs, and their customers. To meet these important concerns, AWS has developed a primary set of services customers should use to aid in protecting their accounts. Amazon GuardDuty, AWS Security Hub, AWS Config, and AWS Well-Architected reviews help customers maintain a strong security posture over their AWS accounts. As more organizations deploy to the cloud, especially if they are doing so quickly, and they have not yet implemented the recommended AWS Services, there may be a need to conduct a rapid security assessment of the cloud environment. With that in mind, we have worked to develop an inexpensive, easy to deploy, secure, and fast solution to provide our customers two (2) security assessment reports. These security assessments are from the open source projects “Prowler” and “ScoutSuite.” Each of these projects conduct an assessment based on AWS best practices and can help quickly identify any potential risk areas in a customer’s deployed environment.
 
 **aws-backup-amplify-appsync**
 
-[aws-backup-amplify-appsync](https://aws-oss.beachgeek.co.uk/2ax) AWS Amplify makes it easy to build full stack front end UI apps with backends and authentication. AWS AppSync adds serverless GraphQL and DynamoDB tables to your application with no code. This project guides you on how to include the infrastructure as code to add AWS Backup to an Amplify and AppSync application using to manage snapshots for your applications DynamoDB tables.
+[aws-backup-amplify-appsync](https://github.com/aws-samples/aws-backup-amplify-appsync) AWS Amplify makes it easy to build full stack front end UI apps with backends and authentication. AWS AppSync adds serverless GraphQL and DynamoDB tables to your application with no code. This project guides you on how to include the infrastructure as code to add AWS Backup to an Amplify and AppSync application using to manage snapshots for your applications DynamoDB tables.
 
 ![architecture of aws backup for amplify appsync](https://github.com/aws-samples/aws-backup-amplify-appsync/blob/main/public/AwsBackupAmplifyAppsync.png?raw=true)
 
 **monitor-serverless-datalake**
 
-[monitor-serverless-datalake](https://aws-oss.beachgeek.co.uk/2ay) This repository serves as a launch pad for monitoring serverless data lakes in AWS. The objective is to provide a plug and play mechanism for monitoring enterprise scale data lakes. Data lakes starts small and rapidly explodes with adoption. With growing adoption, the data pipelines also grows in number and complexity. It is pivotal to ensure that the data pipeline executes as per SLA and failures be mitigated. The solution provides mechanisms for the following, 1. Capture state changes across all tasks in the data lake 2. Quickly notify operations of failures as they happen 3. Measure service reliability across data lake – to identify opportunities for performance optimisation
+[monitor-serverless-datalake](https://github.com/aws-samples/monitor-serverless-datalake) This repository serves as a launch pad for monitoring serverless data lakes in AWS. The objective is to provide a plug and play mechanism for monitoring enterprise scale data lakes. Data lakes starts small and rapidly explodes with adoption. With growing adoption, the data pipelines also grows in number and complexity. It is pivotal to ensure that the data pipeline executes as per SLA and failures be mitigated. The solution provides mechanisms for the following, 1. Capture state changes across all tasks in the data lake 2. Quickly notify operations of failures as they happen 3. Measure service reliability across data lake – to identify opportunities for performance optimisation
 
 ![architecture of monitor serverless datalake](https://github.com/aws-samples/monitor-serverless-datalake/blob/main/src/assets/architecture.png?raw=true)
 
 **message-bus-bridge**
 
-[message-bus-bridge](https://aws-oss.beachgeek.co.uk/2az) is a relatively simple service that transfers messages between two different message buses. It was built for the purpose of providing users of WebSocket API services to have a quick and easy way to provide connectivity to their existing MQ bus systems without having to re-code to a WebSocket API. Effectively, it will listen to any message coming from the MQ bus and send it over to the WebSocket API, and vice-versa. While the service in this incarnation implements MQ to WebSockets, the code is modular so that the respective bus handling code can be swapped out for another bus, such as JMS or Kafka.
+[message-bus-bridge](https://github.com/aws-samples/message-bus-bridge) is a relatively simple service that transfers messages between two different message buses. It was built for the purpose of providing users of WebSocket API services to have a quick and easy way to provide connectivity to their existing MQ bus systems without having to re-code to a WebSocket API. Effectively, it will listen to any message coming from the MQ bus and send it over to the WebSocket API, and vice-versa. While the service in this incarnation implements MQ to WebSockets, the code is modular so that the respective bus handling code can be swapped out for another bus, such as JMS or Kafka.
 
 **aws-vpc-flowlogs-enricher**
 
-[aws-vpc-flowlogs-enricher](https://aws-oss.beachgeek.co.uk/2aw) This repo contains a sample lambda function code that can be used in Kinesis Firehose stream to enrich VPC Flow Log record with additional metadata like resource tags for source and destination IP addresses and, VPC ID, Subnet ID, Interface ID, AZ for destination IP addresses. This data then can be used to identify flows for specific tags, or Source AZ to destination AZ traffic and many more scenarios.
+[aws-vpc-flowlogs-enricher](https://github.com/aws-samples/aws-vpc-flowlogs-enricher) This repo contains a sample lambda function code that can be used in Kinesis Firehose stream to enrich VPC Flow Log record with additional metadata like resource tags for source and destination IP addresses and, VPC ID, Subnet ID, Interface ID, AZ for destination IP addresses. This data then can be used to identify flows for specific tags, or Source AZ to destination AZ traffic and many more scenarios.
 
 ![architecture of vpc flow log enricher](https://github.com/aws-samples/aws-vpc-flowlogs-enricher/blob/main/images/vpcfl_enricher_architecture.png?raw=true)
 
 **ec2-image-builder-send-approval-notifications-before-sharing-ami**
 
-[ec2-image-builder-send-approval-notifications-before-sharing-ami](https://aws-oss.beachgeek.co.uk/2b0) You may be required to manually validate the Amazon Machine Image (AMI) built from an Amazon Elastic Compute Cloud (Amazon EC2) Image Builder pipeline before sharing this AMI to other AWS accounts or to an AWS organization. Currently, Image Builder provides an end-to-end pipeline that automatically shares AMIs after they’ve been built. This repo provides code and documentation to help you build a solution to enable approval notifications before AMIs are shared with other AWS accounts. 
+[ec2-image-builder-send-approval-notifications-before-sharing-ami](https://github.com/aws-samples/ec2-image-builder-send-approval-notifications-before-sharing-ami) You may be required to manually validate the Amazon Machine Image (AMI) built from an Amazon Elastic Compute Cloud (Amazon EC2) Image Builder pipeline before sharing this AMI to other AWS accounts or to an AWS organization. Currently, Image Builder provides an end-to-end pipeline that automatically shares AMIs after they’ve been built. This repo provides code and documentation to help you build a solution to enable approval notifications before AMIs are shared with other AWS accounts. 
 
 ![architecture of ec2-imagebuilder solution](https://github.com/aws-samples/ec2-image-builder-send-approval-notifications-before-sharing-ami/blob/main/images/architecture-diagram.png?raw=true)
 
 **deploy-nth-to-eks**
 
-[deploy-nth-to-eks](https://aws-oss.beachgeek.co.uk/2b1) AWS Node Termination Handler (nth) ensures that the Kubernetes control plane responds appropriately to events that can cause your EC2 instance to become unavailable, such as EC2 maintenance events, EC2 Spot interruptions, ASG Scale-In, ASG AZ Rebalance, and EC2 Instance Termination via the API or Console. If not handled, your application code may not stop gracefully, take longer to recover full availability, or accidentally schedule work to nodes that are going down.The aws-node-termination-handler (NTH) can operate in two different modes: Instance Metadata Service (IMDS) or the Queue Processor. The aws-node-termination-handler Instance Metadata Service Monitor will run a small pod on each host to perform monitoring of IMDS paths like /spot or /events and react accordingly to drain and/or cordon the corresponding node. The aws-node-termination-handler Queue Processor will monitor an SQS queue of events from Amazon EventBridge for ASG lifecycle events, EC2 status change events, Spot Interruption Termination Notice events, and Spot Rebalance Recommendation events. When NTH detects an instance is going down, we use the Kubernetes API to cordon the node to ensure no new work is scheduled there, then drain it, removing any existing work. The termination handler Queue Processor requires AWS IAM permissions to monitor and manage the SQS queue and to query the EC2 API. This pattern will automate the deployment of Node Termination Handler using Queue Processor through CICD Pipeline.
+[deploy-nth-to-eks](https://github.com/aws-samples/deploy-nth-to-eks) AWS Node Termination Handler (nth) ensures that the Kubernetes control plane responds appropriately to events that can cause your EC2 instance to become unavailable, such as EC2 maintenance events, EC2 Spot interruptions, ASG Scale-In, ASG AZ Rebalance, and EC2 Instance Termination via the API or Console. If not handled, your application code may not stop gracefully, take longer to recover full availability, or accidentally schedule work to nodes that are going down.The aws-node-termination-handler (NTH) can operate in two different modes: Instance Metadata Service (IMDS) or the Queue Processor. The aws-node-termination-handler Instance Metadata Service Monitor will run a small pod on each host to perform monitoring of IMDS paths like /spot or /events and react accordingly to drain and/or cordon the corresponding node. The aws-node-termination-handler Queue Processor will monitor an SQS queue of events from Amazon EventBridge for ASG lifecycle events, EC2 status change events, Spot Interruption Termination Notice events, and Spot Rebalance Recommendation events. When NTH detects an instance is going down, we use the Kubernetes API to cordon the node to ensure no new work is scheduled there, then drain it, removing any existing work. The termination handler Queue Processor requires AWS IAM permissions to monitor and manage the SQS queue and to query the EC2 API. This pattern will automate the deployment of Node Termination Handler using Queue Processor through CICD Pipeline.
 
 ![architecture of nth](https://github.com/aws-samples/deploy-nth-to-eks/blob/main/images/NTH.jpg?raw=true)
 
@@ -85,25 +85,25 @@ So thank you to the following open source heroes: John Preston, Andreas Wittig, 
 
 **custom-provider-with-terraform-plugin-framework**
 
-[custom-provider-with-terraform-plugin-framework](https://aws-oss.beachgeek.co.uk/2b5) This repository contains a complete implementation of a custom provider built using HashiCorp's latest SDK called Terraform plugin framework. It is used to teach, educate, and show the internals of a provider built with the latest SDK from HashiCorp. Even if you are not looking to learn how to build custom providers, you may dial your troubleshooting skills to an expert level if you learn how one works behind the scenes. Plus, this provider is lots of fun to play with. The provider is called buildonaws and it allows you to maintain characters from comic books such as heros, super-heros, and villains.
+[custom-provider-with-terraform-plugin-framework](https://github.com/build-on-aws/custom-provider-with-terraform-plugin-framework) This repository contains a complete implementation of a custom provider built using HashiCorp's latest SDK called Terraform plugin framework. It is used to teach, educate, and show the internals of a provider built with the latest SDK from HashiCorp. Even if you are not looking to learn how to build custom providers, you may dial your troubleshooting skills to an expert level if you learn how one works behind the scenes. Plus, this provider is lots of fun to play with. The provider is called buildonaws and it allows you to maintain characters from comic books such as heros, super-heros, and villains.
 
 **mastodon-on-aws**
 
-[mastodon-on-aws](https://aws-oss.beachgeek.co.uk/2b7) Andreas Wittig and Michael Wittig share details of how you can host your own Mastodon instance on AWS. They have also put together this blog post,[ Mastodon on AWS: Host your own instance](https://aws-oss.beachgeek.co.uk/2b8) which you can read for more info.
+[mastodon-on-aws](https://github.com/widdix/mastodon-on-aws/) Andreas Wittig and Michael Wittig share details of how you can host your own Mastodon instance on AWS. They have also put together this blog post,[ Mastodon on AWS: Host your own instance](https://cloudonaut.io/mastodon-on-aws/) which you can read for more info.
 
 ![architecture of cloudonaut mastadon instance](https://github.com/widdix/mastodon-on-aws/blob/main/architecture.png?raw=true)
 
 **mastodon-aws-architecture**
 
-[mastodon-aws-architecture](https://aws-oss.beachgeek.co.uk/2b6) this repo provides details on how snapp.social Mastadon instance is being run on AWS, and as more and more people explore whether this options is right for them, take a look and see how they have architected and deployed this on AWS.
+[mastodon-aws-architecture](https://github.com/alsutton/mastodon-aws-architecture/blob/main/README.md) this repo provides details on how snapp.social Mastadon instance is being run on AWS, and as more and more people explore whether this options is right for them, take a look and see how they have architected and deployed this on AWS.
 
 **amazon-ecs-fargate-cdk-v2-cicd**
 
-[amazon-ecs-fargate-cdk-v2-cicd](https://aws-oss.beachgeek.co.uk/2b2) This project builds a complete sample containerised Flask application publicly available on AWS, using Fargate, ECS, CodeBuild, and CodePipline to produce a fully functional pipeline to continuously roll out changes to your new app.
+[amazon-ecs-fargate-cdk-v2-cicd](https://github.com/aws-samples/amazon-ecs-fargate-cdk-v2-cicd) This project builds a complete sample containerised Flask application publicly available on AWS, using Fargate, ECS, CodeBuild, and CodePipline to produce a fully functional pipeline to continuously roll out changes to your new app.
 
 **ROSConDemo**
 
-[ROSConDemo](https://aws-oss.beachgeek.co.uk/2b4) this repo contains code for a working robotic fruit picking demo project for O3DE with ROS 2 Gem.
+[ROSConDemo](https://github.com/o3de/ROSConDemo) this repo contains code for a working robotic fruit picking demo project for O3DE with ROS 2 Gem.
 
 ![demo of roscondemo of fruit picker](https://github.com/o3de/ROSConDemo/blob/main/static/screenshots/apple_kraken.png?raw=true)
 
@@ -117,7 +117,7 @@ So thank you to the following open source heroes: John Preston, Andreas Wittig, 
 
 **Finch**
 
-Phil Estes and Chris Short put together this post, [Introducing Finch: An Open Source Client for Container Development](https://aws-oss.beachgeek.co.uk/2aj) to announce a new open source project, Finch. Finch is a new command line client for building, running, and publishing Linux containers. It provides for simple installation of a native macOS client, along with a curated set of de facto standard open source components including Lima, nerdctl, containerd, and BuildKit. With Finch, you can create and run containers locally, and build and publish Open Container Initiative (OCI) container images. One thing that really stands out from this post is this quote:
+Phil Estes and Chris Short put together this post, [Introducing Finch: An Open Source Client for Container Development](https://aws.amazon.com/blogs/opensource/introducing-finch-an-open-source-client-for-container-development/) to announce a new open source project, Finch. Finch is a new command line client for building, running, and publishing Linux containers. It provides for simple installation of a native macOS client, along with a curated set of de facto standard open source components including Lima, nerdctl, containerd, and BuildKit. With Finch, you can create and run containers locally, and build and publish Open Container Initiative (OCI) container images. One thing that really stands out from this post is this quote:
 
 > Rather than iterating in private and releasing a finished project, we feel open source is most successful when diverse voices come to the party. We have plans for features and innovations, but opening the project this early will lead to a more robust and useful solution for all. We are happy to address issues, and are ready to accept pull requests.
 > 
@@ -126,32 +126,32 @@ So check out this post and get hands on with Finch.
 
 **Apache Hudi**
 
-Hot off the heels of featuring Apache Hudi in the [last Build on Open Source show](https://www.twitch.tv/videos/1656012018), we have Suthan Phillips and Dylan Qu who have put together B[uild your Apache Hudi data lake on AWS using Amazon EMR – Part 1](https://aws-oss.beachgeek.co.uk/2as), where they cover best practices when building Hudi data lakes on AWS using Amazon EMR 
+Hot off the heels of featuring Apache Hudi in the [last Build on Open Source show](https://www.twitch.tv/videos/1656012018), we have Suthan Phillips and Dylan Qu who have put together B[uild your Apache Hudi data lake on AWS using Amazon EMR – Part 1](https://aws.amazon.com/blogs/big-data/part-1-build-your-apache-hudi-data-lake-on-aws-using-amazon-emr/), where they cover best practices when building Hudi data lakes on AWS using Amazon EMR 
 
 ![decision tree for apache hudi on emr](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/19/keygenerator1.png)
 
 **Apache Kafka**
 
-With so many choices for Builders on how they deploy Apache Kafka, how do you decide which is the right option for you? Well, AWS Community Builder John Preston is here to provide his thoughts on this in his blog post, [AWS MSK, Confluent Cloud, Aiven. How to chose your managed Kafka service provider?](https://aws-oss.beachgeek.co.uk/2ba) After you have read the post, share your thoughts with John in the comments.
+With so many choices for Builders on how they deploy Apache Kafka, how do you decide which is the right option for you? Well, AWS Community Builder John Preston is here to provide his thoughts on this in his blog post, [AWS MSK, Confluent Cloud, Aiven. How to chose your managed Kafka service provider?](https://dev.to/aws-builders/aws-msk-confluent-cloud-aiven-how-to-chose-your-managed-kafka-service-provider-15m0) After you have read the post, share your thoughts with John in the comments.
 
 
 **Apache ShardingSphere**
 
-Apache ShardingSphere follows Database Plus - our community's guiding development concept for creating a complete ecosystem that allows you to transform any database into a distributed database system, and easily enhance it with sharding, elastic scaling, data encryption features & more. It focuses on repurposing existing databases, by placing a standardized upper layer above existing and fragmented databases, rather than creating a new database. You can read more about this project in the post, [ShardingSphere-on-Cloud & Pisanix replace Sidecar for a true cloud-native experience](https://aws-oss.beachgeek.co.uk/2ah) and find out more about [ShardingSphere-on-Cloud](https://aws-oss.beachgeek.co.uk/2ai) that shows you how you can deploy ShardingSphere in a Kubernetes environment on AWS.
+Apache ShardingSphere follows Database Plus - our community's guiding development concept for creating a complete ecosystem that allows you to transform any database into a distributed database system, and easily enhance it with sharding, elastic scaling, data encryption features & more. It focuses on repurposing existing databases, by placing a standardized upper layer above existing and fragmented databases, rather than creating a new database. You can read more about this project in the post, [ShardingSphere-on-Cloud & Pisanix replace Sidecar for a true cloud-native experience](https://shardingsphere.medium.com/shardingsphere-on-cloud-pisanix-replace-sidecar-for-a-true-cloud-native-experience-bb48ebef71b4) and find out more about [ShardingSphere-on-Cloud](https://github.com/apache/shardingsphere-on-cloud) that shows you how you can deploy ShardingSphere in a Kubernetes environment on AWS.
 
 ![architecture of sharingsphere on cloud](https://github.com/apache/shardingsphere-on-cloud/blob/main/doc/images/ss-operatorIA.png?raw=true)
 
 **MySQL and MariaDB**
 
-In the post [Security best practices for Amazon RDS for MySQL and MariaDB instances](https://aws-oss.beachgeek.co.uk/2ap), Chelluru Vidyadhar discuss the different best practices you can follow in order to run Amazon RDS for MySQL and Amazon RDS for MariaDB databases securely. Chelluru look at the current good practices at network, database instance, and DB engine (MySQL and MariaDB) levels.
+In the post [Security best practices for Amazon RDS for MySQL and MariaDB instances](https://aws.amazon.com/blogs/database/security-best-practices-for-amazon-rds-for-mysql-and-mariadb-instances/), Chelluru Vidyadhar discuss the different best practices you can follow in order to run Amazon RDS for MySQL and Amazon RDS for MariaDB databases securely. Chelluru look at the current good practices at network, database instance, and DB engine (MySQL and MariaDB) levels.
 
-Sticking with MariaDB, Vijay Karumajji and Justin Lim have put together [Increase write throughput on Amazon RDS for MariaDB using the MyRocks storage engine](https://aws-oss.beachgeek.co.uk/2aq), where they explore the newly launched MyRocks storage engine architecture in Amazon RDS for MariaDB 10.6. They start by covering MyRocks and its architecture, use cases of MyRocks, and demonstrate our benchmarking results, so you can determine if the MyRocks storage engine can help you get increased performance for your workload.
+Sticking with MariaDB, Vijay Karumajji and Justin Lim have put together [Increase write throughput on Amazon RDS for MariaDB using the MyRocks storage engine](https://aws.amazon.com/blogs/database/increase-write-throughput-on-amazon-rds-for-mariadb-using-the-myrocks-storage-engine/), where they explore the newly launched MyRocks storage engine architecture in Amazon RDS for MariaDB 10.6. They start by covering MyRocks and its architecture, use cases of MyRocks, and demonstrate our benchmarking results, so you can determine if the MyRocks storage engine can help you get increased performance for your workload.
 
 ![benchmarks of myrocks](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/11/22/DBBLOG-2656-IMG3-1024x260.png)
 
 **PostgreSQL**
 
-pgBadger is an open source tool for identifying both slow-running and frequently running queries in your PostgreSQL applications, and helping guide you on how to improve their performance. In the blog post, [A serverless architecture for analyzing PostgreSQL logs with pgBadger](https://aws-oss.beachgeek.co.uk/2au) Krishna Sarabu, Chirag Dave, and Mark Townsend walk you through a solution design that enables the analysis of PostgreSQL database logs using no persistent compute resources. This allows you to use pgBadger without having to worry about provisioning, securing, and maintaining additional compute and storage resources. [hands on]
+pgBadger is an open source tool for identifying both slow-running and frequently running queries in your PostgreSQL applications, and helping guide you on how to improve their performance. In the blog post, [A serverless architecture for analyzing PostgreSQL logs with pgBadger](https://aws.amazon.com/blogs/database/a-serverless-architecture-for-analyzing-postgresql-logs-with-pgbadger/) Krishna Sarabu, Chirag Dave, and Mark Townsend walk you through a solution design that enables the analysis of PostgreSQL database logs using no persistent compute resources. This allows you to use pgBadger without having to worry about provisioning, securing, and maintaining additional compute and storage resources. [hands on]
 
 ![graph of pgbadger working](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/11/14/image015-1.png)
 
@@ -159,46 +159,46 @@ pgBadger is an open source tool for identifying both slow-running and frequently
 
 We had a plethora of Kubernetes content in the run up to re:Invent, so here is a round up of the ones I found most interesting.
 
-* [How to detect security issues in Amazon EKS clusters using Amazon GuardDuty – Part 1](https://aws-oss.beachgeek.co.uk/2al) walks through the events leading up to a real-world security issue that occurred due to EKS cluster misconfiguration, and then looks at how those misconfigurations could be used by a malicious actor, and how Amazon GuardDuty monitors and identifies suspicious activity throughout the EKS security event
-* [Persistent storage for Kubernetes](https://aws-oss.beachgeek.co.uk/2am) the first of a two part post that covers the concepts of persistent storage for Kubernetes and how you can apply those concepts for a basic workload
+* [How to detect security issues in Amazon EKS clusters using Amazon GuardDuty – Part 1](https://aws.amazon.com/blogs/security/how-to-detect-security-issues-in-amazon-eks-clusters-using-amazon-guardduty-part-1/) walks through the events leading up to a real-world security issue that occurred due to EKS cluster misconfiguration, and then looks at how those misconfigurations could be used by a malicious actor, and how Amazon GuardDuty monitors and identifies suspicious activity throughout the EKS security event
+* [Persistent storage for Kubernetes](https://aws.amazon.com/blogs/storage/persistent-storage-for-kubernetes/) the first of a two part post that covers the concepts of persistent storage for Kubernetes and how you can apply those concepts for a basic workload
 * 
 ![blog illustration of kubernetes storage](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2022/10/28/2.-Pods-and-Volumes.png)
 
-* [Exposing Kubernetes Applications, Part 3: NGINX Ingress Controller](https://aws-oss.beachgeek.co.uk/2an) the third in a series looking at ways to expose applications running in a Kubernetes cluster for external access, this post covers using an open-source implementation of an Ingress controller: NGINX Ingress Controller, exploring some of its features and the ways it differs from its AWS Load Balancer Controller
+* [Exposing Kubernetes Applications, Part 3: NGINX Ingress Controller](https://aws.amazon.com/blogs/containers/exposing-kubernetes-applications-part-3-nginx-ingress-controller/) the third in a series looking at ways to expose applications running in a Kubernetes cluster for external access, this post covers using an open-source implementation of an Ingress controller: NGINX Ingress Controller, exploring some of its features and the ways it differs from its AWS Load Balancer Controller
 
 ![architecture of kubernetes ingress nginx](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/22/pic302.png)
 
-* [Machine Learning with Kubeflow on Amazon EKS with Amazon EFS](https://aws-oss.beachgeek.co.uk/2ao) walks through how you can use Kubeflow on Amazon EKS to implement model parallelism and use Amazon EFS as persistent storage to share datasets [hands on]
+* [Machine Learning with Kubeflow on Amazon EKS with Amazon EFS](https://aws.amazon.com/blogs/storage/machine-learning-with-kubeflow-on-amazon-eks-with-amazon-efs/) walks through how you can use Kubeflow on Amazon EKS to implement model parallelism and use Amazon EFS as persistent storage to share datasets [hands on]
 
 ![architecture of kubeflow on amazon eks using amazon efs](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2022/11/16/1_Architecture-of-Kubeflow-on-Amazon-EKS-with-Amazon-EFS.png)
 
 **Other posts and quick reads**
 
-* [Using Authorizer with DynamoDB and EKS](https://aws-oss.beachgeek.co.uk/2bc) shows how to use the open source [Authorizer](https://aws-oss.beachgeek.co.uk/2bd) project to provide an auth solution when working with Amazon DynamoDB
+* [Using Authorizer with DynamoDB and EKS](https://dev.to/lakhansamani/using-authorizer-with-dynamodb-and-eks-3hl7) shows how to use the open source [Authorizer](https://github.com/authorizerdev/authorizer) project to provide an auth solution when working with Amazon DynamoDB
 
 ![architecture of authorizer solution](https://res.cloudinary.com/practicaldev/image/fetch/s--E4cSoaVb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://res.cloudinary.com/dcfpom7fo/image/upload/v1668775963/Authorizer/authorizer-dynamo-eks_mq9p8g.png)
 
-* [Launch self-supervised training jobs in the cloud with AWS ParallelCluster](https://aws-oss.beachgeek.co.uk/2a7) describes the process for creating a High Performance Compute (HPC) cluster that will launch large, self-supervised training jobs, primarily leveraging two technologies: AWS ParallelCluster and the Vision Self-Supervised Learning (VISSL) library
+* [Launch self-supervised training jobs in the cloud with AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/launch-self-supervised-training-jobs-in-the-cloud-with-aws-parallelcluster/) describes the process for creating a High Performance Compute (HPC) cluster that will launch large, self-supervised training jobs, primarily leveraging two technologies: AWS ParallelCluster and the Vision Self-Supervised Learning (VISSL) library
 
 ![overview of hpc blog post](https://d2908q01vomqb2.cloudfront.net/e6c3dd630428fd54834172b8fd2735fed9416da4/2022/11/22/CleanShot-2022-11-22-at-15.34.34.png)
 
-* [Getting started with JavaScript resolvers in AWS AppSync GraphQL APIs](https://aws-oss.beachgeek.co.uk/2ab) takes a look at how you can now use JavaScript to write your AppSync pipeline resolver code and AppSync function code, as well as the existing Velocity Template Language (VTL)
+* [Getting started with JavaScript resolvers in AWS AppSync GraphQL APIs](https://aws.amazon.com/blogs/mobile/getting-started-with-javascript-resolvers-in-aws-appsync-graphql-apis/) takes a look at how you can now use JavaScript to write your AppSync pipeline resolver code and AppSync function code, as well as the existing Velocity Template Language (VTL)
 
 ![overview of graphql javascript resolvers](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/11/16/js-resolvers.png)
 
-* [Easy and accurate forecasting with AutoGluon-TimeSeries](https://aws-oss.beachgeek.co.uk/2ad) showcases AutoGluon-TimeSeries’s ease of use in quickly building a powerful forecaster [hands on]
+* [Easy and accurate forecasting with AutoGluon-TimeSeries](https://aws.amazon.com/blogs/machine-learning/easy-and-accurate-forecasting-with-autogluon-timeseries/) showcases AutoGluon-TimeSeries’s ease of use in quickly building a powerful forecaster [hands on]
 
 ![illustration of autogluon forecaster](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/11/17/ML-12172-image007.png)
 
-* [Managing images in your NextJS app with AWS AppSync and the AWS CDK](https://aws-oss.beachgeek.co.uk/2at) shows how combining the AWS CDK with the Amplify JavaScript library, they provide the flexibility needed for teams to scale independently and confidently, while still taking advantage of modern tooling [hands on]
+* [Managing images in your NextJS app with AWS AppSync and the AWS CDK](https://aws.amazon.com/blogs/mobile/managing-images-in-your-nextjs-app-with-aws-appsync-and-the-aws-cdk/) shows how combining the AWS CDK with the Amplify JavaScript library, they provide the flexibility needed for teams to scale independently and confidently, while still taking advantage of modern tooling [hands on]
 
 ![overview of demo app](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/11/21/stripe-checkout.png)
 
 **Case Studies**
 
-* [Announcing the winners of the inaugural Future of Government Awards: Celebrating digital transformation initiatives around the world](https://aws-oss.beachgeek.co.uk/2a3) includes details of the winners of Open Source Creation of the Year Award and Open Source Adaptation of the Year Award. 
+* [Announcing the winners of the inaugural Future of Government Awards: Celebrating digital transformation initiatives around the world](https://aws.amazon.com/blogs/publicsector/announcing-winners-inaugural-future-government-awards-celebrating-digital-transformation-initiatives-world/) includes details of the winners of Open Source Creation of the Year Award and Open Source Adaptation of the Year Award. 
 
-* [DENT, the Open Source Network Operating System for Distributed Edge, Now Powers AWS Just Walk Out Technology](https://aws-oss.beachgeek.co.uk/2bb) a look at how this networking open source project is being used by AWS in it's Just Walk Out Technology
+* [DENT, the Open Source Network Operating System for Distributed Edge, Now Powers AWS Just Walk Out Technology](https://dent.dev/announcements/2022/11/15/dent-the-open-source-network-operating-system-for-distributed-edge-now-powers-aws-just-walk-out-technology/) a look at how this networking open source project is being used by AWS in it's Just Walk Out Technology
 
 ### Quick updates
 
@@ -212,7 +212,7 @@ Today's launch adds CREATE TABLE AS SELECT (CTAS), MERGE, and VACUUM commands th
 
 Amazon Managed Workflows for Apache Airflow (MWAA) now provides Amazon CloudWatch metrics for container, database, and queue utilisation. Amazon MWAA is a managed service for Apache Airflow that lets you use the same familiar Apache Airflow platform as you do today to orchestrate your workflows and enjoy improved scalability, availability, and security without the operational burden of having to manage the underlying infrastructure. With these additional metrics, customers have improved visibility into their Amazon MWAA performance to help them debug workloads and appropriately size their environments.
 
-Check out the excellent post [Introducing container, database, and queue utilization metrics for the Amazon MWAA environment](https://aws-oss.beachgeek.co.uk/2ae), where Uma Ramadoss dives deep and shares details about the new metrics published for Amazon MWAA environment, build a sample application with a pre-built workflow, and explore the metrics using CloudWatch dashboard. [hands on]
+Check out the excellent post [Introducing container, database, and queue utilization metrics for the Amazon MWAA environment](https://aws.amazon.com/blogs/compute/introducing-container-database-and-queue-utilization-metrics-for-the-amazon-mwaa-environment/), where Uma Ramadoss dives deep and shares details about the new metrics published for Amazon MWAA environment, build a sample application with a pre-built workflow, and explore the metrics using CloudWatch dashboard. [hands on]
 
 ![mwaa cloudwatch dashboard](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2022/11/18/mwaa-dashboard-new.png)
 
@@ -220,7 +220,7 @@ Check out the excellent post [Introducing container, database, and queue utiliza
 
 Apache Flink is a popular open source framework for stateful computations over data streams. It allows you to formulate queries that are continuously evaluated in near real time against an incoming stream of events. There were a couple of announcements this week featuring this open source project.
 
-First up was news that Amazon Kinesis Data Analytics for Apache Flink now supports Apache Flink version 1.15. This new version includes improvements to Flink's exactly-once processing semantics, Kinesis Data Streams and Kinesis Data Firehose connectors, Python User Defined Functions, Flink SQL, and more. The release also includes an AWS-contributed capability, a new Async-Sink framework which simplifies the creation of custom sinks to deliver processed data. Read more about how we contributed to this release by checking out the post, [Making it Easier to Build Connectors with Apache Flink: Introducing the Async Sink](https://aws-oss.beachgeek.co.uk/2af) where Zichen Liu, Steffen Hausmann, and Ahmed Hamdy talk about a feature of Apache Flink, Async Sinks, and how the Async Sink works, how you can build a new sink based on the Async Sink, and discuss our plans to continue our contributions to Apache Flink.
+First up was news that Amazon Kinesis Data Analytics for Apache Flink now supports Apache Flink version 1.15. This new version includes improvements to Flink's exactly-once processing semantics, Kinesis Data Streams and Kinesis Data Firehose connectors, Python User Defined Functions, Flink SQL, and more. The release also includes an AWS-contributed capability, a new Async-Sink framework which simplifies the creation of custom sinks to deliver processed data. Read more about how we contributed to this release by checking out the post, [Making it Easier to Build Connectors with Apache Flink: Introducing the Async Sink](https://aws.amazon.com/blogs/opensource/making-it-easier-to-build-connectors-with-apache-flink-introducing-the-async-sink/) where Zichen Liu, Steffen Hausmann, and Ahmed Hamdy talk about a feature of Apache Flink, Async Sinks, and how the Async Sink works, how you can build a new sink based on the Async Sink, and discuss our plans to continue our contributions to Apache Flink.
 
 Amazon EMR customers can now use AWS Glue Data Catalog from their streaming and batch SQL workflows on Flink. The AWS Glue Data Catalog is an Apache Hive metastore-compatible catalog. You can configure your Flink jobs on Amazon EMR to use the Data Catalog as an external Apache Hive metastore. With this release, You can then directly run Flink SQL queries against the tables stored in the Data Catalog.
 
@@ -242,57 +242,57 @@ Trino is an open source SQL query engine used to run interactive analytics on da
 
 AWS’s upstream contribution to open source Trino, you can use Trino with S3 Select to improve your query performance. S3 Select offloads the heavy lifting of filtering and accessing data inside objects to Amazon S3, which reduces the amount of data that has to be transferred and processed by Trino. For example, if you have a data lake built on Amazon S3 and use Trino today, you can use S3 Select’s filtering capability to quickly and easily run interactive ad-hoc queries.
 
-You can explore this in more detail by checking out this blog post, [Run queries up to 9x faster using Trino with Amazon S3 Select on Amazon EMR](https://aws-oss.beachgeek.co.uk/2ar) where Boni Bruno and Eric Henderson look at the performance benchmarks on Trino release 397 with S3 Select using TPC-DS-like benchmark queries at 3 TB scale.
+You can explore this in more detail by checking out this blog post, [Run queries up to 9x faster using Trino with Amazon S3 Select on Amazon EMR](https://aws.amazon.com/blogs/storage/run-queries-up-to-9x-faster-using-trino-with-amazon-s3-select-on-amazon-emr/) where Boni Bruno and Eric Henderson look at the performance benchmarks on Trino release 397 with S3 Select using TPC-DS-like benchmark queries at 3 TB scale.
 
 ![Trino benchmark graph](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2022/11/18/99speedups-1024x523.png)
 
 **AWS Amplify**
 
-Amplify DataStore provides frontend app developers the ability to build real-time apps with offline capabilities by storing data on-device (web browser or mobile device) and automatically synchronizing data to the cloud and across devices on an internet connection. Launched this week was the release of custom primary keys, also known as custom identifiers, for Amplify DataStore to provide additional flexibility for your data models. You can dive deeper into this update by reading along in the post, [New: Announcing custom primary key support for AWS Amplify DataStore](https://aws-oss.beachgeek.co.uk/2a1)
+Amplify DataStore provides frontend app developers the ability to build real-time apps with offline capabilities by storing data on-device (web browser or mobile device) and automatically synchronizing data to the cloud and across devices on an internet connection. Launched this week was the release of custom primary keys, also known as custom identifiers, for Amplify DataStore to provide additional flexibility for your data models. You can dive deeper into this update by reading along in the post, [New: Announcing custom primary key support for AWS Amplify DataStore](https://aws.amazon.com/blogs/mobile/new-announcing-custom-primary-key-support-for-amplify-datastore/)
 
-We had another Amplify DataStore post that looks at a number of other enhancements with Amplify DataStore that were released this week, that make working with relational data easier: lazy loading, nested query predicates, and type enhancements. To find out more about these new enhancements, check out [NEW: Lazy loading & nested query predicates for AWS Amplify DataStore](https://aws-oss.beachgeek.co.uk/2aa) [hands on] 
+We had another Amplify DataStore post that looks at a number of other enhancements with Amplify DataStore that were released this week, that make working with relational data easier: lazy loading, nested query predicates, and type enhancements. To find out more about these new enhancements, check out [NEW: Lazy loading & nested query predicates for AWS Amplify DataStore](https://aws.amazon.com/blogs/mobile/new-lazy-loading-nested-query-predicates-for-aws-amplify-datastore/) [hands on] 
  
-Also announced this week was the release of version 5.0.0 of the Amplify JavaScript library. This release is jam-packed with highly requested features, in addition to under the hood improvements to enhance stability and usability of the JavaScript library. Check out the post, [Announcing AWS Amplify JavaScript library version 5](https://aws-oss.beachgeek.co.uk/2a2) which contains links to the GitHub repo.
+Also announced this week was the release of version 5.0.0 of the Amplify JavaScript library. This release is jam-packed with highly requested features, in addition to under the hood improvements to enhance stability and usability of the JavaScript library. Check out the post, [Announcing AWS Amplify JavaScript library version 5](https://aws.amazon.com/blogs/mobile/announcing-aws-amplify-javascript-library-version-5/) which contains links to the GitHub repo.
 
-The Amplify team have been super busy, as they also announced a developer preview to expand Flutter support to Web and Desktop for the API, Analytics, and Storage use cases. Developers can now build cross-platform Flutter apps with Amplify that target iOS, Android, Web, and Desktop (macOS, Windows, Linux) using a single codebase. Combined with the Authentication preview that was previously released, developers can now build cross-platform Flutter applications that include REST API or GraphQL API to interact with backend data, analytics to understand user behaviour, and storage for saving and retrieving files and media. This developer preview version was written fully in Dart, allowing developers to deploy their apps to all target platforms currently supported by Flutter. Amplify Flutter is designed to provide developers with consistent behaviour, regardless of the target platform. With these feature sets now available on Web and Desktop, Flutter developers can build experiences that target the platforms that matter most to their customers. Check out the post, [Announcing Flutter Web and Desktop support for AWS Amplify Storage, Analytics and API libraries](https://aws-oss.beachgeek.co.uk/2ag), to find out more about this launch and how to use AWS Amplify GraphQL API and Storage libraries by creating a grocery list application with Flutter that targets iOS, Android, Web, and Desktop. [hands on]
+The Amplify team have been super busy, as they also announced a developer preview to expand Flutter support to Web and Desktop for the API, Analytics, and Storage use cases. Developers can now build cross-platform Flutter apps with Amplify that target iOS, Android, Web, and Desktop (macOS, Windows, Linux) using a single codebase. Combined with the Authentication preview that was previously released, developers can now build cross-platform Flutter applications that include REST API or GraphQL API to interact with backend data, analytics to understand user behaviour, and storage for saving and retrieving files and media. This developer preview version was written fully in Dart, allowing developers to deploy their apps to all target platforms currently supported by Flutter. Amplify Flutter is designed to provide developers with consistent behaviour, regardless of the target platform. With these feature sets now available on Web and Desktop, Flutter developers can build experiences that target the platforms that matter most to their customers. Check out the post, [Announcing Flutter Web and Desktop support for AWS Amplify Storage, Analytics and API libraries](https://aws.amazon.com/blogs/mobile/announcing-flutter-web-and-desktop-support-for-aws-amplify-storage-analytics-and-api-libraries/), to find out more about this launch and how to use AWS Amplify GraphQL API and Storage libraries by creating a grocery list application with Flutter that targets iOS, Android, Web, and Desktop. [hands on]
 
 ![example Flutter app post](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/11/18/ezgif-5-a59cbd94fc.gif)
 
 Finally, we also announced that AWS Amplify is announcing support for GraphQL APIs without Conflict Resolution enabled! With this launch, it’s easier than ever to use custom mutations and queries, without needing to manage the underlying conflict resolution protocol. You can still model your data with the same easy-to-use graphical interface. And, we are also bringing improved GraphQL API testing to Studio through the open-source tool, GraphiQL.
 
-Find out more by reading the post, [Announcing new GraphQL API features in Amplify Studio](https://aws-oss.beachgeek.co.uk/2a4)
+Find out more by reading the post, [Announcing new GraphQL API features in Amplify Studio](https://aws.amazon.com/blogs/mobile/new-model-graphql-apis-in-studio-no-datastore-required/)
 
 *Bonus Content*
 
 There has been plenty of AWS Amplify content posted this week, so why not check out some of these posts:
 
-* [NEW: Build React forms for any API in minutes with AWS Amplify Studio (no AWS Account required)](https://aws-oss.beachgeek.co.uk/2a5) looks at Amplify Studio form builder, the new way to build React form components for any API [hands on]
+* [NEW: Build React forms for any API in minutes with AWS Amplify Studio (no AWS Account required)](https://aws.amazon.com/blogs/mobile/new-build-react-forms-for-any-api-with-aws-amplify-studio-no-aws-account-required/) looks at Amplify Studio form builder, the new way to build React form components for any API [hands on]
 
 ![example of react forms for aws amplify](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/11/21/Form-creation-workflow-1.png)
 
-* [Text to Speech on Android Using AWS Amplify](https://aws-oss.beachgeek.co.uk/2a6) provides a nice example on how to use the Predictions category to implement text to speech in an Android app [hands on]
+* [Text to Speech on Android Using AWS Amplify](https://aws.amazon.com/blogs/mobile/text-to-speech-on-android-using-aws-amplify/) provides a nice example on how to use the Predictions category to implement text to speech in an Android app [hands on]
 
 **AWS Toolkits**
 
 AWS Toolkits for JetBrains and VS Code released a faster code iteration experience for developing AWS SAM applications. The AWS Toolkits are open source plugins for JetBrains and VS Code IDEs that provide an integrated experience for developing Serverless applications, including assistance for getting started and local step-through debugging capabilities for Serverless applications. With today’s release, the Toolkits adds SAM CLI’s Lambda “sync” capabilities shipped as SAM Accelerate (check out the announcement). These new features in the Toolkits for JetBrains and VS Code provide customers with increased flexibility. Customers can either sync their entire Serverless application (i.e., infrastructure and the code), or sync just the code changes and skip Cloudformation deployments.
 
-Read more in the full blog post, [Faster iteration experience for AWS SAM applications in the AWS Toolkits for JetBrains and VS Code](https://aws-oss.beachgeek.co.uk/29y)
+Read more in the full blog post, [Faster iteration experience for AWS SAM applications in the AWS Toolkits for JetBrains and VS Code](https://aws.amazon.com/blogs/developer/faster-iteration-experience-for-sam-applications-in-the-aws-toolkit-for-jetbrains-and-vs-code/)
 
 **Grafana**
 
 Launched this week was Amazon Managed Grafana’s new alerting feature that allows customers to gain visibility into their Prometheus Alertmanager alerts from their Grafana workspace. Customers can continue to use classic Grafana Alerting in their Amazon Managed Grafana workspaces if that experience better fits their needs. Customers using the Amazon Managed Service for Prometheus workspaces to collect Prometheus metrics utilise the fully managed Alert Manager and Ruler features in the service to configure alerting and recording rules. With this feature, they can visualise all their alert and recording rules configured in their Amazon Managed Service for Prometheus workspace.
 
-Read more in the hands on guide, [Announcing Prometheus Alertmanager rules in Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/29z)
+Read more in the hands on guide, [Announcing Prometheus Alertmanager rules in Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/announcing-prometheus-alertmanager-rules-in-amazon-managed-grafana/)
 
 Also announced was Amazon Managed Grafana support for connecting to data sources inside an Amazon Virtual Private Cloud (Amazon VPC). Customers using Amazon Managed Grafana have been asking for support to connect to data sources that reside in an Amazon VPC and are not publicly accessible. Data in Amazon OpenSearch Service clusters, Amazon RDS instances, self-hosted data sources, and other data sensitive workloads often are only privately accessible. Customers have expressed the need to connect Amazon Managed Grafana to these data sources securely while maintaining a strong security posture.
 
-Read more about this in the post, [Announcing Private VPC data source support for Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/2a0)
+Read more about this in the post, [Announcing Private VPC data source support for Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/announcing-private-vpc-data-source-support-for-amazon-managed-grafana/)
 
 **NodeJS**
 
 You can now develop AWS Lambda functions using the Node.js 18 runtime. This version is in active LTS status and considered ready for general use. When creating or updating functions, specify a runtime parameter value of nodejs18.x or use the appropriate container base image to use this new runtime. This runtime version is supported by functions running on either Arm-based AWS Graviton2 processors or x86-based processors. Using the Graviton2 processor architecture option allows you to get up to 34% better price performance.
 
-Read the post [Node.js 18.x runtime now available in AWS Lambda](https://aws-oss.beachgeek.co.uk/2a8), to find out more about the major changes available with the Node.js 18 runtime in Lambda. You should also check out [Why and how you should use AWS SDK for JavaScript (v3) on Node.js 18](https://aws-oss.beachgeek.co.uk/2a9) as the AWS SDK for JavaScript (v3) is included by default in AWS Lambda Node.js 18 runtime. 
+Read the post [Node.js 18.x runtime now available in AWS Lambda](https://aws.amazon.com/blogs/compute/node-js-18-x-runtime-now-available-in-aws-lambda/), to find out more about the major changes available with the Node.js 18 runtime in Lambda. You should also check out [Why and how you should use AWS SDK for JavaScript (v3) on Node.js 18](https://aws.amazon.com/blogs/developer/why-and-how-you-should-use-aws-sdk-for-javascript-v3-on-node-js-18/) as the AWS SDK for JavaScript (v3) is included by default in AWS Lambda Node.js 18 runtime. 
 
 **MariaDB**
 
@@ -314,7 +314,7 @@ If you missed this, then it is well worth checking out the awesome Jay Pipes dis
 
 **OpenSearch**
 
-The videos from OpenSearchCon that took place earlier this year are now available. You can see the [entire list here](https://aws-oss.beachgeek.co.uk/2be), and there are a number of great sessions covering a very broad range of topics. The one I spent time watching was this session from OpenSearch Core Codebase Nicholas Knize, OpenSearch Maintainer, Lucene Committer and PMC Member. If you are interested in contributing to OpenSearch and curious in how to get started, then this session will answer some of these questions and more by raising the hood and exploring the code base. 
+The videos from OpenSearchCon that took place earlier this year are now available. You can see the [entire list here](https://www.youtube.com/playlist?app=desktop&list=PLzgr9zSpws14N5WSzs1OgBahFiN5ymjGo), and there are a number of great sessions covering a very broad range of topics. The one I spent time watching was this session from OpenSearch Core Codebase Nicholas Knize, OpenSearch Maintainer, Lucene Committer and PMC Member. If you are interested in contributing to OpenSearch and curious in how to get started, then this session will answer some of these questions and more by raising the hood and exploring the code base. 
   
 {{< youtube OG2HTQq5wuM >}}
 
@@ -328,7 +328,7 @@ Join your hosts Antje Barth and Chris Fregley as they are joined by a number of 
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (seven) of the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (seven) of the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -354,9 +354,9 @@ It will be hosted in Conference room “Chopin 2” at the Encore Hotel
 
 re:Invent is happening all this week, and there is plenty of great open source content for you, whether it is breakout sessions, chalk talks, open source vendors in the expo, and more.
 
-We will be featuring open source projects in the Developer Lounge again, in the AWS Modern Applications and Open Source Zone. We have published a schedule of the open source projects you can check out, so why not take a peek at [The AWS Modern Applications and Open Source Zone: Learn, Play, and Relax at AWS re:Invent 2022](https://aws-oss.beachgeek.co.uk/2ac) and come along. I will be there for a big chunk of time on Tuesday, Wednesday, and Thursday. If you have a good open source story to tell, or some SWAG to trade, I will be bringing our Build On Open Source challenge coins, so be sure to hunt me down!
+We will be featuring open source projects in the Developer Lounge again, in the AWS Modern Applications and Open Source Zone. We have published a schedule of the open source projects you can check out, so why not take a peek at [The AWS Modern Applications and Open Source Zone: Learn, Play, and Relax at AWS re:Invent 2022](https://aws.amazon.com/blogs/opensource/the-aws-modern-applications-and-open-source-zone-learn-play-and-relax-at-aws-reinvent-2022/) and come along. I will be there for a big chunk of time on Tuesday, Wednesday, and Thursday. If you have a good open source story to tell, or some SWAG to trade, I will be bringing our Build On Open Source challenge coins, so be sure to hunt me down!
 
-Check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://aws-oss.beachgeek.co.uk/252) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
+Check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/OPN) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
 
 1. OPN306 AWS Lambda Powertools: Lessons from the road to 10 million downloads - Heitor Lessa is going to deliver an amazing session on the journey from idea to one of the most loved and used open source tools for AWS Lambda users
 2. BOA204 When security, safety, and urgency all matter: Handling Log4Shell - Cannot wait for this session from Abbey Fuller who will walk us through how we managed this incident
@@ -367,7 +367,7 @@ Check out this handy way to look at all the amazing open source sessions, then c
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

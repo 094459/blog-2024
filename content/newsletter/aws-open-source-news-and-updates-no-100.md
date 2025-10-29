@@ -27,29 +27,29 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **joiful-dynamo**
 
-[joiful-dynamo](https://aws-oss.beachgeek.co.uk/1c9) is an open source library from [Chocolate Soup](https://twitter.com/ChocolateSoupCA/status/1491829547943268354) uses Typescript Decorators to easily let developers to manage data models. This IS NOT a complete ORM, but a facilitator to make the experience of using AWS DynamoDB easier and with less code repetition. 
+[joiful-dynamo](https://github.com/chocolate-soup-inc/joiful-dynamo) is an open source library from [Chocolate Soup](https://twitter.com/ChocolateSoupCA/status/1491829547943268354) uses Typescript Decorators to easily let developers to manage data models. This IS NOT a complete ORM, but a facilitator to make the experience of using AWS DynamoDB easier and with less code repetition. 
 
 **amazon-managed-service-for-prometheus**
 
-[amazon-managed-service-for-prometheus-roadmap](https://aws-oss.beachgeek.co.uk/1cd) is the public space where you can add and influence feature requests for the Amazon Managed Service for Prometheus roadmap and allows all AWS customers to give direct feedback.
+[amazon-managed-service-for-prometheus-roadmap](https://github.com/aws/amazon-managed-service-for-prometheus-roadmap) is the public space where you can add and influence feature requests for the Amazon Managed Service for Prometheus roadmap and allows all AWS customers to give direct feedback.
 
 **amazon-managed-grafana**
 
-[amazon-managed-grafana-roadmap](https://aws-oss.beachgeek.co.uk/1ce) is the public roadmap for Amazon Managed Grafana. We share information about what we are working on and equally, you can use this repo to provide feedback and suggest features. Note that this roadmap presents features that we are considering developing, however it does remain subject to change from time to time.
+[amazon-managed-grafana-roadmap](https://github.com/aws/amazon-managed-grafana-roadmap) is the public roadmap for Amazon Managed Grafana. We share information about what we are working on and equally, you can use this repo to provide feedback and suggest features. Note that this roadmap presents features that we are considering developing, however it does remain subject to change from time to time.
 
 #### Tools
 
 **opensearch-net**
 
-[opensearch-net](https://aws-oss.beachgeek.co.uk/1cj) this project is the official high-level .NET client of OpenSearch.
+[opensearch-net](https://github.com/opensearch-project/opensearch-net) this project is the official high-level .NET client of OpenSearch.
 
 **aws-vpc-network-resource-counter**
 
-[aws-vpc-network-resource-counter](https://aws-oss.beachgeek.co.uk/1ch) this looks like an incredibly helpful and useful project, which I am going to deploy in my own AWS environment. This project is intended to help with tracking networking resources in a single Amazon VPC. It will create an AWS Lambda function that will count specific network resources and create CloudWatch metric for each measurement. The measurements are published at an interval of your choice. Check the README for more details.
+[aws-vpc-network-resource-counter](https://github.com/aws-samples/aws-vpc-network-resource-counter) this looks like an incredibly helpful and useful project, which I am going to deploy in my own AWS environment. This project is intended to help with tracking networking resources in a single Amazon VPC. It will create an AWS Lambda function that will count specific network resources and create CloudWatch metric for each measurement. The measurements are published at an interval of your choice. Check the README for more details.
 
 **automated-prefix-list-to-security-group-synchronization**
 
-[automated-prefix-list-to-security-group-synchronization](https://aws-oss.beachgeek.co.uk/1cf) this repo provides a solution designed to automatically synchronise private IP addresses for ENIs associated with a Security Group to a Managed Prefix List in the same or different region as the Security Group. This can enable strict IP based filtering across region or when crossing a Transit Gateway, as well as when using a middle box appliance in a VPC where security group referencing is not supported. To help you get started with this, Scott Morrison and Shovan Das have put together a blog post, [Automated VPC prefix list population for cross-Region and in-Region security group referencing](https://aws-oss.beachgeek.co.uk/1cg)
+[automated-prefix-list-to-security-group-synchronization](https://github.com/aws-samples/automated-prefix-list-to-security-group-synchronization) this repo provides a solution designed to automatically synchronise private IP addresses for ENIs associated with a Security Group to a Managed Prefix List in the same or different region as the Security Group. This can enable strict IP based filtering across region or when crossing a Transit Gateway, as well as when using a middle box appliance in a VPC where security group referencing is not supported. To help you get started with this, Scott Morrison and Shovan Das have put together a blog post, [Automated VPC prefix list population for cross-Region and in-Region security group referencing](https://aws.amazon.com/blogs/networking-and-content-delivery/automated-vpc-prefix-list-population-for-cross-region-and-in-region-security-group-referencing/)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/2022/02/08/AutoSG2PL.png)
 
@@ -57,19 +57,19 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **aws-virtual-waiting-room**
 
-[aws-virtual-waiting-room](https://aws-oss.beachgeek.co.uk/15i) AWS Virtual Waiting Room solution helps absorb and control incoming user requests to your website during an unusually large burst of traffic, usually due to a large-scale event. Justin Pirtle, Joan Morgan, and Jim Thario have put together this blog post, [Introducing AWS Virtual Waiting Room](https://aws-oss.beachgeek.co.uk/1c3)  to help you get started and walk you through the key components of this project and how to get it up and running.
+[aws-virtual-waiting-room](https://github.com/aws-solutions/aws-virtual-waiting-room) AWS Virtual Waiting Room solution helps absorb and control incoming user requests to your website during an unusually large burst of traffic, usually due to a large-scale event. Justin Pirtle, Joan Morgan, and Jim Thario have put together this blog post, [Introducing AWS Virtual Waiting Room](https://aws.amazon.com/blogs/compute/introducing-aws-virtual-waiting-room/)  to help you get started and walk you through the key components of this project and how to get it up and running.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2022/02/09/waiting-room1.jpg)
 
 **subtitle-generator-cdk-app**
 
-[subtitle-generator-cdk-app](https://aws-oss.beachgeek.co.uk/1ci) this sample provisions the infrastructure, backend, and frontend required for a subtitle generator app with AWS CDK.
+[subtitle-generator-cdk-app](https://github.com/aws-samples/subtitle-generator-cdk-app) this sample provisions the infrastructure, backend, and frontend required for a subtitle generator app with AWS CDK.
 
 ![demo](https://github.com/aws-samples/subtitle-generator-cdk-app/blob/master/assets/sample.gif?raw=true)
 
 **pizza-delivery-tracker**
 
-[pizza-delivery-tracker](https://aws-oss.beachgeek.co.uk/1ck) This sample project contains a map-based pizza ordering app with real-time tracking of your delivery. The browser-based frontend shows a map with your current location and lists all pizza places nearby. You can select one to order a pizza from there. Shortly after ordering, a delivery route is calculated and you can monitor the delivery progress in real-time while the pizza icon is moving closer and closer to your location on the map.
+[pizza-delivery-tracker](https://github.com/aws-samples/pizza-delivery-tracker) This sample project contains a map-based pizza ordering app with real-time tracking of your delivery. The browser-based frontend shows a map with your current location and lists all pizza places nearby. You can select one to order a pizza from there. Shortly after ordering, a delivery route is calculated and you can monitor the delivery progress in real-time while the pizza icon is moving closer and closer to your location on the map.
 
 ![demo](https://raw.githubusercontent.com/aws-samples/pizza-delivery-tracker/main/demo.gif)
 
@@ -82,22 +82,22 @@ During re:Invent, one of the most popular sessions in the Open Source track was 
 {{< youtube yQZaBtUjQ1w >}}
 
 
-I am delighted they are both back, this time writing on this topic in their post [Sustainability with Rust](https://aws-oss.beachgeek.co.uk/1cu) and diving a little deeper into this topic with plenty of nice data points. This weeks must read post.
+I am delighted they are both back, this time writing on this topic in their post [Sustainability with Rust](https://aws.amazon.com/blogs/opensource/sustainability-with-rust/) and diving a little deeper into this topic with plenty of nice data points. This weeks must read post.
 
 ![table](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/02/09/sust-rust-3.png)
 
 **Trivy**
 
-Aqua Security’s open source project [Trivy](https://aws-oss.beachgeek.co.uk/1cc) is a scanner for vulnerabilities and configuration issues in container images, file systems, and Git repositories. In the post, [Identify Security Risks in AWS CloudFormation Templates with Trivy](https://aws-oss.beachgeek.co.uk/1cb) Steve Coplan looks at a new feature of this project that now lets you scan AWS CloudFormation templates to help developers better identify and remediate security issues within infrastructure as code (IaC) templates.
+Aqua Security’s open source project [Trivy](https://github.com/aquasecurity/trivy) is a scanner for vulnerabilities and configuration issues in container images, file systems, and Git repositories. In the post, [Identify Security Risks in AWS CloudFormation Templates with Trivy](https://blog.aquasec.com/cloudformation-templates-scan-with-trivy) Steve Coplan looks at a new feature of this project that now lets you scan AWS CloudFormation templates to help developers better identify and remediate security issues within infrastructure as code (IaC) templates.
 
 **KVM**
 
-Simeon Adeniyi Oladokun has put together a great post showing you how you can deploy an AWS DataSync agent on Linux KVM hypervisor host, providing a cost-effective hypervisor solution that creates a simpler and easier migration of large datasets from on-premises storage systems to AWS storage services. See how by following along in, [Simplify data migrations using an AWS DataSync agent on Linux KVM Hypervisor](https://aws-oss.beachgeek.co.uk/1c5)
+Simeon Adeniyi Oladokun has put together a great post showing you how you can deploy an AWS DataSync agent on Linux KVM hypervisor host, providing a cost-effective hypervisor solution that creates a simpler and easier migration of large datasets from on-premises storage systems to AWS storage services. See how by following along in, [Simplify data migrations using an AWS DataSync agent on Linux KVM Hypervisor](https://aws.amazon.com/blogs/storage/simplify-data-migrations-using-an-aws-datasync-agent-on-linux-kvm-hypervisor/)
 [hands on]
 
 **Envoy**
 
-In his post, [Using a CI/CD Pipeline to Inject an Envoy Proxy Sidecar Container into an Amazon ECS Task](https://aws-oss.beachgeek.co.uk/1c4) Mike Rizzo demonstrates how you can use a pipeline to inject an Envoy proxy sidecar container into your ECS tasks so that they can be used with AWS App Mesh. Why would you want to do this I can hear you asking...as Mike puts in his post:
+In his post, [Using a CI/CD Pipeline to Inject an Envoy Proxy Sidecar Container into an Amazon ECS Task](https://aws.amazon.com/blogs/containers/using-cicd-pipeline-to-inject-an-envoy-proxy-sidecar-container-into-amazon-ecs-task/) Mike Rizzo demonstrates how you can use a pipeline to inject an Envoy proxy sidecar container into your ECS tasks so that they can be used with AWS App Mesh. Why would you want to do this I can hear you asking...as Mike puts in his post:
 >
 > By using a pipeline to build the required task and service definition files, developers can focus on building service logic with minimal effort required on service configuration. The pipeline can also be used to enforce any deployment conventions and policies as may be required by a platform team.
 >
@@ -108,34 +108,34 @@ In his post, [Using a CI/CD Pipeline to Inject an Envoy Proxy Sidecar Container 
 
 **MemQ**
 
-[MemQ](https://aws-oss.beachgeek.co.uk/1cs) is a new open source PubSub system from the folks at Pinterest. It uses a decoupled storage and serving architecture similar to Apache Pulsar and Facebook Logdevice, but relies on a pluggable replicated storage layer i.e. Object Store's such as Amazon S3, for storing data. Ambud Sharma, a tech lead at Pinterest, discusses MemQ in more details, and shares how it has been powering near-real-time data transportation use cases whilst being over 90% more cost-efficient in some cases. Read more in the post, [MemQ by Pinterest: An efficient, scalable, cloud-native publish/subscribe system](https://aws-oss.beachgeek.co.uk/1cr)
+[MemQ](https://github.com/pinterest/memq) is a new open source PubSub system from the folks at Pinterest. It uses a decoupled storage and serving architecture similar to Apache Pulsar and Facebook Logdevice, but relies on a pluggable replicated storage layer i.e. Object Store's such as Amazon S3, for storing data. Ambud Sharma, a tech lead at Pinterest, discusses MemQ in more details, and shares how it has been powering near-real-time data transportation use cases whilst being over 90% more cost-efficient in some cases. Read more in the post, [MemQ by Pinterest: An efficient, scalable, cloud-native publish/subscribe system](https://aws.amazon.com/blogs/storage/memq-by-pinterest-an-efficient-scalable-cloud-native-publish-subscribe-system/)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2022/02/10/MemQ_Internals_Diagram-1024x489.png)
 
 **Micronaut + Kotlin + Graal VM**
 
-Sakis Kaliakoudas has put together this post, [Serverless on AWS Lambda With Micronaut + Kotlin + Graal VM](https://aws-oss.beachgeek.co.uk/1cm) that takes a look at the technology stack decisions for Caribou, a developer tool that helps developers use data-driven insights to manage their technical debt. There is a hint in the title I guess, but read on to find out more and why.
+Sakis Kaliakoudas has put together this post, [Serverless on AWS Lambda With Micronaut + Kotlin + Graal VM](https://betterprogramming.pub/serverless-on-aws-lambda-with-micronaut-kotlin-7aac485f066e) that takes a look at the technology stack decisions for Caribou, a developer tool that helps developers use data-driven insights to manage their technical debt. There is a hint in the title I guess, but read on to find out more and why.
 
 **Apache Airflow**
 
-In his post, [My Thoughts on AWS Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/1cn) Ivica Kolenkaš shares his thoughts and observations on Amazon Managed Workflows for Apache Airflow (MWAA) and whether you it can replace self-hosted Airflow in his use cases.
+In his post, [My Thoughts on AWS Managed Workflows for Apache Airflow](https://aws.plainenglish.io/my-thoughts-on-aws-managed-workflows-for-apache-airflow-10df7dd6fb4d) Ivica Kolenkaš shares his thoughts and observations on Amazon Managed Workflows for Apache Airflow (MWAA) and whether you it can replace self-hosted Airflow in his use cases.
 
-I also started the first in a series of blog posts that will share my experiences as I look to contribute to the upstream Apache Airflow project, in my post [Contributing to the Apache Airflow project](https://aws-oss.beachgeek.co.uk/1cq). 
+I also started the first in a series of blog posts that will share my experiences as I look to contribute to the upstream Apache Airflow project, in my post [Contributing to the Apache Airflow project](https://dev.to/aws/contributing-to-the-apache-airflow-project-37mf). 
 
 **traefik-proxy**
 
-Michael Matur shows you how configure your Ingress Controller Traefik Proxy with the support of HTTP/3 on an EKS cluster in his post, [How to use Traefik Proxy and HTTP/3 on AWS EKS](https://aws-oss.beachgeek.co.uk/1co) [hands on]
+Michael Matur shows you how configure your Ingress Controller Traefik Proxy with the support of HTTP/3 on an EKS cluster in his post, [How to use Traefik Proxy and HTTP/3 on AWS EKS](https://traefik.io/blog/traefik-proxy-and-http-3-on-aws-eks/) [hands on]
 
 **Other posts worth checking out**
 
-* [Introducing AWS ParallelCluster multiuser support via Active Directory](https://aws-oss.beachgeek.co.uk/1c2) takes a look at ParallelCluster 3.1 which now supports multiuser authentication based on Active Directory (AD)
-* [Running WordPress on Amazon EKS with Amazon EFS Intelligent-tiering](https://aws-oss.beachgeek.co.uk/1c6) will show you how to deploy a containerised instance of WordPress using the Amazon Elastic Kubernetes Service (EKS) with persistent file storage leveraging EFS with Intelligent-tiering enabled for cost optimisation
-* [Deploy Python Application using AWS App Runner](https://aws-oss.beachgeek.co.uk/1cp) provides a walkthrough on how to deploy a containerised Python application that interacts with Amazon DynamoDB using AWS App Runner.
-* [IAM authentication with Amazon RDS for MariaDB](https://aws-oss.beachgeek.co.uk/1ct) helps you to set up an RDS for MariaDB instance and connect to the instance using IAM database authentication
+* [Introducing AWS ParallelCluster multiuser support via Active Directory](https://aws.amazon.com/blogs/hpc/introducing-aws-parallelcluster-multiuser-support-via-active-directory/) takes a look at ParallelCluster 3.1 which now supports multiuser authentication based on Active Directory (AD)
+* [Running WordPress on Amazon EKS with Amazon EFS Intelligent-tiering](https://aws.amazon.com/blogs/storage/running-wordpress-on-amazon-eks-with-amazon-efs-intelligent-tiering/) will show you how to deploy a containerised instance of WordPress using the Amazon Elastic Kubernetes Service (EKS) with persistent file storage leveraging EFS with Intelligent-tiering enabled for cost optimisation
+* [Deploy Python Application using AWS App Runner](https://aws.amazon.com/blogs/containers/deploy-python-application-using-aws-app-runner/) provides a walkthrough on how to deploy a containerised Python application that interacts with Amazon DynamoDB using AWS App Runner.
+* [IAM authentication with Amazon RDS for MariaDB](https://aws.amazon.com/blogs/database/iam-authentication-with-amazon-rds-for-mariadb/) helps you to set up an RDS for MariaDB instance and connect to the instance using IAM database authentication
 
 **Podcast**
 
-[Episode #168](https://aws-oss.beachgeek.co.uk/1cl), AWS Lambda Powertools Java on the Airhack.fm podcast features our very own Mark Sailes talking about all things AWS Lambda Powertool. 
+[Episode #168](https://podcasts.apple.com/us/podcast/aws-lambda-powertools-java/id1296655154?i=1000550237647), AWS Lambda Powertools Java on the Airhack.fm podcast features our very own Mark Sailes talking about all things AWS Lambda Powertool. 
 
 ### Whitepapers
 
@@ -143,13 +143,13 @@ Michael Matur shows you how configure your Ingress Controller Traefik Proxy with
 
 This week we have a white paper that dives deep into and provides a step-by-step guide on how to build a solution that allows using federated identities to seamlessly access private Amazon MWAA environments securely.
 
-Grab a cup of your favourite beverage and dive into [Accessing a private Amazon MWAA environment using federated identities](https://aws-oss.beachgeek.co.uk/1c7)
+Grab a cup of your favourite beverage and dive into [Accessing a private Amazon MWAA environment using federated identities](https://d1.awsstatic.com/whitepapers/accessing-a-private-amazon-mwaa-environment-using-federated-identities.pdf)
 
 ### Quick updates
 
 **Terraform**
 
-Version 4.0 of the HashiCorp Terraform AWS provider brings usability improvements to data sources and attribute validations along with a refactored S3 bucket resource. Check out the release notes with links to the code and modules, [Terraform AWS Provider 4.0 Refactors S3 Bucket Resource](https://aws-oss.beachgeek.co.uk/1c8)
+Version 4.0 of the HashiCorp Terraform AWS provider brings usability improvements to data sources and attribute validations along with a refactored S3 bucket resource. Check out the release notes with links to the code and modules, [Terraform AWS Provider 4.0 Refactors S3 Bucket Resource](https://www.hashicorp.com/blog/terraform-aws-provider-4-0-refactors-s3-bucket-resource)
 
 ### Videos of the week
 
@@ -187,7 +187,7 @@ Make sure you check out the AWS Twitch channel for a convo with Brian Houser fro
 
 The 24-hour HashiTalks is back for its fourth edition on Thursday, February 17. Tune-in to hear from and learn with fellow practitioners.
 
-Find your local chapter, find more details and [register here](https://aws-oss.beachgeek.co.uk/1b3).
+Find your local chapter, find more details and [register here](https://events.hashicorp.com/hashitalks2022).
 
 
 **AWS | Databricks ML Dev Day Workshop**
@@ -200,7 +200,7 @@ In this workshop you will get to learn about the current good practices for ente
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://www.meetup.com/OpenSearch/)
 
 **GitOpsCon Europe**
 **May 17th, Valencia Spain**
@@ -219,14 +219,14 @@ Read more about this from the official page [here](https://events.linuxfoundatio
 
 GitOpsCon Europe (#GitOpsCon) is designed to foster collaboration, discussion, and knowledge sharing on GitOps. This event is aimed at audiences that are new to GitOps as well as those currently using GitOps within their organization. Get connected with others that are passionate about GitOps. Learn from practitioners about pitfalls to avoid, hurdles to jump, and how to adopt GitOps in your cloud native environment.
 
-The CFP is now open, and you can read more about, and [submit your own session here](https://aws-oss.beachgeek.co.uk/1b2).
+The CFP is now open, and you can read more about, and [submit your own session here](https://events.linuxfoundation.org/gitopscon-europe/program/cfp/).
 
 **Apache Airflow**
 **CFP closes March, 14th**
 
 A heads up to folks who are interested in all things Apache Airflow. Apache Airflow Summit 2022 has been announced and the call for papers (cfp) is now open. The bar for sessions is always very high, so looking forward to this event already.
 
-If you have an idea for a talk, why not submit one via the cfp process. Check out the event, [Apache Airflow Summit 2022](https://aws-oss.beachgeek.co.uk/19e)
+If you have an idea for a talk, why not submit one via the cfp process. Check out the event, [Apache Airflow Summit 2022](https://sessionize.com/airflow-summit-2022)
 
 If you maybe have wanted to do a session, then I am very happy to help with feedback or coaching to help you feel more comfortable in creating and/or delivering your session. If this something that has been on your mind, but you just needed a little support, PLEASE get in touch.
 

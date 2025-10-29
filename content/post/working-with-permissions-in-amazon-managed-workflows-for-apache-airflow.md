@@ -6,12 +6,12 @@ tags: [Apache Airflow, mwaa, IAM Permissions, Security]
 ![innovate](https://raw.githubusercontent.com/094459/innovateaiml-airflow/main/images/banner.png)
 Part of a series of posts to support an up-coming online event, the Innovate AI/ML on February 24th, from 9:00am GMT - you can sign up [here](https://aws.amazon.com/events/aws-innovate/machine-learning/online/emea/?sc_channel=em&sc_campaign=EMEA_FIELD_WEBINAR_innovate-AIML_20210224_7014z000001MJbu&sc_medium=em_&sc_content=REG_t1_field&sc_geo=emea&sc_country=mult&sc_outcome=reg&sc_publisher=aws&trkCampaign=emea21_innovatemlq1&trk=em_emea21_innovatemlq1_ricardosueiras)
 
-* **Part 1** - [Installation and configuration of Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/3h)
+* **Part 1** - [Installation and configuration of Managed Workflows for Apache Airflow](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a)
 * **Part 2** - Working with Permissions <- this post
-* **Part 3** - [Accessing Amazon Managed Workflows for Apache Airflow environments](https://aws-oss.beachgeek.co.uk/3o)
-* **Part 4** - [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://aws-oss.beachgeek.co.uk/4s)
-* **Part 5** - [A simple CI/CD system for your development workflow](https://aws-oss.beachgeek.co.uk/4t)
-* **Part 6** - [Monitoring and logging](https://aws-oss.beachgeek.co.uk/5r)
+* **Part 3** - [Accessing Amazon Managed Workflows for Apache Airflow environments](https://dev.to/aws/access-options-for-amazon-managed-workflows-for-apache-airflow-c67)
+* **Part 4** - [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://dev.to/aws/interacting-with-amazon-managed-workflows-for-apache-airflow-via-the-command-line-4e91)
+* **Part 5** - [A simple CI/CD system for your development workflow](https://dev.to/aws/a-simple-ci-cd-system-for-your-development-workflow-30b4)
+* **Part 6** - [Monitoring and logging](https://dev.to/aws/monitoring-and-logging-with-amazon-managed-workflows-for-apache-airflow-4530)
 * **Part 7** - Automating a simple AI/ML pipeline with Apache Airflow 
 
 In this post I will be covering Part 2, how to ensure that you control access to Apache Airflow following best practices such as default no access/least privilege.
@@ -26,13 +26,13 @@ Specifically I will cover a couple of things:
 * An AWS account with the right level of privileges
 * An environment with the AWS CLI tools configured and running
 * Access to an AWS region where Managed Workflows for Apache Airflow is supported
-* An environment of Amazon Managed Workflows for Apache Airflow already setup - you should ideally have followed [part one here](https://aws-oss.beachgeek.co.uk/3h).
+* An environment of Amazon Managed Workflows for Apache Airflow already setup - you should ideally have followed [part one here](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a).
 
 **Introduction and documentation**
 
 It is worth starting out with the documentation available for the Amazon Managed Workflows for Apache Airflow as it contains some useful reference information as well as some terms that I will follow to avoid confusion.
 
-The documentation page, [Managing access to Amazon Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/3k) is a good starting point to understand in more depth how permissions work in MWAA. The [Identity and access management for Amazon MWAA](https://aws-oss.beachgeek.co.uk/3l) documentation page is also helpful and there is also a Best Practices page within the documentation which you can find at this link, [Best practices](https://aws-oss.beachgeek.co.uk/3m) too.
+The documentation page, [Managing access to Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/mwaa/latest/userguide/manage-access.html) is a good starting point to understand in more depth how permissions work in MWAA. The [Identity and access management for Amazon MWAA](https://docs.aws.amazon.com/mwaa/latest/userguide/security-iam.html) documentation page is also helpful and there is also a Best Practices page within the documentation which you can find at this link, [Best practices](https://docs.aws.amazon.com/mwaa/latest/userguide/security-best-practices.html) too.
 
 The documentation refers to Service Users, Service Administrators and IAM Administrators. For the purposes of this walkthrough, you can think of the Service Users as the Airflow developers who will develop/create the DAGs, the Service Administrators as Airflow Admins who might ensure that the environments are setup and they are integrated with the required resources and then the IAM Administrators who are the folks that the Service Administrators will typically work with to identify and limit permissions to the least required.
 
@@ -225,7 +225,7 @@ We would create a json policy that contained the narrowest permissions we could 
 ```
 You would change out the EMR ARNs at the bottom for the ones you have configured within your own environment.
 
-Attaching this policy to the MWAA execution role will now allow the MWAA workers to submit EMR Jobs. Following [this great blog post](https://aws-oss.beachgeek.co.uk/19) from Gary Stafford, after attaching the above policy I was able to kick off a workflow and looking at the logs we can see this was successful.
+Attaching this policy to the MWAA execution role will now allow the MWAA workers to submit EMR Jobs. Following [this great blog post](https://itnext.io/running-spark-jobs-on-amazon-emr-with-apache-airflow-2e16647fea0c) from Gary Stafford, after attaching the above policy I was able to kick off a workflow and looking at the logs we can see this was successful.
 
 ```
 [2021-01-25 12:38:41,280] {{emr_create_job_flow_operator.py:66}} INFO - Creating JobFlow using aws-conn-id: s3_default, emr-conn-id: emr_default
@@ -395,7 +395,7 @@ MwaaDeveloperAccess:
 
 ```
 
-You can see an example full CloudFormation template that includes the permissions [here](https://aws-oss.beachgeek.co.uk/3i).
+You can see an example full CloudFormation template that includes the permissions [here](https://github.com/094459/innovateaiml-airflow/tree/main/cf).
 
 If you followed the previous post, all you have to do is adjust the CloudFormation template to incorporate these and then use the UPDATE stack and use this new version. This will install just these new resources.
 
@@ -422,7 +422,7 @@ This might make more sense to lock down for developers rather than Admins on the
 
 You can create permissions policies that allow you to define access to view in a read only capacity or to be able to create new environments. You might uses these permissions to define roles that are used for operational activities such as spinning up or removing environments, reporting etc. 
 
-Rather than repeat those, the MWAA documentation has this very well presented [here](https://aws-oss.beachgeek.co.uk/3k). You can use the same approach as above to automate these into your CloudFormation templates. 
+Rather than repeat those, the MWAA documentation has this very well presented [here](https://docs.aws.amazon.com/mwaa/latest/userguide/manage-access.html). You can use the same approach as above to automate these into your CloudFormation templates. 
 
 
 **Conclusion**

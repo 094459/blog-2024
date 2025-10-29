@@ -34,45 +34,45 @@ So thank you to the following open source heroes:  Donnie Prakoso, Michael Vinci
 
 **event-ruler**
 
-[event-ruler](https://aws-oss.beachgeek.co.uk/20c) is a new open source Java library that allows matching Rules to Events. An event is a list of fields, which may be given as name/value pairs or as a JSON object. A rule associates event field names with lists of possible values. There are two reasons to use Ruler: 1/ it's fast; the time it takes to match Events doesn't depend on the number of Rules, and 2/ customers like the JSON "query language" for expressing rules.
+[event-ruler](https://github.com/aws/event-ruler) is a new open source Java library that allows matching Rules to Events. An event is a list of fields, which may be given as name/value pairs or as a JSON object. A rule associates event field names with lists of possible values. There are two reasons to use Ruler: 1/ it's fast; the time it takes to match Events doesn't depend on the number of Rules, and 2/ customers like the JSON "query language" for expressing rules.
 
-To find out more, check out the blog post from Rishi Baldawa, [Open Sourcing Event Ruler](https://aws-oss.beachgeek.co.uk/20d) which dives deeper into the internals of this project. You should also check out this post, [Hello Ruler](https://aws-oss.beachgeek.co.uk/20e) from Tim Bray, who contributed to this project and  that provides some additional flavour.
+To find out more, check out the blog post from Rishi Baldawa, [Open Sourcing Event Ruler](https://aws.amazon.com/blogs/opensource/open-sourcing-event-ruler/) which dives deeper into the internals of this project. You should also check out this post, [Hello Ruler](https://www.tbray.org/ongoing/When/202x/2022/09/02/Hello-Ruler) from Tim Bray, who contributed to this project and  that provides some additional flavour.
 
 **xcodeinstall**
 
-[xcodeinstall](https://aws-oss.beachgeek.co.uk/20a) this project from colleague Sébastien Stormacq is for macOS, iOS, iPadOS  developers using Mac machines for CI/CD, like EC2 Mac instances. This command line tool allows to list, download, and install Xcode and its Command Line Tools from a SSH session.  No GUI required. No web-based download from Apple Developer Portal. It is integrated with AWS Secrets Manager to store the apple session cookies, only the initial authentication requires a human interaction. It supports MFA and may store your apple developer portal credentials in AWS Secrets Manager.  The README has the details of the minimum IAM permissions required to do so.
+[xcodeinstall](https://github.com/sebsto/xcodeinstall) this project from colleague Sébastien Stormacq is for macOS, iOS, iPadOS  developers using Mac machines for CI/CD, like EC2 Mac instances. This command line tool allows to list, download, and install Xcode and its Command Line Tools from a SSH session.  No GUI required. No web-based download from Apple Developer Portal. It is integrated with AWS Secrets Manager to store the apple session cookies, only the initial authentication requires a human interaction. It supports MFA and may store your apple developer portal credentials in AWS Secrets Manager.  The README has the details of the minimum IAM permissions required to do so.
 
 This is an early stage project, and Sebastien is interested in your feedback. He knows it works on his machine and on EC2 Mac instances, and is curious about other configuration / environments. Please file issues on GitHub.
 
 **soci-snapshotter**
 
-[soci-snapshotter](https://aws-oss.beachgeek.co.uk/20n) is a super interesting new project and something to check out if you are using Containers. SOCI Snapshotter is a containerd snapshotter plugin. It enables standard OCI images to be lazily loaded without requiring a build-time conversion step. "SOCI" is short for "Seekable OCI", and is pronounced "so-CHEE". The standard method for launching containers starts with a setup phase during which the container image data is completely downloaded from a remote registry and a filesystem is assembled. The application is not launched until this process is complete. Using a representative suite of images, Harter et al FAST '16 found that image download accounts for 76% of container startup time, but on average only 6.4% of the fetched data is actually needed for the container to start doing useful work.
+[soci-snapshotter](https://github.com/awslabs/soci-snapshotter) is a super interesting new project and something to check out if you are using Containers. SOCI Snapshotter is a containerd snapshotter plugin. It enables standard OCI images to be lazily loaded without requiring a build-time conversion step. "SOCI" is short for "Seekable OCI", and is pronounced "so-CHEE". The standard method for launching containers starts with a setup phase during which the container image data is completely downloaded from a remote registry and a filesystem is assembled. The application is not launched until this process is complete. Using a representative suite of images, Harter et al FAST '16 found that image download accounts for 76% of container startup time, but on average only 6.4% of the fetched data is actually needed for the container to start doing useful work.
 
 Definitely worth reading the README for this project.
 
 **credentials-fetcher**
 
-[credentials-fetcher](https://aws-oss.beachgeek.co.uk/20o) is a Linux daemon that retrieves group managed service account (gMSA) credentials from Active Directory over LDAP. It creates and refreshes kerberos tickets from gMSA credentials, and those Kerberos tickets can be used by containers to run apps/services that authenticate using Active Directory.
+[credentials-fetcher](https://github.com/aws/credentials-fetcher) is a Linux daemon that retrieves group managed service account (gMSA) credentials from Active Directory over LDAP. It creates and refreshes kerberos tickets from gMSA credentials, and those Kerberos tickets can be used by containers to run apps/services that authenticate using Active Directory.
 
 **aws-gamekit-unity**
 
-[aws-gamekit-unity](https://aws-oss.beachgeek.co.uk/20p) this repository contains modifiable source code for the AWS GameKit package for Unity in the form of an Embedded Package. If you don’t need to modify the AWS GameKit package, you can download the latest tarball .tgz file from the releases page and add it to a Unity project using the Unity Package Manager. To modify this package we recommend cloning this repo and opening it as a blank Unity project. After making your changes, follow the Packaging steps below to generate a custom plugin package, which you can then add to your Unity projects.
+[aws-gamekit-unity](https://github.com/aws/aws-gamekit-unity) this repository contains modifiable source code for the AWS GameKit package for Unity in the form of an Embedded Package. If you don’t need to modify the AWS GameKit package, you can download the latest tarball .tgz file from the releases page and add it to a Unity project using the Unity Package Manager. To modify this package we recommend cloning this repo and opening it as a blank Unity project. After making your changes, follow the Packaging steps below to generate a custom plugin package, which you can then add to your Unity projects.
 
 **AWSCreds**
 
-[AWSCreds](https://aws-oss.beachgeek.co.uk/214) this project from Michael Vinci might be useful for Mac owners as it provides a MacOS menubar app to help switch AWS Profiles.
+[AWSCreds](https://github.com/michaeldvinci/AWSCreds) this project from Michael Vinci might be useful for Mac owners as it provides a MacOS menubar app to help switch AWS Profiles.
 
 ![demo of tool](https://github.com/michaeldvinci/AWSCreds/blob/main/res/AWSCreds.gif?raw=true)
 
 **imds-credential-server**
 
-[imds-credential-server](https://aws-oss.beachgeek.co.uk/20y) is a very nice tool from AWS Serverless Hero Ben Kehoe that runs a server compliant with the EC2 IMDSv2 interface in order to vend AWS credentials, primarily to export credentials into locally-run containers. This is better than mounting your ~/.aws directory into a container as a) it allows for mechanisms that only work on the host, e.g., custom credential processes and b) it only vends one set of (refreshable) credentials to the container rather than providing access to all your credentials. I have a few ideas of how I am going to use this, so hopefully I will have some time to play about with this project and share in a future newsletter.
+[imds-credential-server](https://github.com/benkehoe/imds-credential-server) is a very nice tool from AWS Serverless Hero Ben Kehoe that runs a server compliant with the EC2 IMDSv2 interface in order to vend AWS credentials, primarily to export credentials into locally-run containers. This is better than mounting your ~/.aws directory into a container as a) it allows for mechanisms that only work on the host, e.g., custom credential processes and b) it only vends one set of (refreshable) credentials to the container rather than providing access to all your credentials. I have a few ideas of how I am going to use this, so hopefully I will have some time to play about with this project and share in a future newsletter.
 
 ### Demos, Samples, Solutions and Workshops
 
 **automated-data-analytics-on-aws**
 
-[automated-data-analytics-on-aws](https://aws-oss.beachgeek.co.uk/20g) is a new open source solution that provides an end-to-end data platform for ingesting, transforming, managing and querying datasets. This helps analysts and business users manage and gain insights from data without deep technical experience using Amazon Web Services (AWS). It has an open-sourced architecture with connectors to commonly used AWS services, along with third-party data sources and services. This solution also provides a user interface (UI) to search, share, manage, and query datasets using standard SQL commands.
+[automated-data-analytics-on-aws](https://github.com/aws-solutions/automated-data-analytics-on-aws) is a new open source solution that provides an end-to-end data platform for ingesting, transforming, managing and querying datasets. This helps analysts and business users manage and gain insights from data without deep technical experience using Amazon Web Services (AWS). It has an open-sourced architecture with connectors to commonly used AWS services, along with third-party data sources and services. This solution also provides a user interface (UI) to search, share, manage, and query datasets using standard SQL commands.
 
 ![architecture for solution](https://github.com/aws-solutions/automated-data-analytics-on-aws/blob/main/source/images/solution_architecture_diagram.png?raw=true)
 
@@ -85,13 +85,13 @@ I found out about this project from the video that the team did at the AWS Summi
 
 **aws-integration-for-apache-guacamole**
 
-[aws-integration-for-apache-guacamole](https://aws-oss.beachgeek.co.uk/20q) Apache Guacamole is an open source tool that provides a client-less remote desktop gateway, supporting standard protocols like VNC, RDP, and SSH. This repository is a walk through of scripts that were made to quickly set up an automated VDI - Virtual Desktop Infrastructure - using the Apache Guacamole using Amazon EC2 Spot Instances. This sample is an AWS automation to integrate with Apache Guacamole using Eventbridge Rules and Lambda Functions to detect EC2 events in the VPC and create or remove connections in Guacamole. Very cool indeed.
+[aws-integration-for-apache-guacamole](https://github.com/aws-samples/aws-integration-for-apache-guacamole) Apache Guacamole is an open source tool that provides a client-less remote desktop gateway, supporting standard protocols like VNC, RDP, and SSH. This repository is a walk through of scripts that were made to quickly set up an automated VDI - Virtual Desktop Infrastructure - using the Apache Guacamole using Amazon EC2 Spot Instances. This sample is an AWS automation to integrate with Apache Guacamole using Eventbridge Rules and Lambda Functions to detect EC2 events in the VPC and create or remove connections in Guacamole. Very cool indeed.
 
 ![architecture of apache guacamole reference solution](https://github.com/aws-samples/aws-integration-for-apache-guacamole/blob/main/images/EAD-FireTV-blogpost.png?raw=true)
 
 **aws-lambda-unit-test-example**
 
-[aws-lambda-unit-test-example](https://aws-oss.beachgeek.co.uk/211) this repo contains sample code to demonstrate unit testing approaches using Python when using AWS services such as Amazon API Gateway, an AWS Lambda function, a DynamoDB Table, and an S3 bucket.
+[aws-lambda-unit-test-example](https://github.com/aws-samples/aws-lambda-unit-test-example) this repo contains sample code to demonstrate unit testing approaches using Python when using AWS services such as Amazon API Gateway, an AWS Lambda function, a DynamoDB Table, and an S3 bucket.
 
 ![architecture of lambda unit test](https://github.com/aws-samples/aws-lambda-unit-test-example/blob/main/doc/architecture.png?raw=true)
 
@@ -99,17 +99,17 @@ An API Gatway path [1] triggers an AWS Lambda function [2] that retrieves a data
 
 **observability-driven-development**
 
-[observability-driven-development](https://aws-oss.beachgeek.co.uk/210) this repo contains all the code from the Observability Driven Development workshop that promotes observability as a primary concern in the development process. Observability Driven Development elevates application and infrastructure observability to primary concerns in the development lifecycle. Operational health, security, compliance and business impact are instrumented early in the life cycle to provide comprehensive observability before, during, and after application deployments. Observability Driven Development aligns with development models like Test Driven Development and Behaviour Driven Development.
+[observability-driven-development](https://github.com/aws-samples/observability-driven-development) this repo contains all the code from the Observability Driven Development workshop that promotes observability as a primary concern in the development process. Observability Driven Development elevates application and infrastructure observability to primary concerns in the development lifecycle. Operational health, security, compliance and business impact are instrumented early in the life cycle to provide comprehensive observability before, during, and after application deployments. Observability Driven Development aligns with development models like Test Driven Development and Behaviour Driven Development.
 
 ### AWS and Community blog posts
 
 **NodeJS**
 
-Great post from Nathan Peck for those who are NodeJS developers wanting to explore how to run their applications on Containers. In his post, [Your first Node.js container on AWS](https://aws-oss.beachgeek.co.uk/20r), Nathan gently guides you through everything you need to know to be able to confidently run your Node applications on Containers. Essential reading this week. [hands on]
+Great post from Nathan Peck for those who are NodeJS developers wanting to explore how to run their applications on Containers. In his post, [Your first Node.js container on AWS](https://nathanpeck.com/your-first-nodejs-container-on-aws/), Nathan gently guides you through everything you need to know to be able to confidently run your Node applications on Containers. Essential reading this week. [hands on]
 
 **PyTorch**
 
-In the post, [Distributed training with Amazon EKS and Torch Distributed Elastic](https://aws-oss.beachgeek.co.uk/20k),  Imran Younus and Alex Iankoulski detail the steps needed for running PyTorch distributed data parallel model training on EKS clusters. This post shows how you can use the [AWS DevOps for EKS](https://aws-oss.beachgeek.co.uk/20l) project created by the ML Frameworks team at AWS provides all the necessary scripts and tools to simplify the process and make distributed model training easily accessible.[hands on]
+In the post, [Distributed training with Amazon EKS and Torch Distributed Elastic](https://aws.amazon.com/blogs/machine-learning/distributed-training-with-amazon-eks-and-torch-distributed-elastic/),  Imran Younus and Alex Iankoulski detail the steps needed for running PyTorch distributed data parallel model training on EKS clusters. This post shows how you can use the [AWS DevOps for EKS](https://github.com/aws-samples/aws-do-eks) project created by the ML Frameworks team at AWS provides all the necessary scripts and tools to simplify the process and make distributed model training easily accessible.[hands on]
 
 ![architecture of solution for running pytorch on eks](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/08/24/ML-9589-image002.png)
 
@@ -117,21 +117,21 @@ In the post, [Distributed training with Amazon EKS and Torch Distributed Elastic
 
 A couple of posts this weeks for Microsoft dot Net Core fans.
 
-Many customers are looking to modernise their .NET applications via open source, and so in this first post [Accelerate containerization and migration of ASP.NET Core applications to AWS using AWS App2Container](https://aws-oss.beachgeek.co.uk/20h), Pavankumar Kasani and Prasad Rao provide a tutorial on how you can containerise your ASP.NET Core applications to Linux containers and migrate to AWS using AWS App2Container (A2C). AWS App2Container is a command-line tool for modernising .NET and Java applications into containerised applications. [hands on]
+Many customers are looking to modernise their .NET applications via open source, and so in this first post [Accelerate containerization and migration of ASP.NET Core applications to AWS using AWS App2Container](https://aws.amazon.com/blogs/modernizing-with-aws/containerize-asp-net-core-applications-using-aws-app2container/), Pavankumar Kasani and Prasad Rao provide a tutorial on how you can containerise your ASP.NET Core applications to Linux containers and migrate to AWS using AWS App2Container (A2C). AWS App2Container is a command-line tool for modernising .NET and Java applications into containerised applications. [hands on]
 
-Following that we have Mukesh Murugan who has put together this post, [Hosting ASP.NET Core Web API with AWS Lambda – Truly Serverless REST APIs](https://aws-oss.beachgeek.co.uk/20w), provides a hands on post that will help you understand more about hosting ASP.NET Core Web API with AWS Lambda. [hands on]
+Following that we have Mukesh Murugan who has put together this post, [Hosting ASP.NET Core Web API with AWS Lambda – Truly Serverless REST APIs](https://codewithmukesh.com/blog/hosting-aspnet-core-web-api-with-aws-lambda/), provides a hands on post that will help you understand more about hosting ASP.NET Core Web API with AWS Lambda. [hands on]
 
 **Babelfish for PostgreSQL**
 
-In the post, [Provisioning an AWS PostgreSQL Aurora RDS Cluster with Babelfish using Terraform](https://aws-oss.beachgeek.co.uk/20v), Paul Bradley provides a nice introduction into Babelfish and then shows you how you can use Terraform and infrastructure as code to automate the configuration and deployment of this. 
+In the post, [Provisioning an AWS PostgreSQL Aurora RDS Cluster with Babelfish using Terraform](https://dev.to/nhsdeveloper/provisioning-an-aws-postgresql-aurora-rds-cluster-with-babelfish-using-terraform-5730), Paul Bradley provides a nice introduction into Babelfish and then shows you how you can use Terraform and infrastructure as code to automate the configuration and deployment of this. 
 
 **Terraform**
 
-Vladyslav Budichenko shares how you can quickly use Terraform to deploy a static website on AWS in hist post, [Deploy a static website on AWS with terraform](https://aws-oss.beachgeek.co.uk/20x) [hands on]
+Vladyslav Budichenko shares how you can quickly use Terraform to deploy a static website on AWS in hist post, [Deploy a static website on AWS with terraform](https://dev.to/boodyvo/deploy-a-static-website-on-aws-with-terraform-2el3) [hands on]
 
 **ECS compose-x**
 
-[ECS compose-x](https://aws-oss.beachgeek.co.uk/20s) is an open source tool from AWS Community Builder John Mille that simplifies how you can deploy your infrastructure and applications on Amazon ECS, leveraging existing docker compose files and providing modularity via plugins. He has put together a couple of blog posts on a couple of solutions for [MQTT persistence with AWS IOT core bridge with Mosquitto](https://aws-oss.beachgeek.co.uk/20u) and [Prometheus proxy to AWS Managed Prometheus](https://aws-oss.beachgeek.co.uk/20t).
+[ECS compose-x](https://docs.compose-x.io/) is an open source tool from AWS Community Builder John Mille that simplifies how you can deploy your infrastructure and applications on Amazon ECS, leveraging existing docker compose files and providing modularity via plugins. He has put together a couple of blog posts on a couple of solutions for [MQTT persistence with AWS IOT core bridge with Mosquitto](https://labs.compose-x.io/iot/mosquitto-on-edge.html) and [Prometheus proxy to AWS Managed Prometheus](https://labs.compose-x.io/monitoring/ecs-anywhere-prometheus-proxy.html).
 
 The first post hows to build a solution where all local MQTT transactions are synchronised on AWS for persistence and future-proofing. 
 
@@ -143,7 +143,7 @@ The second post (Running Prometheus with proxy to AWS Managed Prometheus) shows 
 
 **Other posts you might like from the past week**
 
-* [Modernize Moodle LMS with AWS serverless containers](https://aws-oss.beachgeek.co.uk/212) shares how you can deploy Moodle LMS using serverless containers technology on AWS to help remove the undifferentiated heavy-lifting in managing the servers
+* [Modernize Moodle LMS with AWS serverless containers](https://aws.amazon.com/blogs/publicsector/modernize-moodle-lms-aws-serverless-containers/) shares how you can deploy Moodle LMS using serverless containers technology on AWS to help remove the undifferentiated heavy-lifting in managing the servers
 
 ![architecture of modern serverless moodle](https://d2908q01vomqb2.cloudfront.net/9e6a55b6b4563e652a23be9d623ca5055c356940/2022/09/06/moodle-lms-with-aws-serverless-containers-figure-5-architecture-diagram.png)
 
@@ -151,12 +151,12 @@ The second post (Running Prometheus with proxy to AWS Managed Prometheus) shows 
 
 ![architecture for eks control plane logs cost optimising](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/08/18/EKS-GuardDuty-Blog-Arch.png)
 
-* [Introducing vended logs for Amazon Managed Service for Prometheus](https://aws-oss.beachgeek.co.uk/213) provides a solution to demonstrate just how you can use logs with Amazon Managed Service for Prometheus to troubleshoot alert manager configuration issues
-* [Monitoring Windows desktops on Amazon Workspaces using Amazon Managed Service for Prometheus and Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/20i) shows you how you can set up Amazon Managed Service for Prometheus, Amazon Managed Grafana, and a Prometheus server on Amazon Elastic Compute Cloud (Amazon EC2) to provide a monitoring solution for Amazon Workspaces [hands on]
+* [Introducing vended logs for Amazon Managed Service for Prometheus](https://aws.amazon.com/blogs/mt/introducing-vended-logs-for-amazon-managed-service-for-prometheus/) provides a solution to demonstrate just how you can use logs with Amazon Managed Service for Prometheus to troubleshoot alert manager configuration issues
+* [Monitoring Windows desktops on Amazon Workspaces using Amazon Managed Service for Prometheus and Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/monitoring-windows-desktops-on-amazon-workspaces-using-amazon-managed-service-for-prometheus-and-amazon-managed-grafana/) shows you how you can set up Amazon Managed Service for Prometheus, Amazon Managed Grafana, and a Prometheus server on Amazon Elastic Compute Cloud (Amazon EC2) to provide a monitoring solution for Amazon Workspaces [hands on]
 
 ![architecture of grafana and prometheus monitoring solution](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/08/31/prometheus-8-31-22.drawio.png)
 
-* [Create an audit trail for an Amazon Aurora PostgreSQL table](https://aws-oss.beachgeek.co.uk/20j) covers how to create an audit log for a table in an Amazon Aurora PostgreSQL [hands on]
+* [Create an audit trail for an Amazon Aurora PostgreSQL table](https://aws.amazon.com/blogs/database/create-an-audit-trail-for-an-amazon-aurora-postgresql-table/) covers how to create an audit log for a table in an Amazon Aurora PostgreSQL [hands on]
 
 ![overview of solution for postgres audit log](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/08/24/Aurora-Postgres-Audit-Trail-3-1024x398.png)
 
@@ -164,13 +164,13 @@ The second post (Running Prometheus with proxy to AWS Managed Prometheus) shows 
 
 **AWS Toolkit for VS Code**
 
-Covering improvements in the "Connect to AWS" experience of the AWS Toolkit for VS Code (something I am very happy about as a regular user), in the post [Improvements to the connection experience in the AWS Toolkit for VS Code](https://aws-oss.beachgeek.co.uk/20m), Justin Keye dives deeper into what some of those improvements are.
+Covering improvements in the "Connect to AWS" experience of the AWS Toolkit for VS Code (something I am very happy about as a regular user), in the post [Improvements to the connection experience in the AWS Toolkit for VS Code](https://aws.amazon.com/blogs/developer/introducing-connection-ux-improvements-in-the-aws-toolkit-for-vs-code/), Justin Keye dives deeper into what some of those improvements are.
 
 **Kubernetes**
 
 An additional 5 AWS Controllers for Kubernetes (ACK) service controllers have graduated to generally available status. Customers can now provision and manage AWS resources using ACK controllers for Amazon Relational Database Service (RDS), AWS Lambda, AWS Step Functions, Amazon Managed Service for Prometheus (AMP), and AWS Key Management Service (KMS).
 
-ACK lets you define and use AWS service resources directly from Kubernetes clusters. With ACK, you can take advantage of AWS managed services for your Kubernetes applications without needing to define resources outside of the cluster or run services that provide supporting capabilities like databases or message queues within the cluster. [ACK now supports 12 AWS service controllers as generally available with an additional 13 in preview.](https://aws-oss.beachgeek.co.uk/20b)
+ACK lets you define and use AWS service resources directly from Kubernetes clusters. With ACK, you can take advantage of AWS managed services for your Kubernetes applications without needing to define resources outside of the cluster or run services that provide supporting capabilities like databases or message queues within the cluster. [ACK now supports 12 AWS service controllers as generally available with an additional 13 in preview.](https://aws-controllers-k8s.github.io/community/docs/community/services/)
 
 **Prometheus**
 
@@ -218,7 +218,7 @@ https://twitch.tv/aws
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 **OpenSearchCon 2022**
 **Sept 21st, 2022 Seattle**
@@ -227,7 +227,7 @@ Come to the first annual OpenSearchCon!
 
 This day-long conference will be packed with presenters who build and innovate with OpenSearch. It doesn’t matter if you’re just getting started on your OpenSearch journey, running giant clusters, or contributing tons of code; the event is for everyone. Join us to celebrate the progress and look into the future of the project. Admission is free, and registration will be open in the next few weeks. All you will need to do is sign up, and get to Seattle!
 
-Check out the full details, including signing up and location, at the [meetup page here](https://aws-oss.beachgeek.co.uk/1n1).
+Check out the full details, including signing up and location, at the [meetup page here](https://www.meetup.com/OpenSearch/events/285152025/).
 
 
 ### Stay in touch with open source at AWS

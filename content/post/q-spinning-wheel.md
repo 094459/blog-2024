@@ -138,7 +138,7 @@ I have uploaded the code to [this GitHub repository] so you can check this out f
 
 I hope you found this quick post interesting. I hope by sharing how I am using Amazon Q Developer in my day to day activities, it will inspire many of you to try and see how you get on. Please do share your own experiences, both good and bad. I will be eagerly waiting to read them.
 
-You can try Amazon Q Developer for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=34e0ecce-8101-42c4-840a-fe6170420294&sc_channel=el). You can also check out [my other posts](https://community.aws/@ricsueaws) on community.aws, as I have been sharing a lot of tips and use cases of how I am using Amazon Q Developer. You can also keep up to date with all the new features and improvements of Amazon Q Developer by checking out the [changelog](https://aws-oss.beachgeek.co.uk/40i).
+You can try Amazon Q Developer for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=34e0ecce-8101-42c4-840a-fe6170420294&sc_channel=el). You can also check out [my other posts](https://community.aws/@ricsueaws) on community.aws, as I have been sharing a lot of tips and use cases of how I am using Amazon Q Developer. You can also keep up to date with all the new features and improvements of Amazon Q Developer by checking out the [changelog](https://aws.amazon.com/developer/generative-ai/amazon-q/change-log/).
 
 
 ---

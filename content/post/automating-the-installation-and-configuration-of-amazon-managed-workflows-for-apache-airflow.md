@@ -10,11 +10,11 @@ tags: [Apache Airflow, mwaa, IaC, AWS CDK, AWS CloudFormation]
 Part of a series of posts to support an up-coming online event, the Innovate AI/ML on February 24th, from 9:00am GMT - you can sign up [here](https://aws.amazon.com/events/aws-innovate/machine-learning/online/emea/?sc_channel=em&sc_campaign=EMEA_FIELD_WEBINAR_innovate-AIML_20210224_7014z000001MJbu&sc_medium=em_&sc_content=REG_t1_field&sc_geo=emea&sc_country=mult&sc_outcome=reg&sc_publisher=aws&trkCampaign=emea21_innovatemlq1&trk=em_emea21_innovatemlq1_ricardosueiras)
 
 * **Part 1** - Installation and configuration of Managed Workflows for Apache Airflow <- this post
-* **Part 2** - [Working with Permissions](https://aws-oss.beachgeek.co.uk/3n)
-* **Part 3** - [Accessing Amazon Managed Workflows for Apache Airflow environments](https://aws-oss.beachgeek.co.uk/3o) 
-* **Part 4** - [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://aws-oss.beachgeek.co.uk/4s)
-* **Part 5** - [A simple CI/CD system for your development workflow](https://aws-oss.beachgeek.co.uk/4t)
-* **Part 6** - [Monitoring and logging](https://aws-oss.beachgeek.co.uk/5r)
+* **Part 2** - [Working with Permissions](https://dev.to/aws/working-with-permissions-in-amazon-managed-workflows-for-apache-airflow-2g5l)
+* **Part 3** - [Accessing Amazon Managed Workflows for Apache Airflow environments](https://dev.to/aws/access-options-for-amazon-managed-workflows-for-apache-airflow-c67) 
+* **Part 4** - [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://dev.to/aws/interacting-with-amazon-managed-workflows-for-apache-airflow-via-the-command-line-4e91)
+* **Part 5** - [A simple CI/CD system for your development workflow](https://dev.to/aws/a-simple-ci-cd-system-for-your-development-workflow-30b4)
+* **Part 6** - [Monitoring and logging](https://dev.to/aws/monitoring-and-logging-with-amazon-managed-workflows-for-apache-airflow-4530)
 * **Part 7** - Automating a simple AI/ML pipeline with Apache Airflow 
 
 In this post I will be covering Part 1, automating the installation and configuration of  Managed Workflows for Apache Airflow (MWAA).
@@ -562,7 +562,7 @@ WebserverAccessMode: PUBLIC_ONLY | PRIVATE_ONLY
 WeeklyMaintenanceWindowStart: "SUN:02:30"
 
 ```
-Take a look at the documentation [here](https://aws-oss.beachgeek.co.uk/3j) to see what other values you can change.
+Take a look at the documentation [here](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html) to see what other values you can change.
 
 If you want to update the Airflow configuration settings, then use the following format:
 
@@ -691,11 +691,11 @@ For those already familiar with Apache Airflow, or if you are new, one of the ke
 
 MWAA does not expose this and so you cannot directly make any changes to this file. There are some configuration changes you can make, and I covered these briefly above (AirflowConfigurationOptions: section) but you can see the documentation page, [Customizing Apache Airflow configurations](https://docs.aws.amazon.com/mwaa/latest/userguide/configuring-env-variables.html), that shows in more detail what configuration options are available.
 
-If you want to dive a little deeper, check out this great post from Gary Stafford, [Amazon Managed Workflows for Apache Airflow — Configuration](https://aws-oss.beachgeek.co.uk/3r) that provides some additional information as well as some example workflows you can use to explore your own MWAA environments.
+If you want to dive a little deeper, check out this great post from Gary Stafford, [Amazon Managed Workflows for Apache Airflow — Configuration](https://itnext.io/amazon-managed-workflows-for-apache-airflow-configuration-77db7fd633c5) that provides some additional information as well as some example workflows you can use to explore your own MWAA environments.
 
 **Conclusion**
 
-This concludes the first post around how to automate the installation and configuration via AWS CloudFormation. You can find the templates used in this post [here](https://aws-oss.beachgeek.co.uk/3i), and watch out for the next posts which take a look configuring permissions, accessing additional AWS resources and setting up developer workflows.
+This concludes the first post around how to automate the installation and configuration via AWS CloudFormation. You can find the templates used in this post [here](https://github.com/094459/innovateaiml-airflow/tree/main/cf), and watch out for the next posts which take a look configuring permissions, accessing additional AWS resources and setting up developer workflows.
 
 In the next post we will look at permissions and how you can review and automate these too.
 

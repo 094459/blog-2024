@@ -31,30 +31,30 @@ So thank you to the following open source heroes: Takafumi Miyanaga, Olly Pomero
 
 **stree**
 
-[stree](https://aws-oss.beachgeek.co.uk/3o1) this project from Takafumi Miyanaga is a CLI tool designed to visualize the directory tree structure of an S3 bucket.
+[stree](https://github.com/orangekame3/stree) this project from Takafumi Miyanaga is a CLI tool designed to visualize the directory tree structure of an S3 bucket.
 By inputting an S3 bucket/prefix and utilizing various flags to customize your request, you can obtain a colorized or non-colorized directory tree right in your terminal. Whether it's for verifying the file structure, sharing the structure with your team, or any other purpose, stree offers an easy and convenient way to explore your S3 buckets. I love it!
 
 ![demo of stree running](https://github.com/orangekame3/stree/raw/main/img/demo.gif)
 
 **rds-instances-locator**
 
-[rds-instances-locator](https://aws-oss.beachgeek.co.uk/3o0) There are times when you want to know exactly in which physical AZ your RDS instances are running. For those instances, you can use this script to help you. Details on the various scenarios it has been designed for as well as example commands make this something you can easily get started with. No more hide and seek RDS!
+[rds-instances-locator](https://github.com/aws-samples/rds-instances-locator) There are times when you want to know exactly in which physical AZ your RDS instances are running. For those instances, you can use this script to help you. Details on the various scenarios it has been designed for as well as example commands make this something you can easily get started with. No more hide and seek RDS!
 
 **active-active-cache**
 
-[active-active-cache](https://aws-oss.beachgeek.co.uk/3o5) is a repo that helps you build a solution that implements an active-active cache across 2 AWS regions, using ElastiCache for Redis. This solution is automated with CDK and SAM.
+[active-active-cache](https://github.com/aws-samples/active-active-cache) is a repo that helps you build a solution that implements an active-active cache across 2 AWS regions, using ElastiCache for Redis. This solution is automated with CDK and SAM.
 
 ![overview of active active cache process flow](https://github.com/aws-samples/active-active-cache/blob/main/architecture/ActiveActiveCache_Architecture.png?raw=true)
 
 **s3-restore-and-copy-progress-monitoring**
 
-[s3-restore-and-copy-progress-monitoring](https://aws-oss.beachgeek.co.uk/3o3) this is a very comprehensive and polished repo that provides an example of how you can restore data that you have stored in S3, providing you a single visualised dashboard to monitor the restore and copy progress within a defined scope.
+[s3-restore-and-copy-progress-monitoring](https://github.com/aws-samples/s3-restore-and-copy-progress-monitoring) this is a very comprehensive and polished repo that provides an example of how you can restore data that you have stored in S3, providing you a single visualised dashboard to monitor the restore and copy progress within a defined scope.
 
 ![restore dashboard example](https://github.com/aws-samples/s3-restore-and-copy-progress-monitoring/blob/main/src/images/image-1.png?raw=true)
 
 **aws-account-tag-association-imported-portfolios**
 
-[aws-account-tag-association-imported-portfolios](https://aws-oss.beachgeek.co.uk/3o4) This repo provides a solution that is designed to automate associating account level tags to shared and local portfolios in the AWS environment which in turn inherits the tags to launched resources. AWS ServiceCatalog TagOption feature is used for this association.
+[aws-account-tag-association-imported-portfolios](https://github.com/aws-samples/aws-account-tag-association-imported-portfolios) This repo provides a solution that is designed to automate associating account level tags to shared and local portfolios in the AWS environment which in turn inherits the tags to launched resources. AWS ServiceCatalog TagOption feature is used for this association.
 
 ![overview of tagging solution architecture](https://github.com/aws-samples/aws-account-tag-association-imported-portfolios/blob/main/images/AWSAccountTagAssociationToAWSSC.png?raw=true)
 
@@ -62,14 +62,14 @@ By inputting an S3 bucket/prefix and utilizing various flags to customize your r
 
 **aws-cdk-imagebuilder-sample**
 
-[aws-cdk-imagebuilder-sample](https://aws-oss.beachgeek.co.uk/3o2) this repo uses AWS CDK (TypeScript) that demonstrates how to create a fully functional ImageBuilder pipeline that builds an Amazon Linux 2023 container image, installing git, docker and nodejs, all the way to pushing the resulting image to an ECR repository.
+[aws-cdk-imagebuilder-sample](https://github.com/aws-samples/aws-cdk-imagebuilder-sample) this repo uses AWS CDK (TypeScript) that demonstrates how to create a fully functional ImageBuilder pipeline that builds an Amazon Linux 2023 container image, installing git, docker and nodejs, all the way to pushing the resulting image to an ECR repository.
 
 ![cdk image builder architecture](https://github.com/aws-samples/aws-cdk-imagebuilder-sample/blob/main/imagebuilder-sample-arch.drawio.png?raw=true)
 
 
 **automated-meeting-scribe-and-summarizer**
 
-[automated-meeting-scribe-and-summarizer](https://aws-oss.beachgeek.co.uk/3nz) Using this application's website, you can invite an AI-assisted scribe bot to your upcoming Amazon Chime meeting(s) to get a follow-up email with the attendee list, chat history, attachments, and transcript, as well as a summary and action items. You don't even need to be present in a meeting for your invited scribe bot to join. Each scribe bot is linked to your email for identification. The scribe bot also redacts sensitive personally identifiable information (PII) by default, with the option to redact additional PII. Very neat indeed.
+[automated-meeting-scribe-and-summarizer](https://github.com/aws-samples/automated-meeting-scribe-and-summarizer) Using this application's website, you can invite an AI-assisted scribe bot to your upcoming Amazon Chime meeting(s) to get a follow-up email with the attendee list, chat history, attachments, and transcript, as well as a summary and action items. You don't even need to be present in a meeting for your invited scribe bot to join. Each scribe bot is linked to your email for identification. The scribe bot also redacts sensitive personally identifiable information (PII) by default, with the option to redact additional PII. Very neat indeed.
 
 ![solution architecture](https://github.com/aws-samples/automated-meeting-scribe-and-summarizer/blob/main/architecture.jpg?raw=true)
 
@@ -79,40 +79,40 @@ Each week I spent a lot of time reading posts from across the AWS community on o
 
 **The best from around the Community**
 
-To get things going this week we have AWS Community Builder Deny Julianto who shares how you can install the open source project Odoo, which provides a comprehensive suite of business applications such as ERP, CRM, e-Commerce, and more in the post, [How to Install Odoo 17 on Amazon EC2](https://aws-oss.beachgeek.co.uk/3nt). git-sync is a super handy tool that provides you with the ability to sync a GitHub repo to a local filesystem, and I have used it extensively with distributed systems that need to pull from a single source of truth. AWS Community Builder Warner Bell has put together [Automating CloudFormation Deployments with Git sync & GitHub Actions](https://aws-oss.beachgeek.co.uk/3nu) providing you with a quick recipe on using git-sync to synchronise your stacks from a CloudFormation template stored in a remote Git repository. AWS Community Builder Marco Gonzalez help Python developers get started with Apache Kafka in the post,[ Amazon MSK 101 with Python](https://aws-oss.beachgeek.co.uk/3nv).
+To get things going this week we have AWS Community Builder Deny Julianto who shares how you can install the open source project Odoo, which provides a comprehensive suite of business applications such as ERP, CRM, e-Commerce, and more in the post, [How to Install Odoo 17 on Amazon EC2](https://community.aws/content/2cB4hh8j9Eto3XuTR9baEGfwYDc/how-to-install-odoo-16-on-amazon-ec2). git-sync is a super handy tool that provides you with the ability to sync a GitHub repo to a local filesystem, and I have used it extensively with distributed systems that need to pull from a single source of truth. AWS Community Builder Warner Bell has put together [Automating CloudFormation Deployments with Git sync & GitHub Actions](https://community.aws/content/2c8m2BsUhIMtJkyHOReNuXW0yja/automating-cloudformation-deployments-the-devops-way-with-aws-git-sync-github-actions) providing you with a quick recipe on using git-sync to synchronise your stacks from a CloudFormation template stored in a remote Git repository. AWS Community Builder Marco Gonzalez help Python developers get started with Apache Kafka in the post,[ Amazon MSK 101 with Python](https://dev.to/aws-builders/amazon-msk-101-with-python-3g0).
 
-AWS Community Builder Subbusainath provides a guide on the different kinds of constructs you can use and create in AWS CDK in the post, [How to create L1,L2 and L3 CDK Constructs ? and When to use it ?](https://aws-oss.beachgeek.co.uk/3nw) At the end of the post you are provided with a list of comparisons between the three, which should help you in your decision making. It has been a while since I have seen content on AWS Chalice, a framework for developing serverless applications in Python, but AWS Community Builder Kemalcan Bora has fixed that with the post, [AWS Chalice Introduction](https://aws-oss.beachgeek.co.uk/3nx). A good read, so well worth checking that out. The final post in this weeks round up is from my colleague Abhishek Gupta, gopher extraordinaire, who this week looks at how you can use Testcontainers with your Go applications in his post, [Run and test DynamoDB applications locally using Docker and Testcontainers](https://aws-oss.beachgeek.co.uk/3ny). 
+AWS Community Builder Subbusainath provides a guide on the different kinds of constructs you can use and create in AWS CDK in the post, [How to create L1,L2 and L3 CDK Constructs ? and When to use it ?](https://dev.to/aws-builders/how-to-create-l1l2-and-l3-cdk-constructs-and-when-to-use-it--og9) At the end of the post you are provided with a list of comparisons between the three, which should help you in your decision making. It has been a while since I have seen content on AWS Chalice, a framework for developing serverless applications in Python, but AWS Community Builder Kemalcan Bora has fixed that with the post, [AWS Chalice Introduction](https://community.aws/content/2cKI3vp4sPkLLklOWUo4VuAhZVq/aws-chalice-introduction). A good read, so well worth checking that out. The final post in this weeks round up is from my colleague Abhishek Gupta, gopher extraordinaire, who this week looks at how you can use Testcontainers with your Go applications in his post, [Run and test DynamoDB applications locally using Docker and Testcontainers](https://community.aws/content/2c2I5AEkJ5HoyNb46F2lbC6rMg6/run-and-test-dynamodb-applications-locally-using-docker-and-testcontainers). 
 
 **Data Solutions Framework on AWS**
 
-I shared this open source project back in [#178](https://dev.to/aws/aws-open-source-news-178-nmf) of this newsletter, and so it was great to see Lotfi Mouhib, Dzenan Softic, and Vincent Gromakowski put together the official announcement blog post, [Announcing the Data Solutions Framework on AWS](https://aws-oss.beachgeek.co.uk/3nk).  Data Solutions Frameworks (DSF) is an opinionated open source framework that accelerates building data solutions on AWS, which makes it easier to develop solutions and save effort and time that you can spend on your specific use case.
+I shared this open source project back in [#178](https://dev.to/aws/aws-open-source-news-178-nmf) of this newsletter, and so it was great to see Lotfi Mouhib, Dzenan Softic, and Vincent Gromakowski put together the official announcement blog post, [Announcing the Data Solutions Framework on AWS](https://aws.amazon.com/blogs/opensource/announcing-the-data-solutions-framework-on-aws/).  Data Solutions Frameworks (DSF) is an opinionated open source framework that accelerates building data solutions on AWS, which makes it easier to develop solutions and save effort and time that you can spend on your specific use case.
 
 ![overview of architecture of data solutions framework](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2024/01/12/Screenshot-2024-01-12-at-2.25.04-PM.png)
 
 **Finch and Apache Airflow**
 
-I have been using [Finch](https://aws-oss.beachgeek.co.uk/3ns) extensively since the beginning of this year, after having received a new M1 macbook, and agonising over what tools to install on my fresh install. I decided it was time to ditch Docker (nothing wrong with it) and give [Finch](https://aws-oss.beachgeek.co.uk/3ns) a try. One of the first things I did was to rework how [mwaa-local-runner](https://aws-oss.beachgeek.co.uk/gd), a project that makes it simple for developers to run Apache Airflow, and refactor it to use Finch. It was pretty straightforward, with a few gotchas. You can hear all about it in my post, [Using Finch to run Apache Airflow using mwaa-local-runner](https://aws-oss.beachgeek.co.uk/3nr).
+I have been using [Finch](https://runfinch.com/docs/getting-started/installation/) extensively since the beginning of this year, after having received a new M1 macbook, and agonising over what tools to install on my fresh install. I decided it was time to ditch Docker (nothing wrong with it) and give [Finch](https://runfinch.com/docs/getting-started/installation/) a try. One of the first things I did was to rework how [mwaa-local-runner](https://github.com/aws/aws-mwaa-local-runner), a project that makes it simple for developers to run Apache Airflow, and refactor it to use Finch. It was pretty straightforward, with a few gotchas. You can hear all about it in my post, [Using Finch to run Apache Airflow using mwaa-local-runner](https://community.aws/content/2cGp3ztpb3XLW2P2QsMi7IO011h/running-mwaa-local-runner-with-finch).
 
 **Other posts and quick reads**
 
-* [Apple Vision Pro and AWS Amplify Part 1 – Authentication](https://aws-oss.beachgeek.co.uk/3nl) is the first of a three part blog post that shows you how you can  use AWS Amplify to quickly get started building with the Apple Vision Pro using Xcode and Amazon Web Services (AWS) [hands on]
+* [Apple Vision Pro and AWS Amplify Part 1 – Authentication](https://aws.amazon.com/blogs/spatial/apple-vision-pro-and-aws-amplify-part-1-authentication/) is the first of a three part blog post that shows you how you can  use AWS Amplify to quickly get started building with the Apple Vision Pro using Xcode and Amazon Web Services (AWS) [hands on]
 
 ![aws amplify in your apple vision pro](https://d2908q01vomqb2.cloudfront.net/a17554a0d2b15a664c0e73900184544f19e70227/2024/01/28/46_Xcode-Auth-View.png)
 
-* [Secure connectivity patterns for Amazon MSK Serverless cross-account access](https://aws-oss.beachgeek.co.uk/3nm) walks you through multiple solution approaches that address the MSK Serverless cross-VPC and cross-account access connectivity options, and looks at the advantages and limitations of each approach
-* [Amazon’s renewable energy forecasting: continuous delivery with Jupyter Notebooks](https://aws-oss.beachgeek.co.uk/3nn) is a nice study in how to seemlessly move your data scientist work from Jupyter note books to production
+* [Secure connectivity patterns for Amazon MSK Serverless cross-account access](https://aws.amazon.com/blogs/big-data/secure-connectivity-patterns-for-amazon-msk-serverless-cross-account-access/) walks you through multiple solution approaches that address the MSK Serverless cross-VPC and cross-account access connectivity options, and looks at the advantages and limitations of each approach
+* [Amazon’s renewable energy forecasting: continuous delivery with Jupyter Notebooks](https://aws.amazon.com/blogs/hpc/amazons-renewable-energy-forecasting-continuous-delivery-with-jupyter-notebooks/) is a nice study in how to seemlessly move your data scientist work from Jupyter note books to production
 
 ![architecture of moving jupyter notebooks to production](https://d2908q01vomqb2.cloudfront.net/e6c3dd630428fd54834172b8fd2735fed9416da4/2024/02/09/CleanShot-2024-02-09-at-14.22.48.png)
 
-* [Marqeta supercharges MySQL workloads using Amazon EBS io2 Block Express](https://aws-oss.beachgeek.co.uk/3no) discusses the storage-centric challenges of running high-performance database workloads in the cloud and how Nitro-based Amazon Elastic Cloud Compute (Amazon EC2) and Amazon Elastic Block Store (Amazon EBS) io2 Block Express can help
-* [Identify Java nested dependencies with Amazon Inspector SBOM Generator](https://aws-oss.beachgeek.co.uk/3np) looks at how to navigate the challenges of uncovering nested Java dependencies, guiding you through the process of analysing JAR files and uncovering these dependencies
-* [Accelerate generative AI workloads on Amazon Aurora with Optimized Reads and pgvector](https://aws-oss.beachgeek.co.uk/3nq) dives into how using Optimized Reads improves performance for vector workloads running on Amazon Aurora PostgreSQL with pgvector, specifically using HNSW indexing
+* [Marqeta supercharges MySQL workloads using Amazon EBS io2 Block Express](https://aws.amazon.com/blogs/storage/marqeta-supercharges-mysql-workloads-using-amazon-ebs-io2-block-express/) discusses the storage-centric challenges of running high-performance database workloads in the cloud and how Nitro-based Amazon Elastic Cloud Compute (Amazon EC2) and Amazon Elastic Block Store (Amazon EBS) io2 Block Express can help
+* [Identify Java nested dependencies with Amazon Inspector SBOM Generator](https://aws.amazon.com/blogs/security/identify-java-nested-dependencies-with-amazon-inspector-sbom-generator/) looks at how to navigate the challenges of uncovering nested Java dependencies, guiding you through the process of analysing JAR files and uncovering these dependencies
+* [Accelerate generative AI workloads on Amazon Aurora with Optimized Reads and pgvector](https://aws.amazon.com/blogs/database/accelerate-generative-ai-workloads-on-amazon-aurora-with-optimized-reads-and-pgvector/) dives into how using Optimized Reads improves performance for vector workloads running on Amazon Aurora PostgreSQL with pgvector, specifically using HNSW indexing
 
 ### Quick updates
 
 **AWS SDK for .NET**
 
-Starting August 15th 2024, the AWS SDK for .NET will end support for .NET Framework 3.5 and will change the minimum .NET Framework version to 4.6.2. Check out the blog post from Norm Johanson, [Important changes coming for .NET Framework 3.5 and 4.5 targets of the AWS SDK for .NET](https://aws-oss.beachgeek.co.uk/3nj), that covers everything you need to know.
+Starting August 15th 2024, the AWS SDK for .NET will end support for .NET Framework 3.5 and will change the minimum .NET Framework version to 4.6.2. Check out the blog post from Norm Johanson, [Important changes coming for .NET Framework 3.5 and 4.5 targets of the AWS SDK for .NET](https://aws.amazon.com/blogs/developer/important-changes-coming-for-net-framework-3-5-and-4-5-targets-of-the-aws-sdk-for-net/), that covers everything you need to know.
 
 **MySQL**
 
@@ -148,36 +148,36 @@ As someone who has recently moved from Docker to using Finch ([read more about t
 
 If you are planning any events in 2024, either virtual, in person, or hybrid, get in touch as I would love to share details of your event with readers. 
 
-I recently found this GitHub repo, [open-source-events](https://aws-oss.beachgeek.co.uk/3jt) that is a curated set of open source events for 2024. Go check it out and see what 2024 is looking like.
+I recently found this GitHub repo, [open-source-events](https://github.com/Everything-Open-Source/open-source-events) that is a curated set of open source events for 2024. Go check it out and see what 2024 is looking like.
 
 **FOSSASIA**
 **April 8th-10th, Hanoi, Vietnam**
 
-The FOSSASIA Summit is one of Asia's Premier Open Technology conference with thousands of participants and an Open Tech exhibition taking place every year in March, and this year it will be in the vibrant city of Hanoi, Vietnam. A number of my AWS colleagues will be there as well as myself, so I look forward to meeting with some of you. You can find out more details about this event by checking out the [FOSSASIA event page](https://aws-oss.beachgeek.co.uk/3ni)
+The FOSSASIA Summit is one of Asia's Premier Open Technology conference with thousands of participants and an Open Tech exhibition taking place every year in March, and this year it will be in the vibrant city of Hanoi, Vietnam. A number of my AWS colleagues will be there as well as myself, so I look forward to meeting with some of you. You can find out more details about this event by checking out the [FOSSASIA event page](https://fossasia.org/)
 
 **Everything Open**
 **April 16th-18th, Gladstone Australia**
 
 Everything Open is an open source event where the open source community come together for three days to share updates on their projects and learn about the latest in open technologies from leading community members. The conference will cover a broad range of topics across three days. You can expect to see talks from areas such as the Linux ecosystem, including the Kernel, distros and drivers. There will also be a number of presentations on open source software and open hardware, alongside talks on Galleries, Libraries, Archives and Museums (GLAM), open data, open government, and much more. Another key feature will be talks on building and managing communities around open technologies. I will be attending and doing some open source talks, as well as finding out more about the local open source community.
 
-Check out [the event website](https://aws-oss.beachgeek.co.uk/3nh)for more details, and hope to see some of you there.
+Check out [the event website](https://2024.everythingopen.au/)for more details, and hope to see some of you there.
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 
 Remember to check out the [Open Source homepage](https://aws.amazon.com/opensource/?opensource-all.sort-by=item.additionalFields.startDate&opensource-all.sort-order=asc) for more open source goodness.
 
-One of the pieces of feedback I received in 2023 was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://aws-oss.beachgeek.co.uk/3l8).
+One of the pieces of feedback I received in 2023 was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://github.com/094459/newsletter-oss-projects).
 
 Made with ♥ from DevRel

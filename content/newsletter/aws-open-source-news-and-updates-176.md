@@ -31,44 +31,44 @@ So thank you to the following open source heroes:  Rio Astamal, Parnab Basak, Ef
 
 **ask-bedrock**
 
-[ask-bedrock](https://aws-oss.beachgeek.co.uk/3bh) is a new project that provide a command line interface that enables you to converse with your favourite Amazon Bedrock large language model. This tool is a wrapper around the low-level Amazon Bedrock APIs and Langchain. Its main added value is that it locally persists AWS account and model configuration to enable quick and easy interaction.
+[ask-bedrock](https://github.com/awslabs/ask-bedrock) is a new project that provide a command line interface that enables you to converse with your favourite Amazon Bedrock large language model. This tool is a wrapper around the low-level Amazon Bedrock APIs and Langchain. Its main added value is that it locally persists AWS account and model configuration to enable quick and easy interaction.
 
 **installer-vscode-for-web**
 
-[installer-vscode-for-web](https://aws-oss.beachgeek.co.uk/3bf) is another tool from my fellow DA, Rio Astamal that simplifies the steps needed to turn your fresh cloud VM into fully functional VS Code for the web with HTTPS enabled. You can work from any device as long as it supports a modern web browser.
+[installer-vscode-for-web](https://github.com/rioastamal/installer-vscode-for-web) is another tool from my fellow DA, Rio Astamal that simplifies the steps needed to turn your fresh cloud VM into fully functional VS Code for the web with HTTPS enabled. You can work from any device as long as it supports a modern web browser.
 
 ![demo screenshot of project](https://github-production-user-asset-6210df.s3.amazonaws.com/469847/275777169-60a3fe97-3296-479a-a772-4c0649ff794b.png)
 
 **operatorpkg**
 
-[operatorpkg](https://aws-oss.beachgeek.co.uk/3bg) is a set of packages used to develop Kubernetes operators at AWS. It contains opinions on top of existing projects like https://github.com/kubernetes/apimachinery and https://github.com/kubernetes-sigs/controller-runtime. In many cases, we plan to mature packages in operatorpkg before commiting them upstream.
+[operatorpkg](https://github.com/awslabs/operatorpkg) is a set of packages used to develop Kubernetes operators at AWS. It contains opinions on top of existing projects like https://github.com/kubernetes/apimachinery and https://github.com/kubernetes-sigs/controller-runtime. In many cases, we plan to mature packages in operatorpkg before commiting them upstream.
 
 ### Demos, Samples, Solutions and Workshops
 
 **lambda-bedrock-integration**
 
-[lambda-bedrock-integration](https://aws-oss.beachgeek.co.uk/3be) This sample repository from my colleague Parnab Basak has sample code to integrate AWS Lambda with Amazon Bedrock. .NET, Python, Java, and NodeJS runtimes are supported, and you can use this with AWS SAM.
+[lambda-bedrock-integration](https://github.com/ParnabBasak/lambda-bedrock-integration/tree/main) This sample repository from my colleague Parnab Basak has sample code to integrate AWS Lambda with Amazon Bedrock. .NET, Python, Java, and NodeJS runtimes are supported, and you can use this with AWS SAM.
 
 ![architecture of lambda bedrock](https://github.com/ParnabBasak/lambda-bedrock-integration/blob/main/aws-sam-deployments.png?raw=true)
 
 **chaosinjection-lambda-samples**
 
-[chaosinjection-lambda-samples](https://aws-oss.beachgeek.co.uk/3bd)  This repository contains a code sample demonstrating how to inject chaos into AWS Lambda functions seamlessly. By leveraging AWS Fault Injection Simulator (FIS), it allows you to simulate real-world unpredictable conditions like increased latency or random function failures, without modifying your function's original code. I have featured Efe's project in an earlier newsletter ([#167](https://dev.to/aws/aws-open-source-newsletter-167-5bg7)), and he has taken an innovative solution for injecting chaos into AWS Lambda via FIS and enhanced it. If you are heading out to re:Invent, he will be giving a talk on integrating Rust with AWS Lambda, so be sure to check that out.
+[chaosinjection-lambda-samples](https://github.com/fun-with-serverless/chaosinjection-lambda-samples)  This repository contains a code sample demonstrating how to inject chaos into AWS Lambda functions seamlessly. By leveraging AWS Fault Injection Simulator (FIS), it allows you to simulate real-world unpredictable conditions like increased latency or random function failures, without modifying your function's original code. I have featured Efe's project in an earlier newsletter ([#167](https://dev.to/aws/aws-open-source-newsletter-167-5bg7)), and he has taken an innovative solution for injecting chaos into AWS Lambda via FIS and enhanced it. If you are heading out to re:Invent, he will be giving a talk on integrating Rust with AWS Lambda, so be sure to check that out.
 
 **blog-devops-iamra**
 
-[blog-devops-iamra](https://aws-oss.beachgeek.co.uk/3al) this repo provides code that shows you how you can combine IAM Roles Anywhere and an existing public key infrastructure (PKI) to authenticate external build agents to AWS by using short-lived certificates to obtain AWS temporary credentials. You can follow along and build this by reading the supporting blog post, [Enable external pipeline deployments to AWS Cloud by using IAM Roles Anywhere](https://aws-oss.beachgeek.co.uk/3ag)
+[blog-devops-iamra](https://github.com/aws-samples/blog-devops-iamra) this repo provides code that shows you how you can combine IAM Roles Anywhere and an existing public key infrastructure (PKI) to authenticate external build agents to AWS by using short-lived certificates to obtain AWS temporary credentials. You can follow along and build this by reading the supporting blog post, [Enable external pipeline deployments to AWS Cloud by using IAM Roles Anywhere](https://aws.amazon.com/blogs/security/enable-external-pipeline-deployments-to-aws-cloud-by-using-iam-roles-anywhere/)
 
 ![overview of architecture for deploying iamra](https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2023/09/19/img2-2.png)
 
 **aws-hpc-recipes**
 
-[aws-hpc-recipes](https://aws-oss.beachgeek.co.uk/3bi) This repository contains example recipes that demonstrate how to build HPC systems using AWS ParallelCluster, and provides reference CloudFormation templates designed to work together to build complete HPC environments. [Introducing a community recipe library for HPC infrastructure on AWS](https://aws-oss.beachgeek.co.uk/3a4) dives deeper into this project, looking at a few of the examples you can find [hands on]
+[aws-hpc-recipes](https://github.com/aws-samples/aws-hpc-recipes) This repository contains example recipes that demonstrate how to build HPC systems using AWS ParallelCluster, and provides reference CloudFormation templates designed to work together to build complete HPC environments. [Introducing a community recipe library for HPC infrastructure on AWS](https://aws.amazon.com/blogs/hpc/introducing-a-community-recipe-library-for-hpc-infrastructure-on-aws/) dives deeper into this project, looking at a few of the examples you can find [hands on]
 
 *bonus HPC content*
 
-*  [Introducing login nodes in AWS ParallelCluster](https://aws-oss.beachgeek.co.uk/3b7) shows you how you can use a new feature in AWS ParallelCluster 3.7 to add login nodes to your cluster, out of the box [hands on]
-* [Implementing AWS ParallelCluster in a Shared VPC](https://aws-oss.beachgeek.co.uk/3a5) shows you how you can get ParallelCluster up and running in a shared VPC environment where the VPC belongs to one account and it is shared to another account for resource deployment operations [hands on]
+*  [Introducing login nodes in AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/introducing-login-nodes-in-aws-parallelcluster/) shows you how you can use a new feature in AWS ParallelCluster 3.7 to add login nodes to your cluster, out of the box [hands on]
+* [Implementing AWS ParallelCluster in a Shared VPC](https://aws.amazon.com/blogs/hpc/implementing-aws-parallelcluster-in-a-shared-vpc/) shows you how you can get ParallelCluster up and running in a shared VPC environment where the VPC belongs to one account and it is shared to another account for resource deployment operations [hands on]
 
 ![overview of AWS ParallelCluster in shared VPC](https://d2908q01vomqb2.cloudfront.net/e6c3dd630428fd54834172b8fd2735fed9416da4/2023/08/24/CleanShot-2023-08-24-at-16.41.52@2x.png)
 
@@ -76,65 +76,65 @@ So thank you to the following open source heroes:  Rio Astamal, Parnab Basak, Ef
 
 **Community round up**
 
-This weeks community roundup starts with AWS Community Builder k.goto who has put together [Container image scanning with Trivy in AWS CDK](https://aws-oss.beachgeek.co.uk/3bj) that looks at a new CDK construct which you can find in the [Construct Hub](https://aws-oss.beachgeek.co.uk/3bk), that uses Trivy to perform security diagnostics on container images. Trivy is an open source security tool that can perform vulnerability testing and diagnostics on a wide range of targets, including container images, file systems, and even AWS accounts. Next up is dB. who has put together [Getting started with Vector DBs in Python](https://aws-oss.beachgeek.co.uk/3bl), which is a fantastic look at a number of Vector DB options, providing some sample code and details on how to work with each. This is an essential read this week, and dB. leaves us with an important question at the end: "I also wonder whether we need a generic client that’s agnostic to which vector DB is being used to help make code portable?" - what do you think? dB. provides an idea of what this might look like, so if you are interested in this space, why not reach out and collaborate. Finishing off this week we have with AWS Hero Elliott Cordo with his post, [Running Jobs on Athena Spark](https://aws-oss.beachgeek.co.uk/3bm) explores running Spark jobs on Amazon Athena, and shares why he thinks these are "magical".
+This weeks community roundup starts with AWS Community Builder k.goto who has put together [Container image scanning with Trivy in AWS CDK](https://dev.to/aws-builders/container-image-scanning-with-trivy-in-aws-cdk-151h) that looks at a new CDK construct which you can find in the [Construct Hub](https://constructs.dev/packages/image-scanner-with-trivy), that uses Trivy to perform security diagnostics on container images. Trivy is an open source security tool that can perform vulnerability testing and diagnostics on a wide range of targets, including container images, file systems, and even AWS accounts. Next up is dB. who has put together [Getting started with Vector DBs in Python](https://code.dblock.org/2023/06/16/getting-started-with-vector-dbs-in-python.html), which is a fantastic look at a number of Vector DB options, providing some sample code and details on how to work with each. This is an essential read this week, and dB. leaves us with an important question at the end: "I also wonder whether we need a generic client that’s agnostic to which vector DB is being used to help make code portable?" - what do you think? dB. provides an idea of what this might look like, so if you are interested in this space, why not reach out and collaborate. Finishing off this week we have with AWS Hero Elliott Cordo with his post, [Running Jobs on Athena Spark](https://dev.to/aws-heroes/running-jobs-on-athena-spark-2g92) explores running Spark jobs on Amazon Athena, and shares why he thinks these are "magical".
 
 **Apache Iceberg**
 
-Apache Iceberg is an open source high-performance format for huge analytic tables, that solves the challenges with traditional approaches to managing data in data lakes. A couple of posts for you, starting with [Migrate an existing data lake to a transactional data lake using Apache Iceberg](https://aws-oss.beachgeek.co.uk/3am) where Rajdip Chaudhuri shows you how you can convert existing data in an Amazon S3 data lake in Apache Parquet format to Apache Iceberg format to support transactions on the data. In the post, he uses a feature of AWS Glue to run  Jupyter Notebook based interactive session. [hands on]
+Apache Iceberg is an open source high-performance format for huge analytic tables, that solves the challenges with traditional approaches to managing data in data lakes. A couple of posts for you, starting with [Migrate an existing data lake to a transactional data lake using Apache Iceberg](https://aws.amazon.com/blogs/big-data/migrate-an-existing-data-lake-to-a-transactional-data-lake-using-apache-iceberg/) where Rajdip Chaudhuri shows you how you can convert existing data in an Amazon S3 data lake in Apache Parquet format to Apache Iceberg format to support transactions on the data. In the post, he uses a feature of AWS Glue to run  Jupyter Notebook based interactive session. [hands on]
 
 ![overview of aws glue to conver data to apache iceberg format](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/09/27/BDB-3173-image002.jpg)
 
-Next we have Avijit Goswami and Rajarshi Sarkar who have put together [Apache Iceberg optimization: Solving the small files problem in Amazon EMR](https://aws-oss.beachgeek.co.uk/3an), that looks at a  new Iceberg feature that you can use to automatically compact small files while writing data into Iceberg tables using Spark on Amazon EMR or Amazon Athena. Great post, with some solid data points at the end so check it out.
+Next we have Avijit Goswami and Rajarshi Sarkar who have put together [Apache Iceberg optimization: Solving the small files problem in Amazon EMR](https://aws.amazon.com/blogs/big-data/apache-iceberg-optimization-solving-the-small-files-problem-in-amazon-emr/), that looks at a  new Iceberg feature that you can use to automatically compact small files while writing data into Iceberg tables using Spark on Amazon EMR or Amazon Athena. Great post, with some solid data points at the end so check it out.
 
 ![overview of apache iceberg on eks and small file compaction](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/09/19/1_Architecture.drawio-1.png)
 
 **Celebrating CDKDay**
 
-Back on September 29th, [CDK Day 2023 took place](https://aws-oss.beachgeek.co.uk/39s), celebrating all things CDK related (so CDK, cdk8s, cdktf, projen). Three tracks, including for the first time a dedicated Spanish track. Whilst not specifically related to this event, there has been some great content on AWS CDK published over the last couple of weeks, so here are might highlights.
+Back on September 29th, [CDK Day 2023 took place](https://www.youtube.com/@CDKDay/streams), celebrating all things CDK related (so CDK, cdk8s, cdktf, projen). Three tracks, including for the first time a dedicated Spanish track. Whilst not specifically related to this event, there has been some great content on AWS CDK published over the last couple of weeks, so here are might highlights.
 
-* [Blue/Green deployments using AWS CDK Pipelines and AWS CodeDeploy](https://aws-oss.beachgeek.co.uk/39t) is a nice deep dive, including demo, looking at the challenges associated with the creation of a pipeline that deploys an application using CodeDeploy in different combinations of accounts and regions [hands on]
+* [Blue/Green deployments using AWS CDK Pipelines and AWS CodeDeploy](https://aws.amazon.com/blogs/devops/blue-green-deployments-using-aws-cdk-pipelines-and-aws-codedeploy/) is a nice deep dive, including demo, looking at the challenges associated with the creation of a pipeline that deploys an application using CodeDeploy in different combinations of accounts and regions [hands on]
 
 ![overview of demo architecture for blue/green deployment](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2023/10/02/region-multi.png)
 
-* [How to import existing resources into AWS CDK Stacks](https://aws-oss.beachgeek.co.uk/39u) shows you how to import existing AWS Resources into an AWS CDK Stack, as well as looking at the recent new feature introduced by the AWS CDK team, that automates this process (via the cdk import command) [hands on]
-* [Accelerating development with AWS CDK plugin – CfnGuardValidator](https://aws-oss.beachgeek.co.uk/39v) explains how to integrate the CfnGuardValidator plugin (an AWS CDK plugin that allows developers to locally validate their AWS CDK code using AWS Control Tower proactive controls or AWS CloudFormation Guard rules) into your existing AWS CDK application [hands on]
+* [How to import existing resources into AWS CDK Stacks](https://aws.amazon.com/blogs/devops/how-to-import-existing-resources-into-aws-cdk-stacks/) shows you how to import existing AWS Resources into an AWS CDK Stack, as well as looking at the recent new feature introduced by the AWS CDK team, that automates this process (via the cdk import command) [hands on]
+* [Accelerating development with AWS CDK plugin – CfnGuardValidator](https://aws.amazon.com/blogs/mt/accelerating-development-with-aws-cdk-plugin-cfnguardvalidator/) explains how to integrate the CfnGuardValidator plugin (an AWS CDK plugin that allows developers to locally validate their AWS CDK code using AWS Control Tower proactive controls or AWS CloudFormation Guard rules) into your existing AWS CDK application [hands on]
 
 ![overview of CfnGuard workflow](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/09/12/Figure2-CfnGuardValidator.png)
 
-* [Enhancing Resource Isolation in AWS CDK with the App Staging Synthesizer](https://aws-oss.beachgeek.co.uk/39w) explores a new experimental library, the App Staging Synthesizer, that enhances resource isolation and provides finer control over staging resources in CDK applications [hands on]
+* [Enhancing Resource Isolation in AWS CDK with the App Staging Synthesizer](https://aws.amazon.com/blogs/devops/enhancing-resource-isolation-in-aws-cdk-with-the-app-staging-synthesizer/) explores a new experimental library, the App Staging Synthesizer, that enhances resource isolation and provides finer control over staging resources in CDK applications [hands on]
 
 **Cloud Native**
 
-* [Build and deploy to Amazon EKS with Amazon CodeCatalyst](https://aws-oss.beachgeek.co.uk/3ac) provides a useful and practical guide on how teams can easily get started building, scanning, and deploying a microservice application to an EKS cluster using CodeCatalyst [hands on]
+* [Build and deploy to Amazon EKS with Amazon CodeCatalyst](https://aws.amazon.com/blogs/devops/build-and-deploy-to-amazon-eks-with-amazon-codecatalyst/) provides a useful and practical guide on how teams can easily get started building, scanning, and deploying a microservice application to an EKS cluster using CodeCatalyst [hands on]
 
 ![codecatalyst and eks overview](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2023/10/01/EKS.jpg)
 
-* [Manage scale-to-zero scenarios with Karpenter and Serverless](https://aws-oss.beachgeek.co.uk/3b9) shows you how to scale your Amazon EKS clusters using cluster autoscaler and karpenter to save money and reduce your environmental impact [hands on]
+* [Manage scale-to-zero scenarios with Karpenter and Serverless](https://aws.amazon.com/blogs/containers/manage-scale-to-zero-scenarios-with-karpenter-and-serverless/) shows you how to scale your Amazon EKS clusters using cluster autoscaler and karpenter to save money and reduce your environmental impact [hands on]
 
 ![architecture of using karpenter to scale](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/10/18/Autoscaling-pods.png)
 
-* [Authenticate Kubecost Users with Application Load Balancer and Amazon Cognito](https://aws-oss.beachgeek.co.uk/3b8) provides a hands on walkthrough on how to leverage Kubecost with Application Load Balancer and Amazon Cognito for user authentication [hands on]
+* [Authenticate Kubecost Users with Application Load Balancer and Amazon Cognito](https://aws.amazon.com/blogs/apn/authenticate-kubecost-users-with-application-load-balancer-and-amazon-cognito/) provides a hands on walkthrough on how to leverage Kubecost with Application Load Balancer and Amazon Cognito for user authentication [hands on]
 
 ![overview of kubecost architecture](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/10/18/Kubecost-ALB-Cognito-1.png)
 
 **Other posts and quick reads**
 
-* [Modern Tooling for Your Website using AWS, Contentful, and Next.js](https://aws-oss.beachgeek.co.uk/39y) is a tutorial that helps you build a blog website from beginning to end with an A-level Lighthouse performance scale and low maintenance friction [hands on]
-* [Query Heterogeneous Data Sources through AWS AppSync GraphQL APIs](https://aws-oss.beachgeek.co.uk/3ba) looks at why you might want to consider using GraphQL when architecting solutions that have multiple data sources
-* [Orchestrate Ray-based machine learning workflows using Amazon SageMaker](https://aws-oss.beachgeek.co.uk/3ai) looks at  the benefits of using Ray (an open-source distributed computing framework) and Amazon SageMaker for distributed ML, and provide a step-by-step guide on how to use these frameworks to build and deploy a scalable ML workflow [hands on]
-* [Monitor edge application performance using AWS IoT Greengrass and AWS Distro for OpenTelemetry](https://aws-oss.beachgeek.co.uk/3aj) demonstrates how to monitor and optimise edge application performance by enabling the power of AWS IoT Greengrass, AWS Distro for OpenTelemetry and Amazon Managed Grafana with a specific focus on the distributed tracing aspect [hands on]
+* [Modern Tooling for Your Website using AWS, Contentful, and Next.js](https://aws.amazon.com/blogs/mobile/modern-tooling-for-your-website-using-aws-contentful-and-next-js/) is a tutorial that helps you build a blog website from beginning to end with an A-level Lighthouse performance scale and low maintenance friction [hands on]
+* [Query Heterogeneous Data Sources through AWS AppSync GraphQL APIs](https://aws.amazon.com/blogs/mobile/query-heterogeneous-data-sources-through-aws-appsync-graphql-apis/) looks at why you might want to consider using GraphQL when architecting solutions that have multiple data sources
+* [Orchestrate Ray-based machine learning workflows using Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/orchestrate-ray-based-machine-learning-workflows-using-amazon-sagemaker/) looks at  the benefits of using Ray (an open-source distributed computing framework) and Amazon SageMaker for distributed ML, and provide a step-by-step guide on how to use these frameworks to build and deploy a scalable ML workflow [hands on]
+* [Monitor edge application performance using AWS IoT Greengrass and AWS Distro for OpenTelemetry](https://aws.amazon.com/blogs/iot/monitor-edge-application-performance-using-aws-iot-greengrass-and-aws-distro-for-opentelemetry/) demonstrates how to monitor and optimise edge application performance by enabling the power of AWS IoT Greengrass, AWS Distro for OpenTelemetry and Amazon Managed Grafana with a specific focus on the distributed tracing aspect [hands on]
 
 ![graph of traces in grafana dashboard](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2023/09/14/image009-figure-6-computer-vision-at-the-edge-application-metrics-on-amazon-managed-grafana-dashboard.png)
 
-* [Monitor IoT device health at scale with Amazon Managed Grafana­­](https://aws-oss.beachgeek.co.uk/3bb) provides a sample IoT health dashboard using Amazon Managed Grafana, that can scale to thousands of devices [hands on]
+* [Monitor IoT device health at scale with Amazon Managed Grafana­­](https://aws.amazon.com/blogs/mt/monitor-iot-device-health-at-scale-with-amazon-managed-grafana/) provides a sample IoT health dashboard using Amazon Managed Grafana, that can scale to thousands of devices [hands on]
 
 ![iot dashboard in grafana at scale](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/10/05/Amazon-Managed-Grafana-Dashboard.jpg)
 
-* [Centralize AWS Cost Anomaly Detection using Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/3ak) is an essential read for those on a cost optimisation journey, and explains how Amazon Managed Grafana dashboards help our customers visualize and track the AWS cost anomalies that are outside the pattern of historical usage [hands on]
+* [Centralize AWS Cost Anomaly Detection using Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/centralize-aws-cost-anomaly-detection-using-amazon-managed-grafana/) is an essential read for those on a cost optimisation journey, and explains how Amazon Managed Grafana dashboards help our customers visualize and track the AWS cost anomalies that are outside the pattern of historical usage [hands on]
 
 ![overview of grafana architecture for cost optimisation use case](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/09/12/Picture-1.jpg)
 
-* [Build an ultra-low latency online feature store for real-time inferencing using Amazon ElastiCache for Redis](https://aws-oss.beachgeek.co.uk/3aq) looks at how our customers are building online feature stores using an open-source feature store framework called Feast, to support mission-critical ML use cases that require ultra-low latency [hands on]
+* [Build an ultra-low latency online feature store for real-time inferencing using Amazon ElastiCache for Redis](https://aws.amazon.com/blogs/database/build-an-ultra-low-latency-online-feature-store-for-real-time-inferencing-using-amazon-elasticache-for-redis/) looks at how our customers are building online feature stores using an open-source feature store framework called Feast, to support mission-critical ML use cases that require ultra-low latency [hands on]
 
 ![overview of building low latency feature stores with redis and feast](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/09/19/DBBLOG-3110-Low-Latency-Feature-Store-with-Amazon-ElastiCache-final.png)
 
@@ -142,7 +142,7 @@ Back on September 29th, [CDK Day 2023 took place](https://aws-oss.beachgeek.co.u
 
 **Amazon Corretto**
 
-On Oct 17, 2023 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 21.0.1, 17.0.9, 11.0.21, and 8u392 are now [available for download](https://aws-oss.beachgeek.co.uk/2y6). Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. 
+On Oct 17, 2023 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 21.0.1, 17.0.9, 11.0.21, and 8u392 are now [available for download](https://downloads.corretto.aws/). Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. 
 
 **Core WCF**
 
@@ -182,7 +182,7 @@ AWS announced a couple of weeks ago the general availability of Swift Package Ma
 
 CodeArtifact implements the HTTP-based registry protocol for SwiftPM defined in Swift Evolution proposal 0292. Prior to SE-0292, SwiftPM could only consume dependencies stored in Git repositories. Now, packages can be stored outside of Git in a package registry, providing improved build reproducibility, efficiency, and performance. SwiftPM can consume packages stored in Git repositories and package registries as part of the same application build, avoiding the need to migrate all dependencies into registries up front. CodeArtifact SwiftPM works with existing clients such as XCode and the swift CLI. Once packages are stored in CodeArtifact, developers can reference these package dependencies in CodeArtifact with their existing tools.  
 
-Check out the supporting blog post from my colleague Sebastien, [New – Add Your Swift Packages to AWS CodeArtifact](https://aws-oss.beachgeek.co.uk/39r)
+Check out the supporting blog post from my colleague Sebastien, [New – Add Your Swift Packages to AWS CodeArtifact](https://aws.amazon.com/blogs/aws/new-add-your-swift-packages-to-aws-codeartifact/)
 
 ### Videos of the week
 
@@ -211,7 +211,7 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **AWS User Group, Palma**
 **November, 14th, 5pm-9pm Parc Bit - Fundació IBIT**
 
-I am happy to join Miguel Salvà at the PAWS (AWS User Group in Palma) for an evening of open source talks, covering a broad range of topics from OSPO's, working with open source communities, and open source at Aamzon. Going to be great. You can find out more by checking out the user groups page, [PAWS User Group](https://aws-oss.beachgeek.co.uk/3b6)
+I am happy to join Miguel Salvà at the PAWS (AWS User Group in Palma) for an evening of open source talks, covering a broad range of topics from OSPO's, working with open source communities, and open source at Aamzon. Going to be great. You can find out more by checking out the user groups page, [PAWS User Group](https://www.meetup.com/awsusergrouppalma/events/)
 
 **Big Data Europe**
 **21st-24th November, Online/Vilnius, Lithuania**
@@ -231,14 +231,14 @@ Find out more by checking out the event page, [re:Invent 2023](https://reinvent.
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

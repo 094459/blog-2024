@@ -11,11 +11,11 @@ Another great selection of posts this week, starting off with the announcement l
 
 **OpenSearch**
 
-The big news of last week was the post announcing OpenSearch and OpenSearch Dashboards, the name of the community-driven, open source fork of Elasticsearch and Kibana. In the post [Introducing OpenSearch](https://aws-oss.beachgeek.co.uk/e5), Carl Meadows, Jules Graybill, Kyle Davis, and Mehul Shah share details of this announcement, how we are working with the community and how the project is progressing.
+The big news of last week was the post announcing OpenSearch and OpenSearch Dashboards, the name of the community-driven, open source fork of Elasticsearch and Kibana. In the post [Introducing OpenSearch](https://aws.amazon.com/blogs/opensource/introducing-opensearch/), Carl Meadows, Jules Graybill, Kyle Davis, and Mehul Shah share details of this announcement, how we are working with the community and how the project is progressing.
 
 > Our goal with the OpenSearch project is to make it easy for as many people and organizations as possible to use OpenSearch in their business, their products, and their projects.
 
-Many business are supporting OpenSearch, and are as diverse as Red Hat, SAP, Capital One, and Logz.io. In the post, [logit.io's response to the Elasticsearch B.V SSPL Licensing Change](https://aws-oss.beachgeek.co.uk/eg) from Lee Smith explains how they are looking to incorporate OpenSearch and Open Search Dashboards as part of their Stack offering, just one of many business' that are looking to adopt OpenSearch.
+Many business are supporting OpenSearch, and are as diverse as Red Hat, SAP, Capital One, and Logz.io. In the post, [logit.io's response to the Elasticsearch B.V SSPL Licensing Change](https://logit.io/blog/post/logit-ios-response-to-the-elasticsearch-b-v-sspl-licensing-change) from Lee Smith explains how they are looking to incorporate OpenSearch and Open Search Dashboards as part of their Stack offering, just one of many business' that are looking to adopt OpenSearch.
 
 Essential reading this week.
 
@@ -39,54 +39,54 @@ Make sure you find and follow these builders and keep up to date with their open
 
 Make sure you sign up to be notified when this new book from a collection of AWS Heroes, Aleksandar Simovic, Slobodan Stojanovic and Gojko Adzic. The book will cover  how to build and operate responsive, collaborative applications at scale with AWS AppSync and GraphQL.
 
-The book will be available in Q3 2021, so [click on this link](https://aws-oss.beachgeek.co.uk/er) to keep notified when it has been launched.
+The book will be available in Q3 2021, so [click on this link](https://www.serverless.pub/running-serverless-realtime-graphql-applications-with-appsync/) to keep notified when it has been launched.
 
 ### Latest from open source projects
 
 **ekz**
 
-[ekz](https://aws-oss.beachgeek.co.uk/et) Chanwit Kaewkasi's project is an opinionated Kubernetes distribution built using binaries from the AWS EKS Distro (EKS-D) and aims to be the easiest way to run EKS clusters on desktop (Linux/Mac and Windows).
+[ekz](https://github.com/chanwit/ekz) Chanwit Kaewkasi's project is an opinionated Kubernetes distribution built using binaries from the AWS EKS Distro (EKS-D) and aims to be the easiest way to run EKS clusters on desktop (Linux/Mac and Windows).
 
 **wai-handler-hal**
 
-[wai-handler-hal](https://aws-oss.beachgeek.co.uk/eu) from the Technology team at Bellroy lets you run Haskell (wai) Applications on AWS Lambda. WAI is the Haskell version of WSGI (Python) or Rack (Ruby): the ecosystem's standard library that describes the interface between web servers and web applications.
+[wai-handler-hal](https://github.com/bellroy/wai-handler-hal) from the Technology team at Bellroy lets you run Haskell (wai) Applications on AWS Lambda. WAI is the Haskell version of WSGI (Python) or Rack (Ruby): the ecosystem's standard library that describes the interface between web servers and web applications.
 
 **ssh-restricted**
 
-[ssh-restricted](https://aws-oss.beachgeek.co.uk/es) from my colleague Adrian comes this handy AWS Config rule you can use that will check to see if any public ssh with a wide scope (i.e. 0.0.0.0/0) and then trigger a lambda function to remediate.
+[ssh-restricted](https://github.com/adhorn/ssh-restricted) from my colleague Adrian comes this handy AWS Config rule you can use that will check to see if any public ssh with a wide scope (i.e. 0.0.0.0/0) and then trigger a lambda function to remediate.
 
 ![arch](https://raw.githubusercontent.com/adhorn/ssh-restricted/master/arch.png)
  
 **open-distro-for-elasticsearch-grafana-datasource**
 
-[open-distro-for-elasticsearch-grafana-datasource](https://aws-oss.beachgeek.co.uk/eq) with the Open Distro for Elasticsearch plugin, you can run many types of simple or complex Elasticsearch queries to visualise logs or metrics stored in Elasticsearch. You can also annotate your graphs with log events stored in Elasticsearch. The Open Distro for Elasticsearch plugin is similar to the built-in Elasticsearch plugin, but with added support for AWS Sigv4 authentication and Piped Processing Language (PPL).
+[open-distro-for-elasticsearch-grafana-datasource](https://github.com/grafana/open-distro-for-elasticsearch-grafana-datasource) with the Open Distro for Elasticsearch plugin, you can run many types of simple or complex Elasticsearch queries to visualise logs or metrics stored in Elasticsearch. You can also annotate your graphs with log events stored in Elasticsearch. The Open Distro for Elasticsearch plugin is similar to the built-in Elasticsearch plugin, but with added support for AWS Sigv4 authentication and Piped Processing Language (PPL).
 
 **cdk-cloudfront-plus**
 
-[cdk-cloudfront-plus](https://aws-oss.beachgeek.co.uk/e1) Caught this [tweet](https://twitter.com/pahudnet/status/1381277549154639888) from my colleague Pahud Hsieh, which was a great collaboration between a number of AWS Community Builders to build some new AWS CDK constructs covering Lambda@Edge. This is a great effort, and the constructs cover everything from security, logging and the usual suspects when it comes to working with AWS CloudFront.
+[cdk-cloudfront-plus](https://github.com/pahud/cdk-cloudfront-plus) Caught this [tweet](https://twitter.com/pahudnet/status/1381277549154639888) from my colleague Pahud Hsieh, which was a great collaboration between a number of AWS Community Builders to build some new AWS CDK constructs covering Lambda@Edge. This is a great effort, and the constructs cover everything from security, logging and the usual suspects when it comes to working with AWS CloudFront.
 
 **eks-operators-airflow**
 
-This is not ready yet, but a new issue was raised in the Apache Airflow project around creating a new operator to interact with Amazon EKS. You can view the current thinking in the issue, [Create EKS operators #8544](https://aws-oss.beachgeek.co.uk/e9) and the aim of this is to create a new Airflow operator that will:
+This is not ready yet, but a new issue was raised in the Apache Airflow project around creating a new operator to interact with Amazon EKS. You can view the current thinking in the issue, [Create EKS operators #8544](https://github.com/apache/airflow/issues/8544) and the aim of this is to create a new Airflow operator that will:
 
 > The proposed solution is a collection of Operators, and their underlying Hooks, which will be added to the Amazon AWS provider package. These Operators will handle creating and deleting clusters, as well as executing tasks using EKS Managed Node Groups.
 
 **monkey**
 
-[monkey](https://aws-oss.beachgeek.co.uk/ee) "The Infection Monkey" is an open source security tool for testing a your resiliency to perimeter breaches and internal server infection. It is not a new open source project, but the new update last week (version 1.10.0) provides a new zero trust assessment capabilities so you can conduct zero trust assessments of your AWS environments to help identify the potential gaps in an organisation’s AWS security posture that can put data at risk. Read more on this by checking out this blog post,[The Infection Monkey 1.10.0 — Go Bananas with New AWS Zero Trust Assessments](https://aws-oss.beachgeek.co.uk/ef) from Mike Salvatore.
+[monkey](https://github.com/guardicore/monkey) "The Infection Monkey" is an open source security tool for testing a your resiliency to perimeter breaches and internal server infection. It is not a new open source project, but the new update last week (version 1.10.0) provides a new zero trust assessment capabilities so you can conduct zero trust assessments of your AWS environments to help identify the potential gaps in an organisation’s AWS security posture that can put data at risk. Read more on this by checking out this blog post,[The Infection Monkey 1.10.0 — Go Bananas with New AWS Zero Trust Assessments](https://www.guardicore.com/labs/aws-zero-trust-and-infection-monkey/) from Mike Salvatore.
 
 ![report](https://raw.githubusercontent.com/guardicore/monkey/develop/.github/zero-trust-report.png)
 
 **aws-htc-grid**
 
-[aws-htc-grid](https://aws-oss.beachgeek.co.uk/el) is an open source project that povides a reference architecture that can be used to build and adapt a modern High throughput compute solution using underlying AWS services, allowing users to submit high volumes of short and long running tasks and scaling environments dynamically. The project covers some suggested use cases and also where this may not be the best application. Check out the [documentation](https://aws-oss.beachgeek.co.uk/em) which provides clear guidance on how to set this up, the architecture and more.
+[aws-htc-grid](https://github.com/awslabs/aws-htc-grid) is an open source project that povides a reference architecture that can be used to build and adapt a modern High throughput compute solution using underlying AWS services, allowing users to submit high volumes of short and long running tasks and scaling environments dynamically. The project covers some suggested use cases and also where this may not be the best application. Check out the [documentation](https://github.com/awslabs/aws-htc-grid/blob/main/docs/architecture.md) which provides clear guidance on how to set this up, the architecture and more.
 
  ![arch](https://raw.githubusercontent.com/awslabs/aws-htc-grid/main/docs/images/high_level_architecture.png)
  ![key](https://raw.githubusercontent.com/awslabs/aws-htc-grid/main/docs/images/job_submission_steps.png)
 
 **tui**
 
-[tui](https://aws-oss.beachgeek.co.uk/e7) this is a very new open source tool from Teem Ops that provides a nice gui tool that allows you to create generate aws cli commands to launch cloudformation templates that will build what you define. At the moment the support is  limited to EC2 and Autoscaling, but it is very early days for this project. Take a look and why not provide the project some feedback.
+[tui](https://github.com/teemops/tui) this is a very new open source tool from Teem Ops that provides a nice gui tool that allows you to create generate aws cli commands to launch cloudformation templates that will build what you define. At the moment the support is  limited to EC2 and Autoscaling, but it is very early days for this project. Take a look and why not provide the project some feedback.
 
 ![demo](https://raw.githubusercontent.com/teemops/assets/master/teemops-scg-gif.mp4.gif)
 
@@ -94,29 +94,29 @@ This is not ready yet, but a new issue was raised in the Apache Airflow project 
 
 **ArgoCD**
 
-[Configuring ArgoCD on Amazon EKS](https://aws-oss.beachgeek.co.uk/ev) this post from Chabane Refes shows you how you can install, configure and manage ArgoCD on Amazon EKS. What is ArgoCD? [ArgoCD](https://argoproj.github.io/argo-cd/) is a declarative, GitOps continuous delivery tool for Kubernetes.
+[Configuring ArgoCD on Amazon EKS](https://dev.to/stack-labs/configuring-argocd-on-amazon-eks-k01) this post from Chabane Refes shows you how you can install, configure and manage ArgoCD on Amazon EKS. What is ArgoCD? [ArgoCD](https://argoproj.github.io/argo-cd/) is a declarative, GitOps continuous delivery tool for Kubernetes.
 
 **Lift**
 
-A new post from Matthieu Napoli, taking a look at Lift, a new open source project that simplifies deploying serverless applications. [Static websites on AWS — Designing Lift](https://aws-oss.beachgeek.co.uk/en). This new project is expected to have its first public beta around May time, and is intended to further simplify the deploying of serverless applications on AWS. The post outlines the options you have today, and how Lift is looking to simplify the deployment of static sites. Make sure you check out the GitHub repo and track it by watching it.
+A new post from Matthieu Napoli, taking a look at Lift, a new open source project that simplifies deploying serverless applications. [Static websites on AWS — Designing Lift](https://t.co/pAfJufmL1T?amp=1). This new project is expected to have its first public beta around May time, and is intended to further simplify the deploying of serverless applications on AWS. The post outlines the options you have today, and how Lift is looking to simplify the deployment of static sites. Make sure you check out the GitHub repo and track it by watching it.
 
 **OpenJDK**
 
-[Java, Scala, Kotlin and TLS1.0 / TLS1.1](https://aws-oss.beachgeek.co.uk/ea) Colm MacCárthaigh shares news that you should pay attention to if you are using OpenJDK. From April 20th the open source OpenJDK project will be releasing new versions of JDK11, JDK8, and JDK7 that remove TLS1.0 and TLS1.1 from the default list of supported TLS/SSL protocols. Colm shares for customers using Amazon Corretto that "we’re going to keep TLS1.0 and TLS1.1 in the default set for a while longer, to avoid the breaking change". This post dives deep into the issues as to why these protocols are being removed, so if you have not already planned for this, read this and be ready. As the post adds:
+[Java, Scala, Kotlin and TLS1.0 / TLS1.1](https://shufflesharding.com/posts/java-and-tls-10-11) Colm MacCárthaigh shares news that you should pay attention to if you are using OpenJDK. From April 20th the open source OpenJDK project will be releasing new versions of JDK11, JDK8, and JDK7 that remove TLS1.0 and TLS1.1 from the default list of supported TLS/SSL protocols. Colm shares for customers using Amazon Corretto that "we’re going to keep TLS1.0 and TLS1.1 in the default set for a while longer, to avoid the breaking change". This post dives deep into the issues as to why these protocols are being removed, so if you have not already planned for this, read this and be ready. As the post adds:
 
 > The OpenJDK change has been sign-posted in the OpenJDK crypto roadmap for quite a while, but breaking changes like this are still a big deal.
 
 **s2n**
 
-[Improving security in s2n](https://aws-oss.beachgeek.co.uk/eb) I missed this post from Colm MacCárthaigh's blog, shuffle sharding dot com, at the tail end of last year. The post goes into details as to the approach to reviewing security for this open source project, including the use of automation and techniques such as provable security, but crucially also the use of peer review and manual reviews. As a result, the project identified three low level issues which the posts goes on to detail.
+[Improving security in s2n](https://shufflesharding.com/posts/improving-security-in-s2n) I missed this post from Colm MacCárthaigh's blog, shuffle sharding dot com, at the tail end of last year. The post goes into details as to the approach to reviewing security for this open source project, including the use of automation and techniques such as provable security, but crucially also the use of peer review and manual reviews. As a result, the project identified three low level issues which the posts goes on to detail.
 
 **Rust**
 
-As part of a series of posts from the Rust Foundation aimed at getting to know the board members, last week they published, [Introducing Shane Miller](https://aws-oss.beachgeek.co.uk/e4) where Shane introduces and shares her Rust story.
+As part of a series of posts from the Rust Foundation aimed at getting to know the board members, last week they published, [Introducing Shane Miller](https://foundation.rust-lang.org/posts/2021-04-15-introducing-shane-miller/) where Shane introduces and shares her Rust story.
 
 **CloudEvents**
 
-CloudEvents is a vendor-neutral specification for defining the format of event data in a common format that is now a CNCF incubating project. In this post from Wilhelm Wonigkeit, [Direktiv: Transforming AWS EventBridge to CNCF CloudEvents](https://aws-oss.beachgeek.co.uk/ei) he shows you how you can use an open source project from vorteil.io called Direktiv, in combination with AWS services such as AWS Lambda to convert the AWS events from EventBridge into compatible CloudEvents.
+CloudEvents is a vendor-neutral specification for defining the format of event data in a common format that is now a CNCF incubating project. In this post from Wilhelm Wonigkeit, [Direktiv: Transforming AWS EventBridge to CNCF CloudEvents](https://aws.plainenglish.io/direktiv-transforming-aws-eventbridge-to-cloudevents-dcf31ba0ddf7) he shows you how you can use an open source project from vorteil.io called Direktiv, in combination with AWS services such as AWS Lambda to convert the AWS events from EventBridge into compatible CloudEvents.
 
 ![arch](https://miro.medium.com/max/2000/1*HCFDijNusuw5_jxGF2vGQQ.png)
 
@@ -124,25 +124,25 @@ This is a super interesting project, and if you are looking at event driven arch
 
 **PartiQL**
  
-PartiQL is an open sourced query language that provides SQL-compatible query access across multiple data stores containing structured data, semi-structured data, and nested data. It is widely used within Amazon and now available as part of many AWS services. In this post, [Using PartiQL to query AWS DynamoDb in Javascript](https://aws-oss.beachgeek.co.uk/eh) Abdullah T shares how this is now enabled in AWS DynamoDB to provide a SQL compatible query language to work with data in Amazon DynamoDB. This means you can write my queries in a more familiar way of SQL-like queries.
+PartiQL is an open sourced query language that provides SQL-compatible query access across multiple data stores containing structured data, semi-structured data, and nested data. It is widely used within Amazon and now available as part of many AWS services. In this post, [Using PartiQL to query AWS DynamoDb in Javascript](https://abba.dev/blog/dynamodb-partiql-javascript) Abdullah T shares how this is now enabled in AWS DynamoDB to provide a SQL compatible query language to work with data in Amazon DynamoDB. This means you can write my queries in a more familiar way of SQL-like queries.
 
 **Stackoscope**
 
-[Introducing Stackoscope](https://aws-oss.beachgeek.co.uk/e6) this post from Lumigo announced a new capability from their open source tool (lumigo-cli) that allows you to analyse your serverless applications against a set of best practices, and produce a report which you can then review/action. The tool currently offers a number of recommendations (15) across a number of AWS services, so why not give this a try out on your dev or test environment to see what insights you might get?
+[Introducing Stackoscope](https://lumigo.io/blog/introducing-stackoscope-for-serverless-applications/) this post from Lumigo announced a new capability from their open source tool (lumigo-cli) that allows you to analyse your serverless applications against a set of best practices, and produce a report which you can then review/action. The tool currently offers a number of recommendations (15) across a number of AWS services, so why not give this a try out on your dev or test environment to see what insights you might get?
 
 ![report](https://res.cloudinary.com/lumigo-production/w_477,c_fit/fl_lossy,f_auto/wp-website/2021/03/stackoscope-report.png)
 
 **AWS Toolkit for VS Code**
 
-[Easier Step Functions with the AWS Toolkit for VS Code](https://aws-oss.beachgeek.co.uk/ej) this post from Andy Blackledge takes a look at how this open source plugin for VS Code can really make developing AWS Step Functions much simpler. Andy walks you through an example and provides source code so you can try it for yourself.
+[Easier Step Functions with the AWS Toolkit for VS Code](https://www.10printiamcool.com/easier-step-functions-with-the-aws-toolkit-for-vs-code) this post from Andy Blackledge takes a look at how this open source plugin for VS Code can really make developing AWS Step Functions much simpler. Andy walks you through an example and provides source code so you can try it for yourself.
 
 **Apache Zeppelin**
 
-[Setting Up Dev Endpoint Using Apache Zeppelin With AWS Glue](https://aws-oss.beachgeek.co.uk/ek)  Shubham Muneshwar shows you how you can configure Apache Zeppelin to interactively, run, debug and test ETL code before deploying as Glue job or scheduling the ETL process. Apache Zeppelin is an open source project that provides a web-based notebook that enables data-driven, interactive data analytics and collaborative documents with a large number of languages, such as SQL, Spark, Scala and more.
+[Setting Up Dev Endpoint Using Apache Zeppelin With AWS Glue](https://dzone.com/articles/setting-up-dev-endpoint-using-apache-zeppelin-with)  Shubham Muneshwar shows you how you can configure Apache Zeppelin to interactively, run, debug and test ETL code before deploying as Glue job or scheduling the ETL process. Apache Zeppelin is an open source project that provides a web-based notebook that enables data-driven, interactive data analytics and collaborative documents with a large number of languages, such as SQL, Spark, Scala and more.
 
 **Data Lakes**
 
-[3 Data Lake Anti-Patterns to Avoid](https://aws-oss.beachgeek.co.uk/eo) Paul Singman shares three anti-patterns with you from a post a few weeks back that I missed. It would be rude of me to tell you what those were without you dipping into this post, so read on and find out more about these anti-patterns. Paul offers some helpful suggestions as to alternatives if you find yourself recognising some of these patterns.
+[3 Data Lake Anti-Patterns to Avoid](https://lakefs.io/data-lake-anti-patterns-to-avoid/) Paul Singman shares three anti-patterns with you from a post a few weeks back that I missed. It would be rude of me to tell you what those were without you dipping into this post, so read on and find out more about these anti-patterns. Paul offers some helpful suggestions as to alternatives if you find yourself recognising some of these patterns.
 
 ### Podcast of the week
 
@@ -156,35 +156,35 @@ Check out this podcast in which Michael Neil talks about Stelligent’s newest o
 
 **Prometheus**
 
-[Prometheus 2.26.0 adds AWS Signature Version 4 support](https://aws-oss.beachgeek.co.uk/dz) Alolita Sharma and Imaya Kumar Jagannathan share that the latest release of Prometheus (v2.26.0), an open source systems monitoring and alerting toolkit, has rolled out native AWS Signature Version 4 authentication support. With this new feature, the Prometheus server is able to directly make remote-write API calls to send metrics to the Amazon Managed Service for Prometheus (AMP) without having to rely on a proxy sidecar container, such as the AWS SigV4 container. To find out more, read on.
+[Prometheus 2.26.0 adds AWS Signature Version 4 support](https://aws.amazon.com/blogs/opensource/prometheus-2-26-0-adds-aws-signature-version-4-support/) Alolita Sharma and Imaya Kumar Jagannathan share that the latest release of Prometheus (v2.26.0), an open source systems monitoring and alerting toolkit, has rolled out native AWS Signature Version 4 authentication support. With this new feature, the Prometheus server is able to directly make remote-write API calls to send metrics to the Amazon Managed Service for Prometheus (AMP) without having to rely on a proxy sidecar container, such as the AWS SigV4 container. To find out more, read on.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/04/14/alolitas_prometheus_226_f1.png)
 
 **Grafana**
 
-[Amazon Managed Service for Grafana (AMG) preview updated with new capabilities](https://aws-oss.beachgeek.co.uk/ew) Toshal Dudhwala and Imaya Kumar Jagannathan announce the wide availability of the AMG public preview and cover some of the new features and plugins that are available in Grafana 7.5. There is a webinar later this week, so if you want to know more make sure you sign up for it too.
+[Amazon Managed Service for Grafana (AMG) preview updated with new capabilities](https://aws.amazon.com/blogs/mt/amazon-managed-service-for-grafana-amg-preview-updated-with-new-capabilities/) Toshal Dudhwala and Imaya Kumar Jagannathan announce the wide availability of the AMG public preview and cover some of the new features and plugins that are available in Grafana 7.5. There is a webinar later this week, so if you want to know more make sure you sign up for it too.
 
 ![grafana](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/04/15/image002.gif)
 
 **PostgreSQL**
 
-[Amazon Aurora PostgreSQL parameters, Part 1: Memory and query plan management](https://aws-oss.beachgeek.co.uk/e3) Sameer Kumar and Gopalakrishnan Subramanian ask you to sit down, grab a cup of your favourite beverage in which to enjoy this four part blog post that covers a broad range of topics. In Part 1 they cover parameters that can be useful to tune the memory utilisation of Aurora PostgreSQL, Part 2 it is all about parameters related to replication, security, and logging. From there Part 3 looks at performance of queries and wrapping up with the final part, Part 4 explores how you can align Aurora PostgreSQL closer to American National Standards Institute (ANSI) standards and reduce the migration effort when migrating from commercial engines.
+[Amazon Aurora PostgreSQL parameters, Part 1: Memory and query plan management](https://aws.amazon.com/blogs/database/amazon-aurora-postgresql-parameters-part-1-memory-and-query-plan-management/) Sameer Kumar and Gopalakrishnan Subramanian ask you to sit down, grab a cup of your favourite beverage in which to enjoy this four part blog post that covers a broad range of topics. In Part 1 they cover parameters that can be useful to tune the memory utilisation of Aurora PostgreSQL, Part 2 it is all about parameters related to replication, security, and logging. From there Part 3 looks at performance of queries and wrapping up with the final part, Part 4 explores how you can align Aurora PostgreSQL closer to American National Standards Institute (ANSI) standards and reduce the migration effort when migrating from commercial engines.
 
 **TensorFlow**
 
-[Implement checkpointing with TensorFlow for Amazon SageMaker Managed Spot Training](https://aws-oss.beachgeek.co.uk/e0) Eitan Sela shows you how you can train TensorFlow models (in this instance, an image classification model) using SageMaker Managed Spot Training. He shares how using checkpoints locally in the container and loaded checkpoints to resume training can help you save over 70% when training your deep-learning models.
+[Implement checkpointing with TensorFlow for Amazon SageMaker Managed Spot Training](https://aws.amazon.com/blogs/machine-learning/implement-checkpointing-with-tensorflow-for-amazon-sagemaker-managed-spot-training/) Eitan Sela shows you how you can train TensorFlow models (in this instance, an image classification model) using SageMaker Managed Spot Training. He shares how using checkpoints locally in the container and loaded checkpoints to resume training can help you save over 70% when training your deep-learning models.
 
 ![checkpoint](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/03/23/5-spot-estimator.jpg)
 
 **Spinnaker**
 
-[Enhancing Spinnaker deployment experience of AWS Lambda functions with the Lambda plugin](https://aws-oss.beachgeek.co.uk/e2) Nima Kaviani, Vikrant Kahlir and Gaurav Dhamija from AWS and from Autodesk, Shrirang Moghe and Brandon Leach come together to share the collaborative efforts between Autodesk, various AWS teams, and Armory.io to drive the implementation and release of the Lambda plugin for Spinnaker. Spinnaker is an open source continuous delivery platform that allows for fast-paced, reliable, and repeatable deployment of software to the cloud used by many AWS customers. The posts looks at the design choices made in building the Lambda plugin and walks you through a sample scenario of deploying a Lambda function using the plugin.
+[Enhancing Spinnaker deployment experience of AWS Lambda functions with the Lambda plugin](https://aws.amazon.com/blogs/opensource/enhancing-spinnaker-deployment-experience-of-aws-lambda-functions-with-the-lambda-plugin/) Nima Kaviani, Vikrant Kahlir and Gaurav Dhamija from AWS and from Autodesk, Shrirang Moghe and Brandon Leach come together to share the collaborative efforts between Autodesk, various AWS teams, and Armory.io to drive the implementation and release of the Lambda plugin for Spinnaker. Spinnaker is an open source continuous delivery platform that allows for fast-paced, reliable, and repeatable deployment of software to the cloud used by many AWS customers. The posts looks at the design choices made in building the Lambda plugin and walks you through a sample scenario of deploying a Lambda function using the plugin.
 
 ![spinnaker](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/03/31/nkaviani_Enhancing-Spinnaker-Deployment-Experience_f12.jpg)
 
 **Terraform**
 
-[Build infrastructure continuous integration for Terraform code leveraging AWS Developer Tools and Terratest](https://aws-oss.beachgeek.co.uk/ex) Carlos Perea and Luca Mazzaferro share this solution on how to integrate Terraform with AWS Cloud* tools to build a CI pipeline that uses Terraform and Terratest.
+[Build infrastructure continuous integration for Terraform code leveraging AWS Developer Tools and Terratest](https://aws.amazon.com/blogs/developer/build-infrastructure-ci-for-terraform-code-leveraging-aws-developer-tools-and-terratest/) Carlos Perea and Luca Mazzaferro share this solution on how to integrate Terraform with AWS Cloud* tools to build a CI pipeline that uses Terraform and Terratest.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2021/02/17/CI4Terraform.png)
 
@@ -206,9 +206,9 @@ The Open Distro for Elasticsearch SQL Engine uses Structured Query Language (SQL
 
 **Open Data**
 
-Twenty eight new or updated datasets from the US Geological Survey, the Swiss Institute of Bioinformatics, iNaturalist.org, National Oceanic and Atmospheric Agency (NOAA), and others are available in the Registry of Open Data on Amazon Web Services (AWS) in the following categories: COVID-19, Agriculture, Astronomy, Climate and Weather, Geospatial, Life Sciences, Machine Learning and Statistical and regulatory. Check out the full list on the announcement page, [New datasets available in the Registry of Open Data on AWS from United States Geological Survey (USGS), the Swiss Institute of Bioinformatics, iNaturalist.org, and others](https://aws-oss.beachgeek.co.uk/e8)
+Twenty eight new or updated datasets from the US Geological Survey, the Swiss Institute of Bioinformatics, iNaturalist.org, National Oceanic and Atmospheric Agency (NOAA), and others are available in the Registry of Open Data on Amazon Web Services (AWS) in the following categories: COVID-19, Agriculture, Astronomy, Climate and Weather, Geospatial, Life Sciences, Machine Learning and Statistical and regulatory. Check out the full list on the announcement page, [New datasets available in the Registry of Open Data on AWS from United States Geological Survey (USGS), the Swiss Institute of Bioinformatics, iNaturalist.org, and others](https://aws.amazon.com/about-aws/whats-new/2021/04/new-datasets-available-in-the-registry-of-open-data-on-aws/)
 
-You can also read more on this from the blog post, [SARS-CoV-2 viral genomes, storm surge forecasts, cloud-free satellite imagery: The latest open data on AWS](https://aws-oss.beachgeek.co.uk/ep) from Joe Flasher.
+You can also read more on this from the blog post, [SARS-CoV-2 viral genomes, storm surge forecasts, cloud-free satellite imagery: The latest open data on AWS](https://aws.amazon.com/blogs/publicsector/sars-cov-2-viral-genomes-storm-surge-forecasts-cloud-free-satellite-imagery-open-data/) from Joe Flasher.
 
 ![image](https://d2908q01vomqb2.cloudfront.net/9e6a55b6b4563e652a23be9d623ca5055c356940/2021/04/16/Open-data-on-AWS-Q2.jpg)
 
@@ -229,12 +229,12 @@ Watch out for these events happening later this week and next.
 
 Join us for a conversation about the complements and conflicts between the cloud and open source. We’ll talk about the past, present and future of open source in a cloud world, the evolution of business models and licenses, and the best models going forward for startups based on open source projects.
 
-To sign up for this event, [click here](https://aws-oss.beachgeek.co.uk/dy).
+To sign up for this event, [click here](https://www.meetup.com/Cloud-City-Meetup/events/277284858/?_xtd=gqFyqDk1NDYyODQyoXCmaXBob25l&from=ref).
 
 **CDK Day**
 **April 30th**
 
-Announced this week was the second [CDK Day](https://sessionize.com/cdkday/), which will be on April 30th. Check out [the web page](https://sessionize.com/cdkday/) to find out more about the first CDK Day, which was incredible. This second event promises to be even better. The CFP is open until the 19th of March. Check out this supporting blog post, [CDK Day CFP Is Open!!!!](https://aws-oss.beachgeek.co.uk/4v) from Matt as to what to expect and what they are looking for when it comes to sessions.
+Announced this week was the second [CDK Day](https://sessionize.com/cdkday/), which will be on April 30th. Check out [the web page](https://sessionize.com/cdkday/) to find out more about the first CDK Day, which was incredible. This second event promises to be even better. The CFP is open until the 19th of March. Check out this supporting blog post, [CDK Day CFP Is Open!!!!](https://dev.to/nideveloper/cdk-day-cfp-is-open-4jcm) from Matt as to what to expect and what they are looking for when it comes to sessions.
 
 **Cloud Native Rust Day**
 **May 3rd**

@@ -32,13 +32,13 @@ So thank you to the following open source heroes: Alvaro Hernandez, Namrata H Sh
 
 **mountpoint-s3**
 
-[mountpoint-s3](https://aws-oss.beachgeek.co.uk/2m1) was the big news last week, a new project that provides a simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system. One thing to note however, is Mountpoint for Amazon S3 is currently an alpha release and should not be used in production. I enjoyed reading the launch post, [The inside story on Mountpoint for Amazon S3, a high-performance open source file client](https://aws-oss.beachgeek.co.uk/2m2) where James Bornholt, Devabrat Kumar, and Andy Warfield show you how you can get started, some of the considerations you need to think about before using it, and then a look behind the scenes at how this tool was developed.
+[mountpoint-s3](https://github.com/awslabs/mountpoint-s3) was the big news last week, a new project that provides a simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system. One thing to note however, is Mountpoint for Amazon S3 is currently an alpha release and should not be used in production. I enjoyed reading the launch post, [The inside story on Mountpoint for Amazon S3, a high-performance open source file client](https://aws.amazon.com/blogs/storage/the-inside-story-on-mountpoint-for-amazon-s3-a-high-performance-open-source-file-client/) where James Bornholt, Devabrat Kumar, and Andy Warfield show you how you can get started, some of the considerations you need to think about before using it, and then a look behind the scenes at how this tool was developed.
 
 ![demo screenshot of mountpoint-s3](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2023/03/11/mountpoint-for-amazon-s3-local-file-system-command-line-tools-1024x511.png)
 
 **s3-access-for-squash**
 
-[s3-access-for-squash](https://aws-oss.beachgeek.co.uk/2m3) is a great tool if you find yourself working with thousands (or more) small files and Amazon S3. Tools to allow user access files squashed in S3 archive object on demand. If we take an example of a massive small text files archive use case, it is likely you have a large local source code tree wants to be archived to S3. It will be inefficient and costly if you were to inject/ingest tens of thousands files direct to/from S3. With this tool, you can compress and aggregate small files into a single big archive object before upload to S3. Then, when a individual file needs to be accessed later, you can fetch through S3 GetObject API which in behind a S3 Object Lambda function will automatically locate file contents inside of archive object in S3 and extract the only necessary bytes back to user. Very cool indeed.
+[s3-access-for-squash](https://github.com/aws-samples/s3-access-for-squash) is a great tool if you find yourself working with thousands (or more) small files and Amazon S3. Tools to allow user access files squashed in S3 archive object on demand. If we take an example of a massive small text files archive use case, it is likely you have a large local source code tree wants to be archived to S3. It will be inefficient and costly if you were to inject/ingest tens of thousands files direct to/from S3. With this tool, you can compress and aggregate small files into a single big archive object before upload to S3. Then, when a individual file needs to be accessed later, you can fetch through S3 GetObject API which in behind a S3 Object Lambda function will automatically locate file contents inside of archive object in S3 and extract the only necessary bytes back to user. Very cool indeed.
 
 Make sure you check the notice in the README though, as it does provide additional guidance on how/when to use this:
 
@@ -46,33 +46,33 @@ Make sure you check the notice in the README though, as it does provide addition
 
 **amazon-s3-tar-tool**
 
-[amazon-s3-tar-tool](https://aws-oss.beachgeek.co.uk/2ma) or s3tar, is utility tool to create a tarball of existing objects in Amazon S3. s3tar allows customers to group existing Amazon S3 objects into TAR files without having to download the files. This cli tool leverages existing Amazon S3 APIs to create the archives on Amazon S3 that can be later transitioned to any of the cold storage tiers. The files generated follow the tar file format and can be extracted with standard tar tools.
+[amazon-s3-tar-tool](https://github.com/awslabs/amazon-s3-tar-tool) or s3tar, is utility tool to create a tarball of existing objects in Amazon S3. s3tar allows customers to group existing Amazon S3 objects into TAR files without having to download the files. This cli tool leverages existing Amazon S3 APIs to create the archives on Amazon S3 that can be later transitioned to any of the cold storage tiers. The files generated follow the tar file format and can be extracted with standard tar tools.
 
 Make sure you read the README as it contains more details around how it works under the hood, some details around pricing considerations, and then some limitations you should be aware of.
 
 **aws-serverless-ai-stories**
 
-[aws-serverless-ai-stories](https://aws-oss.beachgeek.co.uk/2m7) this a new project from AWS Serverless Advocate (and open source bar raiser) David Boyne. I really love the idea behind this, and if you have been following David on social media, you will have seen how this project developed. This project is an example of an event-driven application that generates a new bed time story for your children every night using Lambda, EventBridge, DynamoDB, App Runner, ChatGPT and DALL-E.
+[aws-serverless-ai-stories](https://github.com/aws-samples/aws-serverless-ai-stories) this a new project from AWS Serverless Advocate (and open source bar raiser) David Boyne. I really love the idea behind this, and if you have been following David on social media, you will have seen how this project developed. This project is an example of an event-driven application that generates a new bed time story for your children every night using Lambda, EventBridge, DynamoDB, App Runner, ChatGPT and DALL-E.
 
 ![overview of architecture of ai stories](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2023/03/14/ai-stories-2.png)
 
-I am happy to say that along with the code, he has put together a blog post,[ Implementing an event-driven serverless story generation application with ChatGPT and DALL-E](https://aws-oss.beachgeek.co.uk/2m8), that guides you through implementing this for yourself. This weeks essential read.
+I am happy to say that along with the code, he has put together a blog post,[ Implementing an event-driven serverless story generation application with ChatGPT and DALL-E](https://aws.amazon.com/blogs/compute/implementing-an-event-driven-serverless-story-generation-application-with-chatgpt-and-dall-e/), that guides you through implementing this for yourself. This weeks essential read.
 
 ![example story produced by project](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2023/03/14/ai-stories-1.png)
 
 **earthquake-notifier**
 
-[earthquake-notifier](https://aws-oss.beachgeek.co.uk/2m9) is an example serverless solution based on Lambda (in Rust), EventBridge and SNS to monitor for earthquakes and send email notifications. Under the hood, it uses the National Institute of Geophysics and Volcanology public APIs (INGV) and scans them every hour.
+[earthquake-notifier](https://github.com/lmammino/earthquake-notifier) is an example serverless solution based on Lambda (in Rust), EventBridge and SNS to monitor for earthquakes and send email notifications. Under the hood, it uses the National Institute of Geophysics and Volcanology public APIs (INGV) and scans them every hour.
 
 **amazon-keyspaces-python-util-scripts**
 
-[amazon-keyspaces-python-util-scripts](https://aws-oss.beachgeek.co.uk/2m5) if you are looking to investigate Amazon Keyspaces for Apache Cassandra, then these scripts accompany a tutorial ([Scalability and familiarity with Amazon Keyspaces](https://aws-oss.beachgeek.co.uk/2m6) )that will help you gain familiarity with this service. I often find that these scripts that are put together for workshops and tutorials are super helpful, so sharing this project for that reason.
+[amazon-keyspaces-python-util-scripts](https://github.com/aws-samples/amazon-keyspaces-python-util-scripts) if you are looking to investigate Amazon Keyspaces for Apache Cassandra, then these scripts accompany a tutorial ([Scalability and familiarity with Amazon Keyspaces](https://aws.amazon.com/getting-started/hands-on/purpose-built-databases/keyspaces/) )that will help you gain familiarity with this service. I often find that these scripts that are put together for workshops and tutorials are super helpful, so sharing this project for that reason.
 
 ### Demos, Samples, Solutions and Workshops
 
 **multi-simulation-jobs-aws-robomaker-demo**
 
-[multi-simulation-jobs-aws-robomaker-demo](https://aws-oss.beachgeek.co.uk/2m4)  is a demo that shows how you can enable communication between ROS2 applications deployed in AWS RoboMaker's multiple simulation jobs. This demo sets up a Docker container format Talker and Listener to do TCP communication through Fast DDS Discovery Server. The source code provides a setting template that can be used when you want to communicate and work with multiple simulation jobs simultaneously using AWS RoboMaker.
+[multi-simulation-jobs-aws-robomaker-demo](https://github.com/aws-samples/multi-simulation-jobs-aws-robomaker-demo)  is a demo that shows how you can enable communication between ROS2 applications deployed in AWS RoboMaker's multiple simulation jobs. This demo sets up a Docker container format Talker and Listener to do TCP communication through Fast DDS Discovery Server. The source code provides a setting template that can be used when you want to communicate and work with multiple simulation jobs simultaneously using AWS RoboMaker.
 
 ![architecture of multi simulation jobs communicating in RoboMaker](https://github.com/aws-samples/multi-simulation-jobs-aws-robomaker-demo/blob/master/docs/architecture.png?raw=true)
 
@@ -87,43 +87,43 @@ As a big user of Amazon Linux distributions for a while, I am happy that we have
 
 **Apache Iceberg**
 
-In the post, [Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena](https://aws-oss.beachgeek.co.uk/2mn), Houssem Chihoub provides a hands on guide on how you can build a serverless transactional data lake with Apache Iceberg on Amazon Simple Storage Service (Amazon S3) using Amazon EMR Serverless and Amazon Athena [hands on]
+In the post, [Build a serverless transactional data lake with Apache Iceberg, Amazon EMR Serverless, and Amazon Athena](https://aws.amazon.com/blogs/big-data/build-a-serverless-transactional-data-lake-with-apache-iceberg-amazon-emr-serverless-and-amazon-athena/), Houssem Chihoub provides a hands on guide on how you can build a serverless transactional data lake with Apache Iceberg on Amazon Simple Storage Service (Amazon S3) using Amazon EMR Serverless and Amazon Athena [hands on]
 
 ![overview of serverless transactional data lake](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/02/24/bdb-2850-image001.jpg)
 
 **Apache Kafka**
 
-There are many options you have when it comes to how you run your Apache Kafka. In this post, [How to choose the right Amazon MSK cluster type for you](https://aws-oss.beachgeek.co.uk/2ml), Ali Alemi shows you his process that may help you work backward from your application’s requirements and the resources available to you, to find the right choice for you.
+There are many options you have when it comes to how you run your Apache Kafka. In this post, [How to choose the right Amazon MSK cluster type for you](https://aws.amazon.com/blogs/big-data/how-to-choose-the-right-amazon-msk-cluster-type-for-you/), Ali Alemi shows you his process that may help you work backward from your application’s requirements and the resources available to you, to find the right choice for you.
 
 ![decision making flowchart for apache kafka options](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/03/09/bdb2939-image001-600.png)
 
 **Kubernetes**
 
-Having spent an increasing amount of time immersed in the world of Kubernetes, I found this next post very helpful. Herbert-John Kelly and Andrew Gargan have penned [Automate prework to save time deploying an Amazon EKS Kubernetes cluster](https://aws-oss.beachgeek.co.uk/2mg), that shows you how you can automate a lot of the configuration work you need to do when setting up your Kubernetes clusters - in this particular case, using CloudFormation. [hands on]
+Having spent an increasing amount of time immersed in the world of Kubernetes, I found this next post very helpful. Herbert-John Kelly and Andrew Gargan have penned [Automate prework to save time deploying an Amazon EKS Kubernetes cluster](https://aws.amazon.com/blogs/infrastructure-and-automation/automate-prework-to-save-time-deploying-amazon-eks-kubernetes-cluster/), that shows you how you can automate a lot of the configuration work you need to do when setting up your Kubernetes clusters - in this particular case, using CloudFormation. [hands on]
 
 **Nextcloud**
 
- Nextcloud is an open source platform to store, share and manage files over the web. Following on from a previous post on this project, Helge Aufderheide this time writes, [Advanced Nextcloud Workflows with Amazon Simple Storage Service (Amazon S3)](https://aws-oss.beachgeek.co.uk/2mj) that build on that idea and demonstrate advanced functionalities and optimisations, such as starting workflows when you upload a file and optimising your Amazon S3 usage for cost. [hands on]
+ Nextcloud is an open source platform to store, share and manage files over the web. Following on from a previous post on this project, Helge Aufderheide this time writes, [Advanced Nextcloud Workflows with Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/blogs/opensource/advanced-nextcloud-workflows-with-storage-on-amazon-simple-storage-service-amazon-s3-2/) that build on that idea and demonstrate advanced functionalities and optimisations, such as starting workflows when you upload a file and optimising your Amazon S3 usage for cost. [hands on]
 
 **Other posts and quick reads**
 
-* [Client-side T-SQL assessment for SQL Server to Babelfish for Aurora PostgreSQL migration](https://aws-oss.beachgeek.co.uk/2mk) shows you how to evaluate the T-SQL queries within the client applications, for assessing the complexity of SQL Server to Babelfish migration [hands on]
-* [Building Automation for Fraud Detection Using OpenSearch and Terraform](https://aws-oss.beachgeek.co.uk/2mi) shows how you can use OpenSearch reduces the time financial analysts would take to access transactional data by automating data ingestion and replication [hands on]
+* [Client-side T-SQL assessment for SQL Server to Babelfish for Aurora PostgreSQL migration](https://aws.amazon.com/blogs/database/client-side-t-sql-assessment-for-sql-server-to-babelfish-for-aurora-postgresql-migration/) shows you how to evaluate the T-SQL queries within the client applications, for assessing the complexity of SQL Server to Babelfish migration [hands on]
+* [Building Automation for Fraud Detection Using OpenSearch and Terraform](https://aws.amazon.com/blogs/opensource/building-automation-for-opensearch-for-fraud-detection-using-opensearch-and-terraform/) shows how you can use OpenSearch reduces the time financial analysts would take to access transactional data by automating data ingestion and replication [hands on]
 
 ![architecture of OpenSearch solution to automate fraud detection](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/03/13/fraud-detection-architecture-diagram.png)
 
-* [Install optimized software with Spack configs for AWS ParallelCluster](https://aws-oss.beachgeek.co.uk/2mh) takes a look at how Spack configs for AWS ParallelCluster make it easy to build tuned versions of several important HPC applications using best practices developed by the AWS HPC Performance Engineering Team [hands on]
-* [Automate Avalanche node deployment using the AWS CDK: Part 1](https://aws-oss.beachgeek.co.uk/2mb) looks at operational challenges using AWS primitives and the Rust SDK, and showcases how to do a single-command deployment of Avalanche node using the AWS Cloud Development Kit (AWS CDK) [hands on]
+* [Install optimized software with Spack configs for AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/install-optimized-software-with-spack-configs-for-aws-parallelcluster/) takes a look at how Spack configs for AWS ParallelCluster make it easy to build tuned versions of several important HPC applications using best practices developed by the AWS HPC Performance Engineering Team [hands on]
+* [Automate Avalanche node deployment using the AWS CDK: Part 1](https://aws.amazon.com/blogs/database/part-1-automate-avalanche-node-deployment-using-the-aws-cdk/) looks at operational challenges using AWS primitives and the Rust SDK, and showcases how to do a single-command deployment of Avalanche node using the AWS Cloud Development Kit (AWS CDK) [hands on]
 
 ![overview of avalanche node deployment architecture](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/03/07/DBblog-2270-Arch.png)
 
 **Case Studies**
 
-* [How Infomedia built a serverless data pipeline with change data capture using AWS Glue and Apache Hudi](https://aws-oss.beachgeek.co.uk/2mf) looks at how Infomedia built a serverless data pipeline with change data capture (CDC) using AWS Glue and Apache Hudi.
+* [How Infomedia built a serverless data pipeline with change data capture using AWS Glue and Apache Hudi](https://aws.amazon.com/blogs/big-data/how-infomedia-built-a-serverless-data-pipeline-with-change-data-capture-using-aws-glue-and-apache-hudi/) looks at how Infomedia built a serverless data pipeline with change data capture (CDC) using AWS Glue and Apache Hudi.
 
 ![architecture of infomedia serverless data pipeline](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/03/09/BDB-1988-arch-diag-2.png)
 
-* [How VMware built an MLOps pipeline from scratch using GitLab, Amazon MWAA, and Amazon SageMaker](https://aws-oss.beachgeek.co.uk/2mm)  shares how VMware Carbon Black and AWS architects built and managed custom ML workflows using Gitlab, Amazon MWAA, and SageMaker.
+* [How VMware built an MLOps pipeline from scratch using GitLab, Amazon MWAA, and Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/how-vmware-built-an-mlops-pipeline-from-scratch-using-gitlab-amazon-mwaa-and-amazon-sagemaker/)  shares how VMware Carbon Black and AWS architects built and managed custom ML workflows using Gitlab, Amazon MWAA, and SageMaker.
 
 ![overview of vmware carbon black mlops architecture](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/02/20/ML-10207-high-level-architecture-1.png)
 
@@ -131,9 +131,9 @@ Having spent an increasing amount of time immersed in the world of Kubernetes, I
 
 **OpenSearch**
 
-The OpenSearch community survey reports were published last week, and Dr. Aparna Sundar put together a post, [OpenSearch Project Q1 community survey results](https://aws-oss.beachgeek.co.uk/2md), that walked through the highlights. I would encourage you all to check this post out.
+The OpenSearch community survey reports were published last week, and Dr. Aparna Sundar put together a post, [OpenSearch Project Q1 community survey results](https://opensearch.org/blog/q1-survey-results/), that walked through the highlights. I would encourage you all to check this post out.
 
-Also, have you signed up for the OpenSearch newsletter? Check the latest edition, [OpenSearch Project Newsletter - Volume 1, Issue 2](https://aws-oss.beachgeek.co.uk/2me) and make sure you bookmark/subscribe to keep up to date with the latest OpenSearch news.
+Also, have you signed up for the OpenSearch newsletter? Check the latest edition, [OpenSearch Project Newsletter - Volume 1, Issue 2](https://opensearch.org/blog/newsletter/) and make sure you bookmark/subscribe to keep up to date with the latest OpenSearch news.
 
 **Apache Cassandra**
 
@@ -182,7 +182,7 @@ This short tutorial from the lovely folk at Mend show you how you can integrate 
 
 If you missed the latest episode of Build on Open Source, Episode 3 looked at this and the previous newsletter, and had special guest, AWS Community Builder John "Preston" Mille to talk about his project, ecs-compose-x. If you missed it, don't worry [you can catch it on replay here](https://www.twitch.tv/videos/1767546947)
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -193,7 +193,7 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 
 Backstage is an open source project that enables you to build developer friendly portals. "Building Self Service DevOps Platform using Proton and Backstage" discusses in detail about the advantages of leveraging a self service platform for building infrastructure and applications in a Kubernetes application and how to optimise to accelerate developer velocity and best practice adoption in an enterprise container platform.
 
-If you can get to the Liverpool AWS User Group, then this promises to be a great event. [Find out more and register here](https://aws-oss.beachgeek.co.uk/2mc)
+If you can get to the Liverpool AWS User Group, then this promises to be a great event. [Find out more and register here](https://www.meetup.com/aws-user-group-liverpool/events/291604121/)
 
 **Build on Open Source**
 **March 31st, twitch.tv/aws**
@@ -205,24 +205,24 @@ The fourth episode of Build on Open Source features special guests Devansh Bawar
 
 FOSSASIA Summit 2023 returns as an in-person and online event, taking place from Thursday 13th April to Saturday 15th April at the Lifelong Learning Institute in Singapore. 
 
-If you are interested in attending in person, or virtually, find out more about the event at the [FOSSASIA Summit 2023 page](https://aws-oss.beachgeek.co.uk/2iq).
+If you are interested in attending in person, or virtually, find out more about the event at the [FOSSASIA Summit 2023 page](https://eventyay.com/e/7cfe0771).
 
 **AWS Community Nordics**
 **April, 20th Helsinki**
 
-The AWS Community Day Nordics is a free full day event for AWS users to come together to network, learn from each other and get inspired. The event is organised by the community - for the community. The cfp is currently open, so if you are in the area and want to talk then here is your chance. Check out the full event details and save your space here, [AWS Community Nordics registration page](https://aws-oss.beachgeek.co.uk/2l5)
+The AWS Community Day Nordics is a free full day event for AWS users to come together to network, learn from each other and get inspired. The event is organised by the community - for the community. The cfp is currently open, so if you are in the area and want to talk then here is your chance. Check out the full event details and save your space here, [AWS Community Nordics registration page](https://awscommunitynordics.org/communityday/#agenda)
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

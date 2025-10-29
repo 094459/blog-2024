@@ -32,51 +32,51 @@ So thank you to the following open source heroes: Aiden Steel, Bob Tordella, Roy
 
 **amazon-redshift-odbc-driver**
 
-[amazon-redshift-odbc-driver](https://aws-oss.beachgeek.co.uk/1wk) the Amazon Redshift ODBC driver is now open source and available for the user community under the Apache-2.0 license. With this release, customers will gain enhanced visibility to the driver implementation and can contribute to its development. Users can browse the code for the ODBC driver on the relevant AWS GitHub repository, submit driver functionality enhancements through Github pull requests, and report issues for review.
+[amazon-redshift-odbc-driver](https://github.com/aws/amazon-redshift-odbc-driver) the Amazon Redshift ODBC driver is now open source and available for the user community under the Apache-2.0 license. With this release, customers will gain enhanced visibility to the driver implementation and can contribute to its development. Users can browse the code for the ODBC driver on the relevant AWS GitHub repository, submit driver functionality enhancements through Github pull requests, and report issues for review.
 
 We are also introducing a binary protocol support for Amazon Redshift. With binary protocol enabled, data from the Amazon Redshift cluster is sent to the ODBC driver without being converted to textual format, and is kept in binary format. The binary format provides an average of 30% decrease in data sent over the wire resulting in faster end-to-end query performance for queries returning large result-sets. For example, internal tests have shown end-to-end query times for queries returning over 100 columns and over one million rows have had a 43% speed-up. Binary protocol is enabled by default for all users using the latest ODBC driver, as well as the latest JDBC & Python drivers.
 
 **openrolesanywhere**
 
-[openrolesanywhere](https://aws-oss.beachgeek.co.uk/1wm) Aiden Steel has put together and open source proof-of-concept client for the recently released AWS IAM Roles Anywhere. Aiden has put together this blog post, [openrolesanywhere - an IAM Roles Anywhere client](https://aws-oss.beachgeek.co.uk/1wn) to accompany this project, so make sure you read it to get the most out of the code.
+[openrolesanywhere](https://github.com/aidansteele/openrolesanywhere) Aiden Steel has put together and open source proof-of-concept client for the recently released AWS IAM Roles Anywhere. Aiden has put together this blog post, [openrolesanywhere - an IAM Roles Anywhere client](https://awsteele.com/blog/2022/07/14/openrolesanywhere-roles-anywhere.html) to accompany this project, so make sure you read it to get the most out of the code.
 
 **spot-interruption-simulation**
 
-[spot-interruption-simulation](https://aws-oss.beachgeek.co.uk/1wp) this repository has sample that provides end to end automation of EC2 Spot Interruption simulation with application availability testing during Spot interruption. This tool will be super handy for a number of different use cases, from understanding the behaviour of your applications and the applicability of EC2 Spot instance types, to how you can use this together with the Fault Injection Service (FIS) to test different resilience scenarios.
+[spot-interruption-simulation](https://github.com/aws-samples/spot-interruption-simulation) this repository has sample that provides end to end automation of EC2 Spot Interruption simulation with application availability testing during Spot interruption. This tool will be super handy for a number of different use cases, from understanding the behaviour of your applications and the applicability of EC2 Spot instance types, to how you can use this together with the Fault Injection Service (FIS) to test different resilience scenarios.
 
 ![architecture of spot interuption](https://github.com/aws-samples/spot-interruption-simulation/blob/main/architecture.png?raw=true)
 
 **cdk-backup-plan**
 
-[cdk-backup-plan](https://aws-oss.beachgeek.co.uk/1wt) this repo provides an easy to use reusable CDK construct to create Backup Plans using AWS Backups. It allows to indicate how frequently and what resources to backup.
+[cdk-backup-plan](https://github.com/aws-samples/cdk-backup-plan) this repo provides an easy to use reusable CDK construct to create Backup Plans using AWS Backups. It allows to indicate how frequently and what resources to backup.
 
 **aws-cdk-lambda-layer-builder**
 
-[aws-cdk-lambda-layer-builder](https://aws-oss.beachgeek.co.uk/1wv) Amazon Lambda functions often require extra modules which can be packaged in an Amazon Lambda Layer. The Layer is then attached to the Lambda to make the packaged module easily usable in the function code. AWS CDK does not have a simple, production ready solution to create a Lambda Layer. This repo is a collection of AWS CDK constructs to build Python Lambda Layers with minimum requirements on the user side, e.g. no bash or zip cli has to be available on the user's machine.
+[aws-cdk-lambda-layer-builder](https://github.com/aws-samples/aws-cdk-lambda-layer-builder) Amazon Lambda functions often require extra modules which can be packaged in an Amazon Lambda Layer. The Layer is then attached to the Lambda to make the packaged module easily usable in the function code. AWS CDK does not have a simple, production ready solution to create a Lambda Layer. This repo is a collection of AWS CDK constructs to build Python Lambda Layers with minimum requirements on the user side, e.g. no bash or zip cli has to be available on the user's machine.
 
 **cdk-testable-infrastructure**
 
-[cdk-testable-infrastructure](https://aws-oss.beachgeek.co.uk/1wu) Reliable integration testing gives developers the confidence needed to promote the changes from testing to production environments. But how should you think about implementing tests for your applications? This repo provides some examples of how you can add integration tests to your infrastructure deployment code, and provides a number (three) patterns for you to explore and then think about what might work for you.
+[cdk-testable-infrastructure](https://github.com/aws-samples/cdk-testable-infrastructure) Reliable integration testing gives developers the confidence needed to promote the changes from testing to production environments. But how should you think about implementing tests for your applications? This repo provides some examples of how you can add integration tests to your infrastructure deployment code, and provides a number (three) patterns for you to explore and then think about what might work for you.
 
 ### Demos, Samples, Solutions and Workshops
 
 **magento-ecs-cdk**
 
-[magento-ecs-cdk](https://aws-oss.beachgeek.co.uk/1wq) Magento is a very popular open-source e-commerce platform written in PHP. This repository consist of a sample project providing infrastructure as code based on AWS Cloud Development Kit (AWS CDK) in order to run open-source e-commerce Magento software platform. The CDK application will deploy highly-available and scalable Magento platform by leveraging Amazon Elastic Container Services (Amazon ECS) and several additional AWS services.
+[magento-ecs-cdk](https://github.com/aws-samples/magento-ecs-cdk) Magento is a very popular open-source e-commerce platform written in PHP. This repository consist of a sample project providing infrastructure as code based on AWS Cloud Development Kit (AWS CDK) in order to run open-source e-commerce Magento software platform. The CDK application will deploy highly-available and scalable Magento platform by leveraging Amazon Elastic Container Services (Amazon ECS) and several additional AWS services.
 
 ![overview of magento on aws ecs architecture](https://github.com/aws-samples/magento-ecs-cdk/blob/main/doc/images/magento-archi.png?raw=true)
 
 **using-rekognition-to-detect-sounds**
 
-[using-rekognition-to-detect-sounds](https://aws-oss.beachgeek.co.uk/1wr) this looks like a very interesting sample project. This project demonstrates the use of Rekognition to detect audio events when used in combination with spectrographic analysis. The project has two main aspects: generating training data (spectrograms) from audio samples of background noise and alarms, and an inference pipeline to use the model to detect if a smoke alarm sound is present in an audio file.
+[using-rekognition-to-detect-sounds](https://github.com/aws-samples/using-rekognition-to-detect-sounds) this looks like a very interesting sample project. This project demonstrates the use of Rekognition to detect audio events when used in combination with spectrographic analysis. The project has two main aspects: generating training data (spectrograms) from audio samples of background noise and alarms, and an inference pipeline to use the model to detect if a smoke alarm sound is present in an audio file.
 
 **aws-cdk-web-app-example**
 
-[aws-cdk-web-app-example](https://aws-oss.beachgeek.co.uk/1ws) This is an example of how to build a resilient web application with just 30 lines lines of TypeScript code by using the AWS CDK. It consists of one Amazon Virtual Private Cloud (VPC) with private and public subnets in multiple Availability Zones, in which an Application Load Balancer and an Amazon EC2 Auto Scaling Group are deployed. The Application Load Balancer accepts requests via HTTP (port 80) and forwards them to the instances of the Auto Scaling Group. The Auto Scaling Group is using a Launch Configuration that contains a User Data script to install the Apache HTTP Server and serve a static HTML page.
+[aws-cdk-web-app-example](https://github.com/aws-samples/aws-cdk-web-app-example) This is an example of how to build a resilient web application with just 30 lines lines of TypeScript code by using the AWS CDK. It consists of one Amazon Virtual Private Cloud (VPC) with private and public subnets in multiple Availability Zones, in which an Application Load Balancer and an Amazon EC2 Auto Scaling Group are deployed. The Application Load Balancer accepts requests via HTTP (port 80) and forwards them to the instances of the Auto Scaling Group. The Auto Scaling Group is using a Launch Configuration that contains a User Data script to install the Apache HTTP Server and serve a static HTML page.
 
 **amazon-athena-execution-parameters-blog**
 
-[amazon-athena-execution-parameters-blog](https://aws-oss.beachgeek.co.uk/1ww) this repo contains everything you need to deploy a sample web application to demonstrate new ability to pass executions parameters to Amazon Athena StartQueryExecution API. This sample application uses a number of AWS services to demonstrate a Data-as-a-Service (DaaS) architecture pattern that uses Amazon Athena to query the Amazon.com customer reviews dataset.
+[amazon-athena-execution-parameters-blog](https://github.com/aws-samples/amazon-athena-execution-parameters-blog) this repo contains everything you need to deploy a sample web application to demonstrate new ability to pass executions parameters to Amazon Athena StartQueryExecution API. This sample application uses a number of AWS services to demonstrate a Data-as-a-Service (DaaS) architecture pattern that uses Amazon Athena to query the Amazon.com customer reviews dataset.
 
 ![architecture of data as a service](https://github.com/aws-samples/amazon-athena-execution-parameters-blog/blob/main/ParameterizedQueriesDiagram.png?raw=true)
 
@@ -84,46 +84,46 @@ We are also introducing a binary protocol support for Amazon Redshift. With bina
 
 **Cloudscape**
 
-This week it was great to see the launch of [Cloudscape](https://aws-oss.beachgeek.co.uk/1wb), a new open source React design system for web applications, released under the Apache 2.0 license. Tim Anderson wrote about this in his post, [AWS open sources Cloudscape Design System](https://aws-oss.beachgeek.co.uk/1wc).
+This week it was great to see the launch of [Cloudscape](https://github.com/cloudscape-design), a new open source React design system for web applications, released under the Apache 2.0 license. Tim Anderson wrote about this in his post, [AWS open sources Cloudscape Design System](https://devclass.com/2022/07/21/aws-open-sources-cloudscape-design-system/).
 
 ![demo of cloudscape diagram](https://devclass.com/wp-content/uploads/2022/07/servicedash.jpg)
 
-From the official news launch, [Announcing Cloudscape Design System, an open source solution for building intuitive web applications](https://aws-oss.beachgeek.co.uk/1wd)
+From the official news launch, [Announcing Cloudscape Design System, an open source solution for building intuitive web applications](https://aws.amazon.com/about-aws/whats-new/2022/07/cloudscape-design-system-open-source-solution-building-intuitive-web-applications/)
 
 >  Cloudscape Design System is an open source solution for building intuitive, engaging, and inclusive user experiences at scale. Cloudscape consists of an extensive set of guidelines to create web applications, along with the design resources and front-end components to streamline implementation.
 >Cloudscape was built for and is used by AWS products and services. We created it in 2016 to improve the user experience across AWS web applications, and also to help teams implement those applications faster. Since then, we have continued enhancing the system based on customer feedback and research. If you’ve ever used the AWS Management Console, you’ve seen Cloudscape in action.
 >
 >We are releasing Cloudscape as open source so that anyone building cloud products can benefit from our design system, and also join a community of designers and developers who continually improve it. Whether you’re building a product that extends the AWS Management Console, designing a user interface for a hybrid cloud management system, or setting up an on-premises solution that uses AWS, Cloudscape offers a solid base of 60+ components, 30+ pattern guidelines, and 20+ demos to make your work easier. To customize your user experience, Cloudscape offers theming, dark mode, and content density modes.
 
-Head on over to the [documentation site](https://aws-oss.beachgeek.co.uk/1wf) to learn more about the features, how to use and start building with Cloudscape, as well as checking out some demo code available for you to help you get started. There is really some great stuff in this documentation site, so make sure you do not miss this.
+Head on over to the [documentation site](https://cloudscape.design/) to learn more about the features, how to use and start building with Cloudscape, as well as checking out some demo code available for you to help you get started. There is really some great stuff in this documentation site, so make sure you do not miss this.
 
 **Apache Kafka**
 
-In the post, [Creating a serverless Apache Kafka publisher using AWS Lambda](https://aws-oss.beachgeek.co.uk/1wh) Philipp Klose shares a general integration pattern between AWS Lambda and Apache Kafka, and then walks you through how to create of this using Apache Managed Streaming for Apache Kafka (MSK), using AWS CDK to help you deploy this easily so you can try this out for yourself. [hands on]
+In the post, [Creating a serverless Apache Kafka publisher using AWS Lambda](https://aws.amazon.com/blogs/compute/creating-a-serverless-apache-kafka-publisher-using-aws-lambda/) Philipp Klose shares a general integration pattern between AWS Lambda and Apache Kafka, and then walks you through how to create of this using Apache Managed Streaming for Apache Kafka (MSK), using AWS CDK to help you deploy this easily so you can try this out for yourself. [hands on]
 
 ![architecture of apache kafka solution](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2022/06/21/kafka2.png)
 
 **Amazon EMR**
 
 EMR on EKS facilitates running Spark jobs on Kubernetes to achieve very fast and cost-efficient Spark operations.
-A contender for this weeks longest blog title, [Stream Amazon EMR on EKS logs to third-party providers like Splunk, Amazon OpenSearch Service, or other log aggregators](https://aws-oss.beachgeek.co.uk/1wi) Matthew Tan shares how a solution using pod templates and Fluent Bit, that will help you to To log all these operations in the same lifecycle of the Spark jobs. [hands on]
+A contender for this weeks longest blog title, [Stream Amazon EMR on EKS logs to third-party providers like Splunk, Amazon OpenSearch Service, or other log aggregators](https://aws.amazon.com/blogs/big-data/stream-amazon-emr-on-eks-logs-to-third-party-providers-like-splunk-amazon-opensearch-service-or-other-log-aggregators/) Matthew Tan shares how a solution using pod templates and Fluent Bit, that will help you to To log all these operations in the same lifecycle of the Spark jobs. [hands on]
 
 ![architecture for amazon emr on eks logging](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/07/05/emr_eks_logforwarding_images_1.png)
 
 **Other posts you might like from the past week**
 
-* [How (and Why) to Build a Welcoming Open Source Community](https://aws-oss.beachgeek.co.uk/1wa) my colleague Libby provides some good advice for those looking to nurture communities around their open source projects 
-* [How NRCan used an AWS open source solution to complete a PBMM evidence package in 60 days](https://aws-oss.beachgeek.co.uk/1wg) is a great case study (in English and French) that looks at how open source is supporting increased agility and speed of delivery of new solutions
-* [Which Way is the Compass Pointing?](https://aws-oss.beachgeek.co.uk/1wl) nice post from the OpenSearch blog that shows how they are taking a data driven approach (powered by OpenSearch) to manage feedback and understand which documentation to create
+* [How (and Why) to Build a Welcoming Open Source Community](https://thenewstack.io/how-and-why-to-build-a-welcoming-open-source-community/) my colleague Libby provides some good advice for those looking to nurture communities around their open source projects 
+* [How NRCan used an AWS open source solution to complete a PBMM evidence package in 60 days](https://aws.amazon.com/blogs/publicsector/how-nrcan-used-aws-open-source-solution-complete-pbmm-evidence-package-60-days/) is a great case study (in English and French) that looks at how open source is supporting increased agility and speed of delivery of new solutions
+* [Which Way is the Compass Pointing?](https://opensearch.org/blog/intro/2022/07/content-compass/) nice post from the OpenSearch blog that shows how they are taking a data driven approach (powered by OpenSearch) to manage feedback and understand which documentation to create
 
 ### AWS Community Builder and Heroes picks
 
 The AWS Community Builder and Heroes community creates a lot of great content over at [dev.to/heroes](https://dev.to/aws-heroes) and [dev.to/builders](https://dev.to/aws-builders). Here is a selection of the posts that I enjoyed this week.
 
-* [Where are those CloudTrail IP addresses coming from?](https://aws-oss.beachgeek.co.uk/1wo) Bob Tordella shows you how you can use Steampipe with the AWS and ipstack plugins to enrich your CloudTrail events with location information [hands on]
-* [Using DynamoDB on Spring Boot (feat.Kotlin)](https://aws-oss.beachgeek.co.uk/1w7) Roy Ra shows you how to use Amazon DynamoDB with Spring Boot application made with Kotlin [hands on]
-* [Deploy your application on Kubernetes (Amazon EKS) using AWS Serverless (Codebuild)](https://aws-oss.beachgeek.co.uk/1w8) Rajit Paul takes a look at how you can use AWS CodeBuild to deploy your Kubernetes environments, something I have been playing around with myself (expect a blog soon)
-* [IoT benchmark on Distributed SQL from MaibornWolff on Amazon EKS](https://aws-oss.beachgeek.co.uk/1w9) Franck Pachot shares his journey of deploying the distributed SQL benchmark from MaibornWolff on Amazon EKS
+* [Where are those CloudTrail IP addresses coming from?](https://dev.to/aws-builders/where-are-those-cloudtrail-ip-addresses-coming-from-3hae) Bob Tordella shows you how you can use Steampipe with the AWS and ipstack plugins to enrich your CloudTrail events with location information [hands on]
+* [Using DynamoDB on Spring Boot (feat.Kotlin)](https://dev.to/aws-builders/using-dynamodb-on-spring-boot-featkotlin-3674) Roy Ra shows you how to use Amazon DynamoDB with Spring Boot application made with Kotlin [hands on]
+* [Deploy your application on Kubernetes (Amazon EKS) using AWS Serverless (Codebuild)](https://dev.to/aws-builders/deploy-your-application-on-kubernetes-amazon-eks-using-aws-serverless-codebuild-594i) Rajit Paul takes a look at how you can use AWS CodeBuild to deploy your Kubernetes environments, something I have been playing around with myself (expect a blog soon)
+* [IoT benchmark on Distributed SQL from MaibornWolff on Amazon EKS](https://dev.to/aws-heroes/iot-benchmark-on-distributed-sql-from-maibornwolff-on-aws-eks-3ag8) Franck Pachot shares his journey of deploying the distributed SQL benchmark from MaibornWolff on Amazon EKS
 
 ### Quick updates
 
@@ -133,7 +133,7 @@ Last week saw the general availability of AWS Lambda Powertools for TypeScript, 
 
 **Amazon Corretto**
 
-This week we announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 18.0.2, 17.0.4, 11.0.16, 8u342 are now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Check out the [Amazon Corretto July, 2022 quarterly updates](https://aws-oss.beachgeek.co.uk/1wj) for more info and links to the full list of updates.
+This week we announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 18.0.2, 17.0.4, 11.0.16, 8u342 are now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Check out the [Amazon Corretto July, 2022 quarterly updates](https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-corretto-july-2022-quarterly-updates/) for more info and links to the full list of updates.
 
 **Porting Assistant for .NET**
 
@@ -153,7 +153,7 @@ In addition, you can use AWS Lake Formation to apply Table and Column-level perm
 
 **OpenSearch**
 
-Check out the new [OpenSearch You Tube channel](https://aws-oss.beachgeek.co.uk/1w6), for all your OpenSearch content you need.
+Check out the new [OpenSearch You Tube channel](https://www.youtube.com/c/OpenSearchProject/videos), for all your OpenSearch content you need.
 
 **BuildOn AWS Open Source**
 
@@ -169,19 +169,19 @@ If you missed the opening show of the new AWS BuildOn AWS series, my good friend
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 **Introduction to Amazon Managed Workflows for Apache Airflow**
 **July 28th, 8:00 am - 1:15 pm PT**
 
-Managed Workflows for Apache Airflow (MWAA) is a managed service from AWS that makes it super easy to get started with one of my favourite (and hottest) open source projects, Apache Airflow. If you want to get hands on and learn more about MWAA, then sign up at [Solutions-Focused Immersion Day:Introduction to Amazon Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/1we) (it is free)
+Managed Workflows for Apache Airflow (MWAA) is a managed service from AWS that makes it super easy to get started with one of my favourite (and hottest) open source projects, Apache Airflow. If you want to get hands on and learn more about MWAA, then sign up at [Solutions-Focused Immersion Day:Introduction to Amazon Managed Workflows for Apache Airflow](https://pages.awscloud.com/NAMER-field-OE-SFID-Introduction-to-Amazon-Managed-Workflows-for-Apache-Airflow-July-28-2022-reg-event.html) (it is free)
 
 **Just-in-time Worker Nodes with Karpenter**
 **5th August, 2pm IST**
 
 Karpenter helps improve your application availability and cluster efficiency by rapidly launching right-sized compute resources in response to changing application load. In this webinar with my colleague Rohini Goankar, you will get an overview of Karpenter and it’s features, see a demonstration of how Karpenter simplifies Kubernetes infrastructure with the right nodes at the right time, and there will be practical demos on how to use Karpenter.
 
-Find out more and register via this link, [An Open-Source High-Performance Kubernetes Cluster Autoscaler](https://aws-oss.beachgeek.co.uk/1w5)
+Find out more and register via this link, [An Open-Source High-Performance Kubernetes Cluster Autoscaler](https://osc-aws.opensourceforu.com/)
 
 **Digital Payments Architecture and Implementation with AWS Open Source Databases**
 **August 18th**
@@ -195,7 +195,7 @@ Come to the first annual OpenSearchCon!
 
 This day-long conference will be packed with presenters who build and innovate with OpenSearch. It doesn’t matter if you’re just getting started on your OpenSearch journey, running giant clusters, or contributing tons of code; the event is for everyone. Join us to celebrate the progress and look into the future of the project. Admission is free, and registration will be open in the next few weeks. All you will need to do is sign up, and get to Seattle!
 
-Check out the full details, including signing up and location, at the [meetup page here](https://aws-oss.beachgeek.co.uk/1n1).
+Check out the full details, including signing up and location, at the [meetup page here](https://www.meetup.com/OpenSearch/events/285152025/).
 
 
 ### Stay in touch with open source at AWS

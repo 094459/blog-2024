@@ -10,7 +10,7 @@ tags : [ oss-newsletter, aws open source, Apache Kafka, Amazon Linux, Amazon EMR
 
 **Welcome**
 
-Welcome to the AWS open source newsletter, edition #136, as featured on the [latest episode of Build on Open Source](https://aws-oss.beachgeek.co.uk/29p). This week we feature new projects including "dynamoit" a JavaFX gui for Amazon DynamoDB, "building-apache-kafka-connectors", "msk-config-providers", and "msk-serverless-data-pipeline" projects to help make your life easier when working with Apache Kafka, "stowrs-to-s3" a tool for working with STOWRS data on AWS, "aws-device-lobby" a tool to make onboarding devices into AWS IoT Core easier, "aws-graviton-run-confidential-ml-workloads-using-nitro-enclaves" a nice example of how you can do Confidential Computing for machine learning use cases, "aws-hpc-builder" a tool to help you manage your open source HPC tools, and many more.
+Welcome to the AWS open source newsletter, edition #136, as featured on the [latest episode of Build on Open Source](https://www.twitch.tv/videos/1656012018). This week we feature new projects including "dynamoit" a JavaFX gui for Amazon DynamoDB, "building-apache-kafka-connectors", "msk-config-providers", and "msk-serverless-data-pipeline" projects to help make your life easier when working with Apache Kafka, "stowrs-to-s3" a tool for working with STOWRS data on AWS, "aws-device-lobby" a tool to make onboarding devices into AWS IoT Core easier, "aws-graviton-run-confidential-ml-workloads-using-nitro-enclaves" a nice example of how you can do Confidential Computing for machine learning use cases, "aws-hpc-builder" a tool to help you manage your open source HPC tools, and many more.
 
 We also have AWS and community content covering some of your favourite open source projects, including Apache Kafka, Amazon Linux, Amazon EMR, Kubernetes, PostgreSQL, MySQL, Apache Airflow, GraphQL, Karpenter, Terraform, RabbitMQ, Prometheus, Redis, OpenSearch, AWS Amplify, Next.js, SpringBoot, Kubeflow, Krakatoa, XMesh, ffmpeg, and more.
 
@@ -33,55 +33,55 @@ So thank you to the following open source heroes: Jonathan Swinney, Bharathi (Ba
 
 **dynamoit**
 
-[dynamoit](https://aws-oss.beachgeek.co.uk/29f) this project (love the name!) from Pavlo Iatsiuk is a simple DynamoDB graphical client written on JavaFX. This client allows easy viewing, editing, creating, and deleting of data.
+[dynamoit](https://github.com/bykka/dynamoit) this project (love the name!) from Pavlo Iatsiuk is a simple DynamoDB graphical client written on JavaFX. This client allows easy viewing, editing, creating, and deleting of data.
 
 ![screenshot of dynamoit](https://github.com/bykka/dynamoit/blob/master/docs/images/edit_screen.png?raw=true)
 
 **building-apache-kafka-connectors**
 
-[building-apache-kafka-connectors](https://aws-oss.beachgeek.co.uk/294) this repo from my colleague Ricardo Ferreira provides sample code that shows the important aspects of developing custom connectors for Kafka Connect. It provides the resources for building, deploying, and running the code on-premises using Docker, as well as running the code in the cloud. Building connectors for Apache Kafka is hard. Chances are that you just read the previous sentence, and you subconsciously nodded with your head. The reason this happens is that Kafka Connect, which is the runtime platform behind the executing connectors, uses a not so trivial software architecture. There is also a lack of a proper documentation that teaches how the development framework works, how it connects with the runtime, and which best practices you must follow. For situations like this, your best bet is to get hold of an existing code and try to do the same, hoping your own connector will be written the best way possible. 
+[building-apache-kafka-connectors](https://github.com/build-on-aws/building-apache-kafka-connectors) this repo from my colleague Ricardo Ferreira provides sample code that shows the important aspects of developing custom connectors for Kafka Connect. It provides the resources for building, deploying, and running the code on-premises using Docker, as well as running the code in the cloud. Building connectors for Apache Kafka is hard. Chances are that you just read the previous sentence, and you subconsciously nodded with your head. The reason this happens is that Kafka Connect, which is the runtime platform behind the executing connectors, uses a not so trivial software architecture. There is also a lack of a proper documentation that teaches how the development framework works, how it connects with the runtime, and which best practices you must follow. For situations like this, your best bet is to get hold of an existing code and try to do the same, hoping your own connector will be written the best way possible. 
 
 **msk-config-providers**
 
-[msk-config-providers](https://aws-oss.beachgeek.co.uk/299) In Apache Kafka, you can use the ConfigProvider class interface to prevent secrets from appearing in cleartext in connector configurations. This repository provides samples of Apache Kafka Config Providers that can be used to integrate Kafka client properties with other systems. It provides integration with AWS Secrets Manager, AWS Systems Manager Parameter Store, and Amazon S3.
+[msk-config-providers](https://github.com/aws-samples/msk-config-providers) In Apache Kafka, you can use the ConfigProvider class interface to prevent secrets from appearing in cleartext in connector configurations. This repository provides samples of Apache Kafka Config Providers that can be used to integrate Kafka client properties with other systems. It provides integration with AWS Secrets Manager, AWS Systems Manager Parameter Store, and Amazon S3.
 
 **stowrs-to-s3**
  
-[stowrs-to-s3](https://aws-oss.beachgeek.co.uk/297) [STOW-RS](https://aws-oss.beachgeek.co.uk/298) is a standard specification for how to transfer images to target systems, typically used in medical imaging systems. This project is a Python based STOW-RS to S3 Service. This service receives DICOM PS18 compliant STOW-RS requests to store, and copies the data to a specified S3 bucket over parallel threads. This project can be deployed either in the AWS Cloud or on-premises. The project comes with an AWS CDK infrastructure as code package allowing to deploy it to the AWS Cloud easily, and can also be executed as a normal python process or as an OCI container ( eg. docker image ) if deployed on-premises.
+[stowrs-to-s3](https://github.com/aws-samples/stowrs-to-s3) [STOW-RS](https://www.dicomstandard.org/using/dicomweb/store-stow-rs) is a standard specification for how to transfer images to target systems, typically used in medical imaging systems. This project is a Python based STOW-RS to S3 Service. This service receives DICOM PS18 compliant STOW-RS requests to store, and copies the data to a specified S3 bucket over parallel threads. This project can be deployed either in the AWS Cloud or on-premises. The project comes with an AWS CDK infrastructure as code package allowing to deploy it to the AWS Cloud easily, and can also be executed as a normal python process or as an OCI container ( eg. docker image ) if deployed on-premises.
 
 ![architecture of stowrs solution](https://github.com/aws-samples/stowrs-to-s3/blob/main/img/clientauth.png?raw=true)
 
 **aws-device-lobby**
 
-[aws-device-lobby](https://aws-oss.beachgeek.co.uk/29a) This solution provides a method for QR code onboarding of devices to AWS IoT Core. It simplifies the provisioning and onboarding process of devices by removing the requirement that an end cloud account/region is known at the time of device provisioning in the factory. This enables device makers to produce generic IoT devices not bound to end cloud services. IoT platform operators are then able to attach these devices to their services in the field in a flexible manner.
+[aws-device-lobby](https://github.com/aws-samples/aws-device-lobby) This solution provides a method for QR code onboarding of devices to AWS IoT Core. It simplifies the provisioning and onboarding process of devices by removing the requirement that an end cloud account/region is known at the time of device provisioning in the factory. This enables device makers to produce generic IoT devices not bound to end cloud services. IoT platform operators are then able to attach these devices to their services in the field in a flexible manner.
 
 ![architecture of iot device lobby](https://github.com/aws-samples/aws-device-lobby/blob/main/images/AWSDeviceLobby_Architecture.png?raw=true)
 
 **aws-hpc-builder**
 
-[aws-hpc-builder](https://aws-oss.beachgeek.co.uk/29h) is a universal HPC application(which is called module for the builder) build and management system that make it easy for you to compile and deploy HPC applications on Amazon Linux 2 and Amazon Linux 2022, which support all major platforms that are Intel/AMD/Graviton. This tool compiles HPC applications(WRF, VASP etc.) and their dependencies with vendor compilers or GNU compilers. It standardizes and modularizes the build procedure across all supported platforms.
+[aws-hpc-builder](https://github.com/aws-samples/aws-hpc-builder) is a universal HPC application(which is called module for the builder) build and management system that make it easy for you to compile and deploy HPC applications on Amazon Linux 2 and Amazon Linux 2022, which support all major platforms that are Intel/AMD/Graviton. This tool compiles HPC applications(WRF, VASP etc.) and their dependencies with vendor compilers or GNU compilers. It standardizes and modularizes the build procedure across all supported platforms.
 
 ### Demos, Samples, Solutions and Workshops
 
 **deploy-stable-diffusion-model-on-amazon-sagemaker-endpoint**
 
-[deploy-stable-diffusion-model-on-amazon-sagemaker-endpoint](https://aws-oss.beachgeek.co.uk/29i) Stable Diffusion is a deep learning, text-to-image model that is similar to other applications such as Dall-E and Midjourney. It is primarily used to generate detailed images conditioned on text descriptions, and is getting a lot of interest at the moment. This repo contains notebooks that show you how you can deploy this onto Amazon Sagemaker so that you can start generating your own images.
+[deploy-stable-diffusion-model-on-amazon-sagemaker-endpoint](https://github.com/aws-samples/deploy-stable-diffusion-model-on-amazon-sagemaker-endpoint) Stable Diffusion is a deep learning, text-to-image model that is similar to other applications such as Dall-E and Midjourney. It is primarily used to generate detailed images conditioned on text descriptions, and is getting a lot of interest at the moment. This repo contains notebooks that show you how you can deploy this onto Amazon Sagemaker so that you can start generating your own images.
 
 ![example stable difusion image](https://github.com/aws-samples/deploy-stable-diffusion-model-on-amazon-sagemaker-endpoint/blob/main/sample_img/1.png?raw=true)
 
 **aws-graviton-run-confidential-ml-workloads-using-nitro-enclaves**
 
-[aws-graviton-run-confidential-ml-workloads-using-nitro-enclaves](https://aws-oss.beachgeek.co.uk/296) Over the past three editions of this newsletter, we have seen more projects using AWS Nitro Enclaves. These have been either to show case use cases or to provide additional tooling to make it easier to use. AWS Nitro Enclaves enables customers to create isolated compute environments to maintain confidentiality of applications and data. The sample provided uses Nitro enclaves to enable sensitive file sharing and usage for ML workloads. The repo shows you how you can share your sensitive AI/ML files in a manner that safeguards application and data confidentiality. To present you with a familiar environment, we included the ability to do seamless data transfers to accelerate ML and DS workloads, as well as run software downloaded at runtime to process that data conveniently. 
+[aws-graviton-run-confidential-ml-workloads-using-nitro-enclaves](https://github.com/aws-samples/aws-graviton-run-confidential-ml-workloads-using-nitro-enclaves) Over the past three editions of this newsletter, we have seen more projects using AWS Nitro Enclaves. These have been either to show case use cases or to provide additional tooling to make it easier to use. AWS Nitro Enclaves enables customers to create isolated compute environments to maintain confidentiality of applications and data. The sample provided uses Nitro enclaves to enable sensitive file sharing and usage for ML workloads. The repo shows you how you can share your sensitive AI/ML files in a manner that safeguards application and data confidentiality. To present you with a familiar environment, we included the ability to do seamless data transfers to accelerate ML and DS workloads, as well as run software downloaded at runtime to process that data conveniently. 
 
 ![architecture of aws graviton enclaves and ml workloads](https://github.com/aws-samples/aws-graviton-run-confidential-ml-workloads-using-nitro-enclaves/blob/main/images/architecture-diagram.png?raw=true)
 
 **amazon-memorydb-for-redis-java-client-examples**
 
-[amazon-memorydb-for-redis-java-client-examples](https://aws-oss.beachgeek.co.uk/29g) This repository contains examples for using Java clients to interact with Amazon MemoryDB for Redis. These examples demonstrate the following, How to connect/disconnect to Amazon MemoryDB for Redis using the open-source Redis client Jedis, Add/update records to the database, Retrieve records by key and field/path, and Delete records by key.
+[amazon-memorydb-for-redis-java-client-examples](https://github.com/aws-samples/amazon-memorydb-for-redis-java-client-examples) This repository contains examples for using Java clients to interact with Amazon MemoryDB for Redis. These examples demonstrate the following, How to connect/disconnect to Amazon MemoryDB for Redis using the open-source Redis client Jedis, Add/update records to the database, Retrieve records by key and field/path, and Delete records by key.
 
 **msk-serverless-data-pipeline**
 
-[msk-serverless-data-pipeline](https://aws-oss.beachgeek.co.uk/295) Serverless services allow us to build applications without having to worry about the underlying infrastructure. This allows developers to avoid provisioning, scaling, and managing resource utilisation. This repo contains code used in the workshop where you will build a serverless data pipeline using Amazon MSK Serverless which enables data to be consumed from many different client applications to accomplish downstream tasks such as dashboards and analytics. CloudFormation template will help you provision the infrastructure, then you will need to build the Java application yourself as the consumer.
+[msk-serverless-data-pipeline](https://github.com/aws-samples/msk-serverless-data-pipeline) Serverless services allow us to build applications without having to worry about the underlying infrastructure. This allows developers to avoid provisioning, scaling, and managing resource utilisation. This repo contains code used in the workshop where you will build a serverless data pipeline using Amazon MSK Serverless which enables data to be consumed from many different client applications to accomplish downstream tasks such as dashboards and analytics. CloudFormation template will help you provision the infrastructure, then you will need to build the Java application yourself as the consumer.
 
 ![architecture of serverless data platform](https://github.com/aws-samples/msk-serverless-data-pipeline/blob/main/assets/arch.png?raw=true)
 
@@ -89,56 +89,56 @@ So thank you to the following open source heroes: Jonathan Swinney, Bharathi (Ba
 
 **Terraform**
 
-AWS Hero Anton Babenko shared [this update on LinkedIn](https://aws-oss.beachgeek.co.uk/29j) about his aim on working on Serverless deployments on Terrform. Now thanks to Antons work, there is a new section on [Serverless Land](https://aws-oss.beachgeek.co.uk/29k) that allows you to filter the Serverless patterns for those who prefer using Terraform AWS modules. There are seven patterns currently, but Anton is working on more so make sure you connect/follow Anton so you keep up to date with these as they drop.
+AWS Hero Anton Babenko shared [this update on LinkedIn](https://www.linkedin.com/posts/antonbabenko_awsreinvent-activity-6998282843105751040-pfGl/) about his aim on working on Serverless deployments on Terrform. Now thanks to Antons work, there is a new section on [Serverless Land](https://serverlessland.com/) that allows you to filter the Serverless patterns for those who prefer using Terraform AWS modules. There are seven patterns currently, but Anton is working on more so make sure you connect/follow Anton so you keep up to date with these as they drop.
 
 **GraphQL**
 
-AWS Enthusiast Subbusainath Rengasamy has put together this blog post, [How to create AWS AppSync with Lambda Authorizer using AWS CDK v2 with Nested Stack](https://aws-oss.beachgeek.co.uk/29x) shows you how you can get started with GraphQL on AWS using AWS AppSync and AWS CDK. [hands on]
+AWS Enthusiast Subbusainath Rengasamy has put together this blog post, [How to create AWS AppSync with Lambda Authorizer using AWS CDK v2 with Nested Stack](https://aws.plainenglish.io/how-to-create-aws-appsync-with-lambda-authorizer-using-aws-cdk-v2-with-nested-stack-66c69f609f84) shows you how you can get started with GraphQL on AWS using AWS AppSync and AWS CDK. [hands on]
 
 ![architecture of solution for graphql](https://miro.medium.com/max/1400/1*-R6p_90LaxkxI0HiHJL63Q.png)
 
 **FFmpeg**
 
-FFmpeg is a free and open-source software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. I have used this tool many times in the past (one of my favourite uses is to stitch together pictures from my Raspberry Pi time lapse app into a nice movie). In the post, [Optimized Video Encoding with FFmpeg on AWS Graviton Processors](https://aws-oss.beachgeek.co.uk/29t) Jonathan Swinney explores how with recent improvements to the project, you can now run this in a more cost effective and more sustainable way using AWS Graviton instance types. Read the post to get the full low down.
+FFmpeg is a free and open-source software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. I have used this tool many times in the past (one of my favourite uses is to stitch together pictures from my Raspberry Pi time lapse app into a nice movie). In the post, [Optimized Video Encoding with FFmpeg on AWS Graviton Processors](https://aws.amazon.com/blogs/opensource/optimized-video-encoding-with-ffmpeg-on-aws-graviton-processors/) Jonathan Swinney explores how with recent improvements to the project, you can now run this in a more cost effective and more sustainable way using AWS Graviton instance types. Read the post to get the full low down.
 
 ![graph showing comparison of ffmpeg on graviton](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/11/14/cost-comparison-video-encoding-1024x447.png)
 
 **Krakatoa and XMesh**
 
-Krakatoa and XMesh are part of a suite of AWS Thinkbox artist tools that simplify rendering, VFX, and simulation workflows. In the post [AWS Thinkbox open sources Krakatoa MY and XMesh MY](https://aws-oss.beachgeek.co.uk/29u), Bharathi (Batty) Muthukrishnan, Conrad Wiebe, and Evan Spearman share more details about these plugins and how they are being used by customers. You might recognise some of the work from your favourite Boxsets.
+Krakatoa and XMesh are part of a suite of AWS Thinkbox artist tools that simplify rendering, VFX, and simulation workflows. In the post [AWS Thinkbox open sources Krakatoa MY and XMesh MY](https://aws.amazon.com/blogs/media/aws-thinkbox-open-sources-krakatoa-my-and-xmesh-my/), Bharathi (Batty) Muthukrishnan, Conrad Wiebe, and Evan Spearman share more details about these plugins and how they are being used by customers. You might recognise some of the work from your favourite Boxsets.
 
 ![example of krakatoa and xmesh](https://d2908q01vomqb2.cloudfront.net/fb644351560d8296fe6da332236b1f8d61b2828a/2022/11/15/Image1-1-1024x505.png)
 
 **Karpenter**
 
-In the post, [Use Karpenter to speed up Amazon EMR on EKS autoscaling](https://aws-oss.beachgeek.co.uk/29q) Changbin Gong and Sandeep Palavalasa shows how to integrate Karpenter into your Amazon EMR on EKS architecture to achieve faster and capacity-aware auto scaling capabilities to speed up your big data and machine learning (ML) workloads while reducing costs. [hands on]
+In the post, [Use Karpenter to speed up Amazon EMR on EKS autoscaling](https://aws.amazon.com/blogs/big-data/use-karpenter-to-speed-up-amazon-emr-on-eks-autoscaling/) Changbin Gong and Sandeep Palavalasa shows how to integrate Karpenter into your Amazon EMR on EKS architecture to achieve faster and capacity-aware auto scaling capabilities to speed up your big data and machine learning (ML) workloads while reducing costs. [hands on]
 
 ![architecture for amazon emr on eks and karpenter](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/16/bdb-2209-image005-new.png)
 
 **Amazon Linux**
 
-Center for Internet Security (CIS) Benchmarks are current good practices for the secure configuration of a target system. They define various Benchmarks for Kubernetes control plane and the data plane. In the post, [Building Amazon Linux 2 CIS Benchmark AMIs for Amazon EKS](https://aws-oss.beachgeek.co.uk/29b) Jayaprakash Alawala and Paavan Mistry share a detailed, step-by-step instructions on how customers can build an Amazon EKS Amazon Machine Image (AMI) compliant with the CIS Amazon Linux2 Benchmarks. [hands on]
+Center for Internet Security (CIS) Benchmarks are current good practices for the secure configuration of a target system. They define various Benchmarks for Kubernetes control plane and the data plane. In the post, [Building Amazon Linux 2 CIS Benchmark AMIs for Amazon EKS](https://aws.amazon.com/blogs/containers/building-amazon-linux-2-cis-benchmark-amis-for-amazon-eks/) Jayaprakash Alawala and Paavan Mistry share a detailed, step-by-step instructions on how customers can build an Amazon EKS Amazon Machine Image (AMI) compliant with the CIS Amazon Linux2 Benchmarks. [hands on]
 
 ![image for blog post eks cis hardening](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/10/linux-1.jpg)
 
 **Other posts and quick reads**
 
-* [Automatically enable group metrics collection for Amazon EKS managed node groups](https://aws-oss.beachgeek.co.uk/29c) shows you how to enable Auto Scaling group metrics collection for Amazon EKS managed node groups [hands on]
+* [Automatically enable group metrics collection for Amazon EKS managed node groups](https://aws.amazon.com/blogs/containers/automatically-enable-group-metrics-collection-for-amazon-eks-managed-node-groups/) shows you how to enable Auto Scaling group metrics collection for Amazon EKS managed node groups [hands on]
 
 ![architecture for eks nodegroup metrics collection](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/09/ipfs-1.png)
 
-* [Migrate ROW CHANGE TIMESTAMP from IBM Db2 for z/OS to Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL-Compatible Edition](https://aws-oss.beachgeek.co.uk/29d) shows you how to migrate ROW CHANGE TIMESTAMP from Db2 for z/OS to Amazon RDS for PostgreSQL [hands on]
-* [Build an optimized self-service interactive analytics platform with Amazon EMR Studio](https://aws-oss.beachgeek.co.uk/29e) shows you how to implement a self-service analytics platform with Amazon EMR and Amazon EMR Studio to improve the agility of your data science and data engineering teams without compromising on the security, scalability, resiliency, and cost efficiency of your big data workloads [hands on]
+* [Migrate ROW CHANGE TIMESTAMP from IBM Db2 for z/OS to Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL-Compatible Edition](https://aws.amazon.com/blogs/database/migrate-row-change-timestamp-from-ibm-db2-for-z-os-to-amazon-rds-for-postgresql-or-amazon-aurora-postgresql-compatible-edition/) shows you how to migrate ROW CHANGE TIMESTAMP from Db2 for z/OS to Amazon RDS for PostgreSQL [hands on]
+* [Build an optimized self-service interactive analytics platform with Amazon EMR Studio](https://aws.amazon.com/blogs/big-data/build-an-optimized-self-service-interactive-analytics-platform-with-amazon-emr-studio/) shows you how to implement a self-service analytics platform with Amazon EMR and Amazon EMR Studio to improve the agility of your data science and data engineering teams without compromising on the security, scalability, resiliency, and cost efficiency of your big data workloads [hands on]
 
 ![architecture for self service amazon emr](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/04/BDB-1813-Architecture.png)
 
-* [AWS Amplify presents: “Hey, Amplify!” A Discord Bot](https://aws-oss.beachgeek.co.uk/29v) looks at in more details a [Discord bot](https://aws-oss.beachgeek.co.uk/29w) aimed at improving the AWS Amplify community experience
+* [AWS Amplify presents: “Hey, Amplify!” A Discord Bot](https://aws.amazon.com/blogs/mobile/aws-amplify-presents-hey-amplify-a-discord-bot/) looks at in more details a [Discord bot](https://github.com/aws-amplify/discord-bot) aimed at improving the AWS Amplify community experience
 
 ![dashboard of discord bot](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/11/15/DiscordBot5.png)
 
 **Case Studies**
 
-* [Meet Astro — Astronomer’s managed Apache Airflow service built and hosted on AWS](https://aws-oss.beachgeek.co.uk/29s) read more about how Astronomer have built their managed Apache Airflow service on AWS
+* [Meet Astro — Astronomer’s managed Apache Airflow service built and hosted on AWS](https://aws.amazon.com/blogs/startups/meet-astro-astronomers-managed-apache-airflow-service-built-and-hosted-on-aws/) read more about how Astronomer have built their managed Apache Airflow service on AWS
 
 ![Astro managed Apache Airflow on AWS architecture](https://d2908q01vomqb2.cloudfront.net/cb4e5208b4cd87268b208e49452ed6e89a68e0b8/2022/11/14/Astro-architecture-diagram-1024x746.png)
 
@@ -164,17 +164,17 @@ This release also contains an improvement for logical replication performance. T
 
 A very busy week for Kubernetes updates.
 
-First up was news that you can now use Amazon EKS and Amazon EKS Distro to run Kubernetes version 1.24.Notable changes in Kubernetes version 1.24 include containerd replacing Docksershim as the container runtime, a change to beta API behaviour, and topology aware hints for efficient traffic routing being enabled by default. Additionally, you should note that PodSecurityPolicy (PSP) is scheduled for removal in Kubernetes 1.25. For detailed information on these changes, see the EKS blog post and the Kubernetes project release notes. You can dive deeper by checking out the blog post, [Amazon EKS now supports Kubernetes version 1.24](https://aws-oss.beachgeek.co.uk/29m) from Sheetal Joshi and Vipin Mohan.
+First up was news that you can now use Amazon EKS and Amazon EKS Distro to run Kubernetes version 1.24.Notable changes in Kubernetes version 1.24 include containerd replacing Docksershim as the container runtime, a change to beta API behaviour, and topology aware hints for efficient traffic routing being enabled by default. Additionally, you should note that PodSecurityPolicy (PSP) is scheduled for removal in Kubernetes 1.25. For detailed information on these changes, see the EKS blog post and the Kubernetes project release notes. You can dive deeper by checking out the blog post, [Amazon EKS now supports Kubernetes version 1.24](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-24/) from Sheetal Joshi and Vipin Mohan.
 
 The AWS Controllers for Kubernetes (ACK) for the Amazon EC2 service controller is now generally available. ACK lets you provision and manage EC2 networking resources, such as VPCs, SecurityGroups and Internet Gateways using the Kubernetes API. ACK lets you define and use AWS service resources directly from Kubernetes clusters. With ACK, you can take advantage of AWS managed services for your Kubernetes applications without needing to define resources outside of the cluster or run services that provide supporting capabilities like databases, message queues or instances within the cluster. ACK now supports 14 AWS service controllers as generally available with an additional 12 in preview.
 
 **Prometheus**
 
-Amazon Managed Service for Prometheus now supports 200M active metrics per workspace. Amazon Managed Service for Prometheus is a fully managed Prometheus-compatible monitoring service that makes it easy to monitor and alarm on operational metrics at scale. Prometheus is a Cloud Native Computing Foundation open source project for monitoring and alerting that is optimised for container environments such as Amazon EKS and Amazon ECS. With this release, customers can send up to 200M active metrics to a single workspace after filing a limit increase, and can create many workspaces per account, enabling the storage and analysis of billions of Prometheus metrics. Find out more by reading [Amazon Managed Service for Prometheus adds support for 200M active metrics](https://aws-oss.beachgeek.co.uk/29n) from Abhi Khanna.
+Amazon Managed Service for Prometheus now supports 200M active metrics per workspace. Amazon Managed Service for Prometheus is a fully managed Prometheus-compatible monitoring service that makes it easy to monitor and alarm on operational metrics at scale. Prometheus is a Cloud Native Computing Foundation open source project for monitoring and alerting that is optimised for container environments such as Amazon EKS and Amazon ECS. With this release, customers can send up to 200M active metrics to a single workspace after filing a limit increase, and can create many workspaces per account, enabling the storage and analysis of billions of Prometheus metrics. Find out more by reading [Amazon Managed Service for Prometheus adds support for 200M active metrics](https://aws.amazon.com/blogs/mt/amazon-managed-service-for-prometheus-adds-support-for-200m-active-metrics/) from Abhi Khanna.
 
 **AWS SAM**
 
-The AWS Serverless Application Model (SAM) Command Line Interface (CLI) announces the preview of AWS Lambda local testing and debugging on Terraform. The AWS SAM CLI is a developer tool that makes it easier to build, test, package, and deploy serverless applications. Terraform is an infrastructure as code tool that lets you build, change, and version cloud and on-premises resources safely and efficiently. Customers can now use the SAM CLI to locally test and debug a Lambda function defined in their Terraform application. SAM CLI can read the infrastructure resource information from the Terraform project and start Lambda functions locally in a docker container to invoke with an event payload, or attach a debugger using AWS toolkits on IDE to step through the Lambda function code. This feature is supported with Terraform version 1.1 +. For the most seamless experience, use it with the terraform-aws-modules/lambda version 4.6.1+. If you want to get hands on, then read [Better together: AWS SAM CLI and HashiCorp Terraform](https://aws-oss.beachgeek.co.uk/29l)
+The AWS Serverless Application Model (SAM) Command Line Interface (CLI) announces the preview of AWS Lambda local testing and debugging on Terraform. The AWS SAM CLI is a developer tool that makes it easier to build, test, package, and deploy serverless applications. Terraform is an infrastructure as code tool that lets you build, change, and version cloud and on-premises resources safely and efficiently. Customers can now use the SAM CLI to locally test and debug a Lambda function defined in their Terraform application. SAM CLI can read the infrastructure resource information from the Terraform project and start Lambda functions locally in a docker container to invoke with an event payload, or attach a debugger using AWS toolkits on IDE to step through the Lambda function code. This feature is supported with Terraform version 1.1 +. For the most seamless experience, use it with the terraform-aws-modules/lambda version 4.6.1+. If you want to get hands on, then read [Better together: AWS SAM CLI and HashiCorp Terraform](https://aws.amazon.com/blogs/compute/better-together-aws-sam-cli-and-hashicorp-terraform/)
 
 **RabbitMQ**
 
@@ -192,7 +192,7 @@ OpenSearch 2.3 uses Lucene 9.1, and the move to the latest version of Lucene off
 
 **AWS Amplify & Next.js**
 
-Announced this week was AWS Amplify Hosting supports Next.js 12 and 13, including middleware, on-demand incremental static regeneration (ISR), and image optimization. With this release, AWS Amplify Hosting offers fully managed CI/CD deployments and hosting for server-side rendered (SSR) apps built using Next.js and static web apps. If you want to dip your toes into this, then check out this post [Deploy a Next.js 13 app to AWS with Amplify Hosting](https://aws-oss.beachgeek.co.uk/29o) from Mike Jerome [hands on].
+Announced this week was AWS Amplify Hosting supports Next.js 12 and 13, including middleware, on-demand incremental static regeneration (ISR), and image optimization. With this release, AWS Amplify Hosting offers fully managed CI/CD deployments and hosting for server-side rendered (SSR) apps built using Next.js and static web apps. If you want to dip your toes into this, then check out this post [Deploy a Next.js 13 app to AWS with Amplify Hosting](https://aws.amazon.com/blogs/mobile/amplify-next-js-13/) from Mike Jerome [hands on].
 
 ### Videos of the week
 
@@ -212,7 +212,7 @@ Your host Kanwaljit Khurmi explores Kubeflow basics, why it is used as a ML tool
 
 *Bonus*
 
-This week we also featured Kubeflow in the blog post, [Enabling hybrid ML workflows on Amazon EKS and Amazon SageMaker with one-click Kubeflow on AWS deployment](https://aws-oss.beachgeek.co.uk/29r) where Kanwaljit Khurmi, Kartik Kalamadi, and Rahul Kharse take a look at some of the Kubeflow release 1.6.1 features, and highlight three important integrations that you need to know about: infrastructure as code solutions to make it easier to deploy, support for distributed training on Amazon SageMaker, and enhanced monitoring and observability. [hands on]
+This week we also featured Kubeflow in the blog post, [Enabling hybrid ML workflows on Amazon EKS and Amazon SageMaker with one-click Kubeflow on AWS deployment](https://aws.amazon.com/blogs/machine-learning/enabling-hybrid-ml-workflows-on-amazon-eks-and-amazon-sagemaker-with-one-click-kubeflow-on-aws-deployment/) where Kanwaljit Khurmi, Kartik Kalamadi, and Rahul Kharse take a look at some of the Kubeflow release 1.6.1 features, and highlight three important integrations that you need to know about: infrastructure as code solutions to make it easier to deploy, support for distributed training on Amazon SageMaker, and enhanced monitoring and observability. [hands on]
 
 ![architecture of kubeflow 1.6.1 on aws](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/11/07/image-8.png)
 
@@ -227,7 +227,7 @@ The Containers from the Couch crew assemble with guest speaker Dan Mangum from U
 
 For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs.
 
-We have put together a playlist so that you can easily access all the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+We have put together a playlist so that you can easily access all the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -255,7 +255,7 @@ re:Invent is only a few weeks away so I want to share a few things that will hop
 
 First up, we will be running the Build On Live stream throughout re:Invent and we would love to feature you! If either yourself, or perhaps you know a community member going to re:Invent and think they will absolutely love to attend the livestream, we want to hear from you. Please nominate a community member you want to hear from during Build On Live [using this survey](https://eventbox.dev/survey/6B0ED1J).
 
-Second, check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://aws-oss.beachgeek.co.uk/252) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
+Second, check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/OPN) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
 
 1. OPN306 AWS Lambda Powertools: Lessons from the road to 10 million downloads - Heitor Lessa is going to deliver an amazing session on the journey from idea to one of the most loved and used open source tools for AWS Lambda users
 2. BOA204 When security, safety, and urgency all matter: Handling Log4Shell - Cannot wait for this session from Abbey Fuller who will walk us through how we managed this incident
@@ -268,7 +268,7 @@ There are many other great open source sessions, and hopefully I will try and pu
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

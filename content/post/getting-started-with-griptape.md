@@ -11,7 +11,7 @@ tags : [ Griptape, Amazon SageMaker, LLMs, Falcon7b, OpenAI,]
 
 When I was much much younger, I was known to (very occasionally) drop an ollie, kick-turn, or very occasionally dare a drop in on my trusty skateboard. Thanks to the grip tape, my shoes would stick to the board, and gave me the confidence I could try these tricks. I was always grateful to that grip tape and who knew all these years later, I would become re-aquatinted with it (albeit in a different form!)
 
-Last week I had a quick call with the folks behind [Griptape](https://aws-oss.beachgeek.co.uk/37t), an Apache 2.0 licenced open source project that hopes to empower developers to build a new generation of applications powered by the capabilities of large language models. It looks super interesting, and for folks who are already exploring this space, the way that I was thinking of Griptape is as a more production ready version of LangChain.
+Last week I had a quick call with the folks behind [Griptape](https://www.griptape.ai/), an Apache 2.0 licenced open source project that hopes to empower developers to build a new generation of applications powered by the capabilities of large language models. It looks super interesting, and for folks who are already exploring this space, the way that I was thinking of Griptape is as a more production ready version of LangChain.
 
 Enough of an introduction, in this post I am going to take a quick look at Griptape, and show you how you can get it up and running to interact with the Falcon-7b large language model, deployed on Amazon SageMaker.
 
@@ -25,7 +25,7 @@ Lets get stuck in.
 
 **Setting up our AWS Cloud9 environment**
 
-The Griptape tutorial shows you how you can get started with VSCode. I am a big fan and user of this, but when it comes to working with data and machine learning technologies, I tend to work on my AWS Cloud 9 environment as I can scale up performance and capacity as I needed (my Macbook is not quite as shiny as it once was!). The first thing I did was to create my AWS Cloud9 environment, and setup a few dependencies (updating Python to run 3.10, [check out the script I use here](https://aws-oss.beachgeek.co.uk/37p)). Griptape requires version 3.9 or newer of Python (as of writing, but check the docs), so I should be good to go.
+The Griptape tutorial shows you how you can get started with VSCode. I am a big fan and user of this, but when it comes to working with data and machine learning technologies, I tend to work on my AWS Cloud 9 environment as I can scale up performance and capacity as I needed (my Macbook is not quite as shiny as it once was!). The first thing I did was to create my AWS Cloud9 environment, and setup a few dependencies (updating Python to run 3.10, [check out the script I use here](https://gist.github.com/094459/3eba3e5f4fb1ccaef1cb12044412f90b)). Griptape requires version 3.9 or newer of Python (as of writing, but check the docs), so I should be good to go.
 
 The first thing I always do when working with a new Python project, is to create a fresh virtual environment. It makes your life so much easier.
 
@@ -89,7 +89,7 @@ WARNING:root:<RetryCallState 140256866511328: attempt #2; slept for 2.0; last re
 
 ```
 
-Ok, so this is not what I was expecting. My OpenAI account does not currently support calls to gpt-4, which is the default being used by Griptape. A quick [look at the documentation here](https://aws-oss.beachgeek.co.uk/37q) provides me with I hope, the answer. Lets update our code.
+Ok, so this is not what I was expecting. My OpenAI account does not currently support calls to gpt-4, which is the default being used by Griptape. A quick [look at the documentation here](https://docs.griptape.ai/griptape-framework/structures/prompt-drivers/) provides me with I hope, the answer. Lets update our code.
 
 ```
 from dotenv import load_dotenv
@@ -367,9 +367,9 @@ We have successfully got Griptape interacting with our Falcon7b LLM deployed on 
 
 **Next Steps**
 
-In this short blog post, I introduce a new open source tool that makes it easy for developers to get started in building applications that leverage the power of large language models. I have only scratched the surface though, and there are many more features that Griptape has that I am planning to explore. Griptape is a fast evolving open source project, so make sure you check out the [repo here](https://aws-oss.beachgeek.co.uk/37u) - if you like what you see, why not get involved.
+In this short blog post, I introduce a new open source tool that makes it easy for developers to get started in building applications that leverage the power of large language models. I have only scratched the surface though, and there are many more features that Griptape has that I am planning to explore. Griptape is a fast evolving open source project, so make sure you check out the [repo here](https://github.com/griptape-ai/griptape) - if you like what you see, why not get involved.
 
-Why not take a look at [Griptape](https://aws-oss.beachgeek.co.uk/37t) for yourself. [Griptape](https://aws-oss.beachgeek.co.uk/37t) has some [great tutorials](https://aws-oss.beachgeek.co.uk/37s) and getting started content, and using AWS Cloud9 makes it super easy to try. I really like the combination of text and video which makes it easy to follow along. Why not check it out for yourselves.
+Why not take a look at [Griptape](https://www.griptape.ai/) for yourself. [Griptape](https://www.griptape.ai/) has some [great tutorials](https://learn.griptape.ai/) and getting started content, and using AWS Cloud9 makes it super easy to try. I really like the combination of text and video which makes it easy to follow along. Why not check it out for yourselves.
 
 Before you disappear, please make sure you read the next section. In this demo/walk through, we provisioned some resources that you do not really want to leave up and running.
 
@@ -427,7 +427,7 @@ except ClientError as e:
         print(e)
 ```
 
-I then used the script I talked about in [this blog post](https://aws-oss.beachgeek.co.uk/37r) to remove any models that were created. I have not included that here as there is the possibiity of accidently deleting real models you might care about. Check the script and then modify before you run it to remove just the models created during the falcon_deploy script. 
+I then used the script I talked about in [this blog post](https://dev.to/aws/using-amazon-codewhisperer-as-my-scripting-sidekick-58k0) to remove any models that were created. I have not included that here as there is the possibiity of accidently deleting real models you might care about. Check the script and then modify before you run it to remove just the models created during the falcon_deploy script. 
 
 **Help!**
 

@@ -26,43 +26,43 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **jndi-deobfuscate-python**
 
-[jndi-deobfuscate-python](https://aws-oss.beachgeek.co.uk/1a1) This tool processes text logs to look for Java Naming and Directory Interface (JNDI) lookup strings, and outputs deobfuscated strings when it finds them. De-obfuscated strings can be used by other tools (not included), in order to retrieve malicious payloads from an attacker. JNDI lookup strings came into spotlight during a recent series of Common Vulnerabilities and Exposures (CVEs) around a popular Java logging library, Apache Log4j.
+[jndi-deobfuscate-python](https://github.com/awslabs/jndi-deobfuscate-python) This tool processes text logs to look for Java Naming and Directory Interface (JNDI) lookup strings, and outputs deobfuscated strings when it finds them. De-obfuscated strings can be used by other tools (not included), in order to retrieve malicious payloads from an attacker. JNDI lookup strings came into spotlight during a recent series of Common Vulnerabilities and Exposures (CVEs) around a popular Java logging library, Apache Log4j.
 
 **aws-codeseeder**
 
-[aws-codeseeder](https://aws-oss.beachgeek.co.uk/1a2) this project enables builders to easily "seed" python code to AWS CodeBuild for execution in their cloud environments. aws-codeseeder eliminates the need to install and configure libraries and utilities locally or on a build system (i.e. Jenkins). Instead the library enables builders to easily execute an AWS CodeBuild instance with the utilities they require then seed local python code to, and execute it within, the CodeBuild instance. Check out the detailed [docs](https://aws-oss.beachgeek.co.uk/1a3) for more info on how this works.
+[aws-codeseeder](https://github.com/awslabs/aws-codeseeder) this project enables builders to easily "seed" python code to AWS CodeBuild for execution in their cloud environments. aws-codeseeder eliminates the need to install and configure libraries and utilities locally or on a build system (i.e. Jenkins). Instead the library enables builders to easily execute an AWS CodeBuild instance with the utilities they require then seed local python code to, and execute it within, the CodeBuild instance. Check out the detailed [docs](https://aws-codeseeder.readthedocs.io/en/latest/) for more info on how this works.
 
 ![arch](https://aws-codeseeder.readthedocs.io/en/latest/_images/seedkit_resources.png)
 
 **route53-recovery-controller**
 
-[route53-recovery-controller](https://aws-oss.beachgeek.co.uk/1a5) Drew Mullen released his first Terraform Module as part of the Amazon Web Services (AWS) Integrations & Automations (I&A) team, Route53 Application Recovery Controller (ARC). Route 53 ARC can continuously monitor your application's ability to recover from failure and control recovery across multiple AWS Availability Zones, AWS Regions, and on-premises environments. And this module makes it easy to add resiliency to your already deployed applications!
+[route53-recovery-controller](https://registry.terraform.io/modules/aws-ia/route53-recovery-controller/aws/latest) Drew Mullen released his first Terraform Module as part of the Amazon Web Services (AWS) Integrations & Automations (I&A) team, Route53 Application Recovery Controller (ARC). Route 53 ARC can continuously monitor your application's ability to recover from failure and control recovery across multiple AWS Availability Zones, AWS Regions, and on-premises environments. And this module makes it easy to add resiliency to your already deployed applications!
 
 **iam-legend**
 
-[iam-legend](https://aws-oss.beachgeek.co.uk/1a0) AWS Community Builder Sebastian Bille has put together this useful extension for VSCode users (like me!) that make it easier when working with IAM policies, and provides IAM policy actions autocomplete, documentation & wildcard resolution. Nice!
+[iam-legend](https://github.com/TastefulElk/iam-legend) AWS Community Builder Sebastian Bille has put together this useful extension for VSCode users (like me!) that make it easier when working with IAM policies, and provides IAM policy actions autocomplete, documentation & wildcard resolution. Nice!
 
 **aws-lambda-api-event-utils**
 
-[aws-lambda-api-event-utils](https://aws-oss.beachgeek.co.uk/19x) this library from Ben Kehoe starts with the question "There are many other libraries, in Python and in other languages, for handling HTTP events in Lambda. So why this library?" Find out the answer by checking out this project.
+[aws-lambda-api-event-utils](https://github.com/benkehoe/aws-lambda-api-event-utils) this library from Ben Kehoe starts with the question "There are many other libraries, in Python and in other languages, for handling HTTP events in Lambda. So why this library?" Find out the answer by checking out this project.
 
 **assume-aws-role-action**
 
-[assume-aws-role-action](https://aws-oss.beachgeek.co.uk/19w) these GitHub actions enable workflows to obtain AWS Access Credentials for a desired IAM Role using AWS IAM SAML and a GitHub Actions Repository Token.
+[assume-aws-role-action](https://github.com/saml-to/assume-aws-role-action) these GitHub actions enable workflows to obtain AWS Access Credentials for a desired IAM Role using AWS IAM SAML and a GitHub Actions Repository Token.
 
 **s3-credentials**
 
-[s3-credentials](https://aws-oss.beachgeek.co.uk/19t) is an open source project from Simon Willison that helps you create credentials for accessing S3 buckets. In the latest update from his blog, [Weeknotes: s3-credentials prefix and Datasette 0.60](https://aws-oss.beachgeek.co.uk/19u), he shares some new features of this project, that might be especially helpful if you are building multi-tenet solutions.
+[s3-credentials](https://github.com/simonw/s3-credentials) is an open source project from Simon Willison that helps you create credentials for accessing S3 buckets. In the latest update from his blog, [Weeknotes: s3-credentials prefix and Datasette 0.60](https://simonwillison.net/2022/Jan/18/weeknotes/), he shares some new features of this project, that might be especially helpful if you are building multi-tenet solutions.
 
 **simpleWSAPI**
 
-[simpleWSAPI](https://aws-oss.beachgeek.co.uk/19m) this repo contains an implementation of a simple real-time API based on WebSockets where clients are subscribed to a specific channel and any JSON data can be pushed automatically to clients listening/subscribed to the channel. To help you walk through this, check out the post from Ed Lima [Simple serverless WebSocket real-time API with AWS AppSync (little or no GraphQL experience required)](https://aws-oss.beachgeek.co.uk/19n)
+[simpleWSAPI](https://github.com/awsed/simpleWSAPI) this repo contains an implementation of a simple real-time API based on WebSockets where clients are subscribed to a specific channel and any JSON data can be pushed automatically to clients listening/subscribed to the channel. To help you walk through this, check out the post from Ed Lima [Simple serverless WebSocket real-time API with AWS AppSync (little or no GraphQL experience required)](https://aws.amazon.com/blogs/mobile/appsync-simple-websocket-api/)
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2021/11/18/simplewsapi1.png)
 
 **cdk-neptune-knowledge-graph**
 
-[cdk-neptune-knowledge-graph](https://aws-oss.beachgeek.co.uk/1a4) this sample application deploys a Neptune cluster and a static web site to provide a convenient user interface for building a knowledge graph. It uses Cognito to provide authentication to the web site. Read the README for more details.
+[cdk-neptune-knowledge-graph](https://github.com/aws-samples/cdk-neptune-knowledge-graph) this sample application deploys a Neptune cluster and a static web site to provide a convenient user interface for building a knowledge graph. It uses Cognito to provide authentication to the web site. Read the README for more details.
 
 ![demo](https://github.com/aws-samples/cdk-neptune-knowledge-graph/blob/main/graph-ui.png?raw=true)
 
@@ -72,7 +72,7 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **DIAL**
 
-[DIAL](https://aws-oss.beachgeek.co.uk/19z) DIAL(Did I Alert Lambda?) is an open source project that provides a centralised security misconfiguration detection framework which completely runs on AWS Managed services like AWS API Gateway, AWS Event Bridge & AWS Lambda
+[DIAL](https://github.com/094459/DIAL) DIAL(Did I Alert Lambda?) is an open source project that provides a centralised security misconfiguration detection framework which completely runs on AWS Managed services like AWS API Gateway, AWS Event Bridge & AWS Lambda
 
 ![arch](https://github.com/CRED-CLUB/DIAL/blob/main/images/dial-arch.png?raw=true)
 
@@ -80,35 +80,35 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **OpenTelemetry**
 
-In [Build an observability solution using managed AWS services and the OpenTelemetry standard](https://aws-oss.beachgeek.co.uk/19d) Gaurav Dhamija, Vikram Mehto, and Yoginder Sethi share how to build an open standards observability solution using managed AWS services. The posts covers how to centralise the metrics, traces, and logs collected from workloads running in various AWS accounts using  AWS Distro for OpenTelemetry (ADOT), Amazon Managed Grafana, Amazon Managed Service for Prometheus, and Amazon OpenSearch Service. [hands on]
+In [Build an observability solution using managed AWS services and the OpenTelemetry standard](https://aws.amazon.com/blogs/mt/build-an-observability-solution-using-managed-aws-services-and-the-opentelemetry-standard/) Gaurav Dhamija, Vikram Mehto, and Yoginder Sethi share how to build an open standards observability solution using managed AWS services. The posts covers how to centralise the metrics, traces, and logs collected from workloads running in various AWS accounts using  AWS Distro for OpenTelemetry (ADOT), Amazon Managed Grafana, Amazon Managed Service for Prometheus, and Amazon OpenSearch Service. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/12/21/fig3w.jpg)
 
 **Graph Notebooks**
 
-Whether you’re creating a new graph data model and queries, or exploring an existing graph dataset, it can be useful to have an interactive query environment that allows you to visualise the results. In the post, [Use Docker containers to deploy Graph Notebooks on AWS](https://aws-oss.beachgeek.co.uk/19h), Ganesh Sawhney and Qiang Zhang share how to host a Jupyter notebook and use it to load data into your Amazon Neptune database, query it, and visualise the results. [hands on]
+Whether you’re creating a new graph data model and queries, or exploring an existing graph dataset, it can be useful to have an interactive query environment that allows you to visualise the results. In the post, [Use Docker containers to deploy Graph Notebooks on AWS](https://aws.amazon.com/blogs/database/use-docker-containers-to-deploy-graph-notebooks-on-aws/), Ganesh Sawhney and Qiang Zhang share how to host a Jupyter notebook and use it to load data into your Amazon Neptune database, query it, and visualise the results. [hands on]
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/10/31/neptune-sagemaker-4.gif)
 
 **PostgreSQL**
 
-If you are looking for guidance on how to set up PostgreSQL bi-directional replication using pglogical, Yaser Raja and Peter Celentano have you covered in their post, [PostgreSQL bi-directional replication using pglogical](https://aws-oss.beachgeek.co.uk/19p) [hands on]
+If you are looking for guidance on how to set up PostgreSQL bi-directional replication using pglogical, Yaser Raja and Peter Celentano have you covered in their post, [PostgreSQL bi-directional replication using pglogical](https://aws.amazon.com/blogs/database/postgresql-bi-directional-replication-using-pglogical/) [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/01/12/DBBLOG-1010-image001.png)
 
 **OpenSearch**
 
-Ashwin Pc explores how plugins work for OpenSearch Dashboards in his post, [Introduction to OpenSearch Dashboard Plugins](https://aws-oss.beachgeek.co.uk/1a6) [hands on]
+Ashwin Pc explores how plugins work for OpenSearch Dashboards in his post, [Introduction to OpenSearch Dashboard Plugins](https://opensearch.org/blog/technical-post/2022/01/dashboards-plugins-intro/) [hands on]
 
 **Micro-Frontends using AWS CDK**
 
-In the follow up from a post where Antonio Lagrotteria shared the first in a series of posts aimed at showing you how to build a complete server-less architecture aiming at deploying and hosting client-side mono-repo micro-frontends, this time he is back with a post that walks you through how to provision a mono-repo micro-frontend architecture in his post, [A Complete CDK for a Module-Federated Micro-Frontends AWS Architecture](https://aws-oss.beachgeek.co.uk/19s). Great post, and can't wait for the next instalment. [hands on]
+In the follow up from a post where Antonio Lagrotteria shared the first in a series of posts aimed at showing you how to build a complete server-less architecture aiming at deploying and hosting client-side mono-repo micro-frontends, this time he is back with a post that walks you through how to provision a mono-repo micro-frontend architecture in his post, [A Complete CDK for a Module-Federated Micro-Frontends AWS Architecture](https://alatech.medium.com/a-complete-cdk-for-a-module-federated-micro-frontends-aws-architecture-ce17e93f0d1c). Great post, and can't wait for the next instalment. [hands on]
 
 ![arch](https://miro.medium.com/max/1400/1*Mq2vklIlB-LvVLzQmh0xQQ.png)
 
 **Apache Airflow**
 
-If you love learning from how companies use technology, then you will love this post from the lovely folk at Voodoo, [How Voodoo did Airflow 101](https://aws-oss.beachgeek.co.uk/19r). Manuel Pozo shares their experience on how Voodoo run Apache Airflow, but also the pros and cons of this platform, and a few tips to work around some issues they found during their journey.
+If you love learning from how companies use technology, then you will love this post from the lovely folk at Voodoo, [How Voodoo did Airflow 101](https://medium.com/voodoo-engineering/how-voodoo-did-airflow-101-4ce483bd62cb). Manuel Pozo shares their experience on how Voodoo run Apache Airflow, but also the pros and cons of this platform, and a few tips to work around some issues they found during their journey.
 
 ![demo](https://miro.medium.com/max/2636/1*6Z9YMVIaXC4T0hDbjGI7eg.png)
 
@@ -116,18 +116,18 @@ If you love learning from how companies use technology, then you will love this 
 
 A couple of posts this weeks, covering Apache Log4j. In light of the recent security incidents, these are worth reading.
 
-First up we have Ryan Dsouza, who provides guidance to help industrial customers respond to the recently disclosed Log4j vulnerability, in his post [What actions customers can take to protect, detect, and respond to Log4j vulnerabilities in Operational Technology (OT) and Industrial Internet of Things (IIoT) environments](https://aws-oss.beachgeek.co.uk/19k). He covers how to identify if you are susceptible to the issue, and then how to address the vulnerability.
+First up we have Ryan Dsouza, who provides guidance to help industrial customers respond to the recently disclosed Log4j vulnerability, in his post [What actions customers can take to protect, detect, and respond to Log4j vulnerabilities in Operational Technology (OT) and Industrial Internet of Things (IIoT) environments](https://aws.amazon.com/blogs/iot/what-actions-customers-can-take-to-protect-detect-and-respond-to-log4j-vulnerabilities-in-operational-technology-ot-and-industrial-internet-of-things-iiot-environments/). He covers how to identify if you are susceptible to the issue, and then how to address the vulnerability.
 
-Following that we have our friends at the fictitious company, "I Love My Local Farmer", where Jérôme Van Der Linden takes a look at a practical example of how this might impact you and some of the options you have to help protect yourself in the post, [Protecting from vulnerabilities in Java: How we managed the log4j crisis](https://aws-oss.beachgeek.co.uk/19q) [hands on]
+Following that we have our friends at the fictitious company, "I Love My Local Farmer", where Jérôme Van Der Linden takes a look at a practical example of how this might impact you and some of the options you have to help protect yourself in the post, [Protecting from vulnerabilities in Java: How we managed the log4j crisis](https://medium.com/i-love-my-local-farmer-engineering-blog/protecting-from-vulnerabilities-in-java-how-we-managed-the-log4j-crisis-68d3e90a7586) [hands on]
 
 **Other posts worth checking out**
 
 Last week, these posts also caught my eye.
 
-* [Distributed fine-tuning of a BERT Large model for a Question-Answering Task using Hugging Face Transformers on Amazon SageMaker](https://aws-oss.beachgeek.co.uk/19i) looks at how you can accelerate training and fine-tuning of Hugging Face Transformer models using SageMaker distributed libraries
-* [Using the ParallelCluster 3 Configuration Converter](https://aws-oss.beachgeek.co.uk/19j) helps you get started with AWS ParallelCluster 3, a major release with several changes and a lot of new features
-* [Using Spot Instances with AWS ParallelCluster and Amazon FSx for Lustre](https://aws-oss.beachgeek.co.uk/19o) will help you optimise your costs by showing you how to configure AWS ParallelCluster to handle Spot Instance interruption
-* [Broadpeak Launches New Video Streaming API SaaS Platform with Support from AWS SaaS Factory](https://aws-oss.beachgeek.co.uk/19l) takes a peek at how Broadpeak navigated business and technical decisions to build the new platform as a software-as-a-service (SaaS) solution
+* [Distributed fine-tuning of a BERT Large model for a Question-Answering Task using Hugging Face Transformers on Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/distributed-fine-tuning-of-a-bert-large-model-for-a-question-answering-task-using-hugging-face-transformers-on-amazon-sagemaker/) looks at how you can accelerate training and fine-tuning of Hugging Face Transformer models using SageMaker distributed libraries
+* [Using the ParallelCluster 3 Configuration Converter](https://aws.amazon.com/blogs/hpc/using-the-parallelcluster-3-configuration-converter/) helps you get started with AWS ParallelCluster 3, a major release with several changes and a lot of new features
+* [Using Spot Instances with AWS ParallelCluster and Amazon FSx for Lustre](https://aws.amazon.com/blogs/hpc/using-spot-instances-with-aws-parallelcluster-and-amazon-fsx-for-lustre/) will help you optimise your costs by showing you how to configure AWS ParallelCluster to handle Spot Instance interruption
+* [Broadpeak Launches New Video Streaming API SaaS Platform with Support from AWS SaaS Factory](https://aws.amazon.com/blogs/apn/broadpeak-launches-new-video-streaming-api-saas-platform-with-support-from-aws-saas-factoryom-aws-saas-factory/) takes a peek at how Broadpeak navigated business and technical decisions to build the new platform as a software-as-a-service (SaaS) solution
 
 ### Quick updates
 
@@ -158,7 +158,7 @@ Amazon MQ now provides support for RabbitMQ version 3.8.26. This patch update to
 
 **Open Data**
 
-Whilst not open source, open data helps builders spend more time on data analysis rather than data acquisition, making it easy to find a wide variety of datasets that are made publicly available. 19 new data sets are now available, covering climate and weather, geospatial, life sciences, and machine learning. Read the full announcement, [New datasets available on the Registry of Open Data from Meta, the Brazilian Space Agency, Radboud University Medical Center, and others](https://aws-oss.beachgeek.co.uk/19c)
+Whilst not open source, open data helps builders spend more time on data analysis rather than data acquisition, making it easy to find a wide variety of datasets that are made publicly available. 19 new data sets are now available, covering climate and weather, geospatial, life sciences, and machine learning. Read the full announcement, [New datasets available on the Registry of Open Data from Meta, the Brazilian Space Agency, Radboud University Medical Center, and others](https://aws.amazon.com/about-aws/whats-new/2022/01/new-datasets-registry-open-data/)
 
 ### Videos of the week
 
@@ -170,7 +170,7 @@ This is a must watch video for those building APIs. Michael Dowling, shares they
 
 **AWS CDK**
 
-If you are looking for an introduction in how to use AWS CDK as part of your infrastructure as code journey, then check out this session from Beau Carnes, [How to Define Cloud Infrastructure with the AWS Cloud Development Kit](https://aws-oss.beachgeek.co.uk/19v). Nice!
+If you are looking for an introduction in how to use AWS CDK as part of your infrastructure as code journey, then check out this session from Beau Carnes, [How to Define Cloud Infrastructure with the AWS Cloud Development Kit](https://www.freecodecamp.org/news/aws-cloud-development-kit-crash-course/). Nice!
 
 {{< youtube T-H4nJQyMig >}}
 
@@ -183,14 +183,14 @@ If you have an event you want me to publish here, please contact me and I will i
 
 Join AWS and theCUBE as eight innovative companies within the AWS Partner ecosystem highlight their latest developments in the open source community.
 
-[Register via this link](https://aws-oss.beachgeek.co.uk/194)
+[Register via this link](https://aws.events.cube365.net/startup/s2e1)
 
 **Serverless London User Group: Lambda Powertools**
 **January, 26th at 9PM GMT**
 
 Don't miss this meetup, which will be "a relaxed conversation with Heitor Lessa, Sara Gerion and Yan Cui about the evolution of Lambda Powertools and how it can help you build serverless applications."
 
-Read more and register at, [Let's talk about Lambda Powertools!](https://aws-oss.beachgeek.co.uk/19b)
+Read more and register at, [Let's talk about Lambda Powertools!](https://www.meetup.com/Serverless-London/events/283359338/)
 
 
 **Cloud DevSecOps with Bridgecrew and Terraform**
@@ -198,20 +198,20 @@ Read more and register at, [Let's talk about Lambda Powertools!](https://aws-oss
 
 From scanning infrastructure as code (IaC) for security misconfigurations to implementing automated DevSecOps workflows, this workshop will provide a hands-on experience to automate your cloud security.
 
-Sign up and reserve your spot, [Cloud DevSecOps with Bridgecrew and Terraform](https://aws-oss.beachgeek.co.uk/19f)
+Sign up and reserve your spot, [Cloud DevSecOps with Bridgecrew and Terraform](https://bridgecrew.io/webinar/220127-aws-dev-day-bridgecrew/)
 
 **Presto Tech Talks: Presto + Pinot by Uber & AWS Lake Formation by Ahana**
 **Friday, January 28, 5PM PT**
 
 Join this meetup to hear from speakers who are using Presto with Pinot and Presto with AWS Lake Formation. Learn from experienced developers who use Presto at scale, with their highly valuable insights!
 
-Read and register [here](https://aws-oss.beachgeek.co.uk/19g)
+Read and register [here](https://www.meetup.com/prestodb/events/282943439/)
 
 ### CFP
 
 A heads up to folks who are interested in all things Apache Airflow. Apache Airflow Summit 2022 has been announced and the call for papers (cfp) is now open. The bar for sessions is always very high, so looking forward to this event already.
 
-If you have an idea for a talk, why not submit one via the cfp process. Check out the event, [Apache Airflow Summit 2022](https://aws-oss.beachgeek.co.uk/19e)
+If you have an idea for a talk, why not submit one via the cfp process. Check out the event, [Apache Airflow Summit 2022](https://sessionize.com/airflow-summit-2022)
 
 If you maybe have wanted to do a session, then I am very happy to help with feedback or coaching to help you feel more comfortable in creating and/or delivering your session. If this something that has been on your mind, but you just needed a little support, PLEASE get in touch.
 

@@ -19,7 +19,7 @@ Make sure you check out the events section, as there are a couple of events comi
 
 OpenUK have been running an annual survey for a number of years now, collecting data and then producing and sharing reports that are widely cited. They are looking for more folk to respond, so please take a few minutes to complete the survey and provide your feedback on the state of open source in the UK.
 
-Read more and find the link to the survey over at, [State of Open: The UK 2023 Survey](https://aws-oss.beachgeek.co.uk/2tw)
+Read more and find the link to the survey over at, [State of Open: The UK 2023 Survey](https://openuk.uk/state-of-open-2023-survey/)
 
 **SLSA**
 
@@ -43,67 +43,67 @@ So thank you to the following open source heroes: David Venable, Damon Cortesi, 
 
 **cookiecutter-serverless-python**
 
-[cookiecutter-serverless-python](https://aws-oss.beachgeek.co.uk/2ui) is the latest project from AWS Community Builder Ran Isenberg. This project can serve as a cookiecutter template for new Serverless services - CDK deployment code, pipeline and handler are covered with best practices built in. After installing the tool using pip, you are provided with a guided cli experiences before the tool helpfully setups up all the resources you need. Great stuff, so be sure to check this out.
+[cookiecutter-serverless-python](https://github.com/ran-isenberg/cookiecutter-serverless-python) is the latest project from AWS Community Builder Ran Isenberg. This project can serve as a cookiecutter template for new Serverless services - CDK deployment code, pipeline and handler are covered with best practices built in. After installing the tool using pip, you are provided with a guided cli experiences before the tool helpfully setups up all the resources you need. Great stuff, so be sure to check this out.
 
 **cdk-aws-app-runner-scheduler**
 
-[cdk-aws-app-runner-scheduler](https://aws-oss.beachgeek.co.uk/2ud)  is a new project from Will Dady that provides a reference AWS CDK application for scheduling the pausing and resuming of AWS App Runner services. Useful for dev environments where you want to pause AWS App Runner services out-of-hours to save money. Very cool and useful indeed!
+[cdk-aws-app-runner-scheduler](https://github.com/willdady/cdk-aws-app-runner-scheduler)  is a new project from Will Dady that provides a reference AWS CDK application for scheduling the pausing and resuming of AWS App Runner services. Useful for dev environments where you want to pause AWS App Runner services out-of-hours to save money. Very cool and useful indeed!
 
 **specctl**
 
-[specctl](https://aws-oss.beachgeek.co.uk/2ue) is a command-line based tool to extract and transform Kubernetes objects to ECS and vice versa. It has two modes, -m k2e (default) convert Kubernetes to ECS and -m e2k for ECS to Kubernetes. Currently, only ECS Fargate is supported. For Kubernetes to ECS conversion, specctl can read and convert Kubernetes objects either from Kubernetes YAML specification files or from Kubernetes clusters. The tool uses Terraform to create all the necessary AWS resources needed to run services and tasks on ECS. For ECS to Kubernetes, specctl can read and convert ECS and related AWS objects from an AWS account where the ECS cluster is running. Once the Kubernetes YAML specifications are generated, you can simply use kubectl on the generated spec.
+[specctl](https://github.com/awslabs/specctl) is a command-line based tool to extract and transform Kubernetes objects to ECS and vice versa. It has two modes, -m k2e (default) convert Kubernetes to ECS and -m e2k for ECS to Kubernetes. Currently, only ECS Fargate is supported. For Kubernetes to ECS conversion, specctl can read and convert Kubernetes objects either from Kubernetes YAML specification files or from Kubernetes clusters. The tool uses Terraform to create all the necessary AWS resources needed to run services and tasks on ECS. For ECS to Kubernetes, specctl can read and convert ECS and related AWS objects from an AWS account where the ECS cluster is running. Once the Kubernetes YAML specifications are generated, you can simply use kubectl on the generated spec.
 
 Check out the docs to find out more about what resources are translated, a look at all the command options, and how you can get started. Very cool tool, and something I will be sure to be trying out very soon.
 
 **faker-cli**
 
-[faker-cli](https://aws-oss.beachgeek.co.uk/2ur) is the latest tool from colleague Damon Cortesi that helps you quickly generate JSON or CSV "test" data. You can use predefined templates (for example S3 Access or Cloudfront format data) or specify your own. The tool uses Faker under the covers.
+[faker-cli](https://github.com/dacort/faker-cli) is the latest tool from colleague Damon Cortesi that helps you quickly generate JSON or CSV "test" data. You can use predefined templates (for example S3 Access or Cloudfront format data) or specify your own. The tool uses Faker under the covers.
 
 **volume-modifier-for-k8s**
 
-[volume-modifier-for-k8s](https://aws-oss.beachgeek.co.uk/2uf) this repo provides a sidecar deployed alongside CSI drivers to enable volume modification through annotations on the PVC.
+[volume-modifier-for-k8s](https://github.com/awslabs/volume-modifier-for-k8s) this repo provides a sidecar deployed alongside CSI drivers to enable volume modification through annotations on the PVC.
 
 **aws-greengrass-labs-certificate-rotator**
 
-[aws-greengrass-labs-certificate-rotator](https://aws-oss.beachgeek.co.uk/2ug) this repo provides a Greengrass component and companion cloud backend for rotating the core device certificate and private key. Device certificate and private key rotation is a security best practice defined in the IoT Lens for the AWS Well-Architected Framework. At the time of writing however, AWS IoT does not offer a device certificate rotation service or feature. It's left to customers and application builders to implement both the device software and the cloud backend to achieve device certificate rotation. This repo will help you address that. Check out the blog post, [How to manage IoT device certificate rotation using AWS IoT](https://aws-oss.beachgeek.co.uk/2uh) that helps you walk through this solution.
+[aws-greengrass-labs-certificate-rotator](https://github.com/awslabs/aws-greengrass-labs-certificate-rotator) this repo provides a Greengrass component and companion cloud backend for rotating the core device certificate and private key. Device certificate and private key rotation is a security best practice defined in the IoT Lens for the AWS Well-Architected Framework. At the time of writing however, AWS IoT does not offer a device certificate rotation service or feature. It's left to customers and application builders to implement both the device software and the cloud backend to achieve device certificate rotation. This repo will help you address that. Check out the blog post, [How to manage IoT device certificate rotation using AWS IoT](https://aws.amazon.com/blogs/iot/how-to-manage-iot-device-certificate-rotation-using-aws-iot/) that helps you walk through this solution.
 
 ![overview of certificate rotation on greengrass](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2022/03/21/AWS-IoT-device-certificate-1.png)
 
 **sagemaker-distribution**
 
-[sagemaker-distribution](https://aws-oss.beachgeek.co.uk/2uj)  is a set of Docker images that include popular frameworks for machine learning, data science and visualisation. T hese images come in two variants, CPU and GPU, and include deep learning frameworks like PyTorch, TensorFlow and Keras; popular Python packages like numpy, scikit-learn and pandas; and IDEs like Jupyter Lab. The distribution contains the latest versions of all these packages such that they are mutually compatible. If you use Conda, then you can use these directly so no need for Docker - check the README for how you can do that.
+[sagemaker-distribution](https://github.com/aws/sagemaker-distribution)  is a set of Docker images that include popular frameworks for machine learning, data science and visualisation. T hese images come in two variants, CPU and GPU, and include deep learning frameworks like PyTorch, TensorFlow and Keras; popular Python packages like numpy, scikit-learn and pandas; and IDEs like Jupyter Lab. The distribution contains the latest versions of all these packages such that they are mutually compatible. If you use Conda, then you can use these directly so no need for Docker - check the README for how you can do that.
 
 **amazon-codeguru-jupyterlab-extension**
 
-[amazon-codeguru-jupyterlab-extension](https://aws-oss.beachgeek.co.uk/2uk)  is an Amazon CodeGuru extension for JupyterLab and SageMaker Studio. This extension runs scans on your notebook files and provides security recommendations and quality improvements to your code.
+[amazon-codeguru-jupyterlab-extension](https://github.com/aws/amazon-codeguru-jupyterlab-extension)  is an Amazon CodeGuru extension for JupyterLab and SageMaker Studio. This extension runs scans on your notebook files and provides security recommendations and quality improvements to your code.
 
 **amazon-msk-config-detector**
 
-[amazon-msk-config-detector](https://aws-oss.beachgeek.co.uk/2ul) is a tool that analyses your Kafka cluster configuration and makes recommendations based on the instance type, storage configuration and topic configuration. Using [Amazon MSK best practices guideline](https://aws-oss.beachgeek.co.uk/2um), the tool clearly indicates which configuration changes are necessary, taking into account factors such as instance type, local storage, tiered storage, segment size and retention period of your Kafka cluster running with Amazon Managed Streaming for Apache Kafka (MSK). Additionally, the tool can detect storage and partition imbalances on your cluster, and provide specific recommendations for correcting these imbalances.
+[amazon-msk-config-detector](https://github.com/awslabs/amazon-msk-config-detector) is a tool that analyses your Kafka cluster configuration and makes recommendations based on the instance type, storage configuration and topic configuration. Using [Amazon MSK best practices guideline](https://docs.aws.amazon.com/msk/latest/developerguide/bestpractices.html), the tool clearly indicates which configuration changes are necessary, taking into account factors such as instance type, local storage, tiered storage, segment size and retention period of your Kafka cluster running with Amazon Managed Streaming for Apache Kafka (MSK). Additionally, the tool can detect storage and partition imbalances on your cluster, and provide specific recommendations for correcting these imbalances.
 
 ![overview of how msk config detector works](https://github.com/awslabs/amazon-msk-config-detector/blob/main/images/mskdetector.png?raw=true)
 
 **ec2-spot-placement-score-tracker**
 
-[ec2-spot-placement-score-tracker](https://aws-oss.beachgeek.co.uk/2un) This project automates the capture of Spot Placement Scores and stores SPS metrics in CloudWatch. Historic metrics can be then be visualised using CloudWatch Dashboards. CloudWatch can also be used to trigger Alarms and automation of events such as moving your workload to a region where capacity is available. Spot can be used to optimize the scale, cost and execution time of Workloads such as Containers (K8s, EKS, ECS, etc), Loosely coupled HPC and high throughput computing (AWS Batch, Parallel Cluster), Data & Analytics using Spark, Flink, Presto, CICD, Rendering, and in general any workload that is retryable, scalable and stateless.
+[ec2-spot-placement-score-tracker](https://github.com/aws-samples/ec2-spot-placement-score-tracker) This project automates the capture of Spot Placement Scores and stores SPS metrics in CloudWatch. Historic metrics can be then be visualised using CloudWatch Dashboards. CloudWatch can also be used to trigger Alarms and automation of events such as moving your workload to a region where capacity is available. Spot can be used to optimize the scale, cost and execution time of Workloads such as Containers (K8s, EKS, ECS, etc), Loosely coupled HPC and high throughput computing (AWS Batch, Parallel Cluster), Data & Analytics using Spark, Flink, Presto, CICD, Rendering, and in general any workload that is retryable, scalable and stateless.
 
 ![example dashboards for ec2-spot placement](https://github.com/aws-samples/ec2-spot-placement-score-tracker/blob/main/docs/spot-placement-score.png?raw=true)
 
 **babelfish_compass**
 
-[babelfish_compass](https://aws-oss.beachgeek.co.uk/2u4) is a compatibility assessment tool for Babelfish for PostgreSQL. With Babelfish Compass, users can quickly analyse T-SQL DDL/SQL scripts for compatibility with Babelfish. Babelfish Compass identifies the SQL features that aren’t supported by the current version of Babelfish and creates an assessment report on the SQL/DDL. The purpose of such analysis is to inform a go/no-go decision about whether it makes sense to consider starting a migration project from SQL Server to Babelfish and to estimate the efforts required for the migration. The README provides some information on how you can get started, including a YT video. You can also check out this new blog post, [Deep dive into Babelfish Compass](https://aws-oss.beachgeek.co.uk/2u5) where Ramesh Kumar Venkatraman and Neha Gupta walk you through using the tool.
+[babelfish_compass](https://github.com/babelfish-for-postgresql/babelfish_compass) is a compatibility assessment tool for Babelfish for PostgreSQL. With Babelfish Compass, users can quickly analyse T-SQL DDL/SQL scripts for compatibility with Babelfish. Babelfish Compass identifies the SQL features that aren’t supported by the current version of Babelfish and creates an assessment report on the SQL/DDL. The purpose of such analysis is to inform a go/no-go decision about whether it makes sense to consider starting a migration project from SQL Server to Babelfish and to estimate the efforts required for the migration. The README provides some information on how you can get started, including a YT video. You can also check out this new blog post, [Deep dive into Babelfish Compass](https://aws.amazon.com/blogs/database/deep-dive-into-babelfish-compass/) where Ramesh Kumar Venkatraman and Neha Gupta walk you through using the tool.
 
 ![screenshot of using babelfish compass](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/05/12/DBBLOG-1914-image003.jpg)
 
 **LightGPT**
 
-[LightGPT](https://aws-oss.beachgeek.co.uk/2u2) is an open source (Apache 2.0) language model based on the awesome EleutherAI/GPT-J-6B (Apache 2.0). LightGPT was instruction fine-tuned on the OIG-small-chip2 dataset (Apache 2.0). The repo provides details on how you can quickly get this up and running on Amazon SageMaker.
+[LightGPT](https://huggingface.co/amazon/LightGPT) is an open source (Apache 2.0) language model based on the awesome EleutherAI/GPT-J-6B (Apache 2.0). LightGPT was instruction fine-tuned on the OIG-small-chip2 dataset (Apache 2.0). The repo provides details on how you can quickly get this up and running on Amazon SageMaker.
 
 ### Demos, Samples, Solutions and Workshops
 
 **aws-batch-operational-dashboards**
 
-[aws-batch-operational-dashboards](https://aws-oss.beachgeek.co.uk/2uo) provides a code sample to deploy a solution to show Amazon EC2 resources and Container resource usage by AWS Batch jobs. This solution relies on a serverless architecture to create a Grafana dashboard to visualise compute and memory resources usage by AWS Batch jobs. It provides better insights at the jobs level on how Amazon EC2 resources are used. 
+[aws-batch-operational-dashboards](https://github.com/aws-samples/aws-batch-operational-dashboards) provides a code sample to deploy a solution to show Amazon EC2 resources and Container resource usage by AWS Batch jobs. This solution relies on a serverless architecture to create a Grafana dashboard to visualise compute and memory resources usage by AWS Batch jobs. It provides better insights at the jobs level on how Amazon EC2 resources are used. 
 
 This application is designed to be scalable by collecting data from events and API calls using Amazon EventBrige and does not make API calls to describe your resources. Data collected through events and API are partially aggregated to DynamoDB to recoup information and generate Amazon CloudWatch metrics with the Embedded Metric Format. The application also deploys a several of dashboards displaying the job states, Amazon EC2 instances belonging your Amazon ECS Clusters (AWS Batch Compute Environments), ASGs across Availability Zones.
 
@@ -111,7 +111,7 @@ This application is designed to be scalable by collecting data from events and A
 
 **eksdemo**
 
-[eksdemo](https://aws-oss.beachgeek.co.uk/2up) this repo is perfect for anyone wanting to get started with Kubernetes on AWS. It provides an easy button for learning, testing, and demoing Amazon EKS. Here are some of the features from the README:
+[eksdemo](https://github.com/awslabs/eksdemo) this repo is perfect for anyone wanting to get started with Kubernetes on AWS. It provides an easy button for learning, testing, and demoing Amazon EKS. Here are some of the features from the README:
 
 * Install complex applications and dependencies with a single command
 * Extensive application catalog (over 50 CNCF, open source and related projects)
@@ -122,46 +122,46 @@ This application is designed to be scalable by collecting data from events and A
 
 **redshift-roles**
 
-[redshift-roles](https://aws-oss.beachgeek.co.uk/2uq) this repo contains scripts, SQL, and Stored Procedures that are useful in using and adopting the use of using ROLE for security access in Redshift.
+[redshift-roles](https://github.com/aws-samples/redshift-roles) this repo contains scripts, SQL, and Stored Procedures that are useful in using and adopting the use of using ROLE for security access in Redshift.
 
 ### AWS and Community blog posts
 
 **Apache Iceberg**
 
-In [Improve operational efficiencies of Apache Iceberg tables built on Amazon S3 data lakes](https://aws-oss.beachgeek.co.uk/2u6), Avijit Goswami, Prashant Singh, and Rajarshi Sarkar show you how to improve operational efficiencies of your Apache Iceberg tables built on Amazon S3 data lake and Amazon EMR big data platform. [hands on]
+In [Improve operational efficiencies of Apache Iceberg tables built on Amazon S3 data lakes](https://aws.amazon.com/blogs/big-data/improve-operational-efficiencies-of-apache-iceberg-tables-built-on-amazon-s3-data-lakes/), Avijit Goswami, Prashant Singh, and Rajarshi Sarkar show you how to improve operational efficiencies of your Apache Iceberg tables built on Amazon S3 data lake and Amazon EMR big data platform. [hands on]
 
 **Apache Airflow**
 
-Using Apache Airflow to orchestrate the running of AWS Glue jobs is a common use case, and so this post, [Simplify AWS Glue job orchestration and monitoring with Amazon MWAA](https://aws-oss.beachgeek.co.uk/2u9) is perfect for those of you who are doing this. Rushabh Lokhande, Vishwa Gupta, and Ryan Gomes look at how to simplify monitoring an AWS Glue job orchestrated by Airflow using the latest features of Amazon MWAA. [hands on]
+Using Apache Airflow to orchestrate the running of AWS Glue jobs is a common use case, and so this post, [Simplify AWS Glue job orchestration and monitoring with Amazon MWAA](https://aws.amazon.com/blogs/big-data/simplify-aws-glue-job-orchestration-and-monitoring-with-amazon-mwaa/) is perfect for those of you who are doing this. Rushabh Lokhande, Vishwa Gupta, and Ryan Gomes look at how to simplify monitoring an AWS Glue job orchestrated by Airflow using the latest features of Amazon MWAA. [hands on]
 
 ![overview of monitoring glue jobs orchestrated via mwaa](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/05/15/BDB2920-MWAABLOG-image001.png)
 
 **Spinnaker**
 
-Spinnaker is a cloud native continuous delivery platform that provides fast, safe, and repeatable deployments for every enterprise. In the post, [Configure Continuous Deployment Using Kustomize Components and Spinnaker Operator in Amazon EKS](https://aws-oss.beachgeek.co.uk/2uc), Praseeda Sathaye, Fernando Freire, and Puneet Singh collaborate to show you how you can install a Spinnaker Service using Spinnaker Operator and Kustomize. The posts walks you through the process of setting up a sample application in Spinnaker service using Kustomize, building a Spinnaker CD pipeline which used Kustomize to overlay the test and prod environment during the deployment stage. [hands on]
+Spinnaker is a cloud native continuous delivery platform that provides fast, safe, and repeatable deployments for every enterprise. In the post, [Configure Continuous Deployment Using Kustomize Components and Spinnaker Operator in Amazon EKS](https://aws.amazon.com/blogs/opensource/configure-continuous-deployment-using-kustomize-components-and-spinnaker-operator-in-amazon-eks/), Praseeda Sathaye, Fernando Freire, and Puneet Singh collaborate to show you how you can install a Spinnaker Service using Spinnaker Operator and Kustomize. The posts walks you through the process of setting up a sample application in Spinnaker service using Kustomize, building a Spinnaker CD pipeline which used Kustomize to overlay the test and prod environment during the deployment stage. [hands on]
 
 ![overview of spinnaker architecture](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/05/19/platform-team-process.png)
 
 **OpenSearch**
 
-If you are using Logstash with OpenSearch then make sure you read [Discontinuing the custom Logstash distribution](https://aws-oss.beachgeek.co.uk/2us). David Venable talks about why the OpenSearch community has decided to discontinue the custom distribution and your options.
+If you are using Logstash with OpenSearch then make sure you read [Discontinuing the custom Logstash distribution](https://opensearch.org/blog/Discontinuing-custom-Logstash-distribution/). David Venable talks about why the OpenSearch community has decided to discontinue the custom distribution and your options.
 
 **Community Roundup**
 
-Check out this post from Mickael Derriey, [Traces to logs correlation in AWS with Node.js](https://aws-oss.beachgeek.co.uk/2u3) where he looks at a project he worked on was hosted in AWS using Fargate to run containers, CloudWatch for logs, and X-Ray for OpenTelemetry traces.
+Check out this post from Mickael Derriey, [Traces to logs correlation in AWS with Node.js](https://blog.makerx.com.au/traces-to-logs-correlation-in-aws-with-node-js/amp/) where he looks at a project he worked on was hosted in AWS using Fargate to run containers, CloudWatch for logs, and X-Ray for OpenTelemetry traces.
 
 **Other posts and quick reads**
 
-* [Migrate data from Apache HBase to Amazon DynamoDB](https://aws-oss.beachgeek.co.uk/2u7) describes how you can migrate data from your on-premises Apache HBase database to Amazon DynamoDB [hands on]
+* [Migrate data from Apache HBase to Amazon DynamoDB](https://aws.amazon.com/blogs/database/migrate-data-from-apache-hbase-to-amazon-dynamodb/) describes how you can migrate data from your on-premises Apache HBase database to Amazon DynamoDB [hands on]
 
 ![overview of migration architecture](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/05/15/DBBLOG-2981-1-image001-1024x858.png)
 
-* [Automate Security and Monitoring with Amazon EKS Blueprints, Terraform, and Sysdig](https://aws-oss.beachgeek.co.uk/2ua) looks at Kubernetes adoption difficulties and how to use the blueprints to reduce those gaps
-* [Leveraging the Power of Esri’s ArcGIS Enterprise on Kubernetes Through Amazon EKS](https://aws-oss.beachgeek.co.uk/2ub) shows you how to deploy ArcGIS Enterprise (a powerful mapping and spatial analytics technology) on Amazon Elastic Kubernetes Service (Amazon EKS) [hands on]
+* [Automate Security and Monitoring with Amazon EKS Blueprints, Terraform, and Sysdig](https://aws.amazon.com/blogs/apn/automate-security-and-monitoring-with-amazon-eks-blueprints-terraform-and-sysdig/) looks at Kubernetes adoption difficulties and how to use the blueprints to reduce those gaps
+* [Leveraging the Power of Esri’s ArcGIS Enterprise on Kubernetes Through Amazon EKS](https://aws.amazon.com/blogs/apn/leveraging-the-power-of-esri-arcgis-enterprise-on-kubernetes-through-amazon-eks/) shows you how to deploy ArcGIS Enterprise (a powerful mapping and spatial analytics technology) on Amazon Elastic Kubernetes Service (Amazon EKS) [hands on]
 
 ![overview of arcgis on eks](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/04/24/Esri-ArcGIS-Kubernetes-1.png)
 
-* [HardenEKS: Validating Best Practices For Amazon EKS Clusters Programmatically](https://aws-oss.beachgeek.co.uk/2ut) provides a hands on guide on how you can programmatically validate Amazon EKS clusters against best practices defined in AWS’ EKS Best Practices Guide (EBPG) [hands on]
+* [HardenEKS: Validating Best Practices For Amazon EKS Clusters Programmatically](https://aws.amazon.com/blogs/containers/hardeneks-validating-best-practices-for-amazon-eks-clusters-programmatically/) provides a hands on guide on how you can programmatically validate Amazon EKS clusters against best practices defined in AWS’ EKS Best Practices Guide (EBPG) [hands on]
 
 ### Quick updates
 
@@ -177,7 +177,7 @@ Amazon Aurora MySQL-Compatible Edition now supports a new, enhanced binary log (
 
 One of the most commonly used features of MySQL is the binlog. The binlog is a record of all activity made to the database and is used for a variety of scenarios, including logical read replicas, data pipelines, ETL processing, loading data into data lakes and data warehouses, and event driven architectures. The enhanced binlog capability is compatible with existing workloads and you interact with it the same way you interact with native MySQL binlog.
 
-Check out the blog post, [Introducing Amazon Aurora MySQL enhanced binary log (binlog)](https://aws-oss.beachgeek.co.uk/2u0), where Aditya Samant and Adam Levin look at these improvements in more detail.
+Check out the blog post, [Introducing Amazon Aurora MySQL enhanced binary log (binlog)](https://aws.amazon.com/blogs/database/introducing-amazon-aurora-mysql-enhanced-binary-log-binlog/), where Aditya Samant and Adam Levin look at these improvements in more detail.
 
 ![binlog post diagram](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/05/17/dbblog-2434-image001.png)
 
@@ -187,7 +187,7 @@ A couple of updates this week.
 
 First up is news that Amazon Relational Database Service (RDS) for PostgreSQL now supports the Rust programming language as a new trusted procedural language. This allows you to build high performance user defined functions to extend PostgreSQL for compute-intensive data processing. Rust combines the performance and resource efficiency of compiled languages like C with mechanisms that limit the risks from unsafe memory use. As a PostgreSQL trusted procedural language, PL/Rust provides memory safety so that an unprivileged user can run code in the database without the risk of crashing the database due to a software defect that corrupts memory. Developers can also package PL/Rust code as Trusted Language Extensions for PostgreSQL to run on Amazon RDS. PL/Rust is available on all database instances in Amazon RDS running PostgreSQL 15.2 and higher in all AWS Regions, including the AWS GovCloud (US) Regions. 
 
-Make sure you check out Jonathan Katz's post, [Build high-performance functions in Rust on Amazon RDS for PostgreSQL](https://aws-oss.beachgeek.co.uk/2u8) that shows how to deploy an RDS for PostgreSQL instance with PL/Rust enabled, and reviews several examples for how to write high-performance Rust code directly in your database.
+Make sure you check out Jonathan Katz's post, [Build high-performance functions in Rust on Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/build-high-performance-functions-in-rust-on-amazon-rds-for-postgresql/) that shows how to deploy an RDS for PostgreSQL instance with PL/Rust enabled, and reviews several examples for how to write high-performance Rust code directly in your database.
 
 
 Following that is news that Amazon RDS for PostgreSQL now supports up to 15 asynchronous read replicas from Amazon RDS Multi-AZ deployments with two readable standbys delivering up to 8x the previous read capacity. 
@@ -200,13 +200,13 @@ Kubernetes 1.27 introduced several new features and bug fixes, and AWS announced
 
 This release of Kubernetes 1.27 includes stable support for Seccomp Profile defaulting and scheduling improvements such ability to control when a pod is ready to be considered for scheduling using Pod Scheduling Readiness and allowing custom queue controllers to influence pod placement for suspended jobs. As a reminder, Kubernetes 1.27 will not be published on the old k8s.gcr.io image registry, to use the latest Kubernetes images and patch releases, you will need to use registry.k8s.io image registry. 
 
-You can dive deeper into this update by checking out this post, [Amazon EKS now supports Kubernetes version 1.27](https://aws-oss.beachgeek.co.uk/2ty) where Sheetal Joshi and Leah Tucker go through these in more detail.
+You can dive deeper into this update by checking out this post, [Amazon EKS now supports Kubernetes version 1.27](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-27/) where Sheetal Joshi and Leah Tucker go through these in more detail.
 
 **AWS Amplify**
 
 AWS Amplify announced the Authenticator UI component for Swift and Android last week. Developers can now use the Authenticator UI component to build end to end login/registration workflows for their Amplify powered Swift and Android projects in minutes. Moreover, the Authenticator UI component sets up the sign in and sign up workflows based on the existing auth configuration right out of the box. This UI component is built entirely using native SwiftUI and Android Jetpack Compose components, so developers can provide a user experience tailored to the Swift and Android platforms that their users feel most comfortable with. The Authenticator UI component automatically handles the login fields like email, username, and phone number based on the Auth configuration set up via the Amplify Command Line Interface (CLI). Developers can also apply custom theming to the Authenticator UI component.
 
-Check out the blog post from my colleague Sebastien, [New – Amplify SwiftUI-based Authenticator Component](https://aws-oss.beachgeek.co.uk/2tx) where he provides a hands on guide to getting started with this.
+Check out the blog post from my colleague Sebastien, [New – Amplify SwiftUI-based Authenticator Component](https://aws.amazon.com/blogs/mobile/new-amplify-swiftui-based-authenticator-component/) where he provides a hands on guide to getting started with this.
 
 ![demo of authenticator ui component working](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2023/05/23/03-sign-in-animated.gif)
 
@@ -224,7 +224,7 @@ AWS ParallelCluster 3.6 is now generally available. Key new features include sup
 * Extended Amazon CloudWatch metrics for disk usage, idle instances, and errors
 * Improved head node resiliency with configurable log rotation
 
-For more details on the release, review the [AWS ParallelCluster 3.6 release notes.](https://aws-oss.beachgeek.co.uk/2tz) and you can also read the post [Introducing GPU health checks in AWS ParallelCluster 3.6](https://aws-oss.beachgeek.co.uk/2u1), where Matt Vaughn shows you how you can get started.
+For more details on the release, review the [AWS ParallelCluster 3.6 release notes.](https://github.com/aws/aws-parallelcluster/releases) and you can also read the post [Introducing GPU health checks in AWS ParallelCluster 3.6](https://aws.amazon.com/blogs/hpc/introducing-gpu-health-checks-in-aws-parallelcluster-3-6/), where Matt Vaughn shows you how you can get started.
 
 ### Videos of the week
 
@@ -245,7 +245,7 @@ Check out David Nalley as he speaks with John Furrier on theCUBE providing a loo
 
 Last Friday was the last episode (eight) of season two, and we featured Cristian Măgherușan-Stanciu who walked us through his open source tools that helps you to save money running your EC2 fleets with his autospotting tool. You can [check out the replay](https://www.twitch.tv/videos/1829622646)
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag)
 
 # Events for your diary
 
@@ -264,7 +264,7 @@ There will also be a focus on running scalable data workloads on Kubernetes and 
 
 ­­The goal of the symposium is to bring customers together to share thoughts on how they are using these solutions to solve big data and observability use cases, as well as to discuss lessons learned and mistakes to avoid.
 
-Register and save your spot via the [AWS Open Source Symposium](https://aws-oss.beachgeek.co.uk/2tv) link.
+Register and save your spot via the [AWS Open Source Symposium](https://awsopensourcesymposium-london.splashthat.com/) link.
 
 
 **Open source Table Formats with AWS Glue and Amazon EMR**
@@ -272,33 +272,33 @@ Register and save your spot via the [AWS Open Source Symposium](https://aws-oss.
 
 Curious about Transactional Data Lakes? Come join our AWS experts as we take you through the most popular open source table formats, how these table formats can help you enable a modern data strategy, and how to build on these formats with Amazon EMR and AWS Glue. In this session, we'll cover some of the key differences between these different table formats, help you decide which table format may be the best fit for your workloads, and show you how to start building today.
 
-You can [join via YouTube live here](https://aws-oss.beachgeek.co.uk/2pu)
+You can [join via YouTube live here](https://www.youtube.com/watch?v=QHNr4waoMoI)
 
 **London Open Source Data Infrastructure Meetup**
 **Huckletree Shoreditch, 6:30PM - 9:30PM**
 
 As part of London Tech Week Aiven are co-hosting the 'London Open Source Data Infrastructure Meetup' on the 14th of June. This event is in collaboration with Hugh Evans from Daemon the 'AI and Deep Learning for Enterprise' group. The speaker panel includes Ricardo Sueiras from Amazon Web Services (AWS) discussing the wonders of Apache Airflow, Davies Oludare from Confluent shedding light on the intricate world of Kafka, and Ed Shee from Seldon breaking down the nuances of ML-powered summarisation.
 
-Spaces are limited, so make sure you reserve your spot by [checking and out the meetup page](https://aws-oss.beachgeek.co.uk/2tu)
+Spaces are limited, so make sure you reserve your spot by [checking and out the meetup page](https://www.meetup.com/uk-open-source-data-infrastructure-meetup/events/293469951)
 
 **Open Source Festival**
 **Lagos, Nigeria - June 15th-17th**
 
 An established and essential event for all open source developers, Open Source Festival promises to be even bigger and better than previous years. I feel very privileged to have spoken at this event in 2020, and so make sure you check this out if you are in the region or perhaps if you are maybe looking to sponsor an open source event, then maybe this is the one you should check out.
 
-Check out more on their homepage, [Open Source Festival](https://aws-oss.beachgeek.co.uk/2ss) 
+Check out more on their homepage, [Open Source Festival](https://festival.oscafrica.org/) 
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

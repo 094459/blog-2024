@@ -31,11 +31,11 @@ So thank you to the following open source heroes:   Ian Mckay, Andrew 'mrpacketh
 
 **deez**
 
-[deez](https://aws-oss.beachgeek.co.uk/30d) is a DynamoDB abstraction written in Rust for implementing Single Table Design easily, inspired by [ElectroDB](https://aws-oss.beachgeek.co.uk/15f).
+[deez](https://github.com/Sife-ops/deez) is a DynamoDB abstraction written in Rust for implementing Single Table Design easily, inspired by [ElectroDB](https://github.com/tywalch/electrodb).
 
 **polai**
 
-[polai](https://aws-oss.beachgeek.co.uk/30e) is a new experimental project from AWS Hero Ian Mckay, to help understand the complexity of the Cedar policy language. The project is incomplete and doesn't feature the automated reasoning guarantees that the official engine has.
+[polai](https://github.com/iann0036/polai) is a new experimental project from AWS Hero Ian Mckay, to help understand the complexity of the Cedar policy language. The project is incomplete and doesn't feature the automated reasoning guarantees that the official engine has.
 
 **clickstream-analytics-on-aws**
 
@@ -45,11 +45,11 @@ So thank you to the following open source heroes:   Ian Mckay, Andrew 'mrpacketh
 
 **clickstream-android**
 
-[clickstream-android](https://aws-oss.beachgeek.co.uk/30c) this repo (Clickstream Android SDK) can help you easily collect and report in-app events from Android devices to AWS. This SDK is part of an AWS solution - Clickstream Analytics on AWS (see previous project), which provisions data pipeline to ingest and process event data into AWS services such as S3, Redshift.  The SDK relies on the Amplify for Android SDK Core Library and is developed according to the Amplify Android SDK plug-in specification. In addition, we've added features that automatically collect common user events and attributes (e.g., screen view, first open) to simplify data collection for users.
+[clickstream-android](https://github.com/awslabs/clickstream-android) this repo (Clickstream Android SDK) can help you easily collect and report in-app events from Android devices to AWS. This SDK is part of an AWS solution - Clickstream Analytics on AWS (see previous project), which provisions data pipeline to ingest and process event data into AWS services such as S3, Redshift.  The SDK relies on the Amplify for Android SDK Core Library and is developed according to the Amplify Android SDK plug-in specification. In addition, we've added features that automatically collect common user events and attributes (e.g., screen view, first open) to simplify data collection for users.
 
 **dcv-web-portal**
 
-[dcv-web-portal](https://aws-oss.beachgeek.co.uk/30a) The solution leverages the NICE DCV protocol to provide a secure and customisable Virtual Desktop Infrastructure (VDI) deployable in a VPC on an AWS account. This solution also includes a simple and intuitive web portal, that allows users to access their workstation and administrators to provision new workstations and create new sessions.
+[dcv-web-portal](https://github.com/aws-samples/dcv-web-portal) The solution leverages the NICE DCV protocol to provide a secure and customisable Virtual Desktop Infrastructure (VDI) deployable in a VPC on an AWS account. This solution also includes a simple and intuitive web portal, that allows users to access their workstation and administrators to provision new workstations and create new sessions.
 
 ![architecture of dcv-web-portal](https://github.com/aws-samples/dcv-web-portal/blob/main/assets/diagrams/architecture-detail.png?raw=true)
 
@@ -57,78 +57,78 @@ So thank you to the following open source heroes:   Ian Mckay, Andrew 'mrpacketh
 
 **aws-managed-apache-airflow-cicd**
 
-[aws-managed-apache-airflow-cicd](https://aws-oss.beachgeek.co.uk/30b) this repo contains code that will help you assemble a simple CI/CD pipeline to help automate your workflow development and deployment to Managed Workflows for Apache Airflow.
+[aws-managed-apache-airflow-cicd](https://github.com/aws-samples/aws-managed-apache-airflow-cicd) this repo contains code that will help you assemble a simple CI/CD pipeline to help automate your workflow development and deployment to Managed Workflows for Apache Airflow.
 
 ![architecture of mwaa cicd](https://github.com/aws-samples/aws-managed-apache-airflow-cicd/blob/main/resources/pics/architecture.png?raw=true)
 
 **vpclattice-prealpha-demo**
 
-[vpclattice-prealpha-demo](https://aws-oss.beachgeek.co.uk/305) this is an early peek at using vpclattice with cdk from Andrew, better known as mrpackethead. Its a very much in progress piece of work, and there is a 99.99% chance that there will be breaking changes before this goes GA. Please be aware of this, when you use it. It is also an opportunity to provide feedback while the API is solidified. You can read the supporting blog post, [vpclattice – the network* when you’re not having a network. with aws cdk](https://aws-oss.beachgeek.co.uk/306).
+[vpclattice-prealpha-demo](https://github.com/raindancers/vpclattice-prealpha-demo) this is an early peek at using vpclattice with cdk from Andrew, better known as mrpackethead. Its a very much in progress piece of work, and there is a 99.99% chance that there will be breaking changes before this goes GA. Please be aware of this, when you use it. It is also an opportunity to provide feedback while the API is solidified. You can read the supporting blog post, [vpclattice – the network* when you’re not having a network. with aws cdk](https://cloud-networking-as-code.com/2023/07/01/vpclattice-the-network-when-your-not-having-a-network-with-aws-cdk/).
 
 ![overview of vpclattice cdk architecture](https://cloudnetworkautomationcom.files.wordpress.com/2023/06/lattice_cross_account.drawio.png)
 
 **pytest-lambda-workshop**
 
-[pytest-lambda-workshop](https://aws-oss.beachgeek.co.uk/30g) is a new Python based workshop based on a fun and engaging scenario, "Crisis at the Concert", where you will play the role of an engineer tasked with fixing a malfunctioning concert event management system just before the big event. The concert management system is a Serverless Application Model (SAM) application with features like ticket sales, event scheduling, and artist information. However, it's currently experiencing various "problems" that need to be addressed. Your goal is to "save the concert" by identifying and fixing these issues using a range of testing and debugging tools.
+[pytest-lambda-workshop](https://github.com/aws-hebrew-book/pytest-lambda-workshop) is a new Python based workshop based on a fun and engaging scenario, "Crisis at the Concert", where you will play the role of an engineer tasked with fixing a malfunctioning concert event management system just before the big event. The concert management system is a Serverless Application Model (SAM) application with features like ticket sales, event scheduling, and artist information. However, it's currently experiencing various "problems" that need to be addressed. Your goal is to "save the concert" by identifying and fixing these issues using a range of testing and debugging tools.
 
-[workshop](https://aws-oss.beachgeek.co.uk/30f)
+[workshop](https://pytest-lambda-workshop.designfor.cloud/)
 
 **hybrid-eks-cp-localzone**
 
-[hybrid-eks-cp-localzone](https://aws-oss.beachgeek.co.uk/308) This solution enable you to simplify and centralise the management of your infrastructure and applications on AWS Region and on AWS Local Zones. You can extend the AWS cloud operations experience across hybrid and Local Zones for secure and seamless management, compliance, and observability. AWS Hybrid Cloud Solutions enable you to deliver a consistent AWS experience wherever you need it—from the cloud, to the edge.
+[hybrid-eks-cp-localzone](https://github.com/aws-samples/hybrid-eks-cp-localzone) This solution enable you to simplify and centralise the management of your infrastructure and applications on AWS Region and on AWS Local Zones. You can extend the AWS cloud operations experience across hybrid and Local Zones for secure and seamless management, compliance, and observability. AWS Hybrid Cloud Solutions enable you to deliver a consistent AWS experience wherever you need it—from the cloud, to the edge.
 
 ![overview of hybrid eks architecture extending to localzone](https://github.com/aws-samples/hybrid-eks-cp-localzone/blob/main/assets/arch2.jpg?raw=true)
 
 **aws-edge-native-nomad**
 
-[aws-edge-native-nomad](https://aws-oss.beachgeek.co.uk/309) this repository helps you to deploy a containerised edge native application, that uses HashiCorp Nomad deployed on AWS 
+[aws-edge-native-nomad](https://github.com/aws-samples/aws-edge-native-nomad) this repository helps you to deploy a containerised edge native application, that uses HashiCorp Nomad deployed on AWS 
 
 ### AWS and Community blog posts
 
 **Community round up**
 
-Cedar is an open source project that I am spending time to learn, and is an open source language you use to define access permissions using policies. There were a couple of great posts that you should check out if you also are checking out this project. First up is AWS Hero Ian Mckay with [Cedar: Avoiding the cracks](https://aws-oss.beachgeek.co.uk/301) where he shares his experiences in where policy authoring can go wrong, and the steps you can take to overcome these issues. Or Weis from Permit.io put together [Everything You Need to Know about AWS’ Cedar Policy Language](https://aws-oss.beachgeek.co.uk/303), where he shares his thoughts on Cedar.
+Cedar is an open source project that I am spending time to learn, and is an open source language you use to define access permissions using policies. There were a couple of great posts that you should check out if you also are checking out this project. First up is AWS Hero Ian Mckay with [Cedar: Avoiding the cracks](https://onecloudplease.com/blog/cedar-avoiding-the-cracks) where he shares his experiences in where policy authoring can go wrong, and the steps you can take to overcome these issues. Or Weis from Permit.io put together [Everything You Need to Know about AWS’ Cedar Policy Language](https://dev.to/permit_io/everything-you-need-to-know-about-aws-cedar-policy-language-38g7), where he shares his thoughts on Cedar.
 
-From our friends at Steampipe, Bob Tordella has put together a summary of the changes with the Center for Internet Security (CIS) v2.0 that was recently updated in his post, [What's new in the CIS v2.0 benchmark for AWS](https://aws-oss.beachgeek.co.uk/300). From compliance to code, specifically how you can deploy VS Code on AWS. AWS Community Builder Jimmy Dahlqvist has put together [Running VS Code server on AWS](https://aws-oss.beachgeek.co.uk/304), where he shows you everything you need to get your own VS Code Server up and running.
+From our friends at Steampipe, Bob Tordella has put together a summary of the changes with the Center for Internet Security (CIS) v2.0 that was recently updated in his post, [What's new in the CIS v2.0 benchmark for AWS](https://dev.to/aws-builders/whats-new-in-the-cis-v20-benchmark-for-aws-3d77). From compliance to code, specifically how you can deploy VS Code on AWS. AWS Community Builder Jimmy Dahlqvist has put together [Running VS Code server on AWS](https://dev.to/aws-builders/running-vs-code-server-on-aws-51h6), where he shows you everything you need to get your own VS Code Server up and running.
 
-To wrap up this section I wanted to share a post that is something a little different. In a moment where it seems impossible to escape Generative AI, this post [AI weights are not open "source"](https://aws-oss.beachgeek.co.uk/302), from Sid Sijbrandij got me thinking about what this space and open source means. Whilst I might not agree with some of the ideas in the post, what I did think was important was surfacing up the open washing that I am seeing a lot of in this space. Let me know your thoughts on this.
+To wrap up this section I wanted to share a post that is something a little different. In a moment where it seems impossible to escape Generative AI, this post [AI weights are not open "source"](https://opencoreventures.com/blog/2023-06-27-ai-weights-are-not-open-source/), from Sid Sijbrandij got me thinking about what this space and open source means. Whilst I might not agree with some of the ideas in the post, what I did think was important was surfacing up the open washing that I am seeing a lot of in this space. Let me know your thoughts on this.
 
 **Apache Flink**
 
-In the post, [Migrate from Amazon Kinesis Data Analytics for SQL Applications to Amazon Kinesis Data Analytics Studio](https://aws-oss.beachgeek.co.uk/2zt) Nicholas Tunney look at why he recommends moving from Kinesis Data Analytics for SQL Applications to Amazon Kinesis Data Analytics for Apache Flink to take advantage of Apache Flink’s advanced streaming capabilities. [hands on]
+In the post, [Migrate from Amazon Kinesis Data Analytics for SQL Applications to Amazon Kinesis Data Analytics Studio](https://aws.amazon.com/blogs/big-data/migrate-from-amazon-kinesis-data-analytics-for-sql-applications-to-amazon-kinesis-data-analytics-studio/) Nicholas Tunney look at why he recommends moving from Kinesis Data Analytics for SQL Applications to Amazon Kinesis Data Analytics for Apache Flink to take advantage of Apache Flink’s advanced streaming capabilities. [hands on]
 
 ![apache flink streaming overview architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/28/kinesis-flow.png)
 
 **Apache Iceberg**
 
-Guy Bachar, Boris Litvin, Amogh Jahagirdar, Noam Ouaknine, Sercan Karaoglu, and Jack Ye have collaborated on a new post, [Backtesting index rebalancing arbitrage with Amazon EMR and Apache Iceberg](https://aws-oss.beachgeek.co.uk/2zz) look into the process of using backtesting to evaluate the performance of an index arbitrage profitability strategy. What is that I can hear some of you asking. Well read the post to find out, and I am sure you will thank me after! [hands on]
+Guy Bachar, Boris Litvin, Amogh Jahagirdar, Noam Ouaknine, Sercan Karaoglu, and Jack Ye have collaborated on a new post, [Backtesting index rebalancing arbitrage with Amazon EMR and Apache Iceberg](https://aws.amazon.com/blogs/big-data/backtesting-index-rebalancing-arbitrage-with-amazon-emr-and-apache-iceberg/) look into the process of using backtesting to evaluate the performance of an index arbitrage profitability strategy. What is that I can hear some of you asking. Well read the post to find out, and I am sure you will thank me after! [hands on]
 
 ![overview of apache iceberg rebalancing post](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/06/23/iceberg-data-lake-architecture.png)
 
 **Consul**
 
-[Consul](https://aws-oss.beachgeek.co.uk/2zv) is an open source distributed, highly available, and data centre aware solution to connect and configure applications across dynamic, distributed infrastructure. In the post, [Microservices discovery using Amazon EC2 and HashiCorp Consul](https://aws-oss.beachgeek.co.uk/2zw), Marine Haddad, Tom Palmer, Tony Phan, and George Agiasoglou demonstrate how you can build a hierarchical service discovery mechanism to support complex globally distributed micro service architectures using a combination of Amazon EC2 service and open source software such as SpringBoot and Consul. [hands on]
+[Consul](https://github.com/hashicorp/consul) is an open source distributed, highly available, and data centre aware solution to connect and configure applications across dynamic, distributed infrastructure. In the post, [Microservices discovery using Amazon EC2 and HashiCorp Consul](https://aws.amazon.com/blogs/architecture/microservices-discovery-using-amazon-ec2-and-hashicorp-consul/), Marine Haddad, Tom Palmer, Tony Phan, and George Agiasoglou demonstrate how you can build a hierarchical service discovery mechanism to support complex globally distributed micro service architectures using a combination of Amazon EC2 service and open source software such as SpringBoot and Consul. [hands on]
 
 ![overview of spring, consul and ec2 micro services post architecture](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2023/06/28/Figure-2-service-flow.png)
 
 **Apache Airflow**
 
-Great post from one of my favourite AWS services, Amazon Managed Workflows for Apache Airflow (MWAA). John Jackson, Anil Raut, and Nataizya Sikasote have put together [Hosting Amazon Managed Workflows for Apache Airflow (MWAA) Local-runner on Amazon ECS Fargate for development and testing](https://aws-oss.beachgeek.co.uk/2zx) that shows you how to configure Amazon MWAA open-source local-runner container image on Amazon ECS Fargate containers to provide a development and testing environment, using Amazon Aurora Serverless v2 as the database backend and execute-command on the AWS Fargate task to interact with the system. Essential reading this week! [hands on]
+Great post from one of my favourite AWS services, Amazon Managed Workflows for Apache Airflow (MWAA). John Jackson, Anil Raut, and Nataizya Sikasote have put together [Hosting Amazon Managed Workflows for Apache Airflow (MWAA) Local-runner on Amazon ECS Fargate for development and testing](https://aws.amazon.com/blogs/containers/hosting-amazon-managed-workflows-for-apache-airflow-mwaa-local-runner-on-amazon-ecs-fargate-for-development-and-testing/) that shows you how to configure Amazon MWAA open-source local-runner container image on Amazon ECS Fargate containers to provide a development and testing environment, using Amazon Aurora Serverless v2 as the database backend and execute-command on the AWS Fargate task to interact with the system. Essential reading this week! [hands on]
 
 **Other posts and quick reads**
 
-* [Automate your clusters by creating self-documenting HPC with AWS ParallelCluster](https://aws-oss.beachgeek.co.uk/2zo) is the first in a series of posts covering you how you can use AWS and DevOps with AWS ParallelCluster to automate your HPC infrastructure [hands on]
-* [Working with accent-insensitive collations with Babelfish for Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/2zp) provides a hands on post that shows you how to use CI_AI and CS_AI collations on Babelfish for Aurora PostgreSQL, allowing you to keep the support for Latin-based languages or any other language with accents [hands on]
-* [Retrieving parameters and secrets with Powertools for AWS Lambda (TypeScript)](https://aws-oss.beachgeek.co.uk/2zs) introduces the Powertools for AWS Lambda (TypeScript) Parameters utility and demonstrates how it is used with different parameter stores (SSM Parameter Store, Secrets Manager, AppConfig, DynamoDB, and custom parameter stores) [hands on]
-* [Using Curated Packages and AWS managed Open Source services to observe your On Premises Kubernetes environment](https://aws-oss.beachgeek.co.uk/2zu) is a must read post that shows you how to use AWS Distro for OpenTelemetry (ADOT) EKS-A curated package, AWS managed open source services and Grafana-operator to observe your on-premises Kubernetes cluster [hands on]
+* [Automate your clusters by creating self-documenting HPC with AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/automate-your-clusters-by-creating-self-documenting-hpc-with-aws-parallelcluster/) is the first in a series of posts covering you how you can use AWS and DevOps with AWS ParallelCluster to automate your HPC infrastructure [hands on]
+* [Working with accent-insensitive collations with Babelfish for Aurora PostgreSQL](https://aws.amazon.com/blogs/database/working-with-accent-insensitive-collations-with-babelfish-for-aurora-postgresql/) provides a hands on post that shows you how to use CI_AI and CS_AI collations on Babelfish for Aurora PostgreSQL, allowing you to keep the support for Latin-based languages or any other language with accents [hands on]
+* [Retrieving parameters and secrets with Powertools for AWS Lambda (TypeScript)](https://aws.amazon.com/blogs/compute/retrieving-parameters-and-secrets-with-powertools-for-aws-lambda-typescript/) introduces the Powertools for AWS Lambda (TypeScript) Parameters utility and demonstrates how it is used with different parameter stores (SSM Parameter Store, Secrets Manager, AppConfig, DynamoDB, and custom parameter stores) [hands on]
+* [Using Curated Packages and AWS managed Open Source services to observe your On Premises Kubernetes environment](https://aws.amazon.com/blogs/mt/using-curated-packages-and-aws-managed-open-source-services-to-observe-your-on-premises-kubernetes-environment/) is a must read post that shows you how to use AWS Distro for OpenTelemetry (ADOT) EKS-A curated package, AWS managed open source services and Grafana-operator to observe your on-premises Kubernetes cluster [hands on]
 
 ![overview of aws curated open source package post](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/06/28/EKSA-AMP-ADOT-Page-1.jpg)
 
-* [Client-side Caching Strategies for a Next.js app with AWS Amplify](https://aws-oss.beachgeek.co.uk/2zy) provides a hands on tutorial on how you can add a caching layer using TanStack React Query wrapped around the Amplify GraphQL API to enhance the user experience of the application [hands on]
+* [Client-side Caching Strategies for a Next.js app with AWS Amplify](https://aws.amazon.com/blogs/mobile/client-side-caching-strategies-for-a-next-js-app-with-aws-amplify/) provides a hands on tutorial on how you can add a caching layer using TanStack React Query wrapped around the Amplify GraphQL API to enhance the user experience of the application [hands on]
 
 **Case Studies**
 
-* [How CoStar uses Karpenter to optimize their Amazon EKS Resources](https://aws-oss.beachgeek.co.uk/2zq) looks at how this customer, CoStar were able to use Karpenter to consolidate the Amazon EC2 Spot Capacity they were running in their Dev and Test environments and moved workloads to the lowest cost instance type while still effectively runs their workloads. 
+* [How CoStar uses Karpenter to optimize their Amazon EKS Resources](https://aws.amazon.com/blogs/containers/how-costar-uses-karpenter-to-optimize-their-amazon-eks-resources/) looks at how this customer, CoStar were able to use Karpenter to consolidate the Amazon EC2 Spot Capacity they were running in their Dev and Test environments and moved workloads to the lowest cost instance type while still effectively runs their workloads. 
 
 ### Quick updates
 
@@ -136,13 +136,13 @@ Great post from one of my favourite AWS services, Amazon Managed Workflows for A
 
 AWS Amplify Hosting mow supports monorepo frameworks for npm workspaces, Yarn workspaces, pnpm workspaces, Turborepo and Nx. With this release, AWS Amplify Hosting offers fully managed CI/CD deployments and hosting for apps contained within a monorepo (aka monorepository, multi-package repository, multi-project repository, or monolithic repository). In addition to supporting popular monorepo frameworks, AWS Amplify Hosting automatically applies build settings for apps in a npm workspace, Yarn workspace or Nx, enabling zero-configuration deploys.
 
-Kevin Old looks at this in more detail in his post, [Share code between Next.js apps with Nx on AWS Amplify Hosting](https://aws-oss.beachgeek.co.uk/2zr)
+Kevin Old looks at this in more detail in his post, [Share code between Next.js apps with Nx on AWS Amplify Hosting](https://aws.amazon.com/blogs/mobile/share-code-between-next-js-apps-with-nx-on-aws-amplify-hosting/)
 
 **Mountpoint for Amazon S3**
 
 You can now use Mountpoint for Amazon S3 to create new files in Amazon S3. Mountpoint for Amazon S3 is a file client that translates local file system API calls to S3 object API calls like GET and PUT. It is ideal for workloads that read large datasets (terabytes to petabytes in size) and write sequentially to a file from a single process or thread. Common use cases include machine learning training as well as rendering and transcoding in media applications. Mountpoint for Amazon S3 supports sequential and random read operations on existing files, and sequential write operations for creating new files.
 
-> Mountpoint for Amazon S3 is an open source project and is available as an alpha release. We have made the alpha release of Mountpoint for Amazon S3 available to the community to collect feedback early and incorporate your input into the design and implementation. We welcome your contributions and your [feedback on our roadmap](https://aws-oss.beachgeek.co.uk/2zm) which outlines the plan for adding new capabilities to Mountpoint for Amazon S3.
+> Mountpoint for Amazon S3 is an open source project and is available as an alpha release. We have made the alpha release of Mountpoint for Amazon S3 available to the community to collect feedback early and incorporate your input into the design and implementation. We welcome your contributions and your [feedback on our roadmap](https://github.com/orgs/awslabs/projects/84) which outlines the plan for adding new capabilities to Mountpoint for Amazon S3.
 
 **PostgreSQL**
 
@@ -158,7 +158,7 @@ Logical replication for Multi-AZ Deployments with two readable standbys is suppo
 
 Amazon Elastic Kubernetes Service (EKS) now allows running more pods per windows node using IPv4 prefix delegation mode for Windows containers. Prefix delegation mode expands the number of secondary IPv4 addresses which could be assigned to the Elastic Network Interface (ENI) by up to 16x. With this feature, customers can run up to 250 pods on a single Windows Server node, depending upon the chosen instance type and size. Amazon EKS supports a single ENI per Windows Server node, and with prefix delegation, customers can now assign /28 IPv4 prefixes (or 16 IP addresses), allowing them run up to 16x more Windows pods on a single EKS node. 
 
-You can dive deeper by checking out the supporting blog post from Harsh Rawat, Purvi Goyal, and Jie Chen, [Increasing pod density for Windows nodes on Amazon EKS](https://aws-oss.beachgeek.co.uk/2zn).
+You can dive deeper by checking out the supporting blog post from Harsh Rawat, Purvi Goyal, and Jie Chen, [Increasing pod density for Windows nodes on Amazon EKS](https://aws.amazon.com/blogs/containers/increasing-pod-density-for-windows-nodes-on-amazon-eks/).
 
 ![overview of windows containers on eks pod increase](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/06/21/Workflow-new-pod.png)
 
@@ -206,7 +206,7 @@ This tutorial from Data Science in Everyday Life goes through how to deploy your
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes).
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag).
 
 We are currently planning the third series - if you have an open source project you want to talk about, get in touch and we might be able to feature your project in future episodes of Build on Open Source.
 
@@ -217,26 +217,26 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **OpenSearchCon**
 **Seattle, September 27-29, 2023**
 
-Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://aws-oss.beachgeek.co.uk/2zk) that provides you with what you can expect, and resources you need to help plan your trip.
+Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://opensearch.org/blog/registration-for-opensearchcon-2023-is-now-open/) that provides you with what you can expect, and resources you need to help plan your trip.
 
 **CDK Day, 2023**
 **Online, 29th September 2023**
 
 Back for the fourth instalment, this Community led event is a must attend for anyone working with infrastructure as code using the AWS Cloud Development Kit (CDK). It is intended to provide learning opportunities for all users of the CDK and related libraries. The CFP is open, so if you have some ideas for some talks then make sure you check that section out. Also, this year they are accepting talks in Espanol! Woohoo, love it!
 
-Check more at the website, [CDK Day](https://aws-oss.beachgeek.co.uk/fr) 
+Check more at the website, [CDK Day](https://www.cdkday.com/) 
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

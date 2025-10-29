@@ -27,7 +27,7 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **Bug Bust**
 
-As re:Invent fast approaches, it was interesting to read about the AWS BugBust re:Invent Challenge at this year’s AWS re:Invent conference. It will be an attempt to create a new World Record for “Largest Bug Fixing Competition” as recognised by Guinness World Records. As part of this, AWS will be including a myriad of open source projects that developers will be able to patch and contribute to throughout the event. Bugs can range from security issues, to duplicate code, to resource leaks and more. To find out more, and how you might be able to register interest for your open source projects, read on in [Help Make BugBusting History at AWS re:Invent 2021](https://aws-oss.beachgeek.co.uk/11c)
+As re:Invent fast approaches, it was interesting to read about the AWS BugBust re:Invent Challenge at this year’s AWS re:Invent conference. It will be an attempt to create a new World Record for “Largest Bug Fixing Competition” as recognised by Guinness World Records. As part of this, AWS will be including a myriad of open source projects that developers will be able to patch and contribute to throughout the event. Bugs can range from security issues, to duplicate code, to resource leaks and more. To find out more, and how you might be able to register interest for your open source projects, read on in [Help Make BugBusting History at AWS re:Invent 2021](https://aws.amazon.com/blogs/aws/help-make-bugbusting-history-at-aws-reinvent-2021/)
 
 **Jobs**
 
@@ -35,55 +35,55 @@ A couple of openings have come up in the open source team, so if you are looking
 
 **Principal Evangelist, Open Source, Open Source Strategy & Marketing**
 
-The OSS Technical Evangelist will be responsible for defining, leading and contributing to the open source and community engagement strategy for service teams across AWS. You will combine your passion and enthusiasm for cloud technology and open source with your unmatched creativity to generate grass-roots attention and support for AWS among key open source communities, industry opinion makers and technologists. You will work closely with the product marketing leadership to translate the business priorities of the service teams into solid engagements with key open source communities, foundations and open source technology partners. You will also be the voice of the community, building a feedback loop to teams across Amazon to help them understand the dynamics and needs of the open source community and build mechanisms to measure impact of our open source engagements. [Read more here](https://aws-oss.beachgeek.co.uk/11h).
+The OSS Technical Evangelist will be responsible for defining, leading and contributing to the open source and community engagement strategy for service teams across AWS. You will combine your passion and enthusiasm for cloud technology and open source with your unmatched creativity to generate grass-roots attention and support for AWS among key open source communities, industry opinion makers and technologists. You will work closely with the product marketing leadership to translate the business priorities of the service teams into solid engagements with key open source communities, foundations and open source technology partners. You will also be the voice of the community, building a feedback loop to teams across Amazon to help them understand the dynamics and needs of the open source community and build mechanisms to measure impact of our open source engagements. [Read more here](https://www.amazon.jobs/en/jobs/1786747/principal-evangelist-open-source-open-source-strategy-marketing?no_int_redir=1).
 
 **Sr. Open Source Program Mgr, Open Source Strategy & Marketing**
 
-AWS Open Source is seeking an experienced Program Manager to join the team. The successful candidate will be a key member of the Open Source Strategy and Marketing team, which is responsible for driving high-visibility, strategic programs that directly impact customer experience and perception. The ideal candidate will have a software development background as well as Program management experience and will own and execute complex projects and drive key operational process improvement activities. You will be comfortable in a fast-paced multi-tasked environment, with the ability to drive the program’s strategy and roadmap, collaborate with business and development teams across the company to analyse the cost/benefit of project selection, and manage all aspects of the project execution. [Read more here](https://aws-oss.beachgeek.co.uk/11i).
+AWS Open Source is seeking an experienced Program Manager to join the team. The successful candidate will be a key member of the Open Source Strategy and Marketing team, which is responsible for driving high-visibility, strategic programs that directly impact customer experience and perception. The ideal candidate will have a software development background as well as Program management experience and will own and execute complex projects and drive key operational process improvement activities. You will be comfortable in a fast-paced multi-tasked environment, with the ability to drive the program’s strategy and roadmap, collaborate with business and development teams across the company to analyse the cost/benefit of project selection, and manage all aspects of the project execution. [Read more here](https://www.amazon.jobs/en/jobs/1786731/sr-open-source-program-mgr-open-source-strategy-marketing?no_int_redir=1).
 
 ### Latest open source projects
 
 **Babelfish**
 
-[Babelfish](https://aws-oss.beachgeek.co.uk/115) last week saw the availability of the [Babelfish for PostgreSQL](https://aws-oss.beachgeek.co.uk/114) open source project. As a reminder, Babelfish for PostgreSQL is an open source project available under the Apache 2.0 and PostgreSQL licenses that provide the capability for PostgreSQL to understand queries from applications written for Microsoft SQL Server. You can get started by reading my colleague Sebastian Stormacq post, [Goodbye Microsoft SQL Server, Hello Babelfish](https://aws-oss.beachgeek.co.uk/117). We also had Chandra sekhar Pathivada and Yogi Barot share this post, [Modify SSIS packages from SQL Server to Babelfish for Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/11r) showing you how to modify your existing Microsoft SSIS package connection from SQL Server to Babelfish.
+[Babelfish](https://babelfishpg.org/source/) last week saw the availability of the [Babelfish for PostgreSQL](https://www.babelfishpg.org/) open source project. As a reminder, Babelfish for PostgreSQL is an open source project available under the Apache 2.0 and PostgreSQL licenses that provide the capability for PostgreSQL to understand queries from applications written for Microsoft SQL Server. You can get started by reading my colleague Sebastian Stormacq post, [Goodbye Microsoft SQL Server, Hello Babelfish](https://aws.amazon.com/blogs/aws/goodbye-microsoft-sql-server-hello-babelfish/). We also had Chandra sekhar Pathivada and Yogi Barot share this post, [Modify SSIS packages from SQL Server to Babelfish for Aurora PostgreSQL](https://aws.amazon.com/blogs/database/modify-ssis-packages-from-sql-server-to-babelfish-for-aurora-postgresql/) showing you how to modify your existing Microsoft SSIS package connection from SQL Server to Babelfish.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/10/14/DBBLOG-1862-image001.png)
 
 **nixtla**
 
-[nixtla](https://aws-oss.beachgeek.co.uk/11u) this open source library from Nixtla looks interesting. An open source time series forecasting library. You can use the service that Nixtla provide, or use the documentation within the README to host yourself on AWS. Either way, if you are exploring your choices for a time series forecasting library, you should add this to your list.
+[nixtla](https://github.com/Nixtla/nixtla) this open source library from Nixtla looks interesting. An open source time series forecasting library. You can use the service that Nixtla provide, or use the documentation within the README to host yourself on AWS. Either way, if you are exploring your choices for a time series forecasting library, you should add this to your list.
 
 ![arch](https://raw.githubusercontent.com/Nixtla/nixtla/main/.github/images/Architecture.png)
 
-Stefan Sundin has been busy, putting together a couple of open source projects and a blog post to show you how to use them, [Introducing shrimp and s3sha256sum](https://aws-oss.beachgeek.co.uk/11v)
+Stefan Sundin has been busy, putting together a couple of open source projects and a blog post to show you how to use them, [Introducing shrimp and s3sha256sum](https://dev.to/aws-builders/introducing-shrimp-and-s3sha256sum-5d2h?utm_source=dormosheio&utm_campaign=dormosheio)
 
 **shrimp**
 
-[shrimp](https://aws-oss.beachgeek.co.uk/11x) this open source tool helps you upload large files to Amazon S3 over slow connections. Shrimp is optimised for this use case.
+[shrimp](https://github.com/stefansundin/shrimp) this open source tool helps you upload large files to Amazon S3 over slow connections. Shrimp is optimised for this use case.
 
 **s3sha256sum**
 
-[s3sha256sum](https://aws-oss.beachgeek.co.uk/11w) this open source tool is a small program that calculates SHA256 checksums of objects stored on Amazon S3. Use it to verify the integrity of your objects. Perfect for checking those files have copied successfully (large files that you may have copied using Shrimp perhaps!)
+[s3sha256sum](https://github.com/stefansundin/s3sha256sum) this open source tool is a small program that calculates SHA256 checksums of objects stored on Amazon S3. Use it to verify the integrity of your objects. Perfect for checking those files have copied successfully (large files that you may have copied using Shrimp perhaps!)
 
 Nice work Stefan!
 
 **aws-sso-cli**
 
-[aws-sso-cli](https://aws-oss.beachgeek.co.uk/11s) this open source, GPL 3 project from Aaron Turner is a secure replacement for using the aws configure sso wizard with a focus on security and ease of use for organisations with many AWS Accounts and/or users with many IAM Roles to assume. Detailed docs and examples, worth checking out.
+[aws-sso-cli](https://github.com/synfinatic/aws-sso-cli) this open source, GPL 3 project from Aaron Turner is a secure replacement for using the aws configure sso wizard with a focus on security and ease of use for organisations with many AWS Accounts and/or users with many IAM Roles to assume. Detailed docs and examples, worth checking out.
 
 {% asciinema 445604 %}
 
 **aws-cdk-go-example-static-site**
 
-[aws-cdk-go-example-static-site](https://aws-oss.beachgeek.co.uk/11t) if you are looking for an example of how to deploy statics sites via AWS CDK, then check out this project from Saul Magnusson. This example launches a secure static site hosted in an S3 bucket, distributed by CloudFront, protected by an ACM certificate, and with URIs automatically rewritten by a CloudFront Function
+[aws-cdk-go-example-static-site](https://github.com/SaulMagnusson/aws-cdk-go-example-static-site) if you are looking for an example of how to deploy statics sites via AWS CDK, then check out this project from Saul Magnusson. This example launches a secure static site hosted in an S3 bucket, distributed by CloudFront, protected by an ACM certificate, and with URIs automatically rewritten by a CloudFront Function
 
 **ds-dashboard**
 
-[ds-dashboard](https://aws-oss.beachgeek.co.uk/11g) Andrea Di Simone and Samuel Passman have put together this project that helps you to deploy and operate a simple data collection and distribution mechanism for your data science projects, which can be used for use cases such as generating dashboards. For a detailed walk through, check out the blog post, [Implementing a hub and spoke dashboard for multi-account data science projects](https://aws-oss.beachgeek.co.uk/11f)
+[ds-dashboard](https://github.com/aws-samples/ds-dashboard) Andrea Di Simone and Samuel Passman have put together this project that helps you to deploy and operate a simple data collection and distribution mechanism for your data science projects, which can be used for use cases such as generating dashboards. For a detailed walk through, check out the blog post, [Implementing a hub and spoke dashboard for multi-account data science projects](https://aws.amazon.com/blogs/opensource/implementing-a-hub-and-spoke-dashboard-for-multi-account-data-science-projects/)
 
 **amazon-opensearch-service-monitor**
 
-[amazon-opensearch-service-monitor](https://aws-oss.beachgeek.co.uk/11o) if you are using OpenSearch, then check out this repository that contains step by step demonstration to setup monitoring Stack for Amazon OpenSearch Service domains across all specified regions. This example uses AWS CDK and Python.
+[amazon-opensearch-service-monitor](https://github.com/aws-samples/amazon-opensearch-service-monitor) if you are using OpenSearch, then check out this repository that contains step by step demonstration to setup monitoring Stack for Amazon OpenSearch Service domains across all specified regions. This example uses AWS CDK and Python.
 
 ![arch](https://github.com/aws-samples/amazon-opensearch-service-monitor/blob/main/images/amazon_opensearch_service_monitor_framework.png?raw=true)
 
@@ -91,7 +91,7 @@ Nice work Stefan!
 
 **Consoleme**
 
-In the post [Achieving least-privilege at FollowAnalytics with Repokid, Aardvark and ConsoleMe](https://aws-oss.beachgeek.co.uk/11k), Guilherme Sena Zuza shares how he used a number of open source tools to help get closer to the principle of least privilege, and how he deployed these tools at FollowAnalytics. [hands on]
+In the post [Achieving least-privilege at FollowAnalytics with Repokid, Aardvark and ConsoleMe](https://medium.com/followanalytics/granting-least-privileges-at-followanalytics-with-repokid-aardvark-and-consoleme-895d8daf604a), Guilherme Sena Zuza shares how he used a number of open source tools to help get closer to the principle of least privilege, and how he deployed these tools at FollowAnalytics. [hands on]
 
 ![arch](https://miro.medium.com/max/2000/0*QER4A3rd92n12alI)
 
@@ -99,59 +99,59 @@ In the post [Achieving least-privilege at FollowAnalytics with Repokid, Aardvark
 
 A couple of OpenSearch related posts this week.
 
-First up we have Anton Rubin from Eliatra, who explains some of the core concepts of OpenSearch security in the post, [Partner Highlight: Eliatra presents OpenSearch Security Concepts](https://aws-oss.beachgeek.co.uk/11n). The post links to other, deeper dives if you want to gain even more understanding.
+First up we have Anton Rubin from Eliatra, who explains some of the core concepts of OpenSearch security in the post, [Partner Highlight: Eliatra presents OpenSearch Security Concepts](https://opensearch.org/blog/technical-posts/2021/10/opensearch-security-concepts/). The post links to other, deeper dives if you want to gain even more understanding.
 
 ![auth](https://opensearch.org/assets/media/blog-images/2021-10-11-opensearch-security-concepts/auth_auth_sequence.png)
 
-Following that we have the post [Moving from open source Elasticsearch to OpenSearch](https://aws-oss.beachgeek.co.uk/11q), where Sarat Vemulapalli shares how an overview of how to move from open source Elasticsearch to OpenSearch.
+Following that we have the post [Moving from open source Elasticsearch to OpenSearch](https://opensearch.org/blog/technical-posts/2021/10/moving-from-opensource-elasticsearch-to-opensearch/), where Sarat Vemulapalli shares how an overview of how to move from open source Elasticsearch to OpenSearch.
 
 **Apache Airflow**
 
-I missed this the first time around, but caught it last week. Suman Kumar Gangopadhyay provides a step by step guide to help setup a pipeline which can automate running spark jobs from an edge node to a spark cluster, in the blog post[Airflow, Spark & S3, stitching it all together](https://aws-oss.beachgeek.co.uk/11l) [hands on]
+I missed this the first time around, but caught it last week. Suman Kumar Gangopadhyay provides a step by step guide to help setup a pipeline which can automate running spark jobs from an edge node to a spark cluster, in the blog post[Airflow, Spark & S3, stitching it all together](https://medium.com/analytics-vidhya/airflow-spark-s3-stitching-it-all-together-1acbfba67e33) [hands on]
 
 **Apache DistCp**
 
-In the post, [Copy large datasets from Google Cloud Storage to Amazon S3 using Amazon EMR](https://aws-oss.beachgeek.co.uk/11a) Andrew Lee and Hammad Ausaf demonstrates how to configure an EMR cluster to use open source tools such as Apache DistCp and S3DistCP, and compares the performance of doing large file copies. [hands on]
+In the post, [Copy large datasets from Google Cloud Storage to Amazon S3 using Amazon EMR](https://aws.amazon.com/blogs/big-data/copy-large-datasets-from-google-cloud-storage-to-amazon-s3-using-amazon-emr/) Andrew Lee and Hammad Ausaf demonstrates how to configure an EMR cluster to use open source tools such as Apache DistCp and S3DistCP, and compares the performance of doing large file copies. [hands on]
 
 **Delta Sharing**
 
-Delta Sharing is a Linux Foundation open source framework that uses an open protocol to secure the real-time exchange of large datasets and enables secure data sharing across products for the first time. It was great therefore,  to read [Delta Sharing on AWS](https://aws-oss.beachgeek.co.uk/118) from former colleague Frank Munz, who is now a Developer Advocate at Databricks. [hands on]
+Delta Sharing is a Linux Foundation open source framework that uses an open protocol to secure the real-time exchange of large datasets and enables secure data sharing across products for the first time. It was great therefore,  to read [Delta Sharing on AWS](https://aws.amazon.com/blogs/opensource/delta-sharing-on-aws/) from former colleague Frank Munz, who is now a Developer Advocate at Databricks. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/09/29/ialek_databricks_delta-sharing_f4.png)
 
 **Apache Solr**
 
-Apache Solr is an open source enterprise search platform built on Apache Lucene. Kinnar Kumar Sen, Anjan Biswas, and Ananth Raghavendra have collaborated on this post, [Deploying and scaling Apache Solr on Kubernetes](https://aws-oss.beachgeek.co.uk/11j) that shows you how to deploy a highly available, scalable, and fault-tolerant enterprise-grade search platform with Apache Solr using Amazon Elastic Kubernetes Service (Amazon EKS). [hands on]
+Apache Solr is an open source enterprise search platform built on Apache Lucene. Kinnar Kumar Sen, Anjan Biswas, and Ananth Raghavendra have collaborated on this post, [Deploying and scaling Apache Solr on Kubernetes](https://aws.amazon.com/blogs/opensource/deploying-and-scaling-apache-solr-on-kubernetes/) that shows you how to deploy a highly available, scalable, and fault-tolerant enterprise-grade search platform with Apache Solr using Amazon Elastic Kubernetes Service (Amazon EKS). [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/10/13/anjanavb_apache-solr-kubernetes_f3.png)
 
 **PyDeequ**
 
-PyDeequ is an open-source Python wrapper over Deequ (an open-source tool developed and used at Amazon, to help data scientists and engineers with data quality and testing capabilities from Python and PySpark). In the post, [Accelerate large-scale data migration validation using PyDeequ](https://aws-oss.beachgeek.co.uk/11b) Mahendar Gajula and Nitin Srivastava, show you how you can use this and walk through a step-by-step process to validate large datasets. [hands on]
+PyDeequ is an open-source Python wrapper over Deequ (an open-source tool developed and used at Amazon, to help data scientists and engineers with data quality and testing capabilities from Python and PySpark). In the post, [Accelerate large-scale data migration validation using PyDeequ](https://aws.amazon.com/blogs/big-data/accelerate-large-scale-data-migration-validation-using-pydeequ/) Mahendar Gajula and Nitin Srivastava, show you how you can use this and walk through a step-by-step process to validate large datasets. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/10/04/BDB1530-image001.png)
 
 **Synchro Charts**
 
-Synchro Charts, is a new open source project that is a front-end component library that provides a collection of components to visualise time-series data for application developers with a focus on monitoring, root cause analysis, and analytics. In the post, [Visualizing time series data with the open source Synchro Charts](https://aws-oss.beachgeek.co.uk/11d) Brian Diehr walks you through some of the features which you can check out at [synchrocharts.com](https://aws-oss.beachgeek.co.uk/11e) 
+Synchro Charts, is a new open source project that is a front-end component library that provides a collection of components to visualise time-series data for application developers with a focus on monitoring, root cause analysis, and analytics. In the post, [Visualizing time series data with the open source Synchro Charts](https://aws.amazon.com/blogs/opensource/visualizing-time-series-data-with-the-open-source-synchro-charts/) Brian Diehr walks you through some of the features which you can check out at [synchrocharts.com](https://synchrocharts.com/#/Introduction) 
 
 **Bottlerocket**
 
-[Amazon EKS adds native support for Bottlerocket in Managed Node Groups](https://aws-oss.beachgeek.co.uk/116) from Sheetal Joshi takes a look at how to set up an Amazon EKS cluster and launch a Bottlerocket managed node group. Bottlerocket is a Linux-based open-source operating system that is purpose-built by Amazon. It focuses on security and maintainability, and provides a reliable, consistent, and safe platform for container-based workloads. Dive deeper into what this means by checking out this post. [hands on]
+[Amazon EKS adds native support for Bottlerocket in Managed Node Groups](https://aws.amazon.com/blogs/containers/amazon-eks-adds-native-support-for-bottlerocket-in-managed-node-groups/) from Sheetal Joshi takes a look at how to set up an Amazon EKS cluster and launch a Bottlerocket managed node group. Bottlerocket is a Linux-based open-source operating system that is purpose-built by Amazon. It focuses on security and maintainability, and provides a reliable, consistent, and safe platform for container-based workloads. Dive deeper into what this means by checking out this post. [hands on]
 
 **Serverless Framework**
 
-AWS Community Builder Sebastian Bille takes a look at two open source projects and how you get combine these when developing and deploying your serverless application in the blog post, [Combining Serverless Framework & AWS CDK](https://aws-oss.beachgeek.co.uk/11m) [hands on]
+AWS Community Builder Sebastian Bille takes a look at two open source projects and how you get combine these when developing and deploying your serverless application in the blog post, [Combining Serverless Framework & AWS CDK](https://dev.to/aws-builders/combining-serverless-framework-aws-cdk-1dg0) [hands on]
 
 **AWS SAM**
 
-Eric Johnson shares with you a new capability of AWS SAM, that aims to increase infrastructure accuracy for testing with sam sync, incremental builds, and aggregated feedback for developers. AWS SAM Accelerate brings the developer to the cloud and not the cloud to the developer. In the post, [Accelerating serverless development with AWS SAM Accelerate](https://aws-oss.beachgeek.co.uk/119) he shows you how to bypass most local emulation by testing serverless applications in the cloud against production services using AWS SAM Accelerate. When I saw a demo of this, this was one of the most exciting things I have seen in a while. If you are a serverless developer, you should definitely check this out. [hands on]
+Eric Johnson shares with you a new capability of AWS SAM, that aims to increase infrastructure accuracy for testing with sam sync, incremental builds, and aggregated feedback for developers. AWS SAM Accelerate brings the developer to the cloud and not the cloud to the developer. In the post, [Accelerating serverless development with AWS SAM Accelerate](https://aws.amazon.com/blogs/compute/accelerating-serverless-development-with-aws-sam-accelerate/) he shows you how to bypass most local emulation by testing serverless applications in the cloud against production services using AWS SAM Accelerate. When I saw a demo of this, this was one of the most exciting things I have seen in a while. If you are a serverless developer, you should definitely check this out. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2021/10/26/main-1.png)
 
 **GitHub Actions**
 
-If you are looking to use GitHub Actions to build your open source projects and need to integrate with AWS, then the recent release of the of Github Actions OpenID Connect will be good news for you. In this blog post, [Using Github Actions OpenID Connector to push to AWS ECR without Credentials](https://aws-oss.beachgeek.co.uk/11p)  Robert Hafner walks you through setting this up, using an example of using Terraform to push images to Amazon ECR. Also, check out the videos where we have Richard Boyd walking you through how you can set this up.
+If you are looking to use GitHub Actions to build your open source projects and need to integrate with AWS, then the recent release of the of Github Actions OpenID Connect will be good news for you. In this blog post, [Using Github Actions OpenID Connector to push to AWS ECR without Credentials](https://blog.tedivm.com/guides/2021/10/github-actions-push-to-aws-ecr-without-credentials-oidc/)  Robert Hafner walks you through setting this up, using an example of using Terraform to push images to Amazon ECR. Also, check out the videos where we have Richard Boyd walking you through how you can set this up.
 
 ### Quick updates
 

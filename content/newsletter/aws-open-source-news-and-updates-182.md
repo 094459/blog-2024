@@ -33,58 +33,58 @@ So thank you to the following open source heroes: Allan Chua, Benjamin Chastanie
 
 **sana**
 
-[sana](https://aws-oss.beachgeek.co.uk/3i1) is a new project from AWS Community Builder Allan Chua that hopes to bring more sana-ty (did you see what I did there), to serverless developers. It is a command line tool  for analyzing account-wide serverless components. Alan is looking for feedback, so try it out (great documentation with lots of examples) and let him know.
+[sana](https://github.com/allanchua101/sana) is a new project from AWS Community Builder Allan Chua that hopes to bring more sana-ty (did you see what I did there), to serverless developers. It is a command line tool  for analyzing account-wide serverless components. Alan is looking for feedback, so try it out (great documentation with lots of examples) and let him know.
 
 ![screen shot for sana](https://raw.githubusercontent.com/allanchua101/sana/main/assets/screenshots/lambda-runtime-dist.png)
 
 **aws-lite**
 
-[aws-lite](https://aws-oss.beachgeek.co.uk/3i0) is simple, fast, extensible Node.js client for interacting with AWS services. It is developed and maintained by the folks at OpenJS Foundation Architect, and you can think of it as a community-driven alternative to AWS's JavaScript SDK. If you are a node developer and looking to explore the options you have for interacting with AWS services, why not check this out.
+[aws-lite](https://github.com/architect/aws-lite) is simple, fast, extensible Node.js client for interacting with AWS services. It is developed and maintained by the folks at OpenJS Foundation Architect, and you can think of it as a community-driven alternative to AWS's JavaScript SDK. If you are a node developer and looking to explore the options you have for interacting with AWS services, why not check this out.
 
 **iam-eks-user-mapper**
 
-[iam-eks-user-mapper](https://aws-oss.beachgeek.co.uk/3hq) is another open source tool from the fine folks at Qovery, that automatically gives AWS IAM users access to your Kubernetes cluster. Check out the supporting blog post, [Releasing IAM EKS User Mapper in open-source](https://aws-oss.beachgeek.co.uk/3hr), where Benjamin Chastanier shares more about how this tool can help you manage AWS IAM user access to Kubernetes clusters efficiently and securely.
+[iam-eks-user-mapper](https://github.com/Qovery/iam-eks-user-mapper) is another open source tool from the fine folks at Qovery, that automatically gives AWS IAM users access to your Kubernetes cluster. Check out the supporting blog post, [Releasing IAM EKS User Mapper in open-source](https://www.qovery.com/blog/releasing-iam-eks-user-mapper-in-open-source), where Benjamin Chastanier shares more about how this tool can help you manage AWS IAM user access to Kubernetes clusters efficiently and securely.
 
 ![overview of iam-eks-user-mapper venn diagram](https://images.prismic.io/qovery/656b9cfa531ac2845a25a1a8_CleanShot2023-12-02.jpg?auto=format,compress)
  
 **multi-database-schema-validator**
 
- [multi-database-schema-validator](https://aws-oss.beachgeek.co.uk/3hg) is a Python based too to help you with database migration. Schema validation plays a vital role during migration, and this Python based validation tool helps in finding the gaps between source and target database objects like Tables, Views, Indexes, Keys, Stored procedures, Functions, Triggers and Sequences with encrypted connection. It generates an output summary and a detailed report in formats such as Microsoft Excel (xlsx) and html. The report explains the object level match percentage (%) per database, per schema and list of missing objects at target referring to the source.
+ [multi-database-schema-validator](https://github.com/aws-samples/multi-database-schema-validator) is a Python based too to help you with database migration. Schema validation plays a vital role during migration, and this Python based validation tool helps in finding the gaps between source and target database objects like Tables, Views, Indexes, Keys, Stored procedures, Functions, Triggers and Sequences with encrypted connection. It generates an output summary and a detailed report in formats such as Microsoft Excel (xlsx) and html. The report explains the object level match percentage (%) per database, per schema and list of missing objects at target referring to the source.
  
- The blog post,  [Automate the schema validation process for multiple databases like SQL Server, Oracle, PostgreSQL, and MySQL databases using Python](https://aws-oss.beachgeek.co.uk/3hf) explains how to validate the database objects post-migration for multiple databases like SQL Server, Oracle, PostgreSQL, and MySQL databases using the [hands on]
+ The blog post,  [Automate the schema validation process for multiple databases like SQL Server, Oracle, PostgreSQL, and MySQL databases using Python](https://aws.amazon.com/blogs/database/automate-the-schema-validation-process-for-multiple-databases-like-sql-server-oracle-postgresql-and-mysql-databases-using-python/) explains how to validate the database objects post-migration for multiple databases like SQL Server, Oracle, PostgreSQL, and MySQL databases using the [hands on]
 
 ![overview of database schema validation tool](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/11/17/Picture-1-9.png)
 
 **aws-redis-iam-auth-provider-golang**
 
-[aws-redis-iam-auth-provider-golang](https://aws-oss.beachgeek.co.uk/3i2) is a project from my colleague Abhishek Gupta that helps you authenticate Go apps to Redis on AWS using IAM. Find out more and how to use it by reading Abhishek's post, [Using IAM authentication for Redis on AWS](https://aws-oss.beachgeek.co.uk/3i3)
+[aws-redis-iam-auth-provider-golang](https://github.com/abhirockzz/aws-redis-iam-auth-provider-golang) is a project from my colleague Abhishek Gupta that helps you authenticate Go apps to Redis on AWS using IAM. Find out more and how to use it by reading Abhishek's post, [Using IAM authentication for Redis on AWS](https://community.aws/content/2ZCKrwaaaTglCCWISSaKv1d7bI3/using-iam-authentication-for-redis-on-aws)
 
 **assume_role_with_mfa**
 
-[assume_role_with_mfa](https://aws-oss.beachgeek.co.uk/3hs)  is a handy small MFA GUI tool from Cristian Magherusan-Stanciu designed to be used as `credential_proces` for AWS CLI configuration profiles. This is a workaround for the official AWS MFA setup, that works for the CLI but does not work for the Go SDK, as reported at [aws-sdk-go-v2/#2356](https://github.com/aws/aws-sdk-go-v2/issues/2356).
+[assume_role_with_mfa](https://github.com/LeanerCloud/assume_role_with_mfa)  is a handy small MFA GUI tool from Cristian Magherusan-Stanciu designed to be used as `credential_proces` for AWS CLI configuration profiles. This is a workaround for the official AWS MFA setup, that works for the CLI but does not work for the Go SDK, as reported at [aws-sdk-go-v2/#2356](https://github.com/aws/aws-sdk-go-v2/issues/2356).
 
 **mountpoint-s3-csi-driver**
 
-[mountpoint-s3-csi-driver](https://aws-oss.beachgeek.co.uk/3hx) the Mountpoint for Amazon S3 Container Storage Interface (CSI) Driver allows your Kubernetes applications to access Amazon S3 objects through a file system interface. Built on Mountpoint for Amazon S3, the Mountpoint CSI driver presents an Amazon S3 bucket as a storage volume accessible by containers in your Kubernetes cluster. The Mountpoint CSI driver implements the CSI specification for container orchestrators (CO) to manage storage volumes. For Amazon EKS clusters, the Mountpoint for Amazon S3 CSI driver is also available as an EKS add-on to provide automatic installation and management.
+[mountpoint-s3-csi-driver](https://github.com/awslabs/mountpoint-s3-csi-driver) the Mountpoint for Amazon S3 Container Storage Interface (CSI) Driver allows your Kubernetes applications to access Amazon S3 objects through a file system interface. Built on Mountpoint for Amazon S3, the Mountpoint CSI driver presents an Amazon S3 bucket as a storage volume accessible by containers in your Kubernetes cluster. The Mountpoint CSI driver implements the CSI specification for container orchestrators (CO) to manage storage volumes. For Amazon EKS clusters, the Mountpoint for Amazon S3 CSI driver is also available as an EKS add-on to provide automatic installation and management.
 
 ### Demos, Samples, Solutions and Workshops
 
 **DREM**
 
-[drem](https://aws-oss.beachgeek.co.uk/3i4) also known as the AWS DeepRacer Event Manager (DREM) is used to run and manage all aspects of in-person events for AWS DeepRacer, an autonomous 1/18th scale race car designed to test reinforcement learning (RL) models by racing on a physical track. DREM offers event organizers tools for managing users, models, cars and fleets, events, as well as time recording and leaderboards. Race participants also use DREM to upload their RL models.
+[drem](https://github.com/aws-solutions-library-samples/guidance-for-aws-deepracer-event-management) also known as the AWS DeepRacer Event Manager (DREM) is used to run and manage all aspects of in-person events for AWS DeepRacer, an autonomous 1/18th scale race car designed to test reinforcement learning (RL) models by racing on a physical track. DREM offers event organizers tools for managing users, models, cars and fleets, events, as well as time recording and leaderboards. Race participants also use DREM to upload their RL models.
 
 ![architecture overview of DREM](https://github.com/aws-solutions-library-samples/guidance-for-aws-deepracer-event-management/blob/main/docs/images/DREM-aws-reference-architecture-overview.png?raw=true)
 
 
 **multi-region-data-residency**
 
-[multi-region-data-residency](https://aws-oss.beachgeek.co.uk/3hu) This repository demonstrates how to deploy a multi-region architecture with data residency for sensitive data, such as Personally Identifiable Information (PII) or Personal Health Information (PHI) data. To maintain data residency for each region, the architecture operates under a silo model with its own isolated infrastructure stack per region. The architecture is suitable for businesses in specific verticals such as Health-care / Life-sciences (HCLS) and FinTech, with business requirements to isolate customer PII/PHI data to a specific region, expanding globally from a single-region architecture, and/or operating in strict regulatory or compliance environments.
+[multi-region-data-residency](https://github.com/aws-samples/multi-region-data-residency) This repository demonstrates how to deploy a multi-region architecture with data residency for sensitive data, such as Personally Identifiable Information (PII) or Personal Health Information (PHI) data. To maintain data residency for each region, the architecture operates under a silo model with its own isolated infrastructure stack per region. The architecture is suitable for businesses in specific verticals such as Health-care / Life-sciences (HCLS) and FinTech, with business requirements to isolate customer PII/PHI data to a specific region, expanding globally from a single-region architecture, and/or operating in strict regulatory or compliance environments.
 
 ![overview of the multi region data residency architecture](https://github.com/aws-samples/multi-region-data-residency/blob/main/assets/imgs/multi-region-data-residency-architecture.png?raw=true)
 
 **serverless-video**
 
-[serverless-video](https://aws-oss.beachgeek.co.uk/3hv) if you were at [re:Invent](https://twitter.com/hashtag/ServerlessVideo?src=hashtag_click) you might have seen (or even recorded) a video using this project. This new demo is an event-driven video streaming application called serverlessVideo. serverlessVideo is a best practices example of a cost-effective serverless video streaming application built on a microservices architecture.  serverlessVideo enables AWS users to broadcast live video content directly from their cell phones. At the same time, viewers can access live streams and watch on-demand videos. Additionally, serverlessVideo encourages serverless developers to extend the application's functionality by creating custom plugins that hook into the application's event driven architecure.
+[serverless-video](https://github.com/aws-samples/serverless-video) if you were at [re:Invent](https://twitter.com/hashtag/ServerlessVideo?src=hashtag_click) you might have seen (or even recorded) a video using this project. This new demo is an event-driven video streaming application called serverlessVideo. serverlessVideo is a best practices example of a cost-effective serverless video streaming application built on a microservices architecture.  serverlessVideo enables AWS users to broadcast live video content directly from their cell phones. At the same time, viewers can access live streams and watch on-demand videos. Additionally, serverlessVideo encourages serverless developers to extend the application's functionality by creating custom plugins that hook into the application's event driven architecure.
 
 Check out the README for a very detailed description of the architecture and a break down of the microservices involved in delivering this demo. Very nice indeed.
 
@@ -92,25 +92,25 @@ Check out the README for a very detailed description of the architecture and a b
 
 **rustifying-serverless**
 
-[rustifying-serverless](https://aws-oss.beachgeek.co.uk/3ht) AWS Hero Efi Merdler-Kravitz shares how to use Rust in your existing Serverless projects, which is code that he used in his re:Invent talk (COM306: “Rustifying” serverless: Boost AWS Lambda performance with Rust)
+[rustifying-serverless](https://github.com/fun-with-serverless/rustifying-serverless) AWS Hero Efi Merdler-Kravitz shares how to use Rust in your existing Serverless projects, which is code that he used in his re:Invent talk (COM306: “Rustifying” serverless: Boost AWS Lambda performance with Rust)
 
 {{< youtube Mdh_2PXe9i8 >}}
 
 **sagemaker-studio-mlflow-integration**
 
-[sagemaker-studio-mlflow-integration](https://aws-oss.beachgeek.co.uk/3hw) provides an great guide on how to deploy the popular open source project, MLFlow on AWS. The repo is regularly updated to align with the latest release on MLflow. The current last supported version of MLflow is 2.8.1, including MLflow tracking server and MLflow Gateway AI.
+[sagemaker-studio-mlflow-integration](https://github.com/aws-samples/sagemaker-studio-mlflow-integration) provides an great guide on how to deploy the popular open source project, MLFlow on AWS. The repo is regularly updated to align with the latest release on MLflow. The current last supported version of MLflow is 2.8.1, including MLflow tracking server and MLflow Gateway AI.
 
 ![overview of mlflow on sagemaker architecture](https://github.com/aws-samples/sagemaker-studio-mlflow-integration/blob/main/images/mlflow-gateway-architecture.png?raw=true)
 
 **personalized-travel-itinerary-planner**
 
-[personalized-travel-itinerary-planner](https://aws-oss.beachgeek.co.uk/3hy) as we head into the holiday season, what perfect demo to try out than a tool that uses generative AI to provide personalised travel recommendations. This solution contains two major components. At first, we will extract the user’s information like Name, location, hobbies, interests and Favourite food etc along with their upcoming travel booking details. With this information we will stitch a user prompt together and pass it to Amazon Bedrock/Anthropic Claude LLM to obtain a personalized travel itinerary that the Customers can use. Below architecture diagram provides us a high level overview of the workflow and the components involved in this architecture.
+[personalized-travel-itinerary-planner](https://github.com/aws-samples/personalized-travel-itinerary-planner) as we head into the holiday season, what perfect demo to try out than a tool that uses generative AI to provide personalised travel recommendations. This solution contains two major components. At first, we will extract the user’s information like Name, location, hobbies, interests and Favourite food etc along with their upcoming travel booking details. With this information we will stitch a user prompt together and pass it to Amazon Bedrock/Anthropic Claude LLM to obtain a personalized travel itinerary that the Customers can use. Below architecture diagram provides us a high level overview of the workflow and the components involved in this architecture.
 
 ![architecture of personalised travel suggestions](https://github.com/aws-samples/personalized-travel-itinerary-planner/blob/main/docs/Architecture_Diagram.jpg?raw=true)
 
 **aws-bedrock-with-rag-and-react**
 
-[aws-bedrock-with-rag-and-react](https://aws-oss.beachgeek.co.uk/3hz) rag and react is not some new dance genre (maybe it should be!) but a new demo project that helps you quickly and inexpensively begin prototyping and vetting business use cases for GenAI using a custom corpus of knowledge with Retrieval Augmented Generation (RAG) in a low-code ReactJS application. This solution contains a backend Flask application which uses LangChain to provide PDF data as embeddings to your choice of text-gen foundational model via Amazon Web Services (AWS) new, managed LLM-provider service, Amazon Bedrock and your choice of vector database with FAISS or a Kendra Index.
+[aws-bedrock-with-rag-and-react](https://github.com/aws-samples/aws-bedrock-with-rag-and-react) rag and react is not some new dance genre (maybe it should be!) but a new demo project that helps you quickly and inexpensively begin prototyping and vetting business use cases for GenAI using a custom corpus of knowledge with Retrieval Augmented Generation (RAG) in a low-code ReactJS application. This solution contains a backend Flask application which uses LangChain to provide PDF data as embeddings to your choice of text-gen foundational model via Amazon Web Services (AWS) new, managed LLM-provider service, Amazon Bedrock and your choice of vector database with FAISS or a Kendra Index.
 
 ![demo of the project in action](https://github.com/aws-samples/aws-bedrock-with-rag-and-react/blob/main/bedrock_demo_mov.gif?raw=true)
 
@@ -118,74 +118,74 @@ Check out the README for a very detailed description of the architecture and a b
 
 **Advanced JDBC Wrapper Driver**
 
-The [Amazon Web Services JDBC Driver](https://aws-oss.beachgeek.co.uk/38q) is an open sourced, advanced JDBC wrapper. This wrapper is complementary to and extends the functionality of an existing JDBC driver to help an application take advantage of the features of clustered databases such as Amazon Aurora. We featured this project in [#174](https://dev.to/aws/aws-open-source-newsletter-174-3304) but if you want to know more about this driver, then Dave Cramer has put together essential reading in his post, [Achieve one second or less downtime with the Advanced JDBC Wrapper Driver when upgrading Amazon RDS Multi-AZ DB Clusters](https://aws-oss.beachgeek.co.uk/3h9) as he explores how to use the driver to handle the failover of an Amazon Aurora cluster. [hands on]
+The [Amazon Web Services JDBC Driver](https://github.com/awslabs/aws-advanced-jdbc-wrapper) is an open sourced, advanced JDBC wrapper. This wrapper is complementary to and extends the functionality of an existing JDBC driver to help an application take advantage of the features of clustered databases such as Amazon Aurora. We featured this project in [#174](https://dev.to/aws/aws-open-source-newsletter-174-3304) but if you want to know more about this driver, then Dave Cramer has put together essential reading in his post, [Achieve one second or less downtime with the Advanced JDBC Wrapper Driver when upgrading Amazon RDS Multi-AZ DB Clusters](https://aws.amazon.com/blogs/database/achieve-one-second-or-less-downtime-with-the-advanced-jdbc-wrapper-driver-when-upgrading-amazon-rds-multi-az-db-clusters/) as he explores how to use the driver to handle the failover of an Amazon Aurora cluster. [hands on]
 
 **PostgreSQL**
 
 We had plenty of great content for PostgreSQL fans over the last couple of weeks.
 
-To start we have Jeff Li and Shunan Xiang who show you four architectures to store business objects with array data fields to a PostgreSQL database in the post, [Architectures for managing array data in PostgreSQL](https://aws-oss.beachgeek.co.uk/3hb). They explore table design, its effects on applications and data migration jobs, and also show how to search and filter database records based on array values and what options are available to improve operation performance.
+To start we have Jeff Li and Shunan Xiang who show you four architectures to store business objects with array data fields to a PostgreSQL database in the post, [Architectures for managing array data in PostgreSQL](https://aws.amazon.com/blogs/database/architectures-for-managing-array-data-in-postgresql/). They explore table design, its effects on applications and data migration jobs, and also show how to search and filter database records based on array values and what options are available to improve operation performance.
 
-If you are looking for options and ideas to minimise downtime for your PostgreSQL upgrades, then check out [Fast switchovers with PgBouncer on Amazon RDS Multi-AZ deployments with two readable standbys for PostgreSQL](https://aws-oss.beachgeek.co.uk/3hc) from Yuli Khodorkovskiy and Rajat Jain. They demonstrate how you can typically achieve less than one second of write downtime during a minor version upgrade on an Amazon RDS Multi-AZ cluster for PostgreSQL using the patches for PgBouncer from AWS. [hands on]
+If you are looking for options and ideas to minimise downtime for your PostgreSQL upgrades, then check out [Fast switchovers with PgBouncer on Amazon RDS Multi-AZ deployments with two readable standbys for PostgreSQL](https://aws.amazon.com/blogs/database/fast-switchovers-with-pgbouncer-on-amazon-rds-multi-az-deployments-with-two-readable-standbys-for-postgresql/) from Yuli Khodorkovskiy and Rajat Jain. They demonstrate how you can typically achieve less than one second of write downtime during a minor version upgrade on an Amazon RDS Multi-AZ cluster for PostgreSQL using the patches for PgBouncer from AWS. [hands on]
 
-The last post in this round up is from Rohan Bhatia, Eric Felice, and Rinisha Marar who have put together [Using write forwarding with Amazon Aurora Global Database for PostgreSQL](https://aws-oss.beachgeek.co.uk/3ha). In this post they show you how to enable and use the write forwarding feature within an Aurora Global Database for PostgreSQL to provide benefits for your application in terms of scalability, geographic load balancing, disaster recovery, and cost optimization. Read the post to understand more about write forwarding and where you might find it beneficial.
+The last post in this round up is from Rohan Bhatia, Eric Felice, and Rinisha Marar who have put together [Using write forwarding with Amazon Aurora Global Database for PostgreSQL](https://aws.amazon.com/blogs/database/using-write-forwarding-with-amazon-aurora-global-database-for-postgresql/). In this post they show you how to enable and use the write forwarding feature within an Aurora Global Database for PostgreSQL to provide benefits for your application in terms of scalability, geographic load balancing, disaster recovery, and cost optimization. Read the post to understand more about write forwarding and where you might find it beneficial.
 
 ![graph of postgres response times](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/11/22/dbblog-3734-image013.png)
 
 **dbt**
 
-dbt is an open source, SQL-first templating engine that allows you to write repeatable and extensible data transforms in Python and SQL. In the post, [Build and manage your modern data stack using dbt and AWS Glue through dbt-glue, the new “trusted” dbt adapter](https://aws-oss.beachgeek.co.uk/3hj) Noritaka Sekiyama, Akira Ajisaka, Jason Ganz, Kinshuk Pahare, and Benjamin Menuet come together to talk about  dbt-glue, and open source battle-tested dbt AWS Glue adapter, that is now a trusted adapter based on our strategic collaboration with dbt Labs. [hands on]
+dbt is an open source, SQL-first templating engine that allows you to write repeatable and extensible data transforms in Python and SQL. In the post, [Build and manage your modern data stack using dbt and AWS Glue through dbt-glue, the new “trusted” dbt adapter](https://aws.amazon.com/blogs/big-data/build-and-manage-your-modern-data-stack-using-dbt-and-aws-glue-through-dbt-glue-the-new-trusted-dbt-adapter/) Noritaka Sekiyama, Akira Ajisaka, Jason Ganz, Kinshuk Pahare, and Benjamin Menuet come together to talk about  dbt-glue, and open source battle-tested dbt AWS Glue adapter, that is now a trusted adapter based on our strategic collaboration with dbt Labs. [hands on]
 
 ![overview of dbt and aws glue integration](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/11/27/bdb3957-image001.jpg)
 
 **OpenRewrite**
 
-[OpenRewrite](https://aws-oss.beachgeek.co.uk/3hn) is an open source project that helps developers refactor code. Amazon Q Code Transformation uses parts of OpenRewrite to help developers transform their code, and in the post [Upgrade your Java applications with Amazon Q Code Transformation (preview)](https://aws-oss.beachgeek.co.uk/3ho) my colleague Danilo Poccia shows how you can use Amazon Q to help you migrate and refactor codes, using a Java 8 to Java 17 example application. This is really cool stuff, as there are so many good features with newer versions of OpenJDK that this could be a great way to finally start upgrading some of your older code bases.
+[OpenRewrite](https://github.com/openrewrite/rewrite) is an open source project that helps developers refactor code. Amazon Q Code Transformation uses parts of OpenRewrite to help developers transform their code, and in the post [Upgrade your Java applications with Amazon Q Code Transformation (preview)](https://aws.amazon.com/blogs/aws/upgrade-your-java-applications-with-amazon-q-code-transformation-preview/) my colleague Danilo Poccia shows how you can use Amazon Q to help you migrate and refactor codes, using a Java 8 to Java 17 example application. This is really cool stuff, as there are so many good features with newer versions of OpenJDK that this could be a great way to finally start upgrading some of your older code bases.
 
 ![vscode screen showing amazon q transform in action](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/21/code-transform-show-diff-java.png)
 
 **Other posts and quick reads**
 
-* [Use Amazon EMR with S3 Access Grants to scale Spark access to Amazon S3](https://aws-oss.beachgeek.co.uk/3hk) provides a hands on guide to how to set up and use Amazon S3 Access Grants with Amazon EMR in order to easily manage data access for your Amazon EMR workloads [hands on]
+* [Use Amazon EMR with S3 Access Grants to scale Spark access to Amazon S3](https://aws.amazon.com/blogs/big-data/use-amazon-emr-with-s3-access-grants-to-scale-spark-access-to-amazon-s3/) provides a hands on guide to how to set up and use Amazon S3 Access Grants with Amazon EMR in order to easily manage data access for your Amazon EMR workloads [hands on]
 
 ![overview of amazon emr with s3 access grants](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/11/22/db-3849-image003-500.png)
 
-* [lakeFS and Amazon S3 Express One Zone: Highly performant data version control for ML/AI](https://aws-oss.beachgeek.co.uk/3hl) dives into data versioning on Amazon S3 with lakeFS, showing how lakeFS uses Amazon S3 Express One Zone to deliver up to 10x faster versioning operations within lakeFS [hands on]
-* [Use Amazon FSx for Lustre to share Amazon S3 data across accounts](https://aws-oss.beachgeek.co.uk/3hm) guides you through the process of seamlessly integrating an Amazon FSx for Lustre file system with an Amazon S3 data lake [hands on]
+* [lakeFS and Amazon S3 Express One Zone: Highly performant data version control for ML/AI](https://aws.amazon.com/blogs/storage/lakefs-and-amazon-s3-express-one-zone-highly-performant-data-version-control-for-ml-ai/) dives into data versioning on Amazon S3 with lakeFS, showing how lakeFS uses Amazon S3 Express One Zone to deliver up to 10x faster versioning operations within lakeFS [hands on]
+* [Use Amazon FSx for Lustre to share Amazon S3 data across accounts](https://aws.amazon.com/blogs/storage/using-amazon-fsx-for-lustre-to-share-amazon-s3-data-across-accounts/) guides you through the process of seamlessly integrating an Amazon FSx for Lustre file system with an Amazon S3 data lake [hands on]
 
 ![overview of amazon fsx fir lustre and s3 data lake architecture](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2023/11/06/Figure-1-2.png)
 
-* [Amazon MSK now provides up to 29% more throughput and up to 24% lower costs with AWS Graviton3 support](https://aws-oss.beachgeek.co.uk/3h8) looks at the performance gains achieved while using Graviton-based M7g instances with your Apache Kafka clusters
-* [Amazon ElastiCache Serverless for Redis and Memcached is now available](https://aws-oss.beachgeek.co.uk/3hh) takes a look at the re:Invent announcement of Amazon ElastiCache Serverless for Redis and Memcached [hands on]
-* [Solutions for building modern applications with Amazon ElastiCache and Amazon MemoryDB for Redis](https://aws-oss.beachgeek.co.uk/3hi) explores a number of different use cases and applications of how to build highly scalable modern applications using in-memory database solutions like ElastiCache and MemoryDB
+* [Amazon MSK now provides up to 29% more throughput and up to 24% lower costs with AWS Graviton3 support](https://aws.amazon.com/blogs/big-data/amazon-msk-now-provides-up-to-29-more-throughput-and-up-to-24-lower-costs-with-aws-graviton3-support/) looks at the performance gains achieved while using Graviton-based M7g instances with your Apache Kafka clusters
+* [Amazon ElastiCache Serverless for Redis and Memcached is now available](https://aws.amazon.com/blogs/aws/amazon-elasticache-serverless-for-redis-and-memcached-now-generally-available/) takes a look at the re:Invent announcement of Amazon ElastiCache Serverless for Redis and Memcached [hands on]
+* [Solutions for building modern applications with Amazon ElastiCache and Amazon MemoryDB for Redis](https://aws.amazon.com/blogs/database/solutions-for-building-modern-applications-with-amazon-elasticache-and-amazon-memorydb-for-redis/) explores a number of different use cases and applications of how to build highly scalable modern applications using in-memory database solutions like ElastiCache and MemoryDB
 
 ![overview of use cases for amazon elasticache and amazon memorydb for redis](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/11/27/DBBLOG3737_image021.png)
 
-* [Visualize AWS Health events using Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/3h7) will show you how to visualise AWS Health (a service that helps you stay informed about the status of your AWS resources and services) events using Amazon Managed Grafana to gain deeper insights across multiple Health events in a centralized place [hands on]
+* [Visualize AWS Health events using Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/visualize-aws-health-events-using-amazon-managed-grafana/) will show you how to visualise AWS Health (a service that helps you stay informed about the status of your AWS resources and services) events using Amazon Managed Grafana to gain deeper insights across multiple Health events in a centralized place [hands on]
 
 ![overview of aws health visualisation using grafana](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/11/16/image-14.png)
 
-* [Create a GraphQL API for any existing MySQL and PostgreSQL database](https://aws-oss.beachgeek.co.uk/3hd) provides a hands on guide on how to  create a new GraphQL API using AWS CDK to create queries and mutations that run SQL statements  with MySQL and PostgreSQL databases [hands on]
+* [Create a GraphQL API for any existing MySQL and PostgreSQL database](https://aws.amazon.com/blogs/mobile/create-a-graphql-api-for-any-existing-mysql-and-postgresql-database/) provides a hands on guide on how to  create a new GraphQL API using AWS CDK to create queries and mutations that run SQL statements  with MySQL and PostgreSQL databases [hands on]
 
 ![overview of graphql to rds connectivity screen](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2023/11/21/Artboard-1024x651.png)
 
-* [Build a GraphQL API for your Amazon Aurora MySQL database using AWS AppSync and the RDS Data API](https://aws-oss.beachgeek.co.uk/3he) goes through the process of creating an AppSync GraphQL API from an existing MySQL database [hands on]
+* [Build a GraphQL API for your Amazon Aurora MySQL database using AWS AppSync and the RDS Data API](https://aws.amazon.com/blogs/mobile/build-a-graphql-api-for-your-amazon-aurora-mysql-database-using-aws-appsync-and-the-rds-data-api/) goes through the process of creating an AppSync GraphQL API from an existing MySQL database [hands on]
 
 ### Quick updates
 
 **Code-OSS**
 
-During re:Invent, a new integrated development environment (IDE) option was launched in Amazon SageMaker Studio: Code Editor. It is based on Code-OSS (Visual Studio Code – Open Source). To find out more, Eric Peña, Bruno Pistone, Giuseppe Angelo Porcelli, Sofian Hamiti, and Vikesh Pandey have put together [New – Code Editor, based on Code-OSS VS Code Open Source now available in Amazon SageMaker Studio](https://aws-oss.beachgeek.co.uk/3hp), that helps you get started.
+During re:Invent, a new integrated development environment (IDE) option was launched in Amazon SageMaker Studio: Code Editor. It is based on Code-OSS (Visual Studio Code – Open Source). To find out more, Eric Peña, Bruno Pistone, Giuseppe Angelo Porcelli, Sofian Hamiti, and Vikesh Pandey have put together [New – Code Editor, based on Code-OSS VS Code Open Source now available in Amazon SageMaker Studio](https://aws.amazon.com/blogs/machine-learning/new-code-editor-based-on-code-oss-vs-code-open-source-now-available-in-amazon-sagemaker-studio/), that helps you get started.
 
 ![overview of code editor architecture](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/11/30/TarmacBlogArchitectureFinal.png)
 
 **Rust**
 
-Zelda Hessler announced the general availability of the AWS SDK for Rust in the post, [Announcing general availability of the AWS SDK for Rust](https://aws-oss.beachgeek.co.uk/3h5). Check it out to find out how to get started, how to contribute to the SDK development, and what is on the public roadmap.
+Zelda Hessler announced the general availability of the AWS SDK for Rust in the post, [Announcing general availability of the AWS SDK for Rust](https://aws.amazon.com/blogs/developer/announcing-general-availability-of-the-aws-sdk-for-rust/). Check it out to find out how to get started, how to contribute to the SDK development, and what is on the public roadmap.
 
 **Kotlin**
 
-We had good news for Kotlin developers too, with the announcement of the general availability of the AWS SDK for Kotlin. Aaron Todd shares more details in the post, [Announcing general availability of the AWS SDK for Kotlin](https://aws-oss.beachgeek.co.uk/3h6) and covers some of the high level features as well as sharing links to the roadmap.
+We had good news for Kotlin developers too, with the announcement of the general availability of the AWS SDK for Kotlin. Aaron Todd shares more details in the post, [Announcing general availability of the AWS SDK for Kotlin](https://aws.amazon.com/blogs/developer/aws-sdk-for-kotlin-ga/) and covers some of the high level features as well as sharing links to the roadmap.
 
 **FreeRTOS**
 
@@ -205,7 +205,7 @@ If you have spent any time working with Kubernetes on AWS, you will be familiar 
 
 EKS Pod Identity offers cluster administrators a simplified workflow for authenticating applications to all AWS resources such as Amazon S3 buckets, Amazon DynamoDB tables, and more. As a result, cluster administrators need not switch between the EKS and IAM services, or execute privileged IAM operations to configure permissions required by your applications. IAM roles can now be used across multiple clusters without the need to update the role trust policy when creating new clusters. IAM credentials supplied by EKS Pod Identity include support for role session tags, with support for attributes such as cluster name, namespace, service account name. Role session tags enable administrators to author a single permission policy that can work across roles by allowing access to AWS resources based on matching tags.
 
-My colleague Donnie Prakoso put together a nice post to walk you through it. Check it out, [Amazon EKS Pod Identity simplifies IAM permissions for applications on Amazon EKS clusters](https://aws-oss.beachgeek.co.uk/3h3).
+My colleague Donnie Prakoso put together a nice post to walk you through it. Check it out, [Amazon EKS Pod Identity simplifies IAM permissions for applications on Amazon EKS clusters](https://aws.amazon.com/blogs/aws/amazon-eks-pod-identity-simplifies-iam-permissions-for-applications-on-amazon-eks-clusters/).
 
 ![screenshot of eks add on for Pod Identity](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/24/2023-ekspodidentity-4-1.jpg)
  
@@ -217,7 +217,7 @@ Amazon FSx for OpenZFS provides fully managed, cost-effective, shared file stora
 
 You can replicate volumes across file systems in the same account and region in all regions where FSx for OpenZFS is available. There is no charge for on-demand data replication, but you will pay standard AWS data transfer charges when you replicate across availability zones from or to a Single-AZ file system.
 
-Read [Announcing on-demand data replication for Amazon FSx for OpenZFS](https://aws-oss.beachgeek.co.uk/3h4) to dive deeper into this new capability.
+Read [Announcing on-demand data replication for Amazon FSx for OpenZFS](https://aws.amazon.com/blogs/aws/on-demand-data-replication-for-amazon-fsx-for-openzfs/) to dive deeper into this new capability.
 
 **OpenSearch**
 
@@ -249,7 +249,7 @@ PostgreSQL is a popular open source relational database that is available on Ama
 
 {{< youtube kfJKR54arl0 >}}
 
-I would also recommend you check out Jonathan's 400 level session, [Best practices for querying vector data for gen AI apps in PostgreSQL](https://aws-oss.beachgeek.co.uk/3h1), which was one of my favourite sessions that I watched. This goes super deep, but Jonathan has a nack of explaining things so well, that you don't realise how deep you have just been!
+I would also recommend you check out Jonathan's 400 level session, [Best practices for querying vector data for gen AI apps in PostgreSQL](https://www.youtube.com/watch?v=PhIC4JlYg7A), which was one of my favourite sessions that I watched. This goes super deep, but Jonathan has a nack of explaining things so well, that you don't realise how deep you have just been!
 
 
 **OPN203: Jupyter AI: Open source brings LLMs to your notebooks**
@@ -280,7 +280,7 @@ Cloud Development Kit for Kubernetes (cdk8s) helps you use your favourite progra
 
 It has been a while since I have featured a pod cast (not sure why, my bad! expect me to be sharing more of these in 2024) but I enjoyed the conversation between Adam North, Sam Clark, Ronald Bradford, and Matan Bordo who talk about lessons learned from upgrading MySQL wtih Amazon RDS managed services.
 
-You can check out the podcast page, [Mastering EOL Migrations: Lessons learned from MySQL 5.7 to 8.0 with RDS managed services](https://aws-oss.beachgeek.co.uk/3h2) which provides links to your favourite podcast consuming channels, or alternatively check out the video below.
+You can check out the podcast page, [Mastering EOL Migrations: Lessons learned from MySQL 5.7 to 8.0 with RDS managed services](https://www.doit.com/podcast/mastering-eol-migrations-lessons-learned-from-rds-managed-services/) which provides links to your favourite podcast consuming channels, or alternatively check out the video below.
 
 {{< youtube WTeOeumDfWw >}}
 
@@ -307,14 +307,14 @@ You can view more at the site page, [SOOCon24](https://stateofopencon.com/)
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

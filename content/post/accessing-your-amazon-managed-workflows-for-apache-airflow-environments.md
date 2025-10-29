@@ -7,12 +7,12 @@ tags: [Apache Airflow, mwaa]
 
 Part of a series of posts to support an up-coming online event, the Innovate AI/ML on February 24th, from 9:00am GMT - you can sign up [here](https://aws.amazon.com/events/aws-innovate/machine-learning/online/emea/?sc_channel=em&sc_campaign=EMEA_FIELD_WEBINAR_innovate-AIML_20210224_7014z000001MJbu&sc_medium=em_&sc_content=REG_t1_field&sc_geo=emea&sc_country=mult&sc_outcome=reg&sc_publisher=aws&trkCampaign=emea21_innovatemlq1&trk=em_emea21_innovatemlq1_ricardosueiras)
 
-* **Part 1** - [Installation and configuration of Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/3h)
-* **Part 2** - [Working with Permissions](https://aws-oss.beachgeek.co.uk/3n)
+* **Part 1** - [Installation and configuration of Managed Workflows for Apache Airflow](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a)
+* **Part 2** - [Working with Permissions](https://dev.to/aws/working-with-permissions-in-amazon-managed-workflows-for-apache-airflow-2g5l)
 * **Part 3** - Accessing Amazon Managed Workflows for Apache Airflow environments < this post
-* **Part 4** - [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://aws-oss.beachgeek.co.uk/4s)
-* **Part 5** - [A simple CI/CD system for your development workflow](https://aws-oss.beachgeek.co.uk/4t)
-* **Part 6** - [Monitoring and logging](https://aws-oss.beachgeek.co.uk/5r)
+* **Part 4** - [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://dev.to/aws/interacting-with-amazon-managed-workflows-for-apache-airflow-via-the-command-line-4e91)
+* **Part 5** - [A simple CI/CD system for your development workflow](https://dev.to/aws/a-simple-ci-cd-system-for-your-development-workflow-30b4)
+* **Part 6** - [Monitoring and logging](https://dev.to/aws/monitoring-and-logging-with-amazon-managed-workflows-for-apache-airflow-4530)
 * **Part 7** - Automating a simple AI/ML pipeline with Apache Airflow 
 
 In this post I will be covering Part 3, how you can interact and access the Apache Airflow environments. Specifically I will cover a couple of things:
@@ -25,7 +25,7 @@ In this post I will be covering Part 3, how you can interact and access the Apac
 * An AWS account with the right level of privileges
 * An environment with the AWS CLI tools configured and running
 * Access to an AWS region where Managed Workflows for Apache Airflow is supported
-* An environment of Amazon Managed Workflows for Apache Airflow already setup - you should ideally have followed [part one here](https://aws-oss.beachgeek.co.uk/3h).
+* An environment of Amazon Managed Workflows for Apache Airflow already setup - you should ideally have followed [part one here](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a).
 
 **Public vs Private MWAA environments**
 

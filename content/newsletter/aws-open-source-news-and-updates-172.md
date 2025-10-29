@@ -33,15 +33,15 @@ So thank you to the following open source heroes:  Iliyas Maner, Sonia García-R
 
 **dynamodump**
 
-[dynamodump](https://aws-oss.beachgeek.co.uk/37m) is a new tool from Iliyas Maner that provides a simple way to dump your AWS DynamoDB table contents to a comma separated value file.
+[dynamodump](https://github.com/DG-Iliyas/dynamodump) is a new tool from Iliyas Maner that provides a simple way to dump your AWS DynamoDB table contents to a comma separated value file.
 
 **cdk-cost-limit**
 
-[cdk-cost-limit](https://aws-oss.beachgeek.co.uk/37h) is a Collection of CDK Constructs to deploy Cost-Aware Self-Limiting Resources. This package lets you set spending limits on AWS. While existing AWS solutions merely alert, this library disables resources, using non-destructive operations, when budgets are hit. This library includes an Aspect and a collection of AWS CDK Level-2 Constructs. They deploy additional resources to compute real-time spending and halt resources when budgets are met (e.g. Lambda Functions reserved concurrency is set to 0). Check out the README for important details around how this works, and the potential impact for your applications. The project is looking for feedback, so take a look and let them know what you think.
+[cdk-cost-limit](https://github.com/revant-io/cdk-cost-limit) is a Collection of CDK Constructs to deploy Cost-Aware Self-Limiting Resources. This package lets you set spending limits on AWS. While existing AWS solutions merely alert, this library disables resources, using non-destructive operations, when budgets are hit. This library includes an Aspect and a collection of AWS CDK Level-2 Constructs. They deploy additional resources to compute real-time spending and halt resources when budgets are met (e.g. Lambda Functions reserved concurrency is set to 0). Check out the README for important details around how this works, and the potential impact for your applications. The project is looking for feedback, so take a look and let them know what you think.
 
 **ec2-flexibility-score-dashboard**
 
-[ec2-flexibility-score-dashboard](https://aws-oss.beachgeek.co.uk/37i) is a nice project that helps you to assess any configuration used to launch instances through an Auto Scaling Group (ASG) against the recommended EC2 best practices. It converts the best practice adoption into a “flexibility score” that can be used to identify, improve, and monitor the configurations (and subsequently, overall organisation level adoption of Spot best practices) which may have room to improve the flexibility by implementing architectural best practices.
+[ec2-flexibility-score-dashboard](https://github.com/aws-samples/ec2-flexibility-score-dashboard) is a nice project that helps you to assess any configuration used to launch instances through an Auto Scaling Group (ASG) against the recommended EC2 best practices. It converts the best practice adoption into a “flexibility score” that can be used to identify, improve, and monitor the configurations (and subsequently, overall organisation level adoption of Spot best practices) which may have room to improve the flexibility by implementing architectural best practices.
 
 The following illustration shows the EC2 Flexibility Score Dashboard:
 
@@ -49,21 +49,21 @@ The following illustration shows the EC2 Flexibility Score Dashboard:
 
 **aws-s3-integrity-check**
 
-[aws-s3-integrity-check](https://aws-oss.beachgeek.co.uk/37j) this simple tool from Sonia García-Ruiz provides a Bash script to check the md5 integrity of a set of files that have previously been uploaded into an AWS S3 bucket. Detailed README on how this works together with plenty of examples and some limitations you should be aware of. 
+[aws-s3-integrity-check](https://github.com/SoniaRuiz/aws-s3-integrity-check) this simple tool from Sonia García-Ruiz provides a Bash script to check the md5 integrity of a set of files that have previously been uploaded into an AWS S3 bucket. Detailed README on how this works together with plenty of examples and some limitations you should be aware of. 
 
 **cls3**
 
-[cls3](https://aws-oss.beachgeek.co.uk/37k) is a very handy tool from AWS Community Builder k.goto that helps you to CLear S3 Buckets. It empties (so deletes all objects and versions/delete-markers in) S3 Buckets or deletes the buckets themselves. You can check out the supporting blog post, [Tool for fast deletion and emptying of S3 buckets (versioning supported)](https://aws-oss.beachgeek.co.uk/37l)
+[cls3](https://github.com/go-to-k/cls3) is a very handy tool from AWS Community Builder k.goto that helps you to CLear S3 Buckets. It empties (so deletes all objects and versions/delete-markers in) S3 Buckets or deletes the buckets themselves. You can check out the supporting blog post, [Tool for fast deletion and emptying of S3 buckets (versioning supported)](https://dev.to/aws-builders/tool-for-fast-deletion-and-emptying-of-s3-buckets-versioning-supported-6dn)
 
 ### Demos, Samples, Solutions and Workshops
 
 **cedarpy-example-hello-photos**
 
-[cedarpy-example-hello-photos](https://aws-oss.beachgeek.co.uk/37g) this is a sample project that AWS Community Builder Stephen Kuenzli that provides and example of how to build a Lambda Authorizer using Cedar Policy and cedarpy. If you check out the Videos section below, you can check out the Twitch session that Stephen did with my colleague Brandon that walks you through this demo.
+[cedarpy-example-hello-photos](https://github.com/k9securityio/cedarpy-example-hello-photos) this is a sample project that AWS Community Builder Stephen Kuenzli that provides and example of how to build a Lambda Authorizer using Cedar Policy and cedarpy. If you check out the Videos section below, you can check out the Twitch session that Stephen did with my colleague Brandon that walks you through this demo.
 
 **kendra_retriever_samples**
 
-[kendra_retriever_samples](https://aws-oss.beachgeek.co.uk/370) This repo contains a number of example code samples and supporting CloudFormation templates that help you  work with Langchain and Amazon Kendra. It currently has samples for working with a Kendra retriever class to execute a QA chain for SageMaker, Open AI and Anthropic providers. To help you deploy this code and help you understand how it all works, you can follow along the blog post, [Deploy self-service question answering with the QnABot on AWS solution powered by Amazon Lex with Amazon Kendra and large language models](https://aws-oss.beachgeek.co.uk/36z)
+[kendra_retriever_samples](https://github.com/aws-samples/amazon-kendra-langchain-extensions/tree/main/kendra_retriever_samples) This repo contains a number of example code samples and supporting CloudFormation templates that help you  work with Langchain and Amazon Kendra. It currently has samples for working with a Kendra retriever class to execute a QA chain for SageMaker, Open AI and Anthropic providers. To help you deploy this code and help you understand how it all works, you can follow along the blog post, [Deploy self-service question answering with the QnABot on AWS solution powered by Amazon Lex with Amazon Kendra and large language models](https://aws.amazon.com/blogs/machine-learning/deploy-self-service-question-answering-with-the-qnabot-on-aws-solution-powered-by-amazon-lex-with-amazon-kendra-and-large-language-models/)
 
 ![example qna chatbot screenshot](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/08/11/ml-14990-image001.jpg)
 
@@ -71,47 +71,47 @@ The following illustration shows the EC2 Flexibility Score Dashboard:
 
 **Community round up**
 
-We have another great selection of community originated content this week, covering a broad set of open source technologies. First up is AWS Hero Rehan van der Merwe taking a look at TypeScript Remote Procedure Call (or better known as tRPC). What is it I can hear you all asking. Over-fetching and under-fetching are common issues with RESTful APIs. Like GraphQL, tRPC allows you to use TypeScript to define and get only the data you need avoiding bloated responses and duplicate requests. Rehan dives deep in his post, [AWS Lambda with tRPC and separate repos using OpenAPI](https://aws-oss.beachgeek.co.uk/378) that provides a detailed, hands on guide on how you can use tRPC, trpc-openapi (OpenAPI support for tRPC), and AWS CDK to deploy this on AWS Lambda. Be sure to check out the other posts Rehan has been publishing on this topic.
+We have another great selection of community originated content this week, covering a broad set of open source technologies. First up is AWS Hero Rehan van der Merwe taking a look at TypeScript Remote Procedure Call (or better known as tRPC). What is it I can hear you all asking. Over-fetching and under-fetching are common issues with RESTful APIs. Like GraphQL, tRPC allows you to use TypeScript to define and get only the data you need avoiding bloated responses and duplicate requests. Rehan dives deep in his post, [AWS Lambda with tRPC and separate repos using OpenAPI](https://blog.cloudglance.dev/trpc-separate-backend-frontend-with-openapi-aws-lambda-cdk/index.html) that provides a detailed, hands on guide on how you can use tRPC, trpc-openapi (OpenAPI support for tRPC), and AWS CDK to deploy this on AWS Lambda. Be sure to check out the other posts Rehan has been publishing on this topic.
 
-Josh Aas shared details of the first stable release of sudo-rs, a Rust rewrite of the critical sudo utility, in his post [The First Stable Release of a Memory Safe sudo Implementation](https://aws-oss.beachgeek.co.uk/379). This is a good example of the ongoing commitment from AWS to supporting  the work of the Internet Security Research Group (ISRG) to improve the memory safety of critical open source tools used by developers.
+Josh Aas shared details of the first stable release of sudo-rs, a Rust rewrite of the critical sudo utility, in his post [The First Stable Release of a Memory Safe sudo Implementation](https://www.memorysafety.org/blog/sudo-first-stable-release/). This is a good example of the ongoing commitment from AWS to supporting  the work of the Internet Security Research Group (ISRG) to improve the memory safety of critical open source tools used by developers.
 
-Sphinx is a great tool for writing documentation, and something that I first got to grips with when contributing to the Apache Airflow project (which I blogged about a while back). AWS Community Builder Julian Michel has put together [How to automatically release Sphinx documentation using CDK Pipelines and a custom CodeBuild image](https://aws-oss.beachgeek.co.uk/37a) that describes how to publish Sphinx projects using CDK pipelines. Very nice indeed. 
+Sphinx is a great tool for writing documentation, and something that I first got to grips with when contributing to the Apache Airflow project (which I blogged about a while back). AWS Community Builder Julian Michel has put together [How to automatically release Sphinx documentation using CDK Pipelines and a custom CodeBuild image](https://community.aws/posts/automatically-release-sphinx-documentation-cdk-pipelines-custom-codebuild-image) that describes how to publish Sphinx projects using CDK pipelines. Very nice indeed. 
 
 ![overview of Sphinx in CDK Pipeline architecture](https://community.aws/_next/image?url=https%3A%2F%2Fcommunity.aws%2Fraw-post-images%2Fposts%2Fautomatically-release-sphinx-documentation-cdk-pipelines-custom-codebuild-image%2Fimages%2Fsphinx-documentation-architecture.png&w=1920&q=75)
 
-Next up is Olawale Olaleye with his post, [Building an Amazon EKS Cluster Preconfigured to Run High Traffic Microservices](https://aws-oss.beachgeek.co.uk/37b) which is a nice tutorial that shows you how you can deploy high traffic Kubernetes workloads on Amazon EKS. Staying in Cloud Native land, we have Shuting Zhao who wrote, [Verifying images in a private Amazon ECR with Kyverno and IAM Roles for Service Accounts (IRSA)](https://aws-oss.beachgeek.co.uk/37c) that shows how you can securely verify your container images using Kyverno, a CNCF policy engine designed for Kubernetes. Make sure you read this one. To wrap up the Kubernetes content in this section we have my colleague Abhishek Gupta who has put togehter [Simplifying Your Kubernetes Infrastructure With CDK8s](https://aws-oss.beachgeek.co.uk/37d), that shares details from his talk on how you can use CDK for Kubernetes, or CDK8s,  an open-source CNCF project that helps represent Kubernetes resources and application as code (not YAML!). There is not enough content on this project, so make sure you check that out too.
+Next up is Olawale Olaleye with his post, [Building an Amazon EKS Cluster Preconfigured to Run High Traffic Microservices](https://community.aws/tutorials/eks-cluster-high-traffic) which is a nice tutorial that shows you how you can deploy high traffic Kubernetes workloads on Amazon EKS. Staying in Cloud Native land, we have Shuting Zhao who wrote, [Verifying images in a private Amazon ECR with Kyverno and IAM Roles for Service Accounts (IRSA)](https://www.cncf.io/blog/2023/08/29/verifying-images-in-a-private-amazon-ecr-with-kyverno-and-iam-roles-for-service-accounts-irsa/) that shows how you can securely verify your container images using Kyverno, a CNCF policy engine designed for Kubernetes. Make sure you read this one. To wrap up the Kubernetes content in this section we have my colleague Abhishek Gupta who has put togehter [Simplifying Your Kubernetes Infrastructure With CDK8s](https://dzone.com/articles/simplifying-your-kubernetes-infrastructure-with-cd), that shares details from his talk on how you can use CDK for Kubernetes, or CDK8s,  an open-source CNCF project that helps represent Kubernetes resources and application as code (not YAML!). There is not enough content on this project, so make sure you check that out too.
 
-To finish up this weeks community round up, we have a couple of data related posts. First up is my good friend Suman Debnath who has put together, [The Ultimate Guide to Running Apache Spark on AWS](https://aws-oss.beachgeek.co.uk/37e) where he helps you explore the various decision-making questions to help developers navigate the options and choose the most suitable AWS service for your Spark workloads. Finally we have AWS Hero Elliott Cordo who writes about one of my favourite open source projects, Apache Airflow, in [ The Wrath of Unicron - When Airflow Gets Scary](https://aws-oss.beachgeek.co.uk/37f). And whilst this does sound like an episode of Star Trek, I can assure you it is well worth reading as it provides a nice approach on how you can SNS and SQS to orchestrate your workflows across orchestrators (multiple Airflow environments). Whilst this might not be suitable for every use case, posts like this provide useful ideas to keep in your back pocket should the need arise.
+To finish up this weeks community round up, we have a couple of data related posts. First up is my good friend Suman Debnath who has put together, [The Ultimate Guide to Running Apache Spark on AWS](https://community.aws/posts/ultimate-guideline-for-running-spark-on-aws) where he helps you explore the various decision-making questions to help developers navigate the options and choose the most suitable AWS service for your Spark workloads. Finally we have AWS Hero Elliott Cordo who writes about one of my favourite open source projects, Apache Airflow, in [ The Wrath of Unicron - When Airflow Gets Scary](https://dev.to/aws-heroes/the-wrath-of-unicron-when-airflow-gets-scary-27kg). And whilst this does sound like an episode of Star Trek, I can assure you it is well worth reading as it provides a nice approach on how you can SNS and SQS to orchestrate your workflows across orchestrators (multiple Airflow environments). Whilst this might not be suitable for every use case, posts like this provide useful ideas to keep in your back pocket should the need arise.
 
 **Apache Flink**
 
-I was super happy with the announcement last week that we renamed Amazon Kinesis Data Analytics to Amazon Managed Service for Apache Flink. The name change is effective in the AWS Management Console, documentation, and service webpages. There are no other changes, including to service endpoints, APIs, the AWS Command Line Interface (AWS CLI), the AWS Identity and Access Management (IAM) access policies, Amazon CloudWatch metrics, or the AWS Billing console dashboard. Your existing applications will continue to work as they did previously. My colleague Channy Yun has put together everything you need to know in the blog post, [Announcing Amazon Managed Service for Apache Flink Renamed from Amazon Kinesis Data Analytics](https://aws-oss.beachgeek.co.uk/36v)
+I was super happy with the announcement last week that we renamed Amazon Kinesis Data Analytics to Amazon Managed Service for Apache Flink. The name change is effective in the AWS Management Console, documentation, and service webpages. There are no other changes, including to service endpoints, APIs, the AWS Command Line Interface (AWS CLI), the AWS Identity and Access Management (IAM) access policies, Amazon CloudWatch metrics, or the AWS Billing console dashboard. Your existing applications will continue to work as they did previously. My colleague Channy Yun has put together everything you need to know in the blog post, [Announcing Amazon Managed Service for Apache Flink Renamed from Amazon Kinesis Data Analytics](https://aws.amazon.com/blogs/aws/announcing-amazon-managed-service-for-apache-flink-renamed-from-amazon-kinesis-data-analytics/)
 
 ![aws console rename for apache flink](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/16/2023-amazon-managed-service-apache-flink-1.jpg)
 
 **Apache Spark**
 
-In [Monitor Apache Spark applications on Amazon EMR with Amazon Cloudwatch](https://aws-oss.beachgeek.co.uk/373) Le Clue Lubbe demonstrates how to publish detailed Spark metrics from Amazon EMR to Amazon CloudWatch. By default, Amazon EMR sends basic metrics to CloudWatch to track the activity and health of a cluster. Spark’s configurable metrics system allows metrics to be collected in a variety of sinks, including HTTP, JMX, and CSV files, but additional configuration is required to enable Spark to publish metrics to CloudWatch. Read this post to see how you can configure those metrics, and produce nice. looking dashboards in Amazon CloudWatch. [hands on]
+In [Monitor Apache Spark applications on Amazon EMR with Amazon Cloudwatch](https://aws.amazon.com/blogs/big-data/monitor-apache-spark-applications-on-amazon-emr-with-amazon-cloudwatch/) Le Clue Lubbe demonstrates how to publish detailed Spark metrics from Amazon EMR to Amazon CloudWatch. By default, Amazon EMR sends basic metrics to CloudWatch to track the activity and health of a cluster. Spark’s configurable metrics system allows metrics to be collected in a variety of sinks, including HTTP, JMX, and CSV files, but additional configuration is required to enable Spark to publish metrics to CloudWatch. Read this post to see how you can configure those metrics, and produce nice. looking dashboards in Amazon CloudWatch. [hands on]
 
 ![example CloudWatch dashboard from Apache Spark data](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/08/08/BDB-3297-dashboard-screenshot-executors.png)
 
-There was more content on this topic last week, and in Monitor your [Databricks Clusters with AWS managed open-source Services](https://aws-oss.beachgeek.co.uk/377) Munish Dabra, Lucas Vieira Souza da Silva, and Rajiv Upadhyay explored how you can leverage AWS managed open-source services to monitor your Apache Spark workloads running on Databricks clusters. [hands on]
+There was more content on this topic last week, and in Monitor your [Databricks Clusters with AWS managed open-source Services](https://aws.amazon.com/blogs/mt/monitor-your-databricks-clusters-with-aws-managed-open-source-services/) Munish Dabra, Lucas Vieira Souza da Silva, and Rajiv Upadhyay explored how you can leverage AWS managed open-source services to monitor your Apache Spark workloads running on Databricks clusters. [hands on]
 
 ![overview of dashboard for databricks workloads ](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/08/22/figure5-dashboard-1.png)
 
 **Other posts and quick reads**
 
-* [Detect real users with AWS Amplify and Face Liveness](https://aws-oss.beachgeek.co.uk/371) provides a nice demo and walkthrough of how to setup the Amplify Face Liveness component using Next.js and a REST API, an AWS Amplify  component that helps verify if your app is being used by real users [hands on]
-* [Bursting your HPC applications to AWS is now easier with Amazon File Cache and AWS ParallelCluster](https://aws-oss.beachgeek.co.uk/372) walks you through the features of File Cache (a high-speed cache on AWS to facilitate efficient file data processing, regardless of its storage location) that are important for HPC environments, and shows you, step-by-step, how you can quickly deploy this and try it out for yourself [hands on]
+* [Detect real users with AWS Amplify and Face Liveness](https://aws.amazon.com/blogs/mobile/detect-real-users-with-aws-amplify-and-face-liveness/) provides a nice demo and walkthrough of how to setup the Amplify Face Liveness component using Next.js and a REST API, an AWS Amplify  component that helps verify if your app is being used by real users [hands on]
+* [Bursting your HPC applications to AWS is now easier with Amazon File Cache and AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/bursting-your-hpc-applications-to-aws-is-now-easier-with-amazon-file-cache-and-aws-parallelcluster/) walks you through the features of File Cache (a high-speed cache on AWS to facilitate efficient file data processing, regardless of its storage location) that are important for HPC environments, and shows you, step-by-step, how you can quickly deploy this and try it out for yourself [hands on]
 
 ![architecture of using Amazon File Cache and AWS ParallelCluster](https://d2908q01vomqb2.cloudfront.net/e6c3dd630428fd54834172b8fd2735fed9416da4/2023/08/30/CleanShot-2023-08-30-at-13.30.08.png)
 
-* [Monitor real-time Amazon RDS OS metrics with flexible granularity using Enhanced Monitoring](https://aws-oss.beachgeek.co.uk/374) provides more monitoring goodness this week, showing you how you can use a feature of Amazon RDS called Enhanced Monitoring, that provides an additional layer of telemetry, which can be useful during investigations that require highly granular monitoring data [hands on]
-* [Generate security insights from Amazon Security Lake data using Amazon OpenSearch Ingestion](https://aws-oss.beachgeek.co.uk/375) explores how you can use the Open Cybersecurity Schema Framework, an open standard for storing security events in a common and shareable format, in combination with OpenSearch to generate actionable insights from your security events [hands on]
+* [Monitor real-time Amazon RDS OS metrics with flexible granularity using Enhanced Monitoring](https://aws.amazon.com/blogs/database/monitor-real-time-amazon-rds-os-metrics-with-flexible-granularity-using-enhanced-monitoring/) provides more monitoring goodness this week, showing you how you can use a feature of Amazon RDS called Enhanced Monitoring, that provides an additional layer of telemetry, which can be useful during investigations that require highly granular monitoring data [hands on]
+* [Generate security insights from Amazon Security Lake data using Amazon OpenSearch Ingestion](https://aws.amazon.com/blogs/big-data/generate-security-insights-from-amazon-security-lake-data-using-amazon-opensearch-ingestion/) explores how you can use the Open Cybersecurity Schema Framework, an open standard for storing security events in a common and shareable format, in combination with OpenSearch to generate actionable insights from your security events [hands on]
 
 ![dashboard in opensearch showing security data](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/08/24/10.png)
 
-* [Setting Up OpenID Connect with GitLab CI/CD to Provide Secure Access to Environments in AWS Accounts](https://aws-oss.beachgeek.co.uk/376) provides a breakdown between three methods for connecting GitLab CI/CD pipelines to AWS, that as your team implements new CI/CD pipelines with AWS or hardens the security of existing pipelines, you can evaluate the tradeoffs based on your organisational goals and security needs. [hands on]
+* [Setting Up OpenID Connect with GitLab CI/CD to Provide Secure Access to Environments in AWS Accounts](https://aws.amazon.com/blogs/apn/setting-up-openid-connect-with-gitlab-ci-cd-to-provide-secure-access-to-environments-in-aws-accounts/) provides a breakdown between three methods for connecting GitLab CI/CD pipelines to AWS, that as your team implements new CI/CD pipelines with AWS or hardens the security of existing pipelines, you can evaluate the tradeoffs based on your organisational goals and security needs. [hands on]
 
 ![setting up openid with gitlab on aws info graphic](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/08/04/GitLab-OIDC-CI-CD-6.png)
 
@@ -127,7 +127,7 @@ PL/Rust version 1.2.3 with crate support for aes, ctr, and rand is available on 
 
 Android, Swift, and Flutter libraries now support Time-Based One-time Passwords (TOTP) as a multi-factor authentication (MFA) method. This feature enables developers to provide their users with a secure option for validating a user’s identity after they provide their username and password. Users of apps with TOTP enabled can register their apps with an Authenticator app such as Google Authenticator, Authy, or the Microsoft Authenticator app. After a user provides their username or password, they would then be presented with a challenge to complete their sign in by providing the code generated by their Authenticator app.
 
-Check out the blog post [AWS Amplify supports Time-Based One-Time Password (TOTP) for MFA on Android, Swift, and Flutter](https://aws-oss.beachgeek.co.uk/36w), where Abdallah Shaban provides a hands on guide through this new feature. [hands on]
+Check out the blog post [AWS Amplify supports Time-Based One-Time Password (TOTP) for MFA on Android, Swift, and Flutter](https://aws.amazon.com/blogs/mobile/aws-amplify-totp-support-for-mfa-on-android-swift-flutter/), where Abdallah Shaban provides a hands on guide through this new feature. [hands on]
 
 ![demo of aws amplify and totp](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2023/08/26/totp-flutter.gif)
 
@@ -139,7 +139,7 @@ By default, in Kubernetes, any pod can talk to any other pod within a cluster wi
 
 With support for NetworkPolicy in Amazon VPC CNI, customers running Kubernetes on AWS can now allow or deny traffic between their pods based on label selectors, namespaces, IP blocks, and ports with minimal overhead. With native VPC integration, they can secure their applications using standard components including security groups, and network access control lists (ACL), as part of additional defence-in-depth measures. In addition, customers can trace and troubleshoot configured policies at a cluster and node level using the Amazon VPC CNI plugin. Starting with VPC CNI v1.14, NetworkPolicy support is available on new clusters running Kubernetes version 1.25 and above but turned off by default at launch.
 
-Srinivas Jasti and Sheetal Joshi have put together a detailed blog post, [Amazon VPC CNI now supports Kubernetes Network Policies](https://aws-oss.beachgeek.co.uk/36x) where they demonstrate how you can enforce fine-grained control over communication, isolate workloads, and enhance the overall security of your AWS Kubernetes clusters—all without the need to manage third-party network policy plugins.
+Srinivas Jasti and Sheetal Joshi have put together a detailed blog post, [Amazon VPC CNI now supports Kubernetes Network Policies](https://aws.amazon.com/blogs/containers/amazon-vpc-cni-now-supports-kubernetes-network-policies/) where they demonstrate how you can enforce fine-grained control over communication, isolate workloads, and enhance the overall security of your AWS Kubernetes clusters—all without the need to manage third-party network policy plugins.
 
 **MySQL and MariaDB**
 
@@ -160,7 +160,7 @@ Support for project quotas is now available at no additional cost on all Amazon 
 
 AWS User Notifications lets you centrally setup and view notifications from AWS services, such as Amazon OpenSearch Service, AWS Health events, Amazon CloudWatch alarms, or EC2 Instance state changes, in a consistent, human-friendly format. Last week it was announced that you could now integrate Amazon OpenSearch Serverless with AWS User Notifications. OpenSearch Serverless is the serverless option for Amazon OpenSearch Service that makes it simple for you to run search and analytics workloads without having to think about infrastructure management.
 
-If you are looking for more details on how you might implement this, then Raj Ramasubbu has you covered in his post, [Monitoring Amazon OpenSearch Serverless using AWS User Notifications](https://aws-oss.beachgeek.co.uk/36y).
+If you are looking for more details on how you might implement this, then Raj Ramasubbu has you covered in his post, [Monitoring Amazon OpenSearch Serverless using AWS User Notifications](https://aws.amazon.com/blogs/big-data/monitoring-amazon-opensearch-serverless-using-aws-user-notifications/).
 
 ![example aws user notification integration with aws opensearch](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/08/29/BDB-3638-image008.png)
 
@@ -190,11 +190,11 @@ Now featured every week in the AWS Community Radio show, grab a quick five minut
 
 {{< youtube v1ZNYlifBV0 >}}
 
-Check out the [playlist here](https://aws-oss.beachgeek.co.uk/359).
+Check out the [playlist here](https://www.youtube.com/watch?v=e2tmEZz6AH8&list=PLJfHV4AQkRhdOvscP40Skjg9Iq6fKvN3H&pp=iAQB).
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes).
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag).
 
 We are currently planning the third series - if you have an open source project you want to talk about, get in touch and we might be able to feature your project in future episodes of Build on Open Source.
 
@@ -209,58 +209,58 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 
 As part of the Developer Webinar series, we are delighted to showcase three sessions that look at open source on AWS. We have Aish Gunasekar who will be talking about "Leveraging OpenSearch for Security Analytics". I will be doing a talk on Cedar, in my session "Next generation Authz with Cedar", and to wrap things up we have Keita Watanabe who will be looking at "Scaling LLM/GenAI deployment with NVIDIA Triton on Amazon EKS". The sessions are technical deep dives, and there will be Q&A as well.
 
-Jump over to the [registration page and sign up](https://aws-oss.beachgeek.co.uk/34j), and hope to see many of you there.
+Jump over to the [registration page and sign up](https://pages.awscloud.com/anz-developer-webinar-september.html), and hope to see many of you there.
 
 **Building ML capabilities with PostgreSQL and pgvector extension**
 **YouTube, 14th September 4pm UK time**
 
 Generative AI and Large Language Models (LLMs) are powerful technologies for building applications with richer and more personalized user experiences. Application developers who use Amazon Aurora for PostgreSQL or Amazon RDS for PostgreSQL can use pgvector, an open-source extension for PostgreSQL, to harness the power of generative AI and LLMs for driving richer user experiences. Register now to learn more about this powerful technology.
 
-Watch it [live on YouTube](https://aws-oss.beachgeek.co.uk/325).
+Watch it [live on YouTube](https://www.youtube.com/watch?v=pJxrjs4D08k).
 
 **Build ML into your apps with PostgreSQL and the pgvector extension**
 **YouTube, 21st September 4pm UK time**
 
 This office hours session is a follow up for those who attended the fireside chat titled "Building ML capabilities into your apps with PostgreSQL and the open-source pgvector extension". Others are also welcome. Office hours attendees can ask questions related to this topic. Application developers who use Amazon Aurora for PostgreSQL or Amazon RDS for PostgreSQL can use pgvector, an open-source extension for PostgreSQL, to harness the power of generative AI and LLMs for driving richer user experiences. Join us to ask your questions and hear the answers to the most frequently asked questions about the pgvector extension for PostgreSQL.
 
-Watch it [live on YouTube](https://aws-oss.beachgeek.co.uk/326).
+Watch it [live on YouTube](https://www.youtube.com/watch?v=_GFUlJW2j70).
 
 **Open Source Summit, Europe**
 **September 19th-21st, Bilboa Spain**
 
-"Open Source Summit is the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors." You will find AWS as well as myself at Open Source Summit this year, so come by the AWS booth and say hello - from the glimpses I have seen so far, it is going to be awesome! Find out more at the official site, [Open Source Summit Europe 2023](https://aws-oss.beachgeek.co.uk/31f).
+"Open Source Summit is the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors." You will find AWS as well as myself at Open Source Summit this year, so come by the AWS booth and say hello - from the glimpses I have seen so far, it is going to be awesome! Find out more at the official site, [Open Source Summit Europe 2023](https://events.linuxfoundation.org/open-source-summit-europe/).
 
 **OpenSearchCon**
 **Seattle, September 27-29, 2023**
 
-Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://aws-oss.beachgeek.co.uk/2zk) that provides you with what you can expect, and resources you need to help plan your trip.
+Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://opensearch.org/blog/registration-for-opensearchcon-2023-is-now-open/) that provides you with what you can expect, and resources you need to help plan your trip.
 
 **CDK Day, 2023**
 **Online, 29th September 2023**
 
-Back for the fourth instalment, this Community led event is a must attend for anyone working with infrastructure as code using the AWS Cloud Development Kit (CDK). It is intended to provide learning opportunities for all users of the CDK and related libraries. The event will be live streamed on YouTube, and you check more at the website, [CDK Day](https://aws-oss.beachgeek.co.uk/fr) 
+Back for the fourth instalment, this Community led event is a must attend for anyone working with infrastructure as code using the AWS Cloud Development Kit (CDK). It is intended to provide learning opportunities for all users of the CDK and related libraries. The event will be live streamed on YouTube, and you check more at the website, [CDK Day](https://www.cdkday.com/) 
 
 **Open Source India**
 **October 12-13th, NIMHANS Convention Center, Bengaluru**
 
-One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://aws-oss.beachgeek.co.uk/31d).
+One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://www.opensourceindia.in).
 
 **All Things Open**
 **October, 15th-17th, Raleigh Convention Center, Raleigh, North Carolina**
 
-I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://aws-oss.beachgeek.co.uk/31e)
+I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://2023.allthingsopen.org)
  
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

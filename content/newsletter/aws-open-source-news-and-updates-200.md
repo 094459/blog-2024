@@ -15,9 +15,9 @@ Welcome to a milestone edition of this newsletter, number #200!! Wow, it feels l
 
 [*the number is probably higher as I did not track links for the first year of the newsletter]
 
-* [iac-devtools-cli-for-cdk](https://aws-oss.beachgeek.co.uk/30h) - is command line interface tool automates many of the tedious tasks of building, adding to, documenting, and extending AWS CDK applications. 
-* [aws-observability/cdk-aws-observability-accelerator](https://aws-oss.beachgeek.co.uk/31y) - The AWS Observability Accelerator for CDK is a set of opinionated modules to help you set up observability for your AWS environments
-* [ariga/atlas](https://aws-oss.beachgeek.co.uk/364) -  A tool for managing database schemas (not AWS specific this one)
+* [iac-devtools-cli-for-cdk](https://github.com/aws-samples/cdk-powertools-cli) - is command line interface tool automates many of the tedious tasks of building, adding to, documenting, and extending AWS CDK applications. 
+* [aws-observability/cdk-aws-observability-accelerator](https://github.com/aws-observability/cdk-aws-observability-accelerator/tree/main) - The AWS Observability Accelerator for CDK is a set of opinionated modules to help you set up observability for your AWS environments
+* [ariga/atlas](https://github.com/ariga/atlas) -  A tool for managing database schemas (not AWS specific this one)
 
 * When it comes to folks who read this newsletter, they come from all over the world. Ethiopia, Azerbaijan, Botswana, Tajikistan, Jordan, Costa Rica, and many many more (104 countries to be specific). The top three countries, which will probably be of no surprise, are the United States, India, and the UK. (Happy to see Spain is in the top 10!). I want to send you all a big thank you for visiting this humble newsletter, and I hope you have enjoyed what I have shared with you. It has been a privilege to share and raise awareness of some of the cool work being done by open source developers, everywhere.
 
@@ -41,59 +41,59 @@ As always, get in touch if you want me to feature your projects in this open sou
 
 **sagemaker-mlflow**
 
-[sagemaker-mlflow](https://aws-oss.beachgeek.co.uk/3ya)  This plugin generates Signature V4 headers in each outgoing request to the Amazon SageMaker with MLflow capability, determines the URL of capability to connect to tracking servers, and registers models to the SageMaker Model Registry. It generates a token with the SigV4 Algorithm that the service will use to conduct Authentication and Authorization using AWS IAM.
+[sagemaker-mlflow](https://github.com/aws/sagemaker-mlflow)  This plugin generates Signature V4 headers in each outgoing request to the Amazon SageMaker with MLflow capability, determines the URL of capability to connect to tracking servers, and registers models to the SageMaker Model Registry. It generates a token with the SigV4 Algorithm that the service will use to conduct Authentication and Authorization using AWS IAM.
 
-If you missed the announcement, you can now use MLFlow on AWS as part of the fully managed MLflow on Amazon SageMaker service. My colleague Veliswa has put together a post that walks you through this new managed service, as well as how to get started. Go check the post out,  [Announcing the general availability of fully managed MLflow on Amazon SageMaker](https://aws-oss.beachgeek.co.uk/3y9)
+If you missed the announcement, you can now use MLFlow on AWS as part of the fully managed MLflow on Amazon SageMaker service. My colleague Veliswa has put together a post that walks you through this new managed service, as well as how to get started. Go check the post out,  [Announcing the general availability of fully managed MLflow on Amazon SageMaker](https://aws.amazon.com/blogs/aws/manage-ml-and-generative-ai-experiments-using-amazon-sagemaker-with-mlflow/)
 
 **distill-cli**
 
-[distill-cli](https://aws-oss.beachgeek.co.uk/3yz) is a new project from Amazon CTO Dr Werner Vogels, which uses Amazon Transcribe and Amazon Bedrock to create summaries of your audio recordings (e.g., meetings, podcasts, etc.) directly from the command line. Distill CLI takes a dependency on Amazon Transcribe, and as such, supports the following media formats: AMR, FLAC, M4A, MP3, MP4, Ogg, WebM, WAV. It is great to feature this latest project, with the previous one being featured in [#197](https://community.aws/content/2gPNtsdSfQRIpmbUrNyPrjUg54D/aws-open-source-newsletter-197). To go with this repo, there is a post too, [Introducing Distill CLI: An efficient, Rust-powered tool for media summarization](https://aws-oss.beachgeek.co.uk/3yy) where Werner shares his experience building this tool in Rust, and provides some closing thoughts too.
+[distill-cli](https://github.com/awslabs/distill-cli) is a new project from Amazon CTO Dr Werner Vogels, which uses Amazon Transcribe and Amazon Bedrock to create summaries of your audio recordings (e.g., meetings, podcasts, etc.) directly from the command line. Distill CLI takes a dependency on Amazon Transcribe, and as such, supports the following media formats: AMR, FLAC, M4A, MP3, MP4, Ogg, WebM, WAV. It is great to feature this latest project, with the previous one being featured in [#197](https://community.aws/content/2gPNtsdSfQRIpmbUrNyPrjUg54D/aws-open-source-newsletter-197). To go with this repo, there is a post too, [Introducing Distill CLI: An efficient, Rust-powered tool for media summarization](https://www.allthingsdistributed.com/2024/06/introducing-distill-cli.html) where Werner shares his experience building this tool in Rust, and provides some closing thoughts too.
 
 ![screenshot of distill-cli running in terminal](https://www.allthingsdistributed.com/images/distill-cli-header.png)
 
 **config-rds-ca-expiry**
 
-[config-rds-ca-expiry](https://aws-oss.beachgeek.co.uk/3z7) provides sample code to create a custom AWS Config rule to detect expiring CA certificates. Everyone loves TLS certs, but we all hate it when we realise that stuff has broken because they expired. It can happen to anyone, so check this out and make sure you are proactively managing your certs on your Amazon RDS instances, and how this is different to the out of the box notifications you already get with Amazon RDS.
+[config-rds-ca-expiry](https://github.com/aws-samples/config-rds-ca-expiry) provides sample code to create a custom AWS Config rule to detect expiring CA certificates. Everyone loves TLS certs, but we all hate it when we realise that stuff has broken because they expired. It can happen to anyone, so check this out and make sure you are proactively managing your certs on your Amazon RDS instances, and how this is different to the out of the box notifications you already get with Amazon RDS.
 
 
 **s3-diff-uploader**
 
-[s3-diff-uploader](https://aws-oss.beachgeek.co.uk/3z0) is the latest project from open source good guy Damon Cortesi, that came about from some [experimentations](https://www.linkedin.com/posts/dacort_i-wanted-to-experiment-recently-with-incremental-activity-7206314345599832065--95_
+[s3-diff-uploader](https://github.com/dacort/s3-diff-uploader/) is the latest project from open source good guy Damon Cortesi, that came about from some [experimentations](https://www.linkedin.com/posts/dacort_i-wanted-to-experiment-recently-with-incremental-activity-7206314345599832065--95_
 ) he was doing with incremental uploads of compressed files to S3. He decided to publish a simple proof-of-concept CLI tool that demonstrates how you can both append and compress file uploads to S3. The result so far, is it uses UploadPartCopy and the fact that you can concatenate gzip chunks to reduce the amount of data you need to upload directly.
 
 ![s3 diff upload flow](https://media.licdn.com/dms/image/D5622AQHZ97bP8MnPmw/feedshare-shrink_2048_1536/0/1719144940507?e=2147483647&v=beta&t=n-kIkTsMlrenbW32SW7_ikvHR5jMDPCmTPnnSJalPQc)
 
 **awsviz**
 
-[awsviz](https://aws-oss.beachgeek.co.uk/3z1) is a super nice little tool from Bour Mohamed Abdelhadi, that helps you quickly visualy your IAM policies. You can check out the hosted version of [awsviz](https://aws-oss.beachgeek.co.uk/3z3) and there are some sample policies to show you what you can expect. Check out the[ use cases doc](https://aws-oss.beachgeek.co.uk/3z4) to see why you might want to try this tool out.
+[awsviz](https://github.com/BourAbdelhadi/awsviz) is a super nice little tool from Bour Mohamed Abdelhadi, that helps you quickly visualy your IAM policies. You can check out the hosted version of [awsviz](https://bourabdelhadi.github.io/awsviz) and there are some sample policies to show you what you can expect. Check out the[ use cases doc](https://bourabdelhadi.github.io/awsviz/scenarios.html) to see why you might want to try this tool out.
 
-You can find out more, including watching a short video on this tool, by checking out the [original LinkedIn post here](https://aws-oss.beachgeek.co.uk/3z5).
+You can find out more, including watching a short video on this tool, by checking out the [original LinkedIn post here](https://www.linkedin.com/posts/bohr_exciting-update-aws-iam-policy-visualization-ugcPost-7209192488090169345-gxGH).
 
 **sparklepop**
 
-[sparklepop](https://aws-oss.beachgeek.co.uk/3z2) is a simple Python package from Daniel B designed to check the free disk space of an AWS RDS instance. It leverages AWS CloudWatch to retrieve the necessary metrics. This package is intended for users who need a straightforward way to monitor disk space without setting up complex alerts.
+[sparklepop](https://github.com/danielbeach/sparklepop) is a simple Python package from Daniel B designed to check the free disk space of an AWS RDS instance. It leverages AWS CloudWatch to retrieve the necessary metrics. This package is intended for users who need a straightforward way to monitor disk space without setting up complex alerts.
 
 **user-behavior-insights**
 
-[user-behavior-insights](https://aws-oss.beachgeek.co.uk/3yx) This repository contains the OpenSearch plugin for the User Behavior Insights (UBI) capability. This plugin facilitates persisting client-side events (e.g. item clicks, scroll depth) and OpenSearch queries for the purpose of analyzing the data to improve search relevance and user experience.
+[user-behavior-insights](https://github.com/opensearch-project/user-behavior-insights) This repository contains the OpenSearch plugin for the User Behavior Insights (UBI) capability. This plugin facilitates persisting client-side events (e.g. item clicks, scroll depth) and OpenSearch queries for the purpose of analyzing the data to improve search relevance and user experience.
 
 ### Demos, Samples, Solutions and Workshops
 
 **slackrock**
 
-[slackrock](https://aws-oss.beachgeek.co.uk/3yw) is a conversational AI assistant powered by Amazon Bedrock & your favorite cutting-edge frontier models. The project is focused on cost efficiency & simplicity, while supporting a wide variety of AI models with differing strengths & weaknesses to fit the widest array of use cases. Converse with your favourite LLMs without ever leaving Slack!
+[slackrock](https://github.com/coreylane/slackrock) is a conversational AI assistant powered by Amazon Bedrock & your favorite cutting-edge frontier models. The project is focused on cost efficiency & simplicity, while supporting a wide variety of AI models with differing strengths & weaknesses to fit the widest array of use cases. Converse with your favourite LLMs without ever leaving Slack!
 
-Corey Lane has also put together a blog post, [Introducing Slackrock: Conversing with AI in Slack Made Easy](https://aws-oss.beachgeek.co.uk/3yv) that walks you through this project, from how it works, how to run and configure it, and more. 
+Corey Lane has also put together a blog post, [Introducing Slackrock: Conversing with AI in Slack Made Easy](https://community.aws/content/2hqMdl6dBTEZXZNSt6m6CwTjeOV/introducing-slackrock-conversing-with-ai-in-slack-made-easy) that walks you through this project, from how it works, how to run and configure it, and more. 
 
 ![example screenshot of slackrock in action](https://assets.community.aws/a/2hu4WH0TAVEHimPHccNn6FYg4Ms/pira.webp)
 
 **amazon-bedrock-slack-gateway**
 
-[amazon-bedrock-slack-gateway](https://aws-oss.beachgeek.co.uk/3z8) lets you use Amazon Bedrock's generative AI to enable Slack channel members to access your organisations data and knowledge sources via conversational question-answering. You can connect to your organisation data via data source connectors and integrate it with Slack Gateway for Amazon Bedrock to enable access to your Slack channel members. It allows your users to converse with Amazon Bedrock using Slack Direct Message (DM) to ask questions and get answers based on company data, get help creating new content such as emails, and performing tasks. You can also invite it to participate in your team channels. In a channel users can ask it questions in a new message, or tag it in a thread at any point. Get it to provide additional data points, resolve a debate, or summarise the conversation and capture next steps.
+[amazon-bedrock-slack-gateway](https://github.com/aws-samples/amazon-bedrock-slack-gateway) lets you use Amazon Bedrock's generative AI to enable Slack channel members to access your organisations data and knowledge sources via conversational question-answering. You can connect to your organisation data via data source connectors and integrate it with Slack Gateway for Amazon Bedrock to enable access to your Slack channel members. It allows your users to converse with Amazon Bedrock using Slack Direct Message (DM) to ask questions and get answers based on company data, get help creating new content such as emails, and performing tasks. You can also invite it to participate in your team channels. In a channel users can ask it questions in a new message, or tag it in a thread at any point. Get it to provide additional data points, resolve a debate, or summarise the conversation and capture next steps.
 
 **build-neptune-graphapp-cdk**
 
-[build-neptune-graphapp-cdk](https://aws-oss.beachgeek.co.uk/3z9) this repo provides a quick example on how to build a graph application with Amazon Neptune and AWS Amplify.
+[build-neptune-graphapp-cdk](https://github.com/aws-samples/build-neptune-graphapp-cdk) this repo provides a quick example on how to build a graph application with Amazon Neptune and AWS Amplify.
 
 ![overview of graph cdk app architecture](https://github.com/aws-samples/build-neptune-graphapp-cdk/blob/main/docs/images/architecture.png?raw=true)
 
@@ -103,52 +103,52 @@ Each week I spent a lot of time reading posts from across the AWS community on o
 
 **This weeks essential reading**
 
-* [AWS CloudFormation Linter (cfn-lint) v1](https://aws-oss.beachgeek.co.uk/3yb) walks you through some potential breaking changes for folk using cfn-lint, and covers what is changing and offers some transition guidance
-* [Disaster recovery strategies for Amazon MWAA – Part 2](https://aws-oss.beachgeek.co.uk/3yf) follows up from a previous post on how to implement DR strategies for your Apache Airflow environments on AWS, this time diving deeper into implementation (with code examples) [hands on]
+* [AWS CloudFormation Linter (cfn-lint) v1](https://aws.amazon.com/blogs/devops/aws-cloudformation-linter-v1/) walks you through some potential breaking changes for folk using cfn-lint, and covers what is changing and offers some transition guidance
+* [Disaster recovery strategies for Amazon MWAA – Part 2](https://aws.amazon.com/blogs/big-data/disaster-recovery-strategies-for-amazon-mwaa-part-2/) follows up from a previous post on how to implement DR strategies for your Apache Airflow environments on AWS, this time diving deeper into implementation (with code examples) [hands on]
 
 ![MWAA DR architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2024/06/05/BackupRestore-Blog-1.png)
 
-* [Introducing the Advanced Python Wrapper Driver for Amazon Aurora](https://aws-oss.beachgeek.co.uk/3yk) provides details on how to use some of the features of the Advanced Python Wrapper Driver [hands on]
+* [Introducing the Advanced Python Wrapper Driver for Amazon Aurora](https://aws.amazon.com/blogs/database/introducing-the-advanced-python-wrapper-driver-for-amazon-aurora/) provides details on how to use some of the features of the Advanced Python Wrapper Driver [hands on]
 
 
 **The best from around the Community**
 
-AWS Community Builder Stefan Weber starts us off this week, with a short post, [How to Package .NET Lambda Functions Using AWS CDK](https://aws-oss.beachgeek.co.uk/3yo), that reminds everyone that sometimes writing down something you don't do frequently, so as to have a reference for future is a great thing to do. Staying with AWS CDK for a moment, we have AWS Community Builder Sidath Munasinghe who has put together [Unleashing the Power of CDK and Terraform in Cloud Deployments](https://aws-oss.beachgeek.co.uk/3yp)  that covers a topic that I don't see much content on, which is how to use CDK to create and deploy your application and infrastructure with Terraform, using cfktf. The final CDK post in this round up comes from a friend of the AWS open source newsletter, AWS Hero Ran Isenberg. In [Amazon CloudFormation Custom Resources Best Practices with CDK and Python Examples](https://aws-oss.beachgeek.co.uk/3yr), Ran explores CloudFormation custom resources, why you need them, and their different types. Make sure you check that post out.
+AWS Community Builder Stefan Weber starts us off this week, with a short post, [How to Package .NET Lambda Functions Using AWS CDK](https://community.aws/content/2bqMI4CeiVXKlabu871UPXkOfjE/how-to-package-net-lambda-functions-using-aws-cdk), that reminds everyone that sometimes writing down something you don't do frequently, so as to have a reference for future is a great thing to do. Staying with AWS CDK for a moment, we have AWS Community Builder Sidath Munasinghe who has put together [Unleashing the Power of CDK and Terraform in Cloud Deployments](https://dev.to/aws-builders/unleashing-the-power-of-cdk-and-terraform-in-cloud-deployments-5680)  that covers a topic that I don't see much content on, which is how to use CDK to create and deploy your application and infrastructure with Terraform, using cfktf. The final CDK post in this round up comes from a friend of the AWS open source newsletter, AWS Hero Ran Isenberg. In [Amazon CloudFormation Custom Resources Best Practices with CDK and Python Examples](https://dev.to/aws-heroes/amazon-cloudformation-custom-resources-best-practices-with-cdk-and-python-examples-5cma), Ran explores CloudFormation custom resources, why you need them, and their different types. Make sure you check that post out.
 
-AWS Community Builder Jakub Wołynko caught my interest in his post on Keycloak, [Install Keycloak on ECS(with Aurora Postgresql) ](https://aws-oss.beachgeek.co.uk/3yq). I have written a few times on this topic, and from the data I have it seems to be an area of a lot of interest, so check out Jakub's post if you want another way to deploy Keycloak in your AWS environment. From Amazon ECS to Kubernetes with AWS Community Builder Arseny Zinchenko, who walks you through a number of different options on how to ssh into your Karpenter nodes in the post, [AWS: Karpenter and SSH for Kubernetes WorkerNodes](https://aws-oss.beachgeek.co.uk/3ys). The final cloud native post this week is from AWS Community Builder Romar Cablao, who has put together a beginners post on running workloads on Amazon EKS. There are lots of these kinds of posts, and I still try and check as many as I can. Occasionally you see one that helps you better understand how Kubernetes works, or even better, will help you explain it to others. Romar has done this I think, in his post, [Back2Basics: Running Workloads on Amazon EKS](https://aws-oss.beachgeek.co.uk/3yt).
+AWS Community Builder Jakub Wołynko caught my interest in his post on Keycloak, [Install Keycloak on ECS(with Aurora Postgresql) ](https://dev.to/aws-builders/install-keycloak-on-ecs-5dbo). I have written a few times on this topic, and from the data I have it seems to be an area of a lot of interest, so check out Jakub's post if you want another way to deploy Keycloak in your AWS environment. From Amazon ECS to Kubernetes with AWS Community Builder Arseny Zinchenko, who walks you through a number of different options on how to ssh into your Karpenter nodes in the post, [AWS: Karpenter and SSH for Kubernetes WorkerNodes](https://dev.to/aws-builders/aws-karpenter-and-ssh-for-kubernetes-workernodes-16km). The final cloud native post this week is from AWS Community Builder Romar Cablao, who has put together a beginners post on running workloads on Amazon EKS. There are lots of these kinds of posts, and I still try and check as many as I can. Occasionally you see one that helps you better understand how Kubernetes works, or even better, will help you explain it to others. Romar has done this I think, in his post, [Back2Basics: Running Workloads on Amazon EKS](https://dev.to/aws-builders/back2basics-running-workloads-on-amazon-eks-5e68).
 
-To close things up this week, I have my colleague Abhisek Gupta who shares how you can get started with Valkey, in the post, [Getting started with Valkey using JavaScript](https://aws-oss.beachgeek.co.uk/3yu). Make sure you check that post out, and follow Abhishek if you want more Valkey content as I am sure you will be seeing a lot more coming up.  
+To close things up this week, I have my colleague Abhisek Gupta who shares how you can get started with Valkey, in the post, [Getting started with Valkey using JavaScript](https://community.aws/content/2hx81ITCvDiWqrAz06SECOvepoa/getting-started-with-valkey-using-javascript). Make sure you check that post out, and follow Abhishek if you want more Valkey content as I am sure you will be seeing a lot more coming up.  
 
 **Cloud Native**
 
-* [OpenShift Virtualization on Red Hat OpenShift Service on AWS (ROSA)](https://aws-oss.beachgeek.co.uk/3y7) dives deep into the function of OpenShift Virtualization, and how you can running OpenShift virtualisation on ROSA allows customers to add the benefit of a managed service to underpin their virtualization stack
-* [Simplify EKS Cluster Deployment and Management with Kyndryl Cloud-Native Solution (KCNS)](https://aws-oss.beachgeek.co.uk/3yc) explains how to simplify, optimize, and automate container orchestration and application modernization with Kyndryl Cloud Native Services (KCNS) for EKS (Elastic Kubernetes Service) [hands on]
-* [Ray Serve High Availability](https://aws-oss.beachgeek.co.uk/3y4) provides you with a detailed solution on how you can deploy a critical component of a Ray Cluster, in a highly available and resilient fashion [hands on] 
-* [Host the Whisper Model with Streaming Mode on Amazon EKS and Ray Serve](https://aws-oss.beachgeek.co.uk/3yd)  shows you how to build a scalable and distributed ML inference solution using the Whisper model for streaming audio transcription, deployed on Amazon EKS and using Ray Serve [hands on]
+* [OpenShift Virtualization on Red Hat OpenShift Service on AWS (ROSA)](https://aws.amazon.com/blogs/ibm-redhat/openshift-virtualization-on-red-hat-openshift-service-on-aws-rosa/) dives deep into the function of OpenShift Virtualization, and how you can running OpenShift virtualisation on ROSA allows customers to add the benefit of a managed service to underpin their virtualization stack
+* [Simplify EKS Cluster Deployment and Management with Kyndryl Cloud-Native Solution (KCNS)](https://aws.amazon.com/blogs/apn/simplify-eks-cluster-deployment-and-management-with-kyndryl-cloud-native-solution-kcns/) explains how to simplify, optimize, and automate container orchestration and application modernization with Kyndryl Cloud Native Services (KCNS) for EKS (Elastic Kubernetes Service) [hands on]
+* [Ray Serve High Availability](https://awslabs.github.io/data-on-eks/docs/gen-ai/inference/rayserve-ha) provides you with a detailed solution on how you can deploy a critical component of a Ray Cluster, in a highly available and resilient fashion [hands on] 
+* [Host the Whisper Model with Streaming Mode on Amazon EKS and Ray Serve](https://aws.amazon.com/blogs/containers/host-the-whisper-model-with-streaming-mode-on-amazon-eks-and-ray-serve/)  shows you how to build a scalable and distributed ML inference solution using the Whisper model for streaming audio transcription, deployed on Amazon EKS and using Ray Serve [hands on]
 
 ![locust real time dashboard](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/06/18/Picture10-1-1024x585.png)
  
-* [How to create a pipeline for hardening Amazon EKS nodes and automate updates](https://aws-oss.beachgeek.co.uk/3yh) provides a hands on guide that shows you how to create a workflow to harden Amazon EKS-optimized AMIs by using the CIS Amazon Linux 2 or Amazon Linux 2023 Benchmark and to automate the update of EKS node groups [hands on]
+* [How to create a pipeline for hardening Amazon EKS nodes and automate updates](https://aws.amazon.com/blogs/security/how-to-create-a-pipeline-for-hardening-amazon-eks-nodes-and-automate-updates/) provides a hands on guide that shows you how to create a workflow to harden Amazon EKS-optimized AMIs by using the CIS Amazon Linux 2 or Amazon Linux 2023 Benchmark and to automate the update of EKS node groups [hands on]
 
 
 **Other posts to check out**
 
-* [New – Rightsizing Recommendations for Amazon RDS MySQL and RDS PostgreSQL in AWS Compute Optimizer](https://aws-oss.beachgeek.co.uk/3y6) takes you through how you can quickly detect idle RDS resources and identify opportunities to optimise your RDS DB instance and storage usage
-* [Stream multi-tenant data with Amazon MSK](https://aws-oss.beachgeek.co.uk/3y8) looks at implementation patterns a SaaS vendor can adopt when using a streaming platform as a means of integration between internal components, where streaming data is not directly exposed to third parties
-* [Design a data mesh pattern for Amazon EMR-based data lakes using AWS Lake Formation with Hive metastore federation](https://aws-oss.beachgeek.co.uk/3yl) delves into the key aspects of using Amazon EMR for modern data management, covering topics such as data governance, data mesh deployment, and streamlined data discovery [hands on]
+* [New – Rightsizing Recommendations for Amazon RDS MySQL and RDS PostgreSQL in AWS Compute Optimizer](https://aws.amazon.com/blogs/aws-cloud-financial-management/new-rightsizing-recommendations-for-amazon-rds-mysql-and-rds-postgresql-in-aws-compute-optimizer/) takes you through how you can quickly detect idle RDS resources and identify opportunities to optimise your RDS DB instance and storage usage
+* [Stream multi-tenant data with Amazon MSK](https://aws.amazon.com/blogs/big-data/stream-multi-tenant-data-with-amazon-msk/) looks at implementation patterns a SaaS vendor can adopt when using a streaming platform as a means of integration between internal components, where streaming data is not directly exposed to third parties
+* [Design a data mesh pattern for Amazon EMR-based data lakes using AWS Lake Formation with Hive metastore federation](https://aws.amazon.com/blogs/big-data/design-a-data-mesh-pattern-for-amazon-emr-based-data-lakes-using-aws-lake-formation-with-hive-metastore-federation/) delves into the key aspects of using Amazon EMR for modern data management, covering topics such as data governance, data mesh deployment, and streamlined data discovery [hands on]
 
 ![overview of emr data lake solution with hive federation architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2024/06/04/BDB-4125_2_image002.gif)
 
-* [Deploying a web application using AWS Amplify Gen 2 with GitLab as the Repository on AWS](https://aws-oss.beachgeek.co.uk/3ye) guides you through the process of deploying a web application using GitLab as the repository and AWS Amplify Hosting as the deployment platform [hands on]
-* [Optimize storage costs in Amazon OpenSearch Service using Zstandard compression](https://aws-oss.beachgeek.co.uk/3yi) explores the performance of the Zstandard algorithm, which was introduced in OpenSearch v2.9, amongst other available compression algorithms in OpenSearch [hands on]
-* [Integrating Research and Engineering Studio with AWS ParallelCluster](https://aws-oss.beachgeek.co.uk/3yj) dives into a new HPC recipe which creates a Research and Engineering Studio on AWS (RES) compatible ParallelCluster login node software stack [hands on]
-* [Exploring new features of Apache TinkerPop 3.7.x in Amazon Neptune](https://aws-oss.beachgeek.co.uk/3ym) explores Apache TinkerPop 3.7.x new features to the Gremlin language, and how they will help improve your ability to write graph queries in various ways [hands on]
+* [Deploying a web application using AWS Amplify Gen 2 with GitLab as the Repository on AWS](https://aws.amazon.com/blogs/mobile/deploying-a-web-application-using-aws-amplify-gen-2-with-gitlab-as-the-repository-on-aws/) guides you through the process of deploying a web application using GitLab as the repository and AWS Amplify Hosting as the deployment platform [hands on]
+* [Optimize storage costs in Amazon OpenSearch Service using Zstandard compression](https://aws.amazon.com/blogs/big-data/optimize-storage-costs-in-amazon-opensearch-service-using-zstandard-compression/) explores the performance of the Zstandard algorithm, which was introduced in OpenSearch v2.9, amongst other available compression algorithms in OpenSearch [hands on]
+* [Integrating Research and Engineering Studio with AWS ParallelCluster](https://aws.amazon.com/blogs/hpc/research-and-engineering-studio-integration-with-aws-parallelcluster/) dives into a new HPC recipe which creates a Research and Engineering Studio on AWS (RES) compatible ParallelCluster login node software stack [hands on]
+* [Exploring new features of Apache TinkerPop 3.7.x in Amazon Neptune](https://aws.amazon.com/blogs/database/exploring-new-features-of-apache-tinkerpop-3-7-x-in-amazon-neptune/) explores Apache TinkerPop 3.7.x new features to the Gremlin language, and how they will help improve your ability to write graph queries in various ways [hands on]
 
 ### Quick updates
 
 **Valkey**
 
-The first generally available, stable Valkey release today. This release maintains the same protocol, API, return values, and data file formats with the last open source release of Redis (7.2.4). Check out the [release page for 7.2.5](https://aws-oss.beachgeek.co.uk/3yn).
+The first generally available, stable Valkey release today. This release maintains the same protocol, API, return values, and data file formats with the last open source release of Redis (7.2.4). Check out the [release page for 7.2.5](https://valkey.io/download/releases/v7-2-5/).
 
 **MariaDB**
 
@@ -160,7 +160,7 @@ Amazon EKS has open sourced the Pod Identity agent, providing customers with mor
 
 With access to the Pod Identity agent’s source code, you are able to inspect the source code and perform necessary scans as part of your build process. Additionally, you can choose to package and deploy the pod identity agent as a binary in your custom EKS AMI. Alternatively, you can build a container image from source code, and store it in your preferred container registry. You can then deploy the containerised agent using a Helm chart or as a Kubernetes manifest file.
 
-If you are interested in diving straight to the source code, you can grab that here - [eks-pod-identity-agent](https://aws-oss.beachgeek.co.uk/3z6)
+If you are interested in diving straight to the source code, you can grab that here - [eks-pod-identity-agent](https://github.com/aws/eks-pod-identity-agent)
 
 **OpenSearch**
 
@@ -214,14 +214,14 @@ Check out and grab your ticket while they are still available at [2024.allthings
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Celebrating open source contributors
 
@@ -237,6 +237,6 @@ Please please please take 1 minute to [complete this short survey](https://www.p
 
 Remember to check out the [Open Source homepage](https://aws.amazon.com/opensource/?opensource-all.sort-by=item.additionalFields.startDate&opensource-all.sort-order=asc) for more open source goodness.
 
-One of the pieces of feedback I received in 2023 was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://aws-oss.beachgeek.co.uk/3l8).
+One of the pieces of feedback I received in 2023 was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://github.com/094459/newsletter-oss-projects).
 
 Made with ♥ from DevRel

@@ -35,29 +35,29 @@ So thank you to the following open source heroes:  Alex Sima, Matt Carey, Dan Sa
 
 **IAMActionHunter**
 
-[IAMActionHunter](https://aws-oss.beachgeek.co.uk/33x) is an open source tool from Rhino Security that is an IAM policy statement parser and query tool. It aims to simplify the process of collecting and understanding permission policy statements for users and roles in AWS Identity and Access Management (IAM). Although its functionality is straightforward, this tool was developed in response to the need for an efficient solution during day-to-day AWS penetration testing. Check out the linked blog post, [IAMActionHunter: Query AWS IAM permission policies with ease](https://aws-oss.beachgeek.co.uk/33y) where David Yesland provides a hands on guided walk through how you can use it. 
+[IAMActionHunter](https://github.com/RhinoSecurityLabs/IAMActionHunter) is an open source tool from Rhino Security that is an IAM policy statement parser and query tool. It aims to simplify the process of collecting and understanding permission policy statements for users and roles in AWS Identity and Access Management (IAM). Although its functionality is straightforward, this tool was developed in response to the need for an efficient solution during day-to-day AWS penetration testing. Check out the linked blog post, [IAMActionHunter: Query AWS IAM permission policies with ease](https://rhinosecuritylabs.com/aws/iamactionhunter-aws-iam-permissions/) where David Yesland provides a hands on guided walk through how you can use it. 
 
 **smithy-python**
 
-[smithy-python](https://aws-oss.beachgeek.co.uk/33z) Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages. A Smithy model enables API providers to generate clients and servers in various programming languages, API documentation, test automation, and example code. This repo provides an early stages of beginning work on low-level Python SDK modules that aim to provide basic, reusable, and composable interfaces for lower level SDK tasks. Using these modules customers should be able to generate asynchronous service client implementations based on services defined using Smithy. Other programming languages are supported by Smithy, and there is a growing list of resources and tutorials to help get you started.
+[smithy-python](https://github.com/smithy-lang/smithy-python) Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages. A Smithy model enables API providers to generate clients and servers in various programming languages, API documentation, test automation, and example code. This repo provides an early stages of beginning work on low-level Python SDK modules that aim to provide basic, reusable, and composable interfaces for lower level SDK tasks. Using these modules customers should be able to generate asynchronous service client implementations based on services defined using Smithy. Other programming languages are supported by Smithy, and there is a growing list of resources and tutorials to help get you started.
 
-Smithy can be used by anyone, and is not tied to AWS. Smithy can be used with any kind of service. All AWS-specific metadata in Smithy is implemented as decoupled packages. Check out the [Smithy docs](https://aws-oss.beachgeek.co.uk/340) for more info.
+Smithy can be used by anyone, and is not tied to AWS. Smithy can be used with any kind of service. All AWS-specific metadata in Smithy is implemented as decoupled packages. Check out the [Smithy docs](https://smithy.io/2.0/index.html) for more info.
 
 **cdk-appsync-typescript-resolver**
 
-[cdk-appsync-typescript-resolver](https://aws-oss.beachgeek.co.uk/341) is a newly published AWS CDK construct to build AppSync JS resolvers using Typescript, which you can also check out on the[ CDK Construct Hub](https://aws-oss.beachgeek.co.uk/342)
+[cdk-appsync-typescript-resolver](https://github.com/sudokar/cdk-appsync-typescript-resolver) is a newly published AWS CDK construct to build AppSync JS resolvers using Typescript, which you can also check out on the[ CDK Construct Hub](https://constructs.dev/packages/cdk-appsync-typescript-resolver/v/0.0.4?lang=typescript)
 
 **awsdocsgpt**
 
-[awsdocsgpt ](https://aws-oss.beachgeek.co.uk/343)is an interesting project from Alex Sima that provides an AI-powered search and chat for AWS Documentation. This provides two things: First, a search interface for AWS documentation, and Second, a chat interface. Check out the README for more details as to how this works. You will need an OpenAI key to run this though. You will need to do some work though, as you have to configure the documentation URLs within the repo, but looks like this would be a really interesting experiment to see how well it provides a better documentation search. It is on my weekend to do list.
+[awsdocsgpt ](https://github.com/alexy201/awsdocsgpt)is an interesting project from Alex Sima that provides an AI-powered search and chat for AWS Documentation. This provides two things: First, a search interface for AWS documentation, and Second, a chat interface. Check out the README for more details as to how this works. You will need an OpenAI key to run this though. You will need to do some work though, as you have to configure the documentation URLs within the repo, but looks like this would be a really interesting experiment to see how well it provides a better documentation search. It is on my weekend to do list.
 
 **code-review-gpt**
 
-[code-review-gpt](https://aws-oss.beachgeek.co.uk/344) this project from AWS Community Builder Matt Carey (see his post below on a different topic) is a personal code reviewer powered by LLMs (OpenAI GPT-3.5/4, Llama, Falcon, Azure AI) & Embeddings. Code Review GPT uses Large Language Models to review code in your CI/CD pipeline. It helps streamline the code review process by providing feedback on code that may have issues or areas for improvement. Check out the repo that provides a nice video demo of this working inside VSCode. This project is "hot" so make sure you check it out.
+[code-review-gpt](https://github.com/mattzcarey/code-review-gpt) this project from AWS Community Builder Matt Carey (see his post below on a different topic) is a personal code reviewer powered by LLMs (OpenAI GPT-3.5/4, Llama, Falcon, Azure AI) & Embeddings. Code Review GPT uses Large Language Models to review code in your CI/CD pipeline. It helps streamline the code review process by providing feedback on code that may have issues or areas for improvement. Check out the repo that provides a nice video demo of this working inside VSCode. This project is "hot" so make sure you check it out.
 
 **S3Scanner**
 
-[S3Scanner](https://aws-oss.beachgeek.co.uk/345) is a very nice tool from Dan Salmon that helps you scan for misconfigured S3 buckets across Amazon S3-compatible APIs. Very nice documentation with clear examples make this a project that you should all be checking out.
+[S3Scanner](https://github.com/sa7mon/S3Scanner) is a very nice tool from Dan Salmon that helps you scan for misconfigured S3 buckets across Amazon S3-compatible APIs. Very nice documentation with clear examples make this a project that you should all be checking out.
 
 ![example screenshot of S3Scanner](https://user-images.githubusercontent.com/3712226/256825665-cfa16801-2a44-4ae9-ad85-9dd466390cd9.png)
 
@@ -65,17 +65,17 @@ Smithy can be used by anyone, and is not tied to AWS. Smithy can be used with an
 
 **amazon-dynamodb-local-samples**
 
-[amazon-dynamodb-local-samples ](https://aws-oss.beachgeek.co.uk/348) is a sample Java project that demonstrates how to use DynamoDB Local for local development and testing. DynamoDB Local is a downloadable version of DynamoDB that enables you to develop and test applications without connecting to the actual DynamoDB service provided by AWS. This project showcases multiple approaches to set up and use DynamoDB Local, including downloading JAR files, running it as a Docker image, and using it as a Maven dependency.
+[amazon-dynamodb-local-samples ](https://github.com/awslabs/amazon-dynamodb-local-samples) is a sample Java project that demonstrates how to use DynamoDB Local for local development and testing. DynamoDB Local is a downloadable version of DynamoDB that enables you to develop and test applications without connecting to the actual DynamoDB service provided by AWS. This project showcases multiple approaches to set up and use DynamoDB Local, including downloading JAR files, running it as a Docker image, and using it as a Maven dependency.
 
 **pixel-streaming-on-eks**
 
-[pixel-streaming-on-eks](https://aws-oss.beachgeek.co.uk/349) provides sample code for deploying Pixel streaming on Amazon EKS. What is Pixel streaming I can hear some of you asking (or was that just me?). I didn't know, so I asked a few people. With Pixel Streaming, you can run a packaged Unreal Engine application on a desktop PC or a server in the cloud, along with a small stack of web services that are included with the Unreal Engine. 
+[pixel-streaming-on-eks](https://github.com/aws-samples/pixel-streaming-on-eks) provides sample code for deploying Pixel streaming on Amazon EKS. What is Pixel streaming I can hear some of you asking (or was that just me?). I didn't know, so I asked a few people. With Pixel Streaming, you can run a packaged Unreal Engine application on a desktop PC or a server in the cloud, along with a small stack of web services that are included with the Unreal Engine. 
 
 ![architecture for pixel streaming on aws](https://github.com/aws-samples/pixel-streaming-on-eks/blob/main/architecture.png?raw=true)
 
 **product-substitutions**
 
-[product-substitutions](https://aws-oss.beachgeek.co.uk/34a) is an example of how one can use OpenSearch's kNN feature in combination with Natural Language Processing to produce recommendations for replacing out of stock grocery store products. In this solution, grocery store product names and descriptions are converted into embeddings using the all-MiniLM-L6-v2 sentence transformer, and stored in a kNN index. When querying for product recommendations, neighbouring products are located within the kNN index and returned to the user. The relevance of returned products is increased with additional optional category and price-based pre-filtering. The project used AWS CDK to make it super easy to try out.
+[product-substitutions](https://github.com/aws-samples/product-substitutions) is an example of how one can use OpenSearch's kNN feature in combination with Natural Language Processing to produce recommendations for replacing out of stock grocery store products. In this solution, grocery store product names and descriptions are converted into embeddings using the all-MiniLM-L6-v2 sentence transformer, and stored in a kNN index. When querying for product recommendations, neighbouring products are located within the kNN index and returned to the user. The relevance of returned products is increased with additional optional category and price-based pre-filtering. The project used AWS CDK to make it super easy to try out.
 
 ![architecture of product substitutions using opensearch](https://github.com/aws-samples/product-substitutions/blob/main/doc/images/architecture.png?raw=true)
 
@@ -83,55 +83,55 @@ Smithy can be used by anyone, and is not tied to AWS. Smithy can be used with an
 
 **Community round up**
 
-As always I like to kick off with a round up of  my highlights from the AWS community, and this week we have another line up of great content. Kicking things off we have Anna Geller with [Apache Iceberg Crash Course for AWS users: Amazon S3, Athena & AWS Glue ❤️ Iceberg](https://aws-oss.beachgeek.co.uk/33r) which is one of the nicest tutorials on how to get started with Apache Iceberg on AWS that I have looked at. Make sure you check this out, amazing stuff. Sticking with Apache Iceberg we have [Vacuuming Amazon Athena Iceberg with AWS Step Functions](https://aws-oss.beachgeek.co.uk/33s) from the lovely folks at Matano. If you have every seen "ICEBERG_VACUUM_MORE_RUNS_NEEDED" when working with Amazon Athena Iceberg tables, then you need to check out this post (and code) that provides a solution to these errors by using AWS Step Functions to retry vacuuming Amazon Athena Iceberg tables until they are clean. From Apache Iceberg to Apache Kafka and OpenSearch, and this time it is my colleague Abhishek Gupta who has put together a great tutorial for Go developers. In [Ingesting Data into OpenSearch using Apache Kafka and Go](https://aws-oss.beachgeek.co.uk/33t) Abhishek looks at how to create custom integrations (in Go) that will let you ingest data from Apache Kafka into OpenSearch.
+As always I like to kick off with a round up of  my highlights from the AWS community, and this week we have another line up of great content. Kicking things off we have Anna Geller with [Apache Iceberg Crash Course for AWS users: Amazon S3, Athena & AWS Glue ❤️ Iceberg](https://kestra.io/blogs/2023-08-05-iceberg-for-aws-users) which is one of the nicest tutorials on how to get started with Apache Iceberg on AWS that I have looked at. Make sure you check this out, amazing stuff. Sticking with Apache Iceberg we have [Vacuuming Amazon Athena Iceberg with AWS Step Functions](https://devopstar.com/2023/07/28/vacuuming-iceberg-with-aws-step-functions/) from the lovely folks at Matano. If you have every seen "ICEBERG_VACUUM_MORE_RUNS_NEEDED" when working with Amazon Athena Iceberg tables, then you need to check out this post (and code) that provides a solution to these errors by using AWS Step Functions to retry vacuuming Amazon Athena Iceberg tables until they are clean. From Apache Iceberg to Apache Kafka and OpenSearch, and this time it is my colleague Abhishek Gupta who has put together a great tutorial for Go developers. In [Ingesting Data into OpenSearch using Apache Kafka and Go](https://community.aws/tutorials/opensearch-kafka-golang-data-ingestion) Abhishek looks at how to create custom integrations (in Go) that will let you ingest data from Apache Kafka into OpenSearch.
 
-Victor Dorneanu has become  a big fan of PlantUML, an open source project that helps you create diagrams through markdown. I agree, and so I really enjoyed reading [Documentation as Code for Cloud - PlantUML](https://aws-oss.beachgeek.co.uk/33u). It is a lovely detailed post, so make sure you grab a cup of your favourite drink whilst you enjoy going through this. Next up is Daniel Genezini who put together [Integration tests with AWS S3 buckets using Localstack and Testcontainers](https://aws-oss.beachgeek.co.uk/33v), which is part of a series of posts Daniel is putting together on how to use Localstack, together with Testcontainers, to emulate AWS for use in integration tests. Wrapping up this weeks community round up is AWS Community Builder Matt Carey who shares news of a new project he has been working on. In [Unifying AI endpoints with Genoss, powered by LangChain](https://aws-oss.beachgeek.co.uk/33w) that makes it easier to switch out and use different models when working with large language models (LLMs).
+Victor Dorneanu has become  a big fan of PlantUML, an open source project that helps you create diagrams through markdown. I agree, and so I really enjoyed reading [Documentation as Code for Cloud - PlantUML](https://blog.dornea.nu/2023/07/30/documentation-as-code-for-cloud-plantuml/). It is a lovely detailed post, so make sure you grab a cup of your favourite drink whilst you enjoy going through this. Next up is Daniel Genezini who put together [Integration tests with AWS S3 buckets using Localstack and Testcontainers](https://blog.genezini.com/p/integration-tests-with-aws-s3-buckets-using-localstack-and-testcontainers/), which is part of a series of posts Daniel is putting together on how to use Localstack, together with Testcontainers, to emulate AWS for use in integration tests. Wrapping up this weeks community round up is AWS Community Builder Matt Carey who shares news of a new project he has been working on. In [Unifying AI endpoints with Genoss, powered by LangChain](https://blog.langchain.dev/unifying-ai-endpoints-with-genoss/) that makes it easier to switch out and use different models when working with large language models (LLMs).
 
 **Supply Chain Security**
 
-Fabulous post from Liz Duke that takes a look at how you can create a DevSecOps pipeline and start finding issues earlier. In [Shift left to secure your container supply chain](https://aws-oss.beachgeek.co.uk/33m) Liz shows you how you can create pipeline that performs three different types of security checks on container images, tags the images and then deploys them onto Amazon ECS on AWS Fargate. The post also looks at how you can create an audit log of any images that have Common Vulnerabilities and Exposures (CVEs) listed as HIGH, MEDIUM or below. Great post and a must read this week.
+Fabulous post from Liz Duke that takes a look at how you can create a DevSecOps pipeline and start finding issues earlier. In [Shift left to secure your container supply chain](https://aws.amazon.com/blogs/containers/shift-left-to-secure-your-container-supply-chain/) Liz shows you how you can create pipeline that performs three different types of security checks on container images, tags the images and then deploys them onto Amazon ECS on AWS Fargate. The post also looks at how you can create an audit log of any images that have Common Vulnerabilities and Exposures (CVEs) listed as HIGH, MEDIUM or below. Great post and a must read this week.
 
 ![overview of shifting left with container security](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/07/18/Service-Architecture.png)
 
 **Apache Spark and Apache Flink**
 
-Great post from Deepthi Mohan and Karthi Thyagarajan that will help you make better decisions when it comes to deciding which open source technology is a better fit for your specific streaming use case. In [A side-by-side comparison of Apache Spark and Apache Flink for common streaming use cases](https://aws-oss.beachgeek.co.uk/33o)  they provide a comparative study of streaming patterns that are commonly used to build stream processing applications, how they can be solved using Apache Spark (primarily Spark Structured Streaming) and Apache Flink, and the minor variations in their approach. Great post and a must read this week. [hands on]
+Great post from Deepthi Mohan and Karthi Thyagarajan that will help you make better decisions when it comes to deciding which open source technology is a better fit for your specific streaming use case. In [A side-by-side comparison of Apache Spark and Apache Flink for common streaming use cases](https://aws.amazon.com/blogs/big-data/a-side-by-side-comparison-of-apache-spark-and-apache-flink-for-common-streaming-use-cases/)  they provide a comparative study of streaming patterns that are commonly used to build stream processing applications, how they can be solved using Apache Spark (primarily Spark Structured Streaming) and Apache Flink, and the minor variations in their approach. Great post and a must read this week. [hands on]
 
 **Apache Hudi**
 
-Apache Hudi is an open-source data management framework used to simplify incremental data processing and data pipeline development. In the post, [Create an Apache Hudi-based near-real-time transactional data lake using AWS DMS, Amazon Kinesis, AWS Glue streaming ETL, and data visualization using Amazon QuickSight](https://aws-oss.beachgeek.co.uk/33g) Raj Ramasubbu, Sundeep Kumar, and Rahul Sonawane demonstrate how you can stream data, not only new records, but also updated records from relational databases, to Amazon S3 using an AWS Glue streaming job to create an Apache Hudi-based near-real-time transactional data lake. [hands on]
+Apache Hudi is an open-source data management framework used to simplify incremental data processing and data pipeline development. In the post, [Create an Apache Hudi-based near-real-time transactional data lake using AWS DMS, Amazon Kinesis, AWS Glue streaming ETL, and data visualization using Amazon QuickSight](https://aws.amazon.com/blogs/big-data/create-an-apache-hudi-based-near-real-time-transactional-data-lake-using-aws-dms-amazon-kinesis-aws-glue-streaming-etl-and-data-visualization-using-amazon-quicksight/) Raj Ramasubbu, Sundeep Kumar, and Rahul Sonawane demonstrate how you can stream data, not only new records, but also updated records from relational databases, to Amazon S3 using an AWS Glue streaming job to create an Apache Hudi-based near-real-time transactional data lake. [hands on]
 
 ![apache hudi real time data lake architecture solution](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/08/01/BDB-2503-image003-resize.png)
 
 **AWS Amplify**
 
-It seems like every week we have a new social media app, so I have the perfect post for you. Create your own social networking app by following along with Danny Banks and Wesley in their post, [Building a social network app with Amplify Form Builder and Storage](https://aws-oss.beachgeek.co.uk/33q). In this post you will learn how to set up an Amplify project with Storage and Data, and use Amplify Studio’s Form Builder to build a basic social network feed app. Users can create posts with an image and those posts are shown in a feed. Cats optional. [hands on]
+It seems like every week we have a new social media app, so I have the perfect post for you. Create your own social networking app by following along with Danny Banks and Wesley in their post, [Building a social network app with Amplify Form Builder and Storage](https://aws.amazon.com/blogs/mobile/building-a-social-network-app-with-amplify-form-builder-and-storage/). In this post you will learn how to set up an Amplify project with Storage and Data, and use Amplify Studio’s Form Builder to build a basic social network feed app. Users can create posts with an image and those posts are shown in a feed. Cats optional. [hands on]
 
 ![overview of aws amplify social network demo app](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2023/07/25/CleanShot-2023-07-25-at-13.57.14.gif)
 
 **Other posts and quick reads**
 
-* [Best strategies for achieving high performance and high availability on Amazon RDS for MySQL with Multi-AZ DB Clusters](https://aws-oss.beachgeek.co.uk/33h) explores key considerations and migration best practices when upgrading Amazon RDS for MySQL 5.7.x to MySQL 8.0.x [hands on]
+* [Best strategies for achieving high performance and high availability on Amazon RDS for MySQL with Multi-AZ DB Clusters](https://aws.amazon.com/blogs/database/best-strategies-for-achieving-high-performance-and-high-availability-on-amazon-rds-for-mysql-with-multi-az-db-clusters/) explores key considerations and migration best practices when upgrading Amazon RDS for MySQL 5.7.x to MySQL 8.0.x [hands on]
 
 ![example migration scenario for mysql migration using dms](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/07/23/DB3303-arch-3.png)
 
-* [Migrate Microsoft SQL Server to Babelfish for Aurora PostgreSQL with minimal downtime using AWS DMS](https://aws-oss.beachgeek.co.uk/33j) is a hands on guide on how you can use Amazon Aurora PostgreSQL-Compatible Edition as the target engine for continuous migration from a source SQL Server database using Babelfish for Aurora PostgreSQL [hands on]
+* [Migrate Microsoft SQL Server to Babelfish for Aurora PostgreSQL with minimal downtime using AWS DMS](https://aws.amazon.com/blogs/database/migrate-microsoft-sql-server-to-babelfish-for-aurora-postgresql-with-minimal-downtime-using-aws-dms/) is a hands on guide on how you can use Amazon Aurora PostgreSQL-Compatible Edition as the target engine for continuous migration from a source SQL Server database using Babelfish for Aurora PostgreSQL [hands on]
 
 ![using babelfish for continious migration overview ](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/07/19/DBBLOG2665_1_IMAGE1.png)
 
-* [Automating custom networking to solve IPv4 exhaustion in Amazon EKS](https://aws-oss.beachgeek.co.uk/33i) looks at how you can address IP exhaustion by using custom networking pattern defined in Amazon EKS blueprints [hands on]
-* [Migrating to Amazon Managed Service for Prometheus with the Prometheus Operator](https://aws-oss.beachgeek.co.uk/33n) provides a detailed guide to the basics of the Prometheus Operator and how you can use this operator to begin to use Amazon Managed Service for Prometheus [hands on]
-* [Make your dashboards faster and more cost-effective with Grafana query caching and Amazon Timestream](https://aws-oss.beachgeek.co.uk/33k) demonstrates how to create a Grafana dashboard with your data in Timestream and how to configure a query cache using Grafana query caching [hands on]
+* [Automating custom networking to solve IPv4 exhaustion in Amazon EKS](https://aws.amazon.com/blogs/containers/automating-custom-networking-to-solve-ipv4-exhaustion-in-amazon-eks/) looks at how you can address IP exhaustion by using custom networking pattern defined in Amazon EKS blueprints [hands on]
+* [Migrating to Amazon Managed Service for Prometheus with the Prometheus Operator](https://aws.amazon.com/blogs/mt/migrating-to-amazon-managed-service-for-prometheus-with-the-prometheus-operator/) provides a detailed guide to the basics of the Prometheus Operator and how you can use this operator to begin to use Amazon Managed Service for Prometheus [hands on]
+* [Make your dashboards faster and more cost-effective with Grafana query caching and Amazon Timestream](https://aws.amazon.com/blogs/database/make-your-dashboards-faster-and-more-cost-effective-with-grafana-query-caching-and-amazon-timestream/) demonstrates how to create a Grafana dashboard with your data in Timestream and how to configure a query cache using Grafana query caching [hands on]
 
 ![dashboard of timestream data in grafana](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/07/31/dbblog-3453-image017.png)
 
-* [Modernizing a WCF service to CoreWCF: Lessons learned](https://aws-oss.beachgeek.co.uk/33p) shares all the steps taken and lessons learned in modernising WCF services to open source CoreWCF [hands on]
+* [Modernizing a WCF service to CoreWCF: Lessons learned](https://aws.amazon.com/blogs/modernizing-with-aws/wcf-service-to-corewcf/) shares all the steps taken and lessons learned in modernising WCF services to open source CoreWCF [hands on]
 
 ![decision flowchart for wcf to corewcf](https://d2908q01vomqb2.cloudfront.net/8effee409c625e1a2d8f5033631840e6ce1dcb64/2023/07/25/PortingPackages.jpg)
 
 **Case Studies**
 
-Abhi Karode and Vijay Pawar, together with Ophir Zahavi, Cloud Engineering Manager, H2O.ai have collaborated on [How H2O.ai optimized and secured their AI/ML infrastructure with Karpenter and Bottlerocket](https://aws-oss.beachgeek.co.uk/33l) and talks about how H20.ai use Karpenter, an AWS open-sourced just-in-time Kubernetes autoscaler, and Bottlerocket, a secure, lightweight, purpose-built Linux-based operating system to run containers in the Amazon Elastic Kubernetes Service (Amazon EKS) clusters
+Abhi Karode and Vijay Pawar, together with Ophir Zahavi, Cloud Engineering Manager, H2O.ai have collaborated on [How H2O.ai optimized and secured their AI/ML infrastructure with Karpenter and Bottlerocket](https://aws.amazon.com/blogs/containers/how-h2o-ai-optimized-and-secured-their-ai-ml-infrastructure-with-karpenter-and-bottlerocket/) and talks about how H20.ai use Karpenter, an AWS open-sourced just-in-time Kubernetes autoscaler, and Bottlerocket, a secure, lightweight, purpose-built Linux-based operating system to run containers in the Amazon Elastic Kubernetes Service (Amazon EKS) clusters
 
 ![overview of h20.ai architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/07/27/Karpenter-Autoscaler.png)
 
@@ -139,7 +139,7 @@ Abhi Karode and Vijay Pawar, together with Ophir Zahavi, Cloud Engineering Manag
 
 **aws-docker-toolkit**
 
-AWS Toolkit  is a dockerised version of the awscli, a tool that helps you run the tool without directly installing it on your system. [Version 2.3.15](https://aws-oss.beachgeek.co.uk/33d) was released last week. It's simple to map your AWS credentials to this container and even set up a .bash_profile so you can just type aws in the command line. The image is auto-built daily to ensure the Linux base image is constantly updated in the background and that you have the latest awscli version.
+AWS Toolkit  is a dockerised version of the awscli, a tool that helps you run the tool without directly installing it on your system. [Version 2.3.15](https://github.com/richarvey/aws-docker-toolkit) was released last week. It's simple to map your AWS credentials to this container and even set up a .bash_profile so you can just type aws in the command line. The image is auto-built daily to ensure the Linux base image is constantly updated in the background and that you have the latest awscli version.
 
 **Apache Spark**
 
@@ -173,7 +173,7 @@ Now available is Local Write Forwarding for Amazon Aurora MySQL-Compatible Editi
 
 Last week saw the launch of a new CloudWatch Logger feature with AWS Amplify, which is available now for Swift and Android developers. This feature empowers developers to log errors from the Amplify libraries to CloudWatch, enhancing the ability to detect production issues. It also enables developers to write custom logs to detect failures in different parts of their applications. Developers using the Amplify Logger will have increased visibility into issues that are affecting their production apps. Developers can also remotely configure their logging levels, and add an allow-list of users to granularly detect issues impacting their experience. 
 
-Read more about this from Abdallah Shaban in the post, [AWS Amplify enables CloudWatch Logging Support for Swift and Android](https://aws-oss.beachgeek.co.uk/33f)
+Read more about this from Abdallah Shaban in the post, [AWS Amplify enables CloudWatch Logging Support for Swift and Android](https://aws.amazon.com/blogs/mobile/aws-amplify-cloudwatch-logger-is-now-available-for-swift-and-android/)
 
 ### Videos of the week
 
@@ -186,14 +186,14 @@ Iambic is a project that I featured in a previous newsletter ([#155](https://dev
 
 **AWS Open Source Brief**
 
-Appearing every week on the AWS Community Radio show that is run by all round open source good guy, Ric Harvey, is the AWS Open Source Brief. In this short, five minute video, I take a look at this weekly newsletter and dive a little deeper into some of the projects, content, and other open source topics covered. You can catch the [playlist here](https://aws-oss.beachgeek.co.uk/33e), and am sharing last weeks episode here.
+Appearing every week on the AWS Community Radio show that is run by all round open source good guy, Ric Harvey, is the AWS Open Source Brief. In this short, five minute video, I take a look at this weekly newsletter and dive a little deeper into some of the projects, content, and other open source topics covered. You can catch the [playlist here](https://www.youtube.com/watch?v=gN2m9WVf0us&list=PLJfHV4AQkRhdOvscP40Skjg9Iq6fKvN3H), and am sharing last weeks episode here.
 
 {{< youtube gN2m9WVf0us >}}
 
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes).
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag).
 
 We are currently planning the third series - if you have an open source project you want to talk about, get in touch and we might be able to feature your project in future episodes of Build on Open Source.
 
@@ -210,71 +210,71 @@ AWS User groups regularly meet across the world, and in this London chapter of t
 > This is the story of how Quivr went viral and how our tiny dev team struggled to build all the features our user base wanted. We will talk about the challenges we faced scaling a generative AI-powered app without it costing the earth on ECS Fargate, and the extra tooling we had to build along the way.
 > We will cover how we solved the problems of keeping the project open source and super easy to both use and contribute whilst leveraging AWS services in a different way to most."
 
-Find out more about the other talk and details of how to register, over at the[ meetup page AWS User Group UK Meetup](https://aws-oss.beachgeek.co.uk/32l)
+Find out more about the other talk and details of how to register, over at the[ meetup page AWS User Group UK Meetup](https://www.meetup.com/awsuguk/events/291124882/)
 
 **Developer eXperience and serverless**
 **Sigma Technology Cloud, Malmö, Sweden, August 29th 5:30pm**
 
-The AWS Skåne Meetup features a great line up as always, but of interest to open source developers will be the session on Powertools for AWS Lambda that none other than Heitor Lessa will be delivering, and our good friend and AWS Community Builder Lars Jacobsson who will be demonstrating his tool [samp-cli](https://aws-oss.beachgeek.co.uk/34c). If you are in the area, make sure you reserve your spot. You can find more on the meetup page for [Developer eXperience and serverless](https://aws-oss.beachgeek.co.uk/34b)
+The AWS Skåne Meetup features a great line up as always, but of interest to open source developers will be the session on Powertools for AWS Lambda that none other than Heitor Lessa will be delivering, and our good friend and AWS Community Builder Lars Jacobsson who will be demonstrating his tool [samp-cli](https://github.com/ljacobsson/samp-cli#readme). If you are in the area, make sure you reserve your spot. You can find more on the meetup page for [Developer eXperience and serverless](https://www.meetup.com/aws-user-group-skane/events/294739753/)
 
 
 **RADIUSS AWS Tutorials: Learn how to use a modern HPC software stack**
 **Online, throughout August 2023**
 
-Check out this series of online tutorials happening throughout August demonstrating how to use several GPU-ready projects in the cloud and on premises. Follow along on your own EC2 instance (provided). No previous experience necessary. Lots of open source technologies are covered in this series, so if you are looking to get started in this space, check out the details on the information page, [Learn how to use a modern HPC software stack](https://aws-oss.beachgeek.co.uk/31h). Brenden Bouffler has also put together a great blog post, [Call for participation: RADIUSS Tutorial Series 2023](https://aws-oss.beachgeek.co.uk/31i) that dives deeper into some of these topics and provides further information.
+Check out this series of online tutorials happening throughout August demonstrating how to use several GPU-ready projects in the cloud and on premises. Follow along on your own EC2 instance (provided). No previous experience necessary. Lots of open source technologies are covered in this series, so if you are looking to get started in this space, check out the details on the information page, [Learn how to use a modern HPC software stack](https://software.llnl.gov/radiuss/event/2023/07/11/radiuss-on-aws/). Brenden Bouffler has also put together a great blog post, [Call for participation: RADIUSS Tutorial Series 2023](https://aws.amazon.com/blogs/hpc/call-for-participation-radiuss-tutorial-series-2023/) that dives deeper into some of these topics and provides further information.
 
 **Building ML capabilities with PostgreSQL and pgvector extension**
 **YouTube, 14th September 4pm UK time**
 
 Generative AI and Large Language Models (LLMs) are powerful technologies for building applications with richer and more personalized user experiences. Application developers who use Amazon Aurora for PostgreSQL or Amazon RDS for PostgreSQL can use pgvector, an open-source extension for PostgreSQL, to harness the power of generative AI and LLMs for driving richer user experiences. Register now to learn more about this powerful technology.
 
-Watch it [live on YouTube](https://aws-oss.beachgeek.co.uk/325).
+Watch it [live on YouTube](https://www.youtube.com/watch?v=pJxrjs4D08k).
 
 **Build ML into your apps with PostgreSQL and the pgvector extension**
 **YouTube, 21st September 4pm UK time**
 
 This office hours session is a follow up for those who attended the fireside chat titled "Building ML capabilities into your apps with PostgreSQL and the open-source pgvector extension". Others are also welcome. Office hours attendees can ask questions related to this topic. Application developers who use Amazon Aurora for PostgreSQL or Amazon RDS for PostgreSQL can use pgvector, an open-source extension for PostgreSQL, to harness the power of generative AI and LLMs for driving richer user experiences. Join us to ask your questions and hear the answers to the most frequently asked questions about the pgvector extension for PostgreSQL.
 
-Watch it [live on YouTube](https://aws-oss.beachgeek.co.uk/326).
+Watch it [live on YouTube](https://www.youtube.com/watch?v=_GFUlJW2j70).
 
 **Open Source Summit, Europe**
 **September 19th-21st, Bilboa Spain**
 
-"Open Source Summit is the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors." You will find AWS as well as myself at Open Source Summit this year, so come by the AWS booth and say hello - from the glimpses I have seen so far, it is going to be awesome! Find out more at the official site, [Open Source Summit Europe 2023](https://aws-oss.beachgeek.co.uk/31f).
+"Open Source Summit is the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors." You will find AWS as well as myself at Open Source Summit this year, so come by the AWS booth and say hello - from the glimpses I have seen so far, it is going to be awesome! Find out more at the official site, [Open Source Summit Europe 2023](https://events.linuxfoundation.org/open-source-summit-europe/).
 
 **OpenSearchCon**
 **Seattle, September 27-29, 2023**
 
-Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://aws-oss.beachgeek.co.uk/2zk) that provides you with what you can expect, and resources you need to help plan your trip.
+Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://opensearch.org/blog/registration-for-opensearchcon-2023-is-now-open/) that provides you with what you can expect, and resources you need to help plan your trip.
 
 **CDK Day, 2023**
 **Online, 29th September 2023**
 
 Back for the fourth instalment, this Community led event is a must attend for anyone working with infrastructure as code using the AWS Cloud Development Kit (CDK). It is intended to provide learning opportunities for all users of the CDK and related libraries. The CFP is open, so if you have some ideas for some talks then make sure you check that section out. Also, this year they are accepting talks in Espanol! Woohoo, love it!
 
-Check more at the website, [CDK Day](https://aws-oss.beachgeek.co.uk/fr) 
+Check more at the website, [CDK Day](https://www.cdkday.com/) 
 
 **Open Source India**
 **October 12-13th, NIMHANS Convention Center, Bengaluru**
 
-One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://aws-oss.beachgeek.co.uk/31d).
+One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://www.opensourceindia.in).
 
 **All Things Open**
 **October, 15th-17th, Raleigh Convention Center, Raleigh, North Carolina**
 
-I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://aws-oss.beachgeek.co.uk/31e)
+I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://2023.allthingsopen.org)
  
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

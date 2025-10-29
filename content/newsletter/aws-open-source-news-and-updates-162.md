@@ -32,66 +32,66 @@ So thank you to the following open source heroes:  Aidan Steele, Rio Astamal, Cr
 
 **ChatGPT-cloud-plugin**
 
-[ChatGPT-cloud-plugin](https://aws-oss.beachgeek.co.uk/2yl) is the latest project from our good friend, Cristian Magherusan-Stanciu, and is a new experimental project that one day, will help you manage your AWS resources using ChatGPT. One to watch.
+[ChatGPT-cloud-plugin](https://github.com/LeanerCloud/ChatGPT-cloud-plugin) is the latest project from our good friend, Cristian Magherusan-Stanciu, and is a new experimental project that one day, will help you manage your AWS resources using ChatGPT. One to watch.
 
 **lightsail-miab-installer**
 
-[lightsail-miab-installer](https://aws-oss.beachgeek.co.uk/2ym) is a user-friendly command-line tool from my colleague Rio Astamal, that will help you streamline the setup of [Mail-in-a-Box](https://aws-oss.beachgeek.co.uk/2yn) on Amazon Lightsail. I have featured [Mail-in-a-Box](https://aws-oss.beachgeek.co.uk/2yn) in previous newsletters, and this project provides everything you need to run a turn-key mail system. It uses lots of other open source projects and technologies (postfix, Dovecot, nginx, dns4, and lots more!).
+[lightsail-miab-installer](https://github.com/rioastamal/lightsail-miab-installer) is a user-friendly command-line tool from my colleague Rio Astamal, that will help you streamline the setup of [Mail-in-a-Box](https://github.com/mail-in-a-box/mailinabox) on Amazon Lightsail. I have featured [Mail-in-a-Box](https://github.com/mail-in-a-box/mailinabox) in previous newsletters, and this project provides everything you need to run a turn-key mail system. It uses lots of other open source projects and technologies (postfix, Dovecot, nginx, dns4, and lots more!).
 
 **rdsconn**
 
-[rdsconn](https://aws-oss.beachgeek.co.uk/2yo) is the latest project from AWS Hero Aidan Steele, that makes connecting to an AWS RDS instance inside a VPC from your laptop easier. It uses the recently launched EC2 Instance Connect to achieve this. This is something that I am going to try out as I do run a lot of RDS demo instances, and so I can see this being very handy indeed (good by ssh-tunnel)
+[rdsconn](https://github.com/aidansteele/rdsconn) is the latest project from AWS Hero Aidan Steele, that makes connecting to an AWS RDS instance inside a VPC from your laptop easier. It uses the recently launched EC2 Instance Connect to achieve this. This is something that I am going to try out as I do run a lot of RDS demo instances, and so I can see this being very handy indeed (good by ssh-tunnel)
 
 **kafka-connect-watcher**
 
-[kafka-connect-watcher](https://aws-oss.beachgeek.co.uk/2yp) is a project from AWS Community Builder John Mille, that will actively probe and monitor your Kafka connect clusters using the Connect API. It can report metrics to AWS CloudWatch (Prometheus coming) using AWS EMF to allow creating alerts and alarms. While that alone is pretty cool, John has also put together a blog post, [Kafka Connect Watcher - actively monitor your clusters](https://aws-oss.beachgeek.co.uk/2yq), to help you get started. Awesome as always from John!
+[kafka-connect-watcher](https://github.com/JohnPreston/kafka-connect-watcher) is a project from AWS Community Builder John Mille, that will actively probe and monitor your Kafka connect clusters using the Connect API. It can report metrics to AWS CloudWatch (Prometheus coming) using AWS EMF to allow creating alerts and alarms. While that alone is pretty cool, John has also put together a blog post, [Kafka Connect Watcher - actively monitor your clusters](https://dev.to/aws-builders/kafka-connect-watcher-actively-monitor-your-clusters-35ib), to help you get started. Awesome as always from John!
 
 **cognito-token-verifier**
 
-[cognito-token-verifier](https://aws-oss.beachgeek.co.uk/2yr) is a PHP  library verifies that the signature of the JWT is valid, comes from a desired application, and that the token has not been tampered with or expired.
+[cognito-token-verifier](https://github.com/Internacionalweb/cognito-token-verifier) is a PHP  library verifies that the signature of the JWT is valid, comes from a desired application, and that the token has not been tampered with or expired.
 
 **eks-pod-information-collector**
 
-[eks-pod-information-collector](https://aws-oss.beachgeek.co.uk/2yv) This project was created to collect Amazon EKS resource information related to a specific POD such as Configurations/Specification, PV/PVC etc., logs (optional) etc. for troubleshooting Amazon EKS customer support cases.
+[eks-pod-information-collector](https://github.com/aws-samples/eks-pod-information-collector) This project was created to collect Amazon EKS resource information related to a specific POD such as Configurations/Specification, PV/PVC etc., logs (optional) etc. for troubleshooting Amazon EKS customer support cases.
 
 **cdk-appflow**
 
-[cdk-appflow](https://aws-oss.beachgeek.co.uk/2yw) is a new AWS CDK construct for Amazon Appflow, a centralised control hub for managing data integrations between third-party SaaS Applications and AWS. The library is currently in tech preview, so if you do try it out you can provide feedback through the usual mechanisms in GitHub.
+[cdk-appflow](https://github.com/cdklabs/cdk-appflow/) is a new AWS CDK construct for Amazon Appflow, a centralised control hub for managing data integrations between third-party SaaS Applications and AWS. The library is currently in tech preview, so if you do try it out you can provide feedback through the usual mechanisms in GitHub.
 
 ### Demos, Samples, Solutions and Workshops
 
 **avp-petstore-sample**
 
-[avp-petstore-sample](https://aws-oss.beachgeek.co.uk/2yu) sample web application demonstrates authentication and policy-based authorization of diffrent user types to an imaginary Pet Store web app. This application uses Amazon Cognito for authentication and uses Cedar policies and Amazon Verified Permissions for policy-based authorisation, the application uses Amplify platform to accelerate deployment and provisioning of backend resources.
+[avp-petstore-sample](https://github.com/aws-samples/avp-petstore-sample) sample web application demonstrates authentication and policy-based authorization of diffrent user types to an imaginary Pet Store web app. This application uses Amazon Cognito for authentication and uses Cedar policies and Amazon Verified Permissions for policy-based authorisation, the application uses Amplify platform to accelerate deployment and provisioning of backend resources.
 
 ![demo of avp petstore demo](https://github.com/aws-samples/avp-petstore-sample/blob/main/static/PetStore-test.gif?raw=true)
 
 
 **generative-ai-immersion-day**
 
-[generative-ai-immersion-day](https://aws-oss.beachgeek.co.uk/2ys) it seems impossible to avoid Generative AI, so if you are looking to dive deeper into this topic on AWS, check out this workshop that is set up following the popular AWS Immersion Day format and provides guidance on how to get started with Generative AI on AWS.
+[generative-ai-immersion-day](https://github.com/aristsakpinis93/generative-ai-immersion-day) it seems impossible to avoid Generative AI, so if you are looking to dive deeper into this topic on AWS, check out this workshop that is set up following the popular AWS Immersion Day format and provides guidance on how to get started with Generative AI on AWS.
 
 ### AWS and Community blog posts
 
 **Community roundup**
 
-AWS Community Builder Daniel Aniszkiewicz has put together a great post on Cedar, [Authorization and Cedar: A New Way to Manage Permissions - Part I](https://aws-oss.beachgeek.co.uk/2yj) which is the first of a series of articles Daniels is putting together where he will share how to create an authorisation decisions system for an e-commerce platform scenario. This looks like one to watch folks.
+AWS Community Builder Daniel Aniszkiewicz has put together a great post on Cedar, [Authorization and Cedar: A New Way to Manage Permissions - Part I](https://dev.to/aws-builders/authorization-and-cedar-a-new-way-to-manage-permissions-part-i-1nid) which is the first of a series of articles Daniels is putting together where he will share how to create an authorisation decisions system for an e-commerce platform scenario. This looks like one to watch folks.
 
-[Fast and Efficient Search with OpenSearch and MinIO](https://aws-oss.beachgeek.co.uk/2yk) from AJ also caught my eye last week, that looks at how you can leverage MinIO as a storage backend for OpenSearch.
+[Fast and Efficient Search with OpenSearch and MinIO](https://blog.min.io/search-with-opensearch-and-minio/) from AJ also caught my eye last week, that looks at how you can leverage MinIO as a storage backend for OpenSearch.
 
 **PyTorch**
 
-In the post, [Optimized PyTorch 2.0 Inference with AWS Graviton processors](https://aws-oss.beachgeek.co.uk/2yf), Sunita Nadampalli and Ankith Gunapal dive deep into benchmarking PyTorch inference against a number of different AWS instance types. I am not going to give anything away, if you want answers, then read the post!
+In the post, [Optimized PyTorch 2.0 Inference with AWS Graviton processors](https://pytorch.org/blog/optimized-pytorch-w-graviton/), Sunita Nadampalli and Ankith Gunapal dive deep into benchmarking PyTorch inference against a number of different AWS instance types. I am not going to give anything away, if you want answers, then read the post!
 
 ![graph of benchmarks for pytorch on graviton](https://pytorch.org/assets/images/optimized/im3.png)
 
 **Kubernetes**
 
-More fabulous* Kubernetes posts this week. Kickings this off this week we have Cameron Senese who put together, [Kubernetes Multi-Cluster Service Discovery using Open Source AWS Cloud Map MCS Controller](https://aws-oss.beachgeek.co.uk/2yd). Open source tooling exists to help manage multi-cluster workloads, including the upstream Kubernetes Multi-Cluster Services API (mcs-api), and the open source Amazon Web Services (AWS) Cloud Map MCS Controller (MCS-Controller). In this post, Cameron provides an overview of Kubernetes multi-cluster workload management, the mcs-api, and the MCS-Controller which is the AWS open source implementation of the mcs-api. [hands on]
+More fabulous* Kubernetes posts this week. Kickings this off this week we have Cameron Senese who put together, [Kubernetes Multi-Cluster Service Discovery using Open Source AWS Cloud Map MCS Controller](https://aws.amazon.com/blogs/opensource/kubernetes-multi-cluster-service-discovery-using-open-source-aws-cloud-map-mcs-controller/). Open source tooling exists to help manage multi-cluster workloads, including the upstream Kubernetes Multi-Cluster Services API (mcs-api), and the open source Amazon Web Services (AWS) Cloud Map MCS Controller (MCS-Controller). In this post, Cameron provides an overview of Kubernetes multi-cluster workload management, the mcs-api, and the MCS-Controller which is the AWS open source implementation of the mcs-api. [hands on]
 
 ![overview of mcs-api architecture](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/06/21/AWS-cloud-map-controller-solution-diagram.png)
 
-Next up is a collaboration between Imaya Kumar Jagannathan and Vikram Venkataraman, who have put together [Multi-cluster cost monitoring for Amazon EKS using Kubecost and Amazon Managed Service for Prometheus](https://aws-oss.beachgeek.co.uk/2ye). In this hands on post, you will learn how you can use Kubecost to monitor multi-cluster Amazon EKS environments using Amazon Managed Service for Prometheus as the metrics store so you don’t have to worry about managing your own infrastructure to store Kubecost data. [hands on]
+Next up is a collaboration between Imaya Kumar Jagannathan and Vikram Venkataraman, who have put together [Multi-cluster cost monitoring for Amazon EKS using Kubecost and Amazon Managed Service for Prometheus](https://aws.amazon.com/blogs/containers/multi-cluster-cost-monitoring-using-kubecost-with-amazon-eks-and-amazon-managed-service-for-prometheus/). In this hands on post, you will learn how you can use Kubecost to monitor multi-cluster Amazon EKS environments using Amazon Managed Service for Prometheus as the metrics store so you don’t have to worry about managing your own infrastructure to store Kubecost data. [hands on]
 
 ![overview of architecture solution](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/06/08/Large-scale-option.png)
 
@@ -101,35 +101,35 @@ Finally, make sure you check under Quick Updates Amazon EMR on EKS section for a
 
 **Apache Iceberg**
 
-In [Accelerate data science feature engineering on transactional data lakes using Amazon Athena with Apache Iceberg](https://aws-oss.beachgeek.co.uk/2yg) Vivek Gautam, Naresh Gautam, Harsha Tadiparthi, and Mikhail Vaynshteyn review the benefits of using Athena with the Apache Iceberg open table format and how it simplifies common feature engineering tasks for data scientists. [hands on]
+In [Accelerate data science feature engineering on transactional data lakes using Amazon Athena with Apache Iceberg](https://aws.amazon.com/blogs/big-data/accelerate-data-science-feature-engineering-on-transactional-data-lakes-using-amazon-athena-with-apache-iceberg/) Vivek Gautam, Naresh Gautam, Harsha Tadiparthi, and Mikhail Vaynshteyn review the benefits of using Athena with the Apache Iceberg open table format and how it simplifies common feature engineering tasks for data scientists. [hands on]
 
 **Apache Kafka**
 
-[Multi-tenancy Apache Kafka clusters in Amazon MSK with IAM access control and Kafka Quotas – Part 1](https://aws-oss.beachgeek.co.uk/2yh) is the first of a two part series from Vikas Bajaj that explains the concepts of how to enforce Kafka quotas in MSK multi-tenant Kafka clusters while using AWS Identity and Access Management (IAM) access control for authentication and authorisation. [hands on]
+[Multi-tenancy Apache Kafka clusters in Amazon MSK with IAM access control and Kafka Quotas – Part 1](https://aws.amazon.com/blogs/big-data/multi-tenancy-apache-kafka-clusters-in-amazon-msk-with-iam-access-control-and-kafka-quotas-part-1/) is the first of a two part series from Vikas Bajaj that explains the concepts of how to enforce Kafka quotas in MSK multi-tenant Kafka clusters while using AWS Identity and Access Management (IAM) access control for authentication and authorisation. [hands on]
 
 ![overview of apache kafka quotas](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/06/08/BDB-2595-MSKQuotas-no-zero-trust-msk-cluster.jpg)
 
 **Other posts and quick reads**
 
-* [Introducing Industry Blueprints for Data & AI to Help AWS Partners Accelerate Solution Development](https://aws-oss.beachgeek.co.uk/2yc)  introduces AWS Industry Blueprints for Data & AI (Preview), an open-source initiative that offers a collection of building components, to accelerate how industry verticals are able to turn-data-to-insights needs
+* [Introducing Industry Blueprints for Data & AI to Help AWS Partners Accelerate Solution Development](https://aws.amazon.com/blogs/apn/introducing-industry-blueprints-for-data-ai-to-help-aws-partners-accelerate-solution-development/)  introduces AWS Industry Blueprints for Data & AI (Preview), an open-source initiative that offers a collection of building components, to accelerate how industry verticals are able to turn-data-to-insights needs
 
 ![overview of aws industry blueprints](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/06/13/Industry-Blueprints-Data-AI-1.png)
 
-* [Enable remote reads from Azure ADLS with SAS tokens using Spark in Amazon EMR](https://aws-oss.beachgeek.co.uk/2yi) demonstrates how to set up quick, constrained, and time-bound authentication and authorisation to remote data sources in Azure Data Lake Storage (ADLS) using a shared access signature (SAS) when running Apache Spark jobs via EMR Notebooks attached to an EMR cluster [hands on]
+* [Enable remote reads from Azure ADLS with SAS tokens using Spark in Amazon EMR](https://aws.amazon.com/blogs/big-data/enable-remote-reads-from-azure-adls-with-sas-tokens-using-spark-in-amazon-emr/) demonstrates how to set up quick, constrained, and time-bound authentication and authorisation to remote data sources in Azure Data Lake Storage (ADLS) using a shared access signature (SAS) when running Apache Spark jobs via EMR Notebooks attached to an EMR cluster [hands on]
 
 ![overview of azure adls and spark on amazon emr architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/05/25/BDB-2904-01-arch.png)
 
-* [Testing AWS Lambda functions with AWS SAM remote invoke](https://aws-oss.beachgeek.co.uk/2y7) looks at a new feature within AWS SAM that enables developers to invoke a Lambda function in the AWS Cloud from their development environment [hands on]
-* [Encrypt Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL database with minimal downtime](https://aws-oss.beachgeek.co.uk/2y8) provides a hands on guide that walks you through how to convert an unencrypted RDS for PostgreSQL database to an encrypted database with minimum downtime [hands on]
-* [Customize Slurm settings with AWS ParallelCluster 3.6](https://aws-oss.beachgeek.co.uk/2y9) looks at how you can customise the settings for the Slurm scheduler in your cluster configuration file to tweak the behaviour of your cluster to meet your specific use cases [hands on]
-* [Optimize the cost of your Amazon ElastiCache for Redis workloads](https://aws-oss.beachgeek.co.uk/2ya) explores the top five recommendations on how to optimize the cost when running ElastiCache for Redis workloads using native ElastiCache features
+* [Testing AWS Lambda functions with AWS SAM remote invoke](https://aws.amazon.com/blogs/compute/testing-aws-lambda-functions-with-aws-sam-remote-invoke/) looks at a new feature within AWS SAM that enables developers to invoke a Lambda function in the AWS Cloud from their development environment [hands on]
+* [Encrypt Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL database with minimal downtime](https://aws.amazon.com/blogs/database/encrypt-amazon-rds-for-postgresql-and-amazon-aurora-postgresql-database-with-minimal-downtime/) provides a hands on guide that walks you through how to convert an unencrypted RDS for PostgreSQL database to an encrypted database with minimum downtime [hands on]
+* [Customize Slurm settings with AWS ParallelCluster 3.6](https://aws.amazon.com/blogs/hpc/customize-slurm-settings-with-aws-parallelcluster-3-6/) looks at how you can customise the settings for the Slurm scheduler in your cluster configuration file to tweak the behaviour of your cluster to meet your specific use cases [hands on]
+* [Optimize the cost of your Amazon ElastiCache for Redis workloads](https://aws.amazon.com/blogs/database/optimize-the-cost-of-your-amazon-elasticache-for-redis-workloads/) explores the top five recommendations on how to optimize the cost when running ElastiCache for Redis workloads using native ElastiCache features
 
 ![overview of redis workload optimisation](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/06/20/DBBLOG2805_image001-1024x576.png)
 
 
 **Case Studies**
 
-* [How Quora modernized MLOps on Amazon EKS to improve customer experience with scalable ML applications](https://aws-oss.beachgeek.co.uk/2yb) looks at how Quora modernised its MLOps platform on Amazon EKS. The key factors that drove the modernisation decisions were the ability to scale the ML platform with effective compute resource management for model training and serving, increase system reliability, and reduce cost of operations. Want to know more? Dive right in.
+* [How Quora modernized MLOps on Amazon EKS to improve customer experience with scalable ML applications](https://aws.amazon.com/blogs/containers/how-quora-modernized-mlops-on-amazon-eks-to-improve-customer-experience-with-scalable-ml-applications/) looks at how Quora modernised its MLOps platform on Amazon EKS. The key factors that drove the modernisation decisions were the ability to scale the ML platform with effective compute resource management for model training and serving, increase system reliability, and reduce cost of operations. Want to know more? Dive right in.
 
 ![overview of quora mlops on eks architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/06/07/Quora-machine.png)
 
@@ -137,7 +137,7 @@ In [Accelerate data science feature engineering on transactional data lakes usin
 
 **Amazon Corretto**
 
-Amazon Corretto nightly builds are now available at [downloads.corretto.aws](https://aws-oss.beachgeek.co.uk/2y6) for Linux, Windows and Mac platforms. Developers can now test the latest OpenJDK community code and bug fixes without waiting for the next quarterly release.
+Amazon Corretto nightly builds are now available at [downloads.corretto.aws](https://downloads.corretto.aws/) for Linux, Windows and Mac platforms. Developers can now test the latest OpenJDK community code and bug fixes without waiting for the next quarterly release.
 
 Binaries for Corretto 8, 11, 17, and the latest Feature Release, Corretto 20, are being built combining the latest stable and development code from the next release of the OpenJDK projects. Early Access builds of upcoming releases will also be available prior to GA. Release and fast-debug builds, which contain assertions on JVM state and correctness, are available. In addition, we will be sharing early builds of experimental projects in binary form, for evaluation, validation and testing. For example, right now we have the Generational Shenandoah and Lilliput projects back ported to Corretto 17. The Generational Shenandoah Garbage Collector adds generational collection capabilities and aims to eventually reduce GC pauses below 1 ms for large-heap, high-throughput applications. The Lilliput project reduces the size of Java Object headers from 96 bytes down to 64 bytes, with a future goal of 32 bytes, which will reduce memory pressure and can result in fewer/shorter GC pauses. Along with the Corretto binaries, corresponding functional and integration test results are available so that anyone can see what fixes and issues are still present in the build.
 
@@ -145,7 +145,7 @@ Nightly Builds are for evaluation only and should not be relied on for productio
 
 **AWS CDK**
 
-Alex Pulver shared [this post](https://aws-oss.beachgeek.co.uk/2y4) and looks at a new app-level bootstrap experimental feature for your AWS CDK stacks. You can read more in the docs about [app-staging-synthesizer-alpha module](https://aws-oss.beachgeek.co.uk/2y5)
+Alex Pulver shared [this post](https://www.linkedin.com/posts/alexpulver_aws-cdkapp-staging-synthesizer-alpha-module-activity-7077737535359057921-5wMb/) and looks at a new app-level bootstrap experimental feature for your AWS CDK stacks. You can read more in the docs about [app-staging-synthesizer-alpha module](https://docs.aws.amazon.com/cdk/api/v2/docs/app-staging-synthesizer-alpha-readme.html)
 
 **AWS Amplify**
 
@@ -195,7 +195,7 @@ Recorded at the AWS Perth UG Meetup on June 23rd, James Vulling provided an in d
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes).
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag).
 
 We are currently planning the third series - if you have an open source project you want to talk about, get in touch and we might be able to feature your project in future episodes of Build on Open Source.
 
@@ -208,7 +208,7 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 
 OSO are teaming up with Sainsbury's, special sponsor for this event, to deliver an exciting program of talks that include AWS Community Builder John Mille whose talk, Kafka enterprise strategy to evolve with demand, will go over insights of early days, lessons learnt and successful governance patterns which made the onboarding smoother as time went. He will also review the different tooling involved in making this journey successful not only for business but for developers, along with leveraging Kafka community driven projects such as Kafka Connect.
 
-If you are about and want to learn more about Apache Kafka, there is nothing better than attending a user group. Head over to the meetup page and sign up: [IN-PERSON: Kafka Enterprise Strategies: Best Practices](https://aws-oss.beachgeek.co.uk/2x0)
+If you are about and want to learn more about Apache Kafka, there is nothing better than attending a user group. Head over to the meetup page and sign up: [IN-PERSON: Kafka Enterprise Strategies: Best Practices](https://www.meetup.com/apache-kafka-london/events/293908569/)
 
 **CNCF Maintainer Circle - Community Management**
 **June 28th, 2023 @ 10:00am PT / 17:00 UTC**
@@ -226,7 +226,7 @@ In this session, we will discuss strategies on how to build out strategy around 
 * Website updates
 * Documentation
 
-Sounds interesting and very useful right? Check out more and add this to your calendar by [checking out the event page](https://aws-oss.beachgeek.co.uk/2y1)
+Sounds interesting and very useful right? Check out more and add this to your calendar by [checking out the event page](https://github.com/cncf/tag-contributor-strategy/tree/main/maintainers-circle)
 
 
 **Yocto Project Developer Day 2023**
@@ -234,12 +234,12 @@ Sounds interesting and very useful right? Check out more and add this to your ca
 
 The Yocto Project DevDay is a technical conference for engineers, open source technologists, students and academia in the OSS space. This 1-day event is where individuals will learn about Yocto Projects’ direction -- including, but not limited to, new releases, development tools, features -- get training on the next wave of embedded Linux technologies (segment previously known as Yocto Project Developer Day), and network with their industry peers, Yocto Project maintainers, OpenEmbedded maintainers and experts.
 
-[Check out more here](https://aws-oss.beachgeek.co.uk/2wy) and if you are going to be in Prague, why not pop along...after registering of course!
+[Check out more here](https://summit.yoctoproject.org/devday-at-eoss-2023/) and if you are going to be in Prague, why not pop along...after registering of course!
 
 **Amplify Your Ideas: Hack, Host, and Share with Hashnode & AWS**
 **July 1st — July 31, 2023**
 
-This hackathon presents an opportunity for you to quickly transform your ideas into reality, easily build and ship feature-rich, fullstack apps using AWS Amplify, and share your experience on Hashnode. Prizes and complete details on how to participate will be announced on June 26th. [Register now](https://aws-oss.beachgeek.co.uk/2xx) for early notifications.
+This hackathon presents an opportunity for you to quickly transform your ideas into reality, easily build and ship feature-rich, fullstack apps using AWS Amplify, and share your experience on Hashnode. Prizes and complete details on how to participate will be announced on June 26th. [Register now](https://hashnode.com/hackathons/aws-amplify-2023) for early notifications.
 
 
 **CDK Day, 2023**
@@ -247,20 +247,20 @@ This hackathon presents an opportunity for you to quickly transform your ideas i
 
 Back for the fourth instalment, this Community led event is a must attend for anyone working with infrastructure as code using the AWS Cloud Development Kit (CDK). It is intended to provide learning opportunities for all users of the CDK and related libraries. The CFP is open, so if you have some ideas for some talks then make sure you check that section out. Also, this year they are accepting talks in Espanol! Woohoo, love it!
 
-Check more at the website, [CDK Day](https://aws-oss.beachgeek.co.uk/fr) 
+Check more at the website, [CDK Day](https://www.cdkday.com/) 
 
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

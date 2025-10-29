@@ -25,45 +25,45 @@ Make sure you find and follow these builders and keep up to date with their open
 
 Great news from Vadivelu Murali Pranavan last week, where he shared the following updated:
 
-> I'm happy to share with you that myself along with my peers Sanjay Thiyagarajan, Naresh Kumar, Jayanth Vikash S, Xavier Emmanuel and Sri Varmaa won the first place in Amazon Web Services (AWS) Graviton Hackathon 2021 in Migration track. Check out the project they created, [Genie](https://aws-oss.beachgeek.co.uk/12a)
+> I'm happy to share with you that myself along with my peers Sanjay Thiyagarajan, Naresh Kumar, Jayanth Vikash S, Xavier Emmanuel and Sri Varmaa won the first place in Amazon Web Services (AWS) Graviton Hackathon 2021 in Migration track. Check out the project they created, [Genie](https://github.com/TechieNK/Genie)
 
 ### Latest open source projects
 
 **ottr**
 
-[ottr](https://aws-oss.beachgeek.co.uk/12d) this is the latest open source project from Airbnb engineering, Ottr. Ottr is a serverless Public Key Infrastructure framework that handles end-to-end certificate rotations without the use of an agent. You can check out the super detailed blog post, [Meet Ottr: A Serverless Public Key Infrastructure Framework](https://aws-oss.beachgeek.co.uk/12e) from  Kenneth Yang provides an overview on Ottr with details of the architecture, logical and network flows and details on how to deploy.
+[ottr](https://github.com/airbnb/ottr) this is the latest open source project from Airbnb engineering, Ottr. Ottr is a serverless Public Key Infrastructure framework that handles end-to-end certificate rotations without the use of an agent. You can check out the super detailed blog post, [Meet Ottr: A Serverless Public Key Infrastructure Framework](https://medium.com/airbnb-engineering/meet-ottr-a-serverless-public-key-infrastructure-framework-f6580010ae0c) from  Kenneth Yang provides an overview on Ottr with details of the architecture, logical and network flows and details on how to deploy.
 
 ![arch](https://miro.medium.com/max/2000/1*yUXlXD6mzsLGmMEgAGeIhQ.png)
 
 **cloudkey**
 
-[cloudkey](https://aws-oss.beachgeek.co.uk/12p) this project from Aidan Steele is perfect if you have a Yubikey and want to use it to assume IAM roles to interact with AWS. As Aidan says:
+[cloudkey](https://github.com/aidansteele/cloudkey) this project from Aidan Steele is perfect if you have a Yubikey and want to use it to assume IAM roles to interact with AWS. As Aidan says:
 
 >  "I could create certificates on the Yubikey, enrol them into AWS IoT (for free) and assume roles in AWS with no IAM secret access keys stored on disk."
 > 
 
-Worth checking out Aidan's [thread on twitter, here](https://aws-oss.beachgeek.co.uk/12q) for more context.
+Worth checking out Aidan's [thread on twitter, here](https://twitter.com/__steele/status/1456771650297335810?s=11) for more context.
 
 **clock-bound**
 
-[clock-bound](https://aws-oss.beachgeek.co.uk/12b) this new project provides you with a consistent, trusted time service will allow you to compare timestamps to determine order and consistency for events and transactions, independent from the instances’ respective geographic locations.
+[clock-bound](https://github.com/aws/clock-bound) this new project provides you with a consistent, trusted time service will allow you to compare timestamps to determine order and consistency for events and transactions, independent from the instances’ respective geographic locations.
 
 ![diagram](https://github.com/aws/clock-bound/blob/main/ClockErrorBound.png?raw=true)
 
 **aws-recon**
 
-[aws-recon](https://aws-oss.beachgeek.co.uk/12h) this project from Darkbit is a multi-threaded AWS security-focused inventory collection tool written in Ruby, and was created to facilitate efficient collection of a large amount of AWS resource attributes and metadata. It aims to collect nearly everything that is relevant to the security configuration and posture of an AWS environment. It is being used by some interesting customers, so well worth checking this out.
+[aws-recon](https://github.com/darkbitio/aws-recon) this project from Darkbit is a multi-threaded AWS security-focused inventory collection tool written in Ruby, and was created to facilitate efficient collection of a large amount of AWS resource attributes and metadata. It aims to collect nearly everything that is relevant to the security configuration and posture of an AWS environment. It is being used by some interesting customers, so well worth checking this out.
 
 **cdk-dia**
 
-[cdk-dia](https://aws-oss.beachgeek.co.uk/12i) this project from Tom Roshko looks super neat, it diagrams your CDK provisioned infrastructure using the Graphviz dot language. After getting Graphviz running on my Macbook (thanks Mac Ports) I tried it on one of my projects, and here is the output. What do you think? A great start, so it will be interesting to see how this project evolves and develops. Nice work Tom!
+[cdk-dia](https://github.com/pistazie/cdk-dia) this project from Tom Roshko looks super neat, it diagrams your CDK provisioned infrastructure using the Graphviz dot language. After getting Graphviz running on my Macbook (thanks Mac Ports) I tried it on one of my projects, and here is the output. What do you think? A great start, so it will be interesting to see how this project evolves and develops. Nice work Tom!
 
 ![demo](https://ricsuepublicresources.s3.eu-west-1.amazonaws.com/images/diagram.png)
 
 
 **aws-cdk-github-oidc**
 
-[aws-cdk-github-oidc](https://aws-oss.beachgeek.co.uk/12j) is a CDK constructs to use OpenID Connect for authenticating your Github Action workflow with AWS IAM. These constructs allows you to harden your AWS deployment security by removing the need to create long-term access keys for Github Actions and instead use OpenID Connect to Authenticate your Github Action workflow with AWS IAM.
+[aws-cdk-github-oidc](https://github.com/aripalo/aws-cdk-github-oidc) is a CDK constructs to use OpenID Connect for authenticating your Github Action workflow with AWS IAM. These constructs allows you to harden your AWS deployment security by removing the need to create long-term access keys for Github Actions and instead use OpenID Connect to Authenticate your Github Action workflow with AWS IAM.
 
 ![arch](https://raw.githubusercontent.com/aripalo/aws-cdk-github-oidc/4eb53714ec69583f057141afab57c6c2cd7dae0b/assets/github-aws-oidc.svg)
 
@@ -71,7 +71,7 @@ You can check out last weeks newsletter where Richard Boyd shows you using this 
 
 **fiware-orion-on-aws**
 
-[fiware-orion-on-aws](https://aws-oss.beachgeek.co.uk/125) FIWARE is a curated framework of open source platform components to help with the development of smart applications and solutions. This repository is a reference implementation of one of those components, the Orion Context Broker which uses another component in that project, Cygnus. To help you get started, check out the blog post [How to build smart cities with FIWARE Orion Context Broker and Cygnus on AWS](https://aws-oss.beachgeek.co.uk/124)from Masahiro Imai, Hidenori Koizumi, and Jorge Lanzarotti
+[fiware-orion-on-aws](https://github.com/aws-samples/fiware-orion-on-aws) FIWARE is a curated framework of open source platform components to help with the development of smart applications and solutions. This repository is a reference implementation of one of those components, the Orion Context Broker which uses another component in that project, Cygnus. To help you get started, check out the blog post [How to build smart cities with FIWARE Orion Context Broker and Cygnus on AWS](https://aws.amazon.com/blogs/publicsector/how-to-build-smart-cities-with-fiware-orion-context-broker-and-cygnus-on-aws/)from Masahiro Imai, Hidenori Koizumi, and Jorge Lanzarotti
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/9e6a55b6b4563e652a23be9d623ca5055c356940/2021/11/02/orion-cygnus-onaws.png)
 
@@ -81,63 +81,63 @@ Thanks to Corey Quin for highlighting this tool I had missed.
 
 **aws-key-disabler**
 
-[aws-key-disabler](https://aws-oss.beachgeek.co.uk/129) this open source project is a small lambda script that will disable access keys older than a given amount of days. Small but perfectly formed, I think this is a great solution if you find yourself needing to automate the vending of your keys.
+[aws-key-disabler](https://github.com/te-papa/aws-key-disabler) this open source project is a small lambda script that will disable access keys older than a given amount of days. Small but perfectly formed, I think this is a great solution if you find yourself needing to automate the vending of your keys.
 
 ### Tweet of the week
 
-This [tweet](https://aws-oss.beachgeek.co.uk/11y) from Christos Matskas (@ChristosMatskas) came up on my timeline last week, where he shared how he was able to use the open sourced NodeJS library for verifying JWTs that I shared in the last episode, and verify AAD access tokens from Azure Active Directory. He also shared the code, which you can check out at [here](https://aws-oss.beachgeek.co.uk/11z). Christos also put this post together, [Open Standards, Security, Azure AD and AWS](https://aws-oss.beachgeek.co.uk/120) which shows you the end to end story. Nice!
+This [tweet](https://twitter.com/christosmatskas/status/1456008864558555141?s=11) from Christos Matskas (@ChristosMatskas) came up on my timeline last week, where he shared how he was able to use the open sourced NodeJS library for verifying JWTs that I shared in the last episode, and verify AAD access tokens from Azure Active Directory. He also shared the code, which you can check out at [here](https://github.com/cmatskas/SecureNodeAPIWithAAD/tree/aws_jwt_verify). Christos also put this post together, [Open Standards, Security, Azure AD and AWS](https://dev.to/425show/open-standards-security-azure-ad-and-aws-4j8m) which shows you the end to end story. Nice!
 
 ### AWS and Community blog posts
 
 **AWS CDK**
 
-Building Software as a Service (SaaS) is an increasingly popular approach for open source projects to provide customers with immediate access to their capabilities. There are several approaches you can take, but being able to well and ensure a good experience during on boarding, you need to have a reliable, fast, and multi-region capable provisioning and software lifecycle management. In the post, [Parallel and dynamic SaaS deployments with AWS CDK Pipelines](https://aws-oss.beachgeek.co.uk/12k) Jani Muuriaisniemi and Jose Juhala describe a deployment system for achieving this using AWS CDK and AWS CDK Pipelines. [hands on]
+Building Software as a Service (SaaS) is an increasingly popular approach for open source projects to provide customers with immediate access to their capabilities. There are several approaches you can take, but being able to well and ensure a good experience during on boarding, you need to have a reliable, fast, and multi-region capable provisioning and software lifecycle management. In the post, [Parallel and dynamic SaaS deployments with AWS CDK Pipelines](https://aws.amazon.com/blogs/devops/parallel-and-dynamic-saas-deployments-with-cdk-pipelines/) Jani Muuriaisniemi and Jose Juhala describe a deployment system for achieving this using AWS CDK and AWS CDK Pipelines. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2021/10/27/figure1-1.png)
 
 **BayerCLAW**
 
-I shared details of BayerCLAW in a previous newsletter (#86). BayerCLAW a workflow orchestration system for AWS, targeted at bioinformatics pipelines. Jack Tabaska and Ian Davis from the Bayer Crop Sciences team have put together this blog post, [BayerCLAW – Open-Source, Serverless Orchestrator for Scientific Workflows on AWS](https://aws-oss.beachgeek.co.uk/12f) that takes a look at the motivations and technical implementation of BayerCLAW.
+I shared details of BayerCLAW in a previous newsletter (#86). BayerCLAW a workflow orchestration system for AWS, targeted at bioinformatics pipelines. Jack Tabaska and Ian Davis from the Bayer Crop Sciences team have put together this blog post, [BayerCLAW – Open-Source, Serverless Orchestrator for Scientific Workflows on AWS](https://aws.amazon.com/blogs/industries/bayerclaw-open-source-serverless-orchestrator-for-scientific-workflows-on-aws/) that takes a look at the motivations and technical implementation of BayerCLAW.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/c5b76da3e608d34edb07244cd9b875ee86906328/2021/10/27/bayer-figure-1-CLAW.png)
 
 **AlphaFold**
 
-AlphaFold is an artificial intelligence program developed by Alphabets's/Google's DeepMind which performs predictions of protein structure. In this post, [Run AlphaFold v2.0 on Amazon EC2](https://aws-oss.beachgeek.co.uk/12m), Qi Wang provides a step-by-step guide on how to install AlphaFold on an EC2 instance with Nvidia GPU.
+AlphaFold is an artificial intelligence program developed by Alphabets's/Google's DeepMind which performs predictions of protein structure. In this post, [Run AlphaFold v2.0 on Amazon EC2](https://aws.amazon.com/blogs/machine-learning/run-alphafold-v2-0-on-amazon-ec2/), Qi Wang provides a step-by-step guide on how to install AlphaFold on an EC2 instance with Nvidia GPU.
 
 ![alpha](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/10/25/ML_5671_3Dview.png)
 
 **Babelfish**
 
-In the post [Migrate from SQL Server to Amazon Aurora using Babelfish](https://aws-oss.beachgeek.co.uk/126), Ramesh Kumar Venkatraman provides and overview of how you can migrate from SQL Server to Babelfish for Aurora PostgreSQL. [hands on]
+In the post [Migrate from SQL Server to Amazon Aurora using Babelfish](https://aws.amazon.com/blogs/database/migrate-from-sql-server-to-amazon-aurora-using-babelfish/), Ramesh Kumar Venkatraman provides and overview of how you can migrate from SQL Server to Babelfish for Aurora PostgreSQL. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/11/04/DBBLOG-1441-image001-cropped.png)
 
 **Amazon Corretto**
 
-Dave Currie shares details of the Amazon Corretto support roadmap in his post, [Announcing Amazon Corretto 17 support roadmap](https://aws-oss.beachgeek.co.uk/127). Make sure you read this short post and understand what this means for any workloads you have running Amazon Corretto 8 or 11.
+Dave Currie shares details of the Amazon Corretto support roadmap in his post, [Announcing Amazon Corretto 17 support roadmap](https://aws.amazon.com/blogs/opensource/announcing-amazon-corretto-17-support-roadmap/). Make sure you read this short post and understand what this means for any workloads you have running Amazon Corretto 8 or 11.
 
 **Spring Boot**
 
-[Build and deploy a Spring Boot application to AWS App Runner with a CI/CD pipeline using Terraform](https://aws-oss.beachgeek.co.uk/12o) is the perfect post if you want to learn about how to setup a really nice automated deployment pipeline for your Spring Boot applications on AWS. Irshad Buchh and Yang Xiao walk you through setting up a pipeline for automatic build and deployment onto AWS App Runner. Read on to find out more [hands on]
+[Build and deploy a Spring Boot application to AWS App Runner with a CI/CD pipeline using Terraform](https://aws.amazon.com/blogs/containers/build-and-deploy-a-spring-boot-application-to-aws-app-runner-with-a-ci-cd-pipeline-using-terraform/) is the perfect post if you want to learn about how to setup a really nice automated deployment pipeline for your Spring Boot applications on AWS. Irshad Buchh and Yang Xiao walk you through setting up a pipeline for automatic build and deployment onto AWS App Runner. Read on to find out more [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/09/22/springbootapprunner1.png)
 
 **Bottlerocket**
 
-Jesse Butler opens this post up with the question “Does the OS even matter anymore?” - intrigued? Have your own opinion? Well find out what he thinks in the excellent post, [Bottlerocket, A Year in the Life](https://aws-oss.beachgeek.co.uk/123) - (and I totally agree, for anyone interested!) [hands on]
+Jesse Butler opens this post up with the question “Does the OS even matter anymore?” - intrigued? Have your own opinion? Well find out what he thinks in the excellent post, [Bottlerocket, A Year in the Life](https://aws.amazon.com/blogs/containers/bottlerocket-a-year-in-the-life/) - (and I totally agree, for anyone interested!) [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/10/25/br_update.png)
 
 **Snyk**
 
-Danny Gitelman and Daniel Begimher share how to use tools like Snyk in combination with an automated workflow to reduce the risk of downloading new packages from public repositories. Read more in their post, [How to automate your software-composition analysis on AWS](https://aws-oss.beachgeek.co.uk/121) [hands on]
+Danny Gitelman and Daniel Begimher share how to use tools like Snyk in combination with an automated workflow to reduce the risk of downloading new packages from public repositories. Read more in their post, [How to automate your software-composition analysis on AWS](https://aws.amazon.com/blogs/infrastructure-and-automation/how-to-automate-your-software-composition-analysis-on-aws/) [hands on]
 
 [arch](https://d2908q01vomqb2.cloudfront.net/b7eb6c689c037217079766fdb77c3bac3e51cb4c/2021/10/15/software-composition-analysis-architecture-diagram.jpg)
 
 **MariaDB**
 
-SkySQL is a database as a service (DBaaS) solution on AWS that makes it easy for customers to start using MariaDB Enterprise in the cloud. In the post, [MariaDB Collaborates with AWS to Deliver SkySQL on AWS](https://aws-oss.beachgeek.co.uk/122) Afza Wajid and Sudhir Reddy Maddulapally speak with Alexey Vorovich, VP of Engineering for SkySQL at MariaDB Corporation, about the recent SkySQL launch.
+SkySQL is a database as a service (DBaaS) solution on AWS that makes it easy for customers to start using MariaDB Enterprise in the cloud. In the post, [MariaDB Collaborates with AWS to Deliver SkySQL on AWS](https://aws.amazon.com/blogs/apn/mariadb-collaborates-with-aws-to-deliver-skysql-on-aws/) Afza Wajid and Sudhir Reddy Maddulapally speak with Alexey Vorovich, VP of Engineering for SkySQL at MariaDB Corporation, about the recent SkySQL launch.
 
 **FFmpeg**
 
@@ -146,13 +146,13 @@ Damien Martins shares with you a how-to guide describes the steps to invoke an a
 
 **GitHub Actions**
 
-Frank Dallezotte and Maxwell Moon have collaborated on this post, [Building ARM64 applications on AWS Graviton2 using the AWS CDK and Self-Hosted Runners for GitHub Actions](https://aws-oss.beachgeek.co.uk/128) where they show how to configure of a self-hosted GitHub Runner on an EC2 instance with a Graviton2 processor, the required network resources, and a workflow that will run on the Runner on each repository push or pull request for the example application. This will allow you to start to create multi architecture builds so that you can start leveraging Arm based AWS Graviton2 instances and the improved price/performance as well as power characteristics. [hands on]
+Frank Dallezotte and Maxwell Moon have collaborated on this post, [Building ARM64 applications on AWS Graviton2 using the AWS CDK and Self-Hosted Runners for GitHub Actions](https://aws.amazon.com/blogs/compute/building-arm64-applications-on-aws-graviton2-using-the-aws-cdk-and-self-hosted-runners-for-github-actions/) where they show how to configure of a self-hosted GitHub Runner on an EC2 instance with a Graviton2 processor, the required network resources, and a workflow that will run on the Runner on each repository push or pull request for the example application. This will allow you to start to create multi architecture builds so that you can start leveraging Arm based AWS Graviton2 instances and the improved price/performance as well as power characteristics. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2021/10/25/0_Graviton2GHRunnerArchDrawing-1.png)
 
 **OpenSearch**
 
-In the post, [Backwards Compatibility Testing for OpenSearch](https://aws-oss.beachgeek.co.uk/12n) Vacha Shah and Sarat Vemulapalli show you how backwards compatibility testing works within OpenSearch, something that is used to test and determine the safe upgrade paths from a supported version to the current version.
+In the post, [Backwards Compatibility Testing for OpenSearch](https://opensearch.org/blog/technical-post/2021/11/bwc-testing-for-opensearch/) Vacha Shah and Sarat Vemulapalli show you how backwards compatibility testing works within OpenSearch, something that is used to test and determine the safe upgrade paths from a supported version to the current version.
 
 
 ### Quick updates
@@ -169,7 +169,7 @@ Check out the code repo at the top of this post.
 
 **Suricata**
 
-Nick Coval & Adam Palmer presented "[Building an Open Source IDS/IPS Service on AWS with Suricata](https://aws-oss.beachgeek.co.uk/12l)" at SuriCon, where they talk about how they built a quick-start solution on AWS that creates a Suricata-based solution, powered by AWS Gateway Load Balancer service (GWLB); enabling centralized and distributed deployment models.
+Nick Coval & Adam Palmer presented "[Building an Open Source IDS/IPS Service on AWS with Suricata](https://www.youtube.com/watch?v=2itI5zgXDP4)" at SuriCon, where they talk about how they built a quick-start solution on AWS that creates a Suricata-based solution, powered by AWS Gateway Load Balancer service (GWLB); enabling centralized and distributed deployment models.
 
 {% youtube 2itI5zgXDP4 %}
 

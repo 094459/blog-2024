@@ -17,23 +17,23 @@ Welcome to issue #198 of the AWS open source newsletter, the newsletter where we
 
 **.NET Aspire**
 
-[aspire](https://aws-oss.beachgeek.co.uk/3x1) Provides extension methods and resources definition for a .NET Aspire AppHost to configure the AWS SDK for .NET and AWS application resources. If you are not familiar with Aspire,  it is an opinionated, cloud ready stack for building observable, production ready, distributed applications in .NET. You can now use this with AWS resources, so check out the repo and the documentation that provides code examples and more.
+[aspire](https://github.com/dotnet/aspire/tree/main/src/Aspire.Hosting.AWS) Provides extension methods and resources definition for a .NET Aspire AppHost to configure the AWS SDK for .NET and AWS application resources. If you are not familiar with Aspire,  it is an opinionated, cloud ready stack for building observable, production ready, distributed applications in .NET. You can now use this with AWS resources, so check out the repo and the documentation that provides code examples and more.
 
 **aws-sdk-python-signers**
 
-[aws-sdk-python-signers](https://aws-oss.beachgeek.co.uk/3x3) AWS SDK Python Signers provides stand-alone signing functionality. This enables users to create standardised request signatures (currently only SigV4) and apply them to common HTTP utilities like AIOHTTP, Curl, Postman, Requests and urllib3. This project is currently in an Alpha phase of development. There likely will be breakages and redesigns between minor patch versions as we collect user feedback. We strongly recommend pinning to a minor version and reviewing the changelog carefully before upgrading. Check out the README for details on how to use the signing module.
+[aws-sdk-python-signers](https://github.com/awslabs/aws-sdk-python-signers) AWS SDK Python Signers provides stand-alone signing functionality. This enables users to create standardised request signatures (currently only SigV4) and apply them to common HTTP utilities like AIOHTTP, Curl, Postman, Requests and urllib3. This project is currently in an Alpha phase of development. There likely will be breakages and redesigns between minor patch versions as we collect user feedback. We strongly recommend pinning to a minor version and reviewing the changelog carefully before upgrading. Check out the README for details on how to use the signing module.
 
 **automated-datastore-discovery-with-aws-glue**
 
-[automated-datastore-discovery-with-aws-glue](https://aws-oss.beachgeek.co.uk/3x7) This sample shows you how to automate the discovery of various types of data sources in your AWS estate. Examples include - S3 Buckets, RDS databases, or DynamoDB tables. All the information is curated using AWS Glue - specifically in its Data Catalog. It also attempts to detect potential PII fields in the data sources via the Sensitive Data Detection transform in AWS Glue. This framework is useful to get a sense of all data sources in an organisation's AWS estate - from a compliance standpoint. An example of that could be GDPR Article 30. Check out the README for detailed architecture diagrams and a break down of each component as to how it works. 
+[automated-datastore-discovery-with-aws-glue](https://github.com/aws-samples/automated-datastore-discovery-with-aws-glue) This sample shows you how to automate the discovery of various types of data sources in your AWS estate. Examples include - S3 Buckets, RDS databases, or DynamoDB tables. All the information is curated using AWS Glue - specifically in its Data Catalog. It also attempts to detect potential PII fields in the data sources via the Sensitive Data Detection transform in AWS Glue. This framework is useful to get a sense of all data sources in an organisation's AWS estate - from a compliance standpoint. An example of that could be GDPR Article 30. Check out the README for detailed architecture diagrams and a break down of each component as to how it works. 
 
 **sbt-aws**
 
-[sbt-aws](https://aws-oss.beachgeek.co.uk/3x8) SaaS Builder Toolkit for AWS (SBT) is an open-source developer toolkit to implement SaaS best practices and increase developer velocity. It offers a high-level object-oriented abstraction to define SaaS resources on AWS imperatively using the power of modern programming languages. Using SBT’s library of infrastructure constructs, you can easily encapsulate SaaS best practices in your SaaS application, and share it without worrying about boilerplate logic. The README contains all the resources you need to get started with this project, so if you are doing anything in the SaaS space, check it out.
+[sbt-aws](https://github.com/awslabs/sbt-aws) SaaS Builder Toolkit for AWS (SBT) is an open-source developer toolkit to implement SaaS best practices and increase developer velocity. It offers a high-level object-oriented abstraction to define SaaS resources on AWS imperatively using the power of modern programming languages. Using SBT’s library of infrastructure constructs, you can easily encapsulate SaaS best practices in your SaaS application, and share it without worrying about boilerplate logic. The README contains all the resources you need to get started with this project, so if you are doing anything in the SaaS space, check it out.
 
 **containers-cost-allocation-dashboard**
 
-[containers-cost-allocation-dashboard](https://aws-oss.beachgeek.co.uk/3x9) provides everything you need to create a QuickSight dashboard for containers cost allocation based on data from Kubecost. The dashboard provides visibility into EKS in-cluster cost and usage in a multi-cluster environment, using data from a self-hosted Kubecost pod. The README contains additional links to resources to help you understand how this works, dependencies, and how to deploy and configure this project.
+[containers-cost-allocation-dashboard](https://github.com/awslabs/containers-cost-allocation-dashboard) provides everything you need to create a QuickSight dashboard for containers cost allocation based on data from Kubecost. The dashboard provides visibility into EKS in-cluster cost and usage in a multi-cluster environment, using data from a self-hosted Kubecost pod. The README contains additional links to resources to help you understand how this works, dependencies, and how to deploy and configure this project.
 
 ![overview of containers cost allocation dashboard](https://github.com/awslabs/containers-cost-allocation-dashboard/blob/main/screenshots/architecture_diagram.png?raw=true)
 
@@ -41,23 +41,23 @@ Welcome to issue #198 of the AWS open source newsletter, the newsletter where we
 
 **create-and-delete-ngw**
 
-[create-and-delete-ngw](https://aws-oss.beachgeek.co.uk/3x2) This project contains source code and supporting files for a serverless application that allocates an Elastic IP address, creates a NAT Gateway, and adds a route to the NAT Gateway in a VPC route table. The application also deletes the NAT Gateway and releases the Elastic IP address. The process to create and delete a NAT Gateway is orchestrated by an AWS Step Functions State Machine, triggered by an EventBridge Scheduler. The schedule can be defined by parameters during the SAM deployment process.
+[create-and-delete-ngw](https://github.com/aws-samples/create-and-delete-ngw) This project contains source code and supporting files for a serverless application that allocates an Elastic IP address, creates a NAT Gateway, and adds a route to the NAT Gateway in a VPC route table. The application also deletes the NAT Gateway and releases the Elastic IP address. The process to create and delete a NAT Gateway is orchestrated by an AWS Step Functions State Machine, triggered by an EventBridge Scheduler. The schedule can be defined by parameters during the SAM deployment process.
 
 ![architecture for the create and delete ngw solution](https://github.com/aws-samples/create-and-delete-ngw/blob/main/docs/CreateNGW.png?raw=true)
 
 **whats-new-summary-notifier**
 
-[whats-new-summary-notifier](https://aws-oss.beachgeek.co.uk/3x4) is a demo repo that lets you build a generative AI application that summarises the content of AWS What's New and other web articles in multiple languages, and delivers the summary to Slack or Microsoft Teams.
+[whats-new-summary-notifier](https://github.com/aws-samples/whats-new-summary-notifier) is a demo repo that lets you build a generative AI application that summarises the content of AWS What's New and other web articles in multiple languages, and delivers the summary to Slack or Microsoft Teams.
 
 **real-time-social-media-analytics-with-generative-ai**
 
-[real-time-social-media-analytics-with-generative-ai](https://aws-oss.beachgeek.co.uk/3x5) this repo helps you to build and deploy an AWS Architecture that is able to combine streaming data with GenAI using Amazon Managed Service for Apache Flink and Amazon Bedrock. 
+[real-time-social-media-analytics-with-generative-ai](https://github.com/aws-samples/real-time-social-media-analytics-with-generative-ai) this repo helps you to build and deploy an AWS Architecture that is able to combine streaming data with GenAI using Amazon Managed Service for Apache Flink and Amazon Bedrock. 
 
 ![overview of real time social media analytics architecture](https://github.com/aws-samples/real-time-social-media-analytics-with-generative-ai/blob/main/diagrams-screenshots/aws-architecture.png?raw=true)
 
 **serverless-genai-food-analyzer-app**
 
-[serverless-genai-food-analyzer-app](https://aws-oss.beachgeek.co.uk/3x6) provides code for a personalised GenAI nutritional web application for your shopping and cooking recipes built with serverless architecture and generative AI capabilities. It was first created as the winner of the AWS Hackathon France 2024 and then introduced as a booth exhibit at the AWS Summit Paris 2024. You use your cell phone to scan a bar code of a product to get the explanations of the ingredients and nutritional information of a grocery product personalised with your allergies and diet. You can also take a picture of food products and discover three personalised recipes based on their food preferences. The app is designed to have minimal code, be extensible, scalable, and cost-efficient. It uses Lazy Loading to reduce cost and ensure the best user experience. Tres bon!
+[serverless-genai-food-analyzer-app](https://github.com/aws-samples/serverless-genai-food-analyzer-app) provides code for a personalised GenAI nutritional web application for your shopping and cooking recipes built with serverless architecture and generative AI capabilities. It was first created as the winner of the AWS Hackathon France 2024 and then introduced as a booth exhibit at the AWS Summit Paris 2024. You use your cell phone to scan a bar code of a product to get the explanations of the ingredients and nutritional information of a grocery product personalised with your allergies and diet. You can also take a picture of food products and discover three personalised recipes based on their food preferences. The app is designed to have minimal code, be extensible, scalable, and cost-efficient. It uses Lazy Loading to reduce cost and ensure the best user experience. Tres bon!
 
 ![architecture of serverless genai food recipe and analyser](https://github.com/aws-samples/serverless-genai-food-analyzer-app/blob/main/img/architecture.jpg?raw=true)
 
@@ -68,75 +68,75 @@ Each week I spent a lot of time reading posts from across the AWS community on o
 
 **The best from around the Community**
 
-Starting this off this week we have AWS Community Builder Julian Michel, who shares his personal AWS setup with you, and more importantly some of the cool open source tools you can use to keep everything in order. I use some of these myself, so make sure you check "[My personal AWS account setup - IAM Identity Center, temporary credentials and sandbox account](https://aws-oss.beachgeek.co.uk/3wu)" out to see how you might be able to improve your setup.
+Starting this off this week we have AWS Community Builder Julian Michel, who shares his personal AWS setup with you, and more importantly some of the cool open source tools you can use to keep everything in order. I use some of these myself, so make sure you check "[My personal AWS account setup - IAM Identity Center, temporary credentials and sandbox account](https://dev.to/aws-builders/my-personal-aws-account-setup-iam-identity-center-temporary-credentials-and-sandbox-account-39mc)" out to see how you might be able to improve your setup.
 
-AWS Community Builder Saifeddine Rajhi explores how to use EKS control plane logs and AWS CloudTrail logs to gain visibility into your cluster's activities, detect potential security threats, and investigate incidents in his post, "[Amazon EKS: Analyze control plane and CloudTrail logs for better detective controls](https://aws-oss.beachgeek.co.uk/3wv)". Great stuff here that I will be using in the future I am sure. On a similar note, if you have ever wondered how you can export your AWS CloudWatch logs into OpenTelemetry, then AWS Community Builder Shakir provides you with some ideas in the post "[Logging demo with OTEL Collector, CloudWatch and Grafana](https://aws-oss.beachgeek.co.uk/3x0)".
+AWS Community Builder Saifeddine Rajhi explores how to use EKS control plane logs and AWS CloudTrail logs to gain visibility into your cluster's activities, detect potential security threats, and investigate incidents in his post, "[Amazon EKS: Analyze control plane and CloudTrail logs for better detective controls](https://dev.to/aws-builders/amazon-eks-analyze-control-plane-and-cloudtrail-logs-for-better-detective-controls-3b3a)". Great stuff here that I will be using in the future I am sure. On a similar note, if you have ever wondered how you can export your AWS CloudWatch logs into OpenTelemetry, then AWS Community Builder Shakir provides you with some ideas in the post "[Logging demo with OTEL Collector, CloudWatch and Grafana](https://dev.to/aws-builders/logging-demo-with-otel-collector-cloudwatch-and-grafana-53l4)".
 
-I am a regular user of AWS CDK, so always interested in learning how I can improve my CDK game, so enjoyed reading AWS Community Builder Peter McAree's quick post, "[How to build a single-page application deployment using AWS CDK](https://aws-oss.beachgeek.co.uk/3ww)", where you will learn how to deploy a single-page application (or any other static assets) using AWS CDK.
+I am a regular user of AWS CDK, so always interested in learning how I can improve my CDK game, so enjoyed reading AWS Community Builder Peter McAree's quick post, "[How to build a single-page application deployment using AWS CDK](https://community.aws/content/2gdccEwnl6hby8PpbDArOV4BoQJ/how-to-build-a-single-page-application-deployment-using-aws-cdk)", where you will learn how to deploy a single-page application (or any other static assets) using AWS CDK.
 
-To finish us off we go back to [issue #188](https://dev.to/aws/aws-open-source-newsletter-188-1fib) of this newsletter, where I featured llrt, or Low Latency Runtime, an experimental project from awslabs that provides a lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications. AWS Community Bulder Amador Criado has put together a nice lab that looks to compare how this performs compared to traditional Node.js runtimes. Grab your favourite hot beverage and then sit down to walk through, "[[Lab] AWS Lambda LLRT vs Node.js](https://aws-oss.beachgeek.co.uk/3wy)".
+To finish us off we go back to [issue #188](https://dev.to/aws/aws-open-source-newsletter-188-1fib) of this newsletter, where I featured llrt, or Low Latency Runtime, an experimental project from awslabs that provides a lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications. AWS Community Bulder Amador Criado has put together a nice lab that looks to compare how this performs compared to traditional Node.js runtimes. Grab your favourite hot beverage and then sit down to walk through, "[[Lab] AWS Lambda LLRT vs Node.js](https://dev.to/aws-builders/lab-aws-lambda-llrt-vs-nodejs-44g4)".
 
 **Valkey**
 
-Valkey is a continuation of open source Redis, created in response to changes to the Redis project. A number of existing contributors and maintainers of Redis formed Valkey, a new Linux Foundation project. Kyle Davis has put together [How to move from Redis to Valkey](https://aws-oss.beachgeek.co.uk/3ws), where he shows you some of the ways you can begin to make the transition.
+Valkey is a continuation of open source Redis, created in response to changes to the Redis project. A number of existing contributors and maintainers of Redis formed Valkey, a new Linux Foundation project. Kyle Davis has put together [How to move from Redis to Valkey](https://fedoramagazine.org/how-to-move-from-redis-to-valkey/), where he shows you some of the ways you can begin to make the transition.
 
-My colleague Riccardo Ferreira also put something together for Go developers who are eager to start using Valkey in his post, [Getting Started with Valkey using Docker and Go](https://aws-oss.beachgeek.co.uk/3wx). This is a must read post this week, so make sure you check it out.
+My colleague Riccardo Ferreira also put something together for Go developers who are eager to start using Valkey in his post, [Getting Started with Valkey using Docker and Go](https://community.aws/content/2fdr6Vg8BiJS8jr8xsuQRRc0MD5/getting-started-with-valkey-using-docker-and-go). This is a must read post this week, so make sure you check it out.
 
 **PostgreSQL**
 
-Joe Conway writes [Deep PostgreSQL Thoughts: Valuing Currency](https://aws-oss.beachgeek.co.uk/3wa) where he shares his thoughts about how important it is to maintain PostgreSQL currency. Make sure you read this post that provides his views on both sides of the should I / shouldn't I question on upgrading.
+Joe Conway writes [Deep PostgreSQL Thoughts: Valuing Currency](https://aws.amazon.com/blogs/opensource/deep-postgresql-thoughts-valuing-currency/) where he shares his thoughts about how important it is to maintain PostgreSQL currency. Make sure you read this post that provides his views on both sides of the should I / shouldn't I question on upgrading.
 
 More PostgreSQL content for you to check out:
 
-* [Perform maintenance tasks and schema modifications in Amazon RDS for PostgreSQL with minimal downtime using Blue Green deployment](https://aws-oss.beachgeek.co.uk/3wm) walks you through performing schema changes and common maintenance tasks such as table and index reorganization, VACUUM FULL, and materialised view refreshes with minimal downtime using blue/green deployments for an Amazon Relational Database (Amazon RDS) for PostgreSQL database or an Amazon Aurora PostgreSQL-Compatible Edition cluster [hands on]
-* [PostgreSQL for SaaS on AWS](https://aws-oss.beachgeek.co.uk/3wt) provides a collection of best practices for running PostgreSQL workloads for SaaS applications on AWS 
+* [Perform maintenance tasks and schema modifications in Amazon RDS for PostgreSQL with minimal downtime using Blue Green deployment](https://aws.amazon.com/blogs/database/perform-maintenance-tasks-and-schema-modifications-in-amazon-rds-for-postgresql-with-minimal-downtime/) walks you through performing schema changes and common maintenance tasks such as table and index reorganization, VACUUM FULL, and materialised view refreshes with minimal downtime using blue/green deployments for an Amazon Relational Database (Amazon RDS) for PostgreSQL database or an Amazon Aurora PostgreSQL-Compatible Edition cluster [hands on]
+* [PostgreSQL for SaaS on AWS](https://community.aws/content/2ZX6Lvuw4BOzL0553yC7KPWe1mX/postgresql-for-saas-on-aws) provides a collection of best practices for running PostgreSQL workloads for SaaS applications on AWS 
 
 **InfluxDB**
 
-In the post, [Introducing Amazon Timestream for InfluxDB: A managed service for the popular open source time-series database](https://aws-oss.beachgeek.co.uk/3wc), Victor Servin provides an overview of the recently launched  Amazon Timestream for InfluxDB, our latest managed time-series database engine for customers who want open source APIs and real-time, time-series applications. Read the post to find out more why this AWS has created this service.
+In the post, [Introducing Amazon Timestream for InfluxDB: A managed service for the popular open source time-series database](https://aws.amazon.com/blogs/opensource/introducing-amazon-timestream-for-influxdb-a-managed-service-for-the-popular-open-source-time-series-database/), Victor Servin provides an overview of the recently launched  Amazon Timestream for InfluxDB, our latest managed time-series database engine for customers who want open source APIs and real-time, time-series applications. Read the post to find out more why this AWS has created this service.
 
 **High Performance Software Foundation (HPSF)**
 
-In case you missed the announcement a week or so ago, Brendan Bouffler has put together a blog post, [Announcing the High Performance Software Foundation (HPSF)](https://aws-oss.beachgeek.co.uk/3wn), where he shares more info about the new High Performance Software Foundation (HPSF), including how it can help, what they are currently doing as they bootstrap, and how you can get involved.
+In case you missed the announcement a week or so ago, Brendan Bouffler has put together a blog post, [Announcing the High Performance Software Foundation (HPSF)](https://aws.amazon.com/blogs/hpc/announcing-the-high-performance-software-foundation/), where he shares more info about the new High Performance Software Foundation (HPSF), including how it can help, what they are currently doing as they bootstrap, and how you can get involved.
 
  **Cloud Native round up**
  
- * [Deploying Karpenter Nodes with Multus on Amazon EKS](https://aws-oss.beachgeek.co.uk/3w7) shows how Karpenter can be used in conjunction with [Multus CNI](https://aws-oss.beachgeek.co.uk/3w8), a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods  [hands on]
- * [Ensuring fair bandwidth allocation for Amazon EKS Workloads](https://aws-oss.beachgeek.co.uk/3wb) provides a hands on guide on how you can use the Amazon VPC CNI plugin and its capabilities to limit ingress and egress bandwidth for applications running as pods in Amazon EKS [hands on]
- * [How to automate application log ingestion from Amazon EKS on Fargate into AWS CloudTrail Lake](https://aws-oss.beachgeek.co.uk/3wf) looks at how to capture the STDOUT and STDERR input/output (I/O) streams from your container and send them to S3 using Fluent Bit [hands on]
- * [Enhancing Kubernetes workload isolation and security using Kata Containers](https://aws-oss.beachgeek.co.uk/3wg)  details the process of setting up a self-managed microVM infrastructure on Amazon EKS by using Amazon EC2 bare metal instances and Kata Containers [hands on]
- * [Enhancing observability with a managed monitoring solution for Amazon EKS](https://aws-oss.beachgeek.co.uk/3wj) walks you through a solution that provides monitoring Amazon EKS clusters with Amazon Managed Grafana and Amazon Managed Service for Prometheus [hands on]
+ * [Deploying Karpenter Nodes with Multus on Amazon EKS](https://aws.amazon.com/blogs/containers/deploying-karpenter-nodes-with-multus-on-amazon-eks/) shows how Karpenter can be used in conjunction with [Multus CNI](https://github.com/k8snetworkplumbingwg/multus-cni), a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods  [hands on]
+ * [Ensuring fair bandwidth allocation for Amazon EKS Workloads](https://aws.amazon.com/blogs/containers/ensuring-fair-bandwidth-allocation-for-amazon-eks-workloads/) provides a hands on guide on how you can use the Amazon VPC CNI plugin and its capabilities to limit ingress and egress bandwidth for applications running as pods in Amazon EKS [hands on]
+ * [How to automate application log ingestion from Amazon EKS on Fargate into AWS CloudTrail Lake](https://aws.amazon.com/blogs/mt/how-to-automate-application-log-ingestion-from-amazon-eks-on-fargate-into-aws-cloudtrail-lake/) looks at how to capture the STDOUT and STDERR input/output (I/O) streams from your container and send them to S3 using Fluent Bit [hands on]
+ * [Enhancing Kubernetes workload isolation and security using Kata Containers](https://aws.amazon.com/blogs/containers/enhancing-kubernetes-workload-isolation-and-security-using-kata-containers/)  details the process of setting up a self-managed microVM infrastructure on Amazon EKS by using Amazon EC2 bare metal instances and Kata Containers [hands on]
+ * [Enhancing observability with a managed monitoring solution for Amazon EKS](https://aws.amazon.com/blogs/mt/enhancing-observability-with-a-managed-monitoring-solution-for-amazon-eks/) walks you through a solution that provides monitoring Amazon EKS clusters with Amazon Managed Grafana and Amazon Managed Service for Prometheus [hands on]
 
 ![Amazon Managed Grafana Dashboard showing advanced kube-apiserver view](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2024/05/13/image-10-1.png)
  
- * [Disaster Recovery on AWS Outposts to AWS Local Zones with a GitOps approach for Amazon EKS](https://aws-oss.beachgeek.co.uk/3wl) is a great overview of how AWS Local Zones can be used as a DR option for Amazon EKS workloads running on AWS Outposts [hands on]
+ * [Disaster Recovery on AWS Outposts to AWS Local Zones with a GitOps approach for Amazon EKS](https://aws.amazon.com/blogs/containers/disaster-recovery-on-aws-outposts-to-aws-local-zones-with-a-gitops-approach-for-amazon-eks/) is a great overview of how AWS Local Zones can be used as a DR option for Amazon EKS workloads running on AWS Outposts [hands on]
 
  ![high level architecture of solution architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/05/10/Picture1-7.png)
  
- * [Multi-Region Disaster Recovery with Amazon EKS and Amazon EFS for Stateful workloads](https://aws-oss.beachgeek.co.uk/3wo) takes a look at how to achieve business continuity in AWS by using Amazon EFS and Amazon EKS across AWS Regions [hands on]
- * [Unleash the possibilities of Stable Diffusion](https://aws-oss.beachgeek.co.uk/3wz) helps you understand your options when it comes to deploying Stable Diffusion on open source technologies on AWS  [hands on]
+ * [Multi-Region Disaster Recovery with Amazon EKS and Amazon EFS for Stateful workloads](https://aws.amazon.com/blogs/containers/multi-region-disaster-recovery-with-amazon-eks-and-amazon-efs-for-stateful-workloads/) takes a look at how to achieve business continuity in AWS by using Amazon EFS and Amazon EKS across AWS Regions [hands on]
+ * [Unleash the possibilities of Stable Diffusion](https://community.aws/content/2gJp1AKskIDIKDYdb6LhSa83s2l/unleash-the-possibilities-of-stable-diffusion) helps you understand your options when it comes to deploying Stable Diffusion on open source technologies on AWS  [hands on]
  
 **Big Data and Analytics posts**
 
-* [In-place version upgrades for applications on Amazon Managed Service for Apache Flink now supported](https://aws-oss.beachgeek.co.uk/3w5) explores in-place version upgrades, a new feature offered by Managed Service for Apache Flink, covering how to get started, insights into the feature, and a deeper dive into how the feature works and some sample use cases [hands on]
-* [Entity resolution and fuzzy matches in AWS Glue using the Zingg open source library](https://aws-oss.beachgeek.co.uk/3w6) looks at how to use Zingg, an open source library specifically designed for entity resolution on Spark, to help address data governance challenges and provide consistent and accurate data across your organisation [hands on]
-* [Use AWS Data Exchange to seamlessly share Apache Hudi datasets](https://aws-oss.beachgeek.co.uk/3w9) shows how you can take advantage of the data sharing capabilities in AWS Data Exchange on top of Apache Hudi [hands on]
-* [Understanding Apache Iceberg on AWS with the new technical guide](https://aws-oss.beachgeek.co.uk/3wd) announces the launch of the Apache Iceberg on AWS technical guide,  a comprehensive technical guide that offers detailed guidance on foundational concepts to advanced optimisations to build your transactional data lake with Apache Iceberg on AWS
+* [In-place version upgrades for applications on Amazon Managed Service for Apache Flink now supported](https://aws.amazon.com/blogs/big-data/in-place-version-upgrades-for-applications-on-amazon-managed-service-for-apache-flink-now-supported/) explores in-place version upgrades, a new feature offered by Managed Service for Apache Flink, covering how to get started, insights into the feature, and a deeper dive into how the feature works and some sample use cases [hands on]
+* [Entity resolution and fuzzy matches in AWS Glue using the Zingg open source library](https://aws.amazon.com/blogs/big-data/entity-resolution-and-fuzzy-matches-in-aws-glue-using-the-zingg-open-source-library/) looks at how to use Zingg, an open source library specifically designed for entity resolution on Spark, to help address data governance challenges and provide consistent and accurate data across your organisation [hands on]
+* [Use AWS Data Exchange to seamlessly share Apache Hudi datasets](https://aws.amazon.com/blogs/big-data/use-aws-data-exchange-to-seamlessly-share-apache-hudi-datasets/) shows how you can take advantage of the data sharing capabilities in AWS Data Exchange on top of Apache Hudi [hands on]
+* [Understanding Apache Iceberg on AWS with the new technical guide](https://aws.amazon.com/blogs/big-data/understanding-apache-iceberg-on-aws-with-the-new-technical-guide/) announces the launch of the Apache Iceberg on AWS technical guide,  a comprehensive technical guide that offers detailed guidance on foundational concepts to advanced optimisations to build your transactional data lake with Apache Iceberg on AWS
 
 ![topics covered in the apache iceberg technical guide](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2024/05/16/BDB-4368-image001.png)
 
-* [Binary logging optimizations in Amazon Aurora MySQL version 3](https://aws-oss.beachgeek.co.uk/3we) discusses use cases for binary logging in Amazon Aurora MySQL, improved binary logging capabilities that have been added to Amazon Aurora MySQL over the years, and additional support for MySQL native binary logging features
-* [Integrate Amazon Aurora MySQL and Amazon Bedrock using SQL](https://aws-oss.beachgeek.co.uk/3wp) is a must read to see how you can invoke foundational models on Amazon Bedrock as SQL functions on Amazon Aurora MySQL [hands on]
+* [Binary logging optimizations in Amazon Aurora MySQL version 3](https://aws.amazon.com/blogs/database/binary-logging-optimizations-in-amazon-aurora-mysql-version-3/) discusses use cases for binary logging in Amazon Aurora MySQL, improved binary logging capabilities that have been added to Amazon Aurora MySQL over the years, and additional support for MySQL native binary logging features
+* [Integrate Amazon Aurora MySQL and Amazon Bedrock using SQL](https://aws.amazon.com/blogs/database/integrate-amazon-aurora-mysql-and-amazon-bedrock-using-sql/) is a must read to see how you can invoke foundational models on Amazon Bedrock as SQL functions on Amazon Aurora MySQL [hands on]
 
 
 **Other posts to check out**
 
-* [Monitor Java apps running on Tomcat server with Amazon CloudWatch Application Signals (Preview)](https://aws-oss.beachgeek.co.uk/3wk) demonstrates how to auto-instrument Java web applications deployed via WAR packages and running on Tomcat server with AWS Distro for OpenTelemetry (ADOT), using CloudWatch Application Signals (Preview)  [hands on]
-* [New in AWS Amplify: Integrate with SQL databases, OIDC/SAML providers, and the AWS CDK](https://aws-oss.beachgeek.co.uk/3wq) provides a glimpse of how you can extend your AWS Amplify project, using three examples how you can integrate with existing data sources, authenticate with any OpenID Connect or SAML authentication provider, and customise the AWS Amplify generated resources through CDK [hands on]
+* [Monitor Java apps running on Tomcat server with Amazon CloudWatch Application Signals (Preview)](https://aws.amazon.com/blogs/mt/monitor-java-apps-running-on-tomcat-server-with-amazon-cloudwatch-application-signals-preview/) demonstrates how to auto-instrument Java web applications deployed via WAR packages and running on Tomcat server with AWS Distro for OpenTelemetry (ADOT), using CloudWatch Application Signals (Preview)  [hands on]
+* [New in AWS Amplify: Integrate with SQL databases, OIDC/SAML providers, and the AWS CDK](https://aws.amazon.com/blogs/mobile/new-in-aws-amplify-integrate-with-sql-databases-oidc-saml-providers-and-the-aws-cdk/) provides a glimpse of how you can extend your AWS Amplify project, using three examples how you can integrate with existing data sources, authenticate with any OpenID Connect or SAML authentication provider, and customise the AWS Amplify generated resources through CDK [hands on]
 
 ![demo of aws amplify gen2 and sql integration](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2024/05/10/real-time.gif)
 
-* [A Pilot Light disaster recovery strategy for WordPress](https://aws-oss.beachgeek.co.uk/3wr)  dives into how you can architect a resilient cross-Region Pilot Light DR strategy for WordPress, that uses the robust global infrastructure of AWS
+* [A Pilot Light disaster recovery strategy for WordPress](https://aws.amazon.com/blogs/storage/pilot-light-warm-standby-disaster-recovery-strategy-for-wordpress/)  dives into how you can architect a resilient cross-Region Pilot Light DR strategy for WordPress, that uses the robust global infrastructure of AWS
 
 ### Quick updates
 
@@ -146,7 +146,7 @@ Amazon Managed Workflows for Apache Airflow (MWAA) is a managed orchestration se
 
 In addition to this, a long awaited ask by Apache Airflows users is now available. Amazon MWAA now supports the Airflow REST API along with web server auto scaling, allowing customers to programmatically monitor and manage their Apache Airflow environments at scale. With Airflow REST API support, customers can now monitor workflows, trigger new executions, manage connections, and perform other administration tasks with ease via scalable API calls. Web server auto scaling enables MWAA to automatically scale out the Airflow web servers to handle increased demand, whether from REST API requests, Command Line Interface (CLI) usage, or more concurrent Airflow User Interface (UI) users.
 
-Check out the post, [Introducing Amazon MWAA support for the Airflow REST API and web server auto scaling](https://aws-oss.beachgeek.co.uk/3w4), to dive deeper into this, and get a hands on guide on how to get started with using the Airflow REST API and web server auto scaling on Amazon MWAA.
+Check out the post, [Introducing Amazon MWAA support for the Airflow REST API and web server auto scaling](https://aws.amazon.com/blogs/big-data/introducing-amazon-mwaa-support-for-the-airflow-rest-api-and-web-server-auto-scaling/), to dive deeper into this, and get a hands on guide on how to get started with using the Airflow REST API and web server auto scaling on Amazon MWAA.
 
 ![dashboard of airflow web autoscaling in action](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2024/05/14/BDB-4346-image006.png)
 
@@ -170,7 +170,7 @@ Amazon Relational Database Service (RDS) for MySQL announced Amazon RDS Extended
 
 Amazon Managed Streaming for Apache Kafka (Amazon MSK) now supports removing brokers from MSK provisioned clusters. Administrators can optimise costs of their Amazon MSK clusters by reducing broker count to meet the changing needs of their streaming workloads, while maintaining cluster performance, availability, and data durability. Customers use Amazon MSK as the core foundation to build a variety of real-time streaming applications and high-performance event driven architectures. As their business needs and traffic patterns change, they often adjust their cluster capacity to optimise their costs. Amazon MSK Provisioned provides flexibility for customers to change their provisioned clusters by adding brokers or changing the instance size and type. With broker removal, Amazon MSK Provisioned now offers an additional option to right-size cluster capacity. Customers can remove multiple brokers from their MSK provisioned clusters to meet the varying needs of their streaming workloads without any impact to client connectivity for reads and writes. By using broker removal capability, administrators can adjust cluster’s capacity, eliminating the need to migrate to another cluster to reduce broker count.
 
-You can dive deeper into this by checking out the blog post, [Safely remove Kafka brokers from Amazon MSK provisioned clusters](https://aws-oss.beachgeek.co.uk/3wh) 
+You can dive deeper into this by checking out the blog post, [Safely remove Kafka brokers from Amazon MSK provisioned clusters](https://aws.amazon.com/blogs/big-data/safely-remove-kafka-brokers-from-amazon-msk-provisioned-clusters/) 
 
 **Bottlerocket**
 
@@ -186,7 +186,7 @@ Amazon Managed Service for Prometheus collector, a fully-managed agent-less coll
 
 Customers can now run Amazon Managed Grafana workspaces with Grafana version 10.4. This release includes features that were launched as a part of open source Grafana versions 9.5 to 10.4, including Correlations, Subfolders, and new visualisation panels such as Data Grid, XY chart and Trend panel. This release also introduces new configuration APIs to manage service accounts and tokens for Amazon Managed Grafana workspaces. Service Accounts, replace API keys as the primary way to authenticate applications with Grafana APIs using Service Account Tokens. These new APIs eliminate the need to manually create Service accounts, enabling customers to fully automate their provisioning workflows. With correlations, customers can define relationships between different data sources, rendered as interactive links in Explore visualisations that trigger queries on the related data source; carrying forward data like namespace, host, or label values, enabling root cause analysis with a diverse set of data sources. Subfolders enable nested hierarchy of folders with nested layers of permissions, allowing customers to organise their dashboards to reflect their organisation’s hierarchy. To explore the complete list of new features, please refer to our user documentation. Grafana version 10.4 is supported in all AWS regions where Amazon Managed Grafana is generally available.
 
-Check out more details in the post, [Amazon Managed Grafana announces support for Grafana version 10.4](https://aws-oss.beachgeek.co.uk/3wi)
+Check out more details in the post, [Amazon Managed Grafana announces support for Grafana version 10.4](https://aws.amazon.com/blogs/mt/amazon-managed-grafana-announces-support-for-grafana-version-10-4/)
 
 **Kubernetes**
 
@@ -223,14 +223,14 @@ Looking forward to joining the community at [BSides Exeter](https://bsidesexeter
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Celebrating open source contributors
 
@@ -246,6 +246,6 @@ Please please please take 1 minute to [complete this short survey](https://www.p
 
 Remember to check out the [Open Source homepage](https://aws.amazon.com/opensource/?opensource-all.sort-by=item.additionalFields.startDate&opensource-all.sort-order=asc) for more open source goodness.
 
-One of the pieces of feedback I received in 2023 was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://aws-oss.beachgeek.co.uk/3l8).
+One of the pieces of feedback I received in 2023 was to create a repo where all the projects featured in this newsletter are listed. Where I can hear you all ask? Well as you ask so nicely, you can meander over to[ newsletter-oss-projects](https://github.com/094459/newsletter-oss-projects).
 
 Made with ♥ from DevRel

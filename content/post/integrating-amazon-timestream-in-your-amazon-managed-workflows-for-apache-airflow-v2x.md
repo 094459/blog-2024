@@ -34,7 +34,7 @@ All the source code in this blog post can be found in [this GitHub repository](h
 * An environment with the AWS CLI tools configured and running
 * [AWS CDK set up an installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 * Access to an AWS region where both Managed Workflows for Apache Airflow and Amazon Timestream are supported - for this walkthrough, I will be using eu-west-1
-* An environment of Amazon Managed Workflows for Apache Airflow already setup - you can follow [my previous link here](https://aws-oss.beachgeek.co.uk/3h) or check out the instructions in the GitHub repo which will walk you setting up an environment
+* An environment of Amazon Managed Workflows for Apache Airflow already setup - you can follow [my previous link here](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a) or check out the instructions in the GitHub repo which will walk you setting up an environment
 
 ### Setting up the Amazon Timestream
 
@@ -278,7 +278,7 @@ We can now move to integrating this with Apache Airflow. Let's take a look now a
 
 ### Setting up MWAA
 
-You should already have an MWAA environment up and running. You can follow [my previous link here](https://aws-oss.beachgeek.co.uk/3h) which uses AWS CDK to build up an environment, or if you prefer, you can use the console to create one quickly using the online wizard.
+You should already have an MWAA environment up and running. You can follow [my previous link here](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a) which uses AWS CDK to build up an environment, or if you prefer, you can use the console to create one quickly using the online wizard.
 
 > Remember, this needs to be in the same AWS region as the Amazon Timestream database - I am using eu-west-1
 
@@ -481,7 +481,7 @@ We now have all the pieces we need at an infrastructure level, and now we just n
 
 First, we could write the code in Python using boto3. The Timestream documentation provides some coding examples to help you, and this provides you with lots of fine grain access to what you can do.
 
-The second option is to use a rather great open source project called [AWS Data Wrangler](https://aws-oss.beachgeek.co.uk/xf), which abstracts a lot of the complexity of working with AWS data services, and it supports Amazon Timestream. In fact, it makes working with Amazon Timestream REALLY easy - what is not to like! Here is a sample line of code to do a query
+The second option is to use a rather great open source project called [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler), which abstracts a lot of the complexity of working with AWS data services, and it supports Amazon Timestream. In fact, it makes working with Amazon Timestream REALLY easy - what is not to like! Here is a sample line of code to do a query
 
 ```
 wr.timestream.query('{your timestream query here}')
@@ -501,7 +501,7 @@ pyarrow==2.0.0
 awswrangler==2.4.0
 ```
 
-You will have to update your MWAA environment in order to make these become active. I wrote an [earlier blog post](https://aws-oss.beachgeek.co.uk/4t) if you want to know more on how to do this (go down to the section called Requirements).
+You will have to update your MWAA environment in order to make these become active. I wrote an [earlier blog post](https://dev.to/aws/a-simple-ci-cd-system-for-your-development-workflow-30b4) if you want to know more on how to do this (go down to the section called Requirements).
 
 Once your MWAA environment has restarted, you are good to go.
 
@@ -595,7 +595,7 @@ You can view the whole DAG here in the GitHub repo.
 
 **Deploying and running the workflow**
 
-In my setup, I am using a [simple CI/CD system](https://aws-oss.beachgeek.co.uk/4t) to deploy DAGs, but if you wanted to you can just copy this to your MWAA Dags folder using the cli (change these values to your own)
+In my setup, I am using a [simple CI/CD system](https://dev.to/aws/a-simple-ci-cd-system-for-your-development-workflow-30b4) to deploy DAGs, but if you wanted to you can just copy this to your MWAA Dags folder using the cli (change these values to your own)
 
 
 ```

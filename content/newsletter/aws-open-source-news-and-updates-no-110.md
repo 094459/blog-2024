@@ -35,7 +35,7 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **content-delivery-demo**
 
-[content-delivery-demo](https://aws-oss.beachgeek.co.uk/1mw) this project from Hassan Tahhan demonstrates how to accelerate distribution of your static and dynamic content in a secure, scalable, and repeatable way using Amazon CloudFront, Amazon S3, Amazon EC2, Application Load Balancer (ALB), Amazon VPC, and AWS CloudFormation. Other AWS services used are Amazon CloudWatch, AWS Lambda, AWS IAM, and AWS SDK for Python (Boto3).
+[content-delivery-demo](https://github.com/hassantahhan/content-delivery-demo) this project from Hassan Tahhan demonstrates how to accelerate distribution of your static and dynamic content in a secure, scalable, and repeatable way using Amazon CloudFront, Amazon S3, Amazon EC2, Application Load Balancer (ALB), Amazon VPC, and AWS CloudFormation. Other AWS services used are Amazon CloudWatch, AWS Lambda, AWS IAM, and AWS SDK for Python (Boto3).
 
 ![architecture of solution](https://github.com/hassantahhan/content-delivery-demo/blob/main/architecture.jpg?raw=true)
 
@@ -43,11 +43,11 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **aws-dataset-ingestion-metrics-collection-framework**
 
-[aws-dataset-ingestion-metrics-collection-framework](https://aws-oss.beachgeek.co.uk/1mv) this open source framework helps you to enforce long term health of your AWS Data Lake by providing visibility into operational, data quality and business metrics.
+[aws-dataset-ingestion-metrics-collection-framework](https://github.com/awslabs/aws-dataset-ingestion-metrics-collection-framework) this open source framework helps you to enforce long term health of your AWS Data Lake by providing visibility into operational, data quality and business metrics.
 
 **aws-stf**
 
-[aws-stf](https://aws-oss.beachgeek.co.uk/1mt) The Smart Territory Framework - STF - is a set of tools and standardized modules that our partners and customers can assemble together to build and operate sustainable and highly effective solutions, in line with global industry standards and based on the open-source offering of the FIWARE ecosystem. Check out the detailed README for more info, including some helpful videos that go into more detail about FIWARE and how this project aligns.
+[aws-stf](https://github.com/aws-samples/aws-stf) The Smart Territory Framework - STF - is a set of tools and standardized modules that our partners and customers can assemble together to build and operate sustainable and highly effective solutions, in line with global industry standards and based on the open-source offering of the FIWARE ecosystem. Check out the detailed README for more info, including some helpful videos that go into more detail about FIWARE and how this project aligns.
 
 ![architecture of stf](https://github.com/aws-samples/aws-stf/blob/main/docs/images/referencearch.png?raw=true)
 
@@ -55,25 +55,25 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **kinesis-data-streams-replication-using-kinesis-data-analytics-studio**
 
-[kinesis-data-streams-replication-using-kinesis-data-analytics-studio](https://aws-oss.beachgeek.co.uk/1ms) It can be desirable to replicate data from a Kinesis Data Stream in Region A to Region B for many reasons including Disaster Recovery Resiliency, migration to another region, or simply making data available in both regions for separation of concerns. In this repository, we showcase how to replicate data between regions using Kinesis Data Analytics Studio, a managed Apache Flink SQL interactive environment using Apache Zeppelin.
+[kinesis-data-streams-replication-using-kinesis-data-analytics-studio](https://github.com/aws-samples/kinesis-data-streams-replication-using-kinesis-data-analytics-studio) It can be desirable to replicate data from a Kinesis Data Stream in Region A to Region B for many reasons including Disaster Recovery Resiliency, migration to another region, or simply making data available in both regions for separation of concerns. In this repository, we showcase how to replicate data between regions using Kinesis Data Analytics Studio, a managed Apache Flink SQL interactive environment using Apache Zeppelin.
 
 ![architecture of cross region kinesis data](https://github.com/aws-samples/kinesis-data-streams-replication-using-kinesis-data-analytics-studio/blob/main/img/cross-region-kda-studio.png?raw=true)
 
 **cfn-stack-summary-widget**
 
-[cfn-stack-summary-widget](https://aws-oss.beachgeek.co.uk/1mp) This repository demonstrates how to create a CloudWatch dashboard widget that provides an HTML summary of one or more CloudFormation stacks. The summary lists important resources along helpful links to the AWS console.
+[cfn-stack-summary-widget](https://github.com/aws-samples/cfn-stack-summary-widget) This repository demonstrates how to create a CloudWatch dashboard widget that provides an HTML summary of one or more CloudFormation stacks. The summary lists important resources along helpful links to the AWS console.
 
 ![example dashboard ysing project](https://github.com/aws-samples/cfn-stack-summary-widget/blob/main/DashboardScreenshot.png?raw=true)
 
 **aws-iot-thingworx**
 
-[aws-iot-thingworx](https://aws-oss.beachgeek.co.uk/1mq) This open source solution is designed to allow Things connected to AWS IotCore publishing MQTT messages to connect to an instance of Thingworx server.
+[aws-iot-thingworx](https://github.com/aws-samples/aws-iot-thingworx) This open source solution is designed to allow Things connected to AWS IotCore publishing MQTT messages to connect to an instance of Thingworx server.
 
 ![architecture of thingworx solution](https://github.com/aws-samples/aws-iot-thingworx/blob/main/aws_cloud-connector-diagram-final.jpg?raw=true)
 
 **end-to-end-workshop-for-computer-vision**
 
-[end-to-end-workshop-for-computer-vision](https://aws-oss.beachgeek.co.uk/1mr) this is an end-to-end CV MLOps workshop aimed to help Machine Learning (ML) and Data Science (DS) teams build relevant AWS and SageMaker competencies for an enterprise scale solution. The content is derived from a real world CV use case where an image classification model is developed and trained on SageMaker and then deployed to an edge computing devices.
+[end-to-end-workshop-for-computer-vision](https://github.com/aws-samples/end-to-end-workshop-for-computer-vision) this is an end-to-end CV MLOps workshop aimed to help Machine Learning (ML) and Data Science (DS) teams build relevant AWS and SageMaker competencies for an enterprise scale solution. The content is derived from a real world CV use case where an image classification model is developed and trained on SageMaker and then deployed to an edge computing devices.
 
 ![architecture of workshop solution](https://github.com/aws-samples/end-to-end-workshop-for-computer-vision/blob/main/statics/cv-workshop-overview.png?raw=true)
 
@@ -81,7 +81,7 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **Steampipe**
 
-Steampipe is an open source tool under the AGPLv3 license for querying cloud APIs in a universal way and reasoning about the data in SQL. David Boeke, Bob Tordella, Jon Udell, and Nathan Wallace have come together to pen the post, [Compliance auditing with Steampipe and SQL](https://aws-oss.beachgeek.co.uk/1mf). This is a follow up to a previous post that explored how to use Steampipe to query your AWS environments, and in this post they share how Steampipe’s Compliance “mod” enables you to query your AWS infrastructure to check against a number of compliance with regulatory frameworks. This is a really cool project, so you should check this out. [hands on]
+Steampipe is an open source tool under the AGPLv3 license for querying cloud APIs in a universal way and reasoning about the data in SQL. David Boeke, Bob Tordella, Jon Udell, and Nathan Wallace have come together to pen the post, [Compliance auditing with Steampipe and SQL](https://aws.amazon.com/blogs/opensource/compliance-auditing-with-steampipe-and-sql/). This is a follow up to a previous post that explored how to use Steampipe to query your AWS environments, and in this post they share how Steampipe’s Compliance “mod” enables you to query your AWS infrastructure to check against a number of compliance with regulatory frameworks. This is a really cool project, so you should check this out. [hands on]
 
 **Semgrep**
 
@@ -89,47 +89,47 @@ Semgrep (short for Semantic Grep) is a fast, lightweight, and open-source static
 
 **AWS CloudFormation Guard**
 
-AWS CloudFormation Guard is an open-source general-purpose policy-as-code evaluation tool. It provides developers with a simple-to-use, yet powerful and expressive domain-specific language (DSL) to define policies and enables developers to validate JSON or YAML formatted structured data with those policies. In the post, [Extend your pre-commit hooks with AWS CloudFormation Guard](https://aws-oss.beachgeek.co.uk/1ml), Joaquin Manuel Rinaudo shows you how to extend your Git hooks to validate your AWS CloudFormation templates against policy-as-code rules by using AWS CloudFormation Guard. This can help you verify that your code follows organisational best practices for security, compliance, and more by preventing you from commit changes that fail validation rules. [hands on]
+AWS CloudFormation Guard is an open-source general-purpose policy-as-code evaluation tool. It provides developers with a simple-to-use, yet powerful and expressive domain-specific language (DSL) to define policies and enables developers to validate JSON or YAML formatted structured data with those policies. In the post, [Extend your pre-commit hooks with AWS CloudFormation Guard](https://aws.amazon.com/blogs/security/extend-your-pre-commit-hooks-with-aws-cloudformation-guard/), Joaquin Manuel Rinaudo shows you how to extend your Git hooks to validate your AWS CloudFormation templates against policy-as-code rules by using AWS CloudFormation Guard. This can help you verify that your code follows organisational best practices for security, compliance, and more by preventing you from commit changes that fail validation rules. [hands on]
 
 **BearCam Project**
 
-AWS Community Builder Ed Miller has put together his first post in the AWS Community Builder channel on Dev.to, looking at a new project that he is going to open source that certainly got my attention. The [BearID project](https://aws-oss.beachgeek.co.uk/1mc) is an initiative to explore how noninvasive technologies can help identify and monitor bears, facilitating their conservation. Ed has laid out some of his thinking for his idea, but is looking for feedback and potentially collaborators. If you love bears, and have some spare cycles, why not get in touch. Read the post, [BearCam Companion](https://aws-oss.beachgeek.co.uk/1md). 
+AWS Community Builder Ed Miller has put together his first post in the AWS Community Builder channel on Dev.to, looking at a new project that he is going to open source that certainly got my attention. The [BearID project](https://bearresearch.org/) is an initiative to explore how noninvasive technologies can help identify and monitor bears, facilitating their conservation. Ed has laid out some of his thinking for his idea, but is looking for feedback and potentially collaborators. If you love bears, and have some spare cycles, why not get in touch. Read the post, [BearCam Companion](https://dev.to/aws-builders/bearcam-companion-585i). 
 
 **Apache Spark**
 
-Melody Yang and Kinnar Kumar Sen share how you can run Apache Spark workloads faster and cheaper with Amazon EMR on EKS when compared to Apache Spark on Amazon EKS, without making any application changes, in their post, [Amazon EMR on Amazon EKS provides up to 61% lower costs and up to 68% performance improvement for Spark workloads](https://aws-oss.beachgeek.co.uk/1me). Using the TPC-DS datasets at 3 TB scale to benchmark, this is worth while reading if you are running any Apache Spark workloads on AWS.
+Melody Yang and Kinnar Kumar Sen share how you can run Apache Spark workloads faster and cheaper with Amazon EMR on EKS when compared to Apache Spark on Amazon EKS, without making any application changes, in their post, [Amazon EMR on Amazon EKS provides up to 61% lower costs and up to 68% performance improvement for Spark workloads](https://aws.amazon.com/blogs/big-data/amazon-emr-on-amazon-eks-provides-up-to-61-lower-costs-and-up-to-68-performance-improvement-for-spark-workloads/). Using the TPC-DS datasets at 3 TB scale to benchmark, this is worth while reading if you are running any Apache Spark workloads on AWS.
 
 ![graph of performance improvements](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/04/21/BDB-2132-image001-500.png)
 
 **Kubeflow**
 
-Kubeflow is the open-source machine learning (ML) platform dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable. In the post, [Build and deploy a scalable machine learning system on Kubernetes with Kubeflow on AWS](https://aws-oss.beachgeek.co.uk/1mi), Kanwaljit Khurmi, Meghna Baijal, and Suraj Kota demonstrate [Kubeflow on AWS](https://aws-oss.beachgeek.co.uk/1mj) (an AWS-specific distribution of Kubeflow) and the value it adds over open-source Kubeflow through the integration of highly optimised, cloud-native, enterprise-ready AWS services. [hands on]
+Kubeflow is the open-source machine learning (ML) platform dedicated to making deployments of ML workflows on Kubernetes simple, portable and scalable. In the post, [Build and deploy a scalable machine learning system on Kubernetes with Kubeflow on AWS](https://aws.amazon.com/blogs/machine-learning/build-and-deploy-a-scalable-machine-learning-system-on-kubernetes-with-kubeflow-on-aws/), Kanwaljit Khurmi, Meghna Baijal, and Suraj Kota demonstrate [Kubeflow on AWS](https://awslabs.github.io/kubeflow-manifests/) (an AWS-specific distribution of Kubeflow) and the value it adds over open-source Kubeflow through the integration of highly optimised, cloud-native, enterprise-ready AWS services. [hands on]
 
 ![architecture of kubeflow on aws](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/04/26/ML-8280-image003.jpg)
 
 **Istio**
 
-[Addressing latency and data transfer costs on EKS using Istio](https://aws-oss.beachgeek.co.uk/1mz) takes a look at data transfer charges in your Amazon EKS clusters. Mahalingam Sivaprakasam and Abhinav Krishna Vadlapatla explore one approach using Itsio that might help reduce costs while operating your workloads on Amazon EKS at production scale. [hands on]
+[Addressing latency and data transfer costs on EKS using Istio](https://aws.amazon.com/blogs/containers/addressing-latency-and-data-transfer-costs-on-eks-using-istio/) takes a look at data transfer charges in your Amazon EKS clusters. Mahalingam Sivaprakasam and Abhinav Krishna Vadlapatla explore one approach using Itsio that might help reduce costs while operating your workloads on Amazon EKS at production scale. [hands on]
 
 ![architecture of itsio and data transfer costs](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/04/20/istio-2.png)
 
 **Other posts worth checking out**
 
-* [Simplifying Kubernetes Observability with Amazon EKS Blueprints](https://aws-oss.beachgeek.co.uk/1mg) walks you through building an EKS Blueprint cluster containing the New Relic EKS Blueprints add-on for Kubernetes observability [hands on]
-* [Automatically create customized AppStream 2.0 Linux images](https://aws-oss.beachgeek.co.uk/1mu) shows how you can set up a serverless automation pipeline to create a customised AppStream 2.0 Amazon Linux 2 (AL2) based images
+* [Simplifying Kubernetes Observability with Amazon EKS Blueprints](https://aws.amazon.com/blogs/apn/simplifying-kubernetes-observability-with-amazon-eks-blueprints/) walks you through building an EKS Blueprint cluster containing the New Relic EKS Blueprints add-on for Kubernetes observability [hands on]
+* [Automatically create customized AppStream 2.0 Linux images](https://aws.amazon.com/blogs/desktop-and-application-streaming/automatically-create-customized-appstream-2-0-linux-images/) shows how you can set up a serverless automation pipeline to create a customised AppStream 2.0 Amazon Linux 2 (AL2) based images
 
 ![architecture of appstream linux image](https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2022/04/25/as2-automation-lnx-diagram.png)
 
-* [Disaster recovery: 3 failover scenarios for your Amazon Aurora global database with Terraform (Part 2)](https://aws-oss.beachgeek.co.uk/1mh) walks you through three failover scenarios available for the Aurora global database using the Terraform Amazon Aurora module [hands on]
-* [PostgreSQL psql client tool commands equivalent to Oracle SQL*Plus client tool](https://aws-oss.beachgeek.co.uk/1mk) is a handy cheat sheet to help you adjust from SQL\*Plus to psql
-* [Build a custom Java runtime for AWS Lambda](https://aws-oss.beachgeek.co.uk/1mn) will show you how you can create your own optimised Java runtime for AWS Lambda, allowing you to tailor your Java runtime to your application needs
-* [Build and Simulate Robotics Applications in AWS Cloud9](https://aws-oss.beachgeek.co.uk/1mo) covers how to use AWS Cloud9 for Robot Operating System (ROS) based robotics development and testing (including tools like Rviz, Gazebo, etc)
-* [Identify paraphrased text with Hugging Face on Amazon SageMaker](https://aws-oss.beachgeek.co.uk/1my) is a hands on guide on how to build a paraphrase identification model using Hugging Face transformers
+* [Disaster recovery: 3 failover scenarios for your Amazon Aurora global database with Terraform (Part 2)](https://aws.amazon.com/blogs/infrastructure-and-automation/disaster-recovery-failover-scenarios-aurora-global-database-terraform/) walks you through three failover scenarios available for the Aurora global database using the Terraform Amazon Aurora module [hands on]
+* [PostgreSQL psql client tool commands equivalent to Oracle SQL*Plus client tool](https://aws.amazon.com/blogs/database/postgresql-psql-client-tool-commands-equivalent-to-oracle-sqlplus-client-tool/) is a handy cheat sheet to help you adjust from SQL\*Plus to psql
+* [Build a custom Java runtime for AWS Lambda](https://aws.amazon.com/blogs/compute/build-a-custom-java-runtime-for-aws-lambda/) will show you how you can create your own optimised Java runtime for AWS Lambda, allowing you to tailor your Java runtime to your application needs
+* [Build and Simulate Robotics Applications in AWS Cloud9](https://aws.amazon.com/blogs/robotics/robotics-development-in-aws-cloud9/) covers how to use AWS Cloud9 for Robot Operating System (ROS) based robotics development and testing (including tools like Rviz, Gazebo, etc)
+* [Identify paraphrased text with Hugging Face on Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/identify-paraphrased-text-with-hugging-face-on-amazon-sagemaker/) is a hands on guide on how to build a paraphrase identification model using Hugging Face transformers
 
 **Case Studies**
 
-* [How SailPoint solved scaling issues by migrating legacy big data applications to Amazon EMR on Amazon EKS](https://aws-oss.beachgeek.co.uk/1mm) looks at how SailPoint updated its platform for big data operations, and solved scaling issues by migrating legacy big data applications to Amazon EMR on Amazon EKS
-* [How Moovit turns data into insights to help passengers avoid delays using Apache Airflow and Amazon SageMaker](https://aws-oss.beachgeek.co.uk/1mx) explores how Moovit built an automated pipeline to train and deploy BERT models which classify public transportation service alerts in multiple metropolitan areas using Apache Airflow to orchestrate the different steps
+* [How SailPoint solved scaling issues by migrating legacy big data applications to Amazon EMR on Amazon EKS](https://aws.amazon.com/blogs/big-data/how-sailpoint-solved-scaling-issues-by-migrating-legacy-big-data-applications-to-amazon-emr-on-amazon-eks/) looks at how SailPoint updated its platform for big data operations, and solved scaling issues by migrating legacy big data applications to Amazon EMR on Amazon EKS
+* [How Moovit turns data into insights to help passengers avoid delays using Apache Airflow and Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/how-moovit-turns-data-into-insights-to-help-passengers-avoid-delays-using-apache-airflow-and-amazon-sagemaker/) explores how Moovit built an automated pipeline to train and deploy BERT models which classify public transportation service alerts in multiple metropolitan areas using Apache Airflow to orchestrate the different steps
 
 ![moovit apache airflow architecture](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/04/19/ai_lake_architecture-800.png)
 
@@ -200,14 +200,14 @@ This is a community organised event about AWS CDK, cdktf, projen and cdk8s. This
 **BOSC 2022**
 **July 13-14, Madison, Wisconsin, USA**
 
-The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://aws-oss.beachgeek.co.uk/1li)
+The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://www.open-bio.org/events/bosc-2022/)
 
 **OpenSearch**
 **Every Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://www.meetup.com/OpenSearch/)
 
 **OpenSearchCon 2022**
 **Sept 21st, 2022 Seattle**
@@ -216,7 +216,7 @@ Come to the first annual OpenSearchCon!
 
 This day-long conference will be packed with presenters who build and innovate with OpenSearch. It doesn’t matter if you’re just getting started on your OpenSearch journey, running giant clusters, or contributing tons of code; the event is for everyone. Join us to celebrate the progress and look into the future of the project. Admission is free, and registration will be open in the next few weeks. All you will need to do is sign up, and get to Seattle!
 
-Check out the full details, including signing up and location, at the [meetup page here](https://aws-oss.beachgeek.co.uk/1n1).
+Check out the full details, including signing up and location, at the [meetup page here](https://www.meetup.com/OpenSearch/events/285152025/).
 
 
 ### Stay in touch with open source at AWS

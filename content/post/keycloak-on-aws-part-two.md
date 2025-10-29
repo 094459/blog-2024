@@ -5,7 +5,7 @@ tags : [ aws open source, Keycloak, CDK, Cloudformation, SAML2.0, AWS Identity C
 
 ---
 
-This is the follow up post to [Integrating Keycloak as my Identity Provider for IAM Identity Centre: Part one, deploying Keycloak on AWS](https://aws-oss.beachgeek.co.uk/2vw), where I looked at how to deploy Keycloak on AWS in order to have an Identity Provider to use when configuring AWS Identity Centre. In this post, I am going to use that setup, and show you how I configured it to integrate with AWS Identity Centre to provide access to my AWS resources.
+This is the follow up post to [Integrating Keycloak as my Identity Provider for IAM Identity Centre: Part one, deploying Keycloak on AWS](https://dev.to/aws/integrating-keycloak-as-my-identity-provider-for-iam-identity-centre-part-one-deploying-keycloak-on-aws-2ol1), where I looked at how to deploy Keycloak on AWS in order to have an Identity Provider to use when configuring AWS Identity Centre. In this post, I am going to use that setup, and show you how I configured it to integrate with AWS Identity Centre to provide access to my AWS resources.
 
 > AWS Identity Centre is the new name for AWS Single Sign On 
 
@@ -15,14 +15,14 @@ Let's see how we do this.
 
 **Pre-reqs**
 
-In order to find this post useful, you will need a Keycloak server up and running. If you do not have this, then you could try out my previous post [Integrating Keycloak as my Identity Provider for IAM Identity Centre: Part one, deploying Keycloak on AWS](https://aws-oss.beachgeek.co.uk/2vw). Aside from a running Keycloak server, you will need:
+In order to find this post useful, you will need a Keycloak server up and running. If you do not have this, then you could try out my previous post [Integrating Keycloak as my Identity Provider for IAM Identity Centre: Part one, deploying Keycloak on AWS](https://dev.to/aws/integrating-keycloak-as-my-identity-provider-for-iam-identity-centre-part-one-deploying-keycloak-on-aws-2ol1). Aside from a running Keycloak server, you will need:
 
 * Admin access to your AWS Account where you want to integrate Keycloak as your Idp
 * I have setup a test user and group in AWS IAM Identity Centre which maps to the external user in Keycloak
 
 > **Users and Groups in AWS IAM Identity Centre** Not in scope for this post, but within AWS IAM Identity Centre you are able to define groups and permissions sets, and then assign these to users that are created. When you integrate an Idp with AWS IAM Identity Centre, this is your control point to ensure you define and control what these federated users have permissions to do.
 > 
-> In this walkthrough I created the simplest setup. A group called "Dev-Users" which have a subset of AWS permissions (in my case, [PowerUsers](https://aws-oss.beachgeek.co.uk/2wv) who can do a lot but not everything) and assigned a user called "developer@bigdev.com" which I have created in my Keycloak environment. I can log into Keycloak as "developer@bigdev.com" but this account currently cannot log into my AWS account.
+> In this walkthrough I created the simplest setup. A group called "Dev-Users" which have a subset of AWS permissions (in my case, [PowerUsers](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/PowerUserAccess.html) who can do a lot but not everything) and assigned a user called "developer@bigdev.com" which I have created in my Keycloak environment. I can log into Keycloak as "developer@bigdev.com" but this account currently cannot log into my AWS account.
 > 
 
 **Starting off at the AWS IAM Identity Centre**
@@ -79,6 +79,6 @@ I can access my AWS Account via the console, or via the cli and I am provided wi
 
 In these two blog posts I showed you how you can deploy Keycloak on AWS, and then integrate it with AWS Identity Centre to provide SSO for your AWS accounts. 
 
-One improvement to this setup would be to automate the provisioning of users within AWS IAM Identity Centre from Keycloak. This is typically achieved using System for [Cross-domain Identity Management (SCIM) ](https://aws-oss.beachgeek.co.uk/2wu)which IAM Identity Center supports. If this is something that interests you let me know and I will add it as a third post to complete the set.
+One improvement to this setup would be to automate the provisioning of users within AWS IAM Identity Centre from Keycloak. This is typically achieved using System for [Cross-domain Identity Management (SCIM) ](https://docs.aws.amazon.com/singlesignon/latest/userguide/scim-profile-saml.html)which IAM Identity Center supports. If this is something that interests you let me know and I will add it as a third post to complete the set.
 
 If you have found this blog post helpful, please give me some feedback by [completing this very short survey here](https://pulse.buildon.aws/survey/D4L9Y3II).

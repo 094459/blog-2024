@@ -31,57 +31,57 @@ So thank you to the following open source heroes:   Alina Dima, Daniel Aniszkiew
 
 **validation-tool-for-aws-iot-rules**
 
-[validation-tool-for-aws-iot-rules](https://aws-oss.beachgeek.co.uk/30j) is a tool that enables developers to test and validate IoT Rules SQL Statements without the heavy lifting of having to set up the infrastructure themselves. The goal of this framework is to provide developers with a "Closed-box" - type of validation tool, where only input payload, SQL statement and expected output need to be configured. If the Rules Engine parses the input as expected with the expected output, tests will succeed, if not they will fail. Expected versus actual output payload will be printed for references.
+[validation-tool-for-aws-iot-rules](https://github.com/aws-iot-builder-tools/validation-tool-for-aws-iot-rules) is a tool that enables developers to test and validate IoT Rules SQL Statements without the heavy lifting of having to set up the infrastructure themselves. The goal of this framework is to provide developers with a "Closed-box" - type of validation tool, where only input payload, SQL statement and expected output need to be configured. If the Rules Engine parses the input as expected with the expected output, tests will succeed, if not they will fail. Expected versus actual output payload will be printed for references.
 
 ![overview of rules sql statements diagram](https://res.cloudinary.com/practicaldev/image/fetch/s--QDHnHxJS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yoymejjootnvr8yc21gc.png)
 
-To find out more, be sure to read Alina Dima's post, [A Tool to Validate AWS IoT Rules SQL Statements](https://aws-oss.beachgeek.co.uk/30k) where she dives deeper into this topic and shows you how this tool can help. You can also check out this video she put together which is super helpful.
+To find out more, be sure to read Alina Dima's post, [A Tool to Validate AWS IoT Rules SQL Statements](https://dev.to/iotbuilders/a-tool-to-validate-aws-iot-rules-sql-statements-jg) where she dives deeper into this topic and shows you how this tool can help. You can also check out this video she put together which is super helpful.
 
 {{< youtube VfswJyz07ds >}}
 
 **avp-cli**
 
-[avp-cli](https://aws-oss.beachgeek.co.uk/315) is a handy command line tool from AWS Community Builder Daniel Aniszkiewicz, designed to interact with the AWS Verified Permissions (AVP) service. You can use it to create, manage, and delete policy stores, schemas, and policies. Comprehensive documentation and examples are just another reason why I like this project, so thank you Daniel for putting this together. If you like this, make sure you star the project and let Daniel know for yourself.
+[avp-cli](https://github.com/Pigius/avp-cli) is a handy command line tool from AWS Community Builder Daniel Aniszkiewicz, designed to interact with the AWS Verified Permissions (AVP) service. You can use it to create, manage, and delete policy stores, schemas, and policies. Comprehensive documentation and examples are just another reason why I like this project, so thank you Daniel for putting this together. If you like this, make sure you star the project and let Daniel know for yourself.
 
 **WebTruss.EntityFrameworkCore.DynamoDb**
 
-[WebTruss.EntityFrameworkCore.DynamoDb](https://aws-oss.beachgeek.co.uk/312) is an entity framework like library for AWS DynamoDb for .NET developers from Salman-Sali. His [goal](https://aws-oss.beachgeek.co.uk/311) is to provide a very easy to use, pick up and go library for dynamoDb. Currently these are some of the functions that are supported (FirstOrDefault, Any, ExecutePut, ExecuteDelete, PagedList, ScannedList) but he will be adding more functions. Please feel free to raise an issue or pr for a feature. He also provides an example of how to use this framework in the repo.
+[WebTruss.EntityFrameworkCore.DynamoDb](https://github.com/Salman-Sali/WebTruss.EntityFrameworkCore.DynamoDb) is an entity framework like library for AWS DynamoDb for .NET developers from Salman-Sali. His [goal](https://www.reddit.com/r/aws/comments/14qzhk1/an_entity_framework_like_c_library_for_aws/) is to provide a very easy to use, pick up and go library for dynamoDb. Currently these are some of the functions that are supported (FirstOrDefault, Any, ExecutePut, ExecuteDelete, PagedList, ScannedList) but he will be adding more functions. Please feel free to raise an issue or pr for a feature. He also provides an example of how to use this framework in the repo.
 
 **dynamodb-scaling-simulator**
 
-[dynamodb-scaling-simulator ](https://aws-oss.beachgeek.co.uk/313)is a tool from my good friend and former colleague Gabe Hollombe that helps you plan appropriate configs for DynamoDB provisioned capacity with auto-scaling. It helps you to simulate how a provisioned-capacity DynamoDB table will perform (will it throttle requests or not?) under different auto-scaling configurations. It will also try to calculate the best config for you that results in the lowest cost and no throttles.
+[dynamodb-scaling-simulator ](https://github.com/gabehollombe/dynamodb-scaling-simulator)is a tool from my good friend and former colleague Gabe Hollombe that helps you plan appropriate configs for DynamoDB provisioned capacity with auto-scaling. It helps you to simulate how a provisioned-capacity DynamoDB table will perform (will it throttle requests or not?) under different auto-scaling configurations. It will also try to calculate the best config for you that results in the lowest cost and no throttles.
 
 ### Demos, Samples, Solutions and Workshops
 
 **saas-boilerplate**
 
-[saas-boilerplate](https://aws-oss.beachgeek.co.uk/314) is an opinionated full stack web app's boilerplate, ready to be deployed to AWS platform. It includes essential features that every SaaS application requires, such as frontend, backend API, admin panel, and workers. With a scalable AWS-based architecture and continuous deployment, you can easily deploy multiple environments representing different stages in your pipeline. It looks very comprehensive, and provides lots of features including (but not limited to) payments, authentication and authorisation, notifications, emails, and many more.
+[saas-boilerplate](https://github.com/apptension/saas-boilerplate) is an opinionated full stack web app's boilerplate, ready to be deployed to AWS platform. It includes essential features that every SaaS application requires, such as frontend, backend API, admin panel, and workers. With a scalable AWS-based architecture and continuous deployment, you can easily deploy multiple environments representing different stages in your pipeline. It looks very comprehensive, and provides lots of features including (but not limited to) payments, authentication and authorisation, notifications, emails, and many more.
 
 ![overview of system architecture for saas boilerplate](https://docs.demo.saas.apptoku.com/img/system-diagram-v1.png)
 
 **aws-sam-swift**
 
-[aws-sam-swift](https://aws-oss.beachgeek.co.uk/316)  This project contains a Cookiecutter template to create a serverless application based on the AWS Serverless Application Model (SAM) and Swift. This project is intended to be used as a template location for the SAM Command Line Utility (CLI). SAM generates a project on your local machine based on this template. You can learn more about this by checking out the documentation, [Swift Server Templates](https://aws-oss.beachgeek.co.uk/317). 
+[aws-sam-swift](https://github.com/aws-samples/aws-sam-swift)  This project contains a Cookiecutter template to create a serverless application based on the AWS Serverless Application Model (SAM) and Swift. This project is intended to be used as a template location for the SAM Command Line Utility (CLI). SAM generates a project on your local machine based on this template. You can learn more about this by checking out the documentation, [Swift Server Templates](https://aws-samples.github.io/aws-sam-swift/). 
 
 **bespoke**
 
-[bespoke](https://aws-oss.beachgeek.co.uk/318) is an open source Personalized Marketing Platform that combines the functionality of Mailchimp, Kalviyo's automation, Substack's newsletter and Typeform for surveys. The repo provides deployment guidelines on how to get this up and running on your AWS environment. If this looks interesting to you, get in touch. I might be persuaded in putting together a blog post if enough people are interested. (Hat Tip to my colleague [Gunnar](https://twitter.com/GunnarGrosch) for sharing this with me!)
+[bespoke](https://github.com/bespoke-surf/bespoke) is an open source Personalized Marketing Platform that combines the functionality of Mailchimp, Kalviyo's automation, Substack's newsletter and Typeform for surveys. The repo provides deployment guidelines on how to get this up and running on your AWS environment. If this looks interesting to you, get in touch. I might be persuaded in putting together a blog post if enough people are interested. (Hat Tip to my colleague [Gunnar](https://twitter.com/GunnarGrosch) for sharing this with me!)
 
 ### AWS and Community blog posts
 
 **Community round up**
 
-As regular readers will know, Apache Airflow is one of my favourite open source projects, and I love reading community posts on this technology. I was delighted therefore when AWS Community Builders Tomasz Dudek and Rafał Mituła wrote [Dynamically create AWS ECS Task Definitions to simplify IaC and Semantic Versioning in AWS MWAA (Apache Airflow)](https://aws-oss.beachgeek.co.uk/30n) which looks at how they were able to use Airflow orchestration capabilities together with Amazon ECS to run their data engineering workflows at scale. Great post, and a must read this week.
+As regular readers will know, Apache Airflow is one of my favourite open source projects, and I love reading community posts on this technology. I was delighted therefore when AWS Community Builders Tomasz Dudek and Rafał Mituła wrote [Dynamically create AWS ECS Task Definitions to simplify IaC and Semantic Versioning in AWS MWAA (Apache Airflow)](https://www.chaosgears.com/blog/dynamically-create-aws-ecs-task-definitions-to-simplify-iac-and-semantic-versioning-in-aws-mwaa-apache-airflow) which looks at how they were able to use Airflow orchestration capabilities together with Amazon ECS to run their data engineering workflows at scale. Great post, and a must read this week.
 
 ![overview of dbt on mwaa and ecs](https://global-uploads.webflow.com/60f955236a773f743298d63b/648c3cf5d2a19d73454e5fc6_IMG_7719.png)
 
-The post [Instacart Creates a Self-Serve Apache Flink Platform on Kubernetes](https://aws-oss.beachgeek.co.uk/30l) from Rafal Gancarz pointed me back to the original post from Sylvia Lin which I missed when it was originally posted back in April. In [Building a Flink Self-Serve Platform on Kubernetes at Scale](https://aws-oss.beachgeek.co.uk/30m) Sylvia explains how Instacart took the decision to move to a self managed Apache Flink running on Amazon EKS, and how this able to help them with their mission of providing a robust self-serve Flink platform for their teams.
+The post [Instacart Creates a Self-Serve Apache Flink Platform on Kubernetes](https://www.infoq.com/news/2023/07/instacart-flink-kubernetes/) from Rafal Gancarz pointed me back to the original post from Sylvia Lin which I missed when it was originally posted back in April. In [Building a Flink Self-Serve Platform on Kubernetes at Scale](https://tech.instacart.com/building-a-flink-self-serve-platform-on-kubernetes-at-scale-c11ef19aef10) Sylvia explains how Instacart took the decision to move to a self managed Apache Flink running on Amazon EKS, and how this able to help them with their mission of providing a robust self-serve Flink platform for their teams.
 
 ![overview of apache flink on eks ](https://miro.medium.com/v2/resize:fit:1400/0*HTxncLO4GTfwk3OM)
 
 **Powertools for AWS Lambda**
 
-Starting from v2.20.0 releases, Powertools for AWS Lambda builds are reproducible and signed publicly. You can take a look at the documentation on the [Security](https://aws-oss.beachgeek.co.uk/31b) section of the documentation site, which documents how they are using the SLSA framework to follow supply chain security best practices.  You can now verify releases using the SLSA verifier, and check the public attestation details in the [public repository on rekor](https://aws-oss.beachgeek.co.uk/31c).
+Starting from v2.20.0 releases, Powertools for AWS Lambda builds are reproducible and signed publicly. You can take a look at the documentation on the [Security](https://docs.powertools.aws.dev/lambda/python/latest/security/) section of the documentation site, which documents how they are using the SLSA framework to follow supply chain security best practices.  You can now verify releases using the SLSA verifier, and check the public attestation details in the [public repository on rekor](https://search.sigstore.dev/?uuid=24296fb24b8ad77a8635b9eefeced59c2e07f4fe94d7ff4a7f2c3d94930f8e9f11198e99db71d943).
 
 ![overview of SLSA framework](https://slsa.dev/images/v1.0/supply-chain-threats.svg)
 
@@ -91,49 +91,49 @@ This is a hot topic for all projects, and Heitor has put together very detailed 
 
 **JupyterHub**
 
-Check out [JupyterHub on EKS](https://aws-oss.beachgeek.co.uk/310) which provides an emerging EKS Blueprint that combines the versatility of JupyterHub with the scalability and flexibility of Kubernetes. The blueprint leverages the Data on EKS project and simplifies how you can deploy this. Check out the documentation and code on the GitHub repo to get started. [hands on]
+Check out [JupyterHub on EKS](https://awslabs.github.io/data-on-eks/docs/blueprints/ai-ml/jupyterhub) which provides an emerging EKS Blueprint that combines the versatility of JupyterHub with the scalability and flexibility of Kubernetes. The blueprint leverages the Data on EKS project and simplifies how you can deploy this. Check out the documentation and code on the GitHub repo to get started. [hands on]
 
 ![overview of JupyterHub on EKS](https://awslabs.github.io/data-on-eks/assets/images/jupyter_launcher-ac52cf79eab3c6de206d1b12e93d5f52.png)
 
 **dbt**
 
-In the post, [Configure end-to-end data pipelines with Etleap, Amazon Redshift, and dbt](https://aws-oss.beachgeek.co.uk/30z), Zygimantas Koncius from Etleap collaborates with Sudhir Gupta from AWS to show how Etleap’s end-to-end pipelines enable data teams to simplify their data integration and transformation workflows as well as achieve higher data freshness. 
+In the post, [Configure end-to-end data pipelines with Etleap, Amazon Redshift, and dbt](https://aws.amazon.com/blogs/big-data/configure-end-to-end-data-pipelines-with-etleap-amazon-redshift-and-dbt/), Zygimantas Koncius from Etleap collaborates with Sudhir Gupta from AWS to show how Etleap’s end-to-end pipelines enable data teams to simplify their data integration and transformation workflows as well as achieve higher data freshness. 
 
 **PostgreSQL**
 
-A few posts of note this week on all things PostgreSQL. Kicking things off we have, [Cross-account Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL migration with reduced downtime using AWS DMS](https://aws-oss.beachgeek.co.uk/30u) where Alok Srivastava and Wanchen Zhao provide a practical, hands on guide on the various steps involved in migrating your Aurora PostgreSQL or RDS for PostgreSQL database from one AWS account to another. [hands on]
+A few posts of note this week on all things PostgreSQL. Kicking things off we have, [Cross-account Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL migration with reduced downtime using AWS DMS](https://aws.amazon.com/blogs/database/cross-account-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-migration-with-reduced-downtime-using-aws-dms/) where Alok Srivastava and Wanchen Zhao provide a practical, hands on guide on the various steps involved in migrating your Aurora PostgreSQL or RDS for PostgreSQL database from one AWS account to another. [hands on]
 
 ![overview of postgresql migration architecture](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/06/27/DBBLOG-2891-image001.png)
 
-Following that Anjali Dhanerwal and Mohammed Asadulla Baig have put together this post, [Improve app performance through pipelining queries to Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/30v) that shows you how pipelining PostgreSQL queries can help improve overall application performance by reducing query latency over the network. [hands on]
+Following that Anjali Dhanerwal and Mohammed Asadulla Baig have put together this post, [Improve app performance through pipelining queries to Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/improve-app-performance-through-pipelining-queries-to-amazon-rds-for-postgresql-and-amazon-aurora-postgresql/) that shows you how pipelining PostgreSQL queries can help improve overall application performance by reducing query latency over the network. [hands on]
 
 ![postgresql queries with and without pipelining](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/07/11/DBBLOG-2983-img2-resize.png)
 
-To finish up this collection, we had the post [Migrate PostgreSQL from Google Cloud Platform to Amazon RDS with minimal downtime](https://aws-oss.beachgeek.co.uk/30w) that shows you a procedure to migrate the PostgreSQL database from Google Cloud Platform (GCP) Cloud SQL to Amazon Relational Database Service (Amazon RDS) for PostgreSQL. The author, Aychin Gasimov, explores how you can the AWS Database Migration Service to enable this, and how it is not limited to this one Cloud provider.
+To finish up this collection, we had the post [Migrate PostgreSQL from Google Cloud Platform to Amazon RDS with minimal downtime](https://aws.amazon.com/blogs/database/migrate-postgresql-from-google-cloud-platform-to-amazon-rds-with-minimal-downtime/) that shows you a procedure to migrate the PostgreSQL database from Google Cloud Platform (GCP) Cloud SQL to Amazon Relational Database Service (Amazon RDS) for PostgreSQL. The author, Aychin Gasimov, explores how you can the AWS Database Migration Service to enable this, and how it is not limited to this one Cloud provider.
 
 ![overview of gcp to aws postgresql migration](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/06/15/DBBLOG-2183-arch-diagram.jpg)
 
 **Other posts and quick reads**
 
-* [MuleSoft Anypoint Runtime Fabric Deployment On Amazon EKS Anywhere](https://aws-oss.beachgeek.co.uk/30t) looks at how to deploy MuleSoft Anypoint Runtime Fabric on Amazon EKS Anywhere to bring the power and flexibility of MuleSoft’s runtime environment to on-premises and edge locations [hands on]
+* [MuleSoft Anypoint Runtime Fabric Deployment On Amazon EKS Anywhere](https://aws.amazon.com/blogs/containers/mulesoft-anypoint-runtime-fabric-deployment-on-amazon-eks-anywhere/) looks at how to deploy MuleSoft Anypoint Runtime Fabric on Amazon EKS Anywhere to bring the power and flexibility of MuleSoft’s runtime environment to on-premises and edge locations [hands on]
 
 ![overview of anypoint runtime architecture using eks anywhere](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/07/11/mulesoft-final-scaled.jpg)
 
-* [Apollo GraphQL Federation with AWS AppSync](https://aws-oss.beachgeek.co.uk/1bh) is an update to this post that I shared early in 2022, updated to comply with the new Apollo Federation spec v2.0
-* [New Solution – Clickstream Analytics on AWS for Mobile and Web Applications](https://aws-oss.beachgeek.co.uk/30y) provides a supporting blog post on the clickstream project I shared in #164 of the newsletter, that will walk you through everything you need to know to get started [hands on]
-* [Better Together – Graviton 2 and GP3 with Amazon OpenSearch Service](https://aws-oss.beachgeek.co.uk/31a) looks at the cost savings you might see by running Amazon OpenSearch Service on Graviton2 based instances with gp3 based EBS storage, compared to running OpenSearch on traditional x86 based instances with gp2 based EBS storage [hands on]
+* [Apollo GraphQL Federation with AWS AppSync](https://aws.amazon.com/blogs/mobile/federation-appsync-subgraph/) is an update to this post that I shared early in 2022, updated to comply with the new Apollo Federation spec v2.0
+* [New Solution – Clickstream Analytics on AWS for Mobile and Web Applications](https://aws.amazon.com/blogs/aws/new-solution-clickstream-analytics-on-aws-for-mobile-and-web-applications/) provides a supporting blog post on the clickstream project I shared in #164 of the newsletter, that will walk you through everything you need to know to get started [hands on]
+* [Better Together – Graviton 2 and GP3 with Amazon OpenSearch Service](https://aws.amazon.com/blogs/aws-cloud-financial-management/better-together-graviton-2-and-gp3-with-amazon-opensearch-service/) looks at the cost savings you might see by running Amazon OpenSearch Service on Graviton2 based instances with gp3 based EBS storage, compared to running OpenSearch on traditional x86 based instances with gp2 based EBS storage [hands on]
 
 **Case Studies**
 
-* [Leveraging Open Source at Barclays to Enable Lambda Event Filtering with AWS Glue Schema Registry](https://aws-oss.beachgeek.co.uk/30x) dives into how Barclays achieved AWS Glue Schema Registry integration with AWS Lambda event filtering by leveraging the open source library.
+* [Leveraging Open Source at Barclays to Enable Lambda Event Filtering with AWS Glue Schema Registry](https://aws.amazon.com/blogs/opensource/leveraging-open-source-at-barclays-to-enable-lambda-event-filtering-with-aws-glue-schema-registry/) dives into how Barclays achieved AWS Glue Schema Registry integration with AWS Lambda event filtering by leveraging the open source library.
 
 ![overview of barclays architecture](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/06/23/Customer-onboarding-diagra.png)
 
-* [Best Practices for Optimizing Kubernetes Costs on AWS with StormForge and Karpenter](https://aws-oss.beachgeek.co.uk/30r) looks at how this AWS Partner can help businesses leverage Karpenter to optimise both application and infrastructure configurations to reduce Kubernetes costs.
+* [Best Practices for Optimizing Kubernetes Costs on AWS with StormForge and Karpenter](https://aws.amazon.com/blogs/apn/best-practices-for-optimizing-kubernetes-costs-on-aws-with-stormforge-and-karpenter/) looks at how this AWS Partner can help businesses leverage Karpenter to optimise both application and infrastructure configurations to reduce Kubernetes costs.
 
 ![overview of stormforge for cost optimisation case study](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/06/26/StormForge-Optimize-Live-2.png)
 
-* [How Amazon EKS and Precisely’s Geo Addressing SDK Power Real-Time Decisions](https://aws-oss.beachgeek.co.uk/30s) looks at how geo addressing capabilities can be deployed on AWS infrastructure to accelerate analysis and power real-time decision making.
+* [How Amazon EKS and Precisely’s Geo Addressing SDK Power Real-Time Decisions](https://aws.amazon.com/blogs/apn/how-amazon-eks-and-precisely-geo-addressing-sdk-power-real-time-decisions/) looks at how geo addressing capabilities can be deployed on AWS infrastructure to accelerate analysis and power real-time decision making.
 
 ![overview of precisely geo addressing sdk on eks](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/06/27/Precisely-Geo-Addressing-4.png)
 
@@ -181,7 +181,7 @@ Spring Cloud Functions enables you to write simple Java Functions that, combined
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/episodes).
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (sixteen) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.twitch.tv/collections/a7OU6drfRxfAag).
 
 We are currently planning the third series - if you have an open source project you want to talk about, get in touch and we might be able to feature your project in future episodes of Build on Open Source.
 
@@ -194,21 +194,21 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 
 This is L300 event that is split into two sessions. How to reduce costs is a topic on most peoples minds today, in the first session, that will cover how to reduce costs in your EKS workload by first covering common cost factors and easy fixes to bring down your overall spend. You will also look at how to think about efficiency for your workload and how to calculate your costs down to the pod level. You will also see a demo with Kubecost and what factors to think about when installing and setting it up. In the second session, you will see practical examples that combine different techniques to help you build for sustainability on Amazon EKS by making use of Graviton, EC2 Spot, effective autoscaling with Karpenter, among other topics.
 
-Register to save your space on the page, [AWS Go Build On EKS Series: Cost](https://aws-oss.beachgeek.co.uk/30o)
+Register to save your space on the page, [AWS Go Build On EKS Series: Cost](https://pages.awscloud.com/Go-Build-Containers-Registration.html?did=ep_card&trk=ep_card)
 
 **ElastiCache for Redis: Boost Your Startup's Performance with Lightning-Fast Data**
 **Online, July 19th 1pm UK time**
 
 In this online webinar, you will learn more about some of the advanced features of Amazon ElastiCache and MemoryDB. You will dive deep into the features of ElastiCache and MemoryDB, explore Redis topologies and features, look at ElastiCache and MemoryDB Use Cases, find out about best practices for Highly Available architecture, and hear about monitoring, sizing, and other best practices.
 
-This is a L200 session, and you can sign up to save your place on the registration page, [ElastiCache for Redis: Boost Your Startup's Performance with Lightning-Fast Data](https://aws-oss.beachgeek.co.uk/30p)
+This is a L200 session, and you can sign up to save your place on the registration page, [ElastiCache for Redis: Boost Your Startup's Performance with Lightning-Fast Data](https://aws-startup-lofts.com/emea/e/1fdff/elasticache-for-redis-boost-your-startups-performance-with-lightning-fast-data?did=ep_card&trk=ep_card)
 
 **Building Scalable Microservices with TiDB and AWS Lambda**
 **AWS Offices in New York, July 24th, 10am - 2pm**
 
 TiDB is an open-source New SQL database that supports Hybrid Transactional and Analytical Processing workloads. It is MySQL compatible and can provide horizontal scalability, strong consistency, and high availability. Join PingCAP and AWS for an in-person workshop where you’ll learn about TiDB Serverless and AWS Lambda. You’ll explore how to combine them to build scalable, highly-available microservices while generating real-time insights directly from raw application data.
 
-You will need to register to save your place, so head over to [Building Scalable Microservices with TiDB and AWS Lambda](https://aws-oss.beachgeek.co.uk/30q) and find out more.
+You will need to register to save your place, so head over to [Building Scalable Microservices with TiDB and AWS Lambda](https://www.pingcap.com/event/building-scalable-microservices-with-tidb-and-aws-lambda/) and find out more.
 
 **Discover AWS' Cedar With its Creator and Community Leaders**
 **Online, July 26th, 11:00 EST / 15:00 GMT**
@@ -222,26 +222,26 @@ Sign up and register your spot over at the [Discover AWS' Cedar With its Creator
 **OpenSearchCon**
 **Seattle, September 27-29, 2023**
 
-Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://aws-oss.beachgeek.co.uk/2zk) that provides you with what you can expect, and resources you need to help plan your trip.
+Registration is now open source OpenSearchCon. Check out this post from Daryll Swager, [Registration for OpenSearchCon 2023 is now open!](https://opensearch.org/blog/registration-for-opensearchcon-2023-is-now-open/) that provides you with what you can expect, and resources you need to help plan your trip.
 
 **CDK Day, 2023**
 **Online, 29th September 2023**
 
 Back for the fourth instalment, this Community led event is a must attend for anyone working with infrastructure as code using the AWS Cloud Development Kit (CDK). It is intended to provide learning opportunities for all users of the CDK and related libraries. The CFP is open, so if you have some ideas for some talks then make sure you check that section out. Also, this year they are accepting talks in Espanol! Woohoo, love it!
 
-Check more at the website, [CDK Day](https://aws-oss.beachgeek.co.uk/fr) 
+Check more at the website, [CDK Day](https://www.cdkday.com/) 
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

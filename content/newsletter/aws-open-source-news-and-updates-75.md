@@ -27,32 +27,32 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **aws-lightweight-client-java**
 
-[aws-lightweight-client-java](https://aws-oss.beachgeek.co.uk/ps) if you are looking for a really  lightweight java client for the AWS API, then Dave Moten has you covered with this project. This standalone artefact (about 57K) that performs authentication (signing requests with AWS Signature Version 4) and helps you build requests against the AWS API. It includes nice concise builders, a lightweight inbuilt xml parser (to parse responses), and useful convenience methods. Perfect for those situations this is important (Mobile and functions for example)
+[aws-lightweight-client-java](https://github.com/davidmoten/aws-lightweight-client-java) if you are looking for a really  lightweight java client for the AWS API, then Dave Moten has you covered with this project. This standalone artefact (about 57K) that performs authentication (signing requests with AWS Signature Version 4) and helps you build requests against the AWS API. It includes nice concise builders, a lightweight inbuilt xml parser (to parse responses), and useful convenience methods. Perfect for those situations this is important (Mobile and functions for example)
 
 **serverless-transformers-on-aws-lambda**
 
-[serverless-transformers-on-aws-lambda](https://aws-oss.beachgeek.co.uk/py) Pratik Bhavsar shared his latest open source project late last week, which looks very interesting. It provides a serverless way to run your machine learning transformers. A [transformer](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) is a deep learning model that adopts the mechanism of attention, differentially weighing the significance of each part of the input data. It is used primarily in the field of natural language processing (NLP) and in computer vision (CV)
+[serverless-transformers-on-aws-lambda](https://github.com/bhavsarpratik/serverless-transformers-on-aws-lambda) Pratik Bhavsar shared his latest open source project late last week, which looks very interesting. It provides a serverless way to run your machine learning transformers. A [transformer](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) is a deep learning model that adopts the mechanism of attention, differentially weighing the significance of each part of the input data. It is used primarily in the field of natural language processing (NLP) and in computer vision (CV)
 
 
 **bottlerocket-ecs-updater-cdk**
 
-[bottlerocket-ecs-updater-cdk](https://aws-oss.beachgeek.co.uk/pt) this project from Adam Keller provides an example of a bottlerocket deployment to Amazon ECS with the updater built as a construct. 
+[bottlerocket-ecs-updater-cdk](https://github.com/adamjkeller/bottlerocket-ecs-updater-cdk) this project from Adam Keller provides an example of a bottlerocket deployment to Amazon ECS with the updater built as a construct. 
 
 **collie-cli**
 
-[collie-cli](https://aws-oss.beachgeek.co.uk/pk) is a new open source project from meshcloud that allows you to manage your AWS resources through a single view. View your tenants, tags, costs, users, access rights and more through a single common model. Check it out.
+[collie-cli](https://github.com/meshcloud/collie-cli) is a new open source project from meshcloud that allows you to manage your AWS resources through a single view. View your tenants, tags, costs, users, access rights and more through a single common model. Check it out.
 
 ![demo](https://github.com/meshcloud/collie-cli/blob/develop/.github/collie-demo.gif?raw=true)
 
 **amazon-location-service-musterpoint-tracker-ios**
 
-[amazon-location-service-musterpoint-tracker-ios](https://aws-oss.beachgeek.co.uk/p2) this project helps you build a sample mobile application that show cases how to integrate both location based services as well as geofencing using the recently launched Amazon Location Service. You can dive deeper and follow along with the blog post that accompanies this project, [Create an iOS tracker application with Amazon Location Service and AWS Amplify ](https://aws-oss.beachgeek.co.uk/p3) from Fernando Rocha Silva and Panna Shetty.
+[amazon-location-service-musterpoint-tracker-ios](https://github.com/aws-samples/amazon-location-service-musterpoint-tracker-ios) this project helps you build a sample mobile application that show cases how to integrate both location based services as well as geofencing using the recently launched Amazon Location Service. You can dive deeper and follow along with the blog post that accompanies this project, [Create an iOS tracker application with Amazon Location Service and AWS Amplify ](https://aws.amazon.com/blogs/mobile/create-an-ios-tracker-application-with-amazon-location-service-and-aws-amplify/) from Fernando Rocha Silva and Panna Shetty.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2021/06/24/architecture-updated.png)
 
 **algorithmic-trading**
 
-[algorithmic-trading](https://aws-oss.beachgeek.co.uk/ov) this project is a hands on workshop where you will learn how to load and store financial data to build and backtest algorithmic trading strategies that use technical indicators and advanced machine learning models. You can read more about this project via the blog post from Oliver Steffmann, [Building algorithmic trading strategies with Amazon SageMaker](https://aws-oss.beachgeek.co.uk/ou)
+[algorithmic-trading](https://github.com/aws-samples/algorithmic-trading) this project is a hands on workshop where you will learn how to load and store financial data to build and backtest algorithmic trading strategies that use technical indicators and advanced machine learning models. You can read more about this project via the blog post from Oliver Steffmann, [Building algorithmic trading strategies with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/building-algorithmic-trading-strategies-with-amazon-sagemaker/)
 
 ![demo](https://github.com/aws-samples/algorithmic-trading/blob/master/assets/chart.png?raw=true)
 
@@ -60,11 +60,11 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **Apache Airflow**
 
-[Building and Testing a new Apache Airflow Plugin](https://aws-oss.beachgeek.co.uk/px) Damon Cortesi has put together this great blog post that tells you everything you need to know about contributing an operator to Apache Airflow, sharing his experience during the work he did on a new EMR on EKS plugin to Apache Airflow. Great stuff.
+[Building and Testing a new Apache Airflow Plugin](https://dacort.dev/posts/building-and-testing-a-new-apache-airflow-plugin/) Damon Cortesi has put together this great blog post that tells you everything you need to know about contributing an operator to Apache Airflow, sharing his experience during the work he did on a new EMR on EKS plugin to Apache Airflow. Great stuff.
 
 **AWS Data Wrangler**
 
-If you work with data on AWS, then there is a good chance you will find the open source project [AWS Data Wrangler](https://aws-oss.beachgeek.co.uk/pp) something you need to know more about. Not to be confused with SageMaker Data Wrangler, AWS Data Wrangler extends the capabilities of Pandas to AWS by connecting data frames to AWS data-related services. Last week it was included in ThoughtWorks Technology Radar under Trial (to find out more about this, I highly recommend you read about and subscribe to the [ThoughtWorks Technology Radar](https://aws-oss.beachgeek.co.uk/po))
+If you work with data on AWS, then there is a good chance you will find the open source project [AWS Data Wrangler](https://www.thoughtworks.com/radar/languages-and-frameworks?blipid=202104077) something you need to know more about. Not to be confused with SageMaker Data Wrangler, AWS Data Wrangler extends the capabilities of Pandas to AWS by connecting data frames to AWS data-related services. Last week it was included in ThoughtWorks Technology Radar under Trial (to find out more about this, I highly recommend you read about and subscribe to the [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar))
 
 Check out what they said, but I think this is a great summary:
 
@@ -72,35 +72,35 @@ Check out what they said, but I think this is a great summary:
 
 **AWS Greengrass**
 
-I loved this post from Kyle Neideck, [Cloud-printing for Restaurants with AWS IoT Greengrass](https://aws-oss.beachgeek.co.uk/pj) which really appealed to the inner device hacker/maker in me. In this post Kyle shows you how he build a new open source project that enables restaurants to connect customers to the kitchen. Really well worth reading this project.
+I loved this post from Kyle Neideck, [Cloud-printing for Restaurants with AWS IoT Greengrass](https://medium.com/agiledigital/cloud-printing-for-restaurants-with-aws-iot-greengrass-5ecfc7f390be) which really appealed to the inner device hacker/maker in me. In this post Kyle shows you how he build a new open source project that enables restaurants to connect customers to the kitchen. Really well worth reading this project.
 
 ![arch](https://miro.medium.com/max/1225/1*H7-sLIPEJpZlWZD9bHn7TQ.png)
 
 **Spring Boot**
 
-[How to Create an AWS ALB and ASG](https://aws-oss.beachgeek.co.uk/ph) in this post you will learn how you can take your Spring Boot application and then configure a load balancer and an auto scaling group that will allow you to scale up and down your application in response to demand. [hands on]
+[How to Create an AWS ALB and ASG](https://dev.to/mydeveloperplanet/how-to-create-an-aws-alb-and-asg-3fc2) in this post you will learn how you can take your Spring Boot application and then configure a load balancer and an auto scaling group that will allow you to scale up and down your application in response to demand. [hands on]
 
 **KinD**
 
-Amazon EKS-Distro was launched during re:Invent, and is a distribution of Kubernetes that can be run in a number of different environments, including your own. In this post, [Using KinD to run EKS-D](https://aws-oss.beachgeek.co.uk/pg) Jeremy Cowan takes a look at how you can use Kubernetes in Docker (KinD) to run EKS-D clusters on your local machine. [hands on] 
+Amazon EKS-Distro was launched during re:Invent, and is a distribution of Kubernetes that can be run in a number of different environments, including your own. In this post, [Using KinD to run EKS-D](https://itnext.io/using-kind-to-run-eks-d-c4603d3d7f83) Jeremy Cowan takes a look at how you can use Kubernetes in Docker (KinD) to run EKS-D clusters on your local machine. [hands on] 
 
 **cdk8s**
 
-Another great post from Vu Dao, this week he writes about using cdk8s (an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages - a la AWS CDK), to deploy an AWS Load Balancer for your Kubernetes application in the post [Create AWS Load Balancer Controller Ingress With CDK8S](https://aws-oss.beachgeek.co.uk/pu) 
+Another great post from Vu Dao, this week he writes about using cdk8s (an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages - a la AWS CDK), to deploy an AWS Load Balancer for your Kubernetes application in the post [Create AWS Load Balancer Controller Ingress With CDK8S](https://dev.to/awscommunity-asean/create-aws-load-balancer-controller-ingress-with-cdk8s-3kl9) 
 
 **Terraform**
 
-If you are a user of Terraform and have wanted to deploy an Amazon EMR cluster that can consume data from other AWS accounts (Cross Account S3 bucket access for example), then you need to read this blog post from Adam McQuistan, [How To Provision AWS EMR Cluster with Cross Account S3 Bucket Access Using Terraform](https://aws-oss.beachgeek.co.uk/pf) [hands on]
+If you are a user of Terraform and have wanted to deploy an Amazon EMR cluster that can consume data from other AWS accounts (Cross Account S3 bucket access for example), then you need to read this blog post from Adam McQuistan, [How To Provision AWS EMR Cluster with Cross Account S3 Bucket Access Using Terraform](https://thecodinginterface.com/blog/terraform-aws-emr-cross-account-s3/) [hands on]
 
-I also enjoyed reading another Terraform post from Steve Sklar, [Running Scheduled Jobs in AWS Using Terraform](https://aws-oss.beachgeek.co.uk/pi) where he shows you how you can use Terraform to automate the provisioning of a solution based on AWS Fargate, and outlines why he choose Fargate over a number of other technologies within AWS that allow you to schedule jobs. Nice post. 
+I also enjoyed reading another Terraform post from Steve Sklar, [Running Scheduled Jobs in AWS Using Terraform](https://hyperscience.com/tech-blog/running-scheduled-jobs-in-aws/) where he shows you how you can use Terraform to automate the provisioning of a solution based on AWS Fargate, and outlines why he choose Fargate over a number of other technologies within AWS that allow you to schedule jobs. Nice post. 
 
 **Leapp**
 
-I have featured Leapp in previous newsletter posts, and have it running on my mac when I need to connect to various AWS instances. In this post, [Simplify Aws Developer Security With Leapp](https://aws-oss.beachgeek.co.uk/pe) Sheldon Hull shares his experience in using it so far. [hands on]
+I have featured Leapp in previous newsletter posts, and have it running on my mac when I need to connect to various AWS instances. In this post, [Simplify Aws Developer Security With Leapp](https://www.sheldonhull.com/simplify-aws-developer-security-with-leapp/) Sheldon Hull shares his experience in using it so far. [hands on]
 
 **PostgreSQL**
 
-[Install pg_cron on AWS RDS](https://aws-oss.beachgeek.co.uk/pd) Jens Schmidt Hansen has put together this short guide on upgrading your PostgreSQL database on Amazon RDS to support scheduling jobs using pg_cron. pg_cron is a simple cron-based job scheduler for PostgreSQL (9.5 or higher) that runs inside the database as an extension. It uses the same syntax as regular cron, but it allows you to schedule PostgreSQL commands directly from the database.
+[Install pg_cron on AWS RDS](https://adequatesource.com/pg-cron-aws-rds/) Jens Schmidt Hansen has put together this short guide on upgrading your PostgreSQL database on Amazon RDS to support scheduling jobs using pg_cron. pg_cron is a simple cron-based job scheduler for PostgreSQL (9.5 or higher) that runs inside the database as an extension. It uses the same syntax as regular cron, but it allows you to schedule PostgreSQL commands directly from the database.
 
 ### Workshops
 
@@ -108,13 +108,13 @@ I have featured Leapp in previous newsletter posts, and have it running on my ma
 
 This is a new workshop that will help you get hands on with GraphQL, building a fully functioning application for a fast-paced sports event called the GraphQL Real-time Race.
 
-Start your engines [here](https://aws-oss.beachgeek.co.uk/pc)
+Start your engines [here](https://amplify-appsync-real-time-race.workshop.aws/en/)
 
 ### AWS and Amazon open source posts
 
 **Open 3D Engine**
 
-Big news last week for game developers and enthusiasts, as we announced the open sourcing of a new project Open 3D Engine (O3DE) a AAA-capable, cross-platform open source game engine. In the post, [Built for Builders: The Story of AWS and Open 3D Engine – Developer Preview](https://aws-oss.beachgeek.co.uk/oy) Amar Mehta and Royal O’Brien share the open source journey, the differences from its Lumberyard ancestor, take a look at the key features of this project and share what is coming up next.As the authors conclude:
+Big news last week for game developers and enthusiasts, as we announced the open sourcing of a new project Open 3D Engine (O3DE) a AAA-capable, cross-platform open source game engine. In the post, [Built for Builders: The Story of AWS and Open 3D Engine – Developer Preview](https://aws.amazon.com/blogs/gametech/open-3d-engine/) Amar Mehta and Royal O’Brien share the open source journey, the differences from its Lumberyard ancestor, take a look at the key features of this project and share what is coming up next.As the authors conclude:
 
 >Our hope is that this open-source effort provides a game and simulation development platform that anyone can leverage to quickly build even more amazing games and real-time simulations.
 
@@ -122,51 +122,51 @@ Big news last week for game developers and enthusiasts, as we announced the open
 
 **AWS IoT C-SDK**
 
-In [How being open led to greater customer value with the AWS IoT Device SDK for Embedded C](https://aws-oss.beachgeek.co.uk/p6), Rashed Talukder writes how adopting and collaborating with leading open source projects helped developers make the AWS IoT C-SDK more trustworthy and flexible, while increasing ease of use. A great post when considering what you can apply when thinking about your own particular use case.
+In [How being open led to greater customer value with the AWS IoT Device SDK for Embedded C](https://aws.amazon.com/blogs/opensource/how-being-open-led-to-greater-customer-value-with-the-aws-iot-device-sdk-for-embedded-c/), Rashed Talukder writes how adopting and collaborating with leading open source projects helped developers make the AWS IoT C-SDK more trustworthy and flexible, while increasing ease of use. A great post when considering what you can apply when thinking about your own particular use case.
 
 **curl**
 
-Curl is one of those foundational libraries that we take for granted, but that influences our lives online. Following from a Webinar that discussed memory safety and the internet, Sean McArthur shares some of the key talking points from that webinar, which you can check out in the post [How using hyper in curl can help make the internet safer](https://aws-oss.beachgeek.co.uk/pa)
+Curl is one of those foundational libraries that we take for granted, but that influences our lives online. Following from a Webinar that discussed memory safety and the internet, Sean McArthur shares some of the key talking points from that webinar, which you can check out in the post [How using hyper in curl can help make the internet safer](https://aws.amazon.com/blogs/opensource/how-using-hyper-in-curl-can-help-make-the-internet-safer/)
 
 **VS Code**
 
-Nick Ragusa has put together probably my most favourite blog post this week in , [Field Notes: Use AWS Cloud9 to Power Your Visual Studio Code IDE](https://aws-oss.beachgeek.co.uk/p4). In this blog post and walkthrough, he shows you how you can combine the power of AWS Cloud9 together with VS Code (which is also my day to day development tool) to overcome challenges such as disk space or CPU exhaustion. Very nice post. 
+Nick Ragusa has put together probably my most favourite blog post this week in , [Field Notes: Use AWS Cloud9 to Power Your Visual Studio Code IDE](https://aws.amazon.com/blogs/architecture/field-notes-use-aws-cloud9-to-power-your-visual-studio-code-ide/). In this blog post and walkthrough, he shows you how you can combine the power of AWS Cloud9 together with VS Code (which is also my day to day development tool) to overcome challenges such as disk space or CPU exhaustion. Very nice post. 
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2021/06/30/Visual-Studio-Ref-Architecture.png)
 
 **Apache Flink**
 
-[Get started with Flink SQL APIs in Amazon Kinesis Data Analytics Studio](https://aws-oss.beachgeek.co.uk/os) in this blog post, Sam Mokhtari and Mitesh Patel demonstrate different query patterns you can use to get insight from streaming data using Apache Flink SQL APIs. The post provides you with examples of Flink SQL queries that you can run within Kinesis Data Analytics Studio, so you can experiment for your self. [hands on]
+[Get started with Flink SQL APIs in Amazon Kinesis Data Analytics Studio](https://aws.amazon.com/blogs/big-data/get-started-with-flink-sql-apis-in-amazon-kinesis-data-analytics-studio/) in this blog post, Sam Mokhtari and Mitesh Patel demonstrate different query patterns you can use to get insight from streaming data using Apache Flink SQL APIs. The post provides you with examples of Flink SQL queries that you can run within Kinesis Data Analytics Studio, so you can experiment for your self. [hands on]
 
-We also had this two part post, Build and optimise real-time stream processing pipeline with Amazon Kinesis Data Analytics for Apache Flink,[Part1](https://aws-oss.beachgeek.co.uk/p1) [Part 2](https://aws-oss.beachgeek.co.uk/p0) from Amit Chowdhury and Saurabh Shrivastava who show you how you can build a reliable, scalable, and highly available streaming application based on Apache Flink and Kinesis Data Analytics. They use the telemetry data of a taxi fleet in New York City in real time to optimise fleet operation. Whilst part one focused on getting this setup, part two dive deep into the things you need to look to ensure the health and performance of the Amazon Kinesis Data Analytics for Apache Flink application. [hands on]
+We also had this two part post, Build and optimise real-time stream processing pipeline with Amazon Kinesis Data Analytics for Apache Flink,[Part1](https://aws.amazon.com/blogs/big-data/part1-build-and-optimize-a-real-time-stream-processing-pipeline-with-amazon-kinesis-data-analytics-for-apache-flink/) [Part 2](https://aws.amazon.com/blogs/big-data/part2-build-and-optimize-real-time-stream-processing-pipeline-with-amazon-kinesis-data-analytics-for-apache-flink/) from Amit Chowdhury and Saurabh Shrivastava who show you how you can build a reliable, scalable, and highly available streaming application based on Apache Flink and Kinesis Data Analytics. They use the telemetry data of a taxi fleet in New York City in real time to optimise fleet operation. Whilst part one focused on getting this setup, part two dive deep into the things you need to look to ensure the health and performance of the Amazon Kinesis Data Analytics for Apache Flink application. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/06/29/bdb1482-1-image015.png)
 
 **Apache Kafka**
 
-Joseph Morais, AWS Evangelist over at Confluent, in collaboration with Jobin George and Roberto Luna Rojas from AWS have put together this post, [Low Latency Real-Time Cache Updates with Amazon ElastiCache for Redis and Confluent Cloud Kafka](https://aws-oss.beachgeek.co.uk/ot) that shows you how you can power a logistics and inventory system with microsecond read performance powered Redis and Apache Kafka (powered by Confluent Cloud) [hands on]
+Joseph Morais, AWS Evangelist over at Confluent, in collaboration with Jobin George and Roberto Luna Rojas from AWS have put together this post, [Low Latency Real-Time Cache Updates with Amazon ElastiCache for Redis and Confluent Cloud Kafka](https://aws.amazon.com/blogs/apn/low-latency-real-time-cache-updates-with-amazon-elasticache-for-redis-and-confluent-cloud-kafka/) that shows you how you can power a logistics and inventory system with microsecond read performance powered Redis and Apache Kafka (powered by Confluent Cloud) [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2021/06/29/Confluent-ElastiCache-Redis-4.png)
 
 **MySQL**
 
-MySQL binlog replication is a popular feature serving multiple use cases, including offloading transactional work from a source database, replicating changes to a separate dedicated system to run analytics, and streaming data into other systems. In the post, [Introducing binlog I/O cache in Amazon Aurora MySQL to improve binlog performance](https://aws-oss.beachgeek.co.uk/p7) Jae M. Kim shows you show performance improvements of the new binlog I/O cache introduced in the Aurora MySQL 2.10 release and explores its related monitoring metrics and status variables.
+MySQL binlog replication is a popular feature serving multiple use cases, including offloading transactional work from a source database, replicating changes to a separate dedicated system to run analytics, and streaming data into other systems. In the post, [Introducing binlog I/O cache in Amazon Aurora MySQL to improve binlog performance](https://aws.amazon.com/blogs/database/introducing-binlog-i-o-cache-in-amazon-aurora-mysql-to-improve-binlog-performance/) Jae M. Kim shows you show performance improvements of the new binlog I/O cache introduced in the Aurora MySQL 2.10 release and explores its related monitoring metrics and status variables.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/06/23/dbblog-1727_01.png)
 
 **Redis**
 
-In this post [Reduce cost and boost throughput with Global Datastore for Amazon ElastiCache for Redis](https://aws-oss.beachgeek.co.uk/ow) Shawn Wang, Asaf Porat Stoler, Itay Maoz, and Yehonatan Yulazari show you how you can use Redis (specifically some features available in Amazon ElastiCache for Redis) to reduce latency of data access for better geo-local performance, thanks to improvements made from Redis 6 that resulted in significant throughput improvements. Read on to find out more.
+In this post [Reduce cost and boost throughput with Global Datastore for Amazon ElastiCache for Redis](https://aws.amazon.com/blogs/database/reduce-cost-and-boost-throughput-with-global-datastore-for-amazon-elasticache-for-redis/) Shawn Wang, Asaf Porat Stoler, Itay Maoz, and Yehonatan Yulazari show you how you can use Redis (specifically some features available in Amazon ElastiCache for Redis) to reduce latency of data access for better geo-local performance, thanks to improvements made from Redis 6 that resulted in significant throughput improvements. Read on to find out more.
 
 ![bench](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/06/25/dbblog1424-01.png)
 
-In another Redis post, Dirk Michel from MYCOM OSI together with Zach Gardner from AWS share the story of how they moved from self-managed Redis to using Amazon ElastiCache for Redis, including the benefits achieved, the migration journey, and the architectures involved. Read more in [MYCOM OSI Service Impact Engine migration to Amazon ElastiCache for Redis](https://aws-oss.beachgeek.co.uk/p5).
+In another Redis post, Dirk Michel from MYCOM OSI together with Zach Gardner from AWS share the story of how they moved from self-managed Redis to using Amazon ElastiCache for Redis, including the benefits achieved, the migration journey, and the architectures involved. Read more in [MYCOM OSI Service Impact Engine migration to Amazon ElastiCache for Redis](https://aws.amazon.com/blogs/database/mycom-service-impact-engine-migration-to-amazon-elasticache-for-redis/).
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/06/30/dbblog1656-03.png)
 
 **Nextflow**
 
-The Genome Analysis Toolkit (GATK), is a BSD open source genomic analysis toolkit developed by the Data Sciences Platform team at the Broad Institute, that provides tools for genomic variant discover and genotyping. The blog post, [Running GATK workflows on AWS: a user-friendly solution](https://aws-oss.beachgeek.co.uk/oz) that was co-authored by Michael DeRan, Chris Friedline, Netsanet Gebremadhin at Diamond Age Data Science and Jenna Lang and Lee Pang from AWS, shows you how you can simplify how you run this on AWS using Nextflow, an open source bioinformatics workflow manager that enables the development of portable and reproducible workflows.
+The Genome Analysis Toolkit (GATK), is a BSD open source genomic analysis toolkit developed by the Data Sciences Platform team at the Broad Institute, that provides tools for genomic variant discover and genotyping. The blog post, [Running GATK workflows on AWS: a user-friendly solution](https://aws.amazon.com/blogs/industries/running-gatk-workflows-on-aws-a-user-friendly-solution/) that was co-authored by Michael DeRan, Chris Friedline, Netsanet Gebremadhin at Diamond Age Data Science and Jenna Lang and Lee Pang from AWS, shows you how you can simplify how you run this on AWS using Nextflow, an open source bioinformatics workflow manager that enables the development of portable and reproducible workflows.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/c5b76da3e608d34edb07244cd9b875ee86906328/2021/06/24/Architecture-B-Workflow-infrastructure-using-FSx-for-Lustre-storage-deployed-with-Nextflow-Tower.png)
 
@@ -174,49 +174,49 @@ The post links to a GitHub repository where you can find the resources you need 
 
 **RabbitMQ**
 
-RabbitMQ is an open-source message broker to which applications connect in order to transfer a message or messages between services. In this post, [Using Amazon MQ for RabbitMQ as an event source for Lambda](https://aws-oss.beachgeek.co.uk/or) Talia Nassi shows you how to set up a RabbitMQ broker and networking configuration, and how to create a Lambda function that is invoked by messages from Amazon MQ RabbitMQ queues. [hands on]
+RabbitMQ is an open-source message broker to which applications connect in order to transfer a message or messages between services. In this post, [Using Amazon MQ for RabbitMQ as an event source for Lambda](https://aws.amazon.com/blogs/compute/using-amazon-mq-for-rabbitmq-as-an-event-source-for-lambda/) Talia Nassi shows you how to set up a RabbitMQ broker and networking configuration, and how to create a Lambda function that is invoked by messages from Amazon MQ RabbitMQ queues. [hands on]
 
 **Hugging Face**
 
-Hugging Face Transformers is a popular open-source project that I have written about in previous editions of this newsletter, and makes it super easy to use a variety of pre-trained, natural language processing (NLP) models for a wide variety of use cases. In the blog post, [Hosting Hugging Face models on AWS Lambda for serverless inference](https://aws-oss.beachgeek.co.uk/p8) Eddie Pick and Scott Perry have put together this solution that automatically provisions container image-based Lambda functions that perform ML inference using pre-trained Hugging Face models. [hands on]
+Hugging Face Transformers is a popular open-source project that I have written about in previous editions of this newsletter, and makes it super easy to use a variety of pre-trained, natural language processing (NLP) models for a wide variety of use cases. In the blog post, [Hosting Hugging Face models on AWS Lambda for serverless inference](https://aws.amazon.com/blogs/compute/hosting-hugging-face-models-on-aws-lambda/) Eddie Pick and Scott Perry have put together this solution that automatically provisions container image-based Lambda functions that perform ML inference using pre-trained Hugging Face models. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2021/06/28/architecture-1.png)
 
-To add to that, Sai Sharanya Nalla and Kartik Kannapur put this post together last week, [Announcing managed inference for Hugging Face models in Amazon SageMaker](https://aws-oss.beachgeek.co.uk/pq) where they discuss different methods to create a SageMaker endpoint for a Hugging Face model.
+To add to that, Sai Sharanya Nalla and Kartik Kannapur put this post together last week, [Announcing managed inference for Hugging Face models in Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/announcing-managed-inference-for-hugging-face-models-in-amazon-sagemaker/) where they discuss different methods to create a SageMaker endpoint for a Hugging Face model.
 
 **Bottlerocket**
 
-Bottlerocket OS in an open source project that was built to provide a secure foundation for hosts running containers, minimising operational overhead to manage them at scale. In the blog post, [Getting started with Bottlerocket and Amazon ECS](https://aws-oss.beachgeek.co.uk/ox) Maish Saidel-Keesing walks you through how you can use Amazon ECS and Bottlerocket together to run your applications in a safe and secure manner.
+Bottlerocket OS in an open source project that was built to provide a secure foundation for hosts running containers, minimising operational overhead to manage them at scale. In the blog post, [Getting started with Bottlerocket and Amazon ECS](https://aws.amazon.com/blogs/containers/getting-started-with-bottlerocket-and-amazon-ecs/) Maish Saidel-Keesing walks you through how you can use Amazon ECS and Bottlerocket together to run your applications in a safe and secure manner.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/07/06/image-2021-07-06T104447.977.png)
 
-We also had Narayana Vemburaj and Anjani Reddy post [Persistent Storage using EFS for EKS on Bottlerocket](https://aws-oss.beachgeek.co.uk/pv) showing you how you can set up persistent storage with Amazon Elastic Kubernetes Service (Amazon EKS) clusters running on Bottlerocket OS with Amazon Elastic File System (Amazon EFS).
+We also had Narayana Vemburaj and Anjani Reddy post [Persistent Storage using EFS for EKS on Bottlerocket](https://aws.amazon.com/blogs/containers/persistent-storage-using-efs-for-eks-on-bottlerocket/) showing you how you can set up persistent storage with Amazon Elastic Kubernetes Service (Amazon EKS) clusters running on Bottlerocket OS with Amazon Elastic File System (Amazon EFS).
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/07/02/EFS-Persistent-Diagram-19May.png)
 
 **Fluentd**
 
-Fluentd is a popular open source project for streaming logs from Kubernetes pods to different backends aggregators like CloudWatch. It is often used with the kubernetes_metadata filter, a plugin for Fluentd that enriches the logs with basic metadata such as the pod’s namespace, UUIDs, labels, and annotations. In this post, [Fluentd considerations and actions required at scale in Amazon EKS](https://aws-oss.beachgeek.co.uk/pb), Ugur Kira and Jeremy Cowan analyze the impact the plug-in has on the Kubernetes API and recommend how to optimally configure Fluentd and the kubernetes_metadata plug-in in large clusters. [hands on]
+Fluentd is a popular open source project for streaming logs from Kubernetes pods to different backends aggregators like CloudWatch. It is often used with the kubernetes_metadata filter, a plugin for Fluentd that enriches the logs with basic metadata such as the pod’s namespace, UUIDs, labels, and annotations. In this post, [Fluentd considerations and actions required at scale in Amazon EKS](https://aws.amazon.com/blogs/containers/fluentd-considerations-and-actions-required-at-scale-in-amazon-eks/), Ugur Kira and Jeremy Cowan analyze the impact the plug-in has on the Kubernetes API and recommend how to optimally configure Fluentd and the kubernetes_metadata plug-in in large clusters. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/06/22/image4-1.png)
 
 **OpenTelemetry**
 
-Alolita Sharma and Nizar Tyrewalla announced the latest release of AWS Distro for OpenTelemetry, which you can read about in the post [AWS Distro for OpenTelemetry (ADOT) 0.11.0 is now available](https://aws-oss.beachgeek.co.uk/pr).
+Alolita Sharma and Nizar Tyrewalla announced the latest release of AWS Distro for OpenTelemetry, which you can read about in the post [AWS Distro for OpenTelemetry (ADOT) 0.11.0 is now available](https://aws.amazon.com/blogs/opensource/aws-distro-for-opentelemetry-adot-0-11-0-is-now-available/).
 
 **Spinnaker**
 
-Steve Borrelli and Rob Clark from Upbound, and Manabu McCloskey, Vikrant Kahlir, and Nima Kaviani from AWS collaborated on this post, [Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws-oss.beachgeek.co.uk/pn). The post looks at the setup and configuration required for Spinnaker and Crossplane to work together. Crossplane is an open source project that allows teams to manage cloud resources in a Kubernetes-native way, which means you can provision and manage Amazon Simple Storage Service (Amazon S3) buckets, VPCs, databases, and Lambda functions in the same way you manage Pods, Ingresses, and StatefulSets. [hands on]
+Steve Borrelli and Rob Clark from Upbound, and Manabu McCloskey, Vikrant Kahlir, and Nima Kaviani from AWS collaborated on this post, [Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane/). The post looks at the setup and configuration required for Spinnaker and Crossplane to work together. Crossplane is an open source project that allows teams to manage cloud resources in a Kubernetes-native way, which means you can provision and manage Amazon Simple Storage Service (Amazon S3) buckets, VPCs, databases, and Lambda functions in the same way you manage Pods, Ingresses, and StatefulSets. [hands on]
 
 **Suricata**
 
-Suricata is open-source network threat detection engine is capable of real-time intrusion detection (IDS), that also provides inline intrusion prevention (IPS), network security monitoring (NSM), and offline packet capture processing. AWS Network Firewall uses Suricata and in the blog post, [Integrate AWS Network Firewall with your ISV Firewall Rulesets](https://aws-oss.beachgeek.co.uk/p9) you can read from Mony Kiem, Frenil Randeria, and Ripunjaya Pattnaik how to operate a hybrid architecture using the same firewall and IPS rules for both your on-premises and cloud networks.
+Suricata is open-source network threat detection engine is capable of real-time intrusion detection (IDS), that also provides inline intrusion prevention (IPS), network security monitoring (NSM), and offline packet capture processing. AWS Network Firewall uses Suricata and in the blog post, [Integrate AWS Network Firewall with your ISV Firewall Rulesets](https://aws.amazon.com/blogs/architecture/integrate-aws-network-firewall-with-your-isv-firewall-rulesets/) you can read from Mony Kiem, Frenil Randeria, and Ripunjaya Pattnaik how to operate a hybrid architecture using the same firewall and IPS rules for both your on-premises and cloud networks.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2021/06/23/Fig1-Firewall.png)
 
 **Drupal**
 
-[Deploy serverless Drupal applications using AWS Fargate and Amazon EFS](https://aws-oss.beachgeek.co.uk/pw) in this post, Shivkumar Rajendran, Ananth Vaidyanathan, and Prem Nambi show you how to build a highly available, cost-effective, scalable Drupal-based website on AWS Cloud. The architecture uses serverless compute, serverless storage, and a serverless database, with no infrastructure to manage.
+[Deploy serverless Drupal applications using AWS Fargate and Amazon EFS](https://aws.amazon.com/blogs/storage/deploy-serverless-drupal-applications-using-aws-fargate-and-amazon-efs/) in this post, Shivkumar Rajendran, Ananth Vaidyanathan, and Prem Nambi show you how to build a highly available, cost-effective, scalable Drupal-based website on AWS Cloud. The architecture uses serverless compute, serverless storage, and a serverless database, with no infrastructure to manage.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/e1822db470e60d090affd0956d743cb0e7cdf113/2021/07/08/Deploy-serverless-Drupal-using-AWS-Fargate-and-Amazon-EFS-architecture-diagram.png)
 
@@ -245,7 +245,7 @@ AWS Client VPN now supports SAML based federated authentication for opening a VP
 
 AWS Client VPN allows you to choose from AWS VPN Desktop Client or OpenVPN-based clients, giving your employees the option to use the device of their choice.
 
-AWS Client VPN Desktop Clients are available free of charge, and can be downloaded [here](https://aws-oss.beachgeek.co.uk/oq).
+AWS Client VPN Desktop Clients are available free of charge, and can be downloaded [here](https://aws.amazon.com/vpn/client-vpn-download/).
 
 
 **Apache Kafka**
@@ -263,7 +263,7 @@ Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB
 
 David Wheeler, Director of Open Source Supply Chain Security at The Linux Foundation will discuss steps you can take to develop more secure OSS and evaluate OSS for security.
 
-Read more and [register here](https://aws-oss.beachgeek.co.uk/pm)
+Read more and [register here](https://events.linuxfoundation.org/mentorship-session-developing-secure-open-source-software/)
 
 **ML Dev Day Live Workshop** [FREE Event]
 **July 21st 9:00am PDT**
@@ -271,7 +271,7 @@ Read more and [register here](https://aws-oss.beachgeek.co.uk/pm)
 
 Learn how to build highly scalable and reliable pipelines for analytics using open source technologies such as Apache Spark, Delta Lake and open source machine learning frameworks such as TensorFlow, XGBoost, scikit-learn and MLFlow.
 
-Read more and [register here](https://aws-oss.beachgeek.co.uk/pl).
+Read more and [register here](https://databricks.com/p/webinar/ml-dev-day-live-workshop-2021715?utm_source=bambu&utm_medium=social&utm_campaign=advocacy&blaid=1760155).
 
 **Cloud Native Day**
 **23rd September, Bern Switzerland**

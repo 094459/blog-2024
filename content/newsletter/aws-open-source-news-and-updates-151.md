@@ -30,39 +30,39 @@ So thank you to the following open source heroes:  Milind Shyani, Dhrubo Saha, N
 
 **protonizer**
 
-[protonizer](https://aws-oss.beachgeek.co.uk/2ns) is a CLI tool for working with IaC in [AWS Proton](https://aws-oss.beachgeek.co.uk/2nt). Protonizer allows you take your existing IaC (infrastructure as code) templates and modules and bring them into AWS Proton to scale them out across your organisation. Note that this is an experimental project and currently only supports generating Proton templates based on Terraform and CodeBuild provisioning. The tool also currently only supports primitive HCL data types such as strings, numbers, bools, and lists of primitive types. This is currently aligned with the Proton schema types that are supported by the Proton console.
+[protonizer](https://github.com/awslabs/protonizer) is a CLI tool for working with IaC in [AWS Proton](https://aws.amazon.com/proton/). Protonizer allows you take your existing IaC (infrastructure as code) templates and modules and bring them into AWS Proton to scale them out across your organisation. Note that this is an experimental project and currently only supports generating Proton templates based on Terraform and CodeBuild provisioning. The tool also currently only supports primitive HCL data types such as strings, numbers, bools, and lists of primitive types. This is currently aligned with the Proton schema types that are supported by the Proton console.
 
 **ec2-former2**
 
-[ec2-former2](https://aws-oss.beachgeek.co.uk/2nu) this repo helps you to deploy an EC2 instance running Former2, an open source project from AWS Hero Ian Mckay that we have featured in this newsletter and on the Build on Open Source show. Former2 is a website that allows you to generate IaC (Infrastructure as Code) templates (such as CloudFormation, CDK, Terraform, etc) from existing AWS resources. Some users have security concerns around entering their AWS credentials on an external website and prefer a private web instance. However, Former2 requires browser helper extension that only works with websites that has domain names 127.0.0.1, localhost, former2.com and www.former2.com. This repo provides CloudFormation templates that provision an EC2 instance hosting former2, so that users can remote in from their browsers to generate IaC templates and download them.
+[ec2-former2](https://github.com/aws-samples/ec2-former2) this repo helps you to deploy an EC2 instance running Former2, an open source project from AWS Hero Ian Mckay that we have featured in this newsletter and on the Build on Open Source show. Former2 is a website that allows you to generate IaC (Infrastructure as Code) templates (such as CloudFormation, CDK, Terraform, etc) from existing AWS resources. Some users have security concerns around entering their AWS credentials on an external website and prefer a private web instance. However, Former2 requires browser helper extension that only works with websites that has domain names 127.0.0.1, localhost, former2.com and www.former2.com. This repo provides CloudFormation templates that provision an EC2 instance hosting former2, so that users can remote in from their browsers to generate IaC templates and download them.
 
 ![screenshot of former2 running on ec2](https://github.com/aws-samples/ec2-former2/blob/main/images/ec2.png?raw=true)
 
 **fortuna**
 
-[fortuna](https://aws-oss.beachgeek.co.uk/2nj)  is a library for Uncertainty Quantification. Proper estimation of predictive uncertainty is fundamental in applications that involve critical decisions. Uncertainty can be used to assess reliability of model predictions, trigger human intervention, or decide whether a model can be safely deployed in the wild. Fortuna is a library for uncertainty quantification that makes it easy for users to run benchmarks and bring uncertainty to production systems. 
+[fortuna](https://github.com/awslabs/fortuna)  is a library for Uncertainty Quantification. Proper estimation of predictive uncertainty is fundamental in applications that involve critical decisions. Uncertainty can be used to assess reliability of model predictions, trigger human intervention, or decide whether a model can be safely deployed in the wild. Fortuna is a library for uncertainty quantification that makes it easy for users to run benchmarks and bring uncertainty to production systems. 
 
 ![flow diagram of fortuna in action](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/12/14/ml-12418-image001.jpg)
 
-Dive deeper by checking out the blog post, [Introducing Fortuna: A library for uncertainty quantification](https://aws-oss.beachgeek.co.uk/2nk) [hands on]
+Dive deeper by checking out the blog post, [Introducing Fortuna: A library for uncertainty quantification](https://aws.amazon.com/blogs/machine-learning/introducing-fortuna-a-library-for-uncertainty-quantification/) [hands on]
 
 **aws-resilience-hub-tools**
 
-[aws-resilience-hub-tools](https://aws-oss.beachgeek.co.uk/2nc) This repository includes a collection of solutions and tools for AWS Resilience Hub. What is that I can hear you all ask. AWS Resilience Hub offers a single place to define, validate, and track the resiliency of applications on AWS. You can integrate AWS Resilience Hub into your software development lifecycle. This repo contains a number of tools that you can use as is or customise them to enhance how you use AWS Resilience Hub.
+[aws-resilience-hub-tools](https://github.com/aws-samples/aws-resilience-hub-tools) This repository includes a collection of solutions and tools for AWS Resilience Hub. What is that I can hear you all ask. AWS Resilience Hub offers a single place to define, validate, and track the resiliency of applications on AWS. You can integrate AWS Resilience Hub into your software development lifecycle. This repo contains a number of tools that you can use as is or customise them to enhance how you use AWS Resilience Hub.
 
 **amazon-security-lake**
 
-[amazon-security-lake](https://aws-oss.beachgeek.co.uk/2ne) this tool can be used to ensure that user provided parquet data properly maps to the various schema definitions specified within the Open Cyber Schema Framework (OCSF). The Open Cybersecurity Schema Framework is an open-source project, delivering an extensible framework for developing schemas, along with a vendor-agnostic core security schema. 
+[amazon-security-lake](https://github.com/aws-samples/amazon-security-lake/tree/main/validate_1.0.0-rc.2) this tool can be used to ensure that user provided parquet data properly maps to the various schema definitions specified within the Open Cyber Schema Framework (OCSF). The Open Cybersecurity Schema Framework is an open-source project, delivering an extensible framework for developing schemas, along with a vendor-agnostic core security schema. 
 
 **jenkins-unity-build-on-aws**
 
-[jenkins-unity-build-on-aws](https://aws-oss.beachgeek.co.uk/2ng) this repo provides a starter kit for Unity build pipeline with Jenkins and EC2 Linux/Mac instances on AWS. Packaged up as a CDK app to make it easy to deploy, check out the README for more info on how to configure and use.
+[jenkins-unity-build-on-aws](https://github.com/aws-samples/jenkins-unity-build-on-aws) this repo provides a starter kit for Unity build pipeline with Jenkins and EC2 Linux/Mac instances on AWS. Packaged up as a CDK app to make it easy to deploy, check out the README for more info on how to configure and use.
 
 ![overview of jenkins and unity build on aws architecture](https://raw.githubusercontent.com/aws-samples/jenkins-unity-build-on-aws/78d8eb4f0535583ee641f32d9db02978f9065e9d/docs/imgs/architecture.svg)
 
 **inventory-management-for-amazon-ec2**
 
-[inventory-management-for-amazon-ec2](https://aws-oss.beachgeek.co.uk/2ni) this repo helps do EC2 instance management with AWS Services. One of the suggested use cases is to help DevSecOps and Security Engineers who want check OS Level system metric, CCE, and CVEs automatically. cover EC2 instance management with AWS Services.It will be helpful for DevSecOps and Security Engineers who want check OS Level system metric, CCE, and CVEs automatically. The code provides a demo of one way you can achieve this.
+[inventory-management-for-amazon-ec2](https://github.com/aws-samples/inventory-management-for-amazon-ec2) this repo helps do EC2 instance management with AWS Services. One of the suggested use cases is to help DevSecOps and Security Engineers who want check OS Level system metric, CCE, and CVEs automatically. cover EC2 instance management with AWS Services.It will be helpful for DevSecOps and Security Engineers who want check OS Level system metric, CCE, and CVEs automatically. The code provides a demo of one way you can achieve this.
 
 ![overview of dashboards from project](https://github.com/aws-samples/inventory-management-for-amazon-ec2/blob/main/static/images/demo/ssm-instances-performance.png?raw=true)
 
@@ -70,20 +70,20 @@ Dive deeper by checking out the blog post, [Introducing Fortuna: A library for u
 
 **amazon-cognito-passwordless-auth**
 
-[amazon-cognito-passwordless-auth](https://aws-oss.beachgeek.co.uk/2nh)  this repo provides code to help you implement Passwordless authenticaton with Amazon Cognito. Passwordless authentication improves security, reduces friction and provides better user experience for end-users of customer facing applications. Amazon Cognito provides features to implement custom authentication flows, which can be used to expand authentication factors for your application. This solution demonstrates several patterns to support passwordless authentication and provides reference implementations for a number of methods including "FIDO2" aka WebAuthn, i.e. sign with Face, Touch, YubiKey, "Magic Link Sign In" to sign in with a one-time-use secret link that's emailed to you (and works across browsers), and "SMS based Step-Up auth"  let an already signed-in user verify their identity again with a SMS One-Time-Password (OTP) without requiring them to type in their password.
+[amazon-cognito-passwordless-auth](https://github.com/aws-samples/amazon-cognito-passwordless-auth)  this repo provides code to help you implement Passwordless authenticaton with Amazon Cognito. Passwordless authentication improves security, reduces friction and provides better user experience for end-users of customer facing applications. Amazon Cognito provides features to implement custom authentication flows, which can be used to expand authentication factors for your application. This solution demonstrates several patterns to support passwordless authentication and provides reference implementations for a number of methods including "FIDO2" aka WebAuthn, i.e. sign with Face, Touch, YubiKey, "Magic Link Sign In" to sign in with a one-time-use secret link that's emailed to you (and works across browsers), and "SMS based Step-Up auth"  let an already signed-in user verify their identity again with a SMS One-Time-Password (OTP) without requiring them to type in their password.
 
 ![architecture for passwordless auth using magic links](https://github.com/aws-samples/amazon-cognito-passwordless-auth/blob/main/drawings/magic-link.png?raw=true)
 
 
 **aws-amplify-cloud-assistant-app**
 
-[aws-amplify-cloud-assistant-app](https://aws-oss.beachgeek.co.uk/2nd) this repo helps you build an application that demonstrates how AWS Amplify can be used to build and deploy an automated AWS account management web application powered by a conversational AI built with Amazon Lex (Figure 1). This application (hereinafter referred to as the cloud assistant) provides users with a conversational interface leveraging Natural Language Understanding (NLU) to interact with various AWS services and automates/performs all sorts of simple or advanced operations on behalf of users. It allows users to manage their AWS accounts using natural language thus reducing time spent navigating the AWS console or figuring out the proper CLI commands. You can use this sample application as an example of how Amplify in combination with other AWS services can be used to build any other kind of assistant-powered web application. 
+[aws-amplify-cloud-assistant-app](https://github.com/aws-samples/aws-amplify-cloud-assistant-app) this repo helps you build an application that demonstrates how AWS Amplify can be used to build and deploy an automated AWS account management web application powered by a conversational AI built with Amazon Lex (Figure 1). This application (hereinafter referred to as the cloud assistant) provides users with a conversational interface leveraging Natural Language Understanding (NLU) to interact with various AWS services and automates/performs all sorts of simple or advanced operations on behalf of users. It allows users to manage their AWS accounts using natural language thus reducing time spent navigating the AWS console or figuring out the proper CLI commands. You can use this sample application as an example of how Amplify in combination with other AWS services can be used to build any other kind of assistant-powered web application. 
 
 ![architecture of aws cloud assistant on amplify](https://github.com/aws-samples/aws-amplify-cloud-assistant-app/blob/main/static/images/architecture.png?raw=true)
 
 **barcode-qr-decoder-lambda**
 
-[barcode-qr-decoder-lambda](https://aws-oss.beachgeek.co.uk/2nf) this project provides everything you need so you can decode barcodes and QR codes. With this Lambda Function you will be able to add decoding features to your applications at scale! If you have been looking for a solution that does this, make sure you check this out.
+[barcode-qr-decoder-lambda](https://github.com/aws-samples/barcode-qr-decoder-lambda) this project provides everything you need so you can decode barcodes and QR codes. With this Lambda Function you will be able to add decoding features to your applications at scale! If you have been looking for a solution that does this, make sure you check this out.
 
 ![example lambda log showing qr code scanning execution](https://github.com/aws-samples/barcode-qr-decoder-lambda/blob/main/src/img/step-6.png?raw=true)
 
@@ -92,7 +92,7 @@ Dive deeper by checking out the blog post, [Introducing Fortuna: A library for u
 
 **Data on EKS**
 
-Data on EKS (DoEKS), a new open-source project aimed at streamlining and accelerating the process of building, deploying, and scaling data workloads on Amazon Elastic Kubernetes Service (Amazon EKS). I am a big fan, and have previous shared my experience of using this project in my blog post, [Self managed Apache Airflow with Data on EKS](https://aws-oss.beachgeek.co.uk/2mu). In this post, [Introducing Data on EKS – Modernize Data Workloads on Amazon EKS](https://aws-oss.beachgeek.co.uk/2nm) authors Brian Hammons, Alex Lines, and Vara Bonthu dive deeper into what this project is, some of the open source technologies it will help you deploy, and how you can get involved. This weeks essential reading.
+Data on EKS (DoEKS), a new open-source project aimed at streamlining and accelerating the process of building, deploying, and scaling data workloads on Amazon Elastic Kubernetes Service (Amazon EKS). I am a big fan, and have previous shared my experience of using this project in my blog post, [Self managed Apache Airflow with Data on EKS](https://blog.beachgeek.co.uk/self-managed-apache-airflow-using-doeks/). In this post, [Introducing Data on EKS – Modernize Data Workloads on Amazon EKS](https://aws.amazon.com/blogs/containers/introducing-data-on-eks-modernize-data-workloads-on-amazon-eks/) authors Brian Hammons, Alex Lines, and Vara Bonthu dive deeper into what this project is, some of the open source technologies it will help you deploy, and how you can get involved. This weeks essential reading.
 
 ![overview of data on eks](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/03/22/Data-on-EKS.png)
 
@@ -100,51 +100,51 @@ Data on EKS (DoEKS), a new open-source project aimed at streamlining and acceler
 
 Plenty of nice posts this week.
 
-First up we have, [Managing etcd database size on Amazon EKS clusters](https://aws-oss.beachgeek.co.uk/2no), where Geeta Gharpure and George John show you the importance of monitoring the etcd database within your Kubernetes clusters, why monitoring the etcd database size is important, and what you can do when you approach or exceed the database size limit. [hands on]
+First up we have, [Managing etcd database size on Amazon EKS clusters](https://aws.amazon.com/blogs/containers/managing-etcd-database-size-on-amazon-eks-clusters/), where Geeta Gharpure and George John show you the importance of monitoring the etcd database within your Kubernetes clusters, why monitoring the etcd database size is important, and what you can do when you approach or exceed the database size limit. [hands on]
 
 ![dashboard for Managing etcd database size on Amazon EKS clusters](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/03/24/multiple-update.png)
 
-Following that is [Right-size your Kubernetes Applications Using Open Source Goldilocks for Cost Optimization](https://aws-oss.beachgeek.co.uk/2nq) where Vikram Venkataraman and Aaron Miller share guidance on how to optimise resource allocation and right-size applications in Kubernetes environments using the open source project Goldilocks. Goldilocks is an open source project from Fairwinds that is designed to help organisations get their Kubernetes application resource requests “just right”.  Dive in to find out more and try this out for yourself. [hands on]
+Following that is [Right-size your Kubernetes Applications Using Open Source Goldilocks for Cost Optimization](https://aws.amazon.com/blogs/opensource/right-size-your-kubernetes-applications-using-open-source-goldilocks-for-cost-optimization/) where Vikram Venkataraman and Aaron Miller share guidance on how to optimise resource allocation and right-size applications in Kubernetes environments using the open source project Goldilocks. Goldilocks is an open source project from Fairwinds that is designed to help organisations get their Kubernetes application resource requests “just right”.  Dive in to find out more and try this out for yourself. [hands on]
 
 ![architecture for goldilocks on eks](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/03/24/vertical-pod-autoscaler-diagram.png)
 
-AWS Controllers for Kubernetes (ACK) lets you define and use AWS service resources directly from Kubernetes, using the Kubernetes Resource Model (KRM). In this collaboration from Victor Gu, Peter Dalbhanjan, and Michael Gasch, [Build event-driven data pipelines using AWS Controllers for Kubernetes and Amazon EMR on EKS](https://aws-oss.beachgeek.co.uk/2nz), they provide a detailed, hands on guide on how to build an event-driven data pipeline using AWS Controllers for Kubernetes (ACK) and EMR on EKS. [hands on]
+AWS Controllers for Kubernetes (ACK) lets you define and use AWS service resources directly from Kubernetes, using the Kubernetes Resource Model (KRM). In this collaboration from Victor Gu, Peter Dalbhanjan, and Michael Gasch, [Build event-driven data pipelines using AWS Controllers for Kubernetes and Amazon EMR on EKS](https://aws.amazon.com/blogs/big-data/build-event-driven-data-pipelines-using-aws-controllers-for-kubernetes-and-amazon-emr-on-eks/), they provide a detailed, hands on guide on how to build an event-driven data pipeline using AWS Controllers for Kubernetes (ACK) and EMR on EKS. [hands on]
  
 ![architecture of ack orchestration](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/03/22/pic1.jpg)
 
 **OpenSearch**
 
-We had a flurry of posts for OpenSearch fans this week, starting off with [Expanding k-NN with Lucene approximate nearest neighbor search](https://aws-oss.beachgeek.co.uk/2o1) where Stavros Macrakis provides a short post on the variety of options you have for implementing exact and approximate k-NN search
+We had a flurry of posts for OpenSearch fans this week, starting off with [Expanding k-NN with Lucene approximate nearest neighbor search](https://opensearch.org/blog/Expanding-k-NN-with-Lucene-aNN/) where Stavros Macrakis provides a short post on the variety of options you have for implementing exact and approximate k-NN search
 
-Following that we had Milind Shyani, Dhrubo Saha, Nina Mishra, and Fanit Kolchina come together to write [The ABCs of semantic search in OpenSearch: Architectures, benchmarks, and combination strategies](https://aws-oss.beachgeek.co.uk/2o2). This builds on previous blog posts (linked in the post) and dives deeper in the different ways of building a semantic search engine in OpenSearch.
+Following that we had Milind Shyani, Dhrubo Saha, Nina Mishra, and Fanit Kolchina come together to write [The ABCs of semantic search in OpenSearch: Architectures, benchmarks, and combination strategies](https://opensearch.org/blog/semantic-science-benchmarks/). This builds on previous blog posts (linked in the post) and dives deeper in the different ways of building a semantic search engine in OpenSearch.
 
-Finally, in the post [Perform accent-insensitive search using OpenSearch](https://aws-oss.beachgeek.co.uk/2nx), Aruna Govindaraju shows you how to perform accent-insensitive search using OpenSearch to handle diacritics. What is "diacritics" I can hear you all ask. From the blog post itself:
+Finally, in the post [Perform accent-insensitive search using OpenSearch](https://aws.amazon.com/blogs/big-data/perform-accent-insensitive-search-using-opensearch/), Aruna Govindaraju shows you how to perform accent-insensitive search using OpenSearch to handle diacritics. What is "diacritics" I can hear you all ask. From the blog post itself:
 
 > Accent-insensitive search, also called diacritics-agnostic search, is where search results are the same for queries that may or may not contain Latin characters such as à, è, Ê, ñ, and ç. Diacritics are English letters with an accent to mark a difference in pronunciation. In recent years, words with diacritics have trickled into the mainstream English language, such as café or protégé.
 
 **AWS CDK**
 
-In the post, [Recommended AWS CDK Project Structure for Monolithic Python Applications](https://aws-oss.beachgeek.co.uk/2o3) Alex Pulver looks at some of the recommended ways you can set out your CDK projects, and specifically  looks at the recommended project structure for monolithic applications.
+In the post, [Recommended AWS CDK Project Structure for Monolithic Python Applications](https://softwhat.com/recommended-aws-cdk-project-structure-for-monolithic-python-applications/) Alex Pulver looks at some of the recommended ways you can set out your CDK projects, and specifically  looks at the recommended project structure for monolithic applications.
 
 ![overview of cdk project structure](https://softwhat.com/images/recommended-aws-cdk-project-structure-for-monolithic-python-applications-2.png)
 
 **Other posts and quick reads**
 
-* [Elastic visualization queues with NICE DCV in AWS ParallelCluster ](https://aws-oss.beachgeek.co.uk/2nl) shows you how to leverage AWS ParallelCluster and the Slurm scheduler to create on-demand graphical sessions for your users using NICE DCV [hands on]
+* [Elastic visualization queues with NICE DCV in AWS ParallelCluster ](https://aws.amazon.com/blogs/hpc/elastic-visualization-queues-with-nice-dcv-in-aws-parallelcluster/) shows you how to leverage AWS ParallelCluster and the Slurm scheduler to create on-demand graphical sessions for your users using NICE DCV [hands on]
 
 ![architecture of nice dcv and aws parallellcluster ](https://d2908q01vomqb2.cloudfront.net/e6c3dd630428fd54834172b8fd2735fed9416da4/2023/03/10/CleanShot-2023-03-10-at-11.33.06.png)
 
-* [Automate the deployment of an NGINX web service using Amazon ECS with TLS offload in CloudHSM](https://aws-oss.beachgeek.co.uk/2np) is a very nice guide on how to set up a NGINX web server on Fargate in a secure, private subnet that offloads the TLS termination to a FIPS 140-2 Level 3 HSM environment that uses the CloudHSM OpenSSL Dynamic Engine [hands on]
+* [Automate the deployment of an NGINX web service using Amazon ECS with TLS offload in CloudHSM](https://aws.amazon.com/blogs/security/automate-the-deployment-of-an-nginx-web-service-using-amazon-ecs-with-tls-offload-in-cloudhsm/) is a very nice guide on how to set up a NGINX web server on Fargate in a secure, private subnet that offloads the TLS termination to a FIPS 140-2 Level 3 HSM environment that uses the CloudHSM OpenSSL Dynamic Engine [hands on]
 
 ![architecture for secure, FIPs compliant NGINX](https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2023/03/15/img1-2.png)
 
-* [Amazon Aurora PostgreSQL database authorization using role-based access control](https://aws-oss.beachgeek.co.uk/2ny) presents a database authorisation solution using role-based access control (RBAC) [hands on]
+* [Amazon Aurora PostgreSQL database authorization using role-based access control](https://aws.amazon.com/blogs/database/amazon-aurora-postgresql-database-authorization-using-role-based-access-control/) presents a database authorisation solution using role-based access control (RBAC) [hands on]
 
 ![overview of postgresql database authorisation implementation](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/03/21/BLOG-2442-1.jpg)
 
 **Technical Paper**
 
-[Run Apache Hudi at scale on AWS](https://aws-oss.beachgeek.co.uk/2n9)
+[Run Apache Hudi at scale on AWS](https://pages.awscloud.com/GLOBAL-devadopt-DL-Apache-Hudi-Technical-Guide-2023-learn.html)
 
 This technical guide provides guidance on getting started with Apache Hudi on different AWS services, as well as best practices and recommendations for running Apache Hudi on AWS at scale while optimising cost and performance.
 
@@ -156,7 +156,7 @@ Amazon DevOps Guru for RDS is a Machine Learning (ML) powered capability for Ama
 
 **Terraform**
 
-Support for AWS Secrets Manager managed master passwords for RDS and Aurora instances and clusters is now in the AWS provider for Terraform (v4.61.0). See the [full release notes here](https://aws-oss.beachgeek.co.uk/2nv), as well as reading the announcement back in December for this feature [here](https://aws-oss.beachgeek.co.uk/2nw). Hats off to OSS community member Mark Ferguson for his wonderful contribution. Thanks Tyler Lynch for bringing this to my attention.
+Support for AWS Secrets Manager managed master passwords for RDS and Aurora instances and clusters is now in the AWS provider for Terraform (v4.61.0). See the [full release notes here](https://github.com/hashicorp/terraform-provider-aws/releases/tag/v4.61.0), as well as reading the announcement back in December for this feature [here](https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-rds-integration-aws-secrets-manager/). Hats off to OSS community member Mark Ferguson for his wonderful contribution. Thanks Tyler Lynch for bringing this to my attention.
 
 **Amazon EMR on EKS**
 
@@ -174,7 +174,7 @@ The new observability capabilities and log monitoring features are available on 
 
 *Request for Comment (RFC)*
 
-The OpenSearch team are looking for feedback on a new proposal on how to update GeoIPs. The proposal is to provide a way to update a GeoIP database in GeoIP processor automatically. Read and comment on the RFC, [GeoIP database auto update to provide the latest IP to geo location mapping in GeoIP processor](https://aws-oss.beachgeek.co.uk/2nr)
+The OpenSearch team are looking for feedback on a new proposal on how to update GeoIPs. The proposal is to provide a way to update a GeoIP database in GeoIP processor automatically. Read and comment on the RFC, [GeoIP database auto update to provide the latest IP to geo location mapping in GeoIP processor](https://github.com/opensearch-project/OpenSearch/issues/5856)
 
 *OpenSearch release 2.6.0*
 
@@ -203,7 +203,7 @@ This feature is available on Bottlerocket versions starting from 1.13.0.
 
 **Red Hat Linux**
 
-NICE DCV is a high-performance remote display protocol that is designed to help customers securely access remote desktop or application sessions, including 3D graphics applications hosted on servers with high-performance GPUs. NICE DCV version 2023.0 introduces multiple enhancements and features, such as support for Red Hat Enterprise Linux 9 and monitor selection for a full-screen remote session on Linux and macOS clients. Check out the full announcement,[ NICE DCV releases version 2023.0 with support for Red Hat Enterprise Linux 9](https://aws-oss.beachgeek.co.uk/2nb), for more details about the features and improvements.
+NICE DCV is a high-performance remote display protocol that is designed to help customers securely access remote desktop or application sessions, including 3D graphics applications hosted on servers with high-performance GPUs. NICE DCV version 2023.0 introduces multiple enhancements and features, such as support for Red Hat Enterprise Linux 9 and monitor selection for a full-screen remote session on Linux and macOS clients. Check out the full announcement,[ NICE DCV releases version 2023.0 with support for Red Hat Enterprise Linux 9](https://aws.amazon.com/about-aws/whats-new/2023/03/nice-dcv-2023-0-red-hat-enterprise-linux9/), for more details about the features and improvements.
 
 **Kubernetes**
 
@@ -211,7 +211,7 @@ Amazon Elastic Kubernetes Service (EKS) announces domainless Group Managed Servi
 
 Group Managed Service Account (gMSA) is a managed domain account that provides automatic password management, service principal name (SPN) management, and the ability to delegate the management to other administrators over multiple servers/instances. This allows multiple containers or resources to share an AD account without having to authenticate each container or resource individually, or without having access to network-shared resources such as SQL Server hosts, or file-shares. Since the launch of EKS version 1.14, customers can run EKS Windows containers with gMSA by joining underlying nodes to a target AD domain. Now customers can also use a built-in plugin on the latest EKS-Optimized Windows AMIs (versions 1.22 and above) that enables non-domain-joined Windows nodes to retrieve gMSA credentials with a portable user identity instead of a host computer account.
 
-[Domainless Windows Authentication for Amazon EKS Windows pods](https://aws-oss.beachgeek.co.uk/2nn) provides a hands on end-to-end guide on how to get started.
+[Domainless Windows Authentication for Amazon EKS Windows pods](https://aws.amazon.com/blogs/containers/domainless-windows-authentication-for-amazon-eks-windows-pods/) provides a hands on end-to-end guide on how to get started.
 
 ![architecture for Domainless Windows Authentication for Amazon EKS Windows pods](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/03/24/gMSA-plugin.png)
 
@@ -221,7 +221,7 @@ Also announced last week was the general availability of the AWS Controllers for
 
 *
 
-The final quick update for Kubernetes is news of the general availability of Amazon GuardDuty EKS Runtime Monitoring to detect runtime threats from over 30 security findings to protect your EKS clusters. You can read the full post from my colleague Channy, [Amazon GuardDuty Now Supports Amazon EKS Runtime Monitoring](https://aws-oss.beachgeek.co.uk/2o0)
+The final quick update for Kubernetes is news of the general availability of Amazon GuardDuty EKS Runtime Monitoring to detect runtime threats from over 30 security findings to protect your EKS clusters. You can read the full post from my colleague Channy, [Amazon GuardDuty Now Supports Amazon EKS Runtime Monitoring](https://aws.amazon.com/blogs/aws/amazon-guardduty-now-supports-amazon-eks-runtime-monitoring/)
 
 ### Videos of the week
 
@@ -252,7 +252,7 @@ Powertools for .NET is an open source tool that provides a suite of utilities th
 
 I hope some of you were able to catch the fourth episode of Build on Open Source, where we had special guests  Saurav & Devansh to learn more about their open source e-commerce project, Bagisto. You can catch [the replay here ](https://www.twitch.tv/videos/1780597466).
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -263,38 +263,38 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 
 FOSSASIA Summit 2023 returns as an in-person and online event, taking place from Thursday 13th April to Saturday 15th April at the Lifelong Learning Institute in Singapore. 
 
-If you are interested in attending in person, or virtually, find out more about the event at the [FOSSASIA Summit 2023 page](https://aws-oss.beachgeek.co.uk/2iq).
+If you are interested in attending in person, or virtually, find out more about the event at the [FOSSASIA Summit 2023 page](https://eventyay.com/e/7cfe0771).
 
 **AWS at KubeCon + CloudNativeCon Europe 2023**
 **April 18th live on twitch.tv/aws**
 
 AWS Container Day ft. Kubernetes at KubeCon + CloudNativeCon Europe 2023 is a day-long virtual event dedicated to helping Kubernetes practitioners optimise their workloads and reduce their Ops burden. AWS and guest speakers will dive deep into the latest trends, techniques, and best practices for deploying, managing, securing, and scaling with Kubernetes. The day will feature new solution demos and interactive challenges designed to provide hands-on experience and practical insights. Attendees will walk away with new tools, mental models, and resources to innovate, optimise, and scale their applications.
 
-Check out the amazing schedule that has been published on the event page, [AWS at KubeCon + CloudNativeCon Europe 2023](https://aws-oss.beachgeek.co.uk/2na) and register to set yourself a reminder.
+Check out the amazing schedule that has been published on the event page, [AWS at KubeCon + CloudNativeCon Europe 2023](https://aws-kubecon-eu.splashthat.com/) and register to set yourself a reminder.
 
 **AWS Community Nordics**
 **April, 20th Helsinki**
 
-The AWS Community Day Nordics is a free full day event for AWS users to come together to network, learn from each other and get inspired. The event is organised by the community - for the community. The cfp is currently open, so if you are in the area and want to talk then here is your chance. Check out the full event details and save your space here, [AWS Community Nordics registration page](https://aws-oss.beachgeek.co.uk/2l5)
+The AWS Community Day Nordics is a free full day event for AWS users to come together to network, learn from each other and get inspired. The event is organised by the community - for the community. The cfp is currently open, so if you are in the area and want to talk then here is your chance. Check out the full event details and save your space here, [AWS Community Nordics registration page](https://awscommunitynordics.org/communityday/#agenda)
 
 **Reducing the costs of your openCypher applications**
 **May 8th, 4pm UK - online**
 
 openCypher is an open-source project for creating graph applications. Neptune supports openCypher graph query language, and in this webinar you will learn more about the cost benefits for moving openCypher workloads to Neptune serverless. With Neptune serverless, customers can see up to 90% cost savings compared to provisioning for peak capacity. A demo of Neptune in action will be included in this session.
 
-Head over to the You Tube holding page, [Reducing the costs of your openCypher applications](https://aws-oss.beachgeek.co.uk/2mp) 
+Head over to the You Tube holding page, [Reducing the costs of your openCypher applications](https://www.youtube.com/watch?v=__EQLYyFjJQ) 
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

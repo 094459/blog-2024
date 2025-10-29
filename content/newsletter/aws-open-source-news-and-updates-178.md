@@ -27,17 +27,17 @@ So thank you to the following open source heroes:  Vadym Kazulkin, Ryan Stebich,
 
 **sso-sync-to-amazon-rds**
 
-[sso-sync-to-amazon-rds](https://aws-oss.beachgeek.co.uk/3e2) This project sets up AWS Lambda functions, Amazon EventBridge rule, Amazon VPC Endpoint for AWS IAM Identity Center (successor to AWS Single Sign-On), the related Security Groups and permissions necessary to automatically provision database users to the Amazon Relational Database Service (Amazon RDS) cluster using AWS Cloud Development Kit (AWS CDK). When a new user is created in IAM Identity Center and the user belongs to the group specified in a IAM_IDC_GROUP_NAME variable, EventBridge rule will trigger the Lambda function. The Lambda function will create a new user in a specified Amazon RDS cluster. The user will then be able to login to the database using their SSO username and IAM credentials. Adding a user to the configured group will trigger the Lambda function as well.
+[sso-sync-to-amazon-rds](https://github.com/aws-samples/sso-sync-to-amazon-rds) This project sets up AWS Lambda functions, Amazon EventBridge rule, Amazon VPC Endpoint for AWS IAM Identity Center (successor to AWS Single Sign-On), the related Security Groups and permissions necessary to automatically provision database users to the Amazon Relational Database Service (Amazon RDS) cluster using AWS Cloud Development Kit (AWS CDK). When a new user is created in IAM Identity Center and the user belongs to the group specified in a IAM_IDC_GROUP_NAME variable, EventBridge rule will trigger the Lambda function. The Lambda function will create a new user in a specified Amazon RDS cluster. The user will then be able to login to the database using their SSO username and IAM credentials. Adding a user to the configured group will trigger the Lambda function as well.
 
 ![example workflow for sso-sync for amazon-rds](https://github.com/aws-samples/sso-sync-to-amazon-rds/blob/main/architecture_diagram.png?raw=true)
 
 **data-solutions-framework-on-aws**
 
-[data-solutions-framework-on-aws](https://aws-oss.beachgeek.co.uk/3ey) is a framework for implementation and delivery of data solutions with built-in AWS best practices. Data Solutions Framework on AWS (DSF) is an abstraction atop AWS services based on AWS Cloud Development Kit (CDK) L3 constructs, packaged as a library. You can leverage DSF to implement your data platform in weeks rather than in months. DSF is available in TypeScript and Python. Use the framework to build your data solutions instead of building cloud infrastructure from scratch. Compose data solutions using integrated building blocks via Infrastructure as Code (IaC), that allow you to benefit from smart defaults and built-in AWS best practices. You can also customize or extend according to your requirements. Check out the dedicated documentation page, complete with examples to get you started.
+[data-solutions-framework-on-aws](https://github.com/awslabs/data-solutions-framework-on-aws) is a framework for implementation and delivery of data solutions with built-in AWS best practices. Data Solutions Framework on AWS (DSF) is an abstraction atop AWS services based on AWS Cloud Development Kit (CDK) L3 constructs, packaged as a library. You can leverage DSF to implement your data platform in weeks rather than in months. DSF is available in TypeScript and Python. Use the framework to build your data solutions instead of building cloud infrastructure from scratch. Compose data solutions using integrated building blocks via Infrastructure as Code (IaC), that allow you to benefit from smart defaults and built-in AWS best practices. You can also customize or extend according to your requirements. Check out the dedicated documentation page, complete with examples to get you started.
 
 **resource-explorer-with-organizations**
 
-[resource-explorer-with-organizations](https://aws-oss.beachgeek.co.uk/3dy) you may have a use cases where you are eager to find lingering resources, or resources that were not at their optimal settings. By utilising Resource Explorer and Step Functions, you can gather all the necessary information from these accounts, and use them to create a report to gain a wider understanding of the state of your AWS accounts. As of this release, the limitation of Resource Explorer is that it is done on a per account basis. However, the README provides details of a workaround to deploy this to all your accounts in our AWS Organization using StackSets. The use case shown in the repo shows you how you can find resources in an multiple AWS accounts over multiple regions, and generating an Excel Document displaying the Account it belongs to, Name, Resource Type, and ARN of the resource.
+[resource-explorer-with-organizations](https://github.com/aws-samples/resource-explorer-with-organizations) you may have a use cases where you are eager to find lingering resources, or resources that were not at their optimal settings. By utilising Resource Explorer and Step Functions, you can gather all the necessary information from these accounts, and use them to create a report to gain a wider understanding of the state of your AWS accounts. As of this release, the limitation of Resource Explorer is that it is done on a per account basis. However, the README provides details of a workaround to deploy this to all your accounts in our AWS Organization using StackSets. The use case shown in the repo shows you how you can find resources in an multiple AWS accounts over multiple regions, and generating an Excel Document displaying the Account it belongs to, Name, Resource Type, and ARN of the resource.
 
 ![example output report from resource-explorer](https://github.com/aws-samples/resource-explorer-with-organizations/blob/main/docs/images/OutputExample.png?raw=true)
 
@@ -45,13 +45,13 @@ The repo provides details of how you can deploy this tool, so make sure you chec
 
 **garnet-framework**
 
-[garnet-framework](https://aws-oss.beachgeek.co.uk/3e1) Garnet is an open-source framework for building scalable, reliable and interoperable platforms leveraging open standards, FIWARE open source technology and AWS Cloud services. It supports the development and integration of smart and efficient solutions across multiple domains such as Smart Cities, Regions and Campuses, Energy and Utilities, Agriculture, Smart Building, Automotive and Manufacturing. The repo provides code and links to the dedicated documentation site to help you get started.
+[garnet-framework](https://github.com/awslabs/garnet-framework) Garnet is an open-source framework for building scalable, reliable and interoperable platforms leveraging open standards, FIWARE open source technology and AWS Cloud services. It supports the development and integration of smart and efficient solutions across multiple domains such as Smart Cities, Regions and Campuses, Energy and Utilities, Agriculture, Smart Building, Automotive and Manufacturing. The repo provides code and links to the dedicated documentation site to help you get started.
 
 ![example garnet architecture](https://garnet-framework.dev/assets/images/garnet-iot-arch-how-410b929cdc69e073a6d21b93b9640fa7.png)
 
 **aws-control-tower-controls-cdk**
 
-[aws-control-tower-controls-cdk](https://aws-oss.beachgeek.co.uk/3e3) This pattern describes how to use AWS CloudFormation and AWS Cloud Development Kit (AWS CDK) to implement and administer preventive, detective, and proactive AWS Control Tower controls as infrastructure as code (IaC). A control (also known as a guardrail) is a high-level rule that provides ongoing governance for your overall AWS Control Tower environment. For example, you can use controls to require logging for your AWS accounts and then configure automatic notifications if specific security-related events occur. Check out the REAMDE for more details on what you can do with this.
+[aws-control-tower-controls-cdk](https://github.com/aws-samples/aws-control-tower-controls-cdk) This pattern describes how to use AWS CloudFormation and AWS Cloud Development Kit (AWS CDK) to implement and administer preventive, detective, and proactive AWS Control Tower controls as infrastructure as code (IaC). A control (also known as a guardrail) is a high-level rule that provides ongoing governance for your overall AWS Control Tower environment. For example, you can use controls to require logging for your AWS accounts and then configure automatic notifications if specific security-related events occur. Check out the REAMDE for more details on what you can do with this.
 
 ![overview of control tower controls architecture](https://github.com/aws-samples/aws-control-tower-controls-cdk/blob/main/img/ctc-architecture.png?raw=true)
 
@@ -59,28 +59,28 @@ The repo provides details of how you can deploy this tool, so make sure you chec
 
 **serverless-rss-filtered-feed-gen**
 
-[serverless-rss-filtered-feed-gen](https://aws-oss.beachgeek.co.uk/3dz) This is a configurable serverless solution that generates filtered rss feeds and makes them public accessible. Defined RSS sources are read at a given interval and new filtered feeds are generated and stored. The architecture uses a minimum number of AWS services to keep it easy to maintain and cost-effective.
+[serverless-rss-filtered-feed-gen](https://github.com/aws-samples/serverless-rss-filtered-feed-gen) This is a configurable serverless solution that generates filtered rss feeds and makes them public accessible. Defined RSS sources are read at a given interval and new filtered feeds are generated and stored. The architecture uses a minimum number of AWS services to keep it easy to maintain and cost-effective.
 
 ![example of the process flow for rss-filtered feed generator](https://github.com/aws-samples/serverless-rss-filtered-feed-gen/blob/main/img/feed-filter-process-overview.png?raw=true)
 
 **localstack-aws-cdk-example**
 
-[localstack-aws-cdk-example](https://aws-oss.beachgeek.co.uk/3dw) This repo aims to showcase the usage of [Localstack](https://aws-oss.beachgeek.co.uk/3dx) and AWS CDK to address specific integration challenges regarding local development where the end target is the AWS platform. If you are unfamiliar with Localstack, it is an open source, fully functional local AWS cloud stack that allows you to develop and test your cloud and Serverless apps offline.
+[localstack-aws-cdk-example](https://github.com/aws-samples/localstack-aws-cdk-example) This repo aims to showcase the usage of [Localstack](https://github.com/localstack/localstack) and AWS CDK to address specific integration challenges regarding local development where the end target is the AWS platform. If you are unfamiliar with Localstack, it is an open source, fully functional local AWS cloud stack that allows you to develop and test your cloud and Serverless apps offline.
 
 
 **powertools-lambda-kotlin**
 
-[powertools-lambda-kotlin](https://aws-oss.beachgeek.co.uk/3dv) This project demonstrates the Lambda for Powertools Kotlin module deployed using Serverless Application Model with Gradle running the build. This example is configured for Java 8 only; in order to use a newer version, check out the Gradle configuration guide in the main project README. You can also use sam init to create a new Gradle-powered Powertools application - choose to use the AWS Quick Start Templates, and then Hello World Example with Powertools for AWS Lambda, Java 17 runtime, and finally gradle.
+[powertools-lambda-kotlin](https://github.com/aws-powertools/powertools-lambda-java/tree/main/examples/powertools-examples-core/kotlin) This project demonstrates the Lambda for Powertools Kotlin module deployed using Serverless Application Model with Gradle running the build. This example is configured for Java 8 only; in order to use a newer version, check out the Gradle configuration guide in the main project README. You can also use sam init to create a new Gradle-powered Powertools application - choose to use the AWS Quick Start Templates, and then Hello World Example with Powertools for AWS Lambda, Java 17 runtime, and finally gradle.
 
 ### AWS and Community blog posts
 
 **Community round up**
 
-This weeks community round up starts with a great post from AWS Community Builder Vadym Kazulkin, who shares his deep expertise in Java and Amazon Corretto, and explores how he measured cold start times when using Amazon Corretto 17 and SnapStart in his post, [Measuring Lambda cold starts with AWS SnapStart - Part 8 Measuring with Java 17](https://aws-oss.beachgeek.co.uk/3dr). Make sure you check his previous posts too. Next we have a couple of posts on Kubernetes, starting with Ryan Stebich and his guide on how you can consume secrets within your Kubernetes workloads, in [Easily Consume AWS Secrets Manager Secrets From Your Amazon EKS Workloads](https://aws-oss.beachgeek.co.uk/3ds). This is an excellent post, and man could I have used this a few months ago when I was trying to figure this stuff out. Following that we have a subject near and dear to my heart, multi-architecture systems. I have done many talks on this in the past, as well as blog posts and code examples, so was super excited to read [Multi-architecture Kubernetes clusters on Amazon EKS](https://aws-oss.beachgeek.co.uk/3dt) from AWS Community Builder Jason Andrews. Great stuff! The final post this week comes from AWS Community Builder Andrii Melashchenko, who looks at at generating a CI/CD pipeline using AWS Serverless Application Model (SAM), Node.js, and GitHub Actions in his post, [An efficient way to build your serverless microservices. Part 3. CI/CD with AWS SAM.](https://aws-oss.beachgeek.co.uk/3du).
+This weeks community round up starts with a great post from AWS Community Builder Vadym Kazulkin, who shares his deep expertise in Java and Amazon Corretto, and explores how he measured cold start times when using Amazon Corretto 17 and SnapStart in his post, [Measuring Lambda cold starts with AWS SnapStart - Part 8 Measuring with Java 17](https://dev.to/aws-builders/measuring-lambda-cold-starts-with-aws-snapstart-part-8-measuring-with-java-17-21db). Make sure you check his previous posts too. Next we have a couple of posts on Kubernetes, starting with Ryan Stebich and his guide on how you can consume secrets within your Kubernetes workloads, in [Easily Consume AWS Secrets Manager Secrets From Your Amazon EKS Workloads](https://community.aws/tutorials/navigating-amazon-eks/eks-integrate-secrets-manager). This is an excellent post, and man could I have used this a few months ago when I was trying to figure this stuff out. Following that we have a subject near and dear to my heart, multi-architecture systems. I have done many talks on this in the past, as well as blog posts and code examples, so was super excited to read [Multi-architecture Kubernetes clusters on Amazon EKS](https://dev.to/aws-builders/multi-architecture-kubernetes-clusters-on-amazon-eks-2nol) from AWS Community Builder Jason Andrews. Great stuff! The final post this week comes from AWS Community Builder Andrii Melashchenko, who looks at at generating a CI/CD pipeline using AWS Serverless Application Model (SAM), Node.js, and GitHub Actions in his post, [An efficient way to build your serverless microservices. Part 3. CI/CD with AWS SAM.](https://dev.to/aws-builders/an-efficient-way-to-build-your-serverless-microservices-part-3-cicd-with-aws-sam-1aad).
 
 **Jupyter**
 
-In [Building multi-tenant JupyterHub Platforms on Amazon EKS](https://aws-oss.beachgeek.co.uk/3do), Lucas Soriano Alves Duarte, Apoorva Kulkarni, Ravi Yadav, and Vara Bonthu collaborate to share information on the process of building, deploying, and harnessing the power of multi-tenant JupyterHub environments on Amazon EKS at scale. This is a must read post this week, with the level of depth as well as completeness that this solution provides should make it of interest to everyone. [hands on]
+In [Building multi-tenant JupyterHub Platforms on Amazon EKS](https://aws.amazon.com/blogs/containers/building-multi-tenant-jupyterhub-platforms-on-amazon-eks/), Lucas Soriano Alves Duarte, Apoorva Kulkarni, Ravi Yadav, and Vara Bonthu collaborate to share information on the process of building, deploying, and harnessing the power of multi-tenant JupyterHub environments on Amazon EKS at scale. This is a must read post this week, with the level of depth as well as completeness that this solution provides should make it of interest to everyone. [hands on]
 
 ![overview of architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/10/27/Multi-tenant-JupyterHub.png)
 
@@ -90,51 +90,51 @@ A couple of updates this week.
 
 First is news that Karpenter, a Kubernetes node lifecycle manager, that was donated to the Cloud Native Computing Foundation (CNCF) as part of Kubernetes Autoscaling Special Interest Group, has now progressed from alpha to beta. What does this mean? Well find out by reading the post, [Karpenter graduates to beta](https://aws.amazon.com/blogs/containers/karpenter-graduates-to-beta/), where Giacomo Tomolillo and Justin Garrison share all.
 
-Following that we had a case study from Lacework, who shared some of their learnings from their experience in operating Kubernetes Batch jobs at scale in the post, [Lacework’s batch workloads on Amazon EKS: Lessons learned ](https://aws-oss.beachgeek.co.uk/3dq). Abhi Karode, Shane Corbett, Vara Bonthu, together with Derek Brown at Lacework go into details and leave with three key take aways for you to think about. 
+Following that we had a case study from Lacework, who shared some of their learnings from their experience in operating Kubernetes Batch jobs at scale in the post, [Lacework’s batch workloads on Amazon EKS: Lessons learned ](https://aws.amazon.com/blogs/containers/scale-laceworks-batch-workloads-on-amazon-eks-lessons-learned/). Abhi Karode, Shane Corbett, Vara Bonthu, together with Derek Brown at Lacework go into details and leave with three key take aways for you to think about. 
 
 ![overview of lacework architecture of running batch at scale](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/10/25/Ephemeral-Job-Controller.png)
 
 **Big Data and Analytics**
 
-* [Impactful features in PostgreSQL 15](https://aws-oss.beachgeek.co.uk/3dg) is a must read post that looks at some of the most impactful features of PostgreSQL 15. We explore the MERGE statement, new WAL compression algorithms, enhancements to logical replication and PUBLIC schema permissions, improvements to partition tables, and some general performance improvements [hands on]
+* [Impactful features in PostgreSQL 15](https://aws.amazon.com/blogs/database/impactful-features-in-postgresql-15/) is a must read post that looks at some of the most impactful features of PostgreSQL 15. We explore the MERGE statement, new WAL compression algorithms, enhancements to logical replication and PUBLIC schema permissions, improvements to partition tables, and some general performance improvements [hands on]
 
 ![postgresql 15 improvements graph](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/10/17/DBBLOG-3170-image2-1024x406.png)
 
-* [Powering Amazon RDS with AWS Graviton3: Benchmarks](https://aws-oss.beachgeek.co.uk/3dd) compare the performances of AWS Graviton2 and AWS Graviton3 instances on open-source engines supported by Amazon RDS, to validate them from a db-centric perspective - a must read! [hands on]
+* [Powering Amazon RDS with AWS Graviton3: Benchmarks](https://aws.amazon.com/blogs/database/powering-amazon-rds-with-aws-graviton3-benchmarks/) compare the performances of AWS Graviton2 and AWS Graviton3 instances on open-source engines supported by Amazon RDS, to validate them from a db-centric perspective - a must read! [hands on]
 
 ![benchmark graph comparing postgresql and graviton processor types](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/10/19/DBBLOG-3236-04-qps-USD.png)
 
-* [Use Amazon DynamoDB incremental export to update Apache Iceberg tables](https://aws-oss.beachgeek.co.uk/3de) explains how to bulk process a series of full and incremental exports using Amazon EMR Serverless with Apache Spark to produce a single Apache Iceberg table  [hands on]
+* [Use Amazon DynamoDB incremental export to update Apache Iceberg tables](https://aws.amazon.com/blogs/database/use-amazon-dynamodb-incremental-export-to-update-apache-iceberg-tables/) explains how to bulk process a series of full and incremental exports using Amazon EMR Serverless with Apache Spark to produce a single Apache Iceberg table  [hands on]
 
 ![architecture of dynamodb to apache iceberg table export](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/10/27/DBBLOG-3584-Figure-1-architecturediagram.png)
 
-* [Use Snowflake with Amazon MWAA to orchestrate data pipelines](https://aws-oss.beachgeek.co.uk/3df) provides an overview of orchestrating your data pipeline using Snowflake operators in your Amazon MWAA environment [hands on]
+* [Use Snowflake with Amazon MWAA to orchestrate data pipelines](https://aws.amazon.com/blogs/big-data/use-snowflake-with-amazon-mwaa-to-orchestrate-data-pipelines/) provides an overview of orchestrating your data pipeline using Snowflake operators in your Amazon MWAA environment [hands on]
 
 ![overview of snowflake to mwaa integration](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/10/23/overview_solution.png)
 
-* [Enable cost-efficient operational analytics with Amazon OpenSearch Ingestion](https://aws-oss.beachgeek.co.uk/3dj) demonstrates how to use OpenSearch Ingestion pipelines to build a cost-optimized infrastructure for log analytics and observability events [hands on]
+* [Enable cost-efficient operational analytics with Amazon OpenSearch Ingestion](https://aws.amazon.com/blogs/big-data/enable-cost-efficient-operational-analytics-with-amazon-opensearch-ingestion/) demonstrates how to use OpenSearch Ingestion pipelines to build a cost-optimized infrastructure for log analytics and observability events [hands on]
 
 ![overview of opensearch log analytics solution architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/10/17/BDB-3666-image001.jpg)
 
-* [An automated approach to perform an in-place engine upgrade in Amazon OpenSearch Service](https://aws-oss.beachgeek.co.uk/3dk) discusses what to consider when planning to upgrade your existing Elasticsearch engine in your OpenSearch Service domain to the OpenSearch engine
-* [Spark on AWS Lambda: An Apache Spark runtime for AWS Lambda](https://aws-oss.beachgeek.co.uk/3dl) highlights the Spark on AWS Lambda (SoAL) architecture, provides infrastructure as code (IaC), offers step-by-step instructions for setting up the SoAL framework in your AWS account, and outlines SoAL architectural patterns for enterprises [hands on]
+* [An automated approach to perform an in-place engine upgrade in Amazon OpenSearch Service](https://aws.amazon.com/blogs/big-data/an-automated-approach-to-perform-an-in-place-engine-upgrade-in-amazon-opensearch-service/) discusses what to consider when planning to upgrade your existing Elasticsearch engine in your OpenSearch Service domain to the OpenSearch engine
+* [Spark on AWS Lambda: An Apache Spark runtime for AWS Lambda](https://aws.amazon.com/blogs/big-data/spark-on-aws-lambda-an-apache-spark-runtime-for-aws-lambda/) highlights the Spark on AWS Lambda (SoAL) architecture, provides infrastructure as code (IaC), offers step-by-step instructions for setting up the SoAL framework in your AWS account, and outlines SoAL architectural patterns for enterprises [hands on]
 
 ![overview of soal architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/10/17/BDB-3102-Architecture-pattern.png.jpg)
 
 **Other posts and quick reads**
 
-* [Intelligently search Drupal content using Amazon Kendra](https://aws-oss.beachgeek.co.uk/3dh) shows you how to use the Amazon Kendra Drupal connector to configure the connector as a data source for your Amazon Kendra index and search your Drupal documents [hands on]
-* [Intelligent document processing with Amazon Textract, Amazon Bedrock, and LangChain](https://aws-oss.beachgeek.co.uk/3di) looks at the various mechanisms of augmenting an intelligent document processing (IDP) workflow with LLMs via Amazon Bedrock, Amazon Textract, and the popular open source LangChain framework [hands on]
+* [Intelligently search Drupal content using Amazon Kendra](https://aws.amazon.com/blogs/machine-learning/intelligently-search-drupal-content-using-amazon-kendra/) shows you how to use the Amazon Kendra Drupal connector to configure the connector as a data source for your Amazon Kendra index and search your Drupal documents [hands on]
+* [Intelligent document processing with Amazon Textract, Amazon Bedrock, and LangChain](https://aws.amazon.com/blogs/machine-learning/intelligent-document-processing-with-amazon-textract-amazon-bedrock-and-langchain/) looks at the various mechanisms of augmenting an intelligent document processing (IDP) workflow with LLMs via Amazon Bedrock, Amazon Textract, and the popular open source LangChain framework [hands on]
 
 ![overview of idp processing with langchain](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/10/13/rag-idp-workflow.png)
 
-* [Intuitivo achieves higher throughput while saving on AI/ML costs using AWS Inferentia and PyTorch](https://aws-oss.beachgeek.co.uk/3dn) provides an interesting case study on how this customer was able to see a five times increase in processing speed and a 95 percent reduction in inference costs compared to our previous solution
+* [Intuitivo achieves higher throughput while saving on AI/ML costs using AWS Inferentia and PyTorch](https://aws.amazon.com/blogs/machine-learning/intuitivo-achieves-higher-throughput-while-saving-on-ai-ml-costs-using-aws-inferentia-and-pytorch/) provides an interesting case study on how this customer was able to see a five times increase in processing speed and a 95 percent reduction in inference costs compared to our previous solution
 
 ### Quick updates
 
 **NodeJS**
 
-If you are a NodeJS developer, then make sure you read [Announcing the end of support for Node.js 14.x in the AWS SDK for JavaScript (v3)](https://aws-oss.beachgeek.co.uk/3da), that looks at important news around end of life support and options you can consider.
+If you are a NodeJS developer, then make sure you read [Announcing the end of support for Node.js 14.x in the AWS SDK for JavaScript (v3)](https://aws.amazon.com/blogs/developer/announcing-the-end-of-support-for-node-js-14-x-in-the-aws-sdk-for-javascript-v3/), that looks at important news around end of life support and options you can consider.
 
 **Ruby**
 
@@ -146,11 +146,11 @@ Great news for folks looking for a great tool to work with container. Last week 
 
 Since we first announced Finch in November 2022, we have launched capabilities that enhance the developer experience when working with containers locally and interacting with container registries. We introduced container image signing, and support for both creating and running images using Seekable OCI (SOCI), an AWS open-source technology for faster container launches by lazily loading the container image. We addressed key papercuts including persistent disk support and VM initialisation time reduction, and created a benchmark tool to continually measure and improve Finch performance.
 
-Check out the official blog post, [Ready for Flight: Announcing Finch 1.0 GA!](https://aws-oss.beachgeek.co.uk/3d7) where Phil Estes provides a detailed recap of progress made since the announcement, and what you can expect going forward.
+Check out the official blog post, [Ready for Flight: Announcing Finch 1.0 GA!](https://aws.amazon.com/blogs/opensource/ready-for-flight-announcing-finch-1-0-ga/) where Phil Estes provides a detailed recap of progress made since the announcement, and what you can expect going forward.
 
 **AWS Neuron**
 
-[AWS Neuron](https://aws-oss.beachgeek.co.uk/3d8) is a software development kit (SDK) enabling high-performance deep learning acceleration using AWS Inferentia and Trainium, AWS's custom designed machine learning accelerators. Neuron includes a compiler, runtime driver, as well as debug and profiling utilities with a TensorBoard plugin for visualisation, and is pre-integrated into popular machine learning frameworks like Pytorch, TensorFlow and MXNet, to provide a seamless machine learning acceleration workflow. Last week saw the release of Neuron 2.15, which now adds support for Llama-2 70b model training as well as PyTorch 2.0 support.
+[AWS Neuron](https://github.com/aws-neuron/aws-neuron-sdk) is a software development kit (SDK) enabling high-performance deep learning acceleration using AWS Inferentia and Trainium, AWS's custom designed machine learning accelerators. Neuron includes a compiler, runtime driver, as well as debug and profiling utilities with a TensorBoard plugin for visualisation, and is pre-integrated into popular machine learning frameworks like Pytorch, TensorFlow and MXNet, to provide a seamless machine learning acceleration workflow. Last week saw the release of Neuron 2.15, which now adds support for Llama-2 70b model training as well as PyTorch 2.0 support.
 
 **OpenSearch**
 
@@ -170,7 +170,7 @@ Next up is an update to the Amazon Aurora PostgreSQL query plan management suppo
 
 The final update this week looked at an update to Amazon Relational Database Service (Amazon RDS) Blue/Green Deployments. This now supports safer, simpler, and faster updates to your Amazon Aurora PostgreSQL-Compatible Edition and Amazon RDS for PostgreSQL databases. Blue/Green Deployments create a fully managed staging environment using PostgreSQL community logical replication, that allows you to deploy and test production changes, keeping your current production database safer. With a few clicks, you can promote the staging environment to be the new production system in as fast as a minute, with no data loss and no changes to your application to switch database endpoints.  Use Amazon RDS Blue/Green Deployments for deploying changes to production, such as major version database engine upgrades, schema changes, maintenance updates, and scaling instances. Blue/Green Deployments use built-in switchover guardrails that will time-out promotion of the staging environment if it exceeds your maximum tolerable downtime, detects replication errors, or identifies instance health check errors. 
 
-Chirag Dave dives deeper on this topic in the post, [New – Fully managed Blue/Green Deployment in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL](https://aws-oss.beachgeek.co.uk/3db)
+Chirag Dave dives deeper on this topic in the post, [New – Fully managed Blue/Green Deployment in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/new-fully-managed-blue-green-deployment-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql/)
 
 **MySQL**
 
@@ -180,7 +180,7 @@ The most important one which you should know about is starting last week, long-t
 
 Making MySQL restarts quicker is the focus of the next update. Amazon Aurora MySQL now includes optimisations that reduce the database restart time by up to 65% versus without optimisations. These improvements are achieved by deferring portions of the buffer pool initialisation and validation process to occur after the database is already online and accepting connections. These optimisations will improve database availability for unplanned events such as unexpected database restarts and planned operations such as minor version upgrades. To learn more about availability benefits, you can refer to our blog titled ‘Reduce downtime with Amazon Aurora MySQL database restart time optimisations’. These optimisations are enabled by default on Aurora MySQL versions 3.05 and higher.
 
-You can dive deeper by reading[ Reduce downtime with Amazon Aurora MySQL database restart time optimizations](https://aws-oss.beachgeek.co.uk/3d9), where Shagun Arora looks at the new Aurora MySQL optimisations introduced in Aurora MySQL version 3 that allow for reduced downtime and fewer disruptions to your workloads after a restart.
+You can dive deeper by reading[ Reduce downtime with Amazon Aurora MySQL database restart time optimizations](https://aws.amazon.com/blogs/database/reduce-downtime-with-amazon-aurora-mysql-database-restart-time-optimizations/), where Shagun Arora looks at the new Aurora MySQL optimisations introduced in Aurora MySQL version 3 that allow for reduced downtime and fewer disruptions to your workloads after a restart.
 
 The final MySQL update was news from last week, where we announced news that Amazon Aurora MySQL-Compatible Edition 3 (with MySQL 8.0 compatibility) will support MySQL 8.0.32. In addition to several security enhancements and bug fixes, MySQL 8.0.32 includes several improvements, such as Instant DDL support for drop column operations, support for new language-specific collations, Generated Invisible Primary Keys (GIPKs), and performance schema monitoring enhancements. For more details, refer to the Aurora MySQL 3 and MySQL 8.0.32 release notes. This release includes optimisations that reduce the database restart time by up to 65% versus without optimisations.
  
@@ -215,7 +215,7 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **AWS User Group, Palma**
 **November, 14th, 5pm-9pm Parc Bit - Fundació IBIT**
 
-I am happy to join Miguel Salvà at the PAWS (AWS User Group in Palma) for an evening of open source talks, covering a broad range of topics from OSPO's, working with open source communities, and open source at Aamzon. Going to be great. You can find out more by checking out the user groups page, [PAWS User Group](https://aws-oss.beachgeek.co.uk/3b6)
+I am happy to join Miguel Salvà at the PAWS (AWS User Group in Palma) for an evening of open source talks, covering a broad range of topics from OSPO's, working with open source communities, and open source at Aamzon. Going to be great. You can find out more by checking out the user groups page, [PAWS User Group](https://www.meetup.com/awsusergrouppalma/events/)
 
 **Big Data Europe**
 **21st-24th November, Online/Vilnius, Lithuania**
@@ -235,14 +235,14 @@ Find out more by checking out the event page, [re:Invent 2023](https://reinvent.
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

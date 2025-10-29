@@ -34,45 +34,45 @@ So thank you to the following open source heroes: Guillaume Égée, Imtranur Rah
 
 **Guardian**
 
-[Guardian](https://aws-oss.beachgeek.co.uk/22g) is an open source tool that provides a command line tool you can run that produces a detailed report of the improvements you can make to your AWS architecture. In the post, [Guardian 1.0.0 available now! Your Free Open Source audit tool for AWS architectures!](https://aws-oss.beachgeek.co.uk/22h), Éloi Alain shows you how you can install and configure this and walks you through creating a report and showing you how you can integrate this into your CI pipeline.
+[Guardian](https://github.com/Kumo-by-Theodo/guardian) is an open source tool that provides a command line tool you can run that produces a detailed report of the improvements you can make to your AWS architecture. In the post, [Guardian 1.0.0 available now! Your Free Open Source audit tool for AWS architectures!](https://dev.to/kumo/guardian-100-available-now-your-free-open-source-audit-tool-for-aws-architectures-54cd), Éloi Alain shows you how you can install and configure this and walks you through creating a report and showing you how you can integrate this into your CI pipeline.
 
 ![demo of project Guardian](https://res.cloudinary.com/practicaldev/image/fetch/s--f6xLX_BL--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l3i0inddqzv6z3z04j5o.gif)
 
 **kong-aws-request-signing**
 
-[kong-aws-request-signing](https://aws-oss.beachgeek.co.uk/22q) This plugin will sign a request with AWS SIGV4 and temporary credentials from sts.amazonaws.com requested using an OAuth token. It enables the secure use of AWS Lambdas as upstreams in Kong using Lambda URLs.
+[kong-aws-request-signing](https://github.com/LEGO/kong-aws-request-signing) This plugin will sign a request with AWS SIGV4 and temporary credentials from sts.amazonaws.com requested using an OAuth token. It enables the secure use of AWS Lambdas as upstreams in Kong using Lambda URLs.
 
 **cdk-scheduler**
 
-[cdk-scheduler](https://aws-oss.beachgeek.co.uk/22r) this construct from Guillaume Égée enables you to trigger an event at a given time on a serverless architecture. You should use cdk-scheduler if you need to trigger an event at a precise time (down to the second) on your AWS application.
+[cdk-scheduler](https://github.com/guiyom-e/cdk-scheduler) this construct from Guillaume Égée enables you to trigger an event at a given time on a serverless architecture. You should use cdk-scheduler if you need to trigger an event at a precise time (down to the second) on your AWS application.
 
 **terraform-iam-policy-validator**
 
-[terraform-iam-policy-validator](https://aws-oss.beachgeek.co.uk/22o) this is a super useful tool that provides a command line tool that validates AWS IAM Policies in a Terraform template against AWS IAM best practices.
+[terraform-iam-policy-validator](https://github.com/awslabs/terraform-iam-policy-validator) this is a super useful tool that provides a command line tool that validates AWS IAM Policies in a Terraform template against AWS IAM best practices.
 
 **zone-aware-controllers-for-k8s**
 
-[zone-aware-controllers-for-k8s](https://aws-oss.beachgeek.co.uk/22l) this project provides Kubernetes controllers for AWS availability zone (AZ) aware rollouts and disruptions. The ZoneAwareUpdate (ZAU) controller enables faster deployments for a StatefulSet whose pods are deployed across multiple availability zones. At each control loop, it applies zone-aware logic to check for pods in an old revision and deletes them so that they can be updated to a new revision. Want to know more, then check out the docs of this project.
+[zone-aware-controllers-for-k8s](https://github.com/aws/zone-aware-controllers-for-k8s) this project provides Kubernetes controllers for AWS availability zone (AZ) aware rollouts and disruptions. The ZoneAwareUpdate (ZAU) controller enables faster deployments for a StatefulSet whose pods are deployed across multiple availability zones. At each control loop, it applies zone-aware logic to check for pods in an old revision and deletes them so that they can be updated to a new revision. Want to know more, then check out the docs of this project.
 
 **sqlservertools**
 
-[sqlservertools](https://aws-oss.beachgeek.co.uk/22p) this tool, the RDS Discovery Tool, is a lightweight ,it provides a capability to scan a fleet of on-prem SQl Servers and does automated checks for 20+features , validates supportability of the enabled features on RDS, and generates a report which provides recommendation to migrate to RDS, RDS Custom or EC2 compatible.
+[sqlservertools](https://github.com/aws-samples/sqlservertools) this tool, the RDS Discovery Tool, is a lightweight ,it provides a capability to scan a fleet of on-prem SQl Servers and does automated checks for 20+features , validates supportability of the enabled features on RDS, and generates a report which provides recommendation to migrate to RDS, RDS Custom or EC2 compatible.
 
 ### Demos, Samples, Solutions and Workshops
 
 **aws-cdk-golden-ami-pipeline**
 
-[aws-cdk-golden-ami-pipeline](https://aws-oss.beachgeek.co.uk/22m) this repo (Golden Amazon Machine Image  pipeline) enables creation, distribution, verification, launch-compliance of the AMI and creates a continuous and repeatable process for the consumers to generate the golden AMI. 
+[aws-cdk-golden-ami-pipeline](https://github.com/aws-samples/aws-cdk-golden-ami-pipeline) this repo (Golden Amazon Machine Image  pipeline) enables creation, distribution, verification, launch-compliance of the AMI and creates a continuous and repeatable process for the consumers to generate the golden AMI. 
 
 ![architecture of cdk golden ami pipeline](https://github.com/aws-samples/aws-cdk-golden-ami-pipeline/blob/main/images/Golden_AMI_v2.png?raw=true)
 
 **amazon-eks-argo-rollouts**
 
-[amazon-eks-argo-rollouts](https://aws-oss.beachgeek.co.uk/22k) this repo contains all the code and sample you need to set up an Amazon EKS cluster and Argo to enable progressive delivery of your code. It uses Terraform to provision everything, so if you are looking to explore this why not start here.
+[amazon-eks-argo-rollouts](https://github.com/aws-samples/amazon-eks-argo-rollouts) this repo contains all the code and sample you need to set up an Amazon EKS cluster and Argo to enable progressive delivery of your code. It uses Terraform to provision everything, so if you are looking to explore this why not start here.
 
 **ai-powered-text-insights**
 
-[ai-powered-text-insights](https://aws-oss.beachgeek.co.uk/22n) this repo contains code that enables you to build a prototype to help you gain insights on how your customers interact with your brand in social media. By combining zero-shot text classification, sentiment analysis, and keyword extraction we are able to obtain real time insights from posts on Twitter and present them in a dashboard.
+[ai-powered-text-insights](https://github.com/aws-samples/ai-powered-text-insights) this repo contains code that enables you to build a prototype to help you gain insights on how your customers interact with your brand in social media. By combining zero-shot text classification, sentiment analysis, and keyword extraction we are able to obtain real time insights from posts on Twitter and present them in a dashboard.
 
 ![architecture for AI powered insights](https://github.com/aws-samples/ai-powered-text-insights/blob/main/architecture.png?raw=true)
 
@@ -80,15 +80,15 @@ So thank you to the following open source heroes: Guillaume Égée, Imtranur Rah
 
 **AWS SDK for pandas**
 
-In the post [ML on AWS : Read from your favorite AWS Data Sources to a Pandas DataFrame using AWS Data Wrangler](https://aws-oss.beachgeek.co.uk/22j), Chouaieb Nemri provides a nice primer into this open source project (that was recently renamed from AWS DataWrangler) and shows you how you can install this project and then get started with some simple examples.
+In the post [ML on AWS : Read from your favorite AWS Data Sources to a Pandas DataFrame using AWS Data Wrangler](https://c-nemri.medium.com/ml-on-aws-read-from-your-favorite-aws-data-sources-to-a-pandas-dataframe-using-aws-data-wrangler-611043769a45), Chouaieb Nemri provides a nice primer into this open source project (that was recently renamed from AWS DataWrangler) and shows you how you can install this project and then get started with some simple examples.
 
 **AWS CDK**
 
-Borislav Hadzhiev has put together a really great post for those wanting to scratch beneath the AWS CDK surface and find out more about Identifiers in AWS CDK. Read his post, [What is an identifier (id) in AWS CDK - Complete Guide](https://aws-oss.beachgeek.co.uk/22i) and explore what these are, how they are assigned and more. Great stuff.
+Borislav Hadzhiev has put together a really great post for those wanting to scratch beneath the AWS CDK surface and find out more about Identifiers in AWS CDK. Read his post, [What is an identifier (id) in AWS CDK - Complete Guide](https://bobbyhadz.com/blog/aws-cdk-identifiers) and explore what these are, how they are assigned and more. Great stuff.
 
 **Kyverno and Cosign**
 
-Supply chain security is a very hot topic, and so I was delighted to read this post from Imtranur Rahman. In this weeks must read post, [Supply Chain Security on Amazon Elastic Kubernetes Service (Amazon EKS) using AWS Key Management Service (AWS KMS), Kyverno, and Cosign](https://aws-oss.beachgeek.co.uk/224), Imtranur demonstrate how you can implement supply chain security using open source tools on Amazon Elastic Kubernetes Service (Amazon EKS) with AWS Key Management Service (AWS KMS) and Cosign with Kyverno.
+Supply chain security is a very hot topic, and so I was delighted to read this post from Imtranur Rahman. In this weeks must read post, [Supply Chain Security on Amazon Elastic Kubernetes Service (Amazon EKS) using AWS Key Management Service (AWS KMS), Kyverno, and Cosign](https://aws.amazon.com/blogs/opensource/supply-chain-security-on-amazon-elastic-kubernetes-service-amazon-eks-using-aws-key-management-service-aws-kms-kyverno-and-cosign/), Imtranur demonstrate how you can implement supply chain security using open source tools on Amazon Elastic Kubernetes Service (Amazon EKS) with AWS Key Management Service (AWS KMS) and Cosign with Kyverno.
 
 ![architecture overview for kyverno and cosign](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/09/16/architecture-diagram-Kyverno-1024x610.png)
 
@@ -96,38 +96,38 @@ Supply chain security is a very hot topic, and so I was delighted to read this p
 
 Open Policy Agent (OPA, pronounced “oh-pa”) is an open source, general-purpose policy engine that unifies policy enforcement across your stack. OPA provides a high-level declarative language that lets you specify policy as code and simple APIs to offload policy decision-making from your software. You can use OPA to enforce policies in micro-services, Kubernetes, CI/CD pipelines, API gateways, and more.
 
-In the blog post, [Unified authorization for AWS with Styra Declarative Authorization Service: EKS Edition](https://aws-oss.beachgeek.co.uk/229), Kurt Roekle (a Solutions Architect at Styra) shows you how to enforce EKS guardrails using OPA and also outlines how to enable true and consistent authorisation at scale across your AWS deployments. [hands on]
+In the blog post, [Unified authorization for AWS with Styra Declarative Authorization Service: EKS Edition](https://aws.amazon.com/blogs/awsmarketplace/unified-authorization-aws-styra-declarative-authorization-service-eks-edition/), Kurt Roekle (a Solutions Architect at Styra) shows you how to enforce EKS guardrails using OPA and also outlines how to enable true and consistent authorisation at scale across your AWS deployments. [hands on]
 
 ![architecture overview of opa post](https://d2908q01vomqb2.cloudfront.net/761f22b2c1593d0bb87e0b606f990ba4974706de/2022/09/15/Styra1.png)
 
 **Kubecost**
 
-Kubecost is based on the open source project, OpenCost. It is a vendor-neutral open source project for measuring and allocating infrastructure and container costs in real time. In the post [Integrating Kubecost with Amazon Managed Service for Prometheus](https://aws-oss.beachgeek.co.uk/22t) Linh Lam, Mike George and Abhi Khanna that shows you how you can deploy this within your Amazon EKS clusters, integrating with Prometheus. [hands on]
+Kubecost is based on the open source project, OpenCost. It is a vendor-neutral open source project for measuring and allocating infrastructure and container costs in real time. In the post [Integrating Kubecost with Amazon Managed Service for Prometheus](https://aws.amazon.com/blogs/mt/integrating-kubecost-with-amazon-managed-service-for-prometheus/) Linh Lam, Mike George and Abhi Khanna that shows you how you can deploy this within your Amazon EKS clusters, integrating with Prometheus. [hands on]
 
 ![dashboard of kubecost](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/09/21/couldops_1085_3.png)
 
 **Prometheus**
 
-Great post from Shane Corbett, which hooked me with its opening line. In Kubernetes, when you are setting up a Pod, you can optionally specify how much of each resource a container needs. The most common resources to specify are CPU and memory (RAM) and these are defined as limits. In [Using Prometheus to Avoid Disasters with Kubernetes CPU Limits](https://aws-oss.beachgeek.co.uk/228) explores how limits work. The post then looks at how you can figure out how to set the right values, and know which metrics for troubleshooting throttles, and turning these into Prometheus metrics. [hands on]
+Great post from Shane Corbett, which hooked me with its opening line. In Kubernetes, when you are setting up a Pod, you can optionally specify how much of each resource a container needs. The most common resources to specify are CPU and memory (RAM) and these are defined as limits. In [Using Prometheus to Avoid Disasters with Kubernetes CPU Limits](https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits/) explores how limits work. The post then looks at how you can figure out how to set the right values, and know which metrics for troubleshooting throttles, and turning these into Prometheus metrics. [hands on]
 
 ![illustration of prometheus limit](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/09/21/avoid-12.jpg)
 
 **Apache Airflow**
 
-It is always interesting to hear from and learn how companies are using and implementing Apache Airflow. In the post, [How ZS created a multi-tenant self-service data orchestration platform using Amazon MWAA](https://aws-oss.beachgeek.co.uk/22a), learn how ZS (a management consulting and technology firm) created a multi-tenant self-service data orchestration platform using Amazon Managed Workflows for Apache Airflow (MWAA).
+It is always interesting to hear from and learn how companies are using and implementing Apache Airflow. In the post, [How ZS created a multi-tenant self-service data orchestration platform using Amazon MWAA](https://aws.amazon.com/blogs/big-data/how-zs-created-a-multi-tenant-self-service-data-orchestration-platform-using-amazon-mwaa/), learn how ZS (a management consulting and technology firm) created a multi-tenant self-service data orchestration platform using Amazon Managed Workflows for Apache Airflow (MWAA).
 
 ![screen shot of data hub solution](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/08/24/BDB-2517-image006.png)
 
 **Amazon EMR**
 
-In the post, [Design considerations for Amazon EMR on EKS in a multi-tenant Amazon EKS environment](https://aws-oss.beachgeek.co.uk/226), Lotfi Mouhib and Ajeeb Peter show how to configure and run EMR on EKS in a multi-tenant EKS cluster that can used by your various teams. They tackle multi-tenancy through four topics: network, resource management, cost management, and security. [hands on]
+In the post, [Design considerations for Amazon EMR on EKS in a multi-tenant Amazon EKS environment](https://aws.amazon.com/blogs/big-data/design-considerations-for-amazon-emr-on-eks-in-a-multi-tenant-amazon-eks-environment/), Lotfi Mouhib and Ajeeb Peter show how to configure and run EMR on EKS in a multi-tenant EKS cluster that can used by your various teams. They tackle multi-tenancy through four topics: network, resource management, cost management, and security. [hands on]
 
 ![illustration of multi tenancy for Amazon EMR ](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/09/15/Diagram-%E2%80%93-4.png)
 
 **Other posts you might like from the past week**
 
-* [Amazon SageMaker Autopilot is up to eight times faster with new ensemble training mode powered by AutoGluon](https://aws-oss.beachgeek.co.uk/227) looks at optimising model training when using AutoGluon-Tabular (AGT), a popular open-source AutoML framework that trains highly accurate ML models on tabular datasets [hands on]
-* [Deploy your Amazon EKS Clusters Locally on AWS Outposts](https://aws-oss.beachgeek.co.uk/22b) dives deeper into the announcement this week of Amazon EKS local clusters [hands on]
+* [Amazon SageMaker Autopilot is up to eight times faster with new ensemble training mode powered by AutoGluon](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-autopilot-is-up-to-eight-times-faster-with-new-ensemble-training-mode-powered-by-autogluon/) looks at optimising model training when using AutoGluon-Tabular (AGT), a popular open-source AutoML framework that trains highly accurate ML models on tabular datasets [hands on]
+* [Deploy your Amazon EKS Clusters Locally on AWS Outposts](https://aws.amazon.com/blogs/aws/deploy-your-amazon-eks-clusters-locally-on-aws-outposts/) dives deeper into the announcement this week of Amazon EKS local clusters [hands on]
 
 ### AWS Community Builders
 
@@ -135,15 +135,15 @@ This week we feature some great content form the AWS Community, specifically fro
 
 **AWS SAM**
 
-AWS Community Builder Aravind V has been putting together a series of posts on using AWS CDK (make sure you check them out). I managed to read a couple of the most recent. First up we have,  [AWS CDK 101 - 🦋 SAM local to test and debug lambda function](https://aws-oss.beachgeek.co.uk/22c) where he shows you setting up local integration testing of the AWS Lambda functions using AWS SAM.
+AWS Community Builder Aravind V has been putting together a series of posts on using AWS CDK (make sure you check them out). I managed to read a couple of the most recent. First up we have,  [AWS CDK 101 - 🦋 SAM local to test and debug lambda function](https://dev.to/aws-builders/aws-cdk-101-sam-local-to-test-and-debug-lambda-function-1afj) where he shows you setting up local integration testing of the AWS Lambda functions using AWS SAM.
 
 ![architecture of solution for SAM Local testing](https://res.cloudinary.com/practicaldev/image/fetch/s--iedv-ung--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/msrbf94oefdrnu29a5db.jpeg)
 
-Following that he put together, [AWS CDK 101 - 💫 Dynamodb Local setup and integrating with sam invoke](https://aws-oss.beachgeek.co.uk/22d), that uses Dynamodb local together with AWS SAM invoke, to include testing of Amazon DynamoDB.
+Following that he put together, [AWS CDK 101 - 💫 Dynamodb Local setup and integrating with sam invoke](https://dev.to/aws-builders/aws-cdk-101-dynamodb-local-setup-and-integrating-with-sam-invoke-527f), that uses Dynamodb local together with AWS SAM invoke, to include testing of Amazon DynamoDB.
 
 **Terragrunt**
 
-[Terragrunt](https://aws-oss.beachgeek.co.uk/22e) is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules. AWS Community Builder Pekka Malmirae has put together this post, [Mastering AWS deployments with Terragrunt](https://aws-oss.beachgeek.co.uk/22f) where he shares more details about what Terragrunt is and how you can use it to up your Terraform game. As someone still coming up to speed with Terraform, I found this post super valuable.
+[Terragrunt](https://github.com/gruntwork-io/terragrunt) is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules. AWS Community Builder Pekka Malmirae has put together this post, [Mastering AWS deployments with Terragrunt](https://dev.to/aws-builders/mastering-aws-deployments-with-terragrunt-45pj) where he shares more details about what Terragrunt is and how you can use it to up your Terraform game. As someone still coming up to speed with Terraform, I found this post super valuable.
 
 ![overview of terragrunt](https://res.cloudinary.com/practicaldev/image/fetch/s--3DM0GHCB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7b6eypdt23ekffbiop1m.jpg)
 
@@ -157,11 +157,11 @@ Highlights of OpenJDK 19 include previews of Record Patterns, a new Foreign Func
 
 There is a new incubating feature for Structured Concurrency. Plus, you will get updates to the Pattern Matching for switch statements preview feature and to the incubating Vector API. Structured Concurrency will streamline error handling and cancellation, improve reliability, and enhance observability by treating multiple tasks running in different threads as a single unit of work.
 
-Read more about this, including links to the download page and more detailed highlights at [Amazon Corretto 19 is now generally available](https://aws-oss.beachgeek.co.uk/225) 
+Read more about this, including links to the download page and more detailed highlights at [Amazon Corretto 19 is now generally available](https://aws.amazon.com/about-aws/whats-new/2022/09/amazon-corretto-19-available/) 
 
 **AWS CDK**
 
-The latest update to AWS CDK 2.42.0 is now generally available. Check out some highlights from the [release notes](https://aws-oss.beachgeek.co.uk/222):
+The latest update to AWS CDK 2.42.0 is now generally available. Check out some highlights from the [release notes](https://github.com/aws/aws-cdk/releases/tag/v2.42.0):
 
 * cfnspec: cloudformation spec v88.0.0
 * cognito: add SAML user pool identity provider
@@ -215,14 +215,14 @@ If you love Java and AWS, then make sure you check out this free, online event. 
 
 They are going to cover topics such as Java 17 and 19, developer experiences, GraalVM, PowerTools for Java and much more.
 
-Check out the [registration page](https://aws-oss.beachgeek.co.uk/22s) and save your place.
+Check out the [registration page](https://www.meetup.com/awsugbelgrade/events/288643876/) and save your place.
 
 **ApacheCon North America 2022**
 **October 3-6, New Orleans**
 
 ApacheCon is the official open source software convention of the Apache Software Foundation (ASF), focused on the software projects hosted at the ASF. With over 160 sessions covering all your favourite Apache open source projects and more, 
 
-[Check out the ApacheCon registration page](https://aws-oss.beachgeek.co.uk/221) for more details, including the sessions and keynotes.
+[Check out the ApacheCon registration page](https://www.apachecon.com/acna2022/) for more details, including the sessions and keynotes.
 
 **Jumpstart your Java applications with AWS Lambda and Micronaut**
 **October 5th**
@@ -234,7 +234,7 @@ Don't miss the opportunity to attend this event if you are in or around London. 
 * How to deploy a Micronaut application as a GraalVM native image to AWS Lambda Java runtime or to a custom runtime
 * How leveraging certain characteristics of Micronaut applications, including fast startup, low memory consumption, and GraalVM integration, can help you work around cold startups in AWS Lambda.
 
-Check out and register while there are places available [at the link here](https://aws-oss.beachgeek.co.uk/223).
+Check out and register while there are places available [at the link here](https://jumpstartyourjavaapplicationsw.splashthat.com/).
 
 
 **Build on AWS Open Source**
@@ -248,7 +248,7 @@ Join us for the third episode of the Build on AWS series, featuring a live round
 
 This promises to be a great meet-up and essential attendance if you are into infrastructure as code. AWS Hero Anton Babenko hosts this event, sponsored by Qovery.
 
-Read more and register for this event by heading over to [their meet-up page](https://aws-oss.beachgeek.co.uk/220).
+Read more and register for this event by heading over to [their meet-up page](https://www.meetup.com/hashicorp-user-group-paris/events/288524608/).
 
 
 **OpenSearch**
@@ -256,7 +256,7 @@ Read more and register for this event by heading over to [their meet-up page](ht
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

@@ -8,7 +8,7 @@ tags : [ aws open source, Keycloak, CDK, Cloudformation, SAML2.0, AWS Identity C
 
 > "It was the best of times, it was the worst of times..." A Tale of Two Cities
 
-It started out innocently enough. As part of working on a new blog post, I needed a way to use an open source tool called [saml2aws](https://aws-oss.beachgeek.co.uk/2uv) that generates AWS short lived credentials that you can use to access your AWS resources. This is a pretty common pattern, and a good practice to do and for many organisations this means they integrate with their "user directory" - sometimes this might be something like Active Directory, or an LDAP server. AWS IAM Identity Centre (which is the new name for AWS Single Sign-On) allows you to integrate those identity providers into your AWS Account, allowing your users to authenticate against that user directory and then get access to AWS resources. 
+It started out innocently enough. As part of working on a new blog post, I needed a way to use an open source tool called [saml2aws](https://github.com/Versent/saml2aws) that generates AWS short lived credentials that you can use to access your AWS resources. This is a pretty common pattern, and a good practice to do and for many organisations this means they integrate with their "user directory" - sometimes this might be something like Active Directory, or an LDAP server. AWS IAM Identity Centre (which is the new name for AWS Single Sign-On) allows you to integrate those identity providers into your AWS Account, allowing your users to authenticate against that user directory and then get access to AWS resources. 
 
 So I needed to set up an Identity Provider (IdP), and decided to use an open source Identity and Access Management solution called Keycloak rather than the usual suspects of Active Directory or something like Auth0. What I thought would be a simple deployment ended up being less than straightforward. This post outlines how you can get your own Keycloak IAM service up and running on AWS.
 
@@ -22,7 +22,7 @@ In this post I will share how you can get both the older versions of Keycloak (v
 * An available VPC in the region you will be deploying Keycloak
 * The AWS cli (I am using version aws-cli/2.7.7 Python/3.9.11 Darwin/21.6.0 exe/x86_64 prompt/off) as well as AWS CDKv2 (I am running 2.82.0 (build 3a8648a))
 * A domain that you have that allows you to create public certificates (I have a domain called ricsue.dev that is managed by Route53)
-* Code resources used within the post,  located at [keycloak-aws](https://aws-oss.beachgeek.co.uk/2v1)
+* Code resources used within the post,  located at [keycloak-aws](https://github.com/094459/keycloak-aws)
 
 I checked how much it cost to run this on my AWS bill for 24 hours, and it was less than £10.
 
@@ -57,10 +57,10 @@ So with our certificate created, we are now ready to go.
 
 There are a number of ways you can deploy Keycloak into your AWS account. I did not want to do this manually, so I wanted to see what options I had when it came to automating the deployment. I found a few options that were open to me based on which ever infrastructure as code tooling I preferred.
 
-* Using CDK via the [cdk-keycloak](https://aws-oss.beachgeek.co.uk/2uw) construct
-* Using CDK via the [ecs-keycloak](https://aws-oss.beachgeek.co.uk/2ux) construct
-* Using Terraform via a number of different third party modules such as [terraform-keycloak-aws](https://aws-oss.beachgeek.co.uk/2uy) or [ecs-keycloak](https://aws-oss.beachgeek.co.uk/2uz)
-* Using CloudFormation via this deployment guide, [keycloak-on-aws](https://aws-oss.beachgeek.co.uk/2v0)
+* Using CDK via the [cdk-keycloak](https://constructs.dev/packages/cdk-keycloak/v/2.7.1?lang=python) construct
+* Using CDK via the [ecs-keycloak](https://constructs.dev/packages/@wheatstalk/cdk-ecs-keycloak/v/0.2.2?lang=typescript) construct
+* Using Terraform via a number of different third party modules such as [terraform-keycloak-aws](https://github.com/deadlysyn/terraform-keycloak-aws) or [ecs-keycloak](https://git.catalyst-eu.net/terraform-modules/ecs-keycloak)
+* Using CloudFormation via this deployment guide, [keycloak-on-aws](https://aws-samples.github.io/keycloak-on-aws/en/implementation-guide/deployment/)
 
 Exploring and trying these different options out made me realised something important, and something that I think will save you a lot of time and frustration. Many of the resources above help you deploy older versions of Keycloak, and do not work for the latest versions. So in this part of the blog, I have split it out into two parts: how you can install the older (v16) versions of Keycloak, and how you can install the later versions (v17 on newer).
 
@@ -68,7 +68,7 @@ Exploring and trying these different options out made me realised something impo
 
 **Keycloak version v16 or older**
 
-As you can see from the list above, I had a few options to get my Keycloak v16.1 server up and running. After going through the documentation of each, and looking at how much work/effort was required for each, and finally trying a few out, I ended up settling for the CloudFormation solution. You will find the template I used in the [GitHub repo](https://aws-oss.beachgeek.co.uk/2vs) in the cf folder. The file is called "keycloak-aurora-serverless-from-new-vpc.template" which is the template I used, and is slightly modified from the origin repo of the resources I shared above. You can see what it will deploy by [checking out the documentation here](https://aws-oss.beachgeek.co.uk/2v0)
+As you can see from the list above, I had a few options to get my Keycloak v16.1 server up and running. After going through the documentation of each, and looking at how much work/effort was required for each, and finally trying a few out, I ended up settling for the CloudFormation solution. You will find the template I used in the [GitHub repo](https://github.com/094459/keycloak-aws/tree/main/cf) in the cf folder. The file is called "keycloak-aurora-serverless-from-new-vpc.template" which is the template I used, and is slightly modified from the origin repo of the resources I shared above. You can see what it will deploy by [checking out the documentation here](https://aws-samples.github.io/keycloak-on-aws/en/implementation-guide/deployment/)
 
 ![overview of keycloak architecture using cloudformation](https://aws-samples.github.io/keycloak-on-aws/en/images/architecture/01-keycloak-on-aws-architecture.png)
 
@@ -160,9 +160,9 @@ The command will not generate any output, and you will need to go to the AWS Clo
 
 **Keycloak version v21**
 
-So I kind of left the details of how to deploy older versions of Keycloak for reference in case anyone finds themselves needing to do that. For most installations however,  you will most likely want to deploy newer (newest) versions of Keycloak. This is where I ran into a spot of bother, and spent three days trying to figure out how to do this. The approaches outlined above just didn't work, and I spent a lot of time trying to troubleshoot and find a solution. In the end, it was down to a bit of luck and the excellence of [Alexander Widera](https://aws-oss.beachgeek.co.uk/2vr) that I got something working.
+So I kind of left the details of how to deploy older versions of Keycloak for reference in case anyone finds themselves needing to do that. For most installations however,  you will most likely want to deploy newer (newest) versions of Keycloak. This is where I ran into a spot of bother, and spent three days trying to figure out how to do this. The approaches outlined above just didn't work, and I spent a lot of time trying to troubleshoot and find a solution. In the end, it was down to a bit of luck and the excellence of [Alexander Widera](https://github.com/wiedsche) that I got something working.
 
-In the end what worked was using the [CDKv2 construct](https://aws-oss.beachgeek.co.uk/2uw) with a bit of tweaking which I will go through now. Again, all the code is in the[ GitHub repo](https://aws-oss.beachgeek.co.uk/2v1). We still need the ACM certificate, so that has not changed. However, what we need to do to get this working is create a customer Keycloak container image that provides some additional configuration values that are critical to getting Keycloak to work, and provide some additional Java library files that Keycloak needs which are also missing.
+In the end what worked was using the [CDKv2 construct](https://constructs.dev/packages/cdk-keycloak/v/2.7.1?lang=python) with a bit of tweaking which I will go through now. Again, all the code is in the[ GitHub repo](https://github.com/094459/keycloak-aws). We still need the ACM certificate, so that has not changed. However, what we need to do to get this working is create a customer Keycloak container image that provides some additional configuration values that are critical to getting Keycloak to work, and provide some additional Java library files that Keycloak needs which are also missing.
 
 *Building our custom Keycloak container image*
 
@@ -198,7 +198,7 @@ Once you have downloaded the jar files into the providers folder, it should look
 │       └── joda-time-2.12.2.jar
 ├── requirements.txt
 ```
-Finally, you should review the Docker file and make sure it fits your needs (for example, the version of Keycloak you want to use - in the example in the rep, I am using v21.1.1 but you can get [newer versions by tracking the images](https://aws-oss.beachgeek.co.uk/2vt) on the Keycloak documentation)
+Finally, you should review the Docker file and make sure it fits your needs (for example, the version of Keycloak you want to use - in the example in the rep, I am using v21.1.1 but you can get [newer versions by tracking the images](https://quay.io/repository/keycloak/keycloak?tab=tags&tag=latest) on the Keycloak documentation)
 
 ```
 FROM quay.io/keycloak/keycloak:21.1.1 as builder

@@ -10,7 +10,7 @@ tags : [ oss-newsletter, aws open source, MySQL, PostgreSQL, Next.js, AWS SDK fo
 
 **Welcome**
 
-Happy New Year and welcome to the first AWS open source newsletter of 2023, edition #140. If you have not already checked it out, I put together a short retrospective summary of 2022 in the post, [AWS open source newsletter - 2022 in review](https://aws-oss.beachgeek.co.uk/2dt). There are some interesting facts and figures in there. I am also taking time to collect feedback from readers to help shape where this newsletter goes in 2023. What do you want me to cover? What should I change?  What is working well for you? Interesting in all your feedback so that I can make sure that you continue to enjoy (I hope) reading this newsletter.
+Happy New Year and welcome to the first AWS open source newsletter of 2023, edition #140. If you have not already checked it out, I put together a short retrospective summary of 2022 in the post, [AWS open source newsletter - 2022 in review](https://dev.to/aws/aws-open-source-newsletter-2022-in-review-5dhp). There are some interesting facts and figures in there. I am also taking time to collect feedback from readers to help shape where this newsletter goes in 2023. What do you want me to cover? What should I change?  What is working well for you? Interesting in all your feedback so that I can make sure that you continue to enjoy (I hope) reading this newsletter.
 
 With there being several weeks since the last newsletter, there is no surprise that we have a bumper selection of great new projects for you this week. Kicking things off with "cloudwatch-dashboard-builder" a nice GUI to help you build your CloudWatch dashboards, "sfn-workflow-studio-sync" a great developer productivity tool for those building Step Functions, "renate" a Python library for automatic model re-training, "graph-explorer" a React-based web application to visualise graph data, "aws-mainframe-modernization-carddemo" go retro mainframe with this sample app, "csharp-code-converter-for-postgres" helps you modernise your .NET applications by moving to open source databases, "aws-terraform-dev-container" a must check out project if you use Terraform, and many more projects. If you have a project you want me to feature in this newsletter, please get in touch.
 
@@ -32,25 +32,25 @@ So thank you to the following open source heroes: Ivica Kolenkaš, Lars Jacobsso
 
 **cloudwatch-dashboard-builder**
 
-[cloudwatch-dashboard-builder](https://aws-oss.beachgeek.co.uk/2ei) is the latest tool from AWS Community Builder Harinder Seera that provides a graphical user interface (Windows only, but maybe someone out there can build a Linux GUI from the source) that helps you build CloudWatch Dashboards from CloudWatch metrics. Check out the repo from plenty of screenshots and a short video of how this works. Harinder has also thoughtfully put together a three part blog post that dives deep into how to use this tool, so make sure you read [AWS CloudWatch Dashboard Builder - Tool For SRE, Performance Engineers and DevOps](https://aws-oss.beachgeek.co.uk/2ej)
+[cloudwatch-dashboard-builder](https://github.com/hseera/cloudwatch-dashboard-builder) is the latest tool from AWS Community Builder Harinder Seera that provides a graphical user interface (Windows only, but maybe someone out there can build a Linux GUI from the source) that helps you build CloudWatch Dashboards from CloudWatch metrics. Check out the repo from plenty of screenshots and a short video of how this works. Harinder has also thoughtfully put together a three part blog post that dives deep into how to use this tool, so make sure you read [AWS CloudWatch Dashboard Builder - Tool For SRE, Performance Engineers and DevOps](https://dev.to/aws-builders/aws-cloudwatch-dashboard-builder-tool-for-sre-performance-engineers-and-devops-29bi)
 
 ![screenshot of cloudwatch-dashboard builder](https://raw.githubusercontent.com/hseera/cloudwatch-dashboard-builder/main/images/cloudwatch-dashboard.png)
 
 **sfn-workflow-studio-sync**
 
-[sfn-workflow-studio-sync](https://aws-oss.beachgeek.co.uk/2el) is another great tool from AWS Community Builder Lars Jacobsson, that enables real-time sync between StepFunctions Workflow Studio and your local machine. This extension uses the File System Access API to give Chrome temporary access to a single file on your filesystem, so make sure you check your browser compatibility (link in the repo)
+[sfn-workflow-studio-sync](https://github.com/ljacobsson/sfn-workflow-studio-sync) is another great tool from AWS Community Builder Lars Jacobsson, that enables real-time sync between StepFunctions Workflow Studio and your local machine. This extension uses the File System Access API to give Chrome temporary access to a single file on your filesystem, so make sure you check your browser compatibility (link in the repo)
 
 ![demo of sfn-workflow-studio-sync](https://github.com/ljacobsson/sfn-workflow-studio-sync/blob/main/images/demo.gif?raw=true)
 
 **renate**
 
-[renate](https://aws-oss.beachgeek.co.uk/2eh) is an open-source Python library for automatic model re-training. The library implements continual learning algorithms to train deep neural networks incrementally when new data becomes available. Applications of machine learning require updating models as new batches of data become available. Repeatedly re-training deep neural network models from scratch is costly and fine-tuning them with the new data only will lead to a phenomenon called “catastrophic forgetting”. This means that the model will have good performance on the most recent data, but the performance will degrade on the older data. Renate provides algorithms that alleviate the problem of catastrophic forgetting and helps to automate the re-training process. With Renate, users run small scale continual learning experiments on their local machine or run large continual learning jobs using Amazon SageMaker. Renate also supports state-of-the-art hyper-parameters tuning out-of-the-box, thanks to the integrations with SyneTune.
+[renate](https://github.com/awslabs/renate) is an open-source Python library for automatic model re-training. The library implements continual learning algorithms to train deep neural networks incrementally when new data becomes available. Applications of machine learning require updating models as new batches of data become available. Repeatedly re-training deep neural network models from scratch is costly and fine-tuning them with the new data only will lead to a phenomenon called “catastrophic forgetting”. This means that the model will have good performance on the most recent data, but the performance will degrade on the older data. Renate provides algorithms that alleviate the problem of catastrophic forgetting and helps to automate the re-training process. With Renate, users run small scale continual learning experiments on their local machine or run large continual learning jobs using Amazon SageMaker. Renate also supports state-of-the-art hyper-parameters tuning out-of-the-box, thanks to the integrations with SyneTune.
 
 ![example graph of improvements](https://raw.githubusercontent.com/awslabs/Renate/main/doc/_images/improvement_renate.svg)
 
 **graph-explorer**
 
-[graph-explorer](https://aws-oss.beachgeek.co.uk/2eg) The graph-explorer open source tool provides a React-based web application that can be deployed as a Docker image to visualise graph data. You can connect to Amazon Neptune or another graph database that provides an Apache TinkerPop Gremlin or SPARQL 1.1 endpoint. You can search the data quickly using faceted search filters and interactively explore connections around nodes and edges. You can also customise the graph layout, colours, icons, and default properties to display for nodes and edges, and save images for future use.
+[graph-explorer](https://github.com/aws/graph-explorer) The graph-explorer open source tool provides a React-based web application that can be deployed as a Docker image to visualise graph data. You can connect to Amazon Neptune or another graph database that provides an Apache TinkerPop Gremlin or SPARQL 1.1 endpoint. You can search the data quickly using faceted search filters and interactively explore connections around nodes and edges. You can also customise the graph layout, colours, icons, and default properties to display for nodes and edges, and save images for future use.
 
 ![demo of graph-explorer screenshot](https://github.com/aws/graph-explorer/blob/main/images/LPGIMDb.png?raw=true)
 
@@ -58,11 +58,11 @@ To get started, build the graph-explorer Docker image and run it on a local mach
 
 **csharp-code-converter-for-postgres**
 
-[csharp-code-converter-for-postgres](https://aws-oss.beachgeek.co.uk/2em) is a useful tool for those looking to move to open source databases and provides a Visual Studio extension which helps migrating the Microsoft C# ADO.NET code that is connected to Microsoft SQL Server to PostgreSQL database.
+[csharp-code-converter-for-postgres](https://github.com/aws-samples/csharp-code-converter-for-postgres) is a useful tool for those looking to move to open source databases and provides a Visual Studio extension which helps migrating the Microsoft C# ADO.NET code that is connected to Microsoft SQL Server to PostgreSQL database.
 
 **aws-terraform-dev-container**
 
-[aws-terraform-dev-container](https://aws-oss.beachgeek.co.uk/2en) is a VSCode Dev Container with tools to help you build and manage AWS infrastructure with Terraform. Check out the documentation and sample screenshots, if you are using Terraform then this might be a great way to ensure consistency within your teams.
+[aws-terraform-dev-container](https://github.com/awslabs/aws-terraform-dev-container) is a VSCode Dev Container with tools to help you build and manage AWS infrastructure with Terraform. Check out the documentation and sample screenshots, if you are using Terraform then this might be a great way to ensure consistency within your teams.
 
 ![screenshot of aws terraform dev container](https://github.com/awslabs/aws-terraform-dev-container/blob/main/doc/images/screenshot-3.gif?raw=true)
 
@@ -70,12 +70,12 @@ To get started, build the graph-explorer Docker image and run it on a local mach
 
 **lambda-rust-and-cdk**
 
-[lambda-rust-and-cdk](https://aws-oss.beachgeek.co.uk/2ek) is a proof of concept project from my colleague Danilo that uses AWS CDK to provision two AWS Lambda functions developed in Rust.
+[lambda-rust-and-cdk](https://github.com/danilop/lambda-rust-and-cdk) is a proof of concept project from my colleague Danilo that uses AWS CDK to provision two AWS Lambda functions developed in Rust.
 
 
 **aws-mainframe-modernization-carddemo**
 
-[aws-mainframe-modernization-carddemo](https://aws-oss.beachgeek.co.uk/209) is a Mainframe application designed and developed to test and showcase AWS and partner technology for mainframe migration and modernisation use-cases such as discovery, migration, modernisation, performance test, augmentation, service enablement, service extraction, test creation, test harness, etc. Check out the supporting blog post, [Introducing Open Source AWS CardDemo for Mainframe Modernization](https://aws-oss.beachgeek.co.uk/2eb) where Sanjay Rao, Abhijit Kshirsagar, and Arunkumar Selvam describe the functions, the technical components and the structure of the CardDemo application before showing how to install the application on a mainframe.
+[aws-mainframe-modernization-carddemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo) is a Mainframe application designed and developed to test and showcase AWS and partner technology for mainframe migration and modernisation use-cases such as discovery, migration, modernisation, performance test, augmentation, service enablement, service extraction, test creation, test harness, etc. Check out the supporting blog post, [Introducing Open Source AWS CardDemo for Mainframe Modernization](https://aws.amazon.com/blogs/opensource/introducing-open-source-aws-carddemo-for-mainframe-modernization/) where Sanjay Rao, Abhijit Kshirsagar, and Arunkumar Selvam describe the functions, the technical components and the structure of the CardDemo application before showing how to install the application on a mainframe.
 
 ![sample architecture for carddemo mainframe](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/12/13/CardDemo-architecture-diagram.png)
 
@@ -83,70 +83,70 @@ To get started, build the graph-explorer Docker image and run it on a local mach
 
 **Apache Airflow**
 
-In 2022 I did a number of talks around how to orchestrate hybrid workflows, using a combination of Apache Airflow and AWS services such as AWS ECS Anywhere. I first met Ivica Kolenkaš during PyCon Italia, and he got in touch to say that he has put together this post, [Solving data governance with Airflow and AWS ECS Anywhere](https://aws-oss.beachgeek.co.uk/2ep), which I cannot recommend highly enough. Much like the original idea behind my talk, this dives deep into one aspect of this (Governance/Compliance) and provides a rich, hands on example of how you can use the power of AWS ECS Anywhere and Apache Airflow as the orchestrator to solve this tricky problem. Very nice.
+In 2022 I did a number of talks around how to orchestrate hybrid workflows, using a combination of Apache Airflow and AWS services such as AWS ECS Anywhere. I first met Ivica Kolenkaš during PyCon Italia, and he got in touch to say that he has put together this post, [Solving data governance with Airflow and AWS ECS Anywhere](https://medium.com/@ivica.kolenkas/solving-data-governance-with-airflow-and-aws-ecs-anywhere-efea79b2449d), which I cannot recommend highly enough. Much like the original idea behind my talk, this dives deep into one aspect of this (Governance/Compliance) and provides a rich, hands on example of how you can use the power of AWS ECS Anywhere and Apache Airflow as the orchestrator to solve this tricky problem. Very nice.
 
 ![architecture of airflow and governance blog post](https://miro.medium.com/max/1400/1*RiXDUSl5UHKEiLwJS3xmlA.webp)
 
 **Delta Lake**
 
-Delta Lake is an open-source project that helps implement modern data lake architectures commonly built on Amazon S3 or other cloud storages. In the post, [Introducing native Delta Lake table support with AWS Glue crawlers](https://aws-oss.beachgeek.co.uk/2ee), Noritaka Sekiyama, Kyle Duong, and Sandeep Adwankar collaborate and demonstrates how AWS Glue crawlers work with native Delta Lake tables and describes typical use cases to query native Delta Lake tables. [hands on]
+Delta Lake is an open-source project that helps implement modern data lake architectures commonly built on Amazon S3 or other cloud storages. In the post, [Introducing native Delta Lake table support with AWS Glue crawlers](https://aws.amazon.com/blogs/big-data/introducing-native-delta-lake-table-support-with-aws-glue-crawlers/), Noritaka Sekiyama, Kyle Duong, and Sandeep Adwankar collaborate and demonstrates how AWS Glue crawlers work with native Delta Lake tables and describes typical use cases to query native Delta Lake tables. [hands on]
 
 ![sample screenshot of delta lake querying](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/12/14/BDB-2772-image005.jpg)
 
 **Apache Kafka**
 
-In [Analyze real-time streaming data in Amazon MSK with Amazon Athena](https://aws-oss.beachgeek.co.uk/2ed) Scott Rigney and Kiran Matty look at the recently released Athena connector for Amazon MSK. With it, you can run interactive queries on data held in Kafka topics running in MSK or self-managed Apache Kafka. [hands on]
+In [Analyze real-time streaming data in Amazon MSK with Amazon Athena](https://aws.amazon.com/blogs/big-data/analyze-real-time-streaming-data-in-amazon-msk-with-amazon-athena/) Scott Rigney and Kiran Matty look at the recently released Athena connector for Amazon MSK. With it, you can run interactive queries on data held in Kafka topics running in MSK or self-managed Apache Kafka. [hands on]
 
 ![example screenshot showing athena source of kafka](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/12/15/bdb-2934-image003.jpg)
 
 **MQTT**
 
-MQTT is a lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service. In the post, [Use AWS IoT Core MQTT broker with standard MQTT libraries](https://aws-oss.beachgeek.co.uk/2e5) Philipp Sacha shares how you can use standard MQTT libraries for different languages like Python, Node.js, or Java to interact with the AWS IoT Core message broker. [hands on]
+MQTT is a lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service. In the post, [Use AWS IoT Core MQTT broker with standard MQTT libraries](https://aws.amazon.com/blogs/iot/use-aws-iot-core-mqtt-broker-with-standard-mqtt-libraries/) Philipp Sacha shares how you can use standard MQTT libraries for different languages like Python, Node.js, or Java to interact with the AWS IoT Core message broker. [hands on]
 
 **DAMON**
 
-Have you heard about DAMON? I have shared details about this project that originated from Amazon in earlier newsletters ([#114](https://aws-oss.beachgeek.co.uk/2e9)), but what does it do? DAMON is a data access monitoring framework subsystem for the Linux kernel. In the post, [Amazon Reflects On The Great Year For DAMON In The Linux Kernel](https://aws-oss.beachgeek.co.uk/2ea) Michael Larabel provides a quick post for those yearning to know more about this project.
+Have you heard about DAMON? I have shared details about this project that originated from Amazon in earlier newsletters ([#114](https://dev.to/aws/aws-open-source-news-and-updates-114-51ng)), but what does it do? DAMON is a data access monitoring framework subsystem for the Linux kernel. In the post, [Amazon Reflects On The Great Year For DAMON In The Linux Kernel](https://www.phoronix.com/news/DAMON-Linux-2022) Michael Larabel provides a quick post for those yearning to know more about this project.
 
 **DNS**
 
-Our own VP of Security Paul Vixie (and DNS contributor/ legend) gave a talk this autumn explaining why open source supply chain security is such a big issue. Check out the post which dives deep into this talk, [Why Bad Bugs in DNS (And Other Open Source Code) Just Won’t Go Away](https://aws-oss.beachgeek.co.uk/2e8)
+Our own VP of Security Paul Vixie (and DNS contributor/ legend) gave a talk this autumn explaining why open source supply chain security is such a big issue. Check out the post which dives deep into this talk, [Why Bad Bugs in DNS (And Other Open Source Code) Just Won’t Go Away](https://aws.amazon.com/blogs/opensource/why-bad-bugs-in-dns-and-other-open-source-code-just-wont-go-away/)
 
 **Cloud native related posts**
 
-* [Unlock the power of EC2 Graviton with GitLab CI/CD and EKS Runners](https://aws-oss.beachgeek.co.uk/2ef) is a great post on how you can quickly and easily construct multi-architecture container images with GitLab, Amazon EKS, Karpenter, and Amazon EC2, using both x86 and Graviton instance families [hands on]
+* [Unlock the power of EC2 Graviton with GitLab CI/CD and EKS Runners](https://aws.amazon.com/blogs/devops/unlock-the-power-of-ec2-graviton-with-gitlab-ci-cd-and-eks-runners/) is a great post on how you can quickly and easily construct multi-architecture container images with GitLab, Amazon EKS, Karpenter, and Amazon EC2, using both x86 and Graviton instance families [hands on]
 
 ![architecture of multi architecture pipeline](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2022/12/15/devops-2115_2.png)
 
 
-* [Blue/Green or Canary Amazon EKS clusters migration for stateless ArgoCD workloads](https://aws-oss.beachgeek.co.uk/2e2) demonstrates various strategies for upgrading clusters and provided a solution for automating the migration of stateless workloads from one cluster to another [hands on]
+* [Blue/Green or Canary Amazon EKS clusters migration for stateless ArgoCD workloads](https://aws.amazon.com/blogs/containers/blue-green-or-canary-amazon-eks-clusters-migration-for-stateless-argocd-workloads/) demonstrates various strategies for upgrading clusters and provided a solution for automating the migration of stateless workloads from one cluster to another [hands on]
 
 ![architecture of blue green solution for deployments using argocd](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/12/22/blue-green.png)
 
-* [Adding metrics and traces to your application on Amazon EKS with AWS Distro for OpenTelemetry, AWS X-Ray and Amazon CloudWatch](https://aws-oss.beachgeek.co.uk/2e0) walks you through building a sample application written in Python, the PetAdoptionsHistory micro service, to demonstrate how to add distributed tracing and metrics to your applications using OpenTelemetry Python client SDKs [hands on]
+* [Adding metrics and traces to your application on Amazon EKS with AWS Distro for OpenTelemetry, AWS X-Ray and Amazon CloudWatch](https://aws.amazon.com/blogs/mt/adding-metrics-and-traces-to-your-application-on-amazon-eks-with-aws-distro-for-opentelemetry-aws-x-ray-and-amazon-cloudwatch/) walks you through building a sample application written in Python, the PetAdoptionsHistory micro service, to demonstrate how to add distributed tracing and metrics to your applications using OpenTelemetry Python client SDKs [hands on]
 
 ![architecture of sample application](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/12/16/cloudops_1066_1.png)
 
 **Open Source database related posts**
 
-* [Upgrade Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL version 10](https://aws-oss.beachgeek.co.uk/2dy) explains the different options available to you and why you should be planning your PostgreSQL upgrade now
-* [Reduce network transfer time with connection compression in Amazon RDS for MySQL and Amazon RDS for MariaDB](https://aws-oss.beachgeek.co.uk/2dz) looks at how connection compression is helpful for certain kinds of workloads where network bandwidth is a constraint and result sets are large [hands on]
-* [Generate Excel workbooks from Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/2e1) walks you through a solution that provides a mechanism to generate Excel workbooks from your PostgreSQL databases [hands on]
+* [Upgrade Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL version 10](https://aws.amazon.com/blogs/database/upgrade-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-version-10/) explains the different options available to you and why you should be planning your PostgreSQL upgrade now
+* [Reduce network transfer time with connection compression in Amazon RDS for MySQL and Amazon RDS for MariaDB](https://aws.amazon.com/blogs/database/reduce-network-transfer-time-with-connection-compression-in-amazon-rds-for-mysql-and-amazon-rds-for-mariadb/) looks at how connection compression is helpful for certain kinds of workloads where network bandwidth is a constraint and result sets are large [hands on]
+* [Generate Excel workbooks from Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/generate-excel-workbooks-from-amazon-rds-for-postgresql-or-amazon-aurora-postgresql/) walks you through a solution that provides a mechanism to generate Excel workbooks from your PostgreSQL databases [hands on]
 
 ![architecture of solution to generate excel sheets from postgres db](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/12/28/DBBLOG_1962_Solution-Overview-Picture1.png)
 
-* [Read/Write Capability Enhancements in Amazon Aurora with Apache ShardingSphere-Proxy](https://aws-oss.beachgeek.co.uk/2eo) shows you how to use ShardingSphere-Proxy to build database clusters, covering aspects such as sharding, read/write splitting, and dynamic configuration [hands on]
+* [Read/Write Capability Enhancements in Amazon Aurora with Apache ShardingSphere-Proxy](https://aws.amazon.com/blogs/apn/read-write-capability-enhancements-in-amazon-aurora-with-apache-shardingsphere-proxy/) shows you how to use ShardingSphere-Proxy to build database clusters, covering aspects such as sharding, read/write splitting, and dynamic configuration [hands on]
 
 ![architecture using apache shardingsphere-proxy](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2022/12/30/SphereEx-Read-Write-Aurora-1.png)
 
 **Other posts and quick reads**
 
-* [Running Next.js applications with serverless services on AWS](https://aws-oss.beachgeek.co.uk/2du) demonstrates how to build a Next.js application with Serverless services on AWS and explains Next.js Server-Side rendering [hands on]
-* [Amazon CloudFront Signed URLs and Cookies are now supported in AWS SDK for Java 2.x](https://aws-oss.beachgeek.co.uk/2dv) provides a hands on guide that covers the basic functionalities of CloudFront signed URLs and signed cookies [hands on]
-* [New: AWS CLI v2 Docker images available on Amazon ECR Public](https://aws-oss.beachgeek.co.uk/2dw) looks at the announcement of the official Docker images of the AWS Command Line Interface (AWS CLI) v2 that are now available on Amazon Elastic Container Registry Public (Amazon ECR Public) gallery
-* [AWS ParallelCluster 3.3.0 now supports On-Demand Capacity Reservations](https://aws-oss.beachgeek.co.uk/2dx) explains what On-Demand Capacity Reservations (ODCR) are, how they work, and how to configure your HPC cluster to use them [hands on]
-* [Amazon EMR Serverless cost estimator](https://aws-oss.beachgeek.co.uk/2e3) shows you how you can use a project shared in [#116](https://aws-oss.beachgeek.co.uk/2e4) to understand how it can help you estimate the cost of running your EMR applications using EMR Serverless [hands on]
-* [Decoding USP protobuf data sent by USP agents, using the recent AWS IoT Rules Engine native SQL decode function](https://aws-oss.beachgeek.co.uk/2e6) detailed post on how to set up and use the native AWS IoT Rules Engine protobuf decoding SQL function, in order to decode USP records and messages sent by USP agents [hands on]
-* [Building a Serverless Trigger-Based Data Movement Pipeline Using Apache NiFi, DataFlow Functions, and AWS Lambda](https://aws-oss.beachgeek.co.uk/2ec) looks at how you can use Amazon S3 to launch an Apache NiFi flow [hands on]
+* [Running Next.js applications with serverless services on AWS](https://aws.amazon.com/blogs/compute/running-next-js-applications-with-serverless-services-on-aws/) demonstrates how to build a Next.js application with Serverless services on AWS and explains Next.js Server-Side rendering [hands on]
+* [Amazon CloudFront Signed URLs and Cookies are now supported in AWS SDK for Java 2.x](https://aws.amazon.com/blogs/developer/amazon-cloudfront-signed-urls-and-cookies-are-now-supported-in-aws-sdk-for-java-2-x/) provides a hands on guide that covers the basic functionalities of CloudFront signed URLs and signed cookies [hands on]
+* [New: AWS CLI v2 Docker images available on Amazon ECR Public](https://aws.amazon.com/blogs/developer/new-aws-cli-v2-docker-images-available-on-amazon-ecr-public/) looks at the announcement of the official Docker images of the AWS Command Line Interface (AWS CLI) v2 that are now available on Amazon Elastic Container Registry Public (Amazon ECR Public) gallery
+* [AWS ParallelCluster 3.3.0 now supports On-Demand Capacity Reservations](https://aws.amazon.com/blogs/hpc/aws-parallelcluster-3-3-now-supports-on-demand-capacity-reservations/) explains what On-Demand Capacity Reservations (ODCR) are, how they work, and how to configure your HPC cluster to use them [hands on]
+* [Amazon EMR Serverless cost estimator](https://aws.amazon.com/blogs/big-data/amazon-emr-serverless-cost-estimator/) shows you how you can use a project shared in [#116](https://dev.to/aws/aws-open-source-news-and-updates-116-22dj) to understand how it can help you estimate the cost of running your EMR applications using EMR Serverless [hands on]
+* [Decoding USP protobuf data sent by USP agents, using the recent AWS IoT Rules Engine native SQL decode function](https://dev.to/iotbuilders/decoding-usp-protobuf-data-sent-by-usp-agents-using-the-recent-aws-iot-rules-engine-native-sql-decode-function-1ja0) detailed post on how to set up and use the native AWS IoT Rules Engine protobuf decoding SQL function, in order to decode USP records and messages sent by USP agents [hands on]
+* [Building a Serverless Trigger-Based Data Movement Pipeline Using Apache NiFi, DataFlow Functions, and AWS Lambda](https://aws.amazon.com/blogs/apn/building-a-serverless-trigger-based-data-movement-pipeline-using-apache-nifi-dataflow-functions-and-aws-lambda/) looks at how you can use Amazon S3 to launch an Apache NiFi flow [hands on]
 
 ![apache nifi flow example](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2022/12/15/Cloudera-Serverless-NiFi-4.png)
 
@@ -221,7 +221,7 @@ Gary Stafford has been busy over the holidays and put together this new video Ba
 
 **AWS IoT and open source**
 
-AWS Community Hero Faizal Khan runs this extended video covering all things open source and AWS IoT. Well worth watching, and covers many of the familiar things such as FreeRTOS, AWS IoT for Greengrass, as well as looking at new things you may not be familiar with. Original link is over at [Open Source and AWS IoT](https://aws-oss.beachgeek.co.uk/2e7) 
+AWS Community Hero Faizal Khan runs this extended video covering all things open source and AWS IoT. Well worth watching, and covers many of the familiar things such as FreeRTOS, AWS IoT for Greengrass, as well as looking at new things you may not be familiar with. Original link is over at [Open Source and AWS IoT](https://www.opensourceforu.com/2022/11/open-source-aws-iot/) 
 
 {{< vimeo 771917254 >}}
 
@@ -252,7 +252,7 @@ Secure and multi-tenant automation of application and infrastructure rollout on 
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -261,24 +261,24 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **FOSSDEM**
 **Feb 4-5th, 2023 in Brussels**
 
-FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://aws-oss.beachgeek.co.uk/2dc).
+FOSDEM is a free event for software developers to meet, share ideas and collaborate. Every year, thousands of developers of free and open source software from all over the world gather at the event in Brussels. 4 & 5 February 2023. A must attend event for all open source fans, check out and [register via this link](https://openuk.uk/event-calendar/fosdem-2023/).
 
 **State of Open Con 23**
 **Feb 7-8th, 2023 in London**
 
-OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://aws-oss.beachgeek.co.uk/2dd).
+OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://openuk.uk/event-calendar/state-of-open-con-23/).
 
 **Everything Open**
 **March14-15th Melbourne, Australia**
 
-A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://aws-oss.beachgeek.co.uk/2ds). The CFP us currently open, so why not take a look and submit something if you can.
+A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://2023.everythingopen.au/about/). The CFP us currently open, so why not take a look and submit something if you can.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

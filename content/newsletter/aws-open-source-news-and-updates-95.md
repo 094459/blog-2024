@@ -20,7 +20,7 @@ Over 100K of you viewed the 45 newsletters, with the top 5 countries of origin b
 
 Over those 45 posts, we had over 800 unique contributors. In 2021 it became clear that it was the actual code projects you were mostly interested in, so you can expect a few tweaks in this newsletter to share more of those projects and be more frugal on your time/attention with the other stuff.
 
-The top three most view posts where not surprisingly, open source repositories. The most viewed was **[Querypal](https://aws-oss.beachgeek.co.uk/x)** is a web-based, query execution tool which leverages Amazon Athena to make authoring queries and retrieving results simple for users. Following that was **[cfn-diagram](https://aws-oss.beachgeek.co.uk/4r)** from the MatHem tech team, which a super nice CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks, draw.io or ascii-art diagrams. Lastly, we have **[censor-shell](https://aws-oss.beachgeek.co.uk/admin/index.php?search=&search_in=all&sort_by=timestamp&sort_order=desc&perpage=2000&click_filter=more&click_limit=&date_filter=before&date_first=&date_second=#:~:text=295-,fb,-GitHub%20%2D%20iann0036/censor)** from AWS Hero Ian Mckay, a great tool if you are doing demos or presentations, as it hides shell / Bash / console output based on defined patterns - great for hiding secrets in demos!
+The top three most view posts where not surprisingly, open source repositories. The most viewed was **[Querypal](https://github.com/OElesin/querypal)** is a web-based, query execution tool which leverages Amazon Athena to make authoring queries and retrieving results simple for users. Following that was **[cfn-diagram](https://github.com/mhlabs/cfn-diagram)** from the MatHem tech team, which a super nice CLI tool to visualise CloudFormation/SAM/CDK stacks as visjs networks, draw.io or ascii-art diagrams. Lastly, we have **[censor-shell](https://aws-oss.beachgeek.co.uk/admin/index.php?search=&search_in=all&sort_by=timestamp&sort_order=desc&perpage=2000&click_filter=more&click_limit=&date_filter=before&date_first=&date_second=#:~:text=295-,fb,-GitHub%20%2D%20iann0036/censor)** from AWS Hero Ian Mckay, a great tool if you are doing demos or presentations, as it hides shell / Bash / console output based on defined patterns - great for hiding secrets in demos!
 
 The technical posts I have been writing on Apache Airflow have also been very well received, so please let me know what pain points or additional stuff you would like me to cover in that area too. Outside of Apache Airflow, the highest viewed post of 2021 was my detailed walkthrough of how to take a simple Spring Boot app, and deploy it on any thing, any where - a good example of combing open source technologies to allow customers the most flexibility on where they run their workloads. Over 30K of you read that.
 
@@ -30,13 +30,13 @@ What would you like to see me cover more of in 2022 in this newsletter? I would 
 
 If you missed it in the last newsletter that I published before the Christmas holidays, then here is a summary of important info. Some of the posts have been updated since the last time I shared these, so it is well worth re-reading them if this is something you are still working on.
 
-* [Hotpatch for Apache Log4j](https://aws-oss.beachgeek.co.uk/16g)- this is a blog post published that provides some general information as well as access to some tooling that can help customers identify and patch systems that may be vulnerable. For customers who are using Amazon Linux 2, you can now install this quickly (https://twitter.com/stewartsmith/status/1471150310718468097) via “yum install log4j-cve-2021-44228-hotpatch” as it has been added to the package repositories.
-* [Open source hotpatch for Apache Log4j vulnerability](https://aws-oss.beachgeek.co.uk/16l) - AWS CISO Steve Schmidt summarised our efforts/position on this, pointing to the same resource above. 
-* [hotpatch-for-apache-log4j2](https://aws-oss.beachgeek.co.uk/16m) - This is a tool which injects a Java agent into a running JVM process. The agent will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances to unconditionally return the string "Patched JndiLookup::lookup()".
-* [kubernetes-log4j-cve-2021-44228-node-agent](https://aws-oss.beachgeek.co.uk/16n) - The Apache Log4j2 CVE-2021-44228 node agent is an open source project built by the Kubernetes team at AWS. It is designed to run as a DaemonSet and mitigate the impact of Log4j2 CVE-2021-44228
-* [Using AWS security services to protect against, detect, and respond to the Log4j vulnerability](https://aws-oss.beachgeek.co.uk/16j) - a guide on how to use AWS security services to help you manage this incident.
-* [Advice on mitigating the Apache log4j security issue for EKS, ECS, and Fargate customers](https://aws-oss.beachgeek.co.uk/175)- this post  shows you how Amazon Elastic Container Service (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS) customers using Amazon EC2 and AWS Fargate to run their containerized applications can identify and mitigate CVE-2021-44228 and CVE-2021-45046 (the “log4j2 issue”).
-* [Container scanning updates in Amazon ECR private registries using Amazon Inspector](https://aws-oss.beachgeek.co.uk/176) - if you create/build/use container images, then check out how you can scan those to help identify vulnerabilities such as CVE-2021-44228 and CVE-2021-45046. 
+* [Hotpatch for Apache Log4j](https://aws.amazon.com/blogs/opensource/hotpatch-for-apache-log4j/)- this is a blog post published that provides some general information as well as access to some tooling that can help customers identify and patch systems that may be vulnerable. For customers who are using Amazon Linux 2, you can now install this quickly (https://twitter.com/stewartsmith/status/1471150310718468097) via “yum install log4j-cve-2021-44228-hotpatch” as it has been added to the package repositories.
+* [Open source hotpatch for Apache Log4j vulnerability](https://aws.amazon.com/blogs/security/open-source-hotpatch-for-apache-log4j-vulnerability/) - AWS CISO Steve Schmidt summarised our efforts/position on this, pointing to the same resource above. 
+* [hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2) - This is a tool which injects a Java agent into a running JVM process. The agent will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances to unconditionally return the string "Patched JndiLookup::lookup()".
+* [kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent) - The Apache Log4j2 CVE-2021-44228 node agent is an open source project built by the Kubernetes team at AWS. It is designed to run as a DaemonSet and mitigate the impact of Log4j2 CVE-2021-44228
+* [Using AWS security services to protect against, detect, and respond to the Log4j vulnerability](https://aws.amazon.com/blogs/security/using-aws-security-services-to-protect-against-detect-and-respond-to-the-log4j-vulnerability/) - a guide on how to use AWS security services to help you manage this incident.
+* [Advice on mitigating the Apache log4j security issue for EKS, ECS, and Fargate customers](https://aws.amazon.com/blogs/containers/advice-on-mitigating-the-apache-log4j-security-issue-for-eks-ecs-and-fargate-customers/)- this post  shows you how Amazon Elastic Container Service (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS) customers using Amazon EC2 and AWS Fargate to run their containerized applications can identify and mitigate CVE-2021-44228 and CVE-2021-45046 (the “log4j2 issue”).
+* [Container scanning updates in Amazon ECR private registries using Amazon Inspector](https://aws.amazon.com/blogs/containers/container-scanning-updates-in-amazon-ecr-private-registries-using-amazon-inspector/) - if you create/build/use container images, then check out how you can scan those to help identify vulnerabilities such as CVE-2021-44228 and CVE-2021-45046. 
 * [AWS resources to address Apache Log4j vulnerabilities](https://aws.amazon.com/blogs/publicsector/aws-resources-to-address-apache-log4j-vulnerabilities/) Mukhtar Kabir provides his own summary of resources you can use to help manage this incident.
 
 ### Celebrating open source contributors
@@ -51,34 +51,34 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **tfdevops**
 
-[tfdevops](https://aws-oss.beachgeek.co.uk/17j) this project from Staklet provides support for terraform users by automatically converting terraform state to an imported CloudFormation stack and optionally enabling it with DevOps guru. To help you get started with this project, checkout the blog post from Kapil Thangavelu, Harish Vaswani and Rafael Ramo, [Monitor AWS resources created by Terraform in Amazon DevOps Guru using tfdevops](https://aws-oss.beachgeek.co.uk/17k) which demonstrates how to enable DevOps Guru to monitor your AWS resources created by Terraform
+[tfdevops](https://github.com/stacklet/tfdevops) this project from Staklet provides support for terraform users by automatically converting terraform state to an imported CloudFormation stack and optionally enabling it with DevOps guru. To help you get started with this project, checkout the blog post from Kapil Thangavelu, Harish Vaswani and Rafael Ramo, [Monitor AWS resources created by Terraform in Amazon DevOps Guru using tfdevops](https://aws.amazon.com/blogs/devops/monitor-aws-resources-created-by-terraform-in-amazon-devops-guru-using-tfdevops/) which demonstrates how to enable DevOps Guru to monitor your AWS resources created by Terraform
 
 **data-compare-tool**
 
-[data-compare-tool](https://aws-oss.beachgeek.co.uk/189) this tool might be helpful for those currently thinking about, planning or in the process of migrating from Oracle or SQL Server databases. The data compare tool helps in validating your data from one database to another, with the source being either Oracle or SQL Server and target is PostgreSQL. The tool fetch the data from the table(s) (depending on the optional filter given) in chunks and each column in the row of the chunk will get concatenated and generates hash. The generated hash will be compared and produces the result row wise.
+[data-compare-tool](https://github.com/awslabs/data-compare-tool) this tool might be helpful for those currently thinking about, planning or in the process of migrating from Oracle or SQL Server databases. The data compare tool helps in validating your data from one database to another, with the source being either Oracle or SQL Server and target is PostgreSQL. The tool fetch the data from the table(s) (depending on the optional filter given) in chunks and each column in the row of the chunk will get concatenated and generates hash. The generated hash will be compared and produces the result row wise.
 
 **amazon-emr-on-eks-custom-image-cli**
 
-[amazon-emr-on-eks-custom-image-cli](https://aws-oss.beachgeek.co.uk/17i) - Amazon EMR on Amazon EKS provides support for Custom Images, a capability that enables you to customise the Docker container images used for running Apache Spark applications on Amazon EMR on EKS. Custom images enables you to install and configure packages specific to your workload that are not available in the public distribution of EMR’s Spark runtime into a single immutable container.  This open source tool enables you to validate the image’s file structure. The utility will examine basic required arguments and ensure that the modifications work as expected and prevent job failures due to common misconfigurations.
+[amazon-emr-on-eks-custom-image-cli](https://github.com/awslabs/amazon-emr-on-eks-custom-image-cli) - Amazon EMR on Amazon EKS provides support for Custom Images, a capability that enables you to customise the Docker container images used for running Apache Spark applications on Amazon EMR on EKS. Custom images enables you to install and configure packages specific to your workload that are not available in the public distribution of EMR’s Spark runtime into a single immutable container.  This open source tool enables you to validate the image’s file structure. The utility will examine basic required arguments and ensure that the modifications work as expected and prevent job failures due to common misconfigurations.
 
 **aws-firewall-factory**
 
-[aws-firewall-factory](https://aws-oss.beachgeek.co.uk/183) this open source solution from David Krohn helps you deploy, update, and stage your Web Application Firewalls while managing them centrally via AWS Firewall Manager. David has put together a blog post, [Introducing the AWS Firewall Factory](https://aws-oss.beachgeek.co.uk/184) to help get you started.
+[aws-firewall-factory](https://github.com/globaldatanet/aws-firewall-factory) this open source solution from David Krohn helps you deploy, update, and stage your Web Application Firewalls while managing them centrally via AWS Firewall Manager. David has put together a blog post, [Introducing the AWS Firewall Factory](https://globaldatanet.com/tech-blog/introducing-the-aws-firewall-factory) to help get you started.
 
 ![arch](https://github.com/globaldatanet/aws-firewall-factory/blob/master/static/AWSFIREWALLMANAGER.png?raw=true)
 
 **serverless-kotlin-demo**
-[serverless-kotlin-demo](https://aws-oss.beachgeek.co.uk/181) incase you missed the announcement, the AWS SDK for Kotlin was made at re:Invent, so why not check this simple serverless application built in Kotlin using the AWS SDK for Kotlin. It consists of an Amazon API Gateway backed by four AWS Lambda functions and an Amazon DynamoDB table for storage.
+[serverless-kotlin-demo](https://github.com/aws-samples/serverless-kotlin-demo) incase you missed the announcement, the AWS SDK for Kotlin was made at re:Invent, so why not check this simple serverless application built in Kotlin using the AWS SDK for Kotlin. It consists of an Amazon API Gateway backed by four AWS Lambda functions and an Amazon DynamoDB table for storage.
 
 ![arch](https://github.com/aws-samples/serverless-kotlin-demo/blob/main/imgs/diagram.png?raw=true)
 
 **ddb_local**
 
-[ddb_local](https://aws-oss.beachgeek.co.uk/17r) this project from Woongbin Kang provides a convenient Python wrapper for DynamoDB Local, and he has put together this blog post to help you get started: [ddb-local - Python wrapper for DynamoDBLocal](https://aws-oss.beachgeek.co.uk/17s)
+[ddb_local](https://github.com/wbkang/ddb_local) this project from Woongbin Kang provides a convenient Python wrapper for DynamoDB Local, and he has put together this blog post to help you get started: [ddb-local - Python wrapper for DynamoDBLocal](https://wbk.one/article/9d396cad/ddb-local-python-lib)
 
 **remote-monitoring-of-iot-devices**
 
-[remote-monitoring-of-iot-devices](https://aws-oss.beachgeek.co.uk/187) IoT devices tend to have intermittent connectivity to the cloud. Furthermore, many devices are battery powered and can stop sending data to the cloud when they run out of charge. It is imperative to monitor these devices for data transmission, and data validity. Remotely monitoring assets is necessary to generate outcome-oriented insights from IoT solutions, whether it's based on telemetry data generated by a few devices in a smart home setting, or sensor-based data streaming off thousands of industrial devices. This solution ingests real-time device data from IoT devices to assess the state of each IoT device and send you notifications if there are data transmission /validity issues.
+[remote-monitoring-of-iot-devices](https://github.com/awslabs/remote-monitoring-of-iot-devices) IoT devices tend to have intermittent connectivity to the cloud. Furthermore, many devices are battery powered and can stop sending data to the cloud when they run out of charge. It is imperative to monitor these devices for data transmission, and data validity. Remotely monitoring assets is necessary to generate outcome-oriented insights from IoT solutions, whether it's based on telemetry data generated by a few devices in a smart home setting, or sensor-based data streaming off thousands of industrial devices. This solution ingests real-time device data from IoT devices to assess the state of each IoT device and send you notifications if there are data transmission /validity issues.
 
 The solution provides a framework for collecting diagnostic information for deriving outcome- oriented insights into the health of your assets. The solution utilises a managed service to collect, analyse and detect faults and/or sub-optimal performance to generate events in real-time. These events are then used to invoke automatic alerts and actions to automate diagnostics and initiate maintenance requests for that device.
 
@@ -86,7 +86,7 @@ The solution provides a framework for collecting diagnostic information for deri
 
 **aws-react-spa-with-cognito-auth**
 
-[aws-react-spa-with-cognito-auth](https://aws-oss.beachgeek.co.uk/186) this sample shows how to make a React SPA application with serverless backend by AWS Cloud Development Kit (CDK).
+[aws-react-spa-with-cognito-auth](https://github.com/aws-samples/aws-react-spa-with-cognito-auth) this sample shows how to make a React SPA application with serverless backend by AWS Cloud Development Kit (CDK).
 
 ![arch](https://github.com/aws-samples/aws-react-spa-with-cognito-auth/blob/main/imgs/architecture.png?raw=true)
 
@@ -94,56 +94,56 @@ The solution provides a framework for collecting diagnostic information for deri
 
 **Babelfish**
 
-Babelfish for Aurora PostgreSQL is a capability for Amazon Aurora PostgreSQL-Compatible Edition developed using the PostgreSQL extension framework that enables Aurora to understand commands from applications written for Microsoft SQL Server. Rajib Sadhu has put together this post, [Run SQL Server Reporting Services reports against Babelfish for Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/17y) that examines a use case in which you’re migrating your Microsoft SQL Server database to Babelfish for Aurora PostgreSQL and you have SSRS reports using the application databases as source. We show you how to modify your SSRS reports to work with your databases after they have been migrated to Babelfish for Aurora PostgreSQL.
+Babelfish for Aurora PostgreSQL is a capability for Amazon Aurora PostgreSQL-Compatible Edition developed using the PostgreSQL extension framework that enables Aurora to understand commands from applications written for Microsoft SQL Server. Rajib Sadhu has put together this post, [Run SQL Server Reporting Services reports against Babelfish for Aurora PostgreSQL](https://aws.amazon.com/blogs/database/run-sql-server-reporting-services-reports-against-babelfish-for-aurora-postgresql/) that examines a use case in which you’re migrating your Microsoft SQL Server database to Babelfish for Aurora PostgreSQL and you have SSRS reports using the application databases as source. We show you how to modify your SSRS reports to work with your databases after they have been migrated to Babelfish for Aurora PostgreSQL.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/12/16/DBBLOG-1861-image001.png)
 
 **Open Data Lakes**
 
-In the post, [The Art of Building Open Data Lakes with Apache Hudi, Kafka, Hive, and Debezium](https://aws-oss.beachgeek.co.uk/17v) Gary Stafford shares how to build a data lake on AWS using a combination of open-source software (OSS), including Red Hat’s Debezium, Apache Kafka, Kafka Connect, Apache Hive, Apache Spark, Apache Hudi, and Hudi DeltaStreamer. 
+In the post, [The Art of Building Open Data Lakes with Apache Hudi, Kafka, Hive, and Debezium](https://garystafford.medium.com/the-art-of-building-open-data-lakes-with-apache-hudi-kafka-hive-and-debezium-3d2f71c5981f) Gary Stafford shares how to build a data lake on AWS using a combination of open-source software (OSS), including Red Hat’s Debezium, Apache Kafka, Kafka Connect, Apache Hive, Apache Spark, Apache Hudi, and Hudi DeltaStreamer. 
 
 ![arch](https://miro.medium.com/max/1400/1*IqYbm7LMotC5oNLrACIa8A.png)
 
 **PostgreSQL**
 
-The Oracle Foreign Data Wrapper (oracle_fdw) has been available as a production-ready extension to the community version of PostgreSQL since April 8, 2014. This extension allows a PostgreSQL database to connect directly with an Oracle database—much like database links do in Oracle databases. In the post, [Connect to Oracle from Amazon RDS for PostgreSQL using the oracle_fdw](https://aws-oss.beachgeek.co.uk/17m) Mike Revitt shows you how to configure and utilize oracle_fdw in Amazon RDS for PostgreSQL to allow you to progressively migrate your Oracle databases into PostgreSQL on AWS regardless of whether or not they’re using Oracle database links. [hands on]
+The Oracle Foreign Data Wrapper (oracle_fdw) has been available as a production-ready extension to the community version of PostgreSQL since April 8, 2014. This extension allows a PostgreSQL database to connect directly with an Oracle database—much like database links do in Oracle databases. In the post, [Connect to Oracle from Amazon RDS for PostgreSQL using the oracle_fdw](https://aws.amazon.com/blogs/database/connect-to-oracle-from-amazon-rds-for-postgresql-using-the-oracle_fdw/) Mike Revitt shows you how to configure and utilize oracle_fdw in Amazon RDS for PostgreSQL to allow you to progressively migrate your Oracle databases into PostgreSQL on AWS regardless of whether or not they’re using Oracle database links. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/12/14/DBBLOG-1397-image001.png)
 
 **Consul**
 
-Consul is an open source project that helps you to automate network configurations, discover services, and enable secure connectivity across any cloud or runtime. In the post, [Getting started with Consul service mesh on Amazon ECS](https://aws-oss.beachgeek.co.uk/17l) Welly Siauw and Parag Bhingre show you how to integrate Consul service mesh on Amazon ECS using AWS CDK. [hands on]
+Consul is an open source project that helps you to automate network configurations, discover services, and enable secure connectivity across any cloud or runtime. In the post, [Getting started with Consul service mesh on Amazon ECS](https://aws.amazon.com/blogs/containers/getting-started-with-consul-service-mesh-on-amazon-ecs/) Welly Siauw and Parag Bhingre show you how to integrate Consul service mesh on Amazon ECS using AWS CDK. [hands on]
 
 **Flagger**
 
 Flagger is an open source progressive delivery tool that automates the release process for applications running on Kubernetes. It reduces the risk of introducing a new software version in production by gradually shifting traffic to the new version while measuring metrics and running conformance tests. Sanjeev Ganjihal and Aaron Miller
- show you how you can leverage AWS App Mesh and Flagger to implement progressive delivery (automated metrics-based canary deployment)in the blog post, [Progressive Delivery using AWS App Mesh and Flagger](https://aws-oss.beachgeek.co.uk/17n) [hands on]
+ show you how you can leverage AWS App Mesh and Flagger to implement progressive delivery (automated metrics-based canary deployment)in the blog post, [Progressive Delivery using AWS App Mesh and Flagger](https://aws.amazon.com/blogs/containers/progressive-delivery-using-aws-app-mesh-and-flagger/) [hands on]
  
 ![arch](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2021/12/16/AppMesh2.jpg)
 
 **AWS CDK**
 
-Published on Christmas Day, this nice post from Matt Morgan, [AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application](https://aws-oss.beachgeek.co.uk/17u), does what it says on the tin - namely provide you with a simple walk through on how you can create a CDK application (in Typescript) to configure a typical three tier application. All source code is provided via a linked GitHub repo. Nice!
+Published on Christmas Day, this nice post from Matt Morgan, [AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/amp/), does what it says on the tin - namely provide you with a simple walk through on how you can create a CDK application (in Typescript) to configure a typical three tier application. All source code is provided via a linked GitHub repo. Nice!
 
 **Observability**
 
-It was great to read this, [On The State Of Continuous Profiling](https://aws-oss.beachgeek.co.uk/17t), from Michael Hausenblas who takes a look at what continuous profiling is, and where are we with it at the end of 2021.
+It was great to read this, [On The State Of Continuous Profiling](https://o11y.engineering/the-state-of-continuous-profiling-b89cdbdd47f6), from Michael Hausenblas who takes a look at what continuous profiling is, and where are we with it at the end of 2021.
 
 {{< tweet 1462047847776407556 >}}
 
 **Other posts worth checking out**
 
-* In [Optimizing SAS Grid on AWS with Amazon FSx for Lustre](https://aws-oss.beachgeek.co.uk/17o) find out more about the best practices for migrating SAS Grid to AWS, Amazon FSx for Lustre and how its’ data compression feature can help you lower your costs
-* [How Belcorp decreased cost and improved reliability in its big data processing framework using Amazon EMR managed scaling](https://aws-oss.beachgeek.co.uk/17p) is a great case study where Belcorp share how they were able to undertake a series of continuous improvements in order to reduce the number of platform incidents, optimise SLAs required by the business, and be more cost-efficient when using Amazon EMR, resulting in up to 30% savings for the company.
-* [How Twilio modernized its billing platform on Amazon Aurora MySQL](https://aws-oss.beachgeek.co.uk/17q) talks about how Twilio modernized their billing platform with Amazon Aurora MySQL-Compatible Edition to support their growth
-* [Tips & Tricks: Debugging your C# CDK project in Visual Studio](https://aws-oss.beachgeek.co.uk/17w) is a rare but good to see a C# CDK post
-* [Modernize and containerize a legacy MVC .NET application with Entity Framework to .NET Core with Entity Framework Core: Part 3](https://aws-oss.beachgeek.co.uk/17z) the third instalment and shows the steps to modernise a legacy SQL Server database to Amazon Aurora PostgreSQL-Compatible Edition using Babelfish. Parts 1 and 2 have been covered in previous newsletters
+* In [Optimizing SAS Grid on AWS with Amazon FSx for Lustre](https://aws.amazon.com/blogs/storage/optimizing-sas-grid-on-aws-with-amazon-fsx-for-lustre/) find out more about the best practices for migrating SAS Grid to AWS, Amazon FSx for Lustre and how its’ data compression feature can help you lower your costs
+* [How Belcorp decreased cost and improved reliability in its big data processing framework using Amazon EMR managed scaling](https://aws.amazon.com/blogs/big-data/how-belcorp-decreased-cost-and-improved-reliability-in-its-big-data-processing-framework-using-amazon-emr-managed-scaling/) is a great case study where Belcorp share how they were able to undertake a series of continuous improvements in order to reduce the number of platform incidents, optimise SLAs required by the business, and be more cost-efficient when using Amazon EMR, resulting in up to 30% savings for the company.
+* [How Twilio modernized its billing platform on Amazon Aurora MySQL](https://aws.amazon.com/blogs/database/how-twilio-modernized-its-billing-platform-on-amazon-aurora-mysql/) talks about how Twilio modernized their billing platform with Amazon Aurora MySQL-Compatible Edition to support their growth
+* [Tips & Tricks: Debugging your C# CDK project in Visual Studio](https://aws.amazon.com/blogs/developer/tips-tricks-debugging-your-c-cdk-project-in-visual-studio/) is a rare but good to see a C# CDK post
+* [Modernize and containerize a legacy MVC .NET application with Entity Framework to .NET Core with Entity Framework Core: Part 3](https://aws.amazon.com/blogs/database/part-3-modernize-and-containerize-a-legacy-mvc-net-application-with-entity-framework-to-net-core-with-entity-framework-core/) the third instalment and shows the steps to modernise a legacy SQL Server database to Amazon Aurora PostgreSQL-Compatible Edition using Babelfish. Parts 1 and 2 have been covered in previous newsletters
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2021/12/14/DBBLOG-1484-image001.png)
 
 ### Amazon EKS Newsletter
 
-Brand new for 2022, a new newsletter from the Amazon EKS developer advocates that you really should sign up for if you are interested in all things Kubernetes and Cloud Native. [EKS News](https://aws-oss.beachgeek.co.uk/185) brings you all the latest updates, news and service announcements, notable blogs and stuff you really need to know about. Make sure you sign up for it so you do not miss a thing.
+Brand new for 2022, a new newsletter from the Amazon EKS developer advocates that you really should sign up for if you are interested in all things Kubernetes and Cloud Native. [EKS News](https://buttondown.email/eks.news/archive/eks-news-000/) brings you all the latest updates, news and service announcements, notable blogs and stuff you really need to know about. Make sure you sign up for it so you do not miss a thing.
 
 ### Quick updates
 
@@ -170,7 +170,7 @@ Amazon Managed Streaming for Apache Kafka (Amazon MSK) now supports Apache Kafka
 
 **Apache Hudi**
 
-Apache Hudi is an open-source transactional data lake framework that greatly simplifies incremental data processing and data pipeline development by providing record-level insert, update, and delete capabilities. This record-level capability is helpful if you’re building your data lakes on Amazon Simple Storage Service (Amazon S3) or Hadoop Distributed File System (HDFS). In this post, [New features from Apache Hudi 0.7.0 and 0.8.0 available on Amazon EMR](https://aws-oss.beachgeek.co.uk/17x) Udit Mehrotra and Gagan Brahmi share a summary of some of the key new features and capabilities included since Apache Hudi release versions 0.7.0 and 0.8.0. 
+Apache Hudi is an open-source transactional data lake framework that greatly simplifies incremental data processing and data pipeline development by providing record-level insert, update, and delete capabilities. This record-level capability is helpful if you’re building your data lakes on Amazon Simple Storage Service (Amazon S3) or Hadoop Distributed File System (HDFS). In this post, [New features from Apache Hudi 0.7.0 and 0.8.0 available on Amazon EMR](https://aws.amazon.com/blogs/big-data/new-features-from-apache-hudi-0-7-0-and-0-8-0-available-on-amazon-emr/) Udit Mehrotra and Gagan Brahmi share a summary of some of the key new features and capabilities included since Apache Hudi release versions 0.7.0 and 0.8.0. 
 
 ![illustration](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/12/08/BDB-1699-image015.jpg)
 
@@ -190,7 +190,7 @@ Kubernetes uses a flat networking model that requires each pod to receive an IP 
 
 With EKS support for IPv6, pods are assigned only a globally routable IPv6 address, and you easily scale applications in your cluster without consuming limited private IPv4 address space. This globally routable IPv6 address can be used to directly communicate with any IPv6 endpoint in your Amazon VPC, on-premises network, or the public internet. IPv6 support is enabled through the Amazon VPC CNI plugin, which directly integrates with the EC2 networking stack to deliver high performance and reliability. With native VPC integration, you can secure your applications using standard components including egress-only internet gateways, security groups, and network access control lists (ACL). EKS configures networking so that pods can still communicate with IPv4 based endpoints outside the cluster, enabling you to adopt the benefits of IPv6 and Kubernetes without requiring that all dependent services deployed across your organisation are first migrated to IPv6.
 
-Read more in the post from Sébastien Stormacq, [Amazon Elastic Kubernetes Service Adds IPv6 Networking](https://aws-oss.beachgeek.co.uk/17h)
+Read more in the post from Sébastien Stormacq, [Amazon Elastic Kubernetes Service Adds IPv6 Networking](https://aws.amazon.com/blogs/aws/amazon-elastic-kubernetes-service-adds-ipv6-networking/)
 
 
 ### Videos of the week
@@ -220,7 +220,7 @@ If you have an event you want me to publish here, please contact me and I will i
 **Rust Foundation Ask Me Anything – January 2022**
 **January 11th, 3PM Eastern Time (US)**
 
-The first Rust Foundation AMA of the new year will be on January 11th at 12pm PT/3pm ET. The new Executive Director and CEO Bec Rumbul will share the latest updates, discuss the Foundation's plans for 2022, and answer any questions you have for her. Bec will be joined by Rust Foundation Board Director Nell Shamrell-Harrington, and the conversation will be moderated by Sage Griffin. Read more and [register, here](https://aws-oss.beachgeek.co.uk/180)
+The first Rust Foundation AMA of the new year will be on January 11th at 12pm PT/3pm ET. The new Executive Director and CEO Bec Rumbul will share the latest updates, discuss the Foundation's plans for 2022, and answer any questions you have for her. Bec will be joined by Rust Foundation Board Director Nell Shamrell-Harrington, and the conversation will be moderated by Sage Griffin. Read more and [register, here](https://us06web.zoom.us/webinar/register/WN_Ivbo08H4QpaY6vbpkECp7A)
 
 ### Stay in touch with open source at AWS
 

@@ -16,7 +16,7 @@ As always, check out the videos and events at the end of the newsletter. As alwa
 
 **Silent Disco @ Open Source Summit**
 
-As some may know, back in the day I used to spin "stacks of wax" (to use the vernacular!) and had a blast reliving old glories by putting together a silent disco at the Open Source Summit, EU in Bilbao. If you were there, or just want to try out some new music, I have put together the play list and Spotify play list for you [here](https://aws-oss.beachgeek.co.uk/39j).
+As some may know, back in the day I used to spin "stacks of wax" (to use the vernacular!) and had a blast reliving old glories by putting together a silent disco at the Open Source Summit, EU in Bilbao. If you were there, or just want to try out some new music, I have put together the play list and Spotify play list for you [here](https://docs.google.com/document/d/1BqG-SBX5Rvckrm7zpP7KFoL1rHKlslRA_-mHfuM1oXs/edit).
 
 **Feedback**
 
@@ -36,31 +36,31 @@ So thank you to the following open source heroes:   Cristian Magherusan-Stanciu,
 
 **aws-ipv4-cost-viewer**
 
-[aws-ipv4-cost-viewer](https://aws-oss.beachgeek.co.uk/3at) is a new CLI tool from regular contributor to this newsletter, Cristian Magherusan-Stanciu. This tool shows the future public IPv4 costs for a variety of AWS resources across all AWS regions from an account. Very handy with the up coming changes to pricing for public IP addresses. Interestingly, the tool was creating with help from ChatGPT, and I like how Christian has included the details of the messages used to come up with the code. A trend I hope to see more of, so nice.
+[aws-ipv4-cost-viewer](https://github.com/LeanerCloud/aws-ipv4-cost-viewer) is a new CLI tool from regular contributor to this newsletter, Cristian Magherusan-Stanciu. This tool shows the future public IPv4 costs for a variety of AWS resources across all AWS regions from an account. Very handy with the up coming changes to pricing for public IP addresses. Interestingly, the tool was creating with help from ChatGPT, and I like how Christian has included the details of the messages used to come up with the code. A trend I hope to see more of, so nice.
 
 **ipv4-usage-monitoring-for-aws**
 
-[ipv4-usage-monitoring-for-aws](https://aws-oss.beachgeek.co.uk/3au) is a script that follows on from the previous project, and allows you to iterate through all regions and all accounts in an organisation to enumerate all public IPs and flag certain IPs that may be unnecessary for further investigation.
+[ipv4-usage-monitoring-for-aws](https://github.com/aws-samples/ipv4-usage-monitoring-for-aws/) is a script that follows on from the previous project, and allows you to iterate through all regions and all accounts in an organisation to enumerate all public IPs and flag certain IPs that may be unnecessary for further investigation.
 
 **aws-list-resources**
 
-[aws-list-resources](https://aws-oss.beachgeek.co.uk/3av) lists resources that are present in a given AWS account and region(s), that uses the AWS Cloud Control API. Discovered resources are written to a JSON output file.  You will need to make sure you have AWS credentials configured for your target account. This can either be done using environment variables or by
+[aws-list-resources](https://github.com/welldone-cloud/aws-list-resources) lists resources that are present in a given AWS account and region(s), that uses the AWS Cloud Control API. Discovered resources are written to a JSON output file.  You will need to make sure you have AWS credentials configured for your target account. This can either be done using environment variables or by
 
 **amazon-bedrock-langchain-go**
 
-[amazon-bedrock-langchain-go](https://aws-oss.beachgeek.co.uk/3aw) is a new project from my colleague Abhishek Gupta that provides a Langchain go wrapper that allows you to interact with Amazon Bedrock.
+[amazon-bedrock-langchain-go](https://github.com/abhirockzz/amazon-bedrock-langchain-go) is a new project from my colleague Abhishek Gupta that provides a Langchain go wrapper that allows you to interact with Amazon Bedrock.
 
 **amazon-bedrock-go-sdk-examples**
 
-[amazon-bedrock-go-sdk-examples](https://aws-oss.beachgeek.co.uk/3ax) is another project from Abhishek, this time providing examples of how you can use the AWS Go SDK to call Amazon Bedrock, providing plenty of examples that include a basic bootstrap example, chat bots, generating content, image generation and more.
+[amazon-bedrock-go-sdk-examples](https://github.com/abhirockzz/amazon-bedrock-go-sdk-examples) is another project from Abhishek, this time providing examples of how you can use the AWS Go SDK to call Amazon Bedrock, providing plenty of examples that include a basic bootstrap example, chat bots, generating content, image generation and more.
 
 **opensearch-sdk-py**
 
-[opensearch-sdk-py](https://aws-oss.beachgeek.co.uk/3ay) is a project I got to learn about during Open Source Summit, chatting with dB. It provides an experimental OpenSearch Python SDK enables you to implement Extensions that provide additional functionality to OpenSearch by registering that functionality through a set of extension points. When OpenSearch functionality is provided by a REST API, Extensions will use the OpenSearch Python Client to implement it. However, when REST APIs do not provide this information, its binary transport protocol is used. That protocol is implemented in this SDK. Unlike the OpenSearch Java SDK the Python implementation reimplements the protocol in pure python. This is on my to do list of project to try out.
+[opensearch-sdk-py](https://github.com/opensearch-project/opensearch-sdk-py) is a project I got to learn about during Open Source Summit, chatting with dB. It provides an experimental OpenSearch Python SDK enables you to implement Extensions that provide additional functionality to OpenSearch by registering that functionality through a set of extension points. When OpenSearch functionality is provided by a REST API, Extensions will use the OpenSearch Python Client to implement it. However, when REST APIs do not provide this information, its binary transport protocol is used. That protocol is implemented in this SDK. Unlike the OpenSearch Java SDK the Python implementation reimplements the protocol in pure python. This is on my to do list of project to try out.
 
 **awstaghelper**
 
-[awstaghelper](https://aws-oss.beachgeek.co.uk/3az) is the second project this week from Cristian Magherusan-Stanciu, and  provides a command line tool to ease adding and managing tags to and from CSV files across the wide range of AWS resources. Tags are critical to managing AWS resources at scale, so why not give this a look and see if you can improve your tagging hygiene. 
+[awstaghelper](https://github.com/mpostument/awstaghelper) is the second project this week from Cristian Magherusan-Stanciu, and  provides a command line tool to ease adding and managing tags to and from CSV files across the wide range of AWS resources. Tags are critical to managing AWS resources at scale, so why not give this a look and see if you can improve your tagging hygiene. 
 
 ![overview of awstaghelper demo](https://github.com/mpostument/awstaghelper/blob/master/awstaghelper.gif?raw=true)
 
@@ -68,31 +68,31 @@ So thank you to the following open source heroes:   Cristian Magherusan-Stanciu,
 
 **karpenter-blueprints**
 
-[karpenter-blueprints](https://aws-oss.beachgeek.co.uk/3b4) provides a list of common workload scenarios following best practices. Each blueprint has detailed documentation where you will find here details of why configuring the Karpenter and Kubernetes objects in such a way is important when using Karpenter on EKS.  
+[karpenter-blueprints](https://github.com/aws-samples/karpenter-blueprints) provides a list of common workload scenarios following best practices. Each blueprint has detailed documentation where you will find here details of why configuring the Karpenter and Kubernetes objects in such a way is important when using Karpenter on EKS.  
 
 **dotnet-fm-playground**
 
-[dotnet-fm-playground](https://aws-oss.beachgeek.co.uk/3b3) is a .NET MAUI Blazor sample application from my colleague François Bouteruche  showcasing how to leverage Amazon Bedrock from C# code. Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Stability AI, and Amazon via a single API.
+[dotnet-fm-playground](https://github.com/build-on-aws/dotnet-fm-playground) is a .NET MAUI Blazor sample application from my colleague François Bouteruche  showcasing how to leverage Amazon Bedrock from C# code. Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Stability AI, and Amazon via a single API.
 
 ![demo of dotfm playground](https://github.com/build-on-aws/dotnet-fm-playground/blob/main/doc/img/ImagePlayground.png?raw=true)
 
 **amazon-bedrock-with-builder-and-command-patterns**
 
-[amazon-bedrock-with-builder-and-command-patterns](https://aws-oss.beachgeek.co.uk/3b0) is a simple, yet powerful implementation in Java from my colleague Ricardo Ferreira, that allows developers to write a rather straightforward code to create the API requests for the different foundation models supported by Amazon Bedrock.
+[amazon-bedrock-with-builder-and-command-patterns](https://github.com/build-on-aws/amazon-bedrock-with-builder-and-command-patterns) is a simple, yet powerful implementation in Java from my colleague Ricardo Ferreira, that allows developers to write a rather straightforward code to create the API requests for the different foundation models supported by Amazon Bedrock.
 https://github.com/build-on-aws/amazon-bedrock-with-builder-and-command-patterns
 
 **amazon-bedrock-java-examples**
 
-[amazon-bedrock-java-examples](https://aws-oss.beachgeek.co.uk/3b1) is a new repo from another colleague, Dennis Traub, that provides hands-on examples demonstrating the use of the Java SDK for Amazon Bedrock. Make sure you watch this repo as I know Dennis is working hard on growing the number of examples you can learn from and use.
+[amazon-bedrock-java-examples](https://github.com/build-on-aws/amazon-bedrock-java-examples) is a new repo from another colleague, Dennis Traub, that provides hands-on examples demonstrating the use of the Java SDK for Amazon Bedrock. Make sure you watch this repo as I know Dennis is working hard on growing the number of examples you can learn from and use.
 
 **quarkus-bedrock**
 
-[quarkus-bedrock](https://aws-oss.beachgeek.co.uk/3b2) is a new demo repository from colleague Vinicius Senger that provides an example of how to access Amazon Bedrock from a Quarkus application deployed on AWS Lambda as a fat jar app.
+[quarkus-bedrock](https://github.com/vsenger/quarkus-bedrock) is a new demo repository from colleague Vinicius Senger that provides an example of how to access Amazon Bedrock from a Quarkus application deployed on AWS Lambda as a fat jar app.
 
 
 **llm-rag-vectordb-python**
 
-[llm-rag-vectordb-python](https://aws-oss.beachgeek.co.uk/3b5) is the final repo this week from my colleague and regular open source contributor, Suman Debnath that provides sample applications and tutorials demonstrating the prowess of Amazon Bedrock with Python. Learn to integrate Bedrock with databases, use RAG techniques, and showcase experiments with langchain and streamlit.
+[llm-rag-vectordb-python](https://github.com/build-on-aws/llm-rag-vectordb-python) is the final repo this week from my colleague and regular open source contributor, Suman Debnath that provides sample applications and tutorials demonstrating the prowess of Amazon Bedrock with Python. Learn to integrate Bedrock with databases, use RAG techniques, and showcase experiments with langchain and streamlit.
 
 ![show demo screen of llm rag vectordb](https://github.com/build-on-aws/llm-rag-vectordb-python/blob/main/image-generation-node-js-app/img/img-gen.gif?raw=true)
 
@@ -100,19 +100,19 @@ https://github.com/build-on-aws/amazon-bedrock-with-builder-and-command-patterns
 
 **Open Source Databases**
 
-Great post from my colleagues in the open source team, who have put together this weeks must read post. In [Behind the Scenes on AWS Contributions to Open Source Databases](https://aws-oss.beachgeek.co.uk/3a3) Libby Clark, Colleen Betik, and Madelyn Olson look at some of the ways AWS is investing in upstream open source database projects, including Redis, MariaDB, and PostgreSQL to help ensure the long term sustainability of the projects.
+Great post from my colleagues in the open source team, who have put together this weeks must read post. In [Behind the Scenes on AWS Contributions to Open Source Databases](https://aws.amazon.com/blogs/opensource/behind-the-scenes-on-aws-contributions-to-open-source-databases/) Libby Clark, Colleen Betik, and Madelyn Olson look at some of the ways AWS is investing in upstream open source database projects, including Redis, MariaDB, and PostgreSQL to help ensure the long term sustainability of the projects.
 
 **Cloud Native Operational Excellence (CNOE)** 
 
-Platform engineering and developer portals are hot topics these days. In this post [Cloud Native Operational Excellence (CNOE): A Joint Effort to Share Internal Developer Platform Tools and Best Practices](https://aws-oss.beachgeek.co.uk/3a1), Nima Kaviani, Brian Hammons, Manabu McCloskey, and Paul Roberts, look at how organisations have come together to launch an open source initiative for building internal developer platforms (IDPs). Cloud Native Operational Excellence (aka, CNOE, pronounced Kuh.noo) is a joint effort to share developer tooling, thoughts, and patterns to help organisations make informed technology choices and resolve common pain points. Check out the blog post for more details on this.
+Platform engineering and developer portals are hot topics these days. In this post [Cloud Native Operational Excellence (CNOE): A Joint Effort to Share Internal Developer Platform Tools and Best Practices](https://aws.amazon.com/blogs/opensource/cloud-native-operational-excellence-cnoe-a-joint-effort-to-share-internal-developer-platform-tools-and-best-practices/), Nima Kaviani, Brian Hammons, Manabu McCloskey, and Paul Roberts, look at how organisations have come together to launch an open source initiative for building internal developer platforms (IDPs). Cloud Native Operational Excellence (aka, CNOE, pronounced Kuh.noo) is a joint effort to share developer tooling, thoughts, and patterns to help organisations make informed technology choices and resolve common pain points. Check out the blog post for more details on this.
 
-On a related note, Christina Andonov, Boyan Dimitrov, Carlos Santana, and Apoorva Kulkarni published [Enhancing an Internal Developer Platform (IDP) with Crossplane on EKS at SIXT](https://aws-oss.beachgeek.co.uk/3a2), where they share how they were able to improve developer velocity by enhancing their IDP using open source tools.
+On a related note, Christina Andonov, Boyan Dimitrov, Carlos Santana, and Apoorva Kulkarni published [Enhancing an Internal Developer Platform (IDP) with Crossplane on EKS at SIXT](https://aws.amazon.com/blogs/opensource/enhancing-internal-developer-platform-idp-with-crossplane-on-eks-at-sixt/), where they share how they were able to improve developer velocity by enhancing their IDP using open source tools.
 
 ![overview of SIXT IDP architecture](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/09/26/Helm-architecture-diagram-1024x494.png)
 
 **Apache Airflow**
 
-In the post,  [Set up fine-grained permissions for your data pipeline using MWAA and EKS](https://aws-oss.beachgeek.co.uk/3a6),  Ulrich Hinze, Johannes Gunther, and Patrick Oberherr show how you can improve security in a data pipeline architecture based on Amazon Managed Workflows for Apache Airflow (Amazon MWAA) and Amazon Elastic Kubernetes Service (Amazon EKS) by setting up fine-grained permissions. In this example, they use the EksPodOperator within Apache Airflow, as well as showing how you can use XComs to pass information between the tasks. [hands on]
+In the post,  [Set up fine-grained permissions for your data pipeline using MWAA and EKS](https://aws.amazon.com/blogs/big-data/set-up-fine-grained-permissions-for-your-data-pipeline-using-mwaa-and-eks/),  Ulrich Hinze, Johannes Gunther, and Patrick Oberherr show how you can improve security in a data pipeline architecture based on Amazon Managed Workflows for Apache Airflow (Amazon MWAA) and Amazon Elastic Kubernetes Service (Amazon EKS) by setting up fine-grained permissions. In this example, they use the EksPodOperator within Apache Airflow, as well as showing how you can use XComs to pass information between the tasks. [hands on]
 
 ![overview of mwaa and eks pod architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/08/25/BDB-3258-Set-up-fine-grained-permissions-for-your-data-pipeline-using-MWAA-EKS-and-Terraform.png)
 
@@ -120,9 +120,9 @@ In the post,  [Set up fine-grained permissions for your data pipeline using MWAA
 
 Open source your way, means providing customers the choice on how they want to run their open source workloads. Apache Flink is an open-source framework that customers use to run real-time stream processing on high throughput data sources. We recently renamed our managed Apache Flink offering (Managed Service for Apache Flink), but sometimes customers prefer to manage their own Apache Flink workloads. 
 
-This week we have posts and updates for both, starting off with [Financial Services Spotlight – Amazon Managed Service for Apache Flink](https://aws-oss.beachgeek.co.uk/3ao), where Mohan CV, Diego Colombatto, and Muthuvelan Swaminathan share part of a regular monthly spotlight into the Financial Services Industry and looks at some of the use cases where Apache Flink is bringing value, and looking in more details at the Amazon Managed Service for Apache Flink.
+This week we have posts and updates for both, starting off with [Financial Services Spotlight – Amazon Managed Service for Apache Flink](https://aws.amazon.com/blogs/industries/financial-services-spotlight-amazon-managed-service-for-apache-flink/), where Mohan CV, Diego Colombatto, and Muthuvelan Swaminathan share part of a regular monthly spotlight into the Financial Services Industry and looks at some of the use cases where Apache Flink is bringing value, and looking in more details at the Amazon Managed Service for Apache Flink.
 
-Also published last week was [Modernize a legacy real-time analytics application with Amazon Managed Service for Apache Flink](https://aws-oss.beachgeek.co.uk/3ap), where Bhupesh Sharma and Devika Singh look at ways to modernize a legacy, on-premises, real-time analytics architecture and build a serverless data analytics solution on AWS using Amazon Managed Service for Apache Flink [hands on]
+Also published last week was [Modernize a legacy real-time analytics application with Amazon Managed Service for Apache Flink](https://aws.amazon.com/blogs/big-data/modernize-a-legacy-real-time-analytics-application-with-amazon-managed-service-for-apache-flink/), where Bhupesh Sharma and Devika Singh look at ways to modernize a legacy, on-premises, real-time analytics architecture and build a serverless data analytics solution on AWS using Amazon Managed Service for Apache Flink [hands on]
 
 ![opensearch dashboard for apache flink post ](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/09/26/BDB-2261-image011.jpg)
 
@@ -134,7 +134,7 @@ Prior to today’s launch, customers could run self-managed Apache Flink applica
 
 **Powertools for AWS Lambda**
 
-In [Implementing idempotent AWS Lambda functions with Powertools for AWS Lambda (TypeScript)](https://aws-oss.beachgeek.co.uk/3ah), Pascal Vogel explains what idempotency is and how to make your Lambda functions idempotent using the idempotency utility for Powertools for AWS Lambda (TypeScript). [hands on]
+In [Implementing idempotent AWS Lambda functions with Powertools for AWS Lambda (TypeScript)](https://aws.amazon.com/blogs/compute/implementing-idempotent-aws-lambda-functions-with-powertools-for-aws-lambda-typescript/), Pascal Vogel explains what idempotency is and how to make your Lambda functions idempotent using the idempotency utility for Powertools for AWS Lambda (TypeScript). [hands on]
 
 ![overview of idempotency](https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2023/09/19/diagram-2023-09-19-151027-1024x854.png)
 
@@ -142,39 +142,39 @@ In [Implementing idempotent AWS Lambda functions with Powertools for AWS Lambda 
 
 There was a lot of great cloud native content produced over the past couple of weeks, here are my highlights:
 
-* [Operating resilient workloads on Amazon EKS](https://aws-oss.beachgeek.co.uk/3ab) is an essential read this week that helps you build systems that are highly available, fault tolerant, and withstand interruptions to maintain business continuity by understanding and using failover mechanisms [hands on]
+* [Operating resilient workloads on Amazon EKS](https://aws.amazon.com/blogs/containers/operating-resilient-workloads-on-amazon-eks/) is an essential read this week that helps you build systems that are highly available, fault tolerant, and withstand interruptions to maintain business continuity by understanding and using failover mechanisms [hands on]
 
 ![overview of resilience levels infographic](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/08/22/ActivePassive.png)
 
-* [Optimize webSocket applications scaling with API Gateway on Amazon EKS](https://aws-oss.beachgeek.co.uk/3a7) demonstrates how to redesign a web application to achieve auto scaling even for long-running clients, with minimal changes to the original application [hands on]
+* [Optimize webSocket applications scaling with API Gateway on Amazon EKS](https://aws.amazon.com/blogs/containers/optimize-websocket-applications-scaling-with-api-gateway-on-amazon-eks/) demonstrates how to redesign a web application to achieve auto scaling even for long-running clients, with minimal changes to the original application [hands on]
 
 ![overview of architecture of running websocket apps on eks](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/09/29/Architecture-Screenshot.png)
 
-* [Monitor Amazon EKS Control Plane metrics using AWS Open Source monitoring services](https://aws-oss.beachgeek.co.uk/3a8) explains why monitoring the Kubernetes control plane is important and then helps you through the steps to set up monitoring and alerting for Amazon EKS control plane metrics using AWS Distributed OpenTelemetry(ADOT), Amazon Managed Service for Prometheus, and Amazon Managed Grafana [hands on]
+* [Monitor Amazon EKS Control Plane metrics using AWS Open Source monitoring services](https://aws.amazon.com/blogs/mt/monitor-amazon-eks-control-plane-metrics-using-aws-open-source-monitoring-services/) explains why monitoring the Kubernetes control plane is important and then helps you through the steps to set up monitoring and alerting for Amazon EKS control plane metrics using AWS Distributed OpenTelemetry(ADOT), Amazon Managed Service for Prometheus, and Amazon Managed Grafana [hands on]
 
 ![overview of adot to manage eks control plane architecture](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/10/11/Picture1-3.png)
 
-* [How to reduce Istio sidecar metric cardinality with Amazon Managed Service for Prometheus](https://aws-oss.beachgeek.co.uk/3aa) explores strategies for optimising Istio sidecar metrics by streamlining cardinality and effectively managing high-volume data using Amazon Managed Service for Prometheus [hands on]
-* [How to upgrade Amazon EKS worker nodes with Karpenter Drift](https://aws-oss.beachgeek.co.uk/3ad) describes the mechanism for patching Kubernetes worker nodes provisioned with Karpenter through a gated Karpenter feature called Drift [hands on]
-* [Recent changes to the CoreDNS add-on](https://aws-oss.beachgeek.co.uk/3ae) looks at the new features are available in the coredns add-on and how you can use them
-* [Explore etcd Defragmentation in Amazon EKS](https://aws-oss.beachgeek.co.uk/3af) delves into the defragmentation functionality in etcd (the primary data store in Amazon EKS, which stores cluster configuration, state, and metadata) and looks at the intricacies of the process and the strategies to minimise its impact on Amazon EKS components [hands on]
+* [How to reduce Istio sidecar metric cardinality with Amazon Managed Service for Prometheus](https://aws.amazon.com/blogs/mt/how-to-reduce-istio-sidecar-metric-cardinality-with-amazon-managed-service-for-prometheus/) explores strategies for optimising Istio sidecar metrics by streamlining cardinality and effectively managing high-volume data using Amazon Managed Service for Prometheus [hands on]
+* [How to upgrade Amazon EKS worker nodes with Karpenter Drift](https://aws.amazon.com/blogs/containers/how-to-upgrade-amazon-eks-worker-nodes-with-karpenter-drift/) describes the mechanism for patching Kubernetes worker nodes provisioned with Karpenter through a gated Karpenter feature called Drift [hands on]
+* [Recent changes to the CoreDNS add-on](https://aws.amazon.com/blogs/containers/recent-changes-to-the-coredns-add-on/) looks at the new features are available in the coredns add-on and how you can use them
+* [Explore etcd Defragmentation in Amazon EKS](https://aws.amazon.com/blogs/containers/explore-etcd-defragmentation-in-amazon-eks/) delves into the defragmentation functionality in etcd (the primary data store in Amazon EKS, which stores cluster configuration, state, and metadata) and looks at the intricacies of the process and the strategies to minimise its impact on Amazon EKS components [hands on]
 
 **Other posts and quick reads**
 
-* [The Safe SUSE Upgrade: Avoiding Pitfalls When Upgrading AWS Instances](https://aws-oss.beachgeek.co.uk/39x) looks at how to upgrade SUSE Linux Enterprise Server (SLES) to the next service pack and how to perform a major version upgrade from SLES 12 to SLES 15 [hands on]
-* [AWS-LC is now FIPS 140-3 certified](https://aws-oss.beachgeek.co.uk/39z) goes into more detail about the recent Federal Information Processing Standards (FIPS) 140-3 certification awarded by the National Institute for Standards and Technology (NIST) to AWS-LC, an open source cryptographic library 
+* [The Safe SUSE Upgrade: Avoiding Pitfalls When Upgrading AWS Instances](https://aws.amazon.com/blogs/awsforsap/the-safe-suse-upgrade-avoiding-pitfalls-when-upgrading-aws-instances/) looks at how to upgrade SUSE Linux Enterprise Server (SLES) to the next service pack and how to perform a major version upgrade from SLES 12 to SLES 15 [hands on]
+* [AWS-LC is now FIPS 140-3 certified](https://aws.amazon.com/blogs/security/aws-lc-is-now-fips-140-3-certified/) goes into more detail about the recent Federal Information Processing Standards (FIPS) 140-3 certification awarded by the National Institute for Standards and Technology (NIST) to AWS-LC, an open source cryptographic library 
 
 ![a graph that demonstrates the improved latency when using aws-lc](https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2023/09/15/img1-2.png)
 
-* [Start Spring Boot applications faster on AWS Fargate using SOCI](https://aws-oss.beachgeek.co.uk/3a0) dives deep into techniques you can use to optimise your Java applications using SOCI that don’t require you to change a single line of Java code [hands on]
+* [Start Spring Boot applications faster on AWS Fargate using SOCI](https://aws.amazon.com/blogs/containers/start-spring-boot-applications-faster-on-aws-fargate-using-soci/) dives deep into techniques you can use to optimise your Java applications using SOCI that don’t require you to change a single line of Java code [hands on]
 
 ![performance characteristics graph of using soci for java workloads](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/10/04/Spring-boot-results.png)
 
-* [Build event-driven architectures with Amazon MSK and Amazon EventBridge](https://aws-oss.beachgeek.co.uk/3ar) is a hands on guide on how you can use MSK Connect to run the AWS open-sourced Kafka connector for EventBridge, how to configure the connector to forward a Kafka topic to EventBridge, and how to use EventBridge rules to filter and forward events to CloudWatch Logs and a webhook [hands on]
+* [Build event-driven architectures with Amazon MSK and Amazon EventBridge](https://aws.amazon.com/blogs/big-data/build-event-driven-architectures-with-amazon-msk-and-amazon-eventbridge/) is a hands on guide on how you can use MSK Connect to run the AWS open-sourced Kafka connector for EventBridge, how to configure the connector to forward a Kafka topic to EventBridge, and how to use EventBridge rules to filter and forward events to CloudWatch Logs and a webhook [hands on]
 
 ![overview of architecture of event driven kafka](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/09/15/bdb-3462-architecture.png)
 
-* [Amazon MSK Introduces Managed Data Delivery from Apache Kafka to Your Data Lake](https://aws-oss.beachgeek.co.uk/3as) looks at a new capability of Amazon Managed Streaming for Apache Kafka (Amazon MSK) that allows you to continuously load data from an Apache Kafka cluster to Amazon Simple Storage Service (Amazon S3) [hands on]
+* [Amazon MSK Introduces Managed Data Delivery from Apache Kafka to Your Data Lake](https://aws.amazon.com/blogs/aws/amazon-msk-introduces-managed-data-delivery-from-apache-kafka-to-your-data-lake/) looks at a new capability of Amazon Managed Streaming for Apache Kafka (Amazon MSK) that allows you to continuously load data from an Apache Kafka cluster to Amazon Simple Storage Service (Amazon S3) [hands on]
 
 ### Quick updates
 
@@ -202,7 +202,7 @@ There are also several preview features in OpenJDK 21:
 
 **AWS CDK**
 
-A new feature of the CDK cli, *cdk migrate* caught my eye this week. This new cli option allows you to generate CDK apps, in Python and TypeScript, from existing CloudFormation code. There are some caveats and limitations, so make sure you check out the details. Certainly something I am going to try out and see how useful it is. Read more by checking out the PR in the project repo, [cdk migrate](https://aws-oss.beachgeek.co.uk/39k)
+A new feature of the CDK cli, *cdk migrate* caught my eye this week. This new cli option allows you to generate CDK apps, in Python and TypeScript, from existing CloudFormation code. There are some caveats and limitations, so make sure you check out the details. Certainly something I am going to try out and see how useful it is. Read more by checking out the PR in the project repo, [cdk migrate](https://github.com/aws/aws-cdk/pull/27325)
 
 **Amazon Linux**
 
@@ -219,9 +219,9 @@ We had a few updates this week to share.
 
 Amazon EKS Extended Support for Kubernetes Versions is now available in preview. Starting with Kubernetes v1.23, you can now use a Kubernetes version for up to 26 months from the time the version is generally available from Amazon EKS. Amazon EKS follows the Kubernetes project release cycle. For the first 14 months after a minor version is released as generally available, it is covered under standard support. Now, Amazon EKS Extended Support gives an 12 additional months of support for each Kubernetes minor version, for a total of 26 months of support. During the Extended Support period, Amazon EKS will continue to provide security patches for the Kubernetes control plane. In addition, Amazon EKS will release critical patches for the Amazon VPC CNI, kube-proxy, and CoreDNS add-ons, AWS-published EKS Optimized AMIs for Amazon Linux and Bottlerocket, and EKS Fargate nodes. Amazon EKS Extended Support for Kubernetes versions is available in preview starting with Kubernetes version 1.23 in all AWS commercial regions. Clusters automatically enter Extended Support, so there is no additional action you need to take for your EKS clusters running version 1.23 or higher. 
 
-Check out [Amazon EKS extended support for Kubernetes versions available in preview](https://aws-oss.beachgeek.co.uk/39o), where Arnav Mediratta provides more info for you.
+Check out [Amazon EKS extended support for Kubernetes versions available in preview](https://aws.amazon.com/blogs/containers/amazon-eks-extended-support-for-kubernetes-versions-available-in-preview/), where Arnav Mediratta provides more info for you.
 
-On a related note was [Amazon EKS now supports Kubernetes version 1.28](https://aws-oss.beachgeek.co.uk/39p), where Leah Tucker and Sheetal Joshi walk you through everything you need to know.
+On a related note was [Amazon EKS now supports Kubernetes version 1.28](https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-28/), where Leah Tucker and Sheetal Joshi walk you through everything you need to know.
 
 **cdk8s**
 
@@ -253,13 +253,13 @@ There have been a few important updates over the past couple of weeks.
 
 First up is news that AWS Amplify announced an AWS Cloud Development Kit (CDK) construct for building GraphQL APIs backed by data sources such as Amazon DynamoDB tables or AWS Lambda functions using a single GraphQL schema definition. Launching an API for application frontends requires developers to author thousands of lines of repetitive, undifferentiated code to build and wire together API endpoints, custom business logic, and data sources. AWS Amplify removes this heavy-lifting by allowing developers to define their application data model in a single definition file and automatically generate the required AWS cloud resources to support common API operations like create, update, list, read, subscribe, and delete for their data sources. Today, we’re extending this capability, previously only available using the Amplify CLI to AWS CDK.  With the new Amplify GraphQL API construct, CDK developers can simply define their data model in the GraphQL Schema Definition Language and enhance them with “directives” to generate accompanying data sources, such as DynamoDB tables (“@model”), Lambda functions (“@function”), or OpenSearch clusters (“@searchable”). The CDK construct has full feature parity with the existing GraphQL Transformer capabilities in the Amplify CLI. Developers can also secure their API and data using the “@auth” directive that provides deny-by-default authorisation, as well as the ability to configure global, model-level, and field-level authorisation rules. The new CDK construct is fully extensible as well with capabilities to access and customise all resources generated by Amplify from within their CDK code.
 
-You can dive deeper by reading the post from Rene Brandel, [NEW AWS Amplify GraphQL API CDK construct: deploy a real-time GraphQL API and data stack on AWS](https://aws-oss.beachgeek.co.uk/39m)
+You can dive deeper by reading the post from Rene Brandel, [NEW AWS Amplify GraphQL API CDK construct: deploy a real-time GraphQL API and data stack on AWS](https://aws.amazon.com/blogs/mobile/announcing-aws-amplifys-graphql-api-cdk-construct-deploy-real-time-graphql-api-and-data-stack-on-aws/)
 
 Following that was the announcement of the developer preview of the AWS Amplify JavaScript Library v6 which includes reduced bundle sizes, richer TypeScript support, and integrations with Next.js server-side features. The AWS Amplify JavaScript Library enables frontend developers to connect their web and React Native apps to AWS cloud backends. In this developer preview, Amplify JavaScript now offers richer TypeScript support for the Auth, Analytics, and Storage categories. Apps using this developer preview will be served with smaller bundle sizes. Amplify JavaScript v6 also introduces an integration with Next.js server-side features such as App Router, Middleware, API routes, and server functions. With this developer preview, you can build web apps leveraging improved TypeScript interfaces for a more intuitive development experience, including syntax highlighting, code completion, and type checking. The smaller bundle sizes served make your web apps load faster. This version allows Amplify JavaScript to be used in Next.js apps client-side or server-side, such as in Middleware, API routes, and with the new App Router.
 
-Rene has you covered again, writing [AWS Amplify JavaScript’s NEW developer preview with reduced bundle size, improved TypeScript and Next.js support](https://aws-oss.beachgeek.co.uk/39n) to dive deeper into this.
+Rene has you covered again, writing [AWS Amplify JavaScript’s NEW developer preview with reduced bundle size, improved TypeScript and Next.js support](https://aws.amazon.com/blogs/mobile/aws-amplify-javascripts-new-developer-preview-with-reduced-bundle-sizes-improved-typescript-and-next-js-support/) to dive deeper into this.
 
-The final AWS Amplify update this week comes from Wesley and Danny Banks who have written, [AWS Amplify UI: 10 new and updated components](https://aws-oss.beachgeek.co.uk/39q) who walk you over some of the new and updated components that you can use within your AWS Amplify applications.
+The final AWS Amplify update this week comes from Wesley and Danny Banks who have written, [AWS Amplify UI: 10 new and updated components](https://aws.amazon.com/blogs/mobile/aws-amplify-ui-10-new-and-updated-components/) who walk you over some of the new and updated components that you can use within your AWS Amplify applications.
 
 ### Videos of the week
 
@@ -298,32 +298,32 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **All Things Open**
 **October, 15th-17th, Raleigh Convention Center, Raleigh, North Carolina**
 
-I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://aws-oss.beachgeek.co.uk/31e)
+I will be attending and speaking at All Things Open, looking at Apache Airflow as an container orchestrator. I will be there with a bunch of fellow AWS colleagues, and I hope to meet some of you there. Check us out at the AWS booth, where you will find me and the other AWS folk throughout the event. Check out the event and sessions/speakers at the official webpage for the event, [AllThingsOpen 2023](https://2023.allthingsopen.org)
 
 **RabbitMQ Summit**
 **October 20th, Estrel Congress Center Berlin, Germany**
 
 If you are using RabbitMQ, or perhaps thinking and evaluating it, make sure you check out the RabbitMQ Summit happening in Berlin in October. This event will bring together experts and sessions covering everything you ever wanted to know about this open source project.
 
-Find out more by checking out the event webpage, [RabbitMQ Summit](https://aws-oss.beachgeek.co.uk/39i).
+Find out more by checking out the event webpage, [RabbitMQ Summit](https://www.rabbitmqsummit.com/).
 
 
 **Open Source India**
 **October 19th-21st, NIMHANS Convention Center, Bengaluru**
 
-One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://aws-oss.beachgeek.co.uk/31d).
+One of the most important open source events in the region, Open Source India will be welcoming thousands of attendees all to discuss and learn about open source technologies. I will be there too, doing a talk so I would love to meet with any of you who are also planning on attending. Check out more details on their web page, [here](https://www.opensourceindia.in).
  
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

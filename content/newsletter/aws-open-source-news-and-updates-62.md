@@ -13,11 +13,11 @@ Before diving in, make sure you check out these two end of life announcements if
 
 **Python 2.7 and Lambda**
 
-[Announcing end of support for Python 2.7 in AWS Lambda](https://aws-oss.beachgeek.co.uk/c5) Jonathan Tuliani shares something that everyone should be aware of. On July 15, 2021, AWS Lambda will deprecate Python 2.7 as a supported runtime, formally ending our Python 2.7 support. The post provides details of this announcement as well as providing you with answers to the most common questions and providing some things you should be thinking about. Essential reading if you think you might have any Python 2.7 code out there.
+[Announcing end of support for Python 2.7 in AWS Lambda](https://aws.amazon.com/blogs/compute/announcing-end-of-support-for-python-2-7-in-aws-lambda/) Jonathan Tuliani shares something that everyone should be aware of. On July 15, 2021, AWS Lambda will deprecate Python 2.7 as a supported runtime, formally ending our Python 2.7 support. The post provides details of this announcement as well as providing you with answers to the most common questions and providing some things you should be thinking about. Essential reading if you think you might have any Python 2.7 code out there.
 
 **.NET Core**
 
-[.NET Standard 1.3 is no longer supported in AWS SDK for .NET version 3.7](https://aws-oss.beachgeek.co.uk/cb) Alex Shovlin provides a quick update on this announcement for old, non supported versions of .NET Core 1.0 to 1.3 and the corresponding AWS SDK for .NET. A reminder of what to do with recommendations so check this out.
+[.NET Standard 1.3 is no longer supported in AWS SDK for .NET version 3.7](https://aws.amazon.com/blogs/developer/net-standard-1-3-is-no-longer-supported-in-aws-sdk-for-net-version-3-7/) Alex Shovlin provides a quick update on this announcement for old, non supported versions of .NET Core 1.0 to 1.3 and the corresponding AWS SDK for .NET. A reminder of what to do with recommendations so check this out.
 
 ### Celebrating open source contributors
 
@@ -31,7 +31,7 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **ecsgo**
 
-[ecsgo](https://aws-oss.beachgeek.co.uk/ck) a first open source project is to be treasured, so I loved this from Ed Smith, creator of ecsgo, around the motivation for this project he wrote:
+[ecsgo](https://github.com/tedsmitt/ecsgo) a first open source project is to be treasured, so I loved this from Ed Smith, creator of ecsgo, around the motivation for this project he wrote:
 > Off the back of the recently announced ECS Exec, I realised I'd be using this a lot as it significantly improves troubleshooting and will make re-platforming to FARGATE a lot easier.
 >
 >I decided to make (yet another) CLI tool which makes selecting a task/container to connect to a little bit easier. The idea was very much inspired by gossm which I also use extensively, and have contributed to.
@@ -43,21 +43,21 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **Trapdoor**
 
-[Trapdoor](https://aws-oss.beachgeek.co.uk/cj) this project from 3CORESec is an AWS Serverless Application meant to create and alert on [honeyTokens](https://aws-oss.beachgeek.co.uk/cl). They have helpfully created a blog post so you can find out more, [Trapdoor - The serverless HTTP honeypot](https://aws-oss.beachgeek.co.uk/cm) and the documentation and examples provided are very clear and you should be able to get this up and running in no time.
+[Trapdoor](https://github.com/3CORESec/Trapdoor) this project from 3CORESec is an AWS Serverless Application meant to create and alert on [honeyTokens](https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=74450cf5-2f11-48c5-8d92-4687f5978988&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments). They have helpfully created a blog post so you can find out more, [Trapdoor - The serverless HTTP honeypot](https://blog.3coresec.com/2021/03/trapdoor-serverless-http-honeypot.html) and the documentation and examples provided are very clear and you should be able to get this up and running in no time.
 
 **aws-workbench**
 
-[aws-workbench](https://aws-oss.beachgeek.co.uk/ci) this looks like a super interesting project from RKVS Raman, that introduced a new term I had not heard of before - ArchOps. I guess those Architects were feeling left out of the Ops party, and this tool, which leverages a number of open source tools such as Eclipse, AWS CDK and others, provides a visual editor that allows you to think about how you design and deploy AWS Services. Great documentation, this is a project that deserves a proper sit down and exploration with a cup of your favourite beverage.
+[aws-workbench](https://aws-workbench.github.io/) this looks like a super interesting project from RKVS Raman, that introduced a new term I had not heard of before - ArchOps. I guess those Architects were feeling left out of the Ops party, and this tool, which leverages a number of open source tools such as Eclipse, AWS CDK and others, provides a visual editor that allows you to think about how you design and deploy AWS Services. Great documentation, this is a project that deserves a proper sit down and exploration with a cup of your favourite beverage.
 
 ![arch](https://aws-workbench.github.io/images/getting-started-images/workflow.png)
 
 **terraform-aws-eventbridge**
 
-[terraform-aws-eventbridge](https://aws-oss.beachgeek.co.uk/ch) if you are using Terraform, this new module is something you will like from Sven Lito and Anton Babenko. This Terraform module adds capability to create EventBridge resources. The module currently supports Cloudwatch Event Archive, Cloudwatch Event Bus, Cloudwatch Event Permission, Cloudwatch Event Rule and Cloudwatch Event Target.
+[terraform-aws-eventbridge](https://github.com/terraform-aws-modules/terraform-aws-eventbridge) if you are using Terraform, this new module is something you will like from Sven Lito and Anton Babenko. This Terraform module adds capability to create EventBridge resources. The module currently supports Cloudwatch Event Archive, Cloudwatch Event Bus, Cloudwatch Event Permission, Cloudwatch Event Rule and Cloudwatch Event Target.
 
 **aws-devops-monitoring-dashboard**
 
-[aws-devops-monitoring-dashboard](https://aws-oss.beachgeek.co.uk/cg) this is a new open sourced AWS solution that automates the process of ingesting, analysing, and visualising continuous integration/continuous delivery (CI/CD) metrics. These metrics are displayed in Amazon QuickSight dashboards to help DevOps leaders measure the impact of their DevOps initiatives and make data-driven decisions to drive continuous improvement in their development teams.
+[aws-devops-monitoring-dashboard](https://github.com/awslabs/aws-devops-monitoring-dashboard) this is a new open sourced AWS solution that automates the process of ingesting, analysing, and visualising continuous integration/continuous delivery (CI/CD) metrics. These metrics are displayed in Amazon QuickSight dashboards to help DevOps leaders measure the impact of their DevOps initiatives and make data-driven decisions to drive continuous improvement in their development teams.
 
 ![arch](https://d1.awsstatic.com/Solutions/Solutions%20Category%20Template%20Draft/Solution%20Architecture%20Diagrams/aws-devops-monitoring-dashboard-architecture-diagram.d6d4eaebd6bb2fa199ab8444067018c088f9950a.png)
 
@@ -65,19 +65,19 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **Bottlerocket**
 
-[Kubernetes, How To - AWS Bottlerocket + AWS EKS](https://aws-oss.beachgeek.co.uk/cn) this post from Michael Cade takes a look at Bottlerocket and getting started using it with Amazon EKS. 
+[Kubernetes, How To - AWS Bottlerocket + AWS EKS](https://vzilla.co.uk/vzilla-blog/kubernetes-how-to-aws-bottlerocket-amazon-eks) this post from Michael Cade takes a look at Bottlerocket and getting started using it with Amazon EKS. 
 
 **AWS CDK**
 
 A couple of posts this week, apt with CDK Day rapidly approaching, so you should expect a flurry of great content. 
 
-Starting off this week we have Phillip Ninan with [5 Reasons to Use AWS CDK!](https://aws-oss.beachgeek.co.uk/cd) - what only 5 :-) It is a short post, so why not check out these five reasons and see if they are enough to get you started.
+Starting off this week we have Phillip Ninan with [5 Reasons to Use AWS CDK!](https://blog.phillipninan.com/5-reasons-to-use-aws-cdk) - what only 5 :-) It is a short post, so why not check out these five reasons and see if they are enough to get you started.
 
-Following that we have [CD-Okay that's how you do custom resources](https://aws-oss.beachgeek.co.uk/co) from Jake Hendy who takes a look at AWS CDK custom resources. If you are familiar with custom resources from AWS CloudFormation, then Jakes shows you how these are different before diving deep and showing you how you can look to get even more value from custom resources. 
+Following that we have [CD-Okay that's how you do custom resources](https://jakehendy.com/2021/03/23/CDK-Custom-Resources/) from Jake Hendy who takes a look at AWS CDK custom resources. If you are familiar with custom resources from AWS CloudFormation, then Jakes shows you how these are different before diving deep and showing you how you can look to get even more value from custom resources. 
 
 **Machine Learning**
 
-This blog post, [AWS ML Community showcase: March 2021 edition](https://aws-oss.beachgeek.co.uk/cp) from Cameron Peron has a number of great projects from the AWS ML community that you can try out for yourself, including the really incredible and inspirational project around helping your toddlers to soar like a bird. Several of these projects provide source code so you can try and get these up and running for yourself. Pretty amazing stuff from the AWS ML Community.
+This blog post, [AWS ML Community showcase: March 2021 edition](https://aws.amazon.com/blogs/machine-learning/aws-ml-community-showcase-march-2021-edition/) from Cameron Peron has a number of great projects from the AWS ML community that you can try out for yourself, including the really incredible and inspirational project around helping your toddlers to soar like a bird. Several of these projects provide source code so you can try and get these up and running for yourself. Pretty amazing stuff from the AWS ML Community.
 
 ![bird](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2021/03/26/Header.jpg)
 
@@ -85,7 +85,7 @@ This blog post, [AWS ML Community showcase: March 2021 edition](https://aws-oss.
 
 **FluxCD**
 
-If you are interested in GitOps, then César Prieto Ballester has a post that you will want to check out. [CI/CD on Amazon EKS using AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, and FluxCD](https://aws-oss.beachgeek.co.uk/c6) will help you to speed up the development of your Kubernetes infrastructure by using a continuous integration (CI) pipeline to build your Docker images and automatically deploy them to Amazon Elastic Kubernetes Service (Amazon EKS) cluster using FluxCD and the GitOps philosophy. Flux is an open source tool that automatically ensures that the state of a cluster matches the config in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
+If you are interested in GitOps, then César Prieto Ballester has a post that you will want to check out. [CI/CD on Amazon EKS using AWS CodeCommit, AWS CodePipeline, AWS CodeBuild, and FluxCD](https://aws.amazon.com/blogs/devops/ci-cd-on-amazon-eks-using-aws-codecommit-aws-codepipeline-aws-codebuild-and-fluxcd/) will help you to speed up the development of your Kubernetes infrastructure by using a continuous integration (CI) pipeline to build your Docker images and automatically deploy them to Amazon Elastic Kubernetes Service (Amazon EKS) cluster using FluxCD and the GitOps philosophy. Flux is an open source tool that automatically ensures that the state of a cluster matches the config in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
 
 Cesar takes a look at how you can deploy the infrastructure needed using AWS CDK, and it is good to see Python being used. Full source code is available so you can build your own GitOps CI/CD pipeline and then tell all your friends about it!
 
@@ -93,13 +93,13 @@ Cesar takes a look at how you can deploy the infrastructure needed using AWS CDK
 
 **Jenkins via Terraform**
 
-[Building a serverless Jenkins environment on AWS Fargate](https://aws-oss.beachgeek.co.uk/ce) this post from Krithivasan Balasubramaniyan is walk you through how to set up a completely serverless Jenkins environment on AWS Fargate using Terraform. Jenkins is a popular open-source automation server that enables developers around the world to reliably build, test, and deploy their software, and Terraform is an open-source infrastructure as code software tool from HashiCorp. Using Terraform to build a Jenkins environment via serverless technology sounds like a great combination, so to find out more, read on.
+[Building a serverless Jenkins environment on AWS Fargate](https://aws.amazon.com/blogs/devops/building-a-serverless-jenkins-environment-on-aws-fargate/) this post from Krithivasan Balasubramaniyan is walk you through how to set up a completely serverless Jenkins environment on AWS Fargate using Terraform. Jenkins is a popular open-source automation server that enables developers around the world to reliably build, test, and deploy their software, and Terraform is an open-source infrastructure as code software tool from HashiCorp. Using Terraform to build a Jenkins environment via serverless technology sounds like a great combination, so to find out more, read on.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2021/03/24/Jenkins.jpg)
 
 **AWS Greengrass/Amazon SageMaker Neo**
 
-Yuxin Yang and Ryan Vanderwerf have collaborated on a new blog post, [Using AWS IoT Greengrass Version 2 with Amazon SageMaker Neo and NVIDIA DeepStream Applications](https://aws-oss.beachgeek.co.uk/cf) that shows you a couple of ways you can use AWS Greengrass v2 (an Internet of Things open source edge runtime and cloud service that helps you build, deploy, and manage device software) to build on the NVIDIA Jetson devices. The post also uses another open source project, Amazon SageMaker NEO, that helps you to optimise your machine learning models for edge devices.
+Yuxin Yang and Ryan Vanderwerf have collaborated on a new blog post, [Using AWS IoT Greengrass Version 2 with Amazon SageMaker Neo and NVIDIA DeepStream Applications](https://aws.amazon.com/blogs/iot/using-aws-iot-greengrass-version-2-with-amazon-sagemaker-neo-and-nvidia-deepstream-applications/) that shows you a couple of ways you can use AWS Greengrass v2 (an Internet of Things open source edge runtime and cloud service that helps you build, deploy, and manage device software) to build on the NVIDIA Jetson devices. The post also uses another open source project, Amazon SageMaker NEO, that helps you to optimise your machine learning models for edge devices.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2021/03/26/architecture-integration-between-aws-iot-greengrass-v2-and-nvidia-jetson-modules.png)
 
@@ -107,19 +107,19 @@ Source code and project walkthrough provided in the post.
 
 **Jupyter**
 
-[How and why AWS contributes to Jupyter](https://aws-oss.beachgeek.co.uk/c9) Matt Asay with a great post on the story of Jupyter, the open source project widely used in data science, machine learning, and scientific computing. There is so much more to this project though, and whether you use Jupyter or not, dip your toes into this post and enjoy the ride. These posts are useful for helping you understand the different journeys that open source projects take, and some of the themes talked about might resonate with you.
+[How and why AWS contributes to Jupyter](https://aws.amazon.com/blogs/opensource/how-and-why-aws-contributes-to-jupyter/) Matt Asay with a great post on the story of Jupyter, the open source project widely used in data science, machine learning, and scientific computing. There is so much more to this project though, and whether you use Jupyter or not, dip your toes into this post and enjoy the ride. These posts are useful for helping you understand the different journeys that open source projects take, and some of the themes talked about might resonate with you.
 
 **Hugging Face**
 
-I posted a few weeks ago the great open source backstory to Hugging Face. This week we had a couple of blog posts that added to that story. First up we have [Hugging Face and AWS partner to bring over 7,000 NLP models to Amazon SageMaker with accelerated inference and distributed training](https://aws-oss.beachgeek.co.uk/c7), with the announcement of Hugging Face has selected AWS as its preferred cloud provider. Hugging Face recently introduced AutoNLP and the Accelerated Inference API, new hosted services built on AWS using Amazon SageMaker, that makes it easy to quickly build, train, and deploy ML models in the cloud and at the edge.
+I posted a few weeks ago the great open source backstory to Hugging Face. This week we had a couple of blog posts that added to that story. First up we have [Hugging Face and AWS partner to bring over 7,000 NLP models to Amazon SageMaker with accelerated inference and distributed training](https://aws.amazon.com/blogs/startups/hugging-face-and-aws-democratizing-natural-language-processing-for-businesses-and-developers-worldwide/), with the announcement of Hugging Face has selected AWS as its preferred cloud provider. Hugging Face recently introduced AutoNLP and the Accelerated Inference API, new hosted services built on AWS using Amazon SageMaker, that makes it easy to quickly build, train, and deploy ML models in the cloud and at the edge.
 
-Following that we have Julien Simon diving deep in [AWS and Hugging Face Collaborate to Simplify and Accelerate Adoption of Natural Language Processing Models](https://aws-oss.beachgeek.co.uk/c8) where Julien walks you through how to get started with Hugging Face models using Amazon SageMaker. If that was not enough, Julien also created a video on his channel (make sure you subscribe, he always has plenty of great open source projects he uses and talks about).
+Following that we have Julien Simon diving deep in [AWS and Hugging Face Collaborate to Simplify and Accelerate Adoption of Natural Language Processing Models](https://aws.amazon.com/blogs/machine-learning/aws-and-hugging-face-collaborate-to-simplify-and-accelerate-adoption-of-natural-language-processing-models/) where Julien walks you through how to get started with Hugging Face models using Amazon SageMaker. If that was not enough, Julien also created a video on his channel (make sure you subscribe, he always has plenty of great open source projects he uses and talks about).
 
 {% youtube leyrCgLAGjM %}
 
 **Prometheus**
 
-[Metrics collection from Amazon ECS using Amazon Managed Service for Prometheus](https://aws-oss.beachgeek.co.uk/ca) Viji Sarathy and Imaya Kumar Jagannathan present a blog post and ready to roll solution that will enable customers to deploy Prometheus server on an Amazon ECS cluster, dynamically discover the set of services to collect metrics from, and send the metrics to AMP for subsequent query and visualisation as well as long-term storage.
+[Metrics collection from Amazon ECS using Amazon Managed Service for Prometheus](https://aws.amazon.com/blogs/opensource/metrics-collection-from-amazon-ecs-using-amazon-managed-service-for-prometheus/) Viji Sarathy and Imaya Kumar Jagannathan present a blog post and ready to roll solution that will enable customers to deploy Prometheus server on an Amazon ECS cluster, dynamically discover the set of services to collect metrics from, and send the metrics to AMP for subsequent query and visualisation as well as long-term storage.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2021/03/12/ijaganna_Prometheus-Metrics_f2.png)
 
@@ -127,35 +127,35 @@ This is a really nice post, so make sure you check it out.
 
 **GraphiQL**
 
-[Explore AWS AppSync APIs with GraphiQL from your local machine](https://aws-oss.beachgeek.co.uk/c4) is a great post from Eduardo Rabelo, where he shows you how you can inspect from your local browser a GraphQL schema and prototype queries from your local machine using a local GraphiQL instance. Eduardo shows you how you can use this to improve your local developer setup.
+[Explore AWS AppSync APIs with GraphiQL from your local machine](https://aws.amazon.com/blogs/mobile/appsync-graphiql-local/) is a great post from Eduardo Rabelo, where he shows you how you can inspect from your local browser a GraphQL schema and prototype queries from your local machine using a local GraphiQL instance. Eduardo shows you how you can use this to improve your local developer setup.
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2021/03/23/GraphiQL4.png)
 
 **PennyLane**
 
-[Working with PennyLane for variational quantum algorithms and quantum machine learning](https://aws-oss.beachgeek.co.uk/cc) Eric Kessler with a quick update on the work we are doing with the open source team at PennyLane to support the goal of building better tools for developers and researchers by combining ideas from ML and quantum computing.
+[Working with PennyLane for variational quantum algorithms and quantum machine learning](https://aws.amazon.com/blogs/quantum-computing/pennylane-quantum-machine-learning/) Eric Kessler with a quick update on the work we are doing with the open source team at PennyLane to support the goal of building better tools for developers and researchers by combining ideas from ML and quantum computing.
 
 **OpenSCAP**
 
-[How to automate SCAP testing with AWS Systems Manager and Security Hub](https://aws-oss.beachgeek.co.uk/c1) John Trollinger takes a look at how to automate OpenSCAP to improve your view of your IT systems’ compliance status. OpenSCAP is an open-source NIST-certified security and compliance tool and uses the Security Content Automation Protocol (SCAP) to automate continuous monitoring, vulnerability management, and reporting of security policy compliance data.
+[How to automate SCAP testing with AWS Systems Manager and Security Hub](https://aws.amazon.com/blogs/security/how-to-automate-scap-testing-with-aws-systems-manager-and-security-hub/) John Trollinger takes a look at how to automate OpenSCAP to improve your view of your IT systems’ compliance status. OpenSCAP is an open-source NIST-certified security and compliance tool and uses the Security Content Automation Protocol (SCAP) to automate continuous monitoring, vulnerability management, and reporting of security policy compliance data.
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2021/03/19/Automate-SCAP-testing-2021-1-1.png)
 
 **Elasticsearch**
 
-[Introducing Auto-Tune in Amazon ES](https://aws-oss.beachgeek.co.uk/c3) Vigya Sharma, Joydeep Sinha, Balaji Kannan, Karthik Mohanasundaram, and Paul White talk about a new innovation available to customers of Amazon Elasticsearch Service that is powered by the Open Distro for Elasticsearch Performance Analyser plugin, which provides fine-grained metrics from OS, JVM, and the Elasticsearch cluster. In this post, you will learn how this new capability can helps to automatically optimise resources in Elasticsearch clusters to improve its performance and availability. 
+[Introducing Auto-Tune in Amazon ES](https://aws.amazon.com/blogs/big-data/introducing-auto-tune-in-amazon-es/) Vigya Sharma, Joydeep Sinha, Balaji Kannan, Karthik Mohanasundaram, and Paul White talk about a new innovation available to customers of Amazon Elasticsearch Service that is powered by the Open Distro for Elasticsearch Performance Analyser plugin, which provides fine-grained metrics from OS, JVM, and the Elasticsearch cluster. In this post, you will learn how this new capability can helps to automatically optimise resources in Elasticsearch clusters to improve its performance and availability. 
 
 ![memory](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/03/23/bdb1335-auto-tune-es-6.jpg)
 
 **OBS**
 
-[Streaming video to AWS Elemental MediaConnect using Zixi SDK](https://aws-oss.beachgeek.co.uk/by) don't miss this three part series from Arturo Velasco and Katreena Mullican that show you how you can integrate some cool open source projects (ffmpeg and [OBS - Open Broadcast Software](https://aws-oss.beachgeek.co.uk/bz)) with Zixi and AWS services such as AWS Elemental using the Zixi SDK for AWS Elemental MediaConnect. This series will help you install and configure OBS Studio and Zixi-MediaConnect on a local system, create an encrypted MediaConnect flow, and then stream a local VOD asset to Zixi Player on end user mobile devices.
+[Streaming video to AWS Elemental MediaConnect using Zixi SDK](https://aws.amazon.com/blogs/media/awse-part-1-streaming-video-aws-elemental-mediaconnect-using-zixi-sdk/) don't miss this three part series from Arturo Velasco and Katreena Mullican that show you how you can integrate some cool open source projects (ffmpeg and [OBS - Open Broadcast Software](https://obsproject.com/)) with Zixi and AWS services such as AWS Elemental using the Zixi SDK for AWS Elemental MediaConnect. This series will help you install and configure OBS Studio and Zixi-MediaConnect on a local system, create an encrypted MediaConnect flow, and then stream a local VOD asset to Zixi Player on end user mobile devices.
 
 **VS Code**
 
 The AWS Toolkit for Visual Studio Code is an open source plug-in for the Visual Studio Code that makes it easier to create, debug, and deploy applications on Amazon Web Services. The toolkit provides an integrated experience for navigating AWS resources (e.g., S3, CloudWatch Logs), developing serverless applications, including assistance for getting started, step-through debugging, and deploying from the IDE. 
 
-A new release of the AWS Toolkit for VS Code means customers can use federated credentials, MFA and AWS Single Sign-On (AWS SSO) to connect Visual Studio Code to AWS. Using AWS SSO, users can sign in to their organization’s Active Directory, a built-in AWS SSO directory, or another external identity provider (IdP) connected to AWS SSO. Regardless of which IdP you use, AWS SSO abstracts those distinctions away, and they all work with the AWS Toolkit, as explained in this short blog post from Garret Sweetwood, [Introducing AWS SSO support in the AWS Toolkit for VS Code](https://aws-oss.beachgeek.co.uk/bv) will help you get started.
+A new release of the AWS Toolkit for VS Code means customers can use federated credentials, MFA and AWS Single Sign-On (AWS SSO) to connect Visual Studio Code to AWS. Using AWS SSO, users can sign in to their organization’s Active Directory, a built-in AWS SSO directory, or another external identity provider (IdP) connected to AWS SSO. Regardless of which IdP you use, AWS SSO abstracts those distinctions away, and they all work with the AWS Toolkit, as explained in this short blog post from Garret Sweetwood, [Introducing AWS SSO support in the AWS Toolkit for VS Code](https://aws.amazon.com/blogs/developer/introducing-aws-sso-support-in-the-aws-toolkit-for-vs-code/) will help you get started.
 
 ### Quick updates
 
@@ -181,17 +181,17 @@ Containers have proven popular with AWS and Red Hat customers because they incre
 
 With ROSA, customers can quickly and easily create Kubernetes clusters using familiar Red Hat OpenShift APIs and tooling, and seamlessly access to the full breadth and depth of AWS services, all from within the AWS console. Furthermore, ROSA maintains key compliance validations customers rely on with OpenShift Container Platform, including SOC-2, ISO-27001 and PCI.
 
-For more details, including a look at the ROSA cli and how to get started, check out this blog post from Ryan Niksch, [What’s new with Red Hat OpenShift Service on AWS](https://aws-oss.beachgeek.co.uk/c0).
+For more details, including a look at the ROSA cli and how to get started, check out this blog post from Ryan Niksch, [What’s new with Red Hat OpenShift Service on AWS](https://aws.amazon.com/blogs/containers/whats-new-red-hat-openshift-service-on-aws/).
 
 **OpenTelemetry**
 
-AWS Distro for OpenTelemetry (ADOT) 0.8.0 is now available with StatsD support in the Collector and stable Java 1.0 support with an auto-instrumentation agent for observing your Java applications. Alolita Sharma and Nizar Tyrewalla share more details in the post, [AWS Distro for OpenTelemetry adds StatsD and Java support](https://aws-oss.beachgeek.co.uk/c2) 
+AWS Distro for OpenTelemetry (ADOT) 0.8.0 is now available with StatsD support in the Collector and stable Java 1.0 support with an auto-instrumentation agent for observing your Java applications. Alolita Sharma and Nizar Tyrewalla share more details in the post, [AWS Distro for OpenTelemetry adds StatsD and Java support](https://aws.amazon.com/blogs/opensource/aws-distro-for-opentelemetry-adds-statsd-and-java-support/) 
 
 ### Videos of the week
 
 **k8gb - creating global load balancers for your Kubernetes applications**
 
-This week, another great session from the Containers from the Couch team, this time Justin Garrison and Yury Tsarev show you how you can create hlobal Kubernetes load balancer with the open source project, [k8gb](https://aws-oss.beachgeek.co.uk/bx).
+This week, another great session from the Containers from the Couch team, this time Justin Garrison and Yury Tsarev show you how you can create hlobal Kubernetes load balancer with the open source project, [k8gb](https://github.com/AbsaOSS/k8gb).
 
 {% youtube 5pe3ezSnVI8 %} 
 
@@ -200,7 +200,7 @@ This week, another great session from the Containers from the Couch team, this t
 **CDK Day**
 **April 30th**
 
-Announced this week was the second [CDK Day](https://sessionize.com/cdkday/), which will be on April 30th. Check out [the web page](https://sessionize.com/cdkday/) to find out more about the first CDK Day, which was incredible. This second event promises to be even better. The CFP is open until the 19th of March. Check out this supporting blog post, [CDK Day CFP Is Open!!!!](https://aws-oss.beachgeek.co.uk/4v) from Matt as to what to expect and what they are looking for when it comes to sessions.
+Announced this week was the second [CDK Day](https://sessionize.com/cdkday/), which will be on April 30th. Check out [the web page](https://sessionize.com/cdkday/) to find out more about the first CDK Day, which was incredible. This second event promises to be even better. The CFP is open until the 19th of March. Check out this supporting blog post, [CDK Day CFP Is Open!!!!](https://dev.to/nideveloper/cdk-day-cfp-is-open-4jcm) from Matt as to what to expect and what they are looking for when it comes to sessions.
 
 **Cloud Native Rust Day**
 **May 3rd**

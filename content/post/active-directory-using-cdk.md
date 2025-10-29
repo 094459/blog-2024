@@ -66,7 +66,7 @@ You will need to update:
 
 Once saved, you are ready to go. There are two stacks, a VPC which configures a set of subnets and other supporting configuration, and the Active Directory service itself.
 
-Feel free to review and update the Active Directory stack, as there are some defaults (for example, I am using Standard version of Active Directory) which you might want to change. You can [review the CDK options here](https://aws-oss.beachgeek.co.uk/2wx).
+Feel free to review and update the Active Directory stack, as there are some defaults (for example, I am using Standard version of Active Directory) which you might want to change. You can [review the CDK options here](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_directoryservice/CfnMicrosoftAD.html).
 
 **Deploying the VPC**
 

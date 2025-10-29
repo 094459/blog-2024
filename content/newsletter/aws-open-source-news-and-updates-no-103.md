@@ -29,15 +29,15 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **botocove**
 
-[botocove](https://aws-oss.beachgeek.co.uk/1fi) this project from Dave Connell provides a simple decorator for functions to run them against all AWS accounts in an organisation. You can run a function against a selection of AWS accounts, Organisational Units (OUs) or all AWS accounts in an organisation, concurrently with thread safety. Run in one or multiple regions.
+[botocove](https://github.com/connelldave/botocove) this project from Dave Connell provides a simple decorator for functions to run them against all AWS accounts in an organisation. You can run a function against a selection of AWS accounts, Organisational Units (OUs) or all AWS accounts in an organisation, concurrently with thread safety. Run in one or multiple regions.
 
 **functionless**
 
-[functionless](https://aws-oss.beachgeek.co.uk/1fb) this new project from Sam Goodwin is a TypeScript plugin that transforms TypeScript code into Service-to-Service (aka. "functionless") integrations, such as AWS AppSync Resolvers and Velocity Templates, or (coming soon) Amazon States Language for AWS Step Functions. To find out more, with plenty of examples, dive into this repo.
+[functionless](https://github.com/sam-goodwin/functionless) this new project from Sam Goodwin is a TypeScript plugin that transforms TypeScript code into Service-to-Service (aka. "functionless") integrations, such as AWS AppSync Resolvers and Velocity Templates, or (coming soon) Amazon States Language for AWS Step Functions. To find out more, with plenty of examples, dive into this repo.
 
 **replibyte**
 
-[replibyte](https://aws-oss.beachgeek.co.uk/1fa) current in alpha state, this new open source tool from the lovely folks at Qovery is a standalone application to replicate your cloud databases from one place to the other. The repo provides some background as to the motivation for the tool, and gives some example of how you can use this to synchronise PostgreSQL databases on AWS. One to watch.
+[replibyte](https://github.com/Qovery/replibyte) current in alpha state, this new open source tool from the lovely folks at Qovery is a standalone application to replicate your cloud databases from one place to the other. The repo provides some background as to the motivation for the tool, and gives some example of how you can use this to synchronise PostgreSQL databases on AWS. One to watch.
 
 ![arch](https://raw.githubusercontent.com/Qovery/replibyte/672ee1def6ef87e292236f42aef057f260556e0b/assets/diagram.svg)
 
@@ -45,17 +45,17 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **eks-anywhere-packages**
 
-[eks-anywhere-packages](https://aws-oss.beachgeek.co.uk/1f9) EKS Anywhere curated packages is a framework to manage installation, configuration and maintenance of components that provide general operational capabilities for Kubernetes applications.
+[eks-anywhere-packages](https://github.com/aws/eks-anywhere-packages) EKS Anywhere curated packages is a framework to manage installation, configuration and maintenance of components that provide general operational capabilities for Kubernetes applications.
 
 **api-gateway-dynamic-publish**
 
-[api-gateway-dynamic-publish](https://aws-oss.beachgeek.co.uk/1fd) this is a nice open sourced resources that uses AWS CDK and leverages an OpenAPI definition to define, document and create an Amazon API Gateway deployment. At deploy time, a CloudFormation Custom Resource is leveraged to dynamically substitute the Lambda integration function ARNs into the OpenAPI definition file as well as publishing the updated file to an S3 bucket for documentation viewing. This is a must check out project this week.
+[api-gateway-dynamic-publish](https://github.com/aws-samples/api-gateway-dynamic-publish) this is a nice open sourced resources that uses AWS CDK and leverages an OpenAPI definition to define, document and create an Amazon API Gateway deployment. At deploy time, a CloudFormation Custom Resource is leveraged to dynamically substitute the Lambda integration function ARNs into the OpenAPI definition file as well as publishing the updated file to an S3 bucket for documentation viewing. This is a must check out project this week.
 
 ![arch](https://github.com/aws-samples/api-gateway-dynamic-publish/blob/main/docs/assets/solution-architecture.png?raw=true)
 
 **aws-security-bulletin-alert**
 
-[aws-security-bulletin-alert](https://aws-oss.beachgeek.co.uk/1fe)
+[aws-security-bulletin-alert](https://github.com/aws-samples/aws-security-bulletin-alert)
 
 If you are looking for a way to be proactively notified of new security bulletins, then this project will be of interest. This CDK project deploys an AWS Lambda Function which is scheduled for every full hour. It checks the https://aws.amazon.com/security/security-bulletins for new AWS Security Bulletins and sends out E-Mail notifications via Amazon SES.
 
@@ -65,23 +65,23 @@ If you are looking for a way to be proactively notified of new security bulletin
 
 **aws-proton-tutorial**
 
-[aws-proton-tutorial](https://aws-oss.beachgeek.co.uk/1fg) Proton is a fully managed AWS service that helps engineering platform teams build developer portals to streamline the SDLC (software development lifecycle). Proton has two main goals: increase developers' productivity and agility while allowing organisations to maintain the right level of control and governance. This workshop/tutorial from Massimo Re Ferrè is for those of a curious nature that want to understand more.
+[aws-proton-tutorial](https://github.com/mreferre/aws-proton-tutorial) Proton is a fully managed AWS service that helps engineering platform teams build developer portals to streamline the SDLC (software development lifecycle). Proton has two main goals: increase developers' productivity and agility while allowing organisations to maintain the right level of control and governance. This workshop/tutorial from Massimo Re Ferrè is for those of a curious nature that want to understand more.
 
 **eks-multi-environment-cdk-pipeline**
 
-[eks-multi-environment-cdk-pipeline](https://aws-oss.beachgeek.co.uk/1ff) This project shows how AWS CDK can be used to provision and manage EKS cluster deployed in multiple environments. This project uses cdk-pipelines construct to create pipeline between the different Amazon EKS clusters that deployed in multiple environments. This project follows EKS Best practices guide, and deploy relevant add-ons like Cluster-Autoscaler, AWS Load Balancer Controller, and SSM Agent. It also deploys Weave Flux V2 for GitOps delivery. The reason that the Cluster add-ons are deployed using CDK and not using Flux, is because these add-ons require configurations both on the AWS and on the EKS/K8s (IAM roles and policies on AWS, and add-on deployment on K8s). All other application deployments will be deployed using Weave Flux V2.
+[eks-multi-environment-cdk-pipeline](https://github.com/aws-samples/eks-multi-environment-cdk-pipeline) This project shows how AWS CDK can be used to provision and manage EKS cluster deployed in multiple environments. This project uses cdk-pipelines construct to create pipeline between the different Amazon EKS clusters that deployed in multiple environments. This project follows EKS Best practices guide, and deploy relevant add-ons like Cluster-Autoscaler, AWS Load Balancer Controller, and SSM Agent. It also deploys Weave Flux V2 for GitOps delivery. The reason that the Cluster add-ons are deployed using CDK and not using Flux, is because these add-ons require configurations both on the AWS and on the EKS/K8s (IAM roles and policies on AWS, and add-on deployment on K8s). All other application deployments will be deployed using Weave Flux V2.
 
 ![arch](https://github.com/aws-samples/eks-multi-environment-cdk-pipeline/blob/main/images/eks-multi-environment-cdk-pipeline.png?raw=true)
 
 **serverless-java-frameworks-samples**
 
-[serverless-java-frameworks-samples](https://aws-oss.beachgeek.co.uk/1fc) this repo provides a simple serverless application built in Java using popular frameworks, Micronaut, Quarkus, and Spring Boot
+[serverless-java-frameworks-samples](https://github.com/aws-samples/serverless-java-frameworks-samples) this repo provides a simple serverless application built in Java using popular frameworks, Micronaut, Quarkus, and Spring Boot
 
 ![arch](https://github.com/aws-samples/serverless-java-frameworks-samples/blob/main/imgs/diagram.jpg?raw=true)
 
 **mediatailor-vod-upload**
 
-[mediatailor-vod-upload](https://aws-oss.beachgeek.co.uk/1f7) this is a sample project and demo workflow that automates adding video on demand (VOD) sources to AWS MediaTailor Channel Assembly. To learn about AWS MediaTailor Channel Assembly, [this workshop](https://aws-oss.beachgeek.co.uk/1f8) walks through defining sources, creating a channel and programs along with test source content.
+[mediatailor-vod-upload](https://github.com/aws-samples/mediatailor-vod-upload) this is a sample project and demo workflow that automates adding video on demand (VOD) sources to AWS MediaTailor Channel Assembly. To learn about AWS MediaTailor Channel Assembly, [this workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/caf0d459-d860-414e-8216-bf136b2b789b/en-US/) walks through defining sources, creating a channel and programs along with test source content.
 
 ![arch](https://github.com/aws-samples/mediatailor-vod-upload/blob/main/AWS_Services.png?raw=true)
 
@@ -90,69 +90,69 @@ If you are looking for a way to be proactively notified of new security bulletin
 **Apache Kafka, Apache Flink, and Apache Hudi**
 
 Ali Alemi  is a Streaming Specialist Solutions Architect at AWS, and shares some of his wisdom in this post, 
-[Create a low-latency source-to-data lake pipeline using Amazon MSK Connect, Apache Flink, and Apache Hudi](https://aws-oss.beachgeek.co.uk/1f4). The post helps you understand the different ways of working with streaming data with minimum coding, and demonstrate how to build fully scalable pipelines using SQL language without prior knowledge of Flink or Hudi. [hands on]
+[Create a low-latency source-to-data lake pipeline using Amazon MSK Connect, Apache Flink, and Apache Hudi](https://aws.amazon.com/blogs/big-data/create-a-low-latency-source-to-data-lake-pipeline-using-amazon-msk-connect-apache-flink-and-apache-hudi/). The post helps you understand the different ways of working with streaming data with minimum coding, and demonstrate how to build fully scalable pipelines using SQL language without prior knowledge of Flink or Hudi. [hands on]
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/02/10/BDB-1970-image001.png)
 
 **Apache Airflow**
 
-In my continuing quest for more knowledge on Apache Airflow, I came across this post [Orchestrating Databricks Workloads on AWS With Managed Workflows for Apache Airflow](https://aws-oss.beachgeek.co.uk/1et) from the lovely Naseer Ahmed and Igor Alekseev of Databricks. The posts dives into how to leverage Databricks’ jobs API with Amazon Managed Apache Airflow (MWAA), integrating with AWS Cloudwatch to monitor Directed Acyclic Graphs (DAG) with Databricks-based tasks. [hands on]
+In my continuing quest for more knowledge on Apache Airflow, I came across this post [Orchestrating Databricks Workloads on AWS With Managed Workflows for Apache Airflow](https://databricks.com/blog/2022/01/27/orchestrating-databricks-workloads-on-aws-with-managed-workflows-for-apache-airflow.html) from the lovely Naseer Ahmed and Igor Alekseev of Databricks. The posts dives into how to leverage Databricks’ jobs API with Amazon Managed Apache Airflow (MWAA), integrating with AWS Cloudwatch to monitor Directed Acyclic Graphs (DAG) with Databricks-based tasks. [hands on]
 
 ![architecture](https://databricks.com/wp-content/uploads/2022/01/orchestrating-databricks-workloads-with-managed-workflows-blog-1.jpg)
 
 **Karpenter**
 
-Karpenter is a dynamic, high performance cluster auto scaling solution for the Kubernetes platform introduced at re:Invent 2021. In the post, [Using Amazon EC2 Spot Instances with Karpenter](https://aws-oss.beachgeek.co.uk/1ex) Raja Ganesan and Aldred Halim look at how to use Karpenter with EC2 Spot Instances and handle Spot Instance interruptions. [hands on]
+Karpenter is a dynamic, high performance cluster auto scaling solution for the Kubernetes platform introduced at re:Invent 2021. In the post, [Using Amazon EC2 Spot Instances with Karpenter](https://aws.amazon.com/blogs/containers/using-amazon-ec2-spot-instances-with-karpenter/) Raja Ganesan and Aldred Halim look at how to use Karpenter with EC2 Spot Instances and handle Spot Instance interruptions. [hands on]
 
 ![graph diagram](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/02/25/spot-instances.jpg)
 
 **Kubeflow**
 
-I hope you enjoy this post, [Building a multi-tenant Kubeflow environment on Amazon EKS using Amazon Cognito and ADFS](https://aws-oss.beachgeek.co.uk/1es) from Jose Alfredo de Castro Nunes, Krithivasan Balasubramaniyan, and Rumeshkrishnan Mohan, which I enjoyed testing. This detailed walk through will help you understand the key components of how to deploy Kubeflow on Amazon Elastic Kubernetes Service (Amazon EKS) and how to achieve multi-user isolation using Amazon Cognito and ADFS. One up and running, you will be able to log in via your federated identity, and access your own tenant Kubeflow environment. [hands on]
+I hope you enjoy this post, [Building a multi-tenant Kubeflow environment on Amazon EKS using Amazon Cognito and ADFS](https://aws.amazon.com/blogs/opensource/building-a-multi-tenant-kubeflow-environment-on-amazon-eks-using-amazon-cognito-and-adfs/) from Jose Alfredo de Castro Nunes, Krithivasan Balasubramaniyan, and Rumeshkrishnan Mohan, which I enjoyed testing. This detailed walk through will help you understand the key components of how to deploy Kubeflow on Amazon Elastic Kubernetes Service (Amazon EKS) and how to achieve multi-user isolation using Amazon Cognito and ADFS. One up and running, you will be able to log in via your federated identity, and access your own tenant Kubeflow environment. [hands on]
 
 ![demo](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/02/14/Kubeflow-1.png)
 
 **Observability**
 
-Ramesh Mathikumar, Gabriel Soto, and Vara Bonthu have collaborated on this post, [Monitoring Amazon EMR on EKS with Amazon Managed Prometheus and Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/1ew) where you will  build (via Terraform) an end-to-end observability solution for EMR on EKS Spark workloads by leveraging Amazon Managed Service for Prometheus to collect and store the metrics generated by Spark Applications. You will then use Amazon Managed Grafana to build dashboards for monitoring use cases. Source code provided. [hands on]
+Ramesh Mathikumar, Gabriel Soto, and Vara Bonthu have collaborated on this post, [Monitoring Amazon EMR on EKS with Amazon Managed Prometheus and Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/monitoring-amazon-emr-on-eks-with-amazon-managed-prometheus-and-amazon-managed-grafana/) where you will  build (via Terraform) an end-to-end observability solution for EMR on EKS Spark workloads by leveraging Amazon Managed Service for Prometheus to collect and store the metrics generated by Spark Applications. You will then use Amazon Managed Grafana to build dashboards for monitoring use cases. Source code provided. [hands on]
 
 ![arch solution](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/02/14/fig1zuc.png)
 
 **PostgreSQL**
 
-Financial services industry (FSI) customers and other highly regulated industries often need to audit every action made by each database user and administrator as well as identify each person logged in to their databases, usually using their identity provider (IdP). Mattia Berlusconi and Paola Lorusso have written, [Auditing for highly regulated industries using Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/1er), to share how a proactive solution to a common security challenge for highly regulated industries and describe how to incorporate security best practices for auditing and monitoring users’ actions on data stored in Amazon Aurora PostgreSQL-Compatible Edition. [hands on]
+Financial services industry (FSI) customers and other highly regulated industries often need to audit every action made by each database user and administrator as well as identify each person logged in to their databases, usually using their identity provider (IdP). Mattia Berlusconi and Paola Lorusso have written, [Auditing for highly regulated industries using Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/auditing-for-highly-regulated-industries-using-amazon-aurora-postgresql/), to share how a proactive solution to a common security challenge for highly regulated industries and describe how to incorporate security best practices for auditing and monitoring users’ actions on data stored in Amazon Aurora PostgreSQL-Compatible Edition. [hands on]
 
 ![solution architecture diagram](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/02/28/Bpost20220217-1.png)
 
 **OpenFOAM**
 
-OpenFOAM is a widely used open source Computational Fluid Dynamics (CFD) suite of software tools. In the post, [Getting the best OpenFOAM Performance on AWS](https://aws-oss.beachgeek.co.uk/1f1), Neil Ashton helps you explore six practical things you can do as an OpenFOAM user to run your simulations faster and more cost effectively on AWS.
+OpenFOAM is a widely used open source Computational Fluid Dynamics (CFD) suite of software tools. In the post, [Getting the best OpenFOAM Performance on AWS](https://aws.amazon.com/blogs/hpc/getting-the-best-openfoam-performance-on-aws/), Neil Ashton helps you explore six practical things you can do as an OpenFOAM user to run your simulations faster and more cost effectively on AWS.
 
 ![graphs](https://d2908q01vomqb2.cloudfront.net/e6c3dd630428fd54834172b8fd2735fed9416da4/2022/02/25/hpcblog-14-fig3.png)
 
 **AutoGluon**
 
-AutoGluon is an open-source library for AutoML for text, image, and tabular data, allowing you to produce highly accurate models from raw data with just one line of code. In the post, [Build a cold start time series forecasting engine using AutoGluon](https://aws-oss.beachgeek.co.uk/1fh) Ivan Cui, Jonas Mueller, and Wenming Ye collaborate on how to build a cold start forecasting engine. Cold start forecasting, is where you build forecasts for a time series that has little or no existing historical data, such as a new product that just entered the market in the retail industry. [hands on]
+AutoGluon is an open-source library for AutoML for text, image, and tabular data, allowing you to produce highly accurate models from raw data with just one line of code. In the post, [Build a cold start time series forecasting engine using AutoGluon](https://aws.amazon.com/blogs/machine-learning/build-a-cold-start-time-series-forecasting-engine-using-autogluon/) Ivan Cui, Jonas Mueller, and Wenming Ye collaborate on how to build a cold start forecasting engine. Cold start forecasting, is where you build forecasts for a time series that has little or no existing historical data, such as a new product that just entered the market in the retail industry. [hands on]
 
 ![graph of timeseries](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2022/02/18/ML-7552-image001.png) 
 
 **Other posts worth checking out**
 
-* [Preparing ROS application and simulation containers for AWS RoboMaker](https://aws-oss.beachgeek.co.uk/1eu)  shows you how to use containers to build and package Robot Operating System (ROS) applications to run in AWS RoboMaker
-*  [Three things to consider when implementing Mutual TLS with AWS App Mesh](https://aws-oss.beachgeek.co.uk/1f2) helps you understand which questions you should ask before implementing mutual TLS with AWS App Mesh for containerised workloads
-*  [Migrate On-Premises Multi-Tenant Systems to Amazon Elastic Kubernetes Service](https://aws-oss.beachgeek.co.uk/1ev) explores how you can use Amazon EKS to enable multi-tenant systems using containers to simplify their operation, optimise cost, improve segmentation, security, and increase availability/scalability
+* [Preparing ROS application and simulation containers for AWS RoboMaker](https://aws.amazon.com/blogs/robotics/preparing-ros-application-and-simulation-containers-for-aws-robomaker/)  shows you how to use containers to build and package Robot Operating System (ROS) applications to run in AWS RoboMaker
+*  [Three things to consider when implementing Mutual TLS with AWS App Mesh](https://aws.amazon.com/blogs/containers/three-things-to-consider-when-implementing-mutual-tls-with-aws-app-mesh/) helps you understand which questions you should ask before implementing mutual TLS with AWS App Mesh for containerised workloads
+*  [Migrate On-Premises Multi-Tenant Systems to Amazon Elastic Kubernetes Service](https://aws.amazon.com/blogs/mt/migrate-on-premises-multi-tenant-systems-to-amazon-elastic-kubernetes-service/) explores how you can use Amazon EKS to enable multi-tenant systems using containers to simplify their operation, optimise cost, improve segmentation, security, and increase availability/scalability
 
 ![arch](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2022/02/23/fig7wc.jpg)
 
-* [New Amazon RDS for MySQL & PostgreSQL Multi-AZ Deployment Option: Improved Write Performance & Faster Failover](https://aws-oss.beachgeek.co.uk/1ey) looks at the new Amazon RDS Multi-AZ deployment option with up to 2x faster transaction commit latency that can automate fail overs typically to under 35 seconds
-* [Automate PostgreSQL log exports to Amazon S3 using extensions](https://aws-oss.beachgeek.co.uk/1ez) provides examples of how you can use the PostgreSQL extensions and automate the export of PostgreSQL logs directly to Amazon S3
-* [Migrate from Amazon RDS for Oracle to Aurora PostgreSQL or Amazon RDS for PostgreSQL using this self-service guide](https://aws-oss.beachgeek.co.uk/1f3) should be on your reading list if you are looking to migrate onto PostgreSQL
-* [Migrate from SQL Server to Aurora PostgreSQL using SSIS and Babelfish](https://aws-oss.beachgeek.co.uk/1f6) shares how to migrate a large SQL Server database to Aurora PostgreSQL using SSIS and Babelfish
-* [How Panasonic Avionics used Amazon Aurora MySQL to modernize their environment](https://aws-oss.beachgeek.co.uk/1f5) is a good case study and technical overview of how this customer were able to improve the scalability and resiliency of their applications
+* [New Amazon RDS for MySQL & PostgreSQL Multi-AZ Deployment Option: Improved Write Performance & Faster Failover](https://aws.amazon.com/blogs/aws/amazon-rds-multi-az-db-cluster/) looks at the new Amazon RDS Multi-AZ deployment option with up to 2x faster transaction commit latency that can automate fail overs typically to under 35 seconds
+* [Automate PostgreSQL log exports to Amazon S3 using extensions](https://aws.amazon.com/blogs/database/automate-postgresql-log-exports-to-amazon-s3-using-extensions/) provides examples of how you can use the PostgreSQL extensions and automate the export of PostgreSQL logs directly to Amazon S3
+* [Migrate from Amazon RDS for Oracle to Aurora PostgreSQL or Amazon RDS for PostgreSQL using this self-service guide](https://aws.amazon.com/blogs/database/migrate-from-amazon-rds-for-oracle-to-aurora-postgresql-or-amazon-rds-for-postgresql-using-this-self-service-guide/) should be on your reading list if you are looking to migrate onto PostgreSQL
+* [Migrate from SQL Server to Aurora PostgreSQL using SSIS and Babelfish](https://aws.amazon.com/blogs/database/migrate-from-sql-server-to-aurora-postgresql-using-ssis-and-babelfish/) shares how to migrate a large SQL Server database to Aurora PostgreSQL using SSIS and Babelfish
+* [How Panasonic Avionics used Amazon Aurora MySQL to modernize their environment](https://aws.amazon.com/blogs/database/how-panasonic-avionics-used-amazon-aurora-mysql-to-modernize-their-environment/) is a good case study and technical overview of how this customer were able to improve the scalability and resiliency of their applications
 
 ### Whitepapers
 
-[Patterns for Ingesting SaaS Data into AWS Data Lakes](https://aws-oss.beachgeek.co.uk/1eo) is a new white paper that outlines different patterns using Amazon Web Services (AWS) services to ingest SaaS data into a data lake on AWS. It covers a number of different patterns, including how you can use Apache Spark, Apache Kakfa, and Amazon Athena Federated Queries.
+[Patterns for Ingesting SaaS Data into AWS Data Lakes](https://d1.awsstatic.com/whitepapers/patterns-for-ingesting-saas-data-into-aws-data-lakes.pdf) is a new white paper that outlines different patterns using Amazon Web Services (AWS) services to ingest SaaS data into a data lake on AWS. It covers a number of different patterns, including how you can use Apache Spark, Apache Kakfa, and Amazon Athena Federated Queries.
 
 
 ### Quick updates
@@ -161,7 +161,7 @@ AutoGluon is an open-source library for AutoML for text, image, and tabular data
 
 The AWS JDBC Driver for MySQL is an open-source project that uses the General Public License v2 and is now generally available for use with your Amazon RDS or Amazon Aurora MySQL-compatible edition database clusters. This database driver minimises failover time by monitoring database cluster status and caching the cluster’s topology. The cache is then used to improve DNS name resolution speed if a node fails, reducing failover time from minutes to seconds. The MySQL JDBC driver is based on the MySQL Connector/J and supports MySQL deployments. It is drop-in compatible with the community MySQL driver and is installed with Maven, Gradle, or by .jar file. After installing the required file, your client requires simple changes to the connection string to use the new driver.
 
-You can dive deeper in the blog post, [Improve application availability with the AWS JDBC Driver for Amazon Aurora MySQL](https://aws-oss.beachgeek.co.uk/1f0) where Ryan Shevchik demonstrate how to use the AWS JDBC Driver for MySQL, and how your application can take advantage of the features of clustered MySQL databases.
+You can dive deeper in the blog post, [Improve application availability with the AWS JDBC Driver for Amazon Aurora MySQL](https://aws.amazon.com/blogs/database/improve-application-availability-with-the-aws-jdbc-driver-for-amazon-aurora-mysql/) where Ryan Shevchik demonstrate how to use the AWS JDBC Driver for MySQL, and how your application can take advantage of the features of clustered MySQL databases.
 
 **PostgreSQL**
 
@@ -212,7 +212,7 @@ If you have an event you want me to publish here, please contact me and I will i
 
 This webinar looks at Ubuntu Pro with FIPS and additional security controls to provide at a higher level for agencies or missions to help you meet your security and compliance requirements. The session will also include a demo that shows how easy it is to start securing the Ubuntu Operating System within the AWS cloud.
 
-[Review the full details and sign up here](https://aws-oss.beachgeek.co.uk/1eq).
+[Review the full details and sign up here](https://ubuntu.com/engage/FIPS-Enabled-Ubuntu-Pro-on-AWS).
 
 
 **Unifying data pipelines and ML with Delta Lake and Amazon SageMaker**
@@ -220,21 +220,21 @@ This webinar looks at Ubuntu Pro with FIPS and additional security controls to p
 
 Join this live workshop event to learn about the best practices for enterprises to use with powerful open source technologies to simplify and scale your data and ML efforts. We’ll discuss how to leverage Apache Spark™ — the de facto data processing and analytics engine for data preparation that unifies data at a massive scale across various sources — and Delta Lake so you can make your data lake ML-ready.
 
-Find out more and [register here](https://aws-oss.beachgeek.co.uk/1el).
+Find out more and [register here](https://pages.databricks.com/202203-AMER-VE-AWSDatabricksMLDevDayliveworkshopwConfluent1.25.22_01.RegistrationPage.html).
 
 **Building an Open Data Lakehouse with Presto, Hudi, and AWS S3**
 **March 29th, 10am PT**
 
 In this 90 minute hands on-virtual lab that will walk you through how to build an Open Data Lakehouse stack with Presto, Apache Hudi, and AWS S3.
 
-If you want to learn more about these open source projects, this looks like the perfect opportunity. Check it out and [register on their registration page](https://aws-oss.beachgeek.co.uk/1ep).
+If you want to learn more about these open source projects, this looks like the perfect opportunity. Check it out and [register on their registration page](https://ahana.io/hands-on-lab-building-open-data-lakehouse-presto-hudi-aws/).
 
 **OpenSearch**
 **Every Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting - Feb2022](https://www.meetup.com/OpenSearch/)
 
 **GitOpsCon Europe**
 **May 17th, Valencia Spain**
@@ -253,7 +253,7 @@ Read more about this from the official page [here](https://events.linuxfoundatio
 
 A heads up to folks who are interested in all things Apache Airflow. Apache Airflow Summit 2022 has been announced and the call for papers (cfp) is now open. The bar for sessions is always very high, so looking forward to this event already.
 
-If you have an idea for a talk, why not submit one via the cfp process. Check out the event, [Apache Airflow Summit 2022](https://aws-oss.beachgeek.co.uk/19e)
+If you have an idea for a talk, why not submit one via the cfp process. Check out the event, [Apache Airflow Summit 2022](https://sessionize.com/airflow-summit-2022)
 
 If you maybe have wanted to do a session, then I am very happy to help with feedback or coaching to help you feel more comfortable in creating and/or delivering your session. If this something that has been on your mind, but you just needed a little support, PLEASE get in touch.
 

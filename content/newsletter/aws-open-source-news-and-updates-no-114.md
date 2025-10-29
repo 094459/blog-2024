@@ -16,7 +16,7 @@ Before diving in, check out this important notice about the end of support for t
 
 **Announcing the end of support for Node.js 12.x in the AWS SDK for JavaScript (v3)**
 
-Starting November 1, 2022, AWS SDK For JavaScript (v3) will no longer support Node.js 12.x which was EOL on April 30, 2022. If you use Node, make sure you check out the post [Announcing the end of support for Node.js 12.x in the AWS SDK for JavaScript (v3)](https://aws-oss.beachgeek.co.uk/1qk) for more details together. 
+Starting November 1, 2022, AWS SDK For JavaScript (v3) will no longer support Node.js 12.x which was EOL on April 30, 2022. If you use Node, make sure you check out the post [Announcing the end of support for Node.js 12.x in the AWS SDK for JavaScript (v3)](https://aws.amazon.com/blogs/developer/announcing-the-end-of-support-for-node-js-12-x-in-the-aws-sdk-for-javascript-v3/) for more details together. 
 
 ![roadmap of support for nodejs](https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2022/05/25/nodejs-schedule-apr-2022.png)
 
@@ -34,21 +34,21 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **instance-scheduler**
 
-[instance-scheduler](https://aws-oss.beachgeek.co.uk/1qp) really nice tool created by AWS Community Builder Mohamed Radwan that allows you to easily schedule stopping and starting your Amazon EC2 and RDS instances. He has put together this blog post, [Create Instance Scheduler on Serverless by using Lambda, DynamoDB, API Gateway, Cognito,S3 and CloudFront](https://aws-oss.beachgeek.co.uk/1qq) to get you started.
+[instance-scheduler](https://github.com/maradwan/instance-scheduler) really nice tool created by AWS Community Builder Mohamed Radwan that allows you to easily schedule stopping and starting your Amazon EC2 and RDS instances. He has put together this blog post, [Create Instance Scheduler on Serverless by using Lambda, DynamoDB, API Gateway, Cognito,S3 and CloudFront](https://dev.to/aws-builders/create-instance-scheduler-on-serverless-by-using-lambda-dynamodb-api-gateway-cognitos3-and-cloudfront-1op8) to get you started.
 
 ![demo of app](https://raw.githubusercontent.com/maradwan/instance-scheduler/main/html/img/instance-view.png)
 
 **libaws**
 
-[libaws](https://aws-oss.beachgeek.co.uk/1qa) an interesting new tool from nathants that simplifies the provisioning and setting up of a number of AWS services. Defining what you need in YAML, you can then use the cli to build and deploy easily. Written in Go, check this out and see if this helps simplify how you create and delete infrastructure. 
+[libaws](https://github.com/nathants/libaws) an interesting new tool from nathants that simplifies the provisioning and setting up of a number of AWS services. Defining what you need in YAML, you can then use the cli to build and deploy easily. Written in Go, check this out and see if this helps simplify how you create and delete infrastructure. 
 
 **elasticspot**
 
-[elasticspot](https://aws-oss.beachgeek.co.uk/1qb) this tool from Nick Figgins will help you simplify how to reassign Elastic IPs to new Spot instances with AWS Lambda and CloudWatch Events.
+[elasticspot](https://github.com/nickfiggins/elasticspot) this tool from Nick Figgins will help you simplify how to reassign Elastic IPs to new Spot instances with AWS Lambda and CloudWatch Events.
 
 **auto-close-aws-accounts**
 
-[auto-close-aws-accounts](https://aws-oss.beachgeek.co.uk/1qc) this tool from Raajhesh Kannaa Chidambaram leverages the recently available API to close AWS accounts to enable you to automatically close AWS Accounts when moved to a specific Organizational Unit, such as SuspendedOU or ToBeDeletedOU or BlackHole.
+[auto-close-aws-accounts](https://github.com/raajheshkannaa/auto-close-aws-accounts) this tool from Raajhesh Kannaa Chidambaram leverages the recently available API to close AWS accounts to enable you to automatically close AWS Accounts when moved to a specific Organizational Unit, such as SuspendedOU or ToBeDeletedOU or BlackHole.
 
 ![demo of auto-close tool](https://github.com/raajheshkannaa/auto-close-aws-accounts/blob/master/AutoCloseAccounts.gif?raw=true)
 
@@ -56,103 +56,103 @@ Make sure you find and follow these builders and keep up to date with their open
 
 **amazon-ec2-spot-interrupter**
 
-[amazon-ec2-spot-interrupter](https://aws-oss.beachgeek.co.uk/1q9) is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations. Detailed usage guide on how this tool works, this is a tool that you should add to your toolkit.
+[amazon-ec2-spot-interrupter](https://github.com/aws/amazon-ec2-spot-interrupter) is a simple CLI tool that triggers Amazon EC2 Spot Interruption Notifications and Rebalance Recommendations. Detailed usage guide on how this tool works, this is a tool that you should add to your toolkit.
 
 **aws-glue-streaming-libs**
 
-[aws-glue-streaming-libs](https://aws-oss.beachgeek.co.uk/1q6) this repo contains additions and enhancements to Spark Structured Streaming for ETL operations. This repository contains **awsglue**, a Python libary you can use to author AWS Glue Streaming ETL job that extends Apache Spark with additional data types and operations for Streaming ETL workflows, and **bin** a number of executables that allow you to run the Python library locally or open up a PySpark shell to run Glue Spark code interactively.
+[aws-glue-streaming-libs](https://github.com/awslabs/aws-glue-streaming-libs) this repo contains additions and enhancements to Spark Structured Streaming for ETL operations. This repository contains **awsglue**, a Python libary you can use to author AWS Glue Streaming ETL job that extends Apache Spark with additional data types and operations for Streaming ETL workflows, and **bin** a number of executables that allow you to run the Python library locally or open up a PySpark shell to run Glue Spark code interactively.
 
 **audit-plugin-for-mysql**
 
-[audit-plugin-for-mysql](https://aws-oss.beachgeek.co.uk/1q1) this Audit Plugin for MySQL Server is used by Amazon RDS for MySQL to enable logging of server activity, typically for security and compliance purposes. Make sure you read the README about contributions and roadmap for this repo.
+[audit-plugin-for-mysql](https://github.com/aws/audit-plugin-for-mysql) this Audit Plugin for MySQL Server is used by Amazon RDS for MySQL to enable logging of server activity, typically for security and compliance purposes. Make sure you read the README about contributions and roadmap for this repo.
 
 **aws-lambda-powershell-runtime**
 
-[aws-lambda-powershell-runtime](https://aws-oss.beachgeek.co.uk/1pz) provides the source code for the new PowerShell custom runtime for AWS Lambda that makes it even easier to run Lambda functions written in PowerShell to process events. Your code runs in an Amazon Linux environment that includes AWS credentials from an AWS Identity and Access Management (IAM) role that you manage. Julian Wood has put together a blog post, [Introducing the PowerShell custom runtime for AWS Lambda](https://aws-oss.beachgeek.co.uk/1q0) to provide a more detailed overview and a getting started guide.
+[aws-lambda-powershell-runtime](https://github.com/awslabs/aws-lambda-powershell-runtime) provides the source code for the new PowerShell custom runtime for AWS Lambda that makes it even easier to run Lambda functions written in PowerShell to process events. Your code runs in an Amazon Linux environment that includes AWS credentials from an AWS Identity and Access Management (IAM) role that you manage. Julian Wood has put together a blog post, [Introducing the PowerShell custom runtime for AWS Lambda](https://aws.amazon.com/blogs/compute/introducing-the-powershell-custom-runtime-for-aws-lambda/) to provide a more detailed overview and a getting started guide.
 
 **automate-vending-sagemaker-notebooks-with-eventbridge-and-lambda**
 
-[automate-vending-sagemaker-notebooks-with-eventbridge-and-lambda](https://aws-oss.beachgeek.co.uk/1q5) this is a super nice project that helps you automate how you can provision of SageMaker notebooks to your data scientists. 
+[automate-vending-sagemaker-notebooks-with-eventbridge-and-lambda](https://github.com/aws-samples/automate-vending-sagemaker-notebooks-with-eventbridge-and-lambda) this is a super nice project that helps you automate how you can provision of SageMaker notebooks to your data scientists. 
 
 ### Demos, Samples and Workshops
 
 **amazon-chime-sdk-pstn-audio-workshop**
 
-[amazon-chime-sdk-pstn-audio-workshop](https://aws-oss.beachgeek.co.uk/1q7) if you ever wanted to learn how to build telephony applications, then why not take a look at this workshop. This repo contains all the source code and workshop materials to help you do things like call recordings, call me back, call bridging, building a voice chat bot, call transcription and more. You can start your journey [here](https://aws-oss.beachgeek.co.uk/1q8).
+[amazon-chime-sdk-pstn-audio-workshop](https://github.com/aws-samples/amazon-chime-sdk-pstn-audio-workshop) if you ever wanted to learn how to build telephony applications, then why not take a look at this workshop. This repo contains all the source code and workshop materials to help you do things like call recordings, call me back, call bridging, building a voice chat bot, call transcription and more. You can start your journey [here](https://github.com/aws-samples/amazon-chime-sdk-pstn-audio-workshop/blob/main/docs/FIRST.md).
 
 **gitlab-for-eks**
 
-[gitlab-for-eks](https://aws-oss.beachgeek.co.uk/1q2) this repo contains a workshop that focuses specifically on using the GitLab Kubernetes Agent to accomplish integration of a GitLab Instance (including GitLab.com SaaS) with an EKS cluster for managing cluster applications that are built and tested by GitLab. Previous to the availability of the GitLab Kubernetes Agent, GitLab cluster integration was done via an SSL connection to the Kubernetes Control API endpoint for a cluster. All cluster deployment happened as a matter of CI pushes to the cluster API endpoint.
+[gitlab-for-eks](https://github.com/aws-samples/gitlab-for-eks) this repo contains a workshop that focuses specifically on using the GitLab Kubernetes Agent to accomplish integration of a GitLab Instance (including GitLab.com SaaS) with an EKS cluster for managing cluster applications that are built and tested by GitLab. Previous to the availability of the GitLab Kubernetes Agent, GitLab cluster integration was done via an SSL connection to the Kubernetes Control API endpoint for a cluster. All cluster deployment happened as a matter of CI pushes to the cluster API endpoint.
 
 **landing-zone-accelerator-on-aws**
 
-[landing-zone-accelerator-on-aws](https://aws-oss.beachgeek.co.uk/1q3) this repo contains the Landing Zone Accelerator on AWS solution helps you quickly deploy a secure, resilient, scalable, and fully automated cloud foundation that accelerates your readiness for your cloud compliance program. A landing zone is a cloud environment that offers a recommended starting point, including default accounts, account structure, network and security layouts, and so forth. From a landing zone, you can deploy workloads that utilize your solutions and applications.
+[landing-zone-accelerator-on-aws](https://github.com/awslabs/landing-zone-accelerator-on-aws) this repo contains the Landing Zone Accelerator on AWS solution helps you quickly deploy a secure, resilient, scalable, and fully automated cloud foundation that accelerates your readiness for your cloud compliance program. A landing zone is a cloud environment that offers a recommended starting point, including default accounts, account structure, network and security layouts, and so forth. From a landing zone, you can deploy workloads that utilize your solutions and applications.
 
 **go-redis-apprunner**
 
-[go-redis-apprunner](https://aws-oss.beachgeek.co.uk/1pu) this repo contains code using AWS CDK to package and deploy a sample app (along with infrastructure), and run it as an AWS App Runner service that integrates with MemoryDB for Redis. My colleague Abhishek Gupta has put together an accompanying guide to walk you through how this works, in the post [Build Cloud-Native apps with AWS App Runner, Redis and AWS CDK](https://aws-oss.beachgeek.co.uk/1pv)
+[go-redis-apprunner](https://github.com/abhirockzz/go-redis-apprunner) this repo contains code using AWS CDK to package and deploy a sample app (along with infrastructure), and run it as an AWS App Runner service that integrates with MemoryDB for Redis. My colleague Abhishek Gupta has put together an accompanying guide to walk you through how this works, in the post [Build Cloud-Native apps with AWS App Runner, Redis and AWS CDK](https://itnext.io/build-cloud-native-go-apps-with-aws-app-runner-redis-and-aws-cdk-e1bd7ba6ddf3)
 
 ![architecture of sample project](https://miro.medium.com/max/1400/0*Krz2-2iDXdXwX8Ee.png)
 
 **aws-graviton-ml-inference-armnn-example**
 
-[aws-graviton-ml-inference-armnn-example](https://aws-oss.beachgeek.co.uk/1q4) provides sample code and steps you need to deploy ArmNN on AWS Lambda by building and loading a container image. The Lambda function will be used to efficiently perform ML inference (on Arm architecture) using an example image classification ML model in ONNX format (ResNet 50).
+[aws-graviton-ml-inference-armnn-example](https://github.com/aws-samples/aws-graviton-ml-inference-armnn-example) provides sample code and steps you need to deploy ArmNN on AWS Lambda by building and loading a container image. The Lambda function will be used to efficiently perform ML inference (on Arm architecture) using an example image classification ML model in ONNX format (ResNet 50).
 
 ### AWS and Community blog posts
 
 **OpenSearch**
 
-Great news for folks interested in OpenSearch as v2 officially launched earlier this week. Charlotte Henkle, Nicholas Knize, James McIntyre, Mohammad Qureshi, and Sean Zheng share more details in the post, [OpenSearch 2.0 is now available!](https://aws-oss.beachgeek.co.uk/1qs).
+Great news for folks interested in OpenSearch as v2 officially launched earlier this week. Charlotte Henkle, Nicholas Knize, James McIntyre, Mohammad Qureshi, and Sean Zheng share more details in the post, [OpenSearch 2.0 is now available!](https://opensearch.org/blog/releases/2022/05/opensearch-2-0-is-now-available).
 
 ![demo of opensearch2](https://opensearch.org/assets/media/blog-images/2022-05-26-opensearch-2-0-is-now-available/docLevelMonitor.gif)
 
 **Steampipe**
 
-Following up from a previous post, Bob Tordella follows that up by showing you how you can now run a security audit from within AWS CloudShell in his post, [How to perform a security audit of your AWS account in AWS CloudShell](https://aws-oss.beachgeek.co.uk/1qo) [hands on]
+Following up from a previous post, Bob Tordella follows that up by showing you how you can now run a security audit from within AWS CloudShell in his post, [How to perform a security audit of your AWS account in AWS CloudShell](https://dev.to/aws-builders/how-to-perform-a-security-audit-of-your-aws-account-in-aws-cloudshell-2jn1) [hands on]
 
 **DAMON**
 
-I featured a project back in [#86](https://dev.to/aws/aws-open-source-news-and-updates-86-2hpa) called damo, a user space tool for DAMON (a data access monitoring framework subsystem for the Linux kernel). Using this, you can monitor the data access patterns of your system or workloads and make data access-aware memory management optimisations. I recently found out that this project was created by someone here at Amazon, SeongJae Park. You can catch up with the recent updates by checking out, [DAMON: Data Access Monitor](https://aws-oss.beachgeek.co.uk/10h)
+I featured a project back in [#86](https://dev.to/aws/aws-open-source-news-and-updates-86-2hpa) called damo, a user space tool for DAMON (a data access monitoring framework subsystem for the Linux kernel). Using this, you can monitor the data access patterns of your system or workloads and make data access-aware memory management optimisations. I recently found out that this project was created by someone here at Amazon, SeongJae Park. You can catch up with the recent updates by checking out, [DAMON: Data Access Monitor](https://sjp38.github.io/post/damon/)
 
 ![diagram of damon running](https://sjp38.github.io/img/damo_monitor_water_nsquared.gif)
 
 **Redis**
 
-Announced earlier this week, Redis application developers now have native support for JavaScript Object Notation (JSON) within ElastiCache and MemoryDB. In the post, [Unlocking JSON workloads with ElastiCache and MemoryDB](https://aws-oss.beachgeek.co.uk/1py) Allen Samuels, Joe Travaglini, and Joe Hu cover how JSON support works at a more technical level and provide examples of how you can write JSON documents, efficiently fetch or set portions of a JSON document in Redis. [hands on]
+Announced earlier this week, Redis application developers now have native support for JavaScript Object Notation (JSON) within ElastiCache and MemoryDB. In the post, [Unlocking JSON workloads with ElastiCache and MemoryDB](https://aws.amazon.com/blogs/database/unlocking-json-workloads-with-elasticache-and-memorydb/) Allen Samuels, Joe Travaglini, and Joe Hu cover how JSON support works at a more technical level and provide examples of how you can write JSON documents, efficiently fetch or set portions of a JSON document in Redis. [hands on]
 
 **Inverting Proxy**
 
-[Inverting Proxy](https://aws-oss.beachgeek.co.uk/1qm) is an open-source reverse proxy that inverts the direction of traffic between the proxy and the backend servers. In the post, [Implementing lightweight on-premises API connectivity using inverting traffic proxy](https://aws-oss.beachgeek.co.uk/1ql) Oleksiy Volkov explores the use of lightweight application inversion proxy as a solution for multi-point hybrid or multi-cloud, API-level connectivity for cases where AWS Direct Connect or VPN may not be practical. This is super interesting, and I am wondering how else I might be able to use this tool. Essential reading this week! [hands on]
+[Inverting Proxy](https://github.com/google/inverting-proxy) is an open-source reverse proxy that inverts the direction of traffic between the proxy and the backend servers. In the post, [Implementing lightweight on-premises API connectivity using inverting traffic proxy](https://aws.amazon.com/blogs/architecture/implementing-lightweight-on-premises-api-connectivity-using-inverting-traffic-proxy/) Oleksiy Volkov explores the use of lightweight application inversion proxy as a solution for multi-point hybrid or multi-cloud, API-level connectivity for cases where AWS Direct Connect or VPN may not be practical. This is super interesting, and I am wondering how else I might be able to use this tool. Essential reading this week! [hands on]
 
 ![architecture of inverted proxy](https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2022/05/19/Figure-1-1.png)
 
 **cdk-nag**
 
-cdk-nag (inspired by cfn_nag) validates that the state of constructs within a given scope comply with a given set of rules. Rule sets (NagPacks) includes things such as HIPAA Security, NIST 800-53 rev 4, NIST 800-53 rev 5, and PCI DSS 3.2.1. In the post, [Manage application security and compliance with the AWS Cloud Development Kit and cdk-nag](https://aws-oss.beachgeek.co.uk/1qe) Arun Donti demonstrates how to integrate cdk-nag into an AWS CDK application to provide continual feedback and help align your applications with best practices. [hands on]
+cdk-nag (inspired by cfn_nag) validates that the state of constructs within a given scope comply with a given set of rules. Rule sets (NagPacks) includes things such as HIPAA Security, NIST 800-53 rev 4, NIST 800-53 rev 5, and PCI DSS 3.2.1. In the post, [Manage application security and compliance with the AWS Cloud Development Kit and cdk-nag](https://aws.amazon.com/blogs/devops/manage-application-security-and-compliance-with-the-aws-cloud-development-kit-and-cdk-nag/) Arun Donti demonstrates how to integrate cdk-nag into an AWS CDK application to provide continual feedback and help align your applications with best practices. [hands on]
 
 **AWS Amplify and Flutter**
 
-The AWS Amplify Flutter Authenticator is a drop in UI library that allows Flutter developers to add a customisable authentication and registration quickly. Abdallah Shaban and Ashish Nanda have collaborated on this blog post, [Setup sign-up and sign-in flows for your Flutter app in minutes with AWS Amplify](https://aws-oss.beachgeek.co.uk/1qi) which provides a hands on guide together with supporting source code. [hands on]
+The AWS Amplify Flutter Authenticator is a drop in UI library that allows Flutter developers to add a customisable authentication and registration quickly. Abdallah Shaban and Ashish Nanda have collaborated on this blog post, [Setup sign-up and sign-in flows for your Flutter app in minutes with AWS Amplify](https://aws.amazon.com/blogs/mobile/amplify-flutter-authenticator/) which provides a hands on guide together with supporting source code. [hands on]
 
 ![demo of flutter and amplify app](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/05/20/theme.gif)
 
 **Other posts you might like from the past week**
 
-* [How to Set Up WireGuard VPN on Amazon Linux 2](https://aws-oss.beachgeek.co.uk/1pw) does exactly what the titles says, and provide a walk through on how to set this up
-* [Containerizing our Magento stack on AWS](https://aws-oss.beachgeek.co.uk/1px) nice post on how to deploy this popular open source eCommerce system on AWS ECS Fargate
+* [How to Set Up WireGuard VPN on Amazon Linux 2](https://www.cyberciti.biz/faq/install-set-up-wireguard-on-amazon-linux-2/) does exactly what the titles says, and provide a walk through on how to set this up
+* [Containerizing our Magento stack on AWS](https://medium.com/i-love-my-local-farmer-engineering-blog/containerizing-our-magento-stack-on-aws-81bba5850a6e) nice post on how to deploy this popular open source eCommerce system on AWS ECS Fargate
 
 ![architecture of magento solution](https://miro.medium.com/max/1400/1*IaCUiohVt0CaPtyhduJZ6w.jpeg)
 
-* [Prepare for Babelfish migration with the AWS SCT assessment report](https://aws-oss.beachgeek.co.uk/1qf) demonstrates how to use the AWS Schema Conversion Tool (AWS SCT) assessment report to identify where Babelfish doesn’t support specific SQL Server language features
-* [Viewing collectd statistics with Amazon Managed Service for Prometheus and Amazon Managed Service for Grafana](https://aws-oss.beachgeek.co.uk/1qh) walks you through how to view metrics from a running instance of collectd on a Linux-based Amazon Elastic Compute Cloud (Amazon EC2) instance [hands on]
-* [Viewing custom metrics from statsd with Amazon Managed Service for Prometheus and Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/1qg) shows you how you can view metrics from a running instance of statsd, on a Linux or Windows based Amazon Elastic Compute Cloud (Amazon EC2) instance, with Amazon Managed Service for Prometheus and Amazon Managed Grafana [hands on]
-* [Deploying PyTorch Model as a Serverless Service](https://aws-oss.beachgeek.co.uk/1qr) shows you a way you can deploy a PyTorch model as a Serverless API leveraging Lambda, ECR and Serverless framework [hands on]
+* [Prepare for Babelfish migration with the AWS SCT assessment report](https://aws.amazon.com/blogs/database/prepare-for-babelfish-migration-with-the-aws-sct-assessment-report/) demonstrates how to use the AWS Schema Conversion Tool (AWS SCT) assessment report to identify where Babelfish doesn’t support specific SQL Server language features
+* [Viewing collectd statistics with Amazon Managed Service for Prometheus and Amazon Managed Service for Grafana](https://aws.amazon.com/blogs/mt/viewing-collectd-statistics-with-amazon-managed-service-for-prometheus-and-amazon-managed-service-for-grafana/) walks you through how to view metrics from a running instance of collectd on a Linux-based Amazon Elastic Compute Cloud (Amazon EC2) instance [hands on]
+* [Viewing custom metrics from statsd with Amazon Managed Service for Prometheus and Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/viewing-custom-metrics-from-statsd-with-amazon-managed-service-for-prometheus-and-amazon-managed-grafana/) shows you how you can view metrics from a running instance of statsd, on a Linux or Windows based Amazon Elastic Compute Cloud (Amazon EC2) instance, with Amazon Managed Service for Prometheus and Amazon Managed Grafana [hands on]
+* [Deploying PyTorch Model as a Serverless Service](https://www.serverless.com/blog/deploying-pytorch-model-as-a-serverless-service) shows you a way you can deploy a PyTorch model as a Serverless API leveraging Lambda, ECR and Serverless framework [hands on]
 
 ![architecture example of demo](https://assets-global.website-files.com/60acbb950c4d66d0ab3e2007/62862edb05637b5e40831089_6286263c5f5cc3031129a384_oS5QcXag6U4bTXjEmO_hoAl8T_9EraG7hDbEaTy2sGLDRW-kORucVFGpONrxpJBNGtZoQ7qLG-rEf9hySn3SWt4S1NUTCNCyhqVStHm05GgCCIfr1M54UOW7ZaPj5WtQiLZq-rEYAGKj-olUhg.gif)
 
 ### Case studies
 
-* [Nurturing Continued Growth of Our Oak CT Log](https://aws-oss.beachgeek.co.uk/1qn) fascinating blog post from Lets Encrypt that walks you through the Lets Encrypt Certificate Transparency (CT) log, built using open source components running on Amazon RDS
+* [Nurturing Continued Growth of Our Oak CT Log](https://letsencrypt.org/2022/05/19/database-to-app-tls.html) fascinating blog post from Lets Encrypt that walks you through the Lets Encrypt Certificate Transparency (CT) log, built using open source components running on Amazon RDS
 
 ### Quick updates
 
@@ -160,7 +160,7 @@ The AWS Amplify Flutter Authenticator is a drop in UI library that allows Flutte
 
 Earlier this week saw the release of 22.05.0 of Open 3D Engine (O3DE) an Apache 2.0-licensed open source project. O3DE is an engine for real-time 3D development that provides developers with a modular foundation for building games and 3D simulations across a variety of applications like robotics, digital twins, automotive, healthcare, and more. In our ongoing support of O3DE, the AWS Game Engine and Developer Services team contributed numerous features to version 22.05.0 including:
 
-Read more about this release in the announcement, [AWS for Games latest contribution to the Open 3D Engine (O3DE)](https://aws-oss.beachgeek.co.uk/1qj)
+Read more about this release in the announcement, [AWS for Games latest contribution to the Open 3D Engine (O3DE)](https://aws.amazon.com/blogs/gametech/aws-for-games-latest-contribution-to-the-open-3d-engine-o3de/)
 
 **Amazon FSx for Lustre**
 
@@ -204,14 +204,14 @@ Kuma is an open source service mesh that can run on every cloud, in a single or 
 **BOSC 2022**
 **July 13-14, Madison, Wisconsin, USA**
 
-The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://aws-oss.beachgeek.co.uk/1li)
+The Bioinformatics Open Source Conference (BOSC) has been held annually since 2000, and this year AWS is proud to be a platinum sponsor for this event. BOSC covers all aspects of open source bioinformatics software and open science, including (but not limited to) these topics, Open Science and Reproducible Research, Open Biomedical Data, Citizen/Participatory Science, Standards and Interoperability, Data Science Workflows, Open Approaches to Translational Bioinformatics, Developer Tools and Libraries, Inclusion, and Outreach and Training. This is a hybrid event (in person/virtual) and you find out more by checking out the event page, [BOSC 2022](https://www.open-bio.org/events/bosc-2022/)
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 **OpenSearchCon 2022**
 **Sept 21st, 2022 Seattle**
@@ -220,7 +220,7 @@ Come to the first annual OpenSearchCon!
 
 This day-long conference will be packed with presenters who build and innovate with OpenSearch. It doesn’t matter if you’re just getting started on your OpenSearch journey, running giant clusters, or contributing tons of code; the event is for everyone. Join us to celebrate the progress and look into the future of the project. Admission is free, and registration will be open in the next few weeks. All you will need to do is sign up, and get to Seattle!
 
-Check out the full details, including signing up and location, at the [meetup page here](https://aws-oss.beachgeek.co.uk/1n1).
+Check out the full details, including signing up and location, at the [meetup page here](https://www.meetup.com/OpenSearch/events/285152025/).
 
 
 ### Stay in touch with open source at AWS

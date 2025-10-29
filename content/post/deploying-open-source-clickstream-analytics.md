@@ -13,7 +13,7 @@ tags : [ open source, serverless-website-analytics]
 
 Like many folk, I run a [personal blog](https://blog.beachgeek.co.uk). This blog runs Hugo and turns my markdown pages into static content, which I then deploy on Netlify. One of the key things about running a blog is understanding how readers are interacting with your content, and this is where web analytics solutions can help you. A common solution to this has been to use something like Google Analytics as this typically is very easy to integrate into your website.
 
-Very recently I came across a very cool project from AWS Hero Rehan van der Merwe, called [serverless-website-analytics](https://aws-oss.beachgeek.co.uk/2yx). 
+Very recently I came across a very cool project from AWS Hero Rehan van der Merwe, called [serverless-website-analytics](https://github.com/rehanvdm/serverless-website-analytics). 
 
 ![architecture of serverless-website-analytics](https://github.com/rehanvdm/serverless-website-analytics/blob/main/docs/imgs/serverless-website-analytics.drawio.png?raw=true)
 
@@ -341,7 +341,7 @@ beachgeek-analytics: destroying... [1/1]
 
 ### Conclusion
 
-[serverless-website-analytics](https://aws-oss.beachgeek.co.uk/2yx) is a great project that solves a real problem - how to collect useful metrics from my websites. I am going to be running this over the next few months, and will update this post to include things like how much it has cost to run, the quality of the reports its produced, and more. So stay tuned folks.
+[serverless-website-analytics](https://github.com/rehanvdm/serverless-website-analytics) is a great project that solves a real problem - how to collect useful metrics from my websites. I am going to be running this over the next few months, and will update this post to include things like how much it has cost to run, the quality of the reports its produced, and more. So stay tuned folks.
 
 Make sure you check out the project and if you like it, show your appreciation.
 

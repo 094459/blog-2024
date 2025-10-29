@@ -64,11 +64,11 @@ It walked me through a series of steps that seemed sensible to me.
 
 Another great resource you can turn to to help you build this muscle memory has been created by AWS Community Builder Christian Bonzelet. [https://www.promptz.dev/](https://www.promptz.dev/) provides a great way to see how others are creating prompts that address a number of tasks, and I have found it helpful to get insights and ideas on how to improve my own.
 
-> **Further reading** I highly recommend you read [A framework to adopt generative AI assistants for builders](https://aws-oss.beachgeek.co.uk/46a) from my colleague Massimo Re Ferrè
+> **Further reading** I highly recommend you read [A framework to adopt generative AI assistants for builders](https://it20.info/2024/5/a-framework-to-adopt-generative-ai-assistants-for-builders/) from my colleague Massimo Re Ferrè
 
 **Try Amazon Q Developer today, and claim your free Builder ID**
 
-You can try Amazon Q Developer for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=34e0ecce-8101-42c4-840a-fe6170420294&sc_channel=el). You can also check out [my other posts](https://community.aws/@ricsueaws) on community.aws, as I have been sharing a lot of tips and use cases of how I am using Amazon Q Developer. You can also keep up to date with all the new features and improvements of Amazon Q Developer by checking out the [changelog](https://aws-oss.beachgeek.co.uk/40i).
+You can try Amazon Q Developer for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=34e0ecce-8101-42c4-840a-fe6170420294&sc_channel=el). You can also check out [my other posts](https://community.aws/@ricsueaws) on community.aws, as I have been sharing a lot of tips and use cases of how I am using Amazon Q Developer. You can also keep up to date with all the new features and improvements of Amazon Q Developer by checking out the [changelog](https://aws.amazon.com/developer/generative-ai/amazon-q/change-log/).
 
 
 ---

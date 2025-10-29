@@ -21,7 +21,7 @@ Please let me know if you find this post useful. I have a very short survey whic
 
 * An AWS account with the right level of privileges
 * An environment with the AWS CLI tools configured and running
-* Access to an AWS region where Managed Workflows for Apache Airflow is supported, as well as an environment of Amazon Managed Workflows for Apache Airflow already setup - [you can follow my previous link here](https://aws-oss.beachgeek.co.uk/3h) or check out the instructions in the GitHub repo which will walk you setting up an environment
+* Access to an AWS region where Managed Workflows for Apache Airflow is supported, as well as an environment of Amazon Managed Workflows for Apache Airflow already setup - [you can follow my previous link here](https://dev.to/aws/automating-the-installation-of-managed-workflows-for-apache-airflow-5h8a) or check out the instructions in the GitHub repo which will walk you setting up an environment
 
 ### Using Variables in Apache Airflow
 
@@ -117,7 +117,7 @@ One thing to take note is that when importing/setting variables in the Apache Ai
 
 **Where is my Admin tab gone?**
 
-When working with the Apache Airflow UI, depending on how your access has been set up, you may or may not have full admin access to Apache Airflow. I covered this in an earlier post, Working with Managed Workflows for [Apache Airflow Permissions](https://aws-oss.beachgeek.co.uk/3n).
+When working with the Apache Airflow UI, depending on how your access has been set up, you may or may not have full admin access to Apache Airflow. I covered this in an earlier post, Working with Managed Workflows for [Apache Airflow Permissions](https://dev.to/aws/working-with-permissions-in-amazon-managed-workflows-for-apache-airflow-2g5l).
 
 If in your set up you only have user access, you will not be able to define/set variables via the UI. In the examples below, this may mean you need to take one of the other approaches to defining/setting variables you want to use.
 
@@ -1154,7 +1154,7 @@ Right, we are nearly at the end of this post now. Before finishing, let me intro
 
 ### Other approaches
 
-Another approach that might work for you is incorporating variable changes as part of a CI/CD setup. In a [previous post](https://aws-oss.beachgeek.co.uk/4t), I walked you through creating a simple CI/CD environment for your workflow deployments. In that post, the build stage has a single build task
+Another approach that might work for you is incorporating variable changes as part of a CI/CD setup. In a [previous post](https://dev.to/aws/a-simple-ci-cd-system-for-your-development-workflow-30b4), I walked you through creating a simple CI/CD environment for your workflow deployments. In that post, the build stage has a single build task
 
 ```
 phases:

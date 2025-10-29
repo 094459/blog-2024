@@ -28,99 +28,99 @@ So thank you to the following open source heroes: Maximilian Schellhorn, Dennis 
 
 **weaviate-on-eks**
 
-[weaviate-on-eks](https://aws-oss.beachgeek.co.uk/3d4) this repository includes sample code that can be used to deploy and configure an instance of the [Weaviate](https://aws-oss.beachgeek.co.uk/3d5) distributed vector database on EKS.
+[weaviate-on-eks](https://github.com/awslabs/weaviate-on-eks) this repository includes sample code that can be used to deploy and configure an instance of the [Weaviate](https://github.com/weaviate/weaviate) distributed vector database on EKS.
 
 **observability-solution-kit**
 
-[observability-solution-kit](https://aws-oss.beachgeek.co.uk/3d3) this repository is the Ollyv sdk. The Ollyv sdk offers a simple way to configure its behaviour through *.properties files, which are environment-specific. Currently code is provide from NodeLambda ✨ · NodeExpress 👟 · JavaSpring 🦚
+[observability-solution-kit](https://github.com/awslabs/observability-solution-kit/tree/main) this repository is the Ollyv sdk. The Ollyv sdk offers a simple way to configure its behaviour through *.properties files, which are environment-specific. Currently code is provide from NodeLambda ✨ · NodeExpress 👟 · JavaSpring 🦚
 
 **trading-latency-benchmark**
 
-[trading-latency-benchmark](https://aws-oss.beachgeek.co.uk/3d1) This repository contains a network latency test stack that consists of Java based trading client and Ansible playbooks to coordinate distributed tests. Java based trading client is designed to send limit and cancel orders, allowing you to measure round-trip times of the network communication.
+[trading-latency-benchmark](https://github.com/aws-samples/trading-latency-benchmark) This repository contains a network latency test stack that consists of Java based trading client and Ansible playbooks to coordinate distributed tests. Java based trading client is designed to send limit and cancel orders, allowing you to measure round-trip times of the network communication.
 
 ### Demos, Samples, Solutions and Workshops
 
 **gen-ai-on-eks**
 
-[gen-ai-on-eks](https://aws-oss.beachgeek.co.uk/3d2) this repository aims to showcase how to finetune a FM model in Amazon EKS cluster using, JupyterHub to provision notebooks and craft both serving and training scripts, RayOperator to manage Ray Clusters and Karpenter to manage Node Scaling.
+[gen-ai-on-eks](https://github.com/aws-samples/gen-ai-on-eks) this repository aims to showcase how to finetune a FM model in Amazon EKS cluster using, JupyterHub to provision notebooks and craft both serving and training scripts, RayOperator to manage Ray Clusters and Karpenter to manage Node Scaling.
 
 ![overview of architecture](https://github.com/aws-samples/gen-ai-on-eks/blob/main/static/high-level-diagram.png?raw=true)
 
 **aws-inference-benchmark**
-[aws-inference-benchmark ](https://aws-oss.beachgeek.co.uk/3cy)this project from Rustem Feyzkhanov contains code for running deep learning inference benchmarks on different AWS instances and service types. Check out his post, [Making LLMs Scalable: Cloud Inference with AWS Fargate and Copilot](https://aws-oss.beachgeek.co.uk/3d0) where Rustem shows you in more details how you can use this repo.
+[aws-inference-benchmark ](https://github.com/ryfeus/aws-inference-benchmark)this project from Rustem Feyzkhanov contains code for running deep learning inference benchmarks on different AWS instances and service types. Check out his post, [Making LLMs Scalable: Cloud Inference with AWS Fargate and Copilot](https://aws.plainenglish.io/making-llms-scalable-cloud-inference-with-aws-fargate-and-copilot-8e67c76e5822) where Rustem shows you in more details how you can use this repo.
 
 **makit-llm-lambda**
 
-[makit-llm-lambda ](https://aws-oss.beachgeek.co.uk/3cx)this repo from Martyn Kilbryde is an example of how you can run a Large Language Model (LLM) inside an AWS Lambda Function.  Whilst the code will help you deploy to AWS Lambda, it can be ran locally inside Docker for testing as well. The function contains the full LLM model and the code to use the model, allowing basic text generation from a HTTP call into it.
+[makit-llm-lambda ](https://github.com/makit/makit-llm-lambda)this repo from Martyn Kilbryde is an example of how you can run a Large Language Model (LLM) inside an AWS Lambda Function.  Whilst the code will help you deploy to AWS Lambda, it can be ran locally inside Docker for testing as well. The function contains the full LLM model and the code to use the model, allowing basic text generation from a HTTP call into it.
 
 **awesome-codewhisperer**
 
-[awesome-codewhisperer](https://aws-oss.beachgeek.co.uk/3cw) this repo from Christian Bonzelet is a great collection of resources for those of you who are experimenting with Generative AI coding assistants such as Amazon CodeWhisperer. This resource should keep you busy, and help you master Amazon CodeWhisperer in no time. 
+[awesome-codewhisperer](https://github.com/cremich/awesome-codewhisperer/tree/main) this repo from Christian Bonzelet is a great collection of resources for those of you who are experimenting with Generative AI coding assistants such as Amazon CodeWhisperer. This resource should keep you busy, and help you master Amazon CodeWhisperer in no time. 
 
 **quarkus-bedrock-demo**
 
-[quarkus-bedrock-demo](https://aws-oss.beachgeek.co.uk/3cv) This is a sample project from my colleague Denis Traub, based on [work from Vini](https://aws-oss.beachgeek.co.uk/3b2)  , that demonstrates how to access Amazon Bedrock from a Quarkus application deployed on AWS Lambda.
+[quarkus-bedrock-demo](https://github.com/build-on-aws/amazon-bedrock-java-examples/tree/main/demos/quarkus-bedrock-demo) This is a sample project from my colleague Denis Traub, based on [work from Vini](https://github.com/vsenger/quarkus-bedrock)  , that demonstrates how to access Amazon Bedrock from a Quarkus application deployed on AWS Lambda.
 
 **multi-tenant-chatbot-using-rag-with-amazon-bedrock**
 
-[multi-tenant-chatbot-using-rag-with-amazon-bedrock](https://aws-oss.beachgeek.co.uk/3c5) provides a solution for building a multi-tenant chatbot with Retrieval Augmented Generation (RAG). RAG is a common pattern where a general-purpose language model is queried with a user question along with additional contextual information extracted from private documents. To help you understand and deploy the code, check out the supporting blog post from Farooq Ashraf, Jared Dean, and Ravi Yadav, [Build a multi-tenant chatbot with RAG using Amazon Bedrock and Amazon EKS](https://aws-oss.beachgeek.co.uk/3c6)
+[multi-tenant-chatbot-using-rag-with-amazon-bedrock](https://github.com/aws-samples/multi-tenant-chatbot-using-rag-with-amazon-bedrock) provides a solution for building a multi-tenant chatbot with Retrieval Augmented Generation (RAG). RAG is a common pattern where a general-purpose language model is queried with a user question along with additional contextual information extracted from private documents. To help you understand and deploy the code, check out the supporting blog post from Farooq Ashraf, Jared Dean, and Ravi Yadav, [Build a multi-tenant chatbot with RAG using Amazon Bedrock and Amazon EKS](https://aws.amazon.com/blogs/containers/build-a-multi-tenant-chatbot-with-rag-using-amazon-bedrock-and-amazon-eks/)
 
 ### AWS and Community blog posts
 
 **Community round up**
 
-Starting our community round up this week with security, we have this post, [Securing attacks targeted at user or kernel level for customer X with KubeArmor & AWS Bottlerocket](https://aws-oss.beachgeek.co.uk/3cq),  that explores the enhanced security the user can get by combined use of AWS Bottlerocket and KubeArmor (a runtime security engine). Next we have a couple of posts for Amazon Lightsail users from my colleague Sophia Parafina. [In Load Testing Wordpress Amazon Lightsail Instances](https://aws-oss.beachgeek.co.uk/3cr) Sophia looks at how you can use open source testing tools like Locust to load test your sites and make sure they are up to handling the load you want to test against. Following that we have [Deploy NGINX with AWS CloudShell and Lightsail In Five Steps](https://aws-oss.beachgeek.co.uk/3cs) that provides a nice cli driven way of deploying one of the most popular open source web servers, NGINX.
+Starting our community round up this week with security, we have this post, [Securing attacks targeted at user or kernel level for customer X with KubeArmor & AWS Bottlerocket](https://www.cncf.io/blog/2023/10/26/securing-attacks-targeted-at-user-or-kernel-level-for-customer-x-with-kubearmor-aws-bottlerocket/),  that explores the enhanced security the user can get by combined use of AWS Bottlerocket and KubeArmor (a runtime security engine). Next we have a couple of posts for Amazon Lightsail users from my colleague Sophia Parafina. [In Load Testing Wordpress Amazon Lightsail Instances](https://community.aws/posts/load-testing-wordpress-lightsail-instance) Sophia looks at how you can use open source testing tools like Locust to load test your sites and make sure they are up to handling the load you want to test against. Following that we have [Deploy NGINX with AWS CloudShell and Lightsail In Five Steps](https://community.aws/posts/deploy-nginx-with-aws-cloudshell-and-lightsail) that provides a nice cli driven way of deploying one of the most popular open source web servers, NGINX.
 
-Next up we have Joe Stech who writes about an increasingly popular topic, Vector databases. In this instance, he looks at Milvus, and shows you how you can deploy this vector database on your Amazon EKS cluster in his post, [Running the top open source Vector Database on AWS: What They Don't Tell You in the Quickstart Guide](https://aws-oss.beachgeek.co.uk/3ct).
+Next up we have Joe Stech who writes about an increasingly popular topic, Vector databases. In this instance, he looks at Milvus, and shows you how you can deploy this vector database on your Amazon EKS cluster in his post, [Running the top open source Vector Database on AWS: What They Don't Tell You in the Quickstart Guide](https://community.aws/posts/running-the-top-open-source-vector-database-on-aws).
 
-To finish up this week, Mike Chambers and Haowen Huang have put together [Deploying Falcon-40B Open-Source LLM on Amazon SageMaker: A Comparative Guide](https://aws-oss.beachgeek.co.uk/3cu), that does what it says on the tin - provides a nice deep dive and walk through on how you can deploy Falcon-40B. They look at a number of options you have, and make sure you keep an eye out for a follow up post that is in the works.
+To finish up this week, Mike Chambers and Haowen Huang have put together [Deploying Falcon-40B Open-Source LLM on Amazon SageMaker: A Comparative Guide](https://community.aws/posts/llm-falcon-40b-model-deployment-v2), that does what it says on the tin - provides a nice deep dive and walk through on how you can deploy Falcon-40B. They look at a number of options you have, and make sure you keep an eye out for a follow up post that is in the works.
 
 **Open Science Studio**
 
-Super interesting post that explores how open source technologies, together with open source, is enabling scientists across the globe to collaborate. Jacob Mevorach, Carlos Santana, Isaac Mosquera, Manabu McCloskey, and Ramon Ramirez-Linan have come together to write, [Enabling Scientists to Collaborate with Amazon EKS and Open Science Studio](https://aws-oss.beachgeek.co.uk/3cb) which looks at how they have combined a number of open source technologies (JupyterHub, Dask, Flux GitOps, Crossplane, and others) and deployed these on Amazon EKS. (On another note, it was awesome to meet up with Carlos at All Things Open. He really is an open source legend!)
+Super interesting post that explores how open source technologies, together with open source, is enabling scientists across the globe to collaborate. Jacob Mevorach, Carlos Santana, Isaac Mosquera, Manabu McCloskey, and Ramon Ramirez-Linan have come together to write, [Enabling Scientists to Collaborate with Amazon EKS and Open Science Studio](https://aws.amazon.com/blogs/opensource/enabling-scientists-to-collaborate-with-amazon-eks-and-open-science-studio/) which looks at how they have combined a number of open source technologies (JupyterHub, Dask, Flux GitOps, Crossplane, and others) and deployed these on Amazon EKS. (On another note, it was awesome to meet up with Carlos at All Things Open. He really is an open source legend!)
 
 ![overview of open science studio oss components](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2023/10/18/Navteca-Crossplane-Daskhub-1024x471.jpg)
 
 **Migrating to open source**
 
-We had a number of posts that looked at different aspects of how you can move/migrate workloads to open source technologies. We start with [Migrate SQL Server to Babelfish for Aurora PostgreSQL using the Compass tool and AWS DMS](https://aws-oss.beachgeek.co.uk/3c7) where Amit Arora shows you how to migrate a Microsoft SQL Server database to Babelfish, including data migration with the AWS Database Migration Service (AWS DMS), using the SQL Server Northwind sample database for the migration.
+We had a number of posts that looked at different aspects of how you can move/migrate workloads to open source technologies. We start with [Migrate SQL Server to Babelfish for Aurora PostgreSQL using the Compass tool and AWS DMS](https://aws.amazon.com/blogs/database/migrate-sql-server-to-babelfish-for-aurora-postgresql-using-the-compass-tool-and-aws-dms/) where Amit Arora shows you how to migrate a Microsoft SQL Server database to Babelfish, including data migration with the AWS Database Migration Service (AWS DMS), using the SQL Server Northwind sample database for the migration.
 
-On a related note, we had Alex Zarenin write [Comparing performance of new releases of Babelfish and comparing Babelfish performance with SQL Server](https://aws-oss.beachgeek.co.uk/3c9) that compares the performance of the newest releases of Babelfish for Aurora PostgreSQL and provide performance and price-performance comparisons between Babelfish and Microsoft SQL Server 2022.
+On a related note, we had Alex Zarenin write [Comparing performance of new releases of Babelfish and comparing Babelfish performance with SQL Server](https://aws.amazon.com/blogs/modernizing-with-aws/comparing-performance-of-new-releases-of-babelfish-and-comparing-babelfish-performance-with-sql-server/) that compares the performance of the newest releases of Babelfish for Aurora PostgreSQL and provide performance and price-performance comparisons between Babelfish and Microsoft SQL Server 2022.
 
 ![graph of price/performance of sql server vs babelfish on postgresql](https://d2908q01vomqb2.cloudfront.net/8effee409c625e1a2d8f5033631840e6ce1dcb64/2023/10/15/Figure3-1.png)
 
-Keeping on the data theme, we had [Migrate IBM Db2 LUW to Amazon Aurora PostgreSQL or Amazon RDS for PostgreSQL](https://aws-oss.beachgeek.co.uk/3ca) where Rakesh Raghav provide an overview of database migration from IBM Db2 LUW to a number of different PostgreSQL options on AWS.
+Keeping on the data theme, we had [Migrate IBM Db2 LUW to Amazon Aurora PostgreSQL or Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/migrate-ibm-db2-luw-to-amazon-aurora-postgresql-or-amazon-rds-for-postgresql/) where Rakesh Raghav provide an overview of database migration from IBM Db2 LUW to a number of different PostgreSQL options on AWS.
 
 ![overview of process for migrating db2 to postregresql](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/09/27/dbsblog_2039_image001.jpg)
 
-Finally, we had [Refactor to Modern .NET and Move to Linux](https://aws-oss.beachgeek.co.uk/3c8), where Craig Bossie, Aditi Sharma, Pavankumar Kasani, and Runeet Vashisht discuss and walk you through some of your options when it comes to modernising your .NET workloads and how you can leverage open source technologies in doing so.
+Finally, we had [Refactor to Modern .NET and Move to Linux](https://aws.amazon.com/blogs/modernizing-with-aws/refactor-to-modern-net-and-move-to-linux/), where Craig Bossie, Aditi Sharma, Pavankumar Kasani, and Runeet Vashisht discuss and walk you through some of your options when it comes to modernising your .NET workloads and how you can leverage open source technologies in doing so.
 
 **Big Data and Analytics**
 
 We had some great content covering the various big data and analytics open source technologies that you can use on AWS. Here is my pick this week:
 
-* [Run Apache Hive workloads using Spark SQL with Amazon EMR on EKS](https://aws-oss.beachgeek.co.uk/3cm) looks at how Amazon EMR on EKS releases 6.7.0 and higher include a Spark SQL job driver that lets directly run Spark SQL scripts via the StartJobRun API, enabling you to run your existing Hive scripts as SparkSQL jobs on Amazon EMR on EKS [hands on]
-* [Run Spark SQL on Amazon Athena Spark](https://aws-oss.beachgeek.co.uk/3cc) helps you get started with Spark SQL on Amazon Athena, and is the first in a series of posts (so keep an eye out for the next instalment) [hands on]
-* [Resolve private DNS hostnames for Amazon MSK Connect](https://aws-oss.beachgeek.co.uk/3cg) is a hands on guide that helps you set up MSK Connect using a private DNS, a feature that allows you to configure connectors to reference public or private domain names [hands on]
+* [Run Apache Hive workloads using Spark SQL with Amazon EMR on EKS](https://aws.amazon.com/blogs/big-data/run-apache-hive-workloads-using-spark-sql-with-amazon-emr-on-eks/) looks at how Amazon EMR on EKS releases 6.7.0 and higher include a Spark SQL job driver that lets directly run Spark SQL scripts via the StartJobRun API, enabling you to run your existing Hive scripts as SparkSQL jobs on Amazon EMR on EKS [hands on]
+* [Run Spark SQL on Amazon Athena Spark](https://aws.amazon.com/blogs/big-data/run-spark-sql-on-amazon-athena-spark/) helps you get started with Spark SQL on Amazon Athena, and is the first in a series of posts (so keep an eye out for the next instalment) [hands on]
+* [Resolve private DNS hostnames for Amazon MSK Connect](https://aws.amazon.com/blogs/big-data/resolve-private-dns-hostnames-for-amazon-msk-connect/) is a hands on guide that helps you set up MSK Connect using a private DNS, a feature that allows you to configure connectors to reference public or private domain names [hands on]
 
 ![architecture of private DNS for Amazon MSK connect](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/10/03/SIM_BDB-2720-image001-1.png)
 
-* [Load data incrementally from transactional data lakes to data warehouses](https://aws-oss.beachgeek.co.uk/3ch) takes a look at different architecture patterns to keep data in sync and up to date between data lakes built on open table formats (Apache Hudi, Delta Lake, or Apache Iceberg) and data warehouses such as Amazon Redshift [hands on]
-* [Introducing concurrent segment search in OpenSearch](https://aws-oss.beachgeek.co.uk/3cl) dives deep into how you can improve search latency across a variety of workload types with concurrent segment search,  a feature that requires non-trivial changes but can yield great results [hands on]
+* [Load data incrementally from transactional data lakes to data warehouses](https://aws.amazon.com/blogs/big-data/load-data-incrementally-from-transactional-data-lakes-to-data-warehouses/) takes a look at different architecture patterns to keep data in sync and up to date between data lakes built on open table formats (Apache Hudi, Delta Lake, or Apache Iceberg) and data warehouses such as Amazon Redshift [hands on]
+* [Introducing concurrent segment search in OpenSearch](https://opensearch.org/blog/concurrent_segment_search/) dives deep into how you can improve search latency across a variety of workload types with concurrent segment search,  a feature that requires non-trivial changes but can yield great results [hands on]
 
 ![opensearch cluster architecture](https://opensearch.org/assets/media/blog-images/2023-09-25-concurrent-segment-search/os-search-flow.png)
 
-* [Building a Data Lakehouse with Amazon S3 and Dremio on Apache Iceberg Tables](https://aws-oss.beachgeek.co.uk/3cn) looks at how efficiently you could implement a data lakehouse using Amazon Simple Storage Service (Amazon S3) and Dremio on Apache Iceberg [hands on]
+* [Building a Data Lakehouse with Amazon S3 and Dremio on Apache Iceberg Tables](https://aws.amazon.com/blogs/apn/building-a-data-lakehouse-with-amazon-s3-and-dremio-on-apache-iceberg-tables/) looks at how efficiently you could implement a data lakehouse using Amazon Simple Storage Service (Amazon S3) and Dremio on Apache Iceberg [hands on]
 
 **Other posts and quick reads**
 
-* [Build multi-layer maps in Amazon OpenSearch Service](https://aws-oss.beachgeek.co.uk/3cd) provides a hands on guide on how to use multi-layer maps in OpenSearch Service [hands on]
+* [Build multi-layer maps in Amazon OpenSearch Service](https://aws.amazon.com/blogs/big-data/build-multi-layer-maps-in-amazon-opensearch-service/) provides a hands on guide on how to use multi-layer maps in OpenSearch Service [hands on]
 
 ![overview of opensearch multi layer maps demo](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/10/16/bdb-3829-img12.gif)
 
-* [Persistent storage for Amazon AppStream 2.0 Linux Fleets on Amazon Elastic File System](https://aws-oss.beachgeek.co.uk/3ce) looks at some education use cases around the use of Linux based virtual desktops and additional storage requirements, and how you can leverage AWS services to address those [hands on]
-* [Build ROSA Clusters with Terraform](https://aws-oss.beachgeek.co.uk/3cf) takes a look at the official Red Hat Cloud Services Provider for Terraform, that enables you to automate the provisioning Red Hat OpenShift Service on AWS clusters (ROSA) with Terraform [hands on]
-* [Reduce container startup time on Amazon EKS with Bottlerocket data volume](https://aws-oss.beachgeek.co.uk/3ci) is a great post that shows how using the data volume of Bottlerocket instances to prefetch container images can significantly reduce the time required to pull large images from Amazon ECR, dramatically improving the efficiency and performance of container startup on Amazon EKS by decreasing boot time [hands on]
+* [Persistent storage for Amazon AppStream 2.0 Linux Fleets on Amazon Elastic File System](https://aws.amazon.com/blogs/desktop-and-application-streaming/persistent-storage-for-amazon-appstream-2-0-linux-fleets-on-amazon-elastic-file-system/) looks at some education use cases around the use of Linux based virtual desktops and additional storage requirements, and how you can leverage AWS services to address those [hands on]
+* [Build ROSA Clusters with Terraform](https://aws.amazon.com/blogs/containers/build-rosa-clusters-with-terraform/) takes a look at the official Red Hat Cloud Services Provider for Terraform, that enables you to automate the provisioning Red Hat OpenShift Service on AWS clusters (ROSA) with Terraform [hands on]
+* [Reduce container startup time on Amazon EKS with Bottlerocket data volume](https://aws.amazon.com/blogs/containers/reduce-container-startup-time-on-amazon-eks-with-bottlerocket-data-volume/) is a great post that shows how using the data volume of Bottlerocket instances to prefetch container images can significantly reduce the time required to pull large images from Amazon ECR, dramatically improving the efficiency and performance of container startup on Amazon EKS by decreasing boot time [hands on]
 
 ![overview of bottlerocket prefetch architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/10/19/Figure-2.-Architecture.png)
 
@@ -134,7 +134,7 @@ Announced last week, Amazon OpenSearch Serverless now supports automated data de
 
 Following that was news that Amazon OpenSearch Service now supports new administrative options that provide more granular control over troubleshooting potential issues with your cluster. These options include the ability to restart the OpenSearch process on a node, and the ability to restart a data node. Amazon OpenSearch Service monitors key health parameters of nodes for anomalies and takes corrective actions to help clusters remain stable. Expert users of OpenSearch Service have indicated interest in more control over some of these automated mitigation actions. With the new administrative options to restart the OpenSearch process on a node, and the ability to restart a node, customers have more control , if and when required. Customers can trigger these actions using the AWS Console, command line interface (CLI), or the AWS software development kit (AWS SDK).
 
-We also had a new post,  [Announcing Data Prepper 2.5.0](https://aws-oss.beachgeek.co.uk/3co) that looks at the the latest version of Data Prepper (a server-side data collector capable of filtering, enriching, transforming, normalising, and aggregating data for downstream use), which includes a new OpenSearch source, new dissect and translate processors, and additions to the existing key-value processor. 
+We also had a new post,  [Announcing Data Prepper 2.5.0](https://opensearch.org/blog/Announcing-Data-Prepper-2.5.0/) that looks at the the latest version of Data Prepper (a server-side data collector capable of filtering, enriching, transforming, normalising, and aggregating data for downstream use), which includes a new OpenSearch source, new dissect and translate processors, and additions to the existing key-value processor. 
 
 **PostgreSQL**
 
@@ -163,7 +163,7 @@ Getting your data flowing from your Kafka cluster is as simple as selecting a cl
 
 Amazon MSK Replicator is a new feature of Amazon Managed Streaming for Apache Kafka (Amazon MSK) that enables you to reliably replicate data across Amazon MSK clusters in different or the same AWS region(s) in a few clicks. With MSK Replicator, you can easily build regionally resilient streaming applications for increased availability and business continuity. MSK Replicator provides automatic asynchronous replication across MSK clusters, eliminating the need to write custom code, manage infrastructure, or setup cross-region networking.  MSK Replicator automatically scales the underlying resources so that you can replicate data on-demand without having to monitor or scale capacity. MSK Replicator also replicates the necessary Kafka metadata including topic configurations, Access Control Lists (ACLs), and consumer group offsets. If an unexpected event occurs in a region, you can failover to the other AWS region and seamlessly resume processing. You can also use MSK Replicator to provide lower latency data access in different geographic regions or to distribute data to your partners. 
 
-Check out the blog post from my colleague Danilo Poccia, [Introducing Amazon MSK Replicator – Fully Managed Replication across MSK Clusters in Same or Different AWS Regions](https://aws-oss.beachgeek.co.uk/3cj)
+Check out the blog post from my colleague Danilo Poccia, [Introducing Amazon MSK Replicator – Fully Managed Replication across MSK Clusters in Same or Different AWS Regions](https://aws.amazon.com/blogs/aws/introducing-amazon-msk-replicator-fully-managed-replication-across-msk-clusters-in-same-or-different-aws-regions/)
 
 ### Videos of the week
 
@@ -174,14 +174,14 @@ Another great piece from regular open source contributor Gary Stafford, where he
 {{< youtube vkouFozFSvE >}}
 
 
-You can also follow along in the blog post that accompanies this video: [Image Identification and Classification with Amazon Bedrock, OpenSearch, and OpenCLIP](https://aws-oss.beachgeek.co.uk/3cp)
+You can also follow along in the blog post that accompanies this video: [Image Identification and Classification with Amazon Bedrock, OpenSearch, and OpenCLIP](https://www.linkedin.com/pulse/image-identification-classification-amazon-bedrock-gary-stafford/)
 
 ![architecture of ai powered car damage assessor](https://media.licdn.com/dms/image/D5612AQEnyJ6xa4hq7g/article-inline_image-shrink_1000_1488/0/1697336969351?e=1703721600&v=beta&t=Ih8LgpbQIr5BKAJMRKa0ptyFOLOPLz_T8usgN8FzGlQ)
 
 
 **Reducing Costs by Maximizing Airflow and DAG Performance**
 
-There were lots of great session from the recent Apache Airflow Summit (check out the entire list of videos [here](https://aws-oss.beachgeek.co.uk/3ck)) but this was my pick from the lot. John Jackson dives deep and looks at how you can maximise the efficiency and performance of your workflows in Apache Airflow, helping you to reduce your costs. A must watch video this week if you are a user of Apache Airflow.
+There were lots of great session from the recent Apache Airflow Summit (check out the entire list of videos [here](https://www.youtube.com/playlist?list=PLGudixcDaxY29qXIXhd90htHp_BFk-Bqf)) but this was my pick from the lot. John Jackson dives deep and looks at how you can maximise the efficiency and performance of your workflows in Apache Airflow, helping you to reduce your costs. A must watch video this week if you are a user of Apache Airflow.
 
 {{< youtube 8gcBdknaM8I >}}
 
@@ -209,7 +209,7 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **AWS User Group, Palma**
 **November, 14th, 5pm-9pm Parc Bit - Fundació IBIT**
 
-I am happy to join Miguel Salvà at the PAWS (AWS User Group in Palma) for an evening of open source talks, covering a broad range of topics from OSPO's, working with open source communities, and open source at Aamzon. Going to be great. You can find out more by checking out the user groups page, [PAWS User Group](https://aws-oss.beachgeek.co.uk/3b6)
+I am happy to join Miguel Salvà at the PAWS (AWS User Group in Palma) for an evening of open source talks, covering a broad range of topics from OSPO's, working with open source communities, and open source at Aamzon. Going to be great. You can find out more by checking out the user groups page, [PAWS User Group](https://www.meetup.com/awsusergrouppalma/events/)
 
 **Big Data Europe**
 **21st-24th November, Online/Vilnius, Lithuania**
@@ -229,14 +229,14 @@ Find out more by checking out the event page, [re:Invent 2023](https://reinvent.
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

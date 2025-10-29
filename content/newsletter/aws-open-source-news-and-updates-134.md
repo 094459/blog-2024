@@ -36,31 +36,31 @@ So thank you to the following open source heroes: John Russell, Beny Ibrani, Eil
 
 **enclaver**
 
-[enclaver](https://aws-oss.beachgeek.co.uk/27k) is a new open source toolkit created to enable easy adoption of software enclaves (such as what is provided by AWS Nitro Enclaves), for new and existing backend software. Make sure you check the project documentation out which outlines in more detail some of the aspects of enclaves.
+[enclaver](https://github.com/edgebitio/enclaver) is a new open source toolkit created to enable easy adoption of software enclaves (such as what is provided by AWS Nitro Enclaves), for new and existing backend software. Make sure you check the project documentation out which outlines in more detail some of the aspects of enclaves.
 
 ![architecture of enclaver](https://raw.githubusercontent.com/edgebitio/enclaver/37cf1140d56930ff980643a9a1ebdd07a2afe567/docs/img/diagram-enclaver-components.svg)
 
-Eugene Yahubovich, the project founder has also put together a very nice blog post that dives deeper into use cases and how to get started. Go read, [Introducing Enclaver: an open-source tool for building, testing and running code within secure enclaves](https://aws-oss.beachgeek.co.uk/27n). This weeks project of the week.
+Eugene Yahubovich, the project founder has also put together a very nice blog post that dives deeper into use cases and how to get started. Go read, [Introducing Enclaver: an open-source tool for building, testing and running code within secure enclaves](https://edgebit.io/blog/enclaver/). This weeks project of the week.
 
 **s3crets_scanner**
 
-[s3crets_scanner](https://aws-oss.beachgeek.co.uk/27l) is an open source tool from Eilon Harel that is designed to provide a complementary layer for the Amazon S3 Security Best Practices by proactively hunting secrets in public S3 buckets. It can be executed as scheduled task or run On-Demand.
+[s3crets_scanner](https://github.com/Eilonh/s3crets_scanner) is an open source tool from Eilon Harel that is designed to provide a complementary layer for the Amazon S3 Security Best Practices by proactively hunting secrets in public S3 buckets. It can be executed as scheduled task or run On-Demand.
 
 ![demo of s3crets_scaner](https://github.com/Eilonh/s3crets_scanner/blob/main/DOCS/scanner_gif.gif?raw=true)
 
-Eilon Harel has also put together a blog post diving deeper into this, in the post [Hunting After Secrets Accidentally Uploaded To Public S3 Buckets](https://aws-oss.beachgeek.co.uk/27m)
+Eilon Harel has also put together a blog post diving deeper into this, in the post [Hunting After Secrets Accidentally Uploaded To Public S3 Buckets](https://medium.com/@hareleilon/hunting-after-secrets-accidentally-uploaded-to-public-s3-buckets-7e5bbbb80097)
 
 ![secret scanner workflow](https://miro.medium.com/max/1400/0*Sw-YWjtV0rRFecr4)
 
 **sandbox-accounts-for-events**
 
-[sandbox-accounts-for-events](https://aws-oss.beachgeek.co.uk/27q) "Sandbox Accounts for Events" allows to provide multiple, temporary AWS accounts to a number of authenticated users simultaneously via a browser-based GUI. It uses the concept of "leases" to create temporary access tickets and allows to define expiration periods as well as maximum budget spend per leased AWS account. Check out the docs for some example uses cases where you might find a tool like this useful, as well as understanding more how this works under the hood.
+[sandbox-accounts-for-events](https://github.com/awslabs/sandbox-accounts-for-events) "Sandbox Accounts for Events" allows to provide multiple, temporary AWS accounts to a number of authenticated users simultaneously via a browser-based GUI. It uses the concept of "leases" to create temporary access tickets and allows to define expiration periods as well as maximum budget spend per leased AWS account. Check out the docs for some example uses cases where you might find a tool like this useful, as well as understanding more how this works under the hood.
 
 ![sandbox accounts for events](https://github.com/awslabs/sandbox-accounts-for-events/blob/main/docs/images/table-leases.png?raw=true)
 
 **frontend-discovery**
 
-[frontend-discovery](https://aws-oss.beachgeek.co.uk/27r) The aim of this project is to define and drive adoption of a frontend discovery pattern, with a primary focus on client-side rendered (CSR), server-side rendered (SSR) and edge-side rendered (ESR) micro-frontends. The frontend discovery pattern improves the development experience when developing, testing, and delivering micro-frontends by making use of a shareable configuration describing the entry point of micro-frontends, as well as additional metadata that can be used to deploy in every environment safely.
+[frontend-discovery](https://github.com/awslabs/frontend-discovery) The aim of this project is to define and drive adoption of a frontend discovery pattern, with a primary focus on client-side rendered (CSR), server-side rendered (SSR) and edge-side rendered (ESR) micro-frontends. The frontend discovery pattern improves the development experience when developing, testing, and delivering micro-frontends by making use of a shareable configuration describing the entry point of micro-frontends, as well as additional metadata that can be used to deploy in every environment safely.
 
 Check out the readme to find out more about the motives behind the project, and dive into it with an example.
 
@@ -68,61 +68,61 @@ Check out the readme to find out more about the motives behind the project, and 
 
 **mapper-for-fhir**
 
-[mapper-for-fhir](https://aws-oss.beachgeek.co.uk/27p) FHIR is a standard for health care data exchange, and this repo provides assets that allow for the automated deployment of an HL7v2, leveraging native AWS services. The repo provides a CDK application that simplifies deployment.
+[mapper-for-fhir](https://github.com/aws-samples/mapper-for-fhir) FHIR is a standard for health care data exchange, and this repo provides assets that allow for the automated deployment of an HL7v2, leveraging native AWS services. The repo provides a CDK application that simplifies deployment.
 
 **cf-sam-openapi-file-organization-demo**
 
-[cf-sam-openapi-file-organization-demo](https://aws-oss.beachgeek.co.uk/27w) The project is the API back-end for a widget tracking website. Widget tracking is simplistic - widgets have only a unique name and a colour descriptor for properties. If you want to explore how to approach API design, then this is a good repo to explore.
+[cf-sam-openapi-file-organization-demo](https://github.com/aws-samples/cf-sam-openapi-file-organization-demo) The project is the API back-end for a widget tracking website. Widget tracking is simplistic - widgets have only a unique name and a colour descriptor for properties. If you want to explore how to approach API design, then this is a good repo to explore.
 
 ![architecture of apis](https://github.com/aws-samples/cf-sam-openapi-file-organization-demo/blob/main/img/Architecture-Diagram.png?raw=true)
 
 **sam-accelerate-nested-stacks-demo**
 
-[sam-accelerate-nested-stacks-demo](https://aws-oss.beachgeek.co.uk/27v) This repository shows how to use CloudFormation nested stacks with AWS SAM Accelerate. Nested stacks are stacks created as part of other stacks. In this demo repo, there are four separate stacks that make up the entire solution. AWS SAM manages all four as CloudFormation nested stacks. During development, we show how to use SAM Accelerate to quickly update resources, shortening the development loop.
+[sam-accelerate-nested-stacks-demo](https://github.com/aws-samples/sam-accelerate-nested-stacks-demo) This repository shows how to use CloudFormation nested stacks with AWS SAM Accelerate. Nested stacks are stacks created as part of other stacks. In this demo repo, there are four separate stacks that make up the entire solution. AWS SAM manages all four as CloudFormation nested stacks. During development, we show how to use SAM Accelerate to quickly update resources, shortening the development loop.
 
 ![architecture of SAM accelerate nested stack demo](https://github.com/aws-samples/sam-accelerate-nested-stacks-demo/blob/main/orders.jpeg?raw=true)
 
 **decoupling-microservices-lambda-amazonmq-rabbitmq**
 
-[decoupling-microservices-lambda-amazonmq-rabbitmq](https://aws-oss.beachgeek.co.uk/27u) This project is a solution architecture that demonstrates decoupling micro services with Amazon MQ for RabbitMQ and AWS Lambda. A decoupled application architecture allows each component to perform its tasks independently and a change in one service shouldn't require a change in the other services.
+[decoupling-microservices-lambda-amazonmq-rabbitmq](https://github.com/aws-samples/decoupling-microservices-lambda-amazonmq-rabbitmq) This project is a solution architecture that demonstrates decoupling micro services with Amazon MQ for RabbitMQ and AWS Lambda. A decoupled application architecture allows each component to perform its tasks independently and a change in one service shouldn't require a change in the other services.
 
 ![architecture for amazonmq rabbitmq solution](https://github.com/aws-samples/decoupling-microservices-lambda-amazonmq-rabbitmq/blob/main/diagrams/mq_decoupled_apps.png?raw=true)
 
 **how-to-write-more-correct-software-workshop**
 
-[how-to-write-more-correct-software-workshop](https://aws-oss.beachgeek.co.uk/27t) so last week I featured duvet, a tool to help you codify and automate validation of your software against honouring RFC specs. This repo contains a workshop that walks you through a practical example of that, but also features dafny, a programming language that formally verifies your implementation matches your specification. I have this on my weekend to do list.
+[how-to-write-more-correct-software-workshop](https://github.com/aws-samples/how-to-write-more-correct-software-workshop) so last week I featured duvet, a tool to help you codify and automate validation of your software against honouring RFC specs. This repo contains a workshop that walks you through a practical example of that, but also features dafny, a programming language that formally verifies your implementation matches your specification. I have this on my weekend to do list.
 
 ### AWS and Community blog posts
 
 **Kubernetes**
 
-Benson Kwong has been busy putting this blog post together, [Multi-cluster management for Kubernetes with Cluster API and Argo CD](https://aws-oss.beachgeek.co.uk/27z) where he introduces what Cluster API is and explained why you can use this useful tool for managing multiple Kubernetes clusters instead of struggling with different APIs and tool sets to maintain them. He also covers how you can also integrate ArgoCD to add that sprinkle of continuous delivery with Git as your source of truth. [hands on]
+Benson Kwong has been busy putting this blog post together, [Multi-cluster management for Kubernetes with Cluster API and Argo CD](https://aws.amazon.com/blogs/containers/multi-cluster-management-for-kubernetes-with-cluster-api-and-argo-cd/) where he introduces what Cluster API is and explained why you can use this useful tool for managing multiple Kubernetes clusters instead of struggling with different APIs and tool sets to maintain them. He also covers how you can also integrate ArgoCD to add that sprinkle of continuous delivery with Git as your source of truth. [hands on]
 
 ![architecture of eks multi cluster management](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/01/kwong.png)
 
 **CoreWCF**
 
-CoreWCF is a port of the service side of Windows Communication Foundation (WCF) to .NET Core. The goal of this project is to enable existing WCF services to move to .NET Core. In the post, [Running your modern CoreWCF application on AWS](https://aws-oss.beachgeek.co.uk/27y) Ashish Bhatia and Jagadeesh Chitikesi show you how to deploy a CoreWCF application on an Amazon Linux Graviton2 instance. [hands on]
+CoreWCF is a port of the service side of Windows Communication Foundation (WCF) to .NET Core. The goal of this project is to enable existing WCF services to move to .NET Core. In the post, [Running your modern CoreWCF application on AWS](https://aws.amazon.com/blogs/modernizing-with-aws/running-your-modern-corewcf-application-on-aws/) Ashish Bhatia and Jagadeesh Chitikesi show you how to deploy a CoreWCF application on an Amazon Linux Graviton2 instance. [hands on]
 
 **MySQL**
 
-In the post, [Enable change data capture on Amazon RDS for MySQL applications that are using XA transactions](https://aws-oss.beachgeek.co.uk/280) Stanley Chukwuemeke, Baruch Assif Osoveskiy, and Kehinde Otubamowo have collaborated to present a solution to safely replicate change streams from a MySQL database using XA transactions, to down stream OpenSearch. [hands on]
+In the post, [Enable change data capture on Amazon RDS for MySQL applications that are using XA transactions](https://aws.amazon.com/blogs/database/enable-change-data-capture-on-amazon-rds-for-mysql-applications-that-are-using-xa-transactions/) Stanley Chukwuemeke, Baruch Assif Osoveskiy, and Kehinde Otubamowo have collaborated to present a solution to safely replicate change streams from a MySQL database using XA transactions, to down stream OpenSearch. [hands on]
 
 ![solution overview for mysql change data capture](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2022/10/21/DBBLOG-2409-arch-diag-1-1.png)
 
 **Other posts and quick reads**
 
-* [Create a Multi-Region Python Package Publishing Pipeline with AWS CDK and CodePipeline](https://aws-oss.beachgeek.co.uk/27x) walks you through how to deploy a CodePipeline pipeline to automate the publishing of Python packages to multiple CodeArtifact repositories in separate regions [hands on]
+* [Create a Multi-Region Python Package Publishing Pipeline with AWS CDK and CodePipeline](https://aws.amazon.com/blogs/devops/create-a-multi-region-python-package-publishing-pipeline-with-aws-cdk-and-codepipeline/) walks you through how to deploy a CodePipeline pipeline to automate the publishing of Python packages to multiple CodeArtifact repositories in separate regions [hands on]
 
 ![architecture of pipeline to publish package](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2022/10/18/devops_2053_1.png)
 
-* [Microservice observability with Amazon OpenSearch Service part 1: Trace and log correlation](https://aws-oss.beachgeek.co.uk/281) is a two part blog that uses a sample micro service to show you how you can implement observability using a number of open source tools such as Fluentbit, AWS Distro for OpenTelemetry, and OpenSearch [hands on]
+* [Microservice observability with Amazon OpenSearch Service part 1: Trace and log correlation](https://aws.amazon.com/blogs/big-data/part-1-microservice-observability-with-amazon-opensearch-service-trace-and-log-correlation/) is a two part blog that uses a sample micro service to show you how you can implement observability using a number of open source tools such as Fluentbit, AWS Distro for OpenTelemetry, and OpenSearch [hands on]
 
 ![overview of architecture for microservice observability](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/10/14/BDB-2223-P1-image001.jpg)
 
-* [Migrate Oracle hierarchical queries to Amazon Aurora PostgreSQL](https://aws-oss.beachgeek.co.uk/282) demonstrates via sample queries how you can migrate Oracle hierarchical queries using a number of keywords to PostgreSQL [hands on]
-* [What to consider when modernizing APIs with GraphQL on AWS](https://aws-oss.beachgeek.co.uk/283) provides a good primer on how GraphQL works and how integrating it with AWS services can help you build modern applications
-* [Managing Computer Labs on Amazon AppStream 2.0 with Open Source Virtual Application Management](https://aws-oss.beachgeek.co.uk/284) provides a hands on guide to using an open source project previously featured in this newsletter, to help administrators programmatically create AppStream 2.0 images [hands on]
+* [Migrate Oracle hierarchical queries to Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/migrate-oracle-hierarchical-queries-to-amazon-aurora-postgresql/) demonstrates via sample queries how you can migrate Oracle hierarchical queries using a number of keywords to PostgreSQL [hands on]
+* [What to consider when modernizing APIs with GraphQL on AWS](https://aws.amazon.com/blogs/architecture/what-to-consider-when-modernizing-apis-with-graphql-on-aws/) provides a good primer on how GraphQL works and how integrating it with AWS services can help you build modern applications
+* [Managing Computer Labs on Amazon AppStream 2.0 with Open Source Virtual Application Management](https://aws.amazon.com/blogs/opensource/managing-computer-labs-on-amazon-appstream-2-0-with-virtual-application-management/) provides a hands on guide to using an open source project previously featured in this newsletter, to help administrators programmatically create AppStream 2.0 images [hands on]
 
 ![architecture of solution for appstream image building](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2022/11/01/VAM-architecture-diagram.png)
 
@@ -176,9 +176,9 @@ Apache Iceberg 0.14.0 on Amazon EMR 6.8 includes support for Spark 3.3.0, adds M
 
 AWS ParallelCluster 3.3 is now generally available and introduces a new feature for compute resource optimisation. With this new feature, you can map a compute resource to a list of Amazon EC2 instance types with an allocation strategy to optimize compute capacity for your HPC jobs. Other features include updates that support dynamically mounting shared storage, Slurm accounting, and Amazon EC2 on demand capacity reservations (ODCR).
 
-Check out the announcement for more details, [AWS ParallelCluster 3.3: multiple instance type allocation and other top requested features](https://aws-oss.beachgeek.co.uk/27h)
+Check out the announcement for more details, [AWS ParallelCluster 3.3: multiple instance type allocation and other top requested features](https://aws.amazon.com/about-aws/whats-new/2022/11/aws-parallelcluster-3-3-multiple-instance-type-allocation-top-features/)
 
-Matt Vaughn has also published a blog post, [Support for Instance Allocation Flexibility in AWS ParallelCluster 3.3](https://aws-oss.beachgeek.co.uk/27i), where he explains in detail how a new feature that was also announced called “multiple instance type allocation” in ParallelCluster 3.3.0. This feature enables you to specify multiple instance types to use when scaling up the compute resources for a Slurm job queue. Your HPC workloads will have more paths forward to get access to the EC2 capacity they need, helping you to get more computing done.
+Matt Vaughn has also published a blog post, [Support for Instance Allocation Flexibility in AWS ParallelCluster 3.3](https://aws.amazon.com/blogs/hpc/support-for-instance-allocation-flexibility-in-aws-parallelcluster-3-3/), where he explains in detail how a new feature that was also announced called “multiple instance type allocation” in ParallelCluster 3.3.0. This feature enables you to specify multiple instance types to use when scaling up the compute resources for a Slurm job queue. Your HPC workloads will have more paths forward to get access to the EC2 capacity they need, helping you to get more computing done.
 
 
 ### Videos of the week
@@ -199,7 +199,7 @@ Join fellow Developer Advocate John Russell as he shows you how to set up a data
 
 For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs.
 
-We have put together a playlist so that you can easily access all the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+We have put together a playlist so that you can easily access all the other episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -208,14 +208,14 @@ We have put together a playlist so that you can easily access all the other epis
 
 The OpenSearch engineering team working on the Security repo have opened up their Backlog & Triage meetings to the public. This is a great opportunity to find out more about the inner workings of open source projects such as OpenSearch. Don't worry if you cannot make this meeting as they are currently scheduled from the 7th of November out through Dec 19th.
 
-Check out the entire [list here](https://aws-oss.beachgeek.co.uk/285).
+Check out the entire [list here](https://opensearch.org/events/2022-1107-dev-triage-security/).
 
 **Open Source & AWS IoT**
 **7th November, 4pm IST**
 
 Internet of Things and other categories of hardware devices with edge computing capabilities that communicate over the internet to perform remote actions require a stable, easy-to-use and, most importantly, secure operating software that can be audited independently. In this session, the presenter will look at ways that AWS supports and contributes to the open-source community to make these devices more resilient and feature-rich through solutions such as AWS Greengrass and AWS IoT Core.
 
-AWS Hero Faizal Khan will be your host, and you can sign up [via the registration page here](https://aws-oss.beachgeek.co.uk/27o).
+AWS Hero Faizal Khan will be your host, and you can sign up [via the registration page here](https://docs.google.com/forms/d/e/1FAIpQLSeVcDExytd_ERzBE5IlIjbxy_qsuynimdlgIVsQvpyQv4EDdw/viewform).
 
 **Open Source Edinburgh**
 **9th November, 5:30pm Scott Logic in Edinburgh**
@@ -228,7 +228,7 @@ I will be talking at the Open Source Edinburgh meet-up this week, and you can fi
 
 Join Beny Ibrani and the AWS User Group Indonesia for this session (local language I believe) where Beny will show you how you can use open source transcoding software running on Amazon EKS.
 
-This session will be streamed on YouTube, so [check it out here](https://aws-oss.beachgeek.co.uk/27j)
+This session will be streamed on YouTube, so [check it out here](https://www.youtube.com/watch?v=N-W-aaAOrsA)
 
 **Build on AWS Open Source**
 **November 18th, 9am BST**
@@ -240,7 +240,7 @@ Join us for the sixth episode of the Build on AWS series, featuring a live round
 
 Join us for an interactive workshop on containers, Docker, Fargate and Amazon EKS, hosted by ClearScale and AWS. This live, virtual workshop includes three hours of interactive presentation and hands-on lab work. You will take part in the setup and deployment of containers using EKS. Follow along and work directly with AWS professionals and ClearScale (an AWS Premier Tier Services Partner) in this Level 200 training session.
 
-You can find out more about this event by [checking out the event page and signing up](https://aws-oss.beachgeek.co.uk/22y).
+You can find out more about this event by [checking out the event page and signing up](https://www.bigmarker.com/clearscale/AWS-Elastic-Kubernetes-Service-EKS-Workshop-November).
 
 **re:Invent**
 **November 28th - December 3rd, Las Vegas**
@@ -249,7 +249,7 @@ re:Invent is only a few weeks away so I want to share a few things that will hop
 
 First up, we will be running the Build On Live stream throughout re:Invent and we would love to feature you! If either yourself, or perhaps you know a community member going to re:Invent and think they will absolutely love to attend the livestream, we want to hear from you. Please nominate a community member you want to hear from during Build On Live [using this survey](https://eventbox.dev/survey/6B0ED1J).
 
-Second, check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://aws-oss.beachgeek.co.uk/252) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
+Second, check out this handy way to look at all the amazing open source sessions, then check out this [dashboard](https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/OPN) [sign up required]. I would love to hear which ones you are excited about so please let me know in the comments or via Twitter. If you want to hear what my top three, must watch sessions, then this is what I would attend (sadly, as an AWS employee I am not allowed to attend sessions)
 
 1. OPN306 AWS Lambda Powertools: Lessons from the road to 10 million downloads - Heitor Lessa is going to deliver an amazing session on the journey from idea to one of the most loved and used open source tools for AWS Lambda users
 2. BOA204 When security, safety, and urgency all matter: Handling Log4Shell - Cannot wait for this session from Abbey Fuller who will walk us through how we managed this incident
@@ -262,7 +262,7 @@ There are many other great open source sessions, and hopefully I will try and pu
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

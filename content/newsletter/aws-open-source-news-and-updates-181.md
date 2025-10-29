@@ -14,7 +14,7 @@ Before you dive into this week edition, I just wanted to share that there will b
 
 **AWS open source newsletter in Spanish**
 
-My colleague Guillermo Ruiz has been busy creating a monthly version of this newsletter for you Spanish readers out there. Much better than my poorly translated editions, this is your perfect guide to the best open source content for those of you who prefer to read in castellano. Go check it out, [Boletín AWS Open Source, November Edition](https://aws-oss.beachgeek.co.uk/3gk)
+My colleague Guillermo Ruiz has been busy creating a monthly version of this newsletter for you Spanish readers out there. Much better than my poorly translated editions, this is your perfect guide to the best open source content for those of you who prefer to read in castellano. Go check it out, [Boletín AWS Open Source, November Edition](https://dev.to/aws-espanol/boletin-aws-open-source-november-edition-18k9)
 
 **Feedback**
 
@@ -34,33 +34,33 @@ So thank you to the following open source heroes: Efi Merdler-Kravitz, Jeffrey L
 
 **s3-connector-for-pytorch**
 
-[s3-connector-for-pytorch](https://aws-oss.beachgeek.co.uk/3gw) the Amazon S3 Connector for PyTorch delivers high throughput for PyTorch training jobs that access or store data in Amazon S3. Using the S3 Connector for PyTorch automatically optimises performance when downloading training data from and writing checkpoints to Amazon S3, eliminating the need to write your own code to list S3 buckets and manage concurrent requests. Amazon S3 Connector for PyTorch provides implementations of PyTorch's dataset primitives that you can use to load training data from Amazon S3. It supports both map-style datasets for random data access patterns and iterable-style datasets for streaming sequential data access patterns. The S3 Connector for PyTorch also includes a checkpointing interface to save and load checkpoints directly to Amazon S3, without first saving to local storage.
+[s3-connector-for-pytorch](https://github.com/awslabs/s3-connector-for-pytorch) the Amazon S3 Connector for PyTorch delivers high throughput for PyTorch training jobs that access or store data in Amazon S3. Using the S3 Connector for PyTorch automatically optimises performance when downloading training data from and writing checkpoints to Amazon S3, eliminating the need to write your own code to list S3 buckets and manage concurrent requests. Amazon S3 Connector for PyTorch provides implementations of PyTorch's dataset primitives that you can use to load training data from Amazon S3. It supports both map-style datasets for random data access patterns and iterable-style datasets for streaming sequential data access patterns. The S3 Connector for PyTorch also includes a checkpointing interface to save and load checkpoints directly to Amazon S3, without first saving to local storage.
 
 **cloudwatch-macros**
 
-[cloudwatch-macros](https://aws-oss.beachgeek.co.uk/3gs) is the latest open source creation from AWS Hero Efi Merdler-Kravitz, focused on improving the CloudFormation and AWS SAM developer experience. This project features a collection of (basic at the moment) CloudFormation macros, written in Rust, offering seamless deployment through SAM. Check out [Efi's post on LinkedIn](https://aws-oss.beachgeek.co.uk/3gt) for more details and additional useful resources.
+[cloudwatch-macros](https://github.com/aws-cli-tools/cloudwatch-macros) is the latest open source creation from AWS Hero Efi Merdler-Kravitz, focused on improving the CloudFormation and AWS SAM developer experience. This project features a collection of (basic at the moment) CloudFormation macros, written in Rust, offering seamless deployment through SAM. Check out [Efi's post on LinkedIn](https://www.linkedin.com/posts/efime_github-aws-cli-toolscloudwatch-macros-activity-7133476273036664832-UU9K) for more details and additional useful resources.
 
 **awskillswitch**
 
-[awskillswitch](https://aws-oss.beachgeek.co.uk/3gr) is an open sourced tool from Jeffrey Lyon that is worth checking out. AWS Kill Switch is a Lambda function (and proof of concept client) that an organisation can implement in a dedicated "Security" account to give their security engineers the ability to delete IAM roles or apply a highly restrictive service control policy (SCP) on any account in their organisation. Make sure you check out the README for full details, but this looks like it might be one of those tools that are useful to have in the back pocket in times of need.
+[awskillswitch](https://github.com/secengjeff/awskillswitch) is an open sourced tool from Jeffrey Lyon that is worth checking out. AWS Kill Switch is a Lambda function (and proof of concept client) that an organisation can implement in a dedicated "Security" account to give their security engineers the ability to delete IAM roles or apply a highly restrictive service control policy (SCP) on any account in their organisation. Make sure you check out the README for full details, but this looks like it might be one of those tools that are useful to have in the back pocket in times of need.
 
 **pagemosaic-website-starter**
 
-[pagemosaic-website-starter](https://aws-oss.beachgeek.co.uk/3gp) is an open source tool from Alex Pust that helps you to host static websites on AWS, using AWS CDK under the covers from the looks of things. To deploy your website, simply transfer your website files to the /platform/web-app directory. Following this, execute the command pnpm deploy-platform to initiate the deployment process. Nice use of You Tube videos in the README to help you get started.
+[pagemosaic-website-starter](https://github.com/pagemosaic/pagemosaic-website-starter) is an open source tool from Alex Pust that helps you to host static websites on AWS, using AWS CDK under the covers from the looks of things. To deploy your website, simply transfer your website files to the /platform/web-app directory. Following this, execute the command pnpm deploy-platform to initiate the deployment process. Nice use of You Tube videos in the README to help you get started.
 
 ### Demos, Samples, Solutions and Workshops
 
 **reinvent-session-concierge**
 
-[reinvent-session-concierge](https://aws-oss.beachgeek.co.uk/3gq) is potentially a very useful tool for those of you heading out to re:Invent, and wanting to make sure that you make the most of your time there by attending the sessions of most interest to you. This project uses Amazon Bedrock Titan text embeddings stored in a PostgreSQL database to enable generative AI queries across the re:Invent session data. It combines both semantic search and traditional queries. I am going to be trying it out later today to help me plan my online viewing.
+[reinvent-session-concierge](https://github.com/caylent/reinvent-session-concierge) is potentially a very useful tool for those of you heading out to re:Invent, and wanting to make sure that you make the most of your time there by attending the sessions of most interest to you. This project uses Amazon Bedrock Titan text embeddings stored in a PostgreSQL database to enable generative AI queries across the re:Invent session data. It combines both semantic search and traditional queries. I am going to be trying it out later today to help me plan my online viewing.
 
 **big-data-summarization-using-griptape-bedrock-redshift**
 
-[big-data-summarization-using-griptape-bedrock-redshift](https://aws-oss.beachgeek.co.uk/3gv) I have looked at Griptape in other blog posts, so it was nice to see this repo that provides sample code and instructions for a Big data summarisation example using this popular open-source library, together with Amazon Bedrock and Amazon Redshift. In this sample,  TitanXL LLM is used to summarise but Anthropic's Claude v2 is also used to drive the application. This application sample demonstrates how data can be pulled from Amazon Redshift and then passed to the summarisation model. The driving model is isolated from the actual data and uses the tools provided to it to orchestrate the application.
+[big-data-summarization-using-griptape-bedrock-redshift](https://github.com/aws-samples/big-data-summarization-using-griptape-bedrock-redshift) I have looked at Griptape in other blog posts, so it was nice to see this repo that provides sample code and instructions for a Big data summarisation example using this popular open-source library, together with Amazon Bedrock and Amazon Redshift. In this sample,  TitanXL LLM is used to summarise but Anthropic's Claude v2 is also used to drive the application. This application sample demonstrates how data can be pulled from Amazon Redshift and then passed to the summarisation model. The driving model is isolated from the actual data and uses the tools provided to it to orchestrate the application.
 
 **aws-agentic-document-assistant**
 
-[aws-agentic-document-assistant](https://aws-oss.beachgeek.co.uk/3gu) The Agentic Documents Assistant is an LLM assistant that provides users with easy access to information and insights stored across their business documents, through natural conversations and question answering. It supports answering factual questions by retrieving information directly from documents using semantic search with the popular RAG design pattern. Additionally, it answers analytical questions by translating user questions into SQL queries and running them against a database of entities extracted from the documents with a batch process. It is also able to answer complex multi-step questions by combining different tools and data sources using an LLM agent design pattern.
+[aws-agentic-document-assistant](https://github.com/aws-samples/aws-agentic-document-assistant) The Agentic Documents Assistant is an LLM assistant that provides users with easy access to information and insights stored across their business documents, through natural conversations and question answering. It supports answering factual questions by retrieving information directly from documents using semantic search with the popular RAG design pattern. Additionally, it answers analytical questions by translating user questions into SQL queries and running them against a database of entities extracted from the documents with a batch process. It is also able to answer complex multi-step questions by combining different tools and data sources using an LLM agent design pattern.
 
 Key features of this sample project include semantic search to augment response generation with relevant documents, structured metadata extraction and SQL queries for analytical reasoning, and an agent built with the Reason and Act (ReAct) instruction format that determines whether to use search or SQL to answer questions.
 
@@ -70,9 +70,9 @@ Key features of this sample project include semantic search to augment response 
 
 **Community round up**
 
-I always take time in reading posts from the community, so want to share some of the highlights from last week with you. First up is AWS Community Builder Salam Shaik who provides an overview of vector databases (so hot right now!) and a hands on guide on how you can get started with this using OpenSearch in his post, [Building a vector-based search engine using Amazon Bedrock and Amazon Open Search Service](https://dev.to/aws-builders/building-a-vector-based-search-engine-using-amazon-bedrock-and-amazon-open-search-service-3jom). AWS Community Builder Vadym Kazulkin is back with the latest instalment for Java developers, and his journey in helping you dive deeper into running modern Java applications in the Cloud with the post, [Measuring Lambda cold starts with AWS SnapStart - Part 9 Measuring with Java 21](https://dev.to/aws-builders/measuring-lambda-cold-starts-with-aws-snapstart-part-9-measuring-with-java-21-5e52). From Java to Kong, an open source cloud native API gateway project that features in AWS Community Builder Alexander Rey's post, [Deploying Kong Gateway (OSS) in Production on AWS Using serverless Tools](https://dev.to/aws-builders/deploying-kong-gateway-oss-in-production-on-aws-using-serverless-tools-72a). This was the first time I had heard and read about the Pirate Weather API, but I approve. Rrrrr, tis brough out the inner rascal in me. It is tough to top Pirates, but AWS Community Builder Jason Andrews puts in a valiant effort in his post, [Use AWS Graviton processors on AWS Fargate with Copilot](https://aws-oss.beachgeek.co.uk/3gn) looking at using AWS Copilot with AWS Graviton powered containers. Next up we have Rahul Pulikkot Nath with a tool for you .NET developers. In [How To Easily Get Started with AWS Lambda Logging in .NET using Powertools](https://aws-oss.beachgeek.co.uk/3go), Rahul provides a hands on guide on how you can integrate Powertools for Lambda in your .NET functions, and provides video support as well.
+I always take time in reading posts from the community, so want to share some of the highlights from last week with you. First up is AWS Community Builder Salam Shaik who provides an overview of vector databases (so hot right now!) and a hands on guide on how you can get started with this using OpenSearch in his post, [Building a vector-based search engine using Amazon Bedrock and Amazon Open Search Service](https://dev.to/aws-builders/building-a-vector-based-search-engine-using-amazon-bedrock-and-amazon-open-search-service-3jom). AWS Community Builder Vadym Kazulkin is back with the latest instalment for Java developers, and his journey in helping you dive deeper into running modern Java applications in the Cloud with the post, [Measuring Lambda cold starts with AWS SnapStart - Part 9 Measuring with Java 21](https://dev.to/aws-builders/measuring-lambda-cold-starts-with-aws-snapstart-part-9-measuring-with-java-21-5e52). From Java to Kong, an open source cloud native API gateway project that features in AWS Community Builder Alexander Rey's post, [Deploying Kong Gateway (OSS) in Production on AWS Using serverless Tools](https://dev.to/aws-builders/deploying-kong-gateway-oss-in-production-on-aws-using-serverless-tools-72a). This was the first time I had heard and read about the Pirate Weather API, but I approve. Rrrrr, tis brough out the inner rascal in me. It is tough to top Pirates, but AWS Community Builder Jason Andrews puts in a valiant effort in his post, [Use AWS Graviton processors on AWS Fargate with Copilot](https://dev.to/aws-builders/use-aws-graviton-processors-on-aws-fargate-with-copilot-1n6p) looking at using AWS Copilot with AWS Graviton powered containers. Next up we have Rahul Pulikkot Nath with a tool for you .NET developers. In [How To Easily Get Started with AWS Lambda Logging in .NET using Powertools](https://www.rahulpnath.com/blog/powertools-for-aws-lambda-logger/), Rahul provides a hands on guide on how you can integrate Powertools for Lambda in your .NET functions, and provides video support as well.
 
-To finish this round up this week, my colleague Sophia Parafina is continuing with the quest for more WordPress content buy putting together a couple of posts to help you automate the deployment of this open source content management system. First up is [Automate WordPress Lightsail Deployments with AWS CDK](https://aws-oss.beachgeek.co.uk/3gl), which provides a blueprint of how you can deploy Wordpress on Lightsail using AWS CDK. Following that we had [Deploy WordPress with Lightsail and CloudFormation](https://aws-oss.beachgeek.co.uk/3gm) that took a different approach, this time using Amazon CloudFormation templates.
+To finish this round up this week, my colleague Sophia Parafina is continuing with the quest for more WordPress content buy putting together a couple of posts to help you automate the deployment of this open source content management system. First up is [Automate WordPress Lightsail Deployments with AWS CDK](https://community.aws/posts/automate-wordpress-lightsail-deployments-with-aws-cdk), which provides a blueprint of how you can deploy Wordpress on Lightsail using AWS CDK. Following that we had [Deploy WordPress with Lightsail and CloudFormation](https://community.aws/posts/deploy-wordpress-with-lightsail-and-cloudFormation) that took a different approach, this time using Amazon CloudFormation templates.
 
 **AWS Amplify**
 
@@ -80,57 +80,57 @@ The AWS Amplify team have been super busy and have released some really great up
 
 Starting things off was news that AWS Amplify has a public preview of its code-first developer experience (Gen 2), enabling developers to build full-stack apps using TypeScript. Gen 2 shifts to a code-first approach that allows developers to express app requirements - data model, business logic, authorisation rules - in TypeScript. The necessary cloud infrastructure is automatically deployed based on the app code, without explicit infrastructure definitions.
 
-Nikhil Swaminathan looks at this in more detail in his post, [Introducing the Next Generation of AWS Amplify’s Fullstack Development Experience](https://aws-oss.beachgeek.co.uk/3g4).
+Nikhil Swaminathan looks at this in more detail in his post, [Introducing the Next Generation of AWS Amplify’s Fullstack Development Experience](https://aws.amazon.com/blogs/mobile/introducing-amplify-gen2/).
 
 ![an oveview of aws amplify gen2](https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2023/11/21/sandbox.png)
 
-In other AWS Amplify news, we had Danny Banks and Erik Hanchett come together to write [6 New AWS Amplify Launches for Frontend Developers](https://aws-oss.beachgeek.co.uk/3g5) where they share improvements to our documentation site, Next.js 14 support, custom authentication providers, React Native social sign in, and UI components. 
+In other AWS Amplify news, we had Danny Banks and Erik Hanchett come together to write [6 New AWS Amplify Launches for Frontend Developers](https://aws.amazon.com/blogs/mobile/6-new-aws-amplify-launches-to-make-frontend-development-easier/) where they share improvements to our documentation site, Next.js 14 support, custom authentication providers, React Native social sign in, and UI components. 
 
-Up next was this post, [Wildcard Subdomains for Multi-tenant Apps on AWS Amplify Hosting](https://aws-oss.beachgeek.co.uk/3g8) where Stephen Siegert looked at the announcement of wildcard subdomains when using a custom domain with your Amplify application. This is critical for developers that are building personalised user experiences in their Software as a Service (SaaS) or multi-tenant platforms. [hands on]
+Up next was this post, [Wildcard Subdomains for Multi-tenant Apps on AWS Amplify Hosting](https://aws.amazon.com/blogs/mobile/wildcard-subdomains-for-multi-tenant-apps-on-aws-amplify-hosting/) where Stephen Siegert looked at the announcement of wildcard subdomains when using a custom domain with your Amplify application. This is critical for developers that are building personalised user experiences in their Software as a Service (SaaS) or multi-tenant platforms. [hands on]
 
-To complete the round up of AWS Amplify posts this week, we had Stephen Siegert back again with [Introducing Support for Hosting Any SSR app on AWS Amplify Hosting](https://aws-oss.beachgeek.co.uk/3g6)  that explored the announcement of  a new deployment specification that enables developers to build plugins for hosting server-side rendering (SSR) applications on Amplify, which opens up Amplify Hosting’s SSR capabilities to all frameworks. Very cool.
+To complete the round up of AWS Amplify posts this week, we had Stephen Siegert back again with [Introducing Support for Hosting Any SSR app on AWS Amplify Hosting](https://aws.amazon.com/blogs/mobile/introducing-support-for-hosting-any-ssr-app-on-aws-amplify-hosting/)  that explored the announcement of  a new deployment specification that enables developers to build plugins for hosting server-side rendering (SSR) applications on Amplify, which opens up Amplify Hosting’s SSR capabilities to all frameworks. Very cool.
 
 **Data and Analytics**
 
 Here are the pick of last weeks open source related data and analytics posts.
 
-* [Introducing persistent buffering for Amazon OpenSearch Ingestion](https://aws-oss.beachgeek.co.uk/3gd) looks at how to configure persistent buffering for Amazon OpenSearch Ingestion to enhance data durability, and simplify data ingestion architecture for Amazon OpenSearch Service [hands on]
-* [Introducing Group Replication plugin for active/active replication on Amazon RDS for MySQL](https://aws-oss.beachgeek.co.uk/3gb) explores MySQL Group Replication, its use cases, configuration, application-level considerations, and significance in modern database management [hands on]
+* [Introducing persistent buffering for Amazon OpenSearch Ingestion](https://aws.amazon.com/blogs/big-data/introducing-persistent-buffering-for-amazon-opensearch-ingestion/) looks at how to configure persistent buffering for Amazon OpenSearch Ingestion to enhance data durability, and simplify data ingestion architecture for Amazon OpenSearch Service [hands on]
+* [Introducing Group Replication plugin for active/active replication on Amazon RDS for MySQL](https://aws.amazon.com/blogs/database/introducing-group-replication-plugin-for-active-active-replication-on-amazon-rds-for-mysql/) explores MySQL Group Replication, its use cases, configuration, application-level considerations, and significance in modern database management [hands on]
 
 ![overview of mysql group replication](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/11/16/DBBLOG-3602-image001-croppedand-resized.png)
 
-* [Implement data warehousing solution using dbt on Amazon Redshift](https://aws-oss.beachgeek.co.uk/3gh) highlights an optimal and cost-effective way of incorporating dbt within Amazon Redshift [hands on]
+* [Implement data warehousing solution using dbt on Amazon Redshift](https://aws.amazon.com/blogs/big-data/implement-data-warehousing-solution-using-dbt-on-amazon-redshift/) highlights an optimal and cost-effective way of incorporating dbt within Amazon Redshift [hands on]
 
 ![overview of cost effective dbt with amazon redshift](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/11/09/BDB_3433_SolutionArchitecture.png)
 
-* [Introducing Apache Hudi support with AWS Glue crawlers](https://aws-oss.beachgeek.co.uk/3gi) demonstrates how AWS Glue crawlers work for Hudi tables, and how with the support for Hudi crawler, you can quickly move to using AWS Glue Data Catalog as your primary Hudi table catalog [hands on]
+* [Introducing Apache Hudi support with AWS Glue crawlers](https://aws.amazon.com/blogs/big-data/introducing-apache-hudi-support-with-aws-glue-crawlers/) demonstrates how AWS Glue crawlers work for Hudi tables, and how with the support for Hudi crawler, you can quickly move to using AWS Glue Data Catalog as your primary Hudi table catalog [hands on]
 
 **Other posts and quick reads**
 
-* [Monitoring and Visualizing Amazon EKS signals with Kiali and AWS managed open-source services](https://aws-oss.beachgeek.co.uk/3ge) demonstrates how to set up and access the Kiali dashboard to query Istio metrics in Amazon managed Prometheus [hands on]
+* [Monitoring and Visualizing Amazon EKS signals with Kiali and AWS managed open-source services](https://aws.amazon.com/blogs/mt/monitoring-and-visualizing-amazon-eks-signals-with-kiali-and-aws-managed-open-source-services/) demonstrates how to set up and access the Kiali dashboard to query Istio metrics in Amazon managed Prometheus [hands on]
 
 ![example of a kali dashboard](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/11/17/figure2.jpg)
 
-* [Optimize AZ traffic costs using Amazon EKS, Karpenter, and Istio](https://aws-oss.beachgeek.co.uk/3g9) presents a robust solution by integrating Istio, Karpenter, and Amazon EKS to address operational efficiency and cost-effectiveness [hands on]
+* [Optimize AZ traffic costs using Amazon EKS, Karpenter, and Istio](https://aws.amazon.com/blogs/containers/optimize-az-traffic-costs-using-amazon-eks-karpenter-and-istio-editorial/) presents a robust solution by integrating Istio, Karpenter, and Amazon EKS to address operational efficiency and cost-effectiveness [hands on]
 
 ![overview of eks, karpenter and istio architecture for optimisation](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/11/16/Istio-EKS-Karpenter-architecture.png)
 
-* [Scalable and Cost-Effective Event-Driven Workloads with KEDA and Karpenter on Amazon EKS](https://aws-oss.beachgeek.co.uk/3ga) provides a simplified guide to integrating Kubernetes Event-Driven Autoscaling (KEDA) using Karpenter with Amazon EKS, for a more efficient, cost-effective, and high-performing setup [hands on]
+* [Scalable and Cost-Effective Event-Driven Workloads with KEDA and Karpenter on Amazon EKS](https://aws.amazon.com/blogs/containers/scalable-and-cost-effective-event-driven-workloads-with-keda-and-karpenter-on-amazon-eks/) provides a simplified guide to integrating Kubernetes Event-Driven Autoscaling (KEDA) using Karpenter with Amazon EKS, for a more efficient, cost-effective, and high-performing setup [hands on]
 
 ![overview of KEDA with karpenter architecture](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/11/16/Event-driven-workloads.png)
 
-* [Use Amazon SageMaker Studio to build a RAG question answering solution with Llama 2, LangChain, and Pinecone for fast experimentation](https://aws-oss.beachgeek.co.uk/3gf) explores how to use Amazon SageMaker Studio to build a RAG question answering solution, using a number of open source technologies [hands on]
+* [Use Amazon SageMaker Studio to build a RAG question answering solution with Llama 2, LangChain, and Pinecone for fast experimentation](https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-studio-to-build-a-rag-question-answering-solution-with-llama-2-langchain-and-pinecone-for-fast-experimentation/) explores how to use Amazon SageMaker Studio to build a RAG question answering solution, using a number of open source technologies [hands on]
 
 ![overview of RAG on Amazon SageMaker Studio](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/11/08/ml15618-001.jpg)
 
-* [Use generative AI with Amazon EMR, Amazon Bedrock, and English SDK for Apache Spark to unlock insights](https://aws-oss.beachgeek.co.uk/3gg) answers the question some of you might be asking, namely how can you supercharge your data analytics with generative AI using Amazon EMR, Amazon Bedrock, and the pyspark-ai library (ok, maybe it was just me asking then...) [hands on]
-* [34 new or updated datasets available on the Registry of Open Data on AWS](https://aws-oss.beachgeek.co.uk/3g7) takes a look at new open data sets that are available for you to use, across climate, geospatial, life sciences,  and machine learning use cases
+* [Use generative AI with Amazon EMR, Amazon Bedrock, and English SDK for Apache Spark to unlock insights](https://aws.amazon.com/blogs/big-data/use-generative-ai-with-amazon-emr-amazon-bedrock-and-english-sdk-for-apache-spark-to-unlock-insights/) answers the question some of you might be asking, namely how can you supercharge your data analytics with generative AI using Amazon EMR, Amazon Bedrock, and the pyspark-ai library (ok, maybe it was just me asking then...) [hands on]
+* [34 new or updated datasets available on the Registry of Open Data on AWS](https://aws.amazon.com/blogs/publicsector/34-new-or-updated-datasets-available-on-the-registry-of-open-data-on-aws/) takes a look at new open data sets that are available for you to use, across climate, geospatial, life sciences,  and machine learning use cases
 
 ### Quick updates
 
 **Powertools for Lambda**
 
-[Version 2.2.8 of Powertools for Lambda Python](https://aws-oss.beachgeek.co.uk/3gj) was released last week, with Heitor [sharing on X](https://twitter.com/heitor_lessa/status/1727770825976070487) some of the updates, which include Request/Response data validation via types, OpenAPI & SwaggerUI for API Gateway REST/HTTP, ALB, Lambda Function URL, VPC Lattice, and more.
+[Version 2.2.8 of Powertools for Lambda Python](https://github.com/aws-powertools/powertools-lambda-python/releases/tag/v2.28.0) was released last week, with Heitor [sharing on X](https://twitter.com/heitor_lessa/status/1727770825976070487) some of the updates, which include Request/Response data validation via types, OpenAPI & SwaggerUI for API Gateway REST/HTTP, ALB, Lambda Function URL, VPC Lattice, and more.
 
 ![screenshot of powertools 2.28](https://pbs.twimg.com/media/F_pFEmiXQAEFtfD?format=jpg&name=medium)
 
@@ -176,7 +176,7 @@ Amazon MSK now automatically sends you alerts when you are at risk of exhausting
 
 *Bonus*
 
-Also this week, we had Sunil Ramachandra and Julie Mills put together [Building a real-time recommendation engine with Amazon MSK and Rockset](https://aws-oss.beachgeek.co.uk/3gc) that provides a hands on guide of how to build a real-time product recommendation engine by leveraging the fully managed streaming capabilities of Amazon MSK, along with the real-time analytics and SQL capabilities of Rockset.
+Also this week, we had Sunil Ramachandra and Julie Mills put together [Building a real-time recommendation engine with Amazon MSK and Rockset](https://aws.amazon.com/blogs/awsmarketplace/building-real-time-recommendation-engine-amazon-msk-rockset/) that provides a hands on guide of how to build a real-time product recommendation engine by leveraging the fully managed streaming capabilities of Amazon MSK, along with the real-time analytics and SQL capabilities of Rockset.
 
 ### Videos of the week
 
@@ -203,21 +203,21 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 
 The annual must attend conference for all AWS developers is back, and with another strong line up of open source sessions, chalk talks, builder sessions, workshops and more. There will be a super cool open source booth, with a line up of great demos - I have taken a sneak look and so make sure you check out the demo schedule on the booth.
 
-Find out more by checking out the event page, [re:Invent 2023](https://reinvent.awsevents.com/) but make sure you also read about what you can expect in the demo zone in the post, [Get Your Questions Answered at re:Invent 2023 in the AWS Modern Applications and Open Source Zone](https://aws-oss.beachgeek.co.uk/3gx)
+Find out more by checking out the event page, [re:Invent 2023](https://reinvent.awsevents.com/) but make sure you also read about what you can expect in the demo zone in the post, [Get Your Questions Answered at re:Invent 2023 in the AWS Modern Applications and Open Source Zone](https://aws.amazon.com/blogs/opensource/get-your-questions-answered-at-reinvent-2023-in-the-aws-modern-applications-and-open-source-zone/)
 
-The Amazon EKS team have published a post to help ensure that you do not miss the best Kubernetes related sessions. Go check it out at, [Amazon EKS and Kubernetes sessions at AWS re:Invent 2023](https://aws-oss.beachgeek.co.uk/3fb).
+The Amazon EKS team have published a post to help ensure that you do not miss the best Kubernetes related sessions. Go check it out at, [Amazon EKS and Kubernetes sessions at AWS re:Invent 2023](https://aws.amazon.com/blogs/containers/amazon-eks-and-kubernetes-sessions-at-aws-reinvent-2023/).
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 

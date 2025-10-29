@@ -32,39 +32,39 @@ So thank you to the following open source heroes: Sebastien Stormacq, Sascha Moe
 
 **precloud**
 
-[precloud](https://aws-oss.beachgeek.co.uk/2ht) is an open source command line interface that runs checks on infrastructure as code to catch potential deployment issues before deploying. Infrastructure code deployments often fail due to mismatched constraints over resource fields between the infrastructure code, the deployment engine, and the target cloud. For example, you may be able to pass any arbitrary string as a resource name to terraform or AWS CDK, and plan or synth go through fine, but the deployment may fail because that string failed a naming constraint on the target cloud.
+[precloud](https://github.com/tinystacks/precloud/blob/main/example.gif) is an open source command line interface that runs checks on infrastructure as code to catch potential deployment issues before deploying. Infrastructure code deployments often fail due to mismatched constraints over resource fields between the infrastructure code, the deployment engine, and the target cloud. For example, you may be able to pass any arbitrary string as a resource name to terraform or AWS CDK, and plan or synth go through fine, but the deployment may fail because that string failed a naming constraint on the target cloud.
 
 ![demo of precloud tool](https://github.com/tinystacks/precloud/blob/main/example.gif?raw=true)
 
 **dynamodb-shell**
 
-[dynamodb-shell](https://aws-oss.beachgeek.co.uk/2hs) is a simple CLI for DynamoDB modeled on isql, and the MySQL CLIs. ddbsh presents the user with a simple command line interface. Here the user can enter SQL-like commands to DynamoDB. The output is presented in the same window. ddbsh supports many Data Definition Language (DDL) and Data Manipulation Language (DML) commands.
+[dynamodb-shell](https://github.com/awslabs/dynamodb-shell) is a simple CLI for DynamoDB modeled on isql, and the MySQL CLIs. ddbsh presents the user with a simple command line interface. Here the user can enter SQL-like commands to DynamoDB. The output is presented in the same window. ddbsh supports many Data Definition Language (DDL) and Data Manipulation Language (DML) commands.
 
 **aws-deployment-pipeline-reference-architecture**
 
-[aws-deployment-pipeline-reference-architecture](https://aws-oss.beachgeek.co.uk/2hq) this repo contains support code for the Deployment Pipeline Reference Architecture (DPRA), that describes best practices for building deployment pipelines. A deployment pipeline automates the building, testing and deploying of software into AWS environments. With DPRA, developers can increase the speed, stability, and security of software systems through the use of deployment pipelines. You can find out more about this in my colleague Sebastien Stormacq's post, [New – Deployment Pipelines Reference Architecture and Reference Implementations](https://aws-oss.beachgeek.co.uk/2hr).
+[aws-deployment-pipeline-reference-architecture](https://github.com/aws-samples/aws-deployment-pipeline-reference-architecture) this repo contains support code for the Deployment Pipeline Reference Architecture (DPRA), that describes best practices for building deployment pipelines. A deployment pipeline automates the building, testing and deploying of software into AWS environments. With DPRA, developers can increase the speed, stability, and security of software systems through the use of deployment pipelines. You can find out more about this in my colleague Sebastien Stormacq's post, [New – Deployment Pipelines Reference Architecture and Reference Implementations](https://aws.amazon.com/blogs/aws/new_deployment_pipelines_reference_architecture_and_-reference_implementations/).
 
 ![overview of dpra architecture](https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/01/16/pipeline.png)
 
 **stepfunctions-lambda-ec2-ssm**
 
-[stepfunctions-lambda-ec2-ssm](https://aws-oss.beachgeek.co.uk/2hu) This repo holds the stepfunction workflow for creating EC2 instance and execute remote powershell script for configuration of EC2 using Systems Manager (Run Command). There are scenarios where EC2 instances has to be created and need to be configured using Systems Manager powershell script. The script may take a long time depending upon the configuration and it may exceed lambda time limit of 15 mins.This solution provides a serverless approach using stepfunctions and lambda to create EC2 instance, execute the configurations from powershell script, wait for the script to complete by periodically checking the runCommand status. The workflow also deletes the created EC2 instance irrespective of runCommand execution result.
+[stepfunctions-lambda-ec2-ssm](https://github.com/aws-samples/stepfunctions-lambda-ec2-ssm) This repo holds the stepfunction workflow for creating EC2 instance and execute remote powershell script for configuration of EC2 using Systems Manager (Run Command). There are scenarios where EC2 instances has to be created and need to be configured using Systems Manager powershell script. The script may take a long time depending upon the configuration and it may exceed lambda time limit of 15 mins.This solution provides a serverless approach using stepfunctions and lambda to create EC2 instance, execute the configurations from powershell script, wait for the script to complete by periodically checking the runCommand status. The workflow also deletes the created EC2 instance irrespective of runCommand execution result.
 
 ![architecture of solution to use step functions to exceed lambda limits](https://github.com/aws-samples/stepfunctions-lambda-ec2-ssm/blob/main/images/sfn-ec2-ssm.png?raw=true)
 
 **terraform-ec2-image-builder-container-hardening-pipeline**
 
-[terraform-ec2-image-builder-container-hardening-pipeline](https://aws-oss.beachgeek.co.uk/2hw) This solution builds an EC2 Image Builder Pipeline with an Amazon Linux 2 Baseline Container Recipe, which is used to deploy a Docker based Amazon Linux 2 Container Image that has been hardened according to RHEL 7 STIG Version 3 Release 7 - Medium. See the "STIG-Build-Linux-Medium version 2022.2.1" section in Linux STIG Components for details. This is commonly referred to as a "Golden" container image. The solution includes two Cloudwatch Event Rules. One which triggers the start of the Container Image pipeline based on an Inspector Finding of "High" or "Critical" so that insecure images are replaced, if Inspector and Amazon Elastic Container Registry "Enhanced Scanning" are both enabled. The other Event Rule sends notifications to an SQS Queue after a successful Container Image push to the ECR Repository, to better enable consumption of new container images.
+[terraform-ec2-image-builder-container-hardening-pipeline](https://github.com/aws-samples/terraform-ec2-image-builder-container-hardening-pipeline) This solution builds an EC2 Image Builder Pipeline with an Amazon Linux 2 Baseline Container Recipe, which is used to deploy a Docker based Amazon Linux 2 Container Image that has been hardened according to RHEL 7 STIG Version 3 Release 7 - Medium. See the "STIG-Build-Linux-Medium version 2022.2.1" section in Linux STIG Components for details. This is commonly referred to as a "Golden" container image. The solution includes two Cloudwatch Event Rules. One which triggers the start of the Container Image pipeline based on an Inspector Finding of "High" or "Critical" so that insecure images are replaced, if Inspector and Amazon Elastic Container Registry "Enhanced Scanning" are both enabled. The other Event Rule sends notifications to an SQS Queue after a successful Container Image push to the ECR Repository, to better enable consumption of new container images.
 
 ![architecture for tf ec2 image builder hardening pipeline](https://github.com/aws-samples/terraform-ec2-image-builder-container-hardening-pipeline/blob/main/container-harden.png?raw=true)
 
 **node-latency-for-k8s**
 
-[node-latency-for-k8s](https://aws-oss.beachgeek.co.uk/2hx) The node-latency-for-k8s tool analyses logs on a K8s node and outputs a timing chart, cloudwatch metrics, prometheus metrics, and/or json timing data. This tool is intended to analyse the components that contribute to the node launch latency so that they can be optimised to bring nodes online faster. NLK runs as a stand-alone binary that can be executed on a node or on offloaded node logs. It can also be run as a K8s DaemonSet to perform large-scale node latency measurements in a standardised and extensible way.
+[node-latency-for-k8s](https://github.com/awslabs/node-latency-for-k8s) The node-latency-for-k8s tool analyses logs on a K8s node and outputs a timing chart, cloudwatch metrics, prometheus metrics, and/or json timing data. This tool is intended to analyse the components that contribute to the node launch latency so that they can be optimised to bring nodes online faster. NLK runs as a stand-alone binary that can be executed on a node or on offloaded node logs. It can also be run as a K8s DaemonSet to perform large-scale node latency measurements in a standardised and extensible way.
 
 **cloudtrail-event-fuzzy-viewer**
 
-[cloudtrail-event-fuzzy-viewer](https://aws-oss.beachgeek.co.uk/2i5) is a cli tool from Paolo Lazzardi that allows you to search for AWS CloudTrail events using fuzzy search. The binary installation works on Mac and Linux (that is what I tried) and the README provides guidance on how to get up and running quickly (don't forget to install the dependencies).
+[cloudtrail-event-fuzzy-viewer](https://github.com/paololazzari/cloudtrail-event-fuzzy-viewer) is a cli tool from Paolo Lazzardi that allows you to search for AWS CloudTrail events using fuzzy search. The binary installation works on Mac and Linux (that is what I tried) and the README provides guidance on how to get up and running quickly (don't forget to install the dependencies).
 
 ![screenshot of fuzzyer cloudtrail viewer](https://github.com/paololazzari/cloudtrail-event-fuzzy-viewer/blob/master/doc/demo.png?raw=true)
 
@@ -74,19 +74,19 @@ I was able to run this on my Linux machine, but I did get date formatting errors
 
 **mlops-sagemaker-github-actions**
 
-[mlops-sagemaker-github-actions](https://aws-oss.beachgeek.co.uk/2hv) This repository provides an example of MLOps implementation using Amazon SageMaker and GitHub Actions. The code automates a model-build pipeline that includes steps for data preparation, model training, model evaluation, and registration of that model in the SageMaker Model Registry. The resulting trained ML model is deployed from the model registry to staging and production environments upon the approval.
+[mlops-sagemaker-github-actions](https://github.com/aws-samples/mlops-sagemaker-github-actions) This repository provides an example of MLOps implementation using Amazon SageMaker and GitHub Actions. The code automates a model-build pipeline that includes steps for data preparation, model training, model evaluation, and registration of that model in the SageMaker Model Registry. The resulting trained ML model is deployed from the model registry to staging and production environments upon the approval.
 
 ![mlops and sagemaker](https://github.com/aws-samples/mlops-sagemaker-github-actions/blob/main/img/Amazon-SageMaker-GitHub-Actions-Architecture.png?raw=true)
 
 **aws-eks-quarkus-example**
 
-[aws-eks-quarkus-example](https://aws-oss.beachgeek.co.uk/2he) this repo shows you how you can deploy Quarkus on Amazon EKS. Quarkus was designed to enable Java developers to write Java-based cloud-native micro services. Sascha Moellering has put together a blog post to support this repo and help get you going, so make sure you check out How to deploy your [Quarkus application to Amazon EKS ](https://aws-oss.beachgeek.co.uk/2hf) when you dive into the code.
+[aws-eks-quarkus-example](https://github.com/aws-samples/aws-eks-quarkus-example) this repo shows you how you can deploy Quarkus on Amazon EKS. Quarkus was designed to enable Java developers to write Java-based cloud-native micro services. Sascha Moellering has put together a blog post to support this repo and help get you going, so make sure you check out How to deploy your [Quarkus application to Amazon EKS ](https://aws.amazon.com/blogs/containers/how-to-deploy-your-quarkus-application-to-amazon-eks/) when you dive into the code.
 
 ![architecture of quarkus on eks](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/01/26/Picture1-5.png)
 
 **gitops-eks-r53-arc**
 
-[gitops-eks-r53-arc](https://aws-oss.beachgeek.co.uk/2hn) this repo has code that will let you deploy an application that survives widespread operational events within an AWS Region by leveraging Amazon Route 53 Application Recovery Controller in conjunction with Amazon Elastic Kubernetes Service (Amazon EKS). It uses an open-source CNCF project called Flux to keep the application deployments synchronised across multiple geographic locations. You can follow along in the blog post that accompanies this code repo, [GitOps-driven, multi-Region deployment and failover using EKS and Route 53 Application Recovery Controller](https://aws-oss.beachgeek.co.uk/2ho).
+[gitops-eks-r53-arc](https://github.com/aws-samples/gitops-eks-r53-arc) this repo has code that will let you deploy an application that survives widespread operational events within an AWS Region by leveraging Amazon Route 53 Application Recovery Controller in conjunction with Amazon Elastic Kubernetes Service (Amazon EKS). It uses an open-source CNCF project called Flux to keep the application deployments synchronised across multiple geographic locations. You can follow along in the blog post that accompanies this code repo, [GitOps-driven, multi-Region deployment and failover using EKS and Route 53 Application Recovery Controller](https://aws.amazon.com/blogs/containers/gitops-driven-multi-region-deployment-and-failover-using-eks-and-route-53-application-recovery-controller/).
 
 ![architecture of gitops and eks and r53](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/01/24/Picture1-4.png)
 
@@ -94,66 +94,66 @@ I was able to run this on my Linux machine, but I did get date formatting errors
 
 **Bottlerocket**
 
-In the post, [Validating Amazon EKS optimized Bottlerocket AMI against the CIS Benchmark](https://aws-oss.beachgeek.co.uk/2hp), Brandon Bush, Ben Cressey, Jayaprakash Alawala, and Kyle Davis have come together to provides detailed, step-by-step instructions on how customers can bootstrap an Amazon EKS optimised Bottlerocket Amazon Machine Image (AMI) for the requirements of the CIS Bottlerocket Benchmarks. [hands on]
+In the post, [Validating Amazon EKS optimized Bottlerocket AMI against the CIS Benchmark](https://aws.amazon.com/blogs/containers/validating-amazon-eks-optimized-bottlerocket-ami-against-the-cis-benchmark/), Brandon Bush, Ben Cressey, Jayaprakash Alawala, and Kyle Davis have come together to provides detailed, step-by-step instructions on how customers can bootstrap an Amazon EKS optimised Bottlerocket Amazon Machine Image (AMI) for the requirements of the CIS Bottlerocket Benchmarks. [hands on]
 
 **Apache Spark**
 
 We have some great posts this week for Apache Spark developers.
 
-Kicking off with [Introducing native support for Apache Hudi, Delta Lake, and Apache Iceberg on AWS Glue for Apache Spark, Part 1: Getting Started](https://aws-oss.beachgeek.co.uk/2h8) Akira Ajisaka, Noritaka Sekiyama, and Savio Dsouza demonstrates how AWS Glue for Apache Spark works with Hudi, Delta, and Iceberg dataset tables, and describes typical use cases to help you decide which is the right approach for you.
+Kicking off with [Introducing native support for Apache Hudi, Delta Lake, and Apache Iceberg on AWS Glue for Apache Spark, Part 1: Getting Started](https://aws.amazon.com/blogs/big-data/part-1-getting-started-introducing-native-support-for-apache-hudi-delta-lake-and-apache-iceberg-on-aws-glue-for-apache-spark/) Akira Ajisaka, Noritaka Sekiyama, and Savio Dsouza demonstrates how AWS Glue for Apache Spark works with Hudi, Delta, and Iceberg dataset tables, and describes typical use cases to help you decide which is the right approach for you.
 
-Next we have Sekar Srinivasan and Prabu Ravichandran who have collaborated on this post, [Run Apache Spark workloads 3.5 times faster with Amazon EMR 6.9](https://aws-oss.beachgeek.co.uk/2h9) where they analyse the results from benchmark tests running a TPC-DS application on open-source Apache Spark and then on Amazon EMR 6.9. No spoilers, you are going to have to read the post to get all the details.
+Next we have Sekar Srinivasan and Prabu Ravichandran who have collaborated on this post, [Run Apache Spark workloads 3.5 times faster with Amazon EMR 6.9](https://aws.amazon.com/blogs/big-data/run-apache-spark-workloads-3-5-times-faster-with-amazon-emr-6-9/) where they analyse the results from benchmark tests running a TPC-DS application on open-source Apache Spark and then on Amazon EMR 6.9. No spoilers, you are going to have to read the post to get all the details.
 
 ![benchmark overview of apache spark vs amazon emr](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/24/TPC-DS-3TB-Performance-Test-Summary-550.jpg)
 
-The final post this week on Apache Spark is this one, [Dynamic Spark Scaling on Amazon EKS with Argo Workflows and Events](https://aws-oss.beachgeek.co.uk/2hb) where Victor Gu and Vara Bonthu demonstrate how to build and deploy a data processing platform on Amazon EKS with Data on EKS Blueprints. The platform includes all the necessary Kubernetes add-ons like Argo Workflows, Argo Events, Spark Operator for managing Spark jobs, Apache YuniKorn for Batch Scheduler, Fluent Bit for logging, and Prometheus for metrics. They also show how to build data processing jobs and pipelines using Argo Workflows and Argo Events, and show how to trigger workflows on-demand by listening to Amazon Simple Queue Service (Amazon SQS). Very nice post! [hands on]
+The final post this week on Apache Spark is this one, [Dynamic Spark Scaling on Amazon EKS with Argo Workflows and Events](https://aws.amazon.com/blogs/containers/dynamic-spark-scaling-on-amazon-eks-with-argo-workflows-and-events/) where Victor Gu and Vara Bonthu demonstrate how to build and deploy a data processing platform on Amazon EKS with Data on EKS Blueprints. The platform includes all the necessary Kubernetes add-ons like Argo Workflows, Argo Events, Spark Operator for managing Spark jobs, Apache YuniKorn for Batch Scheduler, Fluent Bit for logging, and Prometheus for metrics. They also show how to build data processing jobs and pipelines using Argo Workflows and Argo Events, and show how to trigger workflows on-demand by listening to Amazon Simple Queue Service (Amazon SQS). Very nice post! [hands on]
 
 ![architecture overview of eks and data processing](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/01/27/Picture3-4.png)
 
-One final note, if you have not checked out the [Data on EKS blueprints](https://aws-oss.beachgeek.co.uk/24i), make sure you head over to the GitHub repo as there is lots of great sample code to show you how you can build and scale data platforms using Amazon EKS.
+One final note, if you have not checked out the [Data on EKS blueprints](https://github.com/awslabs/data-on-eks), make sure you head over to the GitHub repo as there is lots of great sample code to show you how you can build and scale data platforms using Amazon EKS.
 
 **Apache Flink**
 
-In the post, [Build a data lake with Apache Flink on Amazon EMR](https://aws-oss.beachgeek.co.uk/2ha), Jianwei Li, Samrat Deb, and Prabhu Josephraj show you how to integrate Apache Flink in Amazon EMR with the AWS Glue Data Catalog so that you can ingest streaming data in real time and access the data in near-real time for business analysis. [hands on]
+In the post, [Build a data lake with Apache Flink on Amazon EMR](https://aws.amazon.com/blogs/big-data/build-a-unified-data-lake-with-apache-flink-on-amazon-emr/), Jianwei Li, Samrat Deb, and Prabhu Josephraj show you how to integrate Apache Flink in Amazon EMR with the AWS Glue Data Catalog so that you can ingest streaming data in real time and access the data in near-real time for business analysis. [hands on]
 
 ![overview of architecture for apache flink](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/11/1-BDB-2767-Flink-Glue-Architecture.drawio.png)
 
 **Delta Lake**
 
-Delta Lake is an open-source project that helps implement modern data lake architectures commonly built on Amazon S3 or other cloud storage. This includes supporting ACID transaction (atomic, consistent, isolated, durable) and log change data capture (CDC) from operational data sources - including how you can do UPSERTS (updates and inserts). Praveen Allam and Vivek Singh have written [Handle UPSERT data operations using open-source Delta Lake and AWS Glue](https://aws-oss.beachgeek.co.uk/2hd) and show you how to build data lakes for UPSERT operations using AWS Glue and native Delta Lake tables, and how to query AWS Glue tables from Athena. [hands on]
+Delta Lake is an open-source project that helps implement modern data lake architectures commonly built on Amazon S3 or other cloud storage. This includes supporting ACID transaction (atomic, consistent, isolated, durable) and log change data capture (CDC) from operational data sources - including how you can do UPSERTS (updates and inserts). Praveen Allam and Vivek Singh have written [Handle UPSERT data operations using open-source Delta Lake and AWS Glue](https://aws.amazon.com/blogs/big-data/handle-upsert-data-operations-using-open-source-delta-lake-and-aws-glue/) and show you how to build data lakes for UPSERT operations using AWS Glue and native Delta Lake tables, and how to query AWS Glue tables from Athena. [hands on]
 
 ![architecture of delta lake upserts on aws s3](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2023/01/13/bdm-2428-img1-architecture.png)
 
 **Supply Chain Security**
 
-I have been putting together some content that will form a larger body of work around what developers need to know about building is good practices when using open source software in the applications they build. I would love to hear from developers what your current pain points are and what content you think is currently missing. In the meantime, I have put together a few posts. Starting off with [Getting hands on with Sigstore Cosign on AWS](https://aws-oss.beachgeek.co.uk/2hy) that looks at how you can use Cosign to sign and verify artefacts in your development workflows. The next post was a look at using an open source tool called syft to generate software bill of materials in the post, [Building a software bill of materials (SBOM) using open source tools](https://aws-oss.beachgeek.co.uk/2hz). Finally I took a look at a new open source tool that helps you quality check your SBOMS in the post, [sbomqs, an open source tool to quality check your SBOMS](https://aws-oss.beachgeek.co.uk/2i0).
+I have been putting together some content that will form a larger body of work around what developers need to know about building is good practices when using open source software in the applications they build. I would love to hear from developers what your current pain points are and what content you think is currently missing. In the meantime, I have put together a few posts. Starting off with [Getting hands on with Sigstore Cosign on AWS](https://dev.to/aws/getting-hands-on-with-sigstore-cosign-on-aws-1pdi) that looks at how you can use Cosign to sign and verify artefacts in your development workflows. The next post was a look at using an open source tool called syft to generate software bill of materials in the post, [Building a software bill of materials (SBOM) using open source tools](https://dev.to/aws/building-a-software-bill-of-materials-sbom-using-open-source-tools-2a6j). Finally I took a look at a new open source tool that helps you quality check your SBOMS in the post, [sbomqs, an open source tool to quality check your SBOMS](https://dev.to/aws/sbomqs-and-open-source-tools-to-quality-check-your-sboms-1hhb).
 
 
 **Other posts and quick reads**
 
-* [Best Practices from SoftServe for Using Kubernetes on AWS in Enterprise IT](https://aws-oss.beachgeek.co.uk/2hl) shares best practices on how to run Kubernetes in an enterprise IT environment
+* [Best Practices from SoftServe for Using Kubernetes on AWS in Enterprise IT](https://aws.amazon.com/blogs/apn/best-practices-from-softserve-for-using-kubernetes-on-aws-in-enterprise-it/) shares best practices on how to run Kubernetes in an enterprise IT environment
 
 ![eks best practices for enterprise IT](https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2023/01/12/SoftServe-Enterprise-Kubernetes-1.png)
 
-* [Scale from 100 to 10,000 pods on Amazon EKS](https://aws-oss.beachgeek.co.uk/2hc) who doesn't like a good case study on scaling, this one shows how ORION scaled Amazon EKS clusters from 100 to more than 10,000 pods [hands on]
+* [Scale from 100 to 10,000 pods on Amazon EKS](https://aws.amazon.com/blogs/containers/scale-from-100-to-10000-pods-on-amazon-eks/) who doesn't like a good case study on scaling, this one shows how ORION scaled Amazon EKS clusters from 100 to more than 10,000 pods [hands on]
 
 ![architecture of scaling eks from 100 to 10000](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/01/25/ContainerBlog-407-OLXAutos-Scaling-to-10K-pods-on-EKS-dns-cache-graph.jpg)
 
-* [How to rapidly scale your application with ALB on EKS (without losing traffic)](https://aws-oss.beachgeek.co.uk/2hg) demonstrates how to use a separate application endpoint as an Amazon Load Balancer health check along with Kubernetes readiness probe and PreStop hooks that together enable graceful application termination [hands on]
+* [How to rapidly scale your application with ALB on EKS (without losing traffic)](https://aws.amazon.com/blogs/containers/how-to-rapidly-scale-your-application-with-alb-on-eks-without-losing-traffic/) demonstrates how to use a separate application endpoint as an Amazon Load Balancer health check along with Kubernetes readiness probe and PreStop hooks that together enable graceful application termination [hands on]
 
 ![graph of app health checks](https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/01/27/502.before.png)
 
-* [Build a Product Roadmap with Next.js and Amplify](https://aws-oss.beachgeek.co.uk/2hh) walks you through how you can build an admin interface for product managers to add features to a roadmap [hands on]
-* [One-time Password Authentication with the Amplify Libraries for Swift](https://aws-oss.beachgeek.co.uk/2hm) shows you how to create an OTP auth flow for an iOS app using Amazon Simple Email Service (SES) to send an email containing a 6-digit code and authenticate the user using the Auth and Function categories with the AWS Amplify Libraries for Swift.
-* [Improve observability by using Amazon RDS Custom for SQL Server with Telegraf and Amazon Grafana](https://aws-oss.beachgeek.co.uk/2hi) explain how to implement this solution and improve observability for Amazon RDS Custom for SQL Server with open source tools such as with Telegraf and Amazon Grafana [hands on]
+* [Build a Product Roadmap with Next.js and Amplify](https://aws.amazon.com/blogs/mobile/build-a-product-roadmap-with-next-js-and-amplify/) walks you through how you can build an admin interface for product managers to add features to a roadmap [hands on]
+* [One-time Password Authentication with the Amplify Libraries for Swift](https://aws.amazon.com/blogs/mobile/one-time-password-authentication-with-the-amplify-libraries-for-swift/) shows you how to create an OTP auth flow for an iOS app using Amazon Simple Email Service (SES) to send an email containing a 6-digit code and authenticate the user using the Auth and Function categories with the AWS Amplify Libraries for Swift.
+* [Improve observability by using Amazon RDS Custom for SQL Server with Telegraf and Amazon Grafana](https://aws.amazon.com/blogs/database/improve-observability-by-using-amazon-rds-custom-for-sql-server-with-telegraf-and-amazon-grafana/) explain how to implement this solution and improve observability for Amazon RDS Custom for SQL Server with open source tools such as with Telegraf and Amazon Grafana [hands on]
 
 ![dashboard for rds custom metrics on grafana](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2023/01/26/DBBLOG-2464-Screenshot19.jpeg)
 
-* [Monitoring Amazon RDS and Amazon Aurora using Amazon Managed Grafana](https://aws-oss.beachgeek.co.uk/2hj) looks at how you can monitor your Amazon RDS and Amazon Aurora database clusters including Performance insight metrics using Amazon Managed Grafana [hands on]
+* [Monitoring Amazon RDS and Amazon Aurora using Amazon Managed Grafana](https://aws.amazon.com/blogs/mt/monitoring-amazon-rds-and-amazon-aurora-using-amazon-managed-grafana/) looks at how you can monitor your Amazon RDS and Amazon Aurora database clusters including Performance insight metrics using Amazon Managed Grafana [hands on]
 
 ![database load graph](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2023/01/27/cloudops_824_6.png)
 
-* [Amazon SageMaker built-in LightGBM now offers distributed training using Dask](https://aws-oss.beachgeek.co.uk/2hk) looks at how SageMaker LightGBM algorithm now offers distributed training using the Dask framework for both tabular classification and regression tasks [hands on]
+* [Amazon SageMaker built-in LightGBM now offers distributed training using Dask](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-built-in-lightgbm-now-offers-distributed-training-using-dask/) looks at how SageMaker LightGBM algorithm now offers distributed training using the Dask framework for both tabular classification and regression tasks [hands on]
 
 ### Quick updates
 
@@ -183,9 +183,9 @@ With this release, RDS for PostgreSQL adds two new extensions: (1) tcn - an exte
 
 A few updates this week.
 
-First up, OpenSearch has a new newsletter. Check out the first edition, [OpenSearch Project Newsletter - Volume 1, Issue 1](https://aws-oss.beachgeek.co.uk/2i2)
+First up, OpenSearch has a new newsletter. Check out the first edition, [OpenSearch Project Newsletter - Volume 1, Issue 1](https://opensearch.org/blog/opensearch-newsletter-vol1-issue1/)
 
-OpenSearch 1.3.8 also shipped last week. You can find the release over on the [OpenSearch Downloads](https://aws-oss.beachgeek.co.uk/2i3) page, and check out what you can expect over on the [release notes](https://aws-oss.beachgeek.co.uk/2i4).
+OpenSearch 1.3.8 also shipped last week. You can find the release over on the [OpenSearch Downloads](https://opensearch.org/versions/opensearch-1-3-8.html) page, and check out what you can expect over on the [release notes](https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-1.3.8.md).
 
 Amazon OpenSearch Service now supports enabling Security Assertion Markup Language (SAML) authentication for OpenSearch Dashboards during domain creation. SAML authentication for OpenSearch Dashboards enables users to integrate directly with identity providers (IDPs) such as Okta, Ping Identity, OneLogin, Auth0, Active Directory Federation Services (ADFS) and Azure Active Directory. Previously this authentication method could be configured only after domain creation. Now, this feature can be enabled at domain creation using AWS Console/SDK or using AWS CloudFormation templates, giving you the ability to enable programmatically in fewer steps. With this feature, users can leverage their existing usernames and passwords to log in to OpenSearch Dashboards, and roles from your IDP can be used for controlling privileges, including what operations they can perform and what data they can search and visualise.
 
@@ -199,13 +199,13 @@ Amazon Elasticache for Redis now offers an availability Service Level Agreement 
 
 **PlantUML**
 
-PlantUML is an open-source tool allowing users to create diagrams from a plain text language. If you are a user, then [release 15.0 of the aws-icons-for-plantuml](https://aws-oss.beachgeek.co.uk/2i1) was released last week. This releases features a number of updates and new icons in Analytics, Application Integration, Business Applications, Compute, Containers, Database, Developer Tools, End User Computing, Internet Of Things, Machine Learning, Management Governance, Migration Transfer, Networking Content Delivery, Security Identity Compliance, and Storage categories.
+PlantUML is an open-source tool allowing users to create diagrams from a plain text language. If you are a user, then [release 15.0 of the aws-icons-for-plantuml](https://github.com/awslabs/aws-icons-for-plantuml/releases/tag/v15.0) was released last week. This releases features a number of updates and new icons in Analytics, Application Integration, Business Applications, Compute, Containers, Database, Developer Tools, End User Computing, Internet Of Things, Machine Learning, Management Governance, Migration Transfer, Networking Content Delivery, Security Identity Compliance, and Storage categories.
 
 ### Videos of the week
 
 **Amazon EKS Security Best Practices**
 
-AWS Hero Shimon Tolts has put together this video and blog post to show you how to enforce the Amazon EKS Security Best Practices Guide on your own EKS. Check out the blog post, [EKS Security Best Practices - Practical Enforcement Guide](https://aws-oss.beachgeek.co.uk/2h7) that supports this video.
+AWS Hero Shimon Tolts has put together this video and blog post to show you how to enforce the Amazon EKS Security Best Practices Guide on your own EKS. Check out the blog post, [EKS Security Best Practices - Practical Enforcement Guide](https://www.datree.io/resources/eks-security-best-practices) that supports this video.
 
 {{< youtube 4sd4y5aVnCE >}}
 
@@ -231,7 +231,7 @@ If you are working with Terraform and AWS, you will almost certainly come across
 
 **Build on Open Source**
 
-For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://aws-oss.beachgeek.co.uk/24u)
+For those unfamiliar with this show, Build on Open Source is where we go over this newsletter and then invite special guests to dive deep into their open source project. Expect plenty of code, demos and hopefully laughs. We have put together a playlist so that you can easily access all (eight) of the episodes of the Build on Open Source show. [Build on Open Source playlist](https://www.youtube.com/playlist?list=PLDqi6CuDzubxsAS8Suq1FrxwdBXH_UV09)
 
 # Events for your diary
 
@@ -240,30 +240,30 @@ If you are planning any events in 2023, either virtual, in person, or hybrid, ge
 **State of Open Con 23**
 **Feb 7-8th, 2023 in London**
 
-OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://aws-oss.beachgeek.co.uk/2dd).
+OpenUK will be hosting a 1000 person plus two day conference in Central London, “State of Open Con 23”  in association with IEEE, the headline sponsor. Check out more info and [sign up here](https://openuk.uk/event-calendar/state-of-open-con-23/).
 
 **PGConf India**
 **Feb 22nd to 24th, Radisson Blu Bengaluru, India**
 
-If you are in or can get to Bengaluru, then checkout this conference for PostgreSQL developers and enthusiasts. Check out the session line up and get [your tickets here](https://aws-oss.beachgeek.co.uk/2ff).
+If you are in or can get to Bengaluru, then checkout this conference for PostgreSQL developers and enthusiasts. Check out the session line up and get [your tickets here](https://pgconf.in/conferences/pgconfin2023).
 
 
 **Everything Open**
 **March14-15th Melbourne, Australia**
 
-A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://aws-oss.beachgeek.co.uk/2ds). The CFP us currently open, so why not take a look and submit something if you can.
+A new event for the fine folks in Australia. Everything Open is running for the first time, and the organisers (Linux Australia) have decided to run this event to provide a space for a cross-section of the open technologies communities to come together in person. Check out the [event details here](https://2023.everythingopen.au/about/). The CFP us currently open, so why not take a look and submit something if you can.
 
 **Cortex**
 **Every other Thursday, next one 16th February**
 
-The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://aws-oss.beachgeek.co.uk/2h5) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://aws-oss.beachgeek.co.uk/2h6) for more info.
+The Cortex community call happens every two weeks on Thursday, alternating at 1200 UTC and 1700 UTC. You can check out the GitHub project for more details, go to the [Community Meetings](https://github.com/cortexproject/cortex#community-meetings) section. The community calls keep a rolling doc of previous meetings, so you can catch up on the previous discussions. Check the [Cortex Community Meetings Notes](https://docs.google.com/document/d/1shtXSAqp3t7fiC-9uZcKkq3mgwsItAJlH6YW6x1joZo/edit) for more info.
 
 **OpenSearch**
 **Every other Tuesday, 3pm GMT**
 
 This regular meet-up is for anyone interested in OpenSearch & Open Distro. All skill levels are welcome and they cover and welcome talks on topics including: search, logging, log analytics, and data visualisation.
 
-Sign up to the next session, [OpenSearch Community Meeting](https://aws-oss.beachgeek.co.uk/1az)
+Sign up to the next session, [OpenSearch Community Meeting](https://www.meetup.com/OpenSearch/)
 
 ### Stay in touch with open source at AWS
 
