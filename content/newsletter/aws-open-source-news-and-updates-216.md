@@ -58,7 +58,7 @@ Checkout the excellent README for more details and examples of how to get starte
 
 **aws-lambda-stubs**
 
-aws-lambda-stubs is a new project from **AWS Community Builder Ricardo Cino** that provides simple stubs for AWS Lambda services, allowing you to focus on writing and testing your Lambda functions without the overhead of continuously writing the same boilerplate stubs. Gone are the days you need to write stubs to unit test your AWS Lambda functions locally. This project was inspired by @types/aws-lambda that already provides the type definitions for AWS Lambda events and context. There is support for all the typed AWS Lambda events defined in @types/aws-lambda and the project will be continuously updated as new event types are added. 
+[aws-lambda-stubs](https://aws-oss.beachgeek.co.uk/4mg) is a new project from **AWS Community Builder Ricardo Cino** that provides simple stubs for AWS Lambda services, allowing you to focus on writing and testing your Lambda functions without the overhead of continuously writing the same boilerplate stubs. Gone are the days you need to write stubs to unit test your AWS Lambda functions locally. This project was inspired by @types/aws-lambda that already provides the type definitions for AWS Lambda events and context. There is support for all the typed AWS Lambda events defined in @types/aws-lambda and the project will be continuously updated as new event types are added. 
 
 Ricardo has also put together this post,[ AWS Lambda Stubs for unit testing](https://dev.to/aws-builders/aws-lambda-stubs-for-unit-testing-96p), to walk you through this project.
 
@@ -72,7 +72,7 @@ Ricardo has also put together this post,[ AWS Lambda Stubs for unit testing](htt
 
 **cloud_shark**
 
-cloud_shark is an open source project that helps you to keep track of your AWS spending trends. It sends cost summaries straight to your inbox, and runs entirely on AWS (Lambda + SNS + Cost Explorer). Check out the README, one potential gotcha is that you will need to have Pulumi CLI installed, but that is pretty straightforward.
+[cloud_shark](https://aws-oss.beachgeek.co.uk/4mh) is an open source project that helps you to keep track of your AWS spending trends. It sends cost summaries straight to your inbox, and runs entirely on AWS (Lambda + SNS + Cost Explorer). Check out the README, one potential gotcha is that you will need to have Pulumi CLI installed, but that is pretty straightforward.
 
 **CDOps-Cloud-Zombie-Hunter**
 
