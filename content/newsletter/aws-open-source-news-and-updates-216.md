@@ -50,7 +50,7 @@ Checkout the excellent README for more details and examples of how to get starte
 
 **cognitive-memory** 
 
-[gnitive-memory](https://aws-oss.beachgeek.co.uk/4m2) is a project from **Peter Tilsen** that builds a production-ready cognitive memory system for AI agents with human-like learning and memory patterns. It is easy to install and get up and running, and the docs have everything you need. [cognitive-memory-agent](https://aws-oss.beachgeek.co.uk/4m1)  provides a demo that showcases the cognitive-memory package, allowing you to see how agents learn, remember, and get smarter with each interaction.
+[cognitive-memory](https://aws-oss.beachgeek.co.uk/4m2) is a project from **Peter Tilsen** that builds a production-ready cognitive memory system for AI agents with human-like learning and memory patterns. It is easy to install and get up and running, and the docs have everything you need. [cognitive-memory-agent](https://aws-oss.beachgeek.co.uk/4m1)  provides a demo that showcases the cognitive-memory package, allowing you to see how agents learn, remember, and get smarter with each interaction.
 
 **lambda-live-debugger**
 
