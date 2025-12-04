@@ -1,6 +1,6 @@
 ---
 title: 'Zero to shipped - a year in review'
-date: '2024-12-04'
+date: '2025-12-04'
 tags : [ Kiro]
 canonicalUrl: "https://dev.to/aws/zero-to-shipped-a-year-in-review-3in9"
 ---
