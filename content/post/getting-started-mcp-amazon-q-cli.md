@@ -159,7 +159,7 @@ Treat MCP Servers with care. Be very careful when using the "trust tools" to aut
 
 This blog showed you how you can use some of your favourite MCP Servers when using Amazon Q CLI. I would love to hear which MCP Servers you are using. I have some amazing and exclusive Amazon Q Developer challenge coins for the best content that is created on this, so get in touch if you do create something and who knows, one of these coins could be heading your way!
 
-I hope this blog post has inspired you to want to try Amazon Q CLI for yourself. You can try it for free by [signing up for a Builder ID](https://community.aws/builderid?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) and then downloading the app [from here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el).
+I hope this blog post has inspired you to want to try Amazon Q CLI for yourself. You can try it for free by [signing up for a Builder ID](https://community.aws/builderid?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el) and then downloading the app [from here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el).
 
 Until next time folks!
 

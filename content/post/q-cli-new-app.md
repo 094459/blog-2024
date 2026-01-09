@@ -5,7 +5,7 @@ tags : [ Amazon Q Developer]
 canonicalUrl: "https://dev.to/aws/using-amazon-q-developer-cli-to-build-applications-from-the-command-line-27mg"
 ---
 
-I have been writing a lot recently about AI Coding Assistants, and I have been mostly using Amazon Q Developer within VSCode. This week though, saw a very nice update to the Amazon Q Developer CLI, a separate download that provides you with Amazon Q within your command line. It is available for MacOS and various flavours of Linux (you can  download it from [here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el).
+I have been writing a lot recently about AI Coding Assistants, and I have been mostly using Amazon Q Developer within VSCode. This week though, saw a very nice update to the Amazon Q Developer CLI, a separate download that provides you with Amazon Q within your command line. It is available for MacOS and various flavours of Linux (you can  download it from [here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el).
 
 I wanted to see how good the recent update is, so I decided to try and build a quick web application from the command line. I created a new directory on my mac, and then I added two files:
 
@@ -49,4 +49,4 @@ Whilst I will still be using Amazon Q Developer in the IDE, this improved capabi
 
 **Try Amazon Q Developer today, and claim your free Builder ID**
 
-You can try Amazon Q Developer CLI for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) and then downloading the app from [here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el).
+You can try Amazon Q Developer CLI for free today, [by signing up for a Builder ID](https://community.aws/builderid?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el) and then downloading the app from [here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el).

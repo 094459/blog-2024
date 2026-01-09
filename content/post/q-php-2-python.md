@@ -15,7 +15,7 @@ This is perhaps an ambitious undertaking, but a great learning opportunity too. 
 
 **The setup**
 
-I already had Amazon Q Developer CLI installed (you can register a Builder ID for free [here](https://community.aws/builderid?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) and then download and install it from [here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el)) so I create a new directory, git clones the repo and was ready to get started.
+I already had Amazon Q Developer CLI installed (you can register a Builder ID for free [here](https://community.aws/builderid?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el) and then download and install it from [here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el)) so I create a new directory, git clones the repo and was ready to get started.
 
 From the command line, I started Amazon Q Developer CLI by typing "q chat" and then started the process with a simple prompt:
 
@@ -252,7 +252,7 @@ I found this a useful learning exercise, and there were a number of key takeaway
 
 This blog post just touched the surface of what AI Coding Assistants like Amazon Q Developer can do, and keep posted as I will be sharing more examples as well as tips in future.
 
-You can try Amazon Q Developer CLI for free today, by [signing up for a Builder ID](https://community.aws/builderid?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) and then downloading the app [from here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el).
+You can try Amazon Q Developer CLI for free today, by [signing up for a Builder ID](https://community.aws/builderid?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el) and then downloading the app [from here](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el).
 
 Until next time folks!
 

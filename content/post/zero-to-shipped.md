@@ -19,7 +19,7 @@ I have shared the resources I used in the talk in a new Github repo, [ai-agent-r
 
 After you install your next generation developer tool (for me, this is Kiro as you asked so nicely!) your first job is to tailor it to your specific developer personality. I have yet to meet two developers who worked identically - we all have our preferences and ways we like to work, so that is what we need to do first.
 
-In Kiro we can do this using [Steering documents](https://kiro.dev/docs/steering/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el). Steering documents are text documents saved as markdown, that live in a special directory in your project workspace. We can either add these manually ourselves, or create them via the Kiro UI.
+In Kiro we can do this using [Steering documents](https://kiro.dev/docs/steering/?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el). Steering documents are text documents saved as markdown, that live in a special directory in your project workspace. We can either add these manually ourselves, or create them via the Kiro UI.
 
 During the talk I covered a few good practices in how to approach creating and using these to personalise your developer setup.
 
@@ -87,7 +87,7 @@ Use the following project structure
 
 Developers love to automate the work they do, and I have yet to meet one who did not spend time or obsess over how to improve their efficiency through automation.
 
-I showed how Kiro helps developers with automation, allowing them to leverage the abilities of LLMs to automate some of the tasks they have to do. Kiro [Agent Hooks](https://kiro.dev/docs/hooks/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) is a powerful mechanism that allows you to create a prompt that Kiro will run after a given event. The events that are currently supported are when files are created, saved, or deleted, and you can apply filters so that these only run when they match a pattern you define (for example, all files ending in .py).
+I showed how Kiro helps developers with automation, allowing them to leverage the abilities of LLMs to automate some of the tasks they have to do. Kiro [Agent Hooks](https://kiro.dev/docs/hooks/?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el) is a powerful mechanism that allows you to create a prompt that Kiro will run after a given event. The events that are currently supported are when files are created, saved, or deleted, and you can apply filters so that these only run when they match a pattern you define (for example, all files ending in .py).
 
 I demonstrated how to create an Agent Hook that adds copyright and SPDX open source headers to new files as they are created. I also shared [some other ideas here](https://github.com/094459/ai-agent-resources/tree/main/kiro-sample-hooks) of how you might use these to automate some of your development tasks.
 
@@ -369,9 +369,9 @@ Both of these represent better options than using AI coding assistants to make t
 
 ## Creating specialised agents
 
-Ok back to our application, which is running and has passed its security and accessibility checks so we are good to try and deploy this. Whilst I could probably get Kiro to do this, this feels like the kind of work best done in the terminal. Luckily I have just the tool I need in [Kiro CLI](https://kiro.dev/cli/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el). The same agentic AI power, but in the terminal.
+Ok back to our application, which is running and has passed its security and accessibility checks so we are good to try and deploy this. Whilst I could probably get Kiro to do this, this feels like the kind of work best done in the terminal. Luckily I have just the tool I need in [Kiro CLI](https://kiro.dev/cli/?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el). The same agentic AI power, but in the terminal.
 
-Kiro CLI provides a mechanism to customise the behaviour of how it works through something called [Custom Agents](https://kiro.dev/docs/cli/custom-agents/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el). This is in essence a json configuration file that defines the characteristics for our CLI AI coding assistant - it allows you to configure a system prompt, define tools (via MCP configuration), configure default permissions and trust for those tools, define context resources you want to automatically load and more. There is not enough time to do Kiro CLI justice when I do this live, but I have a hands on workshop you can follow if you are interested (see at the end).
+Kiro CLI provides a mechanism to customise the behaviour of how it works through something called [Custom Agents](https://kiro.dev/docs/cli/custom-agents/?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el). This is in essence a json configuration file that defines the characteristics for our CLI AI coding assistant - it allows you to configure a system prompt, define tools (via MCP configuration), configure default permissions and trust for those tools, define context resources you want to automatically load and more. There is not enough time to do Kiro CLI justice when I do this live, but I have a hands on workshop you can follow if you are interested (see at the end).
 
 After opening up a terminal in the same directory as the IDE project, I create a "devOps" custom agent using the following configuration.
 
@@ -456,7 +456,7 @@ If you are interested then Gunnar Grosch and myself recently did a talk at Øred
 
 If you have attended the Zero to Shipped talk, I hope you found it useful. I hope that you were able to apply some of the techniques to your setup. I hope that it encouraged you to explore and experiment and improve how these tools work for you. We are still at the very early stages of how these tools are transforming the work of developers, and we are discovering and learning new things ALL the time.
 
-You can get started with Kiro today for free. [Download it from this link](https://kiro.dev/downloads/?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el) and then login using GitHub or your [Builder ID](https://builder.aws.com/start?trk=fd6bb27a-13b0-4286-8269-c7b1cfaa29f0&sc_channel=el). When you initially sign up you get a very generous 500 credits which are renew every month (50 for the free tier). 
+You can get started with Kiro today for free. [Download it from this link](https://kiro.dev/downloads/?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el) and then login using GitHub or your [Builder ID](https://builder.aws.com/start?trk=71546b8e-c969-4ead-aa9f-9cd06f6d8610&sc_channel=el). When you initially sign up you get a very generous 500 credits which are renew every month (50 for the free tier). 
 
 I have created a couple of workshops if you want to get deeper into Kiro. The [Kiro CLI workshop](https://github.com/094459/aqd-cli-workshop) will walk you through getting started with the terminal based Kiro CLI tool, and provides a comprehensive overview as well as advanced topics. My [spec driven development](https://github.com/094459/sdd-workshop) workshop dives more into using Kiro in spec driven mode.
 
