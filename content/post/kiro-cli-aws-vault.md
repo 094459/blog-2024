@@ -1,6 +1,6 @@
 ---
 title: 'Using aws-vault to manage access to your AWS resources from Kiro CLI'
-date: '2026-02-019'
+date: '2026-02-19'
 tags : [ kiro, agentic ai, security, aws-vault  ]
 canonicalUrl: "https://dev.to/aws/using-aws-vault-to-manage-access-to-your-aws-resources-from-kiro-cli-29ab"
 ---
