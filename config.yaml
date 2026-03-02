@@ -22,9 +22,9 @@ params:
   author: "Ricardo Sueiras"
   iconTitle: "My site icon"
   navTitleText: Beachgeek Blog
-  description: Technologist and Maker specialising in Cloud, Open Source and Innovation.
+  description: Technologist and Maker specialising in Agentic AI, Open Source and Emerging Technologies.
   homeMetaContent: Technologist and Maker specialising in Cloud, Open Source and Innovation & Emerging Technologies.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). 
+  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: someUser
@@ -45,10 +45,9 @@ params:
   #   - css/foo.css # relative path starting from static/
   #- css/bar.css
   social:
-    twitter: "094459"
     github: "094459"
     linkedin: "ricardosueiras"
-    email: "ricsue@amazon.com"
+    email: "ricardo.sueiras@gmail.com"
     reddit: "aws"
 
 menu:
